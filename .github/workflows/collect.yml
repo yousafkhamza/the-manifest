@@ -8,10 +8,25 @@ on:
 
 permissions:
   contents: write
+  pages: write
+  id-token: write
+
+# Note: this workflow both commits the new edition AND builds/deploys it in
+# the same run. A commit pushed here with the default GITHUB_TOKEN would
+# NOT trigger deploy.yml's `on: push` — GitHub deliberately suppresses
+# workflow-triggered-by-workflow chains to prevent infinite loops. So rather
+# than relying on that push to wake up a separate deploy job, this workflow
+# deploys itself once the new data is in place.
+concurrency:
+  group: pages
+  cancel-in-progress: true
 
 jobs:
-  collect:
+  collect-and-deploy:
     runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -41,3 +56,17 @@ jobs:
             git commit -m "Daily edition: $(date -u +'%Y-%m-%d')"
             git push
           fi
+
+      - name: Build
+        env:
+          VITE_BASE: /${{ github.event.repository.name }}/
+        run: npx vite build
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
