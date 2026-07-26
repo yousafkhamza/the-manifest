@@ -217,6 +217,12 @@ async function main() {
   );
 
   console.log(`\nEdition ${date}: ${totalArticles} articles across ${TOPICS.length} topics.`);
+
+  // rss-parser's HTTP timeout rejects the promise but never destroys the
+  // underlying socket (see its lib/parser.js) — a single timed-out feed
+  // leaves a dangling open connection that keeps Node's event loop alive
+  // indefinitely even though all our own work is done. Force the exit.
+  process.exit(0);
 }
 
 // Edition number counts up from a fixed launch date so it behaves like a
