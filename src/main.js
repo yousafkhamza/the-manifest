@@ -18,6 +18,11 @@ const TOPIC_META = {
 
 const TOPIC_ORDER = Object.keys(TOPIC_META);
 
+// Fixed at launch, like a real newspaper's "Est." line — this never
+// changes with the daily edition date.
+const FOUNDED_DATE = "July 26, 2026";
+const FOUNDER = "Yousaf Hamza";
+
 const app = document.getElementById("app");
 const base = import.meta.env.BASE_URL;
 
@@ -269,6 +274,7 @@ function renderMasthead(edition, index, ticker = true) {
         <p class="kicker">All Systems, Reported</p>
         <h1>The Manifest</h1>
         <p class="tagline">A daily front page for cloud &amp; infrastructure</p>
+        <p class="masthead-est">Est. ${FOUNDED_DATE} · ${FOUNDER}</p>
       </a>
       <div class="dateline">
         <span>${formatDate(edition.date)}</span>
