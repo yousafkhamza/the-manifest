@@ -19,7 +19,11 @@ permissions:
 # deploys itself once the new data is in place.
 concurrency:
   group: pages
-  cancel-in-progress: true
+  # Queue rather than cancel: a newer trigger (e.g. a code push) shouldn't
+  # kill this run mid-collection just because it's still going — it should
+  # wait its turn so the already-collected data actually gets committed
+  # and deployed instead of being thrown away.
+  cancel-in-progress: false
 
 jobs:
   collect-and-deploy:
