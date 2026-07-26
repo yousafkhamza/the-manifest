@@ -37,7 +37,7 @@ function stripHtml(html = "") {
     .trim();
 }
 
-function truncate(text, max = 220) {
+function truncate(text, max = 600) {
   if (!text) return "";
   if (text.length <= max) return text;
   return text.slice(0, max).replace(/\s+\S*$/, "") + "…";

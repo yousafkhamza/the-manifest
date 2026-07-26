@@ -113,6 +113,13 @@ function formatDate(dateStr) {
   return d.toLocaleDateString("en-US", { weekday: "long", year: "numeric", month: "long", day: "numeric", timeZone: "UTC" });
 }
 
+function formatDateTime(iso) {
+  if (!iso) return "";
+  const d = new Date(iso);
+  if (Number.isNaN(d.getTime())) return "";
+  return d.toLocaleString("en-US", { dateStyle: "long", timeStyle: "short" });
+}
+
 function hostnameOf(url) {
   try {
     return new URL(url).hostname.replace(/^www\./, "");
@@ -121,50 +128,98 @@ function hostnameOf(url) {
   }
 }
 
+function truncate(text, max = 170) {
+  if (!text) return "";
+  if (text.length <= max) return text;
+  return text.slice(0, max).replace(/\s+\S*$/, "") + "…";
+}
+
 async function fetchJSON(path) {
   const res = await fetch(path);
   if (!res.ok) throw new Error(`${path}: ${res.status}`);
   return res.json();
 }
 
+// ---------- Routing ----------
+// #/                                     -> latest edition, list view
+// #/edition/<date>                       -> archived edition, list view
+// #/article/<date>/<topicId>/<encLink>   -> a single story's own page
+
+function articleHref(date, topicId, link) {
+  return `#/article/${encodeURIComponent(date)}/${encodeURIComponent(topicId)}/${encodeURIComponent(link)}`;
+}
+
+function editionHref(date) {
+  return `#/edition/${encodeURIComponent(date)}`;
+}
+
+function parseRoute() {
+  const raw = window.location.hash.replace(/^#\/?/, "");
+  const parts = raw.split("/").filter(Boolean);
+  if (parts[0] === "edition" && parts[1]) {
+    return { view: "list", date: decodeURIComponent(parts[1]) };
+  }
+  if (parts[0] === "article" && parts[1] && parts[2] && parts[3]) {
+    return {
+      view: "article",
+      date: decodeURIComponent(parts[1]),
+      topicId: decodeURIComponent(parts[2]),
+      link: decodeURIComponent(parts[3]),
+    };
+  }
+  return { view: "list", date: null };
+}
+
+const editionCache = new Map();
+
+async function getEdition(date) {
+  const key = date || "latest";
+  if (editionCache.has(key)) return editionCache.get(key);
+  const path = date ? `${base}data/editions/${date}.json` : `${base}data/latest.json`;
+  const edition = await fetchJSON(path);
+  editionCache.set(key, edition);
+  editionCache.set(edition.date, edition);
+  return edition;
+}
+
+// ---------- Ticker ----------
+
 function renderTicker(ticker) {
   if (!ticker?.length) return "";
   const items = ticker
     .map((t) => `<span class="ticker-item"><b>${t.label}</b> ${t.version ? `<span>${t.version}</span>` : '<span class="dim">—</span>'}</span>`)
     .join("");
-  // duplicate the strip so the marquee loop is seamless
   return `<div class="ticker"><div class="ticker-inner">${items}${items}</div></div>`;
 }
 
-// ---------- Cards ----------
-// Layout order per the brief: picture + headline + summary read first,
-// then a clearly visible source link at the end of the card so it's obvious
-// where the story lives and that the click is an outbound redirect.
+// ---------- List view ----------
+// The whole card is one internal link to the story's own page — no
+// external redirect happens from the front page itself.
 
-function renderCard(article, topicId) {
+function renderCard(article, topicId, editionDate) {
   const fallback = coverArt(topicId);
   const img = article.image || fallback;
-  const host = hostnameOf(article.link) || article.source || "source";
+  const href = articleHref(editionDate, topicId, article.link);
 
   return `
-    <article class="card">
+    <a class="card" href="${href}">
       <img class="card-thumb" src="${img}" alt="" loading="lazy" onerror="this.onerror=null;this.src='${fallback}'" />
       <div class="card-body">
         <h4>${article.title}</h4>
-        <p class="card-summary">${article.summary || ""}</p>
+        <p class="card-summary">${truncate(article.summary, 170)}</p>
         <div class="card-footer">
           <span class="card-time">${timeAgo(article.published)}</span>
-          <a class="card-source" href="${article.link}" target="_blank" rel="noopener noreferrer">Read at ${host} ↗</a>
+          <span class="card-more">Full story →</span>
         </div>
       </div>
-    </article>`;
+    </a>`;
 }
 
-function renderTopicBlock(topicId, articles) {
+function renderTopicBlock(topicId, articles, editionDate) {
   const meta = TOPIC_META[topicId];
   if (!meta) return "";
   const body = articles?.length
-    ? `<div class="card-grid">${articles.map((a) => renderCard(a, topicId)).join("")}</div>`
+    ? `<div class="card-grid">${articles.map((a) => renderCard(a, topicId, editionDate)).join("")}</div>`
     : `<p class="topic-empty">No fresh dispatches today.</p>`;
   return `
     <div class="topic-block" id="topic-${topicId}">
@@ -173,13 +228,13 @@ function renderTopicBlock(topicId, articles) {
     </div>`;
 }
 
-function renderSections(topics) {
+function renderSections(topics, editionDate) {
   return SECTION_ORDER.map((section) => {
     const topicIds = TOPIC_ORDER.filter((id) => TOPIC_META[id].section === section);
     return `
       <section class="section-group" id="section-${section.replace(/\s+/g, "-").toLowerCase()}">
         <h2>${section}</h2>
-        ${topicIds.map((id) => renderTopicBlock(id, topics[id])).join("")}
+        ${topicIds.map((id) => renderTopicBlock(id, topics[id], editionDate)).join("")}
       </section>`;
   }).join("");
 }
@@ -190,20 +245,13 @@ function renderNav() {
   </nav>`;
 }
 
-function renderArchive(index, activeDate, onSelect) {
+function renderArchive(index, activeDate) {
   const dates = index?.dates || [];
-  if (!dates.length) return null;
+  if (!dates.length) return "";
   const pills = dates
-    .map((d) => `<button data-date="${d}" aria-current="${d === activeDate}">${d}</button>`)
+    .map((d) => `<a href="${d === index.dates[0] ? "#/" : editionHref(d)}" aria-current="${d === activeDate}">${d}</a>`)
     .join("");
-  const el = document.createElement("div");
-  el.className = "archive";
-  el.innerHTML = `<h5>Past editions</h5><div class="archive-pills">${pills}</div>`;
-  el.addEventListener("click", (e) => {
-    const btn = e.target.closest("button[data-date]");
-    if (btn) onSelect(btn.dataset.date);
-  });
-  return el;
+  return `<div class="archive"><h5>Past editions</h5><div class="archive-pills">${pills}</div></div>`;
 }
 
 function renderFooter() {
@@ -213,51 +261,95 @@ function renderFooter() {
   </footer>`;
 }
 
-async function renderEdition(edition, index) {
+function renderMasthead(edition, index, ticker = true) {
   const totalTopics = Object.values(edition.topics || {}).filter((a) => a?.length).length;
-
-  app.innerHTML = `
+  return `
     <header class="masthead">
-      <p class="kicker">All Systems, Reported</p>
-      <h1>The Manifest</h1>
-      <p class="tagline">A daily front page for cloud &amp; infrastructure</p>
+      <a class="masthead-link" href="#/">
+        <p class="kicker">All Systems, Reported</p>
+        <h1>The Manifest</h1>
+        <p class="tagline">A daily front page for cloud &amp; infrastructure</p>
+      </a>
       <div class="dateline">
         <span>${formatDate(edition.date)}</span>
         <span>Edition No. ${index?.editionNumber ?? "—"} · ${edition.totalArticles ?? 0} dispatches · ${totalTopics} beats reporting</span>
       </div>
-      ${renderTicker(edition.ticker)}
-    </header>
-    ${renderNav()}
-    <main>${renderSections(edition.topics || {})}</main>
-  `;
-
-  const archiveEl = renderArchive(index, edition.date, loadEdition);
-  if (archiveEl) app.appendChild(archiveEl);
-
-  const footerWrap = document.createElement("div");
-  footerWrap.innerHTML = renderFooter();
-  app.appendChild(footerWrap.firstElementChild);
+      ${ticker ? renderTicker(edition.ticker) : ""}
+    </header>`;
 }
+
+// ---------- Article (detail) view ----------
+
+function renderArticleView(edition, article, topicId) {
+  const meta = TOPIC_META[topicId] || { name: topicId, color: "#4a473f" };
+  const fallback = coverArt(topicId);
+  const img = article.image || fallback;
+  const host = hostnameOf(article.link) || article.source || "the source";
+
+  app.innerHTML = `
+    ${renderMasthead(edition, cachedIndex, false)}
+    <main class="article-view">
+      <a class="back-link" href="${editionHref(edition.date)}">← Back to the front page</a>
+      <p class="article-topic-tag" style="color:${meta.color}; border-color:${meta.color}">${meta.name}</p>
+      <h1 class="article-title">${article.title}</h1>
+      <p class="article-byline">${[article.source, formatDateTime(article.published)].filter(Boolean).join(" · ")}</p>
+      <img class="article-image" src="${img}" alt="" onerror="this.onerror=null;this.src='${fallback}'" />
+      <p class="article-summary">${article.summary || "No summary was provided for this story."}</p>
+      <a class="article-source-cta" href="${article.link}" target="_blank" rel="noopener noreferrer">
+        Read the full story at ${host} ↗
+      </a>
+      <p class="article-disclosure">This is the publisher's own summary from their syndication feed, not the full article. The complete story lives at the link above.</p>
+    </main>
+  `;
+  window.scrollTo(0, 0);
+}
+
+// ---------- Full edition (list) view ----------
+
+async function renderListView(edition, index) {
+  app.innerHTML = `
+    ${renderMasthead(edition, index)}
+    ${renderNav()}
+    <main>${renderSections(edition.topics || {}, edition.date)}</main>
+    ${renderArchive(index, edition.date)}
+    ${renderFooter()}
+  `;
+}
+
+// ---------- Router ----------
 
 let cachedIndex = null;
 
-async function loadEdition(date) {
+async function router() {
+  const route = parseRoute();
   try {
-    const path = date ? `${base}data/editions/${date}.json` : `${base}data/latest.json`;
-    const edition = await fetchJSON(path);
-    await renderEdition(edition, cachedIndex);
+    if (route.view === "article") {
+      const edition = await getEdition(route.date);
+      const articles = edition.topics?.[route.topicId] || [];
+      const article = articles.find((a) => a.link === route.link);
+      if (!article) {
+        app.innerHTML = `
+          ${renderMasthead(edition, cachedIndex, false)}
+          <main class="article-view">
+            <a class="back-link" href="${editionHref(edition.date)}">← Back to the front page</a>
+            <p class="loading-note">That story isn't in this edition anymore — it may have rolled out of the archive window.</p>
+          </main>`;
+        return;
+      }
+      renderArticleView(edition, article, route.topicId);
+      return;
+    }
+    const edition = await getEdition(route.date);
+    await renderListView(edition, cachedIndex);
   } catch (err) {
-    app.innerHTML = `<p class="loading-note">Couldn't load that edition (${err.message}). The first edition publishes after the daily collector runs.</p>`;
+    app.innerHTML = `<p class="loading-note">Couldn't load that page (${err.message}).</p>`;
   }
 }
 
 async function init() {
-  try {
-    cachedIndex = await fetchJSON(`${base}data/index.json`).catch(() => null);
-    await loadEdition();
-  } catch (err) {
-    app.innerHTML = `<p class="loading-note">Couldn't load today's edition (${err.message}).</p>`;
-  }
+  cachedIndex = await fetchJSON(`${base}data/index.json`).catch(() => null);
+  window.addEventListener("hashchange", router);
+  router();
 }
 
 init();

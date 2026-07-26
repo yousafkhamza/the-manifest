@@ -192,7 +192,19 @@ a { color: inherit; }
   display: flex;
   flex-direction: column;
   min-width: 0;
+  text-decoration: none;
+  color: inherit;
+  transition: border-color 0.15s ease, transform 0.15s ease;
 }
+
+.card:hover,
+.card:focus-visible {
+  border-color: var(--rust);
+  transform: translateY(-2px);
+}
+
+.card:hover .card-body h4,
+.card:focus-visible .card-body h4 { color: var(--rust); }
 
 .card-thumb {
   width: 100%;
@@ -241,17 +253,11 @@ a { color: inherit; }
   white-space: nowrap;
 }
 
-.card-source {
+.card-more {
   color: var(--rust);
-  text-decoration: none;
   font-weight: 600;
   white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
 }
-
-.card-source:hover,
-.card-source:focus-visible { text-decoration: underline; }
 
 /* ---------- Archive strip ---------- */
 
@@ -272,23 +278,110 @@ a { color: inherit; }
 
 .archive-pills { display: flex; flex-wrap: wrap; gap: 0.5rem; }
 
-.archive-pills button {
+.archive-pills a {
   font-family: var(--mono);
   font-size: 0.76rem;
   background: var(--card);
   border: 1px solid var(--rule);
   color: var(--ink-soft);
   padding: 0.3rem 0.65rem;
-  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
 }
 
-.archive-pills button:hover,
-.archive-pills button:focus-visible { border-color: var(--rust); color: var(--rust); }
+.archive-pills a:hover,
+.archive-pills a:focus-visible { border-color: var(--rust); color: var(--rust); }
 
-.archive-pills button[aria-current="true"] {
+.archive-pills a[aria-current="true"] {
   background: var(--ink);
   color: var(--paper);
   border-color: var(--ink);
+}
+
+.masthead-link { text-decoration: none; color: inherit; display: block; }
+
+/* ---------- Article (detail) view ---------- */
+
+.article-view { max-width: 760px; margin: 0 auto; padding-top: 1.5rem; }
+
+.back-link {
+  display: inline-block;
+  font-family: var(--mono);
+  font-size: 0.76rem;
+  color: var(--ink-soft);
+  text-decoration: none;
+  margin-bottom: 1.5rem;
+}
+
+.back-link:hover,
+.back-link:focus-visible { color: var(--rust); }
+
+.article-topic-tag {
+  display: inline-block;
+  font-family: var(--mono);
+  font-size: 0.68rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  border: 1px solid;
+  padding: 0.2rem 0.55rem;
+  margin: 0 0 0.9rem;
+}
+
+.article-title {
+  font-family: var(--display);
+  font-weight: 800;
+  font-size: clamp(1.75rem, 4.5vw, 2.6rem);
+  line-height: 1.15;
+  margin: 0 0 0.7rem;
+}
+
+.article-byline {
+  font-family: var(--mono);
+  font-size: 0.78rem;
+  color: var(--ink-soft);
+  border-top: 1px solid var(--rule-light);
+  border-bottom: 1px solid var(--rule-light);
+  padding: 0.5rem 0;
+  margin: 0 0 1.5rem;
+}
+
+.article-image {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  border: 1px solid var(--rule-light);
+  margin-bottom: 1.5rem;
+  background: var(--card);
+}
+
+.article-summary {
+  font-size: 1.1rem;
+  line-height: 1.65;
+  color: var(--ink);
+  margin: 0 0 2rem;
+}
+
+.article-source-cta {
+  display: inline-block;
+  font-family: var(--mono);
+  font-weight: 600;
+  font-size: 0.92rem;
+  color: var(--paper);
+  background: var(--rust);
+  text-decoration: none;
+  padding: 0.75rem 1.25rem;
+  border: 1px solid var(--rust);
+}
+
+.article-source-cta:hover,
+.article-source-cta:focus-visible { background: var(--ink); border-color: var(--ink); }
+
+.article-disclosure {
+  font-family: var(--mono);
+  font-size: 0.7rem;
+  color: var(--rule);
+  margin-top: 1rem;
+  line-height: 1.5;
 }
 
 /* ---------- Footer ---------- */
