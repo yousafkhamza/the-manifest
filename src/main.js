@@ -148,11 +148,9 @@ function renderCard(article, topicId) {
 
   return `
     <article class="card">
-      <a class="card-thumb-link" href="${article.link}" target="_blank" rel="noopener noreferrer" tabindex="-1">
-        <img class="card-thumb" src="${img}" alt="" loading="lazy" onerror="this.onerror=null;this.src='${fallback}'" />
-      </a>
+      <img class="card-thumb" src="${img}" alt="" loading="lazy" onerror="this.onerror=null;this.src='${fallback}'" />
       <div class="card-body">
-        <h4><a href="${article.link}" target="_blank" rel="noopener noreferrer">${article.title}</a></h4>
+        <h4>${article.title}</h4>
         <p class="card-summary">${article.summary || ""}</p>
         <div class="card-footer">
           <span class="card-time">${timeAgo(article.published)}</span>

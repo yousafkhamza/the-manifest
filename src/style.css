@@ -194,13 +194,12 @@ a { color: inherit; }
   min-width: 0;
 }
 
-.card-thumb-link { display: block; border-bottom: 1px solid var(--rule-light); }
-
 .card-thumb {
   width: 100%;
   aspect-ratio: 16 / 9;
   object-fit: cover;
   display: block;
+  border-bottom: 1px solid var(--rule-light);
   background: var(--paper);
 }
 
@@ -212,15 +211,8 @@ a { color: inherit; }
   font-size: 1.08rem;
   line-height: 1.25;
   margin: 0;
-}
-
-.card-body h4 a {
-  text-decoration: none;
   color: var(--ink);
 }
-
-.card-body h4 a:hover,
-.card-body h4 a:focus-visible { color: var(--rust); text-decoration: underline; }
 
 .card-summary {
   font-size: 0.9rem;
