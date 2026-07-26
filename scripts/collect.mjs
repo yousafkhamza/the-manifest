@@ -21,7 +21,11 @@ const LATEST_PATH = path.join(ROOT, "public", "data", "latest.json");
 
 const parser = new Parser({
   timeout: 15000,
-  headers: { "User-Agent": "TheManifestNewsBot/1.0 (+https://github.com/yousafkhamza)" },
+  headers: {
+    "User-Agent":
+      "Mozilla/5.0 (compatible; TheManifestBot/1.0; +https://github.com/yousafkhamza/the-manifest)",
+    Accept: "application/rss+xml, application/atom+xml, application/xml, text/xml, */*",
+  },
   customFields: {
     item: [
       ["media:content", "mediaContent", { keepArray: true }],
@@ -44,8 +48,22 @@ function truncate(text, max = 600) {
 }
 
 function firstImgSrc(html = "") {
-  const match = html.match(/<img[^>]+src=["']([^"']+)["']/i);
-  return match ? match[1] : null;
+  if (!html) return null;
+  // Lazy-loading themes often stash the real image in a <noscript> fallback
+  // (meant for non-JS clients — which an RSS reader effectively is) or in
+  // a data-src/data-lazy-src attribute, leaving `src` as a blank placeholder.
+  const noscriptMatch = html.match(/<noscript>[\s\S]*?<img[^>]+src=["']([^"']+)["'][\s\S]*?<\/noscript>/i);
+  if (noscriptMatch) return noscriptMatch[1];
+
+  const imgTags = html.match(/<img[^>]*>/gi) || [];
+  const attrPriority = ["data-src", "data-lazy-src", "data-original", "src"];
+  for (const tag of imgTags) {
+    for (const attr of attrPriority) {
+      const m = tag.match(new RegExp(`${attr}=["']([^"']+)["']`, "i"));
+      if (m && m[1] && /^https?:\/\//i.test(m[1])) return m[1];
+    }
+  }
+  return null;
 }
 
 function extractImage(item) {
@@ -70,7 +88,15 @@ function hostnameOf(url) {
   }
 }
 
-async function fetchFeed(feedUrl) {
+function sleep(ms) {
+  return new Promise((resolve) => setTimeout(resolve, ms));
+}
+
+function isRetryable(err) {
+  return /status code (429|500|502|503|504)/i.test(err.message || "");
+}
+
+async function fetchFeed(feedUrl, attempt = 1) {
   try {
     const feed = await parser.parseURL(feedUrl);
     const sourceName = feed.title || hostnameOf(feedUrl);
@@ -86,6 +112,12 @@ async function fetchFeed(feedUrl) {
       };
     });
   } catch (err) {
+    if (isRetryable(err) && attempt < 3) {
+      const delay = attempt * 2000;
+      console.error(`  ! ${feedUrl} (${err.message}) — retrying in ${delay}ms (attempt ${attempt + 1}/3)`);
+      await sleep(delay);
+      return fetchFeed(feedUrl, attempt + 1);
+    }
     console.error(`  ! failed to fetch ${feedUrl}: ${err.message}`);
     return [];
   }

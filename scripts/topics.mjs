@@ -8,10 +8,10 @@ export const TOPICS = [
     name: "Amazon Web Services",
     short: "AWS",
     section: "Compute & Cloud",
-    feeds: [
-      "https://aws.amazon.com/blogs/aws/feed/",
-      "https://aws.amazon.com/about-aws/whats-new/recent/feed/",
-    ],
+    // The "What's New" feed posts far more often than the News Blog but is
+    // plain-text changelog entries with no images — mixing it in was
+    // crowding the image-rich News Blog out of the daily top 8.
+    feeds: ["https://aws.amazon.com/blogs/aws/feed/"],
   },
   {
     id: "azure",
@@ -39,7 +39,10 @@ export const TOPICS = [
     name: "Terraform",
     short: "Terraform",
     section: "Infrastructure as Code",
-    feeds: ["https://www.hashicorp.com/en/blog/feed.xml"],
+    feeds: [
+      "https://www.hashicorp.com/en/blog/feed.xml",
+      "https://github.com/hashicorp/terraform/releases.atom",
+    ],
   },
   {
     id: "python",
