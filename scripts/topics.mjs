@@ -84,7 +84,10 @@ export const VERSION_TICKER = [
   { label: "Kubernetes", repo: "kubernetes/kubernetes", tagFilter: /^v\d+\.\d+\.\d+$/ },
   { label: "Terraform", repo: "hashicorp/terraform", tagFilter: /^v\d+\.\d+\.\d+$/ },
   { label: "Python", repo: "python/cpython", tagFilter: /^v\d+\.\d+\.\d+$/ },
-  { label: "Go", repo: "golang/go", tagFilter: /^go\d+\.\d+(\.\d+)?$/ },
+  // golang/go on GitHub is a mirror of Go's internal Gerrit repo — its tag
+  // list doesn't reliably sort by recency via the GitHub API. Go publishes
+  // its own official JSON API for exactly this, pre-sorted newest-first.
+  { label: "Go", source: "godev" },
   { label: "Rust", repo: "rust-lang/rust", tagFilter: /^\d+\.\d+\.\d+$/ },
   { label: "Node.js", repo: "nodejs/node", tagFilter: /^v\d+\.\d+\.\d+$/ },
 ];

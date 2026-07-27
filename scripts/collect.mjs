@@ -140,8 +140,22 @@ async function collectTopic(topic) {
   return deduped.slice(0, ARTICLES_PER_TOPIC);
 }
 
+async function resolveVersionFromGoDev(tool) {
+  const res = await fetch("https://go.dev/dl/?mode=json", {
+    headers: { "User-Agent": "TheManifestNewsBot/1.0" },
+  });
+  if (!res.ok) throw new Error(`HTTP ${res.status}`);
+  const releases = await res.json();
+  const stable = releases.find((r) => r.stable);
+  return { label: tool.label, version: stable ? stable.version : null };
+}
+
 async function resolveVersion(tool) {
   try {
+    if (tool.source === "godev") {
+      return await resolveVersionFromGoDev(tool);
+    }
+
     const headers = {
       "User-Agent": "TheManifestNewsBot/1.0",
       Accept: "application/vnd.github+json",
@@ -149,7 +163,7 @@ async function resolveVersion(tool) {
     if (process.env.GITHUB_TOKEN) {
       headers.Authorization = `Bearer ${process.env.GITHUB_TOKEN}`;
     }
-    // Use the Tags API, not Releases: some repos (golang/go, python/cpython)
+    // Use the Tags API, not Releases: some repos (e.g. python/cpython)
     // push git tags for every version but never publish a formal GitHub
     // "Release" object, which makes /releases come back empty for them.
     // Tags exist for every repo regardless. Since /tags isn't guaranteed to
@@ -170,7 +184,7 @@ async function resolveVersion(tool) {
     }
     return { label: tool.label, version };
   } catch (err) {
-    console.error(`  ! version lookup failed for ${tool.repo}: ${err.message}`);
+    console.error(`  ! version lookup failed for ${tool.label} (${tool.repo || tool.source}): ${err.message}`);
     return { label: tool.label, version: null };
   }
 }

@@ -2,8 +2,15 @@ name: Collect daily edition
 
 on:
   schedule:
-    # 05:00 UTC every day
-    - cron: "0 5 * * *"
+    # GitHub's own docs: schedule events can be delayed or dropped entirely
+    # during high load, and "high load times include the start of every
+    # hour." Offsetting to :17 avoids the worst of that, and three spaced
+    # entries mean a dropped run still gets caught later the same day.
+    # Safe to run more than once a day — the collector just re-collects
+    # and overwrites, no duplication risk.
+    - cron: "17 5 * * *"
+    - cron: "17 11 * * *"
+    - cron: "17 17 * * *"
   workflow_dispatch: {}
 
 permissions:
