@@ -265,10 +265,11 @@ async function main() {
   const drop = allFiles.filter((f) => !keep.includes(f));
   await Promise.all(drop.map((f) => fs.unlink(path.join(EDITIONS_DIR, f))));
 
-  const dates = keep.map((f) => f.replace(".json", ""));
+  const dates = keep.map((f) => f.replace(".json", "")); // ascending: oldest → newest
+  const editionNumber = computeEditionNumber(dates);
   await fs.writeFile(
     INDEX_PATH,
-    JSON.stringify({ dates: dates.reverse(), editionNumber: computeEditionNumber(dates) }, null, 2)
+    JSON.stringify({ dates: [...dates].reverse(), editionNumber }, null, 2)
   );
 
   console.log(`\nEdition ${date}: ${totalArticles} articles across ${TOPICS.length} topics.`);
@@ -280,10 +281,10 @@ async function main() {
   process.exit(0);
 }
 
-// Edition number counts up from a fixed launch date so it behaves like a
-// real newspaper's "Vol. N" rather than resetting with the archive window.
+// Edition number counts up from launch, like a real newspaper's "Vol. N".
+// Must match FOUNDED_DATE in src/main.js's masthead credit line.
 function computeEditionNumber(dates) {
-  const LAUNCH = new Date("2026-07-14T00:00:00Z");
+  const LAUNCH = new Date("2026-07-26T00:00:00Z");
   const latest = new Date(dates[dates.length - 1] + "T00:00:00Z");
   const days = Math.round((latest - LAUNCH) / 86400000);
   return Math.max(1, days + 1);
