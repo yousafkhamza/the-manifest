@@ -411,6 +411,7 @@ a { color: inherit; }
   line-height: 1.65;
   color: var(--ink);
   margin: 0 0 2rem;
+  white-space: pre-line;
 }
 
 .article-source-cta {
