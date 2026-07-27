@@ -149,19 +149,22 @@ async function resolveVersion(tool) {
     if (process.env.GITHUB_TOKEN) {
       headers.Authorization = `Bearer ${process.env.GITHUB_TOKEN}`;
     }
-    const res = await fetch(`https://api.github.com/repos/${tool.repo}/releases?per_page=15`, {
+    // Use the Tags API, not Releases: some repos (golang/go, python/cpython)
+    // push git tags for every version but never publish a formal GitHub
+    // "Release" object, which makes /releases come back empty for them.
+    // Tags exist for every repo regardless. Since /tags isn't guaranteed to
+    // be in version order, we filter and sort numerically ourselves.
+    const res = await fetch(`https://api.github.com/repos/${tool.repo}/tags?per_page=100`, {
       headers,
     });
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
-    const releases = await res.json();
-    const match = releases.find((r) => {
-      if (r.draft) return false;
-      const tag = r.tag_name || "";
-      if (tool.tagFilter) return tool.tagFilter.test(tag);
-      return true;
-    });
-    if (!match) return { label: tool.label, version: null };
-    let version = match.tag_name || "";
+    const tags = await res.json();
+    const matches = tags
+      .map((t) => t.name)
+      .filter((name) => !tool.tagFilter || tool.tagFilter.test(name));
+    if (!matches.length) return { label: tool.label, version: null };
+    matches.sort((a, b) => compareVersions(b, a));
+    let version = matches[0];
     if (tool.prefix && version.startsWith(tool.prefix)) {
       version = version.slice(tool.prefix.length);
     }
@@ -170,6 +173,22 @@ async function resolveVersion(tool) {
     console.error(`  ! version lookup failed for ${tool.repo}: ${err.message}`);
     return { label: tool.label, version: null };
   }
+}
+
+function versionParts(tag) {
+  const nums = tag.match(/\d+/g);
+  return nums ? nums.map(Number) : [];
+}
+
+function compareVersions(a, b) {
+  const pa = versionParts(a);
+  const pb = versionParts(b);
+  const len = Math.max(pa.length, pb.length);
+  for (let i = 0; i < len; i++) {
+    const diff = (pa[i] || 0) - (pb[i] || 0);
+    if (diff !== 0) return diff;
+  }
+  return 0;
 }
 
 async function buildTicker() {
@@ -185,9 +204,31 @@ async function main() {
   await fs.mkdir(EDITIONS_DIR, { recursive: true });
 
   const date = todayStr();
+
+  // Read yesterday's links per topic before we overwrite latest.json, so we
+  // can flag which of today's articles are genuinely new. Quiet topics
+  // (blogs that don't post daily) will correctly show nothing new — that's
+  // accurate, not a bug — but this makes it visible instead of silent.
+  const previousLinks = {};
+  try {
+    const prev = JSON.parse(await fs.readFile(LATEST_PATH, "utf-8"));
+    if (prev.date !== date) {
+      for (const [topicId, articles] of Object.entries(prev.topics || {})) {
+        previousLinks[topicId] = new Set(articles.map((a) => a.link));
+      }
+    }
+  } catch {
+    // No previous edition yet (first run) — nothing to compare against.
+  }
+
   const topicsData = {};
   for (const topic of TOPICS) {
-    topicsData[topic.id] = await collectTopic(topic);
+    const articles = await collectTopic(topic);
+    const seenBefore = previousLinks[topic.id];
+    for (const article of articles) {
+      article.isNew = seenBefore ? !seenBefore.has(article.link) : false;
+    }
+    topicsData[topic.id] = articles;
   }
   const ticker = await buildTicker();
 

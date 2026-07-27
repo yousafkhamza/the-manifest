@@ -81,8 +81,8 @@ export const TOPICS = [
 // releases API. "prefix" strips a monorepo tag prefix; "tagFilter" skips
 // pre-releases / unrelated tags in repos with noisy tag histories.
 export const VERSION_TICKER = [
-  { label: "Kubernetes", repo: "kubernetes/kubernetes" },
-  { label: "Terraform", repo: "hashicorp/terraform" },
+  { label: "Kubernetes", repo: "kubernetes/kubernetes", tagFilter: /^v\d+\.\d+\.\d+$/ },
+  { label: "Terraform", repo: "hashicorp/terraform", tagFilter: /^v\d+\.\d+\.\d+$/ },
   { label: "Python", repo: "python/cpython", tagFilter: /^v\d+\.\d+\.\d+$/ },
   { label: "Go", repo: "golang/go", tagFilter: /^go\d+\.\d+(\.\d+)?$/ },
   { label: "Rust", repo: "rust-lang/rust", tagFilter: /^\d+\.\d+\.\d+$/ },

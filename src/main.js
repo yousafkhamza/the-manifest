@@ -205,10 +205,14 @@ function renderCard(article, topicId, editionDate) {
   const fallback = coverArt(topicId);
   const img = article.image || fallback;
   const href = articleHref(editionDate, topicId, article.link);
+  const newBadge = article.isNew ? `<span class="card-new-badge">New</span>` : "";
 
   return `
     <a class="card" href="${href}">
-      <img class="card-thumb" src="${img}" alt="" loading="lazy" onerror="this.onerror=null;this.src='${fallback}'" />
+      <div class="card-thumb-wrap">
+        <img class="card-thumb" src="${img}" alt="" loading="lazy" onerror="this.onerror=null;this.src='${fallback}'" />
+        ${newBadge}
+      </div>
       <div class="card-body">
         <h4>${article.title}</h4>
         <p class="card-summary">${truncate(article.summary, 170)}</p>
@@ -297,6 +301,7 @@ function renderArticleView(edition, article, topicId) {
     <main class="article-view">
       <a class="back-link" href="${editionHref(edition.date)}">← Back to the front page</a>
       <p class="article-topic-tag" style="color:${meta.color}; border-color:${meta.color}">${meta.name}</p>
+      ${article.isNew ? '<span class="article-new-tag">New since yesterday</span>' : ""}
       <h1 class="article-title">${article.title}</h1>
       <p class="article-byline">${[article.source, formatDateTime(article.published)].filter(Boolean).join(" · ")}</p>
       <img class="article-image" src="${img}" alt="" onerror="this.onerror=null;this.src='${fallback}'" />

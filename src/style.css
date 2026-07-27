@@ -230,6 +230,22 @@ a { color: inherit; }
 .card:hover .card-body h4,
 .card:focus-visible .card-body h4 { color: var(--rust); }
 
+.card-thumb-wrap { position: relative; }
+
+.card-new-badge {
+  position: absolute;
+  top: 0.5rem;
+  left: 0.5rem;
+  background: var(--rust);
+  color: var(--paper);
+  font-family: var(--mono);
+  font-size: 0.62rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  padding: 0.2rem 0.5rem;
+}
+
 .card-thumb {
   width: 100%;
   aspect-ratio: 16 / 9;
@@ -348,6 +364,18 @@ a { color: inherit; }
   text-transform: uppercase;
   border: 1px solid;
   padding: 0.2rem 0.55rem;
+  margin: 0 0.5rem 0.9rem 0;
+}
+
+.article-new-tag {
+  display: inline-block;
+  font-family: var(--mono);
+  font-size: 0.68rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  background: var(--rust);
+  color: var(--paper);
+  padding: 0.2rem 0.55rem;
   margin: 0 0 0.9rem;
 }
 
@@ -457,3 +485,4 @@ a:focus-visible, button:focus-visible {
   .article-title { font-size: 1.55rem; }
   .article-source-cta { display: block; text-align: center; }
 }
+
