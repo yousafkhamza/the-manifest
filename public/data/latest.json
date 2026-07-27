@@ -1,6 +1,6 @@
 {
   "date": "2026-07-27",
-  "generatedAt": "2026-07-27T08:05:56.691Z",
+  "generatedAt": "2026-07-27T08:38:05.323Z",
   "totalArticles": 72,
   "ticker": [
     {
@@ -97,14 +97,6 @@
     ],
     "azure": [
       {
-        "title": "AT&T and Microsoft scale trillion-token workloads with Microsoft Foundry and AMD",
-        "link": "https://azure.microsoft.com/en-us/blog/att-and-microsoft-scale-trillion-token-workloads-with-microsoft-foundry-and-amd/",
-        "summary": "AT&T processed approximately one trillion tokens while developing OTel2.0 using Microsoft Foundry Managed Compute, open AI models, and AMD and NVIDIA GPU infrastructure. Discover how flexible model choice and scalable infrastructure are enabling production-scale telecom AI.\nThe post AT&T and Microsoft scale trillion-token workloads with Microsoft Foundry and AMD appeared first on Microsoft Azure Blog.",
-        "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2027/06/FY26AE-Azure-Composite-DeepBlue-006-H.jpg",
-        "source": "Microsoft Azure Blog",
-        "published": "2026-07-23T18:30:00.000Z"
-      },
-      {
         "title": "Azure Databricks delivers proven business value",
         "link": "https://azure.microsoft.com/en-us/blog/azure-databricks-delivers-proven-business-value/",
         "summary": "Microsoft Azure Databricks delivers the first-party advantage of Databricks on Microsoft—and for customers, that advantage shows up as real, measurable value. It is the same Databricks platform your teams already know, co-engineered with Microsoft and delivered as a native Azure service, so it fits naturally into the Microsoft tools, identity, and governance your organization already runs.\nThe post Azure Databricks delivers proven business value appeared first on Microsoft Azure Blog.",
@@ -159,6 +151,14 @@
         "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/06/Azure-DevTools-Dark-1-scaled.jpg",
         "source": "Microsoft Azure Blog",
         "published": "2026-06-30T16:00:00.000Z"
+      },
+      {
+        "title": "Claude in Microsoft Foundry is now generally available",
+        "link": "https://azure.microsoft.com/en-us/blog/claude-in-microsoft-foundry-is-now-generally-available/",
+        "summary": "Claude in Microsoft Foundry is now generally available, hosted on Azure, and running on NVIDIA GB300 Blackwell Ultra, giving teams a faster path from agent experimentation to production.\nThe post Claude in Microsoft Foundry is now generally available appeared first on Microsoft Azure Blog.",
+        "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2025/12/2-24-Sovereignty-Blog_1_v2b-Copy-2.jpg",
+        "source": "Microsoft Azure Blog",
+        "published": "2026-06-29T17:00:00.000Z"
       }
     ],
     "gcp": [
