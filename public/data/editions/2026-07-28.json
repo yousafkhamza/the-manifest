@@ -1,6 +1,6 @@
 {
   "date": "2026-07-28",
-  "generatedAt": "2026-07-28T13:03:13.946Z",
+  "generatedAt": "2026-07-28T18:45:49.746Z",
   "totalArticles": 72,
   "ticker": [
     {
@@ -105,15 +105,6 @@
     ],
     "azure": [
       {
-        "title": "AT&T and Microsoft scale trillion-token workloads with Microsoft Foundry and AMD",
-        "link": "https://azure.microsoft.com/en-us/blog/att-and-microsoft-scale-trillion-token-workloads-with-microsoft-foundry-and-amd/",
-        "summary": "AT&T processed approximately one trillion tokens while developing OTel2.0 using Microsoft Foundry Managed Compute, open AI models, and AMD and NVIDIA GPU infrastructure. Discover how flexible model choice and scalable infrastructure are enabling production-scale telecom AI.\nThe post AT&T and Microsoft scale trillion-token workloads with Microsoft Foundry and AMD appeared first on Microsoft Azure Blog.",
-        "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2027/06/FY26AE-Azure-Composite-DeepBlue-006-H.jpg",
-        "source": "Microsoft Azure Blog",
-        "published": "2026-07-23T18:30:00.000Z",
-        "isNew": false
-      },
-      {
         "title": "Azure Databricks delivers proven business value",
         "link": "https://azure.microsoft.com/en-us/blog/azure-databricks-delivers-proven-business-value/",
         "summary": "Microsoft Azure Databricks delivers the first-party advantage of Databricks on Microsoft—and for customers, that advantage shows up as real, measurable value. It is the same Databricks platform your teams already know, co-engineered with Microsoft and delivered as a native Azure service, so it fits naturally into the Microsoft tools, identity, and governance your organization already runs.\nThe post Azure Databricks delivers proven business value appeared first on Microsoft Azure Blog.",
@@ -123,9 +114,9 @@
         "isNew": false
       },
       {
-        "title": "GPT-5.6 now available in Microsoft Foundry",
-        "link": "https://azure.microsoft.com/en-us/blog/gpt-5-6-now-available-in-microsoft-foundry/",
-        "summary": "Introducing OpenAI's latest frontier model series, the Asia Pacific Data Zone, and product agent capabilities, all generally available in Microsoft Foundry.\nThe post GPT-5.6 now available in Microsoft Foundry  appeared first on Microsoft Azure Blog.",
+        "title": "Frontier models and production agents: Advancing Microsoft Foundry for the agentic era",
+        "link": "https://azure.microsoft.com/en-us/blog/frontier-models-and-production-agents-advancing-microsoft-foundry-for-the-agentic-era/",
+        "summary": "Introducing OpenAI's latest frontier model series, the Asia Pacific Data Zone, and product agent capabilities, all generally available in Microsoft Foundry.\nThe post Frontier models and production agents: Advancing Microsoft Foundry for the agentic era appeared first on Microsoft Azure Blog.",
         "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/06/Azure-Infrastructure-Dark-1-scaled.jpg",
         "source": "Microsoft Azure Blog",
         "published": "2026-07-09T17:00:00.000Z",
@@ -175,9 +166,27 @@
         "source": "Microsoft Azure Blog",
         "published": "2026-06-30T16:00:00.000Z",
         "isNew": false
+      },
+      {
+        "title": "Claude in Microsoft Foundry is now generally available",
+        "link": "https://azure.microsoft.com/en-us/blog/claude-in-microsoft-foundry-is-now-generally-available/",
+        "summary": "Claude in Microsoft Foundry is now generally available, hosted on Azure, and running on NVIDIA GB300 Blackwell Ultra, giving teams a faster path from agent experimentation to production.\nThe post Claude in Microsoft Foundry is now generally available appeared first on Microsoft Azure Blog.",
+        "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2025/12/2-24-Sovereignty-Blog_1_v2b-Copy-2.jpg",
+        "source": "Microsoft Azure Blog",
+        "published": "2026-06-29T17:00:00.000Z",
+        "isNew": false
       }
     ],
     "gcp": [
+      {
+        "title": "July 28, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#July_28_2026",
+        "summary": "Google SecOps\nFeature\n[Spotlight Feature] Data RBAC for first-party (1P) cases and alerts\nAvailability This feature is now available in public preview for all regions.\nGoogle SecOps now supports data role-based access control (Data RBAC) for first-party (1P) SOAR cases and alerts. This feature automatically applies SIEM data access scopes to alerts and cases ingested using the Chronicle connector, ensuring analysts only see data they are authorized to access.\nFor more information, see the Release Note entry for July 6th.",
+        "image": null,
+        "source": "Google Cloud Platform (GCP) - Release notes",
+        "published": "2026-07-28T07:00:00.000Z",
+        "isNew": false
+      },
       {
         "title": "July 27, 2026",
         "link": "https://docs.cloud.google.com/release-notes#July_27_2026",
@@ -226,7 +235,7 @@
       {
         "title": "July 22, 2026",
         "link": "https://docs.cloud.google.com/release-notes#July_22_2026",
-        "summary": "Gemini Enterprise\nFeature\nGemini Enterprise: Support for unauthenticated Custom MCP Server data stores (Preview)\nWhen setting up a Custom MCP Server data store, you can\nselect No authentication if your Model Context Protocol (MCP) server doesn't\nrequire authentication.\nCreating a custom MCP Server data store is in Public Preview.\nFor more information, see Set up a custom MCP\nserver.\nGoogle Distributed Cloud (software only) for VMware\nAnnouncement\nGoogle Distributed Cloud (software only) for VMware 1.35.300-gke.87 is now available\nfor download. To upgrade, see Upgrade clusters.\nGoogle Distributed Cloud 1.35.300-gke.87 runs on Kubernetes v1.35.3-gke.400.\nIf you are using a third-party storage vendor, check the Google Distributed Cloud-ready\nstorage partners document to make sure the storage vendor has already passed the\nqualification for this release.\nAfter a release, it takes approximately 7 to 14 days for the version to become\navailable for use with GKE On-Prem API clients: the Google Cloud console, the\ngcloud CLI, and Terraform.\nAnnouncement\nGoogle Distributed Cloud (software only) for VMware 1.34.700-gke.93 is now available\nfor download. To upgrade, see Upgrade clusters.\nGoogle Distributed Cloud 1.34.700-gke.93 runs on Kubernetes v1.34.7-gke.200.\nIf you use a third-party storage vendor, check the listing of our\npreviously-qualified storage partners.\nAfter a release, it takes approximately 7 to 14 days for the version to become\navailable for use with GKE On-Prem API…",
+        "summary": "Access Approval\nFeature\nPrivileged Access Manager is available in\nPreview.\nAccess Transparency\nFeature\nPrivileged Access Manager is available in\nPreview.\nGemini Enterprise\nFeature\nGemini Enterprise: Support for unauthenticated Custom MCP Server data stores (Preview)\nWhen setting up a Custom MCP Server data store, you can\nselect No authentication if your Model Context Protocol (MCP) server doesn't\nrequire authentication.\nCreating a custom MCP Server data store is in Public Preview.\nFor more information, see Set up a custom MCP\nserver.\nGoogle Distributed Cloud (software only) for VMware\nAnnouncement\nGoogle Distributed Cloud (software only) for VMware 1.35.300-gke.87 is now available\nfor download. To upgrade, see Upgrade clusters.\nGoogle Distributed Cloud 1.35.300-gke.87 runs on Kubernetes v1.35.3-gke.400.\nIf you are using a third-party storage vendor, check the Google Distributed Cloud-ready\nstorage partners document to make sure the storage vendor has already passed the\nqualification for this release.\nAfter a release, it takes approximately 7 to 14 days for the version to become\navailable for use with GKE On-Prem API clients: the Google Cloud console, the\ngcloud CLI, and Terraform.\nAnnouncement\nGoogle Distributed Cloud (software only) for VMware 1.34.700-gke.93 is now available\nfor download. To upgrade, see Upgrade clusters.\nGoogle Distributed Cloud 1.34.700-gke.93 runs on Kubernetes v1.34.7-gke.200.\nIf you use a third-party storage vendor, check the listing of our…",
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-07-22T07:00:00.000Z",
@@ -239,15 +248,6 @@
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-07-21T07:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "July 20, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#July_20_2026",
-        "summary": "Batch\nBreaking\nStarting on the following dates, you can no longer create a job that locates\nits Compute Engine resources outside of the job's location.\nFor projects that have successfully submitted before July 31, 2026 at least\none job that uses the allowedLocations[] field with any region or zones\noutside of the job's location, changes are starting on June 30, 2027.\nFor all other projects, changes are starting on July 31, 2026.\nIf none of your jobs specify the allowedLocations[] field, then no action is\nrequired. Otherwise, ensure that any region or zones specified in the\nallowedLocations[] field are in the same region as the job's location\nbefore these dates. For more information, see\nBatch locations.\nBigQuery\nFeature\nLakehouse for Apache Iceberg: Cross-cloud\nLakehouse now supports integration with SAP Business Data Cloud\n(BDC) in Preview.\nThis update includes the following features:\nFederation from SAP BDC: Create Delta Sharing catalogs in\nLakehouse to automatically synchronize shares, schemas, and\ntables from SAP BDC.\nQuerying SAP data: Query synchronized SAP BDC tables directly from\nBigQuery without data migration.\nPublishing to SAP BDC: Publish Apache Iceberg REST catalog (IRC) tables\nor Knowledge Catalog Data Products from\nLakehouse directly to SAP BDC, allowing SAP users and\napplications to consume Google Cloud data directly as remote tables\nin SAP Datasphere without migrating data.\nFor more information, see Set up cross-cloud Lakehouse for SAP\nBDC, Query SAP BDC…",
-        "image": null,
-        "source": "Google Cloud Platform (GCP) - Release notes",
-        "published": "2026-07-20T07:00:00.000Z",
         "isNew": false
       }
     ],
@@ -632,7 +632,7 @@
         "isNew": false
       },
       {
-        "title": "Monday, July 27, 2026 Security Releases",
+        "title": "Tuesday, July 28, 2026 Security Releases",
         "link": "https://nodejs.org/en/blog/vulnerability/july-2026-security-releases",
         "summary": "",
         "image": null,
