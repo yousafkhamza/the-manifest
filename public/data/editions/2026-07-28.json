@@ -1,6 +1,6 @@
 {
   "date": "2026-07-28",
-  "generatedAt": "2026-07-28T07:47:37.249Z",
+  "generatedAt": "2026-07-28T13:03:13.946Z",
   "totalArticles": 72,
   "ticker": [
     {
@@ -105,6 +105,15 @@
     ],
     "azure": [
       {
+        "title": "AT&T and Microsoft scale trillion-token workloads with Microsoft Foundry and AMD",
+        "link": "https://azure.microsoft.com/en-us/blog/att-and-microsoft-scale-trillion-token-workloads-with-microsoft-foundry-and-amd/",
+        "summary": "AT&T processed approximately one trillion tokens while developing OTel2.0 using Microsoft Foundry Managed Compute, open AI models, and AMD and NVIDIA GPU infrastructure. Discover how flexible model choice and scalable infrastructure are enabling production-scale telecom AI.\nThe post AT&T and Microsoft scale trillion-token workloads with Microsoft Foundry and AMD appeared first on Microsoft Azure Blog.",
+        "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2027/06/FY26AE-Azure-Composite-DeepBlue-006-H.jpg",
+        "source": "Microsoft Azure Blog",
+        "published": "2026-07-23T18:30:00.000Z",
+        "isNew": false
+      },
+      {
         "title": "Azure Databricks delivers proven business value",
         "link": "https://azure.microsoft.com/en-us/blog/azure-databricks-delivers-proven-business-value/",
         "summary": "Microsoft Azure Databricks delivers the first-party advantage of Databricks on Microsoft—and for customers, that advantage shows up as real, measurable value. It is the same Databricks platform your teams already know, co-engineered with Microsoft and delivered as a native Azure service, so it fits naturally into the Microsoft tools, identity, and governance your organization already runs.\nThe post Azure Databricks delivers proven business value appeared first on Microsoft Azure Blog.",
@@ -114,13 +123,13 @@
         "isNew": false
       },
       {
-        "title": "Frontier models and production agents: Advancing Microsoft Foundry for the agentic era",
-        "link": "https://azure.microsoft.com/en-us/blog/frontier-models-and-production-agents-advancing-microsoft-foundry-for-the-agentic-era/",
-        "summary": "Introducing OpenAI's latest frontier model series, the Asia Pacific Data Zone, and product agent capabilities, all generally available in Microsoft Foundry.\nThe post Frontier models and production agents: Advancing Microsoft Foundry for the agentic era appeared first on Microsoft Azure Blog.",
+        "title": "GPT-5.6 now available in Microsoft Foundry",
+        "link": "https://azure.microsoft.com/en-us/blog/gpt-5-6-now-available-in-microsoft-foundry/",
+        "summary": "Introducing OpenAI's latest frontier model series, the Asia Pacific Data Zone, and product agent capabilities, all generally available in Microsoft Foundry.\nThe post GPT-5.6 now available in Microsoft Foundry  appeared first on Microsoft Azure Blog.",
         "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/06/Azure-Infrastructure-Dark-1-scaled.jpg",
         "source": "Microsoft Azure Blog",
         "published": "2026-07-09T17:00:00.000Z",
-        "isNew": true
+        "isNew": false
       },
       {
         "title": "Built to bounce back: How Azure resiliency evolved",
@@ -166,15 +175,6 @@
         "source": "Microsoft Azure Blog",
         "published": "2026-06-30T16:00:00.000Z",
         "isNew": false
-      },
-      {
-        "title": "Claude in Microsoft Foundry is now generally available",
-        "link": "https://azure.microsoft.com/en-us/blog/claude-in-microsoft-foundry-is-now-generally-available/",
-        "summary": "Claude in Microsoft Foundry is now generally available, hosted on Azure, and running on NVIDIA GB300 Blackwell Ultra, giving teams a faster path from agent experimentation to production.\nThe post Claude in Microsoft Foundry is now generally available appeared first on Microsoft Azure Blog.",
-        "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2025/12/2-24-Sovereignty-Blog_1_v2b-Copy-2.jpg",
-        "source": "Microsoft Azure Blog",
-        "published": "2026-06-29T17:00:00.000Z",
-        "isNew": true
       }
     ],
     "gcp": [
@@ -401,6 +401,15 @@
     ],
     "python": [
       {
+        "title": "Announcing a 2026 PSF Grants Program Funding Round",
+        "link": "https://pyfound.blogspot.com/2026/07/announcing-2026-psf-grants-program.html",
+        "summary": "The Python Software Foundation (PSF) is excited to announce a 2026 PSF Grants Program funding round. This is not a full reopening of the Grants Program as it existed before. Rather, it's what the PSF is able to sustainably offer right now, given where we stand financially and operationally. The PSF Board, PSF Staff, and PSF Grants Work Group (GWG) are deeply passionate about the program and understand how important it is to the Python community. It’s our honor to have the opportunity to disburse grant funding in 2026. \nIn keeping with our focus on sustainability, this round of grant funding has a set budget capped at $90,000 USD, a limited scope, and a different structure and timeline for applying and reviewing. We will be accepting applications from August 4 - 25 AoE, for Conferences and Workshops that are scheduled between December 1, 2026, and April 30, 2027. Our top priority is getting available funds to the regional communities who need it most: those who have had to pause their events and initiatives because of lack of funding from PSF Grants or loss of sponsors.\n\nContext\nAs folks following along with the PSF may remember, the last couple of years have been financially challenging, with the PSF’s assets and yearly revenue declining and costs increasing across the board. At the same time, the demand for our work has continued to multiply. Making the decision to pause the Grants Program last year was difficult, but a necessary step to protect both the future of the…",
+        "image": null,
+        "source": "Python Software Foundation News",
+        "published": "2026-07-28T12:14:47.114Z",
+        "isNew": false
+      },
+      {
         "title": "Announcing Python Software Foundation Fellow Members for Q2 2026! 🎉",
         "link": "https://pyfound.blogspot.com/2026/07/announcing-python-software-foundation.html",
         "summary": "The PSF is pleased to announce its second batch of PSF Fellows for 2026. Let us welcome the new PSF Fellows for Q2! The following people continue to do amazing things for the Python community:\nAndy Terrel\nBlog\nJulius Nana Acheampong Boakye\nLinkedIn, X, GitHub, Website\nPetr Viktorin\nGitHub\nSayantika Banik\nGitHub, LinkedIn, Bluesky\nTakanori Suzuki\nGitHub, Website, LinkedIn, X, Untappd\nThank you for your continued contributions. We have added you to our Fellows Roster.\nThe above members help support the Python ecosystem by being phenomenal leaders, sustaining the growth of the Python scientific community, maintaining virtual Python communities, maintaining Python libraries, creating educational material, organizing Python events and conferences, starting Python communities in local regions, and overall being great mentors in our community. Each of them continues to help make Python more accessible around the world. To learn more about the new Fellow members, check out their links above.\nLet's continue recognizing Pythonistas all over the world for their impact on our community. The criteria for Fellow members is available on our PSF Fellow Membership page. If you would like to nominate someone to be a PSF Fellow, please send a description of their Python accomplishments and their email address to psf-fellow at python.org. We are accepting nominations for Quarter 3 of 2026 through August 20th, 2026.\nAre you a PSF Fellow and want to help the Work Group review nominations? Contact…",
@@ -461,15 +470,6 @@
         "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiA_8v_PYRU1VA1HZbzsh-RJrDuwNFSRv-oegK0kRz8J4S52I1fYBExCEalzinUgwI3mId6e5Jbt3WUfBWCU2POo3HbaoRqIkacDKTX0EK5h6gps9GPYauO6EgR0hYK6LCXqklgdcfV7ve3-FMSZNSQEWIID1VXbJrgdwz4Y_mjXAFaqJOOvA/s72-w482-h253-c/PSF%20D&I%20Workgroup%20Are%20Starting%20Office%20Hours.png",
         "source": "Python Software Foundation News",
         "published": "2026-07-09T18:11:06.805Z",
-        "isNew": false
-      },
-      {
-        "title": "Thinking about running for the PSF Board? Let’s talk!",
-        "link": "https://pyfound.blogspot.com/2026/07/thinking-about-running-for-psf-board.html",
-        "summary": "PSF Board elections are a chance for the community to choose representatives to help the PSF create a vision for and build the future of the Python community. This year, there are 4 seats open on the PSF Board. Check out who is currently on the PSF Board on our website. (Cheuk Ting Ho, Christopher Neugebauer, Denny Perez, and Georgi Ker are at the end of their current terms.)\n\nOffice Hours Information\nThis year, the PSF Board is dedicating a few of their regular Office Hour sessions on the PSF Discord to the topic of the election. This is your chance to connect with current board members to ask questions and learn more about what being a part of the Board entails. \nThe two upcoming Office Hour sessions will be dedicated to the topic of the election:\n\nTuesday, July 14th, 1 PM UTC\nTuesday, August 11th, 9 PM UTC\n\nWe welcome you to join the PSF Discord to participate in Office Hours. The server is moderated by PSF Staff and locked between office hours sessions. If you’re new to Discord, check out some Discord Basics to help you get started. \n\nWho runs for the Board?\nWho runs for the board? People who care about the Python community, who want to see it flourish and grow, and also have a few hours a month to attend regular meetings, serve on committees, participate in conversations, and promote the Python community. We're looking for candidates with a diverse range of skills and backgrounds, including leadership experience, fundraising knowledge, non-profit familiarity, and event…",
-        "image": null,
-        "source": "Python Software Foundation News",
-        "published": "2026-07-02T13:07:22.425Z",
         "isNew": false
       }
     ],
