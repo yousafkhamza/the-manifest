@@ -1,6 +1,6 @@
 {
   "date": "2026-07-29",
-  "generatedAt": "2026-07-29T07:59:48.667Z",
+  "generatedAt": "2026-07-29T13:09:55.532Z",
   "totalArticles": 72,
   "ticker": [
     {
@@ -111,7 +111,7 @@
         "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/10/CLO20b_Jean_Alain_casual_office_003.jpg",
         "source": "Microsoft Azure Blog",
         "published": "2026-07-27T15:00:00.000Z",
-        "isNew": true
+        "isNew": false
       },
       {
         "title": "AT&T and Microsoft scale trillion-token workloads with Microsoft Foundry and AMD",
@@ -120,7 +120,7 @@
         "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2027/06/FY26AE-Azure-Composite-DeepBlue-006-H.jpg",
         "source": "Microsoft Azure Blog",
         "published": "2026-07-23T18:30:00.000Z",
-        "isNew": true
+        "isNew": false
       },
       {
         "title": "Azure Databricks delivers proven business value",
@@ -138,7 +138,7 @@
         "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/06/Azure-Infrastructure-Dark-1-scaled.jpg",
         "source": "Microsoft Azure Blog",
         "published": "2026-07-09T17:00:00.000Z",
-        "isNew": true
+        "isNew": false
       },
       {
         "title": "Built to bounce back: How Azure resiliency evolved",
@@ -178,6 +178,15 @@
       }
     ],
     "gcp": [
+      {
+        "title": "July 29, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#July_29_2026",
+        "summary": "Google SecOps\nFeature\nView prebuilt parser version content\nYou can now view the prebuilt parser preview version content even if you are using a custom parser for the same log type. Although the prebuilt parser version is inactive, you can still see the content of the new preview version for this parser.\nGoogle SecOps SIEM\nFeature\nView prebuilt parser version content\nYou can now view the prebuilt parser preview version content even if you are using a custom parser for the same log type. Although the prebuilt parser version is inactive, you can still see the content of the new preview version for this parser.",
+        "image": null,
+        "source": "Google Cloud Platform (GCP) - Release notes",
+        "published": "2026-07-29T07:00:00.000Z",
+        "isNew": false
+      },
       {
         "title": "July 28, 2026",
         "link": "https://docs.cloud.google.com/release-notes#July_28_2026",
@@ -239,15 +248,6 @@
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-07-22T07:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "July 21, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#July_21_2026",
-        "summary": "Anthos Attached Clusters\nAnnouncement\nYou can now launch clusters with the following Kubernetes versions. Click on the following links to see the release notes associated with these patches:\n1.35.0-gke.1\n1.34.0-gke.2\n1.33.0-gke.3\nAnthos clusters on AWS\nAnnouncement\nYou can now launch clusters with the following Kubernetes versions. Click on the following links to see the release notes associated with these patches:\n1.35.3-gke.300\n1.34.6-gke.200\n1.33.10-gke.200\nAnthos clusters on Azure\nAnnouncement\nYou can now launch clusters with the following Kubernetes versions. Click on the following links to see the release notes associated with these patches:\n1.35.3-gke.300\n1.34.6-gke.200\n1.33.10-gke.200\nBinary Authorization\nFeature\nTo provide long-term security and address threats from future quantum computers,\nBinary Authorization supports keys that use post-quantum cryptography (PQC)\nalgorithms. These algorithms, such as ML-DSA-65 (Dilithium3), are standardized\nto be resistant to attacks from both classical and quantum computers. To learn how\nto generate a PQC key pair and create an attestor, see\nCreate post-quantum cryptography (PQC) keys.\nCloud Service Mesh\nFeature\nThe Envoy Lua Filter\nis now available as a preview feature in the stable release channel.\nCloud Tasks\nFeature\nCloud Tasks support for the following is available in\nPreview:\nSet retry parameters when creating a task\nand override the queue-level retry configuration for the task.\nCreate a batch of tasks\nand add the batch to…",
-        "image": null,
-        "source": "Google Cloud Platform (GCP) - Release notes",
-        "published": "2026-07-21T07:00:00.000Z",
         "isNew": false
       }
     ],
