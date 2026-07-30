@@ -1,6 +1,6 @@
 {
   "date": "2026-07-30",
-  "generatedAt": "2026-07-30T07:43:08.739Z",
+  "generatedAt": "2026-07-30T12:55:54.711Z",
   "totalArticles": 72,
   "ticker": [
     {
@@ -111,7 +111,7 @@
         "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/10/CLO20b_Jean_Alain_casual_office_003.jpg",
         "source": "Microsoft Azure Blog",
         "published": "2026-07-27T15:00:00.000Z",
-        "isNew": true
+        "isNew": false
       },
       {
         "title": "AT&T and Microsoft scale trillion-token workloads with Microsoft Foundry and AMD",
@@ -259,7 +259,7 @@
         "image": "https://kubernetes.io/blog/2026/07/29/controller-runtime-cache-explained/pipeline.svg",
         "source": "Kubernetes Blog",
         "published": "2026-07-29T18:00:00.000Z",
-        "isNew": true
+        "isNew": false
       },
       {
         "title": "Building a Custom Metrics Exporter for Kubernetes",
@@ -333,7 +333,7 @@
         "image": "https://avatars.githubusercontent.com/u/82989873?s=60&v=4",
         "source": "Release notes from terraform",
         "published": "2026-07-29T19:38:27.000Z",
-        "isNew": true
+        "isNew": false
       },
       {
         "title": "v1.16.0-beta1",
