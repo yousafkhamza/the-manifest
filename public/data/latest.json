@@ -1,6 +1,6 @@
 {
   "date": "2026-07-31",
-  "generatedAt": "2026-07-31T13:07:32.057Z",
+  "generatedAt": "2026-07-31T18:45:11.919Z",
   "totalArticles": 72,
   "ticker": [
     {
@@ -179,6 +179,15 @@
     ],
     "gcp": [
       {
+        "title": "July 31, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#July_31_2026",
+        "summary": "Datastream\nFeature\nYou can now replicate change data from Workday with Datastream.\nFor more information, see\nStream data from Workday.\nThis feature is in\nPreview.",
+        "image": null,
+        "source": "Google Cloud Platform (GCP) - Release notes",
+        "published": "2026-07-31T07:00:00.000Z",
+        "isNew": false
+      },
+      {
         "title": "July 30, 2026",
         "link": "https://docs.cloud.google.com/release-notes#July_30_2026",
         "summary": "BigQuery\nFeature\nYou can add tables, views, data sources, and data quality tests as tasks to\nBigQuery pipelines. For more information, see\nAdd a pipeline task.\nThis feature is\ngenerally available.\nFeature\nYou can audit when users download query results by using the BigQuery\nconsole. Data Access audit logs for the tabledata.list method now include a\nuiDownloadRequest\nfield to indicate whether the request was triggered by a UI download.\nThis feature is\ngenerally available\n(GA).\nBigtable\nFeature\nYou can use Bigtable as a remote storage backend for\nLMCache. By\nstoring the large language model (LLM) key-value (KV) cache externally in\nBigtable, multiple AI serving instances can share and reuse precomputed\nattention tensors. This reduces compute overhead and significantly improves\ntime-to-first-token (TTFT) for repeated prompts and shared documents. This\nfeature is in Preview.\nCortex Framework\nAnnouncement\nRelease 7.0.0-GA (General Availability)\nNote: Important upgrade considerations for Version 7\n\nUpgrading from v6: Because v7 is a new major version it implies breaking changes with no automatic migration path. For v6 customers looking to adopt v7, we provide v6 compatibility content for SAP reporting.\nUpgrading from a v7 Preview: Due to configuration model improvements, you must recreate your configuration files and re-deploy\nFeature\nGoogle Cloud Cortex Framework version 7 is now generally available. Version 7 introduces a modular deployment architecture, simplified data…",
@@ -199,7 +208,7 @@
       {
         "title": "July 28, 2026",
         "link": "https://docs.cloud.google.com/release-notes#July_28_2026",
-        "summary": "AlloyDB for PostgreSQL\nFeature\nNote: IAM group authentication is available in Preview\nfor new AlloyDB clusters. To enable this feature on an existing cluster,\ncontact your Google Cloud account team.\nIAM group authentication for AlloyDB is available in Preview for new clusters running PostgreSQL 15 and later. This feature simplifies database user management by allowing access management at the group level, where group members inherit database roles and permissions. To use this feature, enable the alloydb.iam_authentication and alloydb.iam_group_authentication database flags.\nFor more information, see IAM group authentication and Manage IAM authentication.\nCloud SDK\nBreaking\n578.0.0 (2026-07-28)\nBreaking Changes\n(Database Migration) Made --auto-commit flag the default for gcloud database-migration\nconversion-workspaces seed|convert|import-rules operations. To disable\nauto-committing, use --no-auto-commit flag.\nGoogle Cloud CLI\nFixed an issue where running gcloud init crashed when Enterprise Certificate Proxy (ECP) binaries were missing from configuration.\nUpdated macOS Python Virtualenv for the gcloud CLI to 3.14.6.\nAlloyDB\nPromote AlloyDB Backup DR restore flags (--backupdr-backup and --backupdr-data-source) to the GA track.\nBigLake\nFixed a bug where gcloud biglake iceberg tables commands failed to send the X-Iceberg-Access-Delegation: vended-credentials header.\nBigQuery\nAdded -f/--force support to bq rm --connection to ignore NOT_FOUND\nerrors if the connection does not…",
+        "summary": "AlloyDB for PostgreSQL\nFeature\nNote: IAM group authentication is available in Preview\nfor new AlloyDB clusters. To enable this feature on an existing cluster,\ncontact your Google Cloud account team.\nIAM group authentication for AlloyDB is available in Preview for new clusters running PostgreSQL 15 and later. This feature simplifies database user management by allowing access management at the group level, where group members inherit database roles and permissions. To use this feature, enable the alloydb.iam_authentication and alloydb.iam_group_authentication database flags.\nFor more information, see IAM group authentication and Manage IAM authentication.\nCompute Engine\nFeature\nHyperdisk Balanced volumes on C4D instances have increased maximum throughput\nlimits for these machine types:\nc4d-*-96: 3,125 MiB/s (up from 2,800 MiB/s).\nc4d-*-192: 6,250 MiB/s (up from 4,800 MiB/s).\nc4d-*-384: 12,500 MiB/s (up from 10,000 MiB/s).\nFor detailed performance limits, see\nHyperdisk Balanced performance limits when attached to an instance.\nConfidential VM\nIssue\nStarting August 2026, Confidential VM instances using AMD SEV-SNP might\nhave longer boot times and performance changes due to a guest\nkernel migration and security updates. This issue is expected to be resolved\nby November 2026. Confidential VM instances using AMD SEV or Intel TDX aren't\naffected.\nContainer Optimized OS\nChange\ncos-129-19506-299-60 \nKernel\nDocker\nContainerd\nGPU Drivers\n\n\nCOS-6.12.94\nv27.5.1\nv2.2.5\nSee List\n\n\nFixed…",
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-07-28T07:00:00.000Z",
@@ -240,18 +249,18 @@
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-07-24T07:00:00.000Z",
         "isNew": false
-      },
-      {
-        "title": "July 23, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#July_23_2026",
-        "summary": "Agent Registry\nFeature\nAgent skill governance is available in Preview.\nAgent Registry supports standalone skill governance, helping enable secure, enterprise-level management and governance of standalone skills for AI agents. You can register skill resources, upload and validate ZIP payload packages, track version history through immutable skill revisions, and review verified skill publishers.\nThis release includes the following features:\nLifecycle and versioning: Register and manage standalone Skill resources, lifecycle states, and version snapshots (SkillRevision).\nConsole support: A dedicated Skills tab in Google Cloud Console to register, update, download, and monitor skills and revisions.\nAccess policy enforcement: Use policy bindings to authorize reasoning engine agents to load standalone skills.\nSemantic search: Query the registry to search and discover standalone skills.\nFor more information, see Register skills and Manage skills.\nAlloyDB for PostgreSQL\nFeature\nTransparent query forwarding is now available in\nPreview for clusters compatible with PostgreSQL 17 and 18. With this\nfeature, the primary node in a cluster intercepts read-only queries and\nselectively forwards them to read pool instances while maintaining\nread-your-writes consistency.\nFor more information, see Optimize resources and isolate read queries with transparent query forwarding.\nApigee hybrid\nAnnouncement\nv1.14.7\nOn July 23, 2026 we released an updated version of the Apigee hybrid software, v1.14.7.…",
-        "image": null,
-        "source": "Google Cloud Platform (GCP) - Release notes",
-        "published": "2026-07-23T07:00:00.000Z",
-        "isNew": false
       }
     ],
     "kubernetes": [
+      {
+        "title": "Kubernetes v1.37 Sneak Peek",
+        "link": "https://kubernetes.io/blog/2026/07/31/kubernetes-v1-37-sneak-peek/",
+        "summary": "As we get closer to the release date for Kubernetes v1.37, the project develops and matures,\nfeatures may be deprecated, removed, or replaced with better ones for the project's overall\nhealth. This blog outlines some of the planned changes for the Kubernetes v1.37 release that the\nrelease team feels you should be aware of for the continued maintenance of your Kubernetes\nenvironment and keeping up to date with the latest changes. The information below reflects the\ncurrent status of the v1.37 release and may change before the actual release date.\nDeprecations and removals for Kubernetes v1.37\nKubectl: kubectl run --filename/-f to be deprecated\nThe --filename (or -f) flag for kubectl run is being deprecated as the generated pod is always built purely from CLI arguments like NAME and --image.\nSee kubernetes/kubernetes#138671 for the original issue and discussion.\nKubelet: Static Pods can no longer reference Secrets or ConfigMaps\nStatic Pods were never meant to read API resources directly, since they aren't created through the API server — but a bug let them reference Secrets or ConfigMaps via fields like configMapRef or secretRef. That bug is now fixed: as of v1.37 these references are strictly prohibited, and the PreventStaticPodAPIReferences feature gate that previously let you opt out of the restriction has been removed.\nSee kubernetes/kubernetes#140226 for the original issue and discussion.\nDeprecating kube-proxy's support for ipvs mode\nkube-proxy support for ipvs mode was…",
+        "image": null,
+        "source": "Kubernetes Blog",
+        "published": "2026-07-31T16:00:00.000Z",
+        "isNew": false
+      },
       {
         "title": "How the controller-runtime Cache Actually Works, and Why Your Controller Does Not Crash the API Server",
         "link": "https://kubernetes.io/blog/2026/07/29/controller-runtime-cache-explained/",
@@ -313,15 +322,6 @@
         "image": "https://kubernetes.io/blog/2026/06/25/headlamp-cluster-api-plugin/cluster-api-dashboard.png",
         "source": "Kubernetes Blog",
         "published": "2026-06-25T22:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "Inspect Volcano workloads faster with Headlamp",
-        "link": "https://kubernetes.io/blog/2026/06/25/visual-context-volcano-headlamp-plugin/",
-        "summary": "Volcano is a cloud native batch scheduler for Kubernetes, built for high-performance computing, AI/ML, and other batch workloads.\nHeadlamp is an extensible Kubernetes web UI. With its plugin system, Headlamp can surface APIs and workflows beyond the built-in Kubernetes resources. The Volcano plugin brings core Volcano resources into Headlamp so you can inspect workload state, queue behavior, and gang scheduling details in one place.\nKubernetes was originally designed around long-running services, where applications are expected to start and remain available over time. Batch, AI/ML, and HPC workloads often behave differently: jobs arrive dynamically, compete for limited resources, and may need multiple workers to start together before useful work can begin.\nVolcano extends Kubernetes with concepts such as queues, priorities, quotas, and gang scheduling. Instead of treating every Pod independently, Volcano schedules workloads with awareness of the job as a whole and the resources it needs to make progress.\nTo make these workloads easier to operate and troubleshoot, the Volcano plugin brings that scheduling context directly into Headlamp.\nWatch this short walkthrough to see the Volcano plugin in Headlamp:\n\n\nVisual context helps teams understand Volcano jobs, queues, and PodGroups faster\nWorking with Volcano often means moving across several related resources while trying to understand a batch workload. You might start with a Job, then look at the related PodGroup, inspect the…",
-        "image": "https://kubernetes.io/blog/2026/06/25/visual-context-volcano-headlamp-plugin/volcano-jobs-list.png",
-        "source": "Kubernetes Blog",
-        "published": "2026-06-25T20:00:00.000Z",
         "isNew": false
       }
     ],
