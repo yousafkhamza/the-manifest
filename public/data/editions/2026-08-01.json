@@ -1,6 +1,6 @@
 {
   "date": "2026-08-01",
-  "generatedAt": "2026-08-01T07:38:12.921Z",
+  "generatedAt": "2026-08-01T12:14:47.348Z",
   "totalArticles": 72,
   "ticker": [
     {
@@ -179,6 +179,15 @@
     ],
     "gcp": [
       {
+        "title": "August 01, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#August_01_2026",
+        "summary": "Google SecOps SOAR\nAnnouncement\nRelease 6.3.95 is now\navailable for all regions.",
+        "image": null,
+        "source": "Google Cloud Platform (GCP) - Release notes",
+        "published": "2026-08-01T07:00:00.000Z",
+        "isNew": false
+      },
+      {
         "title": "July 31, 2026",
         "link": "https://docs.cloud.google.com/release-notes#July_31_2026",
         "summary": "Apigee hybrid\nAnnouncement\nv1.15.7\nOn July 31, 2026 we released an updated version of the Apigee hybrid software, v1.15.7.\nFor information on upgrading, see Upgrading Apigee hybrid to version v1.15.7.\nFor information on new installations, see The big picture.\nNote: This is a patch release: The container images used in patch releases are integrated with the Apigee hybrid Helm charts. Upgrading to a patch via the Helm chart automatically updates the images. No manual image changes are typically needed. For information on container image support in Apigee hybrid releases, see Apigee release process.\nFeature\nRuntime rollout strategy configuration\nIn this release, you can configure the rollout strategy used when updating runtime (message processor) ReplicaSets by setting the runtime.release.strategy property (with options rolling, scale-down-first, or none) or per-environment with envs[].components.runtime.release.strategy in your overrides configuration file. The property defaults to rolling.\nSecurity\nVarious security and CVE fixes are included in this release.\nCloud Load Balancing\nFeature\nCloud Load Balancing introduces a new version of the Network Load\nBalancer—the global external passthrough Network Load Balancer, which is the global variant of the\nregional external passthrough Network Load Balancer. The load balancer is available in Preview.\nThis load balancer variant solves use cases for Security Service Edge (SSE), DNS\nhosting, Adtech (real-time bidding), real-time…",
@@ -239,15 +248,6 @@
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-07-25T07:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "July 24, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#July_24_2026",
-        "summary": "Apigee API hub\nFeature\nGeneral availability (GA) launch of Model Context Protocol (MCP) in API hub\nThe API hub MCP server is Generally Available (GA). This release enables seamless integration between your AI agents and API hub, allowing your applications to discover, query, and manage your API ecosystem using natural language.\nWhat's new in GA\nExpanded read and write capabilities: AI agents can create, update, and delete APIs, versions, specs, and deployments. They can also configure and deploy MCP discovery proxies in Apigee.\nGlobal endpoint routing: Connect to the API hub MCP server using the global endpoint (apihub.googleapis.com/mcp), in addition to the supported regional endpoints. For a list of supported regions, see the API hub MCP reference.\nGranular OAuth scopes: Use service-specific OAuth scopes (apihub.readonly and apihub.readwrite) for more secure access.\nModel Armor integration: Protect MCP tool invocations from prompt-injection and other attacks by integrating with Model Armor.\nFor configuration details and a complete list of available tools, see API hub MCP reference.\nFeature\nConfigure and deploy MCP servers with API hub RPC\nAPI hub now includes a new RPC, ConfigureAndDeployServer, which enables the configuration and deployment of Model Context Protocol (MCP) servers directly to an Apigee runtime.\nFor more information, see Manage MCP proxies and the API hub reference.\nApigee hybrid\nAnnouncement\nv1.16.8\nOn July 24, 2026 we released an updated version of the…",
-        "image": null,
-        "source": "Google Cloud Platform (GCP) - Release notes",
-        "published": "2026-07-24T07:00:00.000Z",
         "isNew": false
       }
     ],
