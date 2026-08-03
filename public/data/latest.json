@@ -1,6 +1,6 @@
 {
   "date": "2026-08-03",
-  "generatedAt": "2026-08-03T08:42:18.973Z",
+  "generatedAt": "2026-08-03T13:49:05.429Z",
   "totalArticles": 72,
   "ticker": [
     {
@@ -25,7 +25,7 @@
     },
     {
       "label": "Node.js",
-      "version": "v26.5.1"
+      "version": "v26.6.0"
     }
   ],
   "topics": {
@@ -179,13 +179,22 @@
     ],
     "gcp": [
       {
+        "title": "August 03, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#August_03_2026",
+        "summary": "Cloud Workstations\nChange\nUpdated the following\nJetBrains preconfigured base images\nto version 2026.x:\nCLion 2026.1\nGoLand 2026.2\nIntelliJ Ultimate 2026.1\nPhpStorm 2026.2\nWebStorm 2026.1\nRubyMine 2026.1\nPyCharm 2026.1\nRider 2026.1",
+        "image": null,
+        "source": "Google Cloud Platform (GCP) - Release notes",
+        "published": "2026-08-03T07:00:00.000Z",
+        "isNew": false
+      },
+      {
         "title": "August 02, 2026",
         "link": "https://docs.cloud.google.com/release-notes#August_02_2026",
-        "summary": "Google SecOps\nAnnouncement\nScheduled Maintenance\nSOAR database and infrastructure maintenance is scheduled to take place during\nthe standard maintenance window on August 2. During this window, environments\nwill experience a brief period of downtime. No customer action is required.\nGoogle SecOps SOAR\nAnnouncement\nRelease 6.3.96 is being rolled out to the first phase of regions as listed\nhere.\nThis release contains internal and customer bug fixes.\nAnnouncement\nScheduled Maintenance\nSOAR database and infrastructure maintenance is scheduled to take place during\nthe standard maintenance window on August 2. During this window, environments\nwill experience a brief period of downtime. No customer action is required.",
+        "summary": "Google SecOps SOAR\nAnnouncement\nRelease 6.3.96 is being rolled out to the first phase of regions as listed\nhere.\nThis release contains internal and customer bug fixes.",
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-08-02T07:00:00.000Z",
-        "isNew": true
+        "isNew": false
       },
       {
         "title": "August 01, 2026",
@@ -239,15 +248,6 @@
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-07-27T07:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "July 26, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#July_26_2026",
-        "summary": "Google SecOps\nFeature\nCustomizable schedules for multi-event rules\nCustomizable schedules for multi-event rules are available in public preview. You can customize rule execution schedules on the Rule schedule tab to specify a first-run delay offset that accounts for data ingestion latency. The system also performs automated background true-up runs to catch late-arriving logs and process metadata enrichment without requiring manual system interventions. This gives you precise control over detection evaluation timing, reduces false negatives without missing detections, and promotes alert accuracy.\nTo view or modify rule schedules using custom Identity and Access Management (IAM) roles, update your IAM permissions to include the following:\nchronicle.ruleDeployments.update to update individual rule schedules using the API.\nchronicle.rules.modifyRules to modify rule schedules using the web interface or in batch using the API.\nIf you use predefined IAM roles, such as Chronicle API Admin (roles/chronicle.admin) or Chronicle API Editor (roles/chronicle.editor), these permissions are included automatically.\nFeature\n[Spotlight Feature] Investigation and case management experience\nThis feature is in public preview. Google SecOps now includes a revamped\nInvestigation Management experience that supports tracking raw UDM events and\ndetections alongside alerts to accommodate new investigation types (such as\nretrohunt and threat hunt) and higher investigation volumes in cases. You can…",
-        "image": null,
-        "source": "Google Cloud Platform (GCP) - Release notes",
-        "published": "2026-07-26T07:00:00.000Z",
         "isNew": false
       }
     ],
