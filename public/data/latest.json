@@ -1,6 +1,6 @@
 {
-  "date": "2026-08-02",
-  "generatedAt": "2026-08-02T18:10:46.165Z",
+  "date": "2026-08-03",
+  "generatedAt": "2026-08-03T08:42:18.973Z",
   "totalArticles": 72,
   "ticker": [
     {
@@ -179,6 +179,15 @@
     ],
     "gcp": [
       {
+        "title": "August 02, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#August_02_2026",
+        "summary": "Google SecOps\nAnnouncement\nScheduled Maintenance\nSOAR database and infrastructure maintenance is scheduled to take place during\nthe standard maintenance window on August 2. During this window, environments\nwill experience a brief period of downtime. No customer action is required.\nGoogle SecOps SOAR\nAnnouncement\nRelease 6.3.96 is being rolled out to the first phase of regions as listed\nhere.\nThis release contains internal and customer bug fixes.\nAnnouncement\nScheduled Maintenance\nSOAR database and infrastructure maintenance is scheduled to take place during\nthe standard maintenance window on August 2. During this window, environments\nwill experience a brief period of downtime. No customer action is required.",
+        "image": null,
+        "source": "Google Cloud Platform (GCP) - Release notes",
+        "published": "2026-08-02T07:00:00.000Z",
+        "isNew": true
+      },
+      {
         "title": "August 01, 2026",
         "link": "https://docs.cloud.google.com/release-notes#August_01_2026",
         "summary": "Google SecOps SOAR\nAnnouncement\nRelease 6.3.95 is now\navailable for all regions.",
@@ -239,15 +248,6 @@
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-07-26T07:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "July 25, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#July_25_2026",
-        "summary": "Google SecOps SOAR\nAnnouncement\nRelease 6.3.94 is now\navailable for all regions.",
-        "image": null,
-        "source": "Google Cloud Platform (GCP) - Release notes",
-        "published": "2026-07-25T07:00:00.000Z",
         "isNew": false
       }
     ],

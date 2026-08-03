@@ -1,6 +1,6 @@
 {
-  "date": "2026-07-27",
-  "generatedAt": "2026-07-27T20:36:32.536Z",
+  "date": "2026-08-03",
+  "generatedAt": "2026-08-03T08:42:18.973Z",
   "totalArticles": 72,
   "ticker": [
     {
@@ -25,7 +25,7 @@
     },
     {
       "label": "Node.js",
-      "version": "v26.5.0"
+      "version": "v26.5.1"
     }
   ],
   "topics": {
@@ -105,6 +105,15 @@
     ],
     "azure": [
       {
+        "title": "What customers value most in Microsoft Databases—from reliability to AI readiness",
+        "link": "https://azure.microsoft.com/en-us/blog/what-customers-value-most-in-microsoft-databases-from-reliability-to-ai-readiness/",
+        "summary": "Every day, customers trust Microsoft Databases to power their most critical applications, business processes, and AI-powered experiences.\nThe post What customers value most in Microsoft Databases—from reliability to AI readiness appeared first on Microsoft Azure Blog.",
+        "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/10/CLO20b_Jean_Alain_casual_office_003.jpg",
+        "source": "Microsoft Azure Blog",
+        "published": "2026-07-27T15:00:00.000Z",
+        "isNew": false
+      },
+      {
         "title": "AT&T and Microsoft scale trillion-token workloads with Microsoft Foundry and AMD",
         "link": "https://azure.microsoft.com/en-us/blog/att-and-microsoft-scale-trillion-token-workloads-with-microsoft-foundry-and-amd/",
         "summary": "AT&T processed approximately one trillion tokens while developing OTel2.0 using Microsoft Foundry Managed Compute, open AI models, and AMD and NVIDIA GPU infrastructure. Discover how flexible model choice and scalable infrastructure are enabling production-scale telecom AI.\nThe post AT&T and Microsoft scale trillion-token workloads with Microsoft Foundry and AMD appeared first on Microsoft Azure Blog.",
@@ -166,22 +175,67 @@
         "source": "Microsoft Azure Blog",
         "published": "2026-07-01T16:00:00.000Z",
         "isNew": false
-      },
-      {
-        "title": "Azure IaaS: How to design, build, and optimize cloud infrastructure for long-term cost efficiency",
-        "link": "https://azure.microsoft.com/en-us/blog/azure-iaas-how-to-design-build-and-optimize-cloud-infrastructure-for-long-term-cost-optimization-efficiency/",
-        "summary": "As organizations modernize infrastructure, migrate mission-critical workloads, build cloud-native applications, and scale AI—cost efficiency remains a foundational principle of cloud architectures.\nThe post Azure IaaS: How to design, build, and optimize cloud infrastructure for long-term cost efficiency appeared first on Microsoft Azure Blog.",
-        "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/06/Azure-DevTools-Dark-1-scaled.jpg",
-        "source": "Microsoft Azure Blog",
-        "published": "2026-06-30T16:00:00.000Z",
-        "isNew": false
       }
     ],
     "gcp": [
       {
+        "title": "August 02, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#August_02_2026",
+        "summary": "Google SecOps\nAnnouncement\nScheduled Maintenance\nSOAR database and infrastructure maintenance is scheduled to take place during\nthe standard maintenance window on August 2. During this window, environments\nwill experience a brief period of downtime. No customer action is required.\nGoogle SecOps SOAR\nAnnouncement\nRelease 6.3.96 is being rolled out to the first phase of regions as listed\nhere.\nThis release contains internal and customer bug fixes.\nAnnouncement\nScheduled Maintenance\nSOAR database and infrastructure maintenance is scheduled to take place during\nthe standard maintenance window on August 2. During this window, environments\nwill experience a brief period of downtime. No customer action is required.",
+        "image": null,
+        "source": "Google Cloud Platform (GCP) - Release notes",
+        "published": "2026-08-02T07:00:00.000Z",
+        "isNew": true
+      },
+      {
+        "title": "August 01, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#August_01_2026",
+        "summary": "Google SecOps SOAR\nAnnouncement\nRelease 6.3.95 is now\navailable for all regions.",
+        "image": null,
+        "source": "Google Cloud Platform (GCP) - Release notes",
+        "published": "2026-08-01T07:00:00.000Z",
+        "isNew": false
+      },
+      {
+        "title": "July 31, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#July_31_2026",
+        "summary": "Apigee hybrid\nAnnouncement\nv1.15.7\nOn July 31, 2026 we released an updated version of the Apigee hybrid software, v1.15.7.\nFor information on upgrading, see Upgrading Apigee hybrid to version v1.15.7.\nFor information on new installations, see The big picture.\nNote: This is a patch release: The container images used in patch releases are integrated with the Apigee hybrid Helm charts. Upgrading to a patch via the Helm chart automatically updates the images. No manual image changes are typically needed. For information on container image support in Apigee hybrid releases, see Apigee release process.\nFeature\nRuntime rollout strategy configuration\nIn this release, you can configure the rollout strategy used when updating runtime (message processor) ReplicaSets by setting the runtime.release.strategy property (with options rolling, scale-down-first, or none) or per-environment with envs[].components.runtime.release.strategy in your overrides configuration file. The property defaults to rolling.\nSecurity\nVarious security and CVE fixes are included in this release.\nCloud Load Balancing\nFeature\nCloud Load Balancing introduces a new version of the Network Load\nBalancer—the global external passthrough Network Load Balancer, which is the global variant of the\nregional external passthrough Network Load Balancer. The load balancer is available in Preview.\nThis load balancer variant solves use cases for Security Service Edge (SSE), DNS\nhosting, Adtech (real-time bidding), real-time…",
+        "image": null,
+        "source": "Google Cloud Platform (GCP) - Release notes",
+        "published": "2026-07-31T07:00:00.000Z",
+        "isNew": false
+      },
+      {
+        "title": "July 30, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#July_30_2026",
+        "summary": "BigQuery\nFeature\nYou can add tables, views, data sources, and data quality tests as tasks to\nBigQuery pipelines. For more information, see\nAdd a pipeline task.\nThis feature is\ngenerally available.\nFeature\nYou can audit when users download query results by using the BigQuery\nconsole. Data Access audit logs for the tabledata.list method now include a\nuiDownloadRequest\nfield to indicate whether the request was triggered by a UI download.\nThis feature is\ngenerally available\n(GA).\nBigtable\nFeature\nYou can use Bigtable as a remote storage backend for\nLMCache. By\nstoring the large language model (LLM) key-value (KV) cache externally in\nBigtable, multiple AI serving instances can share and reuse precomputed\nattention tensors. This reduces compute overhead and significantly improves\ntime-to-first-token (TTFT) for repeated prompts and shared documents. This\nfeature is in Preview.\nConfig Connector\nAnnouncement\nConfig Connector version 1.154.1 is now available.\nFeature\nNew Alpha Resources (Direct Reconciler):\nApigeeApiProduct\n\nManage Apigee API products to bundle APIs and make them available to developers.\n\nApigeeRegistryApi\n\nManage Apigee Registry APIs to catalog and manage APIs.\n\nApigeeRegistryArtifact\n\nManage Apigee Registry artifacts associated with APIs, versions, or specs.\n\nAPIHubExternalAPI\n\nManage API Hub external APIs to track APIs hosted outside of Google Cloud.\n\nAPIHubInstance\n\nManage API Hub instances to enable enterprise API management.\n\nAppOptimizeReport\n\nManage App Hub…",
+        "image": null,
+        "source": "Google Cloud Platform (GCP) - Release notes",
+        "published": "2026-07-30T07:00:00.000Z",
+        "isNew": false
+      },
+      {
+        "title": "July 29, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#July_29_2026",
+        "summary": "App Engine standard environment Go\nFeature\nSupport for enabling only needed legacy bundled services using the\napp_engine_bundled_services\nfield is in General Availability.\nApp Engine standard environment Java\nFeature\nSupport for enabling only needed legacy bundled services using the\napp_engine_bundled_services\nfield is in General Availability.\nApp Engine standard environment PHP\nFeature\nSupport for enabling only needed legacy bundled services using the\napp_engine_bundled_services\nfield is in General Availability.\nApp Engine standard environment Python\nFeature\nSupport for enabling only needed legacy bundled services using the\napp_engine_bundled_services\nfield is in General Availability.\nBigQuery\nFeature\nThe BigQuery Data Transfer Service now supports incremental data transfers\nwhen transferring data from Klaviyo to BigQuery. This feature is supported in\nPreview.\nBigtable\nFeature\nYou can use the Google Cloud console to manage row key schemas\nfor your Bigtable tables. This feature is in Preview.\nCloud Key Management Service\nFeature\nCloud KMS Autokey with same-project key storage (formerly known as Autokey for\ndelegated key management) is generally available. Autokey with same-project key\nstorage can be used on its own or alongside Autokey with dedicated-project key\nstorage (formerly known as Autokey for centralized key management).\nFor more information, see Enable Cloud KMS Autokey.\nTo learn how to set guardrails to constrain how Autokey is used in your\norganization, see…",
+        "image": null,
+        "source": "Google Cloud Platform (GCP) - Release notes",
+        "published": "2026-07-29T07:00:00.000Z",
+        "isNew": false
+      },
+      {
+        "title": "July 28, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#July_28_2026",
+        "summary": "AlloyDB for PostgreSQL\nFeature\nNote: IAM group authentication is available in Preview\nfor new AlloyDB clusters. To enable this feature on an existing cluster,\ncontact your Google Cloud account team.\nIAM group authentication for AlloyDB is available in Preview for new clusters running PostgreSQL 15 and later. This feature simplifies database user management by allowing access management at the group level, where group members inherit database roles and permissions. To use this feature, enable the alloydb.iam_authentication and alloydb.iam_group_authentication database flags.\nFor more information, see IAM group authentication and Manage IAM authentication.\nCompute Engine\nFeature\nHyperdisk Balanced volumes on C4D instances have increased maximum throughput\nlimits for these machine types:\nc4d-*-96: 3,125 MiB/s (up from 2,800 MiB/s).\nc4d-*-192: 6,250 MiB/s (up from 4,800 MiB/s).\nc4d-*-384: 12,500 MiB/s (up from 10,000 MiB/s).\nFor detailed performance limits, see\nHyperdisk Balanced performance limits when attached to an instance.\nConfidential VM\nIssue\nStarting August 2026, Confidential VM instances using AMD SEV-SNP might\nhave longer boot times and performance changes due to a guest\nkernel migration and security updates. This issue is expected to be resolved\nby November 2026. Confidential VM instances using AMD SEV or Intel TDX aren't\naffected.\nContainer Optimized OS\nChange\ncos-129-19506-299-60 \nKernel\nDocker\nContainerd\nGPU Drivers\n\n\nCOS-6.12.94\nv27.5.1\nv2.2.5\nSee List\n\n\nFixed…",
+        "image": null,
+        "source": "Google Cloud Platform (GCP) - Release notes",
+        "published": "2026-07-28T07:00:00.000Z",
+        "isNew": false
+      },
+      {
         "title": "July 27, 2026",
         "link": "https://docs.cloud.google.com/release-notes#July_27_2026",
-        "summary": "AlloyDB for PostgreSQL\nFeature\nAlloyDB now supports cross-region failover in\nPreview. You can\noptionally enable cross-region failover to automate the recreation of the\noriginal primary when a secondary cluster is promoted while maintaining your\nreplication topology without requiring manual cluster deletion or re-creation.\nCross-region failover is supported only for topologies with a single primary\ncluster and a single secondary cluster.\nFor more information, see About cross-region\nreplication\nand Work with cross-region\nreplication.\nFeature\nExternal search with AlloyDB now supports OpenSearch in Preview.\nYou can use the external_search_fdw extension to connect to an OpenSearch cluster and query its data directly from your database.\nApp Engine flexible environment Node.js\nFeature\nSupport for the Node.js 26 runtime is in Preview.\nBigQuery\nFeature\nYou can discover commercial BigQuery sharing listings on Google Cloud Marketplace with the Marketplace filter. For more information, see Subscribe to a Cloud Marketplace-integrated listing.\nThis feature is\ngenerally available (GA).\nFeature\nYou can use the APPENDS and CHANGES change history functions\nto view the rows that were appended to or changed in a table during a given time\nrange. This feature is\ngenerally available\n(GA).\nCloud NGFW\nBreaking\nEnabling WildFire in an existing firewall endpoint can cause a temporary\ndata plane outage. As a result, the WildFire feature is temporarily removed.\nCloud Run\nFeature\nSupport for the Node.js…",
+        "summary": "AlloyDB for PostgreSQL\nFeature\nAlloyDB write endpoints are now available in\nPreview.\nWrite endpoints simplify database connection management by providing a stable\ndomain name service (DNS) name for your applications, decoupling them from\ninstance IP addresses. During disaster recovery switchovers or failovers,\nAlloyDB automatically updates the endpoint to point to the new primary instance.\nFor more information, see\nManage database connections with write endpoints.\nFeature\nAlloyDB now supports cross-region failover in\nPreview. You can\noptionally enable cross-region failover to automate the recreation of the\noriginal primary when a secondary cluster is promoted while maintaining your\nreplication topology without requiring manual cluster deletion or re-creation.\nCross-region failover is supported only for topologies with a single primary\ncluster and a single secondary cluster.\nFor more information, see About cross-region\nreplication\nand Work with cross-region\nreplication.\nFeature\nExternal search with AlloyDB now supports OpenSearch in Preview.\nYou can use the external_search_fdw extension to connect to an OpenSearch cluster and query its data directly from your database.\nAnthos Config Management\nChange\nUpgraded bundled Helm version from v3.20.2 to v3.21.1 to pick up vulnerability fixes. To understand the changes in each release, review the changelogs.\nChange\nAddressed multiple Common Vulnerabilities and Exposures (CVEs) by updating dependencies.\nApigee X\nAnnouncement\nOn July…",
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-07-27T07:00:00.000Z",
@@ -195,63 +249,27 @@
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-07-26T07:00:00.000Z",
         "isNew": false
-      },
-      {
-        "title": "July 25, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#July_25_2026",
-        "summary": "Google SecOps SOAR\nAnnouncement\nRelease 6.3.94 is now\navailable for all regions.",
-        "image": null,
-        "source": "Google Cloud Platform (GCP) - Release notes",
-        "published": "2026-07-25T07:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "July 24, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#July_24_2026",
-        "summary": "Apigee API hub\nFeature\nGeneral availability (GA) launch of Model Context Protocol (MCP) in API hub\nThe API hub MCP server is Generally Available (GA). This release enables seamless integration between your AI agents and API hub, allowing your applications to discover, query, and manage your API ecosystem using natural language.\nWhat's new in GA\nExpanded read and write capabilities: AI agents can create, update, and delete APIs, versions, specs, and deployments. They can also configure and deploy MCP discovery proxies in Apigee.\nGlobal endpoint routing: Connect to the API hub MCP server using the global endpoint (apihub.googleapis.com/mcp), in addition to the supported regional endpoints. For a list of supported regions, see the API hub MCP reference.\nGranular OAuth scopes: Use service-specific OAuth scopes (apihub.readonly and apihub.readwrite) for more secure access.\nModel Armor integration: Protect MCP tool invocations from prompt-injection and other attacks by integrating with Model Armor.\nFor configuration details and a complete list of available tools, see API hub MCP reference.\nFeature\nConfigure and deploy MCP servers with API hub RPC\nAPI hub now includes a new RPC, ConfigureAndDeployServer, which enables the configuration and deployment of Model Context Protocol (MCP) servers directly to an Apigee runtime.\nFor more information, see Manage MCP proxies and the API hub reference.\nApigee hybrid\nAnnouncement\nv1.16.8\nOn July 24, 2026 we released an updated version of the…",
-        "image": null,
-        "source": "Google Cloud Platform (GCP) - Release notes",
-        "published": "2026-07-24T07:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "July 23, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#July_23_2026",
-        "summary": "Agent Registry\nFeature\nAgent skill governance is available in Preview.\nAgent Registry supports standalone skill governance, helping enable secure, enterprise-level management and governance of standalone skills for AI agents. You can register skill resources, upload and validate ZIP payload packages, track version history through immutable skill revisions, and review verified skill publishers.\nThis release includes the following features:\nLifecycle and versioning: Register and manage standalone Skill resources, lifecycle states, and version snapshots (SkillRevision).\nConsole support: A dedicated Skills tab in Google Cloud Console to register, update, download, and monitor skills and revisions.\nAccess policy enforcement: Use policy bindings to authorize reasoning engine agents to load standalone skills.\nSemantic search: Query the registry to search and discover standalone skills.\nFor more information, see Register skills and Manage skills.\nAlloyDB for PostgreSQL\nFeature\nTransparent query forwarding is now available in\nPreview for clusters compatible with PostgreSQL 17 and 18. With this\nfeature, the primary node in a cluster intercepts read-only queries and\nselectively forwards them to read pool instances while maintaining\nread-your-writes consistency.\nFor more information, see Optimize resources and isolate read queries with transparent query forwarding.\nApigee hybrid\nAnnouncement\nv1.14.7\nOn July 23, 2026 we released an updated version of the Apigee hybrid software, v1.14.7.…",
-        "image": null,
-        "source": "Google Cloud Platform (GCP) - Release notes",
-        "published": "2026-07-23T07:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "July 22, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#July_22_2026",
-        "summary": "Gemini Enterprise\nFeature\nGemini Enterprise: Support for unauthenticated Custom MCP Server data stores (Preview)\nWhen setting up a Custom MCP Server data store, you can\nselect No authentication if your Model Context Protocol (MCP) server doesn't\nrequire authentication.\nCreating a custom MCP Server data store is in Public Preview.\nFor more information, see Set up a custom MCP\nserver.\nGoogle Distributed Cloud (software only) for VMware\nAnnouncement\nGoogle Distributed Cloud (software only) for VMware 1.35.300-gke.87 is now available\nfor download. To upgrade, see Upgrade clusters.\nGoogle Distributed Cloud 1.35.300-gke.87 runs on Kubernetes v1.35.3-gke.400.\nIf you are using a third-party storage vendor, check the Google Distributed Cloud-ready\nstorage partners document to make sure the storage vendor has already passed the\nqualification for this release.\nAfter a release, it takes approximately 7 to 14 days for the version to become\navailable for use with GKE On-Prem API clients: the Google Cloud console, the\ngcloud CLI, and Terraform.\nAnnouncement\nGoogle Distributed Cloud (software only) for VMware 1.34.700-gke.93 is now available\nfor download. To upgrade, see Upgrade clusters.\nGoogle Distributed Cloud 1.34.700-gke.93 runs on Kubernetes v1.34.7-gke.200.\nIf you use a third-party storage vendor, check the listing of our\npreviously-qualified storage partners.\nAfter a release, it takes approximately 7 to 14 days for the version to become\navailable for use with GKE On-Prem API…",
-        "image": null,
-        "source": "Google Cloud Platform (GCP) - Release notes",
-        "published": "2026-07-22T07:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "July 21, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#July_21_2026",
-        "summary": "Anthos Attached Clusters\nAnnouncement\nYou can now launch clusters with the following Kubernetes versions. Click on the following links to see the release notes associated with these patches:\n1.35.0-gke.1\n1.34.0-gke.2\n1.33.0-gke.3\nAnthos clusters on AWS\nAnnouncement\nYou can now launch clusters with the following Kubernetes versions. Click on the following links to see the release notes associated with these patches:\n1.35.3-gke.300\n1.34.6-gke.200\n1.33.10-gke.200\nAnthos clusters on Azure\nAnnouncement\nYou can now launch clusters with the following Kubernetes versions. Click on the following links to see the release notes associated with these patches:\n1.35.3-gke.300\n1.34.6-gke.200\n1.33.10-gke.200\nBinary Authorization\nFeature\nTo provide long-term security and address threats from future quantum computers,\nBinary Authorization supports keys that use post-quantum cryptography (PQC)\nalgorithms. These algorithms, such as ML-DSA-65 (Dilithium3), are standardized\nto be resistant to attacks from both classical and quantum computers. To learn how\nto generate a PQC key pair and create an attestor, see\nCreate post-quantum cryptography (PQC) keys.\nCloud Service Mesh\nFeature\nThe Envoy Lua Filter\nis now available as a preview feature in the stable release channel.\nCloud Tasks\nFeature\nCloud Tasks support for the following is available in\nPreview:\nSet retry parameters when creating a task\nand override the queue-level retry configuration for the task.\nCreate a batch of tasks\nand add the batch to…",
-        "image": null,
-        "source": "Google Cloud Platform (GCP) - Release notes",
-        "published": "2026-07-21T07:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "July 20, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#July_20_2026",
-        "summary": "Batch\nBreaking\nStarting on the following dates, you can no longer create a job that locates\nits Compute Engine resources outside of the job's location.\nFor projects that have successfully submitted before July 31, 2026 at least\none job that uses the allowedLocations[] field with any region or zones\noutside of the job's location, changes are starting on June 30, 2027.\nFor all other projects, changes are starting on July 31, 2026.\nIf none of your jobs specify the allowedLocations[] field, then no action is\nrequired. Otherwise, ensure that any region or zones specified in the\nallowedLocations[] field are in the same region as the job's location\nbefore these dates. For more information, see\nBatch locations.\nBigQuery\nFeature\nLakehouse for Apache Iceberg: Cross-cloud\nLakehouse now supports integration with SAP Business Data Cloud\n(BDC) in Preview.\nThis update includes the following features:\nFederation from SAP BDC: Create Delta Sharing catalogs in\nLakehouse to automatically synchronize shares, schemas, and\ntables from SAP BDC.\nQuerying SAP data: Query synchronized SAP BDC tables directly from\nBigQuery without data migration.\nPublishing to SAP BDC: Publish Apache Iceberg REST catalog (IRC) tables\nor Knowledge Catalog Data Products from\nLakehouse directly to SAP BDC, allowing SAP users and\napplications to consume Google Cloud data directly as remote tables\nin SAP Datasphere without migrating data.\nFor more information, see Set up cross-cloud Lakehouse for SAP\nBDC, Query SAP BDC…",
-        "image": null,
-        "source": "Google Cloud Platform (GCP) - Release notes",
-        "published": "2026-07-20T07:00:00.000Z",
-        "isNew": false
       }
     ],
     "kubernetes": [
+      {
+        "title": "Kubernetes v1.37 Sneak Peek",
+        "link": "https://kubernetes.io/blog/2026/07/31/kubernetes-v1-37-sneak-peek/",
+        "summary": "As we get closer to the release date for Kubernetes v1.37, the project develops and matures,\nfeatures may be deprecated, removed, or replaced with better ones for the project's overall\nhealth. This blog outlines some of the planned changes for the Kubernetes v1.37 release that the\nrelease team feels you should be aware of for the continued maintenance of your Kubernetes\nenvironment and keeping up to date with the latest changes. The information below reflects the\ncurrent status of the v1.37 release and may change before the actual release date.\nDeprecations and removals for Kubernetes v1.37\nKubectl: kubectl run --filename/-f to be deprecated\nThe --filename (or -f) flag for kubectl run is being deprecated as the generated pod is always built purely from CLI arguments like NAME and --image.\nSee kubernetes/kubernetes#138671 for the original issue and discussion.\nKubelet: Static Pods can no longer reference Secrets or ConfigMaps\nStatic Pods were never meant to read API resources directly, since they aren't created through the API server — but a bug let them reference Secrets or ConfigMaps via fields like configMapRef or secretRef. That bug is now fixed: as of v1.37 these references are strictly prohibited, and the PreventStaticPodAPIReferences feature gate that previously let you opt out of the restriction has been removed.\nSee kubernetes/kubernetes#140226 for the original issue and discussion.\nDeprecating kube-proxy's support for ipvs mode\nkube-proxy support for ipvs mode was…",
+        "image": null,
+        "source": "Kubernetes Blog",
+        "published": "2026-07-31T16:00:00.000Z",
+        "isNew": false
+      },
+      {
+        "title": "How the controller-runtime Cache Actually Works, and Why Your Controller Does Not Crash the API Server",
+        "link": "https://kubernetes.io/blog/2026/07/29/controller-runtime-cache-explained/",
+        "summary": "Caution:\nSome of the technical detail in this article is not accurate. We are reviewing it and preparing\ncorrections. Until then, check what you read here against the\ncontroller-runtime documentation.\nKubernetes has long been the default platform for distributed workloads, and writing your own\ncontroller for it is now a matter of a few hours. The common path — Golang, using kubebuilder on top of\ncontroller-runtime — gives you a project scaffold, types, and a reconciler. For typical\nscenarios that is more than enough. But as soon as load grows or the controller starts behaving\nin ways you did not expect, a whole class of edge cases shows up. Most of them trace back to\nthe same root cause: a fuzzy mental model of how controller-runtime works inside. If you\nwrite Kubernetes controllers in Go, this article should help you build a coherent picture and\navoid expensive surprises in production.\nThis article walks through the internals of controller-runtime and, along the way, shows which\narchitectural decisions are baked into Kubernetes itself. The starting point is how\ncontrollers actually read objects from the Kubernetes API.\nA common misconception goes like this: r.Get() inside Reconcile queries kube-apiserver\ndirectly; r.List() returns a fresh, live view of the world; and after r.Update() you can\nre-read the object and immediately see the new state. In practice the model is the opposite:\ncontroller-runtime operates against a local copy of the data populated through list + watch.…",
+        "image": "https://kubernetes.io/blog/2026/07/29/controller-runtime-cache-explained/pipeline.svg",
+        "source": "Kubernetes Blog",
+        "published": "2026-07-29T18:00:00.000Z",
+        "isNew": false
+      },
       {
         "title": "Building a Custom Metrics Exporter for Kubernetes",
         "link": "https://kubernetes.io/blog/2026/07/14/custom-metrics-exporter-kubernetes/",
@@ -305,27 +323,18 @@
         "source": "Kubernetes Blog",
         "published": "2026-06-25T22:00:00.000Z",
         "isNew": false
-      },
-      {
-        "title": "Inspect Volcano workloads faster with Headlamp",
-        "link": "https://kubernetes.io/blog/2026/06/25/visual-context-volcano-headlamp-plugin/",
-        "summary": "Volcano is a cloud native batch scheduler for Kubernetes, built for high-performance computing, AI/ML, and other batch workloads.\nHeadlamp is an extensible Kubernetes web UI. With its plugin system, Headlamp can surface APIs and workflows beyond the built-in Kubernetes resources. The Volcano plugin brings core Volcano resources into Headlamp so you can inspect workload state, queue behavior, and gang scheduling details in one place.\nKubernetes was originally designed around long-running services, where applications are expected to start and remain available over time. Batch, AI/ML, and HPC workloads often behave differently: jobs arrive dynamically, compete for limited resources, and may need multiple workers to start together before useful work can begin.\nVolcano extends Kubernetes with concepts such as queues, priorities, quotas, and gang scheduling. Instead of treating every Pod independently, Volcano schedules workloads with awareness of the job as a whole and the resources it needs to make progress.\nTo make these workloads easier to operate and troubleshoot, the Volcano plugin brings that scheduling context directly into Headlamp.\nWatch this short walkthrough to see the Volcano plugin in Headlamp:\n\n\nVisual context helps teams understand Volcano jobs, queues, and PodGroups faster\nWorking with Volcano often means moving across several related resources while trying to understand a batch workload. You might start with a Job, then look at the related PodGroup, inspect the…",
-        "image": "https://kubernetes.io/blog/2026/06/25/visual-context-volcano-headlamp-plugin/volcano-jobs-list.png",
-        "source": "Kubernetes Blog",
-        "published": "2026-06-25T20:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "See your serverless: introducing the Headlamp plugin for Knative",
-        "link": "https://kubernetes.io/blog/2026/06/25/headlamp-knative-plugin/",
-        "summary": "Headlamp is an open-source, extensible Kubernetes SIG UI project designed to let you explore, manage, and debug cluster resources.\nKnative brings serverless workloads to Kubernetes, handling traffic routing, autoscaling, and revision management so teams can deploy and iterate without fighting infrastructure. But operating Knative workloads day-to-day can be difficult, there's still a lot of jumping between the kn CLI, kubectl, and the Kubernetes UI to get a full picture of what's running.\nWe built the Headlamp Knative plugin to bridge that very gap, allowing operators to inspect, understand and act on their workloads all from a single place. This plugin was built as part of the LFX mentorship. Here's a tour of what we shipped.\nHere is a short walkthrough of the Knative plugin for Headlamp:\n\n\nIntegrating Knative resources with Headlamp's map view\nHeadlamp's resource mapping works for Knative CRDs too. You can see how KServices, Revisions, and DomainMappings relate to each other in a single graph view.\n\nKService management: edit traffic splits, restart pods, and view logs\nA KService is the top-level resource in Knative: it manages the lifecycle of Routes, Configurations, Revisions, and everything needed to run and expose your application.\nThe plugin gives KServices a full detail view with an Edit Mode toggle for making live changes to traffic splits, autoscaling annotations, and more. Common actions like viewing the YAML, opening logs, triggering a redeploy, or restarting…",
-        "image": "https://kubernetes.io/blog/2026/06/25/headlamp-knative-plugin/knative-map-view.png",
-        "source": "Kubernetes Blog",
-        "published": "2026-06-25T18:00:00.000Z",
-        "isNew": false
       }
     ],
     "terraform": [
+      {
+        "title": "v1.17.0-alpha20260729",
+        "link": "https://github.com/hashicorp/terraform/releases/tag/v1.17.0-alpha20260729",
+        "summary": "1.17.0-alpha20260729 (July 29, 2026)\nENHANCEMENTS:\ncommand/init: Enrich log messages with provider versions (#38918)\nBUG FIXES:\nfuncs: pow and log no longer panic when result is not a number (#38912)\nEXPERIMENTS:\nExperiments are only enabled in alpha releases of Terraform CLI. The following features are not yet available in stable releases.\nThe experimental \"deferred actions\" feature, enabled by passing the -allow-deferral option to terraform plan, permits count and for_each arguments in module, resource, and data blocks to have unknown values and allows providers to react more flexibly to unknown values.\nterraform test cleanup: The experimental test cleanup command. In experimental builds of Terraform, a manifest file and state files for each failed cleanup operation during test operations are saved within the .terraform local directory. The test cleanup command will attempt to clean up the local state files left behind automatically, without requiring manual intervention.\nterraform test: backend blocks and skip_cleanup attributes:\n\nTest authors can now specify backend blocks within run blocks in Terraform Test files. Run blocks with backend blocks will load state from the specified backend instead of starting from empty state on every execution. This allows test authors to keep long-running test infrastructure alive between test operations, saving time during regular test operations.\nTest authors can now specify skip_cleanup attributes within test files and within run…",
+        "image": "https://avatars.githubusercontent.com/u/82989873?s=60&v=4",
+        "source": "Release notes from terraform",
+        "published": "2026-07-29T19:38:27.000Z",
+        "isNew": false
+      },
       {
         "title": "v1.16.0-beta1",
         "link": "https://github.com/hashicorp/terraform/releases/tag/v1.16.0-beta1",
@@ -388,18 +397,18 @@
         "source": "Release notes from terraform",
         "published": "2026-06-26T09:03:31.000Z",
         "isNew": false
-      },
-      {
-        "title": "v1.15.7",
-        "link": "https://github.com/hashicorp/terraform/releases/tag/v1.15.7",
-        "summary": "1.15.7 (June 24, 2026)\nBUG FIXES:\nAdd concurrency safety to configs.Parser and SourceBundleParser (#38745)\nFix submodule variable validation during init (#38770)",
-        "image": "https://avatars.githubusercontent.com/u/82989873?s=60&v=4",
-        "source": "Release notes from terraform",
-        "published": "2026-06-24T16:47:12.000Z",
-        "isNew": false
       }
     ],
     "python": [
+      {
+        "title": "Announcing a 2026 PSF Grants Program Funding Round",
+        "link": "https://pyfound.blogspot.com/2026/07/announcing-2026-psf-grants-program.html",
+        "summary": "The Python Software Foundation (PSF) is excited to announce a 2026 PSF Grants Program funding round. This is not a full reopening of the Grants Program as it existed before. Rather, it's what the PSF is able to sustainably offer right now, given where we stand financially and operationally. The PSF Board, PSF Staff, and PSF Grants Work Group (GWG) are deeply passionate about the program and understand how important it is to the Python community. It’s our honor to have the opportunity to disburse grant funding in 2026. \nIn keeping with our focus on sustainability, this round of grant funding has a set budget capped at $90,000 USD, a limited scope, and a different structure and timeline for applying and reviewing. We will be accepting applications from August 4 - 25 AoE, for Conferences and Workshops that are scheduled between December 1, 2026, and April 30, 2027. Our top priority is getting available funds to the regional communities who need it most: those who have had to pause their events and initiatives because of lack of funding from PSF Grants or loss of sponsors.\n\nContext\nAs folks following along with the PSF may remember, the last couple of years have been financially challenging, with the PSF’s assets and yearly revenue declining and costs increasing across the board. At the same time, the demand for our work has continued to multiply. Making the decision to pause the Grants Program last year was difficult, but a necessary step to protect both the future of the…",
+        "image": null,
+        "source": "Python Software Foundation News",
+        "published": "2026-07-28T12:14:47.114Z",
+        "isNew": false
+      },
       {
         "title": "Announcing Python Software Foundation Fellow Members for Q2 2026! 🎉",
         "link": "https://pyfound.blogspot.com/2026/07/announcing-python-software-foundation.html",
@@ -461,15 +470,6 @@
         "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiA_8v_PYRU1VA1HZbzsh-RJrDuwNFSRv-oegK0kRz8J4S52I1fYBExCEalzinUgwI3mId6e5Jbt3WUfBWCU2POo3HbaoRqIkacDKTX0EK5h6gps9GPYauO6EgR0hYK6LCXqklgdcfV7ve3-FMSZNSQEWIID1VXbJrgdwz4Y_mjXAFaqJOOvA/s72-w482-h253-c/PSF%20D&I%20Workgroup%20Are%20Starting%20Office%20Hours.png",
         "source": "Python Software Foundation News",
         "published": "2026-07-09T18:11:06.805Z",
-        "isNew": false
-      },
-      {
-        "title": "Thinking about running for the PSF Board? Let’s talk!",
-        "link": "https://pyfound.blogspot.com/2026/07/thinking-about-running-for-psf-board.html",
-        "summary": "PSF Board elections are a chance for the community to choose representatives to help the PSF create a vision for and build the future of the Python community. This year, there are 4 seats open on the PSF Board. Check out who is currently on the PSF Board on our website. (Cheuk Ting Ho, Christopher Neugebauer, Denny Perez, and Georgi Ker are at the end of their current terms.)\n\nOffice Hours Information\nThis year, the PSF Board is dedicating a few of their regular Office Hour sessions on the PSF Discord to the topic of the election. This is your chance to connect with current board members to ask questions and learn more about what being a part of the Board entails. \nThe two upcoming Office Hour sessions will be dedicated to the topic of the election:\n\nTuesday, July 14th, 1 PM UTC\nTuesday, August 11th, 9 PM UTC\n\nWe welcome you to join the PSF Discord to participate in Office Hours. The server is moderated by PSF Staff and locked between office hours sessions. If you’re new to Discord, check out some Discord Basics to help you get started. \n\nWho runs for the Board?\nWho runs for the board? People who care about the Python community, who want to see it flourish and grow, and also have a few hours a month to attend regular meetings, serve on committees, participate in conversations, and promote the Python community. We're looking for candidates with a diverse range of skills and backgrounds, including leadership experience, fundraising knowledge, non-profit familiarity, and event…",
-        "image": null,
-        "source": "Python Software Foundation News",
-        "published": "2026-07-02T13:07:22.425Z",
         "isNew": false
       }
     ],
@@ -623,21 +623,48 @@
     ],
     "javascript": [
       {
+        "title": "Node.js 24.18.1 (LTS)",
+        "link": "https://nodejs.org/en/blog/release/v24.18.1",
+        "summary": "",
+        "image": null,
+        "source": "Node.js Blog",
+        "published": "2026-07-29T16:19:07.000Z",
+        "isNew": false
+      },
+      {
+        "title": "Node.js 26.5.1 (Current)",
+        "link": "https://nodejs.org/en/blog/release/v26.5.1",
+        "summary": "",
+        "image": null,
+        "source": "Node.js Blog",
+        "published": "2026-07-29T14:03:39.000Z",
+        "isNew": false
+      },
+      {
+        "title": "Node.js 22.23.2 (LTS)",
+        "link": "https://nodejs.org/en/blog/release/v22.23.2",
+        "summary": "",
+        "image": null,
+        "source": "Node.js Blog",
+        "published": "2026-07-29T14:01:35.000Z",
+        "isNew": false
+      },
+      {
+        "title": "Wednesday, July 29, 2026 Security Releases",
+        "link": "https://nodejs.org/en/blog/vulnerability/july-2026-security-releases",
+        "summary": "",
+        "image": null,
+        "source": "Node.js Blog",
+        "published": "2026-07-29T00:00:00.000Z",
+        "isNew": false
+      },
+      {
         "title": "Check out the New Node.js API Documentation Preview",
         "link": "https://nodejs.org/en/blog/announcements/new-api-docs-beta",
         "summary": "",
         "image": null,
         "source": "Node.js Blog",
         "published": "2026-07-24T19:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "Monday, July 27, 2026 Security Releases",
-        "link": "https://nodejs.org/en/blog/vulnerability/july-2026-security-releases",
-        "summary": "",
-        "image": null,
-        "source": "Node.js Blog",
-        "published": "2026-07-21T03:00:00.000Z",
         "isNew": false
       },
       {
@@ -665,33 +692,6 @@
         "image": null,
         "source": "Node.js Blog",
         "published": "2026-06-23T23:12:41.000Z",
-        "isNew": false
-      },
-      {
-        "title": "Node.js 22.23.1 (LTS)",
-        "link": "https://nodejs.org/en/blog/release/v22.23.1",
-        "summary": "",
-        "image": null,
-        "source": "Node.js Blog",
-        "published": "2026-06-23T16:45:21.000Z",
-        "isNew": false
-      },
-      {
-        "title": "Node.js 26.3.1 (Current)",
-        "link": "https://nodejs.org/en/blog/release/v26.3.1",
-        "summary": "",
-        "image": null,
-        "source": "Node.js Blog",
-        "published": "2026-06-18T04:38:39.000Z",
-        "isNew": false
-      },
-      {
-        "title": "Node.js 24.17.0 (LTS)",
-        "link": "https://nodejs.org/en/blog/release/v24.17.0",
-        "summary": "",
-        "image": null,
-        "source": "Node.js Blog",
-        "published": "2026-06-18T04:38:38.000Z",
         "isNew": false
       }
     ]
