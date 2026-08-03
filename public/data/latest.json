@@ -1,6 +1,6 @@
 {
   "date": "2026-08-03",
-  "generatedAt": "2026-08-03T13:49:05.429Z",
+  "generatedAt": "2026-08-03T18:57:44.606Z",
   "totalArticles": 72,
   "ticker": [
     {
@@ -30,6 +30,15 @@
   ],
   "topics": {
     "aws": [
+      {
+        "title": "AWS Weekly Roundup: Price reduction of GPT models in Bedrock, CloudWatch managed collectors for Prometheus metrics, and more (August 3, 2026)",
+        "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-price-reduction-of-gpt-models-in-bedrock-cloudwatch-managed-collectors-for-prometheus-metrics-and-more-august-3-2026/",
+        "summary": "Last week I had the joy of participating in Amazon’s “Bring Your Kids to Work Day” with my 7 year old son. We commuted together into the New York City office, his first real rush hour train ride, and spent the day exploring how Amazon uses AI, machine learning, and robotics to deliver packages to […]",
+        "image": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2026/08/03/IMG_2179-225x300.jpg",
+        "source": "AWS News Blog",
+        "published": "2026-08-03T16:12:30.000Z",
+        "isNew": false
+      },
       {
         "title": "AWS Weekly Roundup: Local Zone in Athens, Claude Opus 5 on AWS, Lambda durable execution for .NET, and more (July 27, 2026)",
         "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-july-27-2026/",
@@ -91,15 +100,6 @@
         "image": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2026/06/25/2026-aws-cloudformation-express-mode-console.jpg",
         "source": "AWS News Blog",
         "published": "2026-06-30T21:30:33.000Z",
-        "isNew": false
-      },
-      {
-        "title": "Amazon EC2 C9g and C9gd instances powered by AWS Graviton5 processors are now available",
-        "link": "https://aws.amazon.com/blogs/aws/amazon-ec2-c9g-and-c9gd-instances-powered-by-aws-graviton5-processors-are-now-available/",
-        "summary": "Amazon EC2 C9g and C9gd instances, powered by AWS Graviton5, are now generally available. They deliver up to 25% better compute performance than Graviton4-based instances, 5x larger cache, fastest memory of any processor instances in the cloud, and local NVMe storage options (C9gd).",
-        "image": null,
-        "source": "AWS News Blog",
-        "published": "2026-06-30T20:56:44.000Z",
         "isNew": false
       }
     ],
@@ -253,6 +253,15 @@
     ],
     "kubernetes": [
       {
+        "title": "Gateway API v1.6: TCPRoute and UDPRoute Graduate to Standard",
+        "link": "https://kubernetes.io/blog/2026/08/03/gateway-api-v1-6-release/",
+        "summary": "The Kubernetes SIG Network community is thrilled to share the release of Gateway API v1.6.0, which was released on June 30th of this year!\nGateway API has become the standard for modern, role-oriented,\nand expressive service networking in Kubernetes.\nIn previous releases, Gateway API established a production-grade foundation\nfor HTTP and TLS layer 7 traffic.\nWith version 1.6.0, Gateway API takes a major step forward by expanding\nstandard layer 4 protocol routing and introducing cleaner API boundaries for experimental innovation.\nHere is a quick summary of what's new in Gateway API v1.6.0:\nTCPRoute and UDPRoute Graduate to Standard: Raw L4 TCP and UDP traffic routing reach GA stability in the v1 API version.\nExperimental API Group Separation: Experimental resources transition to a distinct API group (gateway.networking.x-k8s.io) with an X prefix to make experimental vs. standard boundaries crystal clear.\nLet's dive into the details!\nTCPRoute and UDPRoute graduate to Standard\nLeads: Nick Young, Ricardo Katz and Zac Nixon\nGEP-2644 - TCPRoute\nGEP-2645 - UDPRoute\nUntil now, Gateway API only offered a stable routing model for HTTP and TLS traffic.\nWorkloads that speak a raw protocol over TCP or UDP - databases,\nDNS, VoIP, gaming, IoT telemetry - had no portable way to plug\ninto a Gateway. Users either fell back to a plain Kubernetes Service,\nor to an implementation-specific CRD that doesn't travel between Gateway controllers.\nTCPRoute and UDPRoute close that gap: they route…",
+        "image": "https://kubernetes.io/blog/2026/08/03/gateway-api-v1-6-release/gateway-api-logo.svg",
+        "source": "Kubernetes Blog",
+        "published": "2026-08-03T16:00:00.000Z",
+        "isNew": false
+      },
+      {
         "title": "Kubernetes v1.37 Sneak Peek",
         "link": "https://kubernetes.io/blog/2026/07/31/kubernetes-v1-37-sneak-peek/",
         "summary": "As we get closer to the release date for Kubernetes v1.37, the project develops and matures,\nfeatures may be deprecated, removed, or replaced with better ones for the project's overall\nhealth. This blog outlines some of the planned changes for the Kubernetes v1.37 release that the\nrelease team feels you should be aware of for the continued maintenance of your Kubernetes\nenvironment and keeping up to date with the latest changes. The information below reflects the\ncurrent status of the v1.37 release and may change before the actual release date.\nDeprecations and removals for Kubernetes v1.37\nKubectl: kubectl run --filename/-f to be deprecated\nThe --filename (or -f) flag for kubectl run is being deprecated as the generated pod is always built purely from CLI arguments like NAME and --image.\nSee kubernetes/kubernetes#138671 for the original issue and discussion.\nKubelet: Static Pods can no longer reference Secrets or ConfigMaps\nStatic Pods were never meant to read API resources directly, since they aren't created through the API server — but a bug let them reference Secrets or ConfigMaps via fields like configMapRef or secretRef. That bug is now fixed: as of v1.37 these references are strictly prohibited, and the PreventStaticPodAPIReferences feature gate that previously let you opt out of the restriction has been removed.\nSee kubernetes/kubernetes#140226 for the original issue and discussion.\nDeprecating kube-proxy's support for ipvs mode\nkube-proxy support for ipvs mode was…",
@@ -313,15 +322,6 @@
         "image": null,
         "source": "Kubernetes Blog",
         "published": "2026-06-26T18:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "Introducing the Cluster API plugin for Headlamp",
-        "link": "https://kubernetes.io/blog/2026/06/25/headlamp-cluster-api-plugin/",
-        "summary": "Headlamp is an open-source, extensible Kubernetes SIG UI\nproject designed to let you explore, manage, and debug cluster resources directly\nfrom a browser.\nCluster API (CAPI) is a Kubernetes sub-project\nthat brings declarative, Kubernetes-style APIs to cluster lifecycle management. It\nlets platform teams provision, upgrade, and manage the lifecycle of Kubernetes\nclusters using standard Kubernetes objects stored and reconciled in a management\ncluster.\nManaging Cluster API resources has historically required raw kubectl commands and\ndeep familiarity with ownership hierarchies. The Headlamp Cluster API plugin brings\nvisual clarity, faster debugging, and simplified operations for platform teams,\ndirectly inside Headlamp.\nWhat this plugin provides\nThe Cluster API plugin adds a dedicated Cluster API section to Headlamp and brings\nfull visibility into core CAPI resources through consistent list and detail views.\nFeature\nDescription\n\n\n\n\nCluster overview\nView clusters with live control plane and worker replica status.\n\n\nMachine visibility\nInspect MachineDeployments, MachineSets, Machines, and MachinePools with status and conditions.\n\n\nCluster API dashboard\nGet a centralized view of Cluster API resource health, active condition issues, provider information, and remediation guidance.\n\n\nControl plane monitoring\nTrack KubeadmControlPlane replicas, versions, and associated Machines.\n\n\nScale from the UI\nScale MachineDeployments and MachineSets directly from Headlamp.\n\n\nOwned resource…",
-        "image": "https://kubernetes.io/blog/2026/06/25/headlamp-cluster-api-plugin/cluster-api-dashboard.png",
-        "source": "Kubernetes Blog",
-        "published": "2026-06-25T22:00:00.000Z",
         "isNew": false
       }
     ],
@@ -623,6 +623,24 @@
     ],
     "javascript": [
       {
+        "title": "Node.js 26.6.0 (Current)",
+        "link": "https://nodejs.org/en/blog/release/v26.6.0",
+        "summary": "",
+        "image": null,
+        "source": "Node.js Blog",
+        "published": "2026-08-03T13:51:29.000Z",
+        "isNew": false
+      },
+      {
+        "title": "Node.js 24.19.0 (LTS)",
+        "link": "https://nodejs.org/en/blog/release/v24.19.0",
+        "summary": "",
+        "image": null,
+        "source": "Node.js Blog",
+        "published": "2026-08-03T13:49:39.000Z",
+        "isNew": false
+      },
+      {
         "title": "Node.js 24.18.1 (LTS)",
         "link": "https://nodejs.org/en/blog/release/v24.18.1",
         "summary": "",
@@ -674,24 +692,6 @@
         "image": null,
         "source": "Node.js Blog",
         "published": "2026-07-08T12:00:35.000Z",
-        "isNew": false
-      },
-      {
-        "title": "Node.js 26.4.0 (Current)",
-        "link": "https://nodejs.org/en/blog/release/v26.4.0",
-        "summary": "",
-        "image": null,
-        "source": "Node.js Blog",
-        "published": "2026-06-24T23:39:07.000Z",
-        "isNew": false
-      },
-      {
-        "title": "Node.js 24.18.0 (LTS)",
-        "link": "https://nodejs.org/en/blog/release/v24.18.0",
-        "summary": "",
-        "image": null,
-        "source": "Node.js Blog",
-        "published": "2026-06-23T23:12:41.000Z",
         "isNew": false
       }
     ]
