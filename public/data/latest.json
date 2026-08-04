@@ -1,6 +1,6 @@
 {
-  "date": "2026-08-03",
-  "generatedAt": "2026-08-03T18:57:44.606Z",
+  "date": "2026-08-04",
+  "generatedAt": "2026-08-04T07:48:18.930Z",
   "totalArticles": 72,
   "ticker": [
     {
@@ -181,7 +181,7 @@
       {
         "title": "August 03, 2026",
         "link": "https://docs.cloud.google.com/release-notes#August_03_2026",
-        "summary": "Cloud Workstations\nChange\nUpdated the following\nJetBrains preconfigured base images\nto version 2026.x:\nCLion 2026.1\nGoLand 2026.2\nIntelliJ Ultimate 2026.1\nPhpStorm 2026.2\nWebStorm 2026.1\nRubyMine 2026.1\nPyCharm 2026.1\nRider 2026.1",
+        "summary": "Backup and DR\nFeature\nYou can now change the backup plan associated with a Cloud SQL instance. This allows you to switch an instance to a different backup plan, provided the new plan uses the same backup vault and is in the same region as the instance. This feature is available through the Google Cloud console and gcloud CLI. To learn more, see Change the associated backup plan for a Cloud SQL instance.\nBigQuery\nFeature\nYou can now use\ncross-cloud connections to query data\nin AWS, Azure, and Salesforce Data 360 from all BigQuery regions. These\nconnections let you use more BigQuery features and are more cost efficient than\nstandard connections that use BigQuery Omni. This feature is in\nPreview.\nFeature\nThe JDBC driver for BigQuery now supports\nOpenTelemetry for tracing and\nlogging, which helps you monitor the performance of your database interactions\nand troubleshoot issues.\nAutomatic exports to Google Cloud Observability\nare also available. This feature is\ngenerally available\n(GA).\nAnnouncement\nSupport for hybrid search (using the VECTOR_SEARCH function to combine a\nsemantic search with a lexical (keyword) search) has been restored. Using\nHYBRID mode in the AI.SEARCH function has also been restored.\nCloud SQL for MySQL\nChange\nYou can change the backup plan for your\nCloud SQL enhanced backups\nwithout first removing the existing plan.\nFor more information, see\nChange your instance's associated backup plan.\nCloud SQL for PostgreSQL\nChange\nYou can change the backup plan for your…",
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-08-03T07:00:00.000Z",
@@ -199,7 +199,7 @@
       {
         "title": "August 01, 2026",
         "link": "https://docs.cloud.google.com/release-notes#August_01_2026",
-        "summary": "Google SecOps SOAR\nAnnouncement\nRelease 6.3.95 is now\navailable for all regions.",
+        "summary": "Google Cloud VMware Engine\nFeature\nPreview: Google Cloud VMware Engine capacity allocations are available in preview. A capacity\nallocation is a global reservation of physical nodes for your Cloud Billing account.\nYour reserved nodes are organized into placement groups (PGs), which represent the specific physical\nhardware and location of your reserved capacity.\nGoogle Cloud VMware Engine capacity allocations let you do the following:\n*   Use a capacity allocation during private cloud creation by selecting a PG.\n*   Use a capacity allocation when adding a cluster.\n*   Configure a hybrid private cloud across multiple PGs.\nFor more information, see Manage capacity allocations.\nGoogle SecOps SOAR\nAnnouncement\nRelease 6.3.95 is now\navailable for all regions.",
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-08-01T07:00:00.000Z",
