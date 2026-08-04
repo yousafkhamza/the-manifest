@@ -1,6 +1,6 @@
 {
   "date": "2026-08-04",
-  "generatedAt": "2026-08-04T07:48:18.930Z",
+  "generatedAt": "2026-08-04T13:11:54.766Z",
   "totalArticles": 72,
   "ticker": [
     {
@@ -179,9 +179,18 @@
     ],
     "gcp": [
       {
+        "title": "August 04, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#August_04_2026",
+        "summary": "Cloud CDN\nFeature\nCloud CDN supports native image optimization at the Google network edge\nfor global external Application Load Balancers. This feature offloads\ncompute-intensive image transformations, such as resizing, cropping,\nand format conversion to reduce origin server load and egress costs.\nThis feature is in Preview.\nNote: During the Preview phase, image optimization is available free of charge.\nCharges will apply once it becomes Generally Available (GA).\nFor more information, see Optimize images with Cloud CDN.",
+        "image": null,
+        "source": "Google Cloud Platform (GCP) - Release notes",
+        "published": "2026-08-04T07:00:00.000Z",
+        "isNew": false
+      },
+      {
         "title": "August 03, 2026",
         "link": "https://docs.cloud.google.com/release-notes#August_03_2026",
-        "summary": "Backup and DR\nFeature\nYou can now change the backup plan associated with a Cloud SQL instance. This allows you to switch an instance to a different backup plan, provided the new plan uses the same backup vault and is in the same region as the instance. This feature is available through the Google Cloud console and gcloud CLI. To learn more, see Change the associated backup plan for a Cloud SQL instance.\nBigQuery\nFeature\nYou can now use\ncross-cloud connections to query data\nin AWS, Azure, and Salesforce Data 360 from all BigQuery regions. These\nconnections let you use more BigQuery features and are more cost efficient than\nstandard connections that use BigQuery Omni. This feature is in\nPreview.\nFeature\nThe JDBC driver for BigQuery now supports\nOpenTelemetry for tracing and\nlogging, which helps you monitor the performance of your database interactions\nand troubleshoot issues.\nAutomatic exports to Google Cloud Observability\nare also available. This feature is\ngenerally available\n(GA).\nAnnouncement\nSupport for hybrid search (using the VECTOR_SEARCH function to combine a\nsemantic search with a lexical (keyword) search) has been restored. Using\nHYBRID mode in the AI.SEARCH function has also been restored.\nCloud SQL for MySQL\nChange\nYou can change the backup plan for your\nCloud SQL enhanced backups\nwithout first removing the existing plan.\nFor more information, see\nChange your instance's associated backup plan.\nCloud SQL for PostgreSQL\nChange\nYou can change the backup plan for your…",
+        "summary": "API Gateway\nFeature\nRoute LLM requests with model routing\nYou can now use model routing in API Gateway as a managed traffic management layer to accept OpenAI-compatible prompt requests, transcode them in-flight, and route them to specific foundation models in Vertex AI Model Garden (including Gemini, Anthropic Claude, and OpenAI GPT models).\nKey benefits and capabilities include:\nCentralized traffic management: Consolidate AI traffic routing and lifecycle management at the network edge without hosting standalone client-side proxies.\nIn-flight transcoding: Standardize client applications on an OpenAI-compatible REST interface while dynamically dispatching requests to diverse underlying Vertex AI Model Garden endpoints.\nOpenAPI 3.x configuration: Define model routing tables, explicit routing rules, and default model fallbacks using the new x-google-api-management.ai.models.routing and x-google-model-router OpenAPI 3.x extensions.\nFor more information, see Overview of model routing and Configure model routing.\nBackup and DR\nFeature\nYou can now change the backup plan associated with a Cloud SQL instance. This allows you to switch an instance to a different backup plan, provided the new plan uses the same backup vault and is in the same region as the instance. This feature is available through the Google Cloud console and gcloud CLI. To learn more, see Change the associated backup plan for a Cloud SQL instance.\nBigQuery\nFeature\nYou can now use\ncross-cloud connections to query…",
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-08-03T07:00:00.000Z",
@@ -239,15 +248,6 @@
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-07-28T07:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "July 27, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#July_27_2026",
-        "summary": "AlloyDB for PostgreSQL\nFeature\nAlloyDB write endpoints are now available in\nPreview.\nWrite endpoints simplify database connection management by providing a stable\ndomain name service (DNS) name for your applications, decoupling them from\ninstance IP addresses. During disaster recovery switchovers or failovers,\nAlloyDB automatically updates the endpoint to point to the new primary instance.\nFor more information, see\nManage database connections with write endpoints.\nFeature\nAlloyDB now supports cross-region failover in\nPreview. You can\noptionally enable cross-region failover to automate the recreation of the\noriginal primary when a secondary cluster is promoted while maintaining your\nreplication topology without requiring manual cluster deletion or re-creation.\nCross-region failover is supported only for topologies with a single primary\ncluster and a single secondary cluster.\nFor more information, see About cross-region\nreplication\nand Work with cross-region\nreplication.\nFeature\nExternal search with AlloyDB now supports OpenSearch in Preview.\nYou can use the external_search_fdw extension to connect to an OpenSearch cluster and query its data directly from your database.\nAnthos Config Management\nChange\nUpgraded bundled Helm version from v3.20.2 to v3.21.1 to pick up vulnerability fixes. To understand the changes in each release, review the changelogs.\nChange\nAddressed multiple Common Vulnerabilities and Exposures (CVEs) by updating dependencies.\nApigee X\nAnnouncement\nOn July…",
-        "image": null,
-        "source": "Google Cloud Platform (GCP) - Release notes",
-        "published": "2026-07-27T07:00:00.000Z",
         "isNew": false
       }
     ],
