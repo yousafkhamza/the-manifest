@@ -1,6 +1,6 @@
 {
   "date": "2026-08-04",
-  "generatedAt": "2026-08-04T13:11:54.766Z",
+  "generatedAt": "2026-08-04T18:52:17.269Z",
   "totalArticles": 72,
   "ticker": [
     {
@@ -401,6 +401,15 @@
     ],
     "python": [
       {
+        "title": "Python 3.15.0 candidate 1 is here!",
+        "link": "https://blog.python.org/2026/08/python-3150-rc1/",
+        "summary": "Get those wheels rolling!",
+        "image": null,
+        "source": "Python Insider",
+        "published": "2026-08-04T00:00:00.000Z",
+        "isNew": false
+      },
+      {
         "title": "Announcing a 2026 PSF Grants Program Funding Round",
         "link": "https://pyfound.blogspot.com/2026/07/announcing-2026-psf-grants-program.html",
         "summary": "The Python Software Foundation (PSF) is excited to announce a 2026 PSF Grants Program funding round. This is not a full reopening of the Grants Program as it existed before. Rather, it's what the PSF is able to sustainably offer right now, given where we stand financially and operationally. The PSF Board, PSF Staff, and PSF Grants Work Group (GWG) are deeply passionate about the program and understand how important it is to the Python community. It’s our honor to have the opportunity to disburse grant funding in 2026. \nIn keeping with our focus on sustainability, this round of grant funding has a set budget capped at $90,000 USD, a limited scope, and a different structure and timeline for applying and reviewing. We will be accepting applications from August 4 - 25 AoE, for Conferences and Workshops that are scheduled between December 1, 2026, and April 30, 2027. Our top priority is getting available funds to the regional communities who need it most: those who have had to pause their events and initiatives because of lack of funding from PSF Grants or loss of sponsors.\n\nContext\nAs folks following along with the PSF may remember, the last couple of years have been financially challenging, with the PSF’s assets and yearly revenue declining and costs increasing across the board. At the same time, the demand for our work has continued to multiply. Making the decision to pause the Grants Program last year was difficult, but a necessary step to protect both the future of the…",
@@ -461,15 +470,6 @@
         "image": null,
         "source": "Python Software Foundation News",
         "published": "2026-07-15T15:06:17.909Z",
-        "isNew": false
-      },
-      {
-        "title": "The PSF D&I Workgroup is Starting Office Hours in July!",
-        "link": "https://pyfound.blogspot.com/2026/07/the-psf-d-workgroup-are-starting-office.html",
-        "summary": "Starting Tuesday 28 July, 2026, the PSF Diversity & Inclusion (D&I) Workgroup is opening its virtual doors once a month on Discord. Come chat with workgroup members from all over the world!\n\nDoing diversity and inclusion work in tech can feel isolating sometimes. You might be organizing a meetup, writing a code of conduct, trying to get funding for your community, or helping people feel welcome, often in your spare time, and wondering if anyone else is wrestling with the same things.\nThey are. We are! And we would love to get all of us in the same room.\nThis July, the PSF D&I Workgroup will be hosting monthly office hours within Discord. These will be open, text-based conversations where we encourage you to ask questions, sha\nre what you are working on, and connect with other people who care about making the Python community more welcoming.\nThe details\nThe PSF D&I Office Hours will be on the last Tuesday of every month. Because our community is spread across the globe, we will alternate between two times so we can cover as many time zones as possible:\n\n1 PM UTC / 9 AM US Eastern\n\n9 PM UTC / 5 PM US Eastern\n\nOur first session will be on Tuesday, 28 July 2026 at 1 PM UTC.\nHere is roughly what that looks like around the world:\n\n\n\nRegion\n\nLocal time on 28 July\n\n\nUS Pacific, Los Angeles – (UTC-7h)\n\n6:00 AM\n\n\nUS Eastern, New York – (UTC-4h)\n\n9:00 AM\n\n\nBrazil, São Paulo – (UTC-3h)\n\n10:00 AM\n\n\nUTC\n\n1:00 PM\n\n\nWest Africa, Lagos – (UTC+1h)\n\n2:00 PM\n\n\nCentral Europe, Amsterdam / Berlin…",
-        "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiA_8v_PYRU1VA1HZbzsh-RJrDuwNFSRv-oegK0kRz8J4S52I1fYBExCEalzinUgwI3mId6e5Jbt3WUfBWCU2POo3HbaoRqIkacDKTX0EK5h6gps9GPYauO6EgR0hYK6LCXqklgdcfV7ve3-FMSZNSQEWIID1VXbJrgdwz4Y_mjXAFaqJOOvA/s72-w482-h253-c/PSF%20D&I%20Workgroup%20Are%20Starting%20Office%20Hours.png",
-        "source": "Python Software Foundation News",
-        "published": "2026-07-09T18:11:06.805Z",
         "isNew": false
       }
     ],
@@ -549,6 +549,15 @@
     ],
     "rust": [
       {
+        "title": "Enabling the next iteration of the borrow checker on nightly",
+        "link": "https://blog.rust-lang.org/2026/08/04/enabling-polonius-alpha-on-nighty/",
+        "summary": "TL;DR We are enabling the next iteration of the borrow checker (coined Polonius Alpha)\non nightly in preparation for stabilization in the next few months.\n\nWhaaaaaat?\nYes! You heard it right! The next iteration of the Rust borrow checker is coming! Rust's first borrow checker (\"AST borrowck\") was very limited and was phased out in 2019 in favor of NLL, other than a \"migrate mode\" that was used to provide nice error messages. That migrate mode was finally removed in 2022.\nThe Polonius borrow checker spun out of the NLL effort in 2018. The initial formulation passed the NLL test suite and accepted (sound) code that NLL did not. However, performance was a critically-limiting factor; generally borrow check was slower than NLL, but certain programs were considerably slower than NLL to the extent that using that implementation/formulation of Polonius was a non-starter. Attempts were made over the years to implement the Polonius formulation in a performant manner, without much luck in addressing the core issues.\nIn 2023, a new formulation of a Polonius-style borrow checker was imagined that required minimal rearchitecture of the existing NLL implementation and could be extended to allow more code to compile. We had hoped, to try to stabilize this new formulation in 2024; but, various things popped up that delayed this.\nBut! We're nearly there now! At this point, there are no known remaining issues with the subset coined Polonius Alpha that we intend to stabilize. And, performance…",
+        "image": "https://blog.rust-lang.org/2026/08/04/enabling-polonius-alpha-on-nighty/polonius_top10k_leaf.png",
+        "source": "Rust Blog",
+        "published": "2026-08-04T00:00:00.000Z",
+        "isNew": false
+      },
+      {
         "title": "Announcing Rust 1.97.1",
         "link": "https://blog.rust-lang.org/2026/07/16/Rust-1.97.1/",
         "summary": "The Rust team has published a new point release of Rust, 1.97.1. Rust is a programming language that is empowering everyone to build reliable and efficient software.\nIf you have a previous version of Rust installed via rustup, getting Rust 1.97.1 is as easy as:\nrustup update stable\nIf you don't have it already, you can get rustup from the appropriate page on our website.\n\nWhat's in 1.97.1\nRust 1.97.1 fixes a miscompilation in an LLVM optimization.\nWe have backported both an LLVM fix and a disable of the underlying change in Rust 1.97.0 of\nRust's generated IR that increased the likelihood of this happening. However,\nnote that the underlying miscompilation has been present since at least Rust\n1.87.\nIf you'd like to help us out by testing future releases, you might consider\nrunning your code's CI or locally using the beta channel (rustup default beta) or the nightly\nchannel (rustup default nightly). Please\nreport any bugs you\nmight come across!\n\nContributors to 1.97.1\nMany people came together to create Rust 1.97.1. We couldn't have done it without all of you. Thanks!",
@@ -609,15 +618,6 @@
         "image": null,
         "source": "Rust Blog",
         "published": "2026-05-28T00:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "Security Advisory for Cargo (CVE-2026-5223)",
-        "link": "https://blog.rust-lang.org/2026/05/25/cve-2026-5223/",
-        "summary": "The Rust Security Response Team was notified that Cargo incorrectly handled\nsymlinks inside of crate tarballs downloaded from third-party registries,\nallowing a malicious crate to override the source code of another crate from the\nsame registry.\nThis vulnerability is tracked as CVE-2026-5223. The severity of the\nvulnerability is medium for users of third-party registries. Users of\ncrates.io are not affected, as crates.io forbids uploading crates containing\nany symlink.\n\nOverview\nWhen building a crate, Cargo extracts its source code in a local cache (stored\nwithin ~/.cargo), reusing it for any future build. Cargo includes protections\nto prevent any file from being extracted outside of the crate's own cache\ndirectory.\nIt was discovered that it's possible to craft a malicious tarball able to\nextract files one level below the crate's own cache directory. With the way the\ncache is structured, that allowed the malicious crate to override the cache of\nother crates belonging to the same registry.\n\nMitigations\nRust 1.96.0, to be released on May 28th, 2026, will update Cargo to reject\nextracting any symlink within crate tarballs, regardless of whether they come\nfrom crates.io (which already forbids them) or third-party registries. Note that\nCargo never added symlinks when running cargo package or cargo publish, so\nthe impact of this should be minimal.\nUsers who are not able to upgrade to the most recent Rust version are\nrecommended to audit the contents of their registry for the…",
-        "image": null,
-        "source": "Rust Blog",
-        "published": "2026-05-25T00:00:00.000Z",
         "isNew": false
       }
     ],
