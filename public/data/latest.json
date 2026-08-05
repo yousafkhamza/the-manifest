@@ -1,6 +1,6 @@
 {
   "date": "2026-08-05",
-  "generatedAt": "2026-08-05T13:03:21.552Z",
+  "generatedAt": "2026-08-05T18:51:51.053Z",
   "totalArticles": 72,
   "ticker": [
     {
@@ -25,11 +25,20 @@
     },
     {
       "label": "Node.js",
-      "version": "v26.6.0"
+      "version": "v26.7.0"
     }
   ],
   "topics": {
     "aws": [
+      {
+        "title": "Amazon DynamoDB now supports real-time vector search at any scale",
+        "link": "https://aws.amazon.com/blogs/aws/amazon-dynamodb-now-supports-real-time-vector-search-at-any-scale/",
+        "summary": "DynamoDB now supports native vector search with single-digit millisecond latency at 99%+ recall. It is designed for any scale, even trillions of vectors and requires zero infrastructure management.",
+        "image": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2026/07/29/1212634454659342-0a-1.png",
+        "source": "AWS News Blog",
+        "published": "2026-08-05T14:45:10.000Z",
+        "isNew": false
+      },
       {
         "title": "AWS Weekly Roundup: Price reduction of GPT models in Bedrock, CloudWatch managed collectors for Prometheus metrics, and more (August 3, 2026)",
         "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-price-reduction-of-gpt-models-in-bedrock-cloudwatch-managed-collectors-for-prometheus-metrics-and-more-august-3-2026/",
@@ -91,15 +100,6 @@
         "image": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2026/06/27/eks-image-01-1024x382.png",
         "source": "AWS News Blog",
         "published": "2026-07-01T17:20:30.000Z",
-        "isNew": false
-      },
-      {
-        "title": "Accelerate your infrastructure deployments by up to 4x with AWS CloudFormation Express mode",
-        "link": "https://aws.amazon.com/blogs/aws/accelerate-your-infrastructure-deployments-by-up-to-4x-with-aws-cloudformation-express-mode/",
-        "summary": "AWS CloudFormation speeds up infrastructure deployment with Express mode, enabling AI agents and developers to receive deployment confirmation in seconds and iterate faster. Available in all commercial Regions at no additional cost.",
-        "image": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2026/06/25/2026-aws-cloudformation-express-mode-console.jpg",
-        "source": "AWS News Blog",
-        "published": "2026-06-30T21:30:33.000Z",
         "isNew": false
       }
     ],
@@ -179,6 +179,15 @@
     ],
     "gcp": [
       {
+        "title": "August 05, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#August_05_2026",
+        "summary": "Cloud Monitoring\nAnnouncement\nThe Telemetry API for metric ingestion is\ngenerally available (GA).\nYou can ingest OTLP metrics into Cloud Monitoring by using an\nOpenTelemetry Collector, an OTLP exporter, and the Telemetry API. For more\ninformation, see\nOTLP metric ingestion overview.",
+        "image": null,
+        "source": "Google Cloud Platform (GCP) - Release notes",
+        "published": "2026-08-05T07:00:00.000Z",
+        "isNew": false
+      },
+      {
         "title": "August 04, 2026",
         "link": "https://docs.cloud.google.com/release-notes#August_04_2026",
         "summary": "AlloyDB for PostgreSQL\nFeature\nAlloyDB now supports Best Matching 25 (BM25) indexes for full-text search in\nPreview.\nYou can use the pg_textsearch extension to create BM25 indexes and optimize\nprobabilistic ranking of full-text search. This feature is supported on AlloyDB\ninstances running PostgreSQL 17 or 18.\nFor more information, see Create and manage a BM25 index.\nCloud CDN\nFeature\nCloud CDN supports native image optimization at the Google network edge\nfor global external Application Load Balancers. This feature offloads\ncompute-intensive image transformations, such as resizing, cropping,\nand format conversion to reduce origin server load and egress costs.\nThis feature is in Preview.\nNote: During the Preview phase, image optimization is available free of charge.\nCharges will apply once it becomes Generally Available (GA).\nFor more information, see Optimize images with Cloud CDN.\nCloud Load Balancing\nFeature\nRegular expression URL rewrites (regexRewrite) for route rules in URL maps are\nnow available for Application Load Balancers. You can use regular expression\npattern rewrite actions to rewrite URL paths by substituting or removing URL\npath components before forwarding requests to your backends.\nFor more information, see Regular expression URL rewrites for route\nrules.\nThis feature is in Preview.\nCloud SDK\nBreaking\n579.0.0 (2026-08-04)\nBreaking Changes\n(API Registry) Removed gcloud api-registry mcp enable and gcloud api-registry mcp disable. MCP server enablement is no…",
@@ -239,15 +248,6 @@
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-07-29T07:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "July 28, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#July_28_2026",
-        "summary": "AlloyDB for PostgreSQL\nFeature\nNote: IAM group authentication is available in Preview\nfor new AlloyDB clusters. To enable this feature on an existing cluster,\ncontact your Google Cloud account team.\nIAM group authentication for AlloyDB is available in Preview for new clusters running PostgreSQL 15 and later. This feature simplifies database user management by allowing access management at the group level, where group members inherit database roles and permissions. To use this feature, enable the alloydb.iam_authentication and alloydb.iam_group_authentication database flags.\nFor more information, see IAM group authentication and Manage IAM authentication.\nCompute Engine\nFeature\nHyperdisk Balanced volumes on C4D instances have increased maximum throughput\nlimits for these machine types:\nc4d-*-96: 3,125 MiB/s (up from 2,800 MiB/s).\nc4d-*-192: 6,250 MiB/s (up from 4,800 MiB/s).\nc4d-*-384: 12,500 MiB/s (up from 10,000 MiB/s).\nFor detailed performance limits, see\nHyperdisk Balanced performance limits when attached to an instance.\nConfidential VM\nIssue\nStarting August 2026, Confidential VM instances using AMD SEV-SNP might\nhave longer boot times and performance changes due to a guest\nkernel migration and security updates. This issue is expected to be resolved\nby November 2026. Confidential VM instances using AMD SEV or Intel TDX aren't\naffected.\nContainer Optimized OS\nChange\ncos-129-19506-299-60 \nKernel\nDocker\nContainerd\nGPU Drivers\n\n\nCOS-6.12.94\nv27.5.1\nv2.2.5\nSee List\n\n\nFixed…",
-        "image": null,
-        "source": "Google Cloud Platform (GCP) - Release notes",
-        "published": "2026-07-28T07:00:00.000Z",
         "isNew": false
       }
     ],
@@ -327,6 +327,15 @@
     ],
     "terraform": [
       {
+        "title": "v1.16.0-beta2",
+        "link": "https://github.com/hashicorp/terraform/releases/tag/v1.16.0-beta2",
+        "summary": "1.16.0-beta2 (August 05, 2026)\nNEW FEATURES:\nTerraform now stores planned private data for providers, allowing provider-specific state to be preserved across plan and apply. (#37986)\nterraform_data: The new store block can hold ephemeral and sensitive values across plan and apply. (#38298)\nProviders can now use nested blocks as computed values (#38305)\nimport: import blocks inside modules are now supported. (#38352)\nTerraform is now available as a pre-built binary for Linux s390x (zLinux). (#38384)\nResource action triggers can now use on_failure modes of halt, taint, or continue. (#38722)\nENHANCEMENTS:\nstate show: The state show command can now produce machine-readable output when supplied with the -json flag (#23940)\nworkspace: The workspace list command can now produce machine-readable output when supplied with the -json flag (#38397)\ntest: Terraform now reports which resources were left behind when skip_cleanup is set. (#38449)\nstacks: Action configurations now have access to a caller symbol containing the object value of the calling resource. (#38668)\nActions can now use before_destroy and after_destroy events. (#38668)\ncloud: Terraform now displays a summary of policy evaluation outcomes for plan and apply runs against HCP Terraform. (#38715)\npolicy: Terraform now resolves policy plugin credentials from the configured cloud or remote backend during init, plan, and apply, rather than requiring the plugin to read credentials itself. (#38716)\ngraph: The terraform graph…",
+        "image": "https://avatars.githubusercontent.com/u/82989873?s=60&v=4",
+        "source": "Release notes from terraform",
+        "published": "2026-08-05T18:07:50.000Z",
+        "isNew": false
+      },
+      {
         "title": "v1.17.0-alpha20260729",
         "link": "https://github.com/hashicorp/terraform/releases/tag/v1.17.0-alpha20260729",
         "summary": "1.17.0-alpha20260729 (July 29, 2026)\nENHANCEMENTS:\ncommand/init: Enrich log messages with provider versions (#38918)\nBUG FIXES:\nfuncs: pow and log no longer panic when result is not a number (#38912)\nEXPERIMENTS:\nExperiments are only enabled in alpha releases of Terraform CLI. The following features are not yet available in stable releases.\nThe experimental \"deferred actions\" feature, enabled by passing the -allow-deferral option to terraform plan, permits count and for_each arguments in module, resource, and data blocks to have unknown values and allows providers to react more flexibly to unknown values.\nterraform test cleanup: The experimental test cleanup command. In experimental builds of Terraform, a manifest file and state files for each failed cleanup operation during test operations are saved within the .terraform local directory. The test cleanup command will attempt to clean up the local state files left behind automatically, without requiring manual intervention.\nterraform test: backend blocks and skip_cleanup attributes:\n\nTest authors can now specify backend blocks within run blocks in Terraform Test files. Run blocks with backend blocks will load state from the specified backend instead of starting from empty state on every execution. This allows test authors to keep long-running test infrastructure alive between test operations, saving time during regular test operations.\nTest authors can now specify skip_cleanup attributes within test files and within run…",
@@ -388,18 +397,18 @@
         "source": "Release notes from terraform",
         "published": "2026-07-01T19:49:44.000Z",
         "isNew": false
-      },
-      {
-        "title": "v1.16.0-alpha20260626",
-        "link": "https://github.com/hashicorp/terraform/releases/tag/v1.16.0-alpha20260626",
-        "summary": "1.16.0-alpha20260626 (June 26, 2026)\nNEW FEATURES:\nStore PlannedPrivate data for providers (#37986)\nNew store block in terraform_data that can handle ephemeral and sensitive values (#38298)\nProviders can now use nested blocks as computed values (#38305)\nimport: add support for import blocks inside modules (#38352)\nWe now produce builds for Linux s390x (zLinux) (#38384)\nworkspace: The workspace list command can now produce machine-readable output when supplied with the -json flag (#38397)\nResource action triggers can now use on_failure modes of halt, taint, or continue (#38722)\nENHANCEMENTS:\nfeat(cli): terraform state show accepts a -json flag (#23940)\nShow info when resources are left behind due to skip_cleanup (#38449)\nAction configuration now has a new caller symbol which contains the object value from the calling resource. (#38668)\nActions can now use before_destroy and after_destroy events (#38668)\ncloud: Render a summary of Terraform policy evaluation outcomes for plan and apply runs against HCP Terraform (#38715)\npolicy: Resolve the policy plugin entitlement (host, token, organization) from the configured cloud/remote backend for init, plan, and apply, instead of the plugin reading credentials itself (#38716)\nchild module outputs with unreferenced deprecated nested attributes no longer return deprecation warnings. (#38778)\nBUG FIXES:\nimport blocks no longer ignore provider local names (#38338)\nFix a terraform apply panic when the plan contained a no-op change for a…",
-        "image": "https://avatars.githubusercontent.com/u/82989873?s=60&v=4",
-        "source": "Release notes from terraform",
-        "published": "2026-06-26T09:03:31.000Z",
-        "isNew": false
       }
     ],
     "python": [
+      {
+        "title": "Python 3.14.7 and 3.13.15 are now available!",
+        "link": "https://blog.python.org/2026/08/python-3147-31315/",
+        "summary": "A pair of bug fix releases await your upgrade.",
+        "image": null,
+        "source": "Python Insider",
+        "published": "2026-08-05T00:00:00.000Z",
+        "isNew": false
+      },
       {
         "title": "Python 3.15.0 candidate 1 is here!",
         "link": "https://blog.python.org/2026/08/python-3150-rc1/",
@@ -461,15 +470,6 @@
         "image": null,
         "source": "Python Insider",
         "published": "2026-07-18T00:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "Affirm Your PSF Membership Voting Status",
-        "link": "https://pyfound.blogspot.com/2026/07/affirm-PSF-voting-status-2026.html",
-        "summary": "Every Python Software Foundation (PSF) voting-eligible Member (Supporting, Contributing, and Fellow) needs to affirm their membership to vote in this year’s PSF Board and Python Packaging Council (PPC) elections.\nIf you wish to vote in either the PSF Board or Python Packaging Council elections, you must affirm your intention to vote for each election no later than Tuesday, August 25th, 2:00 pm UTC, to participate in this year’s elections. This year’s election votes begin Tuesday, September 1st, 2:00 pm UTC, and close on Tuesday, September 15th, 2:00 pm UTC. \n\nElection communications from psfmember.org\nYou should have received an email from \"psf@psfmember.org <Python Software Foundation>\" with the subject \"[Action Required] Affirm your PSF Membership voting intention for the 2026 PSF Board Election\" and/or “2026 Python Packaging Council Inaugural Election Information & Schedule” that contains information on how to affirm your voting status. If you were expecting to receive the email but have not (make sure to check your spam!), please email psf-elections@pyfound.org for the PSF Board election or pc-elections@python.org, and we’ll assist you. Please note: If you opted out of emails related to your membership, you did not receive these emails. \nPSF Members should review their communication preferences on psfmember.org if you would like to opt in or out of receiving emails about the PSF Board, PPC elections, or both. Here’s how:\n\nLogin to psfmember.org\nNavigate to your “Profile”…",
-        "image": null,
-        "source": "Python Software Foundation News",
-        "published": "2026-07-15T15:06:17.909Z",
         "isNew": false
       }
     ],
@@ -623,6 +623,15 @@
     ],
     "javascript": [
       {
+        "title": "Node.js 26.7.0 (Current)",
+        "link": "https://nodejs.org/en/blog/release/v26.7.0",
+        "summary": "",
+        "image": null,
+        "source": "Node.js Blog",
+        "published": "2026-08-05T16:25:55.000Z",
+        "isNew": false
+      },
+      {
         "title": "Node.js 26.6.0 (Current)",
         "link": "https://nodejs.org/en/blog/release/v26.6.0",
         "summary": "",
@@ -683,15 +692,6 @@
         "image": null,
         "source": "Node.js Blog",
         "published": "2026-07-24T19:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "Node.js 26.5.0 (Current)",
-        "link": "https://nodejs.org/en/blog/release/v26.5.0",
-        "summary": "",
-        "image": null,
-        "source": "Node.js Blog",
-        "published": "2026-07-08T12:00:35.000Z",
         "isNew": false
       }
     ]
