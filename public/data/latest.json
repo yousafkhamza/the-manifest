@@ -1,6 +1,6 @@
 {
-  "date": "2026-08-04",
-  "generatedAt": "2026-08-04T18:52:17.269Z",
+  "date": "2026-08-05",
+  "generatedAt": "2026-08-05T07:49:19.026Z",
   "totalArticles": 72,
   "ticker": [
     {
@@ -181,7 +181,7 @@
       {
         "title": "August 04, 2026",
         "link": "https://docs.cloud.google.com/release-notes#August_04_2026",
-        "summary": "Cloud CDN\nFeature\nCloud CDN supports native image optimization at the Google network edge\nfor global external Application Load Balancers. This feature offloads\ncompute-intensive image transformations, such as resizing, cropping,\nand format conversion to reduce origin server load and egress costs.\nThis feature is in Preview.\nNote: During the Preview phase, image optimization is available free of charge.\nCharges will apply once it becomes Generally Available (GA).\nFor more information, see Optimize images with Cloud CDN.",
+        "summary": "AlloyDB for PostgreSQL\nFeature\nAlloyDB now supports Best Matching 25 (BM25) indexes for full-text search in\nPreview.\nYou can use the pg_textsearch extension to create BM25 indexes and optimize\nprobabilistic ranking of full-text search. This feature is supported on AlloyDB\ninstances running PostgreSQL 17 or 18.\nFor more information, see Create and manage a BM25 index.\nCloud CDN\nFeature\nCloud CDN supports native image optimization at the Google network edge\nfor global external Application Load Balancers. This feature offloads\ncompute-intensive image transformations, such as resizing, cropping,\nand format conversion to reduce origin server load and egress costs.\nThis feature is in Preview.\nNote: During the Preview phase, image optimization is available free of charge.\nCharges will apply once it becomes Generally Available (GA).\nFor more information, see Optimize images with Cloud CDN.\nCloud Load Balancing\nFeature\nRegular expression URL rewrites (regexRewrite) for route rules in URL maps are\nnow available for Application Load Balancers. You can use regular expression\npattern rewrite actions to rewrite URL paths by substituting or removing URL\npath components before forwarding requests to your backends.\nFor more information, see Regular expression URL rewrites for route\nrules.\nThis feature is in Preview.\nCloud SDK\nBreaking\n579.0.0 (2026-08-04)\nBreaking Changes\n(API Registry) Removed gcloud api-registry mcp enable and gcloud api-registry mcp disable. MCP server enablement is no…",
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-08-04T07:00:00.000Z",
@@ -550,12 +550,12 @@
     "rust": [
       {
         "title": "Enabling the next iteration of the borrow checker on nightly",
-        "link": "https://blog.rust-lang.org/2026/08/04/enabling-polonius-alpha-on-nighty/",
+        "link": "https://blog.rust-lang.org/2026/08/04/enabling-polonius-alpha-on-nightly/",
         "summary": "TL;DR We are enabling the next iteration of the borrow checker (coined Polonius Alpha)\non nightly in preparation for stabilization in the next few months.\n\nWhaaaaaat?\nYes! You heard it right! The next iteration of the Rust borrow checker is coming! Rust's first borrow checker (\"AST borrowck\") was very limited and was phased out in 2019 in favor of NLL, other than a \"migrate mode\" that was used to provide nice error messages. That migrate mode was finally removed in 2022.\nThe Polonius borrow checker spun out of the NLL effort in 2018. The initial formulation passed the NLL test suite and accepted (sound) code that NLL did not. However, performance was a critically-limiting factor; generally borrow check was slower than NLL, but certain programs were considerably slower than NLL to the extent that using that implementation/formulation of Polonius was a non-starter. Attempts were made over the years to implement the Polonius formulation in a performant manner, without much luck in addressing the core issues.\nIn 2023, a new formulation of a Polonius-style borrow checker was imagined that required minimal rearchitecture of the existing NLL implementation and could be extended to allow more code to compile. We had hoped, to try to stabilize this new formulation in 2024; but, various things popped up that delayed this.\nBut! We're nearly there now! At this point, there are no known remaining issues with the subset coined Polonius Alpha that we intend to stabilize. And, performance…",
-        "image": "https://blog.rust-lang.org/2026/08/04/enabling-polonius-alpha-on-nighty/polonius_top10k_leaf.png",
+        "image": "https://blog.rust-lang.org/2026/08/04/enabling-polonius-alpha-on-nightly/polonius_top10k_leaf.png",
         "source": "Rust Blog",
         "published": "2026-08-04T00:00:00.000Z",
-        "isNew": false
+        "isNew": true
       },
       {
         "title": "Announcing Rust 1.97.1",
