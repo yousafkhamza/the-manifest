@@ -1,6 +1,6 @@
 {
-  "date": "2026-08-05",
-  "generatedAt": "2026-08-05T18:51:51.053Z",
+  "date": "2026-08-06",
+  "generatedAt": "2026-08-06T07:48:58.615Z",
   "totalArticles": 72,
   "ticker": [
     {
@@ -181,7 +181,7 @@
       {
         "title": "August 05, 2026",
         "link": "https://docs.cloud.google.com/release-notes#August_05_2026",
-        "summary": "Cloud Monitoring\nAnnouncement\nThe Telemetry API for metric ingestion is\ngenerally available (GA).\nYou can ingest OTLP metrics into Cloud Monitoring by using an\nOpenTelemetry Collector, an OTLP exporter, and the Telemetry API. For more\ninformation, see\nOTLP metric ingestion overview.",
+        "summary": "Cloud Monitoring\nAnnouncement\nThe Telemetry API for metric ingestion is\ngenerally available (GA).\nYou can ingest OTLP metrics into Cloud Monitoring by using an\nOpenTelemetry Collector, an OTLP exporter, and the Telemetry API. For more\ninformation, see\nOTLP metric ingestion overview.\nCloud Run\nFeature\nCloud Run supports sandboxes for all resources, including jobs and worker pools (Preview).\nCloud SQL for MySQL\nFeature\nPerformance capture for Cloud SQL for MySQL is now generally available\n(GA).\nPerformance capture lets you take a point-in-time snapshot of your database and\noperating system metrics automatically and route them to Cloud Logging for\nroot-cause analysis.\nWith the GA release, you can configure custom thresholds that\nend long-running transactions automatically\nbefore they slow down your database. In addition,\nthe GA release includes six additional performance capture triggers:\nHigh CPU utilization\nHigh memory usage\nHigh temporary files usage\nHistory list length\nSemaphore waits\nTransaction lock waits\nFor more information, see Cloud SQL performance capture overview.\nGoogle Kubernetes Engine\nFeature\nYou can generate optimized GKE configurations that can improve performance for\nspecific workloads, such as Redis and MySQL, by using the gcloud CLI. The\nconfigurations are ConfigMaps and ComputeClasses that apply performance\nrecommendations to the workloads and the nodes. These optimizations are\navailable in Preview for GKE version 1.31.1-gke.12000 or later. You can measure…",
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-08-05T07:00:00.000Z",
