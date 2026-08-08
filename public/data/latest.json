@@ -1,6 +1,6 @@
 {
-  "date": "2026-08-06",
-  "generatedAt": "2026-08-06T13:03:53.492Z",
+  "date": "2026-08-08",
+  "generatedAt": "2026-08-08T19:28:40.025Z",
   "totalArticles": 72,
   "ticker": [
     {
@@ -30,6 +30,15 @@
   ],
   "topics": {
     "aws": [
+      {
+        "title": "Runtime instances: persistent compute for production AI agents on Amazon Bedrock AgentCore",
+        "link": "https://aws.amazon.com/blogs/aws/runtime-instances-persistent-compute-for-production-ai-agents-on-amazon-bedrock-agentcore/",
+        "summary": "Announcing runtime instances in Amazon Bedrock AgentCore—persistent, managed EC2 infrastructure for production AI agents with multi-agent collaboration, GPU support, and sessions lasting up to 14 days.",
+        "image": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2026/06/19/2026-06-18_12-25-58.png",
+        "source": "AWS News Blog",
+        "published": "2026-08-06T22:58:00.000Z",
+        "isNew": true
+      },
       {
         "title": "Amazon DynamoDB now supports real-time vector search at any scale",
         "link": "https://aws.amazon.com/blogs/aws/amazon-dynamodb-now-supports-real-time-vector-search-at-any-scale/",
@@ -92,18 +101,18 @@
         "source": "AWS News Blog",
         "published": "2026-07-06T15:46:43.000Z",
         "isNew": false
-      },
-      {
-        "title": "Upgrade Amazon EKS clusters with confidence using Kubernetes version rollbacks",
-        "link": "https://aws.amazon.com/blogs/aws/upgrade-amazon-eks-clusters-with-confidence-using-kubernetes-version-rollbacks/",
-        "summary": "Learn how Kubernetes version rollbacks for Amazon EKS let you reverse cluster upgrades within seven days. This new feature provides a safety net for upgrade failures—no cluster rebuilds required—turning Kubernetes version upgrades into a reversible, low-risk operation.",
-        "image": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2026/06/27/eks-image-01-1024x382.png",
-        "source": "AWS News Blog",
-        "published": "2026-07-01T17:20:30.000Z",
-        "isNew": false
       }
     ],
     "azure": [
+      {
+        "title": "Microsoft named a Leader in the 2026 Gartner® Magic Quadrant™ for AI-Augmented Code Modernization Tools",
+        "link": "https://azure.microsoft.com/en-us/blog/microsoft-named-a-leader-in-the-2026-gartner-magic-quadrant-for-ai-augmented-code-modernization-tools/",
+        "summary": "GitHub Copilot and Azure are helping organizations modernize legacy applications, reduce technical debt, and prepare for AI innovation.\nThe post Microsoft named a Leader in the 2026 Gartner® Magic Quadrant™ for AI-Augmented Code Modernization Tools appeared first on Microsoft Azure Blog.",
+        "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/08/MQ-AppMod-Blog-Thumbnail-1-1-1024x576.webp",
+        "source": "Microsoft Azure Blog",
+        "published": "2026-08-06T15:00:00.000Z",
+        "isNew": true
+      },
       {
         "title": "What customers value most in Microsoft Databases—from reliability to AI readiness",
         "link": "https://azure.microsoft.com/en-us/blog/what-customers-value-most-in-microsoft-databases-from-reliability-to-ai-readiness/",
@@ -166,18 +175,36 @@
         "source": "Microsoft Azure Blog",
         "published": "2026-07-02T16:00:00.000Z",
         "isNew": false
-      },
-      {
-        "title": "Proving application resilience on Azure with Chaos Studio",
-        "link": "https://azure.microsoft.com/en-us/blog/proving-application-resilience-on-azure-with-chaos-studio/",
-        "summary": "Azure Chaos Studio helps organizations validate application resilience by simulating outages, failovers, network disruptions, and infrastructure failures before they impact production.\nThe post Proving application resilience on Azure with Chaos Studio appeared first on Microsoft Azure Blog.",
-        "image": "https://opensource.microsoft.com/blog/wp-content/uploads/2026/06/word-image-98613-1.png",
-        "source": "Microsoft Azure Blog",
-        "published": "2026-07-01T16:00:00.000Z",
-        "isNew": false
       }
     ],
     "gcp": [
+      {
+        "title": "August 08, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#August_08_2026",
+        "summary": "Google SecOps SOAR\nAnnouncement\nRelease 6.3.96 is now\navailable for all regions.",
+        "image": null,
+        "source": "Google Cloud Platform (GCP) - Release notes",
+        "published": "2026-08-08T07:00:00.000Z",
+        "isNew": true
+      },
+      {
+        "title": "August 07, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#August_07_2026",
+        "summary": "AlloyDB for PostgreSQL\nFeature\nYou can now sync tables from BigQuery into your AlloyDB instance, either as a\none-time operation or on a periodic schedule. This feature (in Preview)\nlets you enable operational analytics that benefit from low-latency,\ntransactional access to your data lake.\nFor more information, see Sync BigQuery data to AlloyDB.\nFeature\nAlloyDB integration with BigQuery lets you connect your operational and\nanalytical data through real-time data access (lakehouse federation), periodic\ndata synchronization, and one-time table syncs. These features are in Preview.\nFor more information, see Choose how to access BigQuery data from AlloyDB.\nCloud Billing\nFeature\nNew filter and group-by option available in Cloud Billing Reports\nIn Billing Reports, Cloud Billing has added the\nOriginating products\nfilter and\nGroup by\nto provide additional options that let you analyze and understand your costs.\nOriginating products are Google Cloud products that cause usage in\nanother product. For example, Gemini Enterprise is an\noriginating product when it causes usage in the Gemini Enterprise\napp.\nTo help you track and analyze your AI spend, the Originating products\ndimension is used in the following ways:\nYou can use the Originating products filter and group by option to\nconfigure your Cloud Billing report to track and analyze your\nGemini Enterprise subscription and consumption costs.\n\n\nThe Originating products dimension supports a new\npreset report\nfor quick report configuration,…",
+        "image": null,
+        "source": "Google Cloud Platform (GCP) - Release notes",
+        "published": "2026-08-07T07:00:00.000Z",
+        "isNew": true
+      },
+      {
+        "title": "August 06, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#August_06_2026",
+        "summary": "Cloud Key Management Service\nFeature\nPreview: Cloud KMS supports quantum-safe key import. You can use the\nfollowing quantum-safe import methods:\nHPKE_KEM_XWING_HKDF_SHA256_AES_256_GCM\nHPKE_KEM_ML_KEM_768_HKDF_SHA256_AES_256_GCM\nHPKE_KEM_ML_KEM_1024_HKDF_SHA256_AES_256_GCM\nFor more information about quantum-safe key import, see Quantum-safe key\nimport.\nGemini Enterprise\nChange\nGemini Enterprise: Description field removed from Custom MCP server data store\nGemini Enterprise automatically calls your server's tools/list\nendpoint to discover and understand tools, parameter schemas, and\ncapabilities directly. Because Gemini Enterprise routes requests using\nexplicit tool definitions and parameter schemas, you don't need to\nwrite descriptions. This change simplifies data store\nsetup and improves routing accuracy. Existing custom MCP data stores do not\nrequire any updates.\nFor more information, see\nSet up a custom MCP server.\nAnnouncement\nGemini Enterprise: Postponed removal of Gemini 3.5 Flash in the Global\nregion\nWe have postponed the removal of Gemini 3.5 Flash from the global region\nin the Gemini Enterprise app. A revised removal schedule will be provided\nwhen available.\nNote: This is a correction to the July 21, 2026 release\nnote.\nGoogle Cloud Contact Center as a Service\nAnnouncement\nAdvanced reporting dashboards 5.1\nWe've released version 5.1 of the advanced reporting dashboards.\nFeature\nSub teams are included when top-level teams are selected in the Team filter\nWhen you select…",
+        "image": null,
+        "source": "Google Cloud Platform (GCP) - Release notes",
+        "published": "2026-08-06T07:00:00.000Z",
+        "isNew": true
+      },
       {
         "title": "August 05, 2026",
         "link": "https://docs.cloud.google.com/release-notes#August_05_2026",
@@ -190,7 +217,7 @@
       {
         "title": "August 04, 2026",
         "link": "https://docs.cloud.google.com/release-notes#August_04_2026",
-        "summary": "AlloyDB for PostgreSQL\nFeature\nAlloyDB now supports Best Matching 25 (BM25) indexes for full-text search in\nPreview.\nYou can use the pg_textsearch extension to create BM25 indexes and optimize\nprobabilistic ranking of full-text search. This feature is supported on AlloyDB\ninstances running PostgreSQL 17 or 18.\nFor more information, see Create and manage a BM25 index.\nCloud CDN\nFeature\nCloud CDN supports native image optimization at the Google network edge\nfor global external Application Load Balancers. This feature offloads\ncompute-intensive image transformations, such as resizing, cropping,\nand format conversion to reduce origin server load and egress costs.\nThis feature is in Preview.\nNote: During the Preview phase, image optimization is available free of charge.\nCharges will apply once it becomes Generally Available (GA).\nFor more information, see Optimize images with Cloud CDN.\nCloud Load Balancing\nFeature\nRegular expression URL rewrites (regexRewrite) for route rules in URL maps are\nnow available for Application Load Balancers. You can use regular expression\npattern rewrite actions to rewrite URL paths by substituting or removing URL\npath components before forwarding requests to your backends.\nFor more information, see Regular expression URL rewrites for route\nrules.\nThis feature is in Preview.\nCloud SDK\nBreaking\n579.0.0 (2026-08-04)\nBreaking Changes\n(API Registry) Removed gcloud api-registry mcp enable and gcloud api-registry mcp disable. MCP server enablement is no…",
+        "summary": "AlloyDB for PostgreSQL\nFeature\nAlloyDB now supports Best Matching 25 (BM25) indexes for full-text search in\nPreview.\nYou can use the pg_textsearch extension to create BM25 indexes and optimize\nprobabilistic ranking of full-text search. This feature is supported on AlloyDB\ninstances running PostgreSQL 17 or 18.\nFor more information, see Create and manage a BM25 index.\nCloud CDN\nFeature\nCloud CDN supports native image optimization at the Google network edge\nfor global external Application Load Balancers. This feature offloads\ncompute-intensive image transformations, such as resizing, cropping,\nand format conversion to reduce origin server load and egress costs.\nThis feature is in Preview.\nNote: During the Preview phase, image optimization is available free of charge.\nCharges will apply once it becomes Generally Available (GA).\nFor more information, see Optimize images with Cloud CDN.\nCloud Load Balancing\nFeature\nRegular expression URL rewrites (regexRewrite) for route rules in URL maps are\nnow available for Application Load Balancers. You can use regular expression\npattern rewrite actions to rewrite URL paths by substituting or removing URL\npath components before forwarding requests to your backends.\nFor more information, see Regular expression URL rewrites for route\nrules.\nThis feature is in Preview.\nCloud SQL for MySQL\nFeature\nDNS automation\nis now generally available (GA)\non Cloud SQL instances where Private Service Connect is enabled.\nYou can use DNS automation to…",
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-08-04T07:00:00.000Z",
@@ -199,7 +226,7 @@
       {
         "title": "August 03, 2026",
         "link": "https://docs.cloud.google.com/release-notes#August_03_2026",
-        "summary": "API Gateway\nFeature\nRoute LLM requests with model routing\nYou can now use model routing in API Gateway as a managed traffic management layer to accept OpenAI-compatible prompt requests, transcode them in-flight, and route them to specific foundation models in Vertex AI Model Garden (including Gemini, Anthropic Claude, and OpenAI GPT models).\nKey benefits and capabilities include:\nCentralized traffic management: Consolidate AI traffic routing and lifecycle management at the network edge without hosting standalone client-side proxies.\nIn-flight transcoding: Standardize client applications on an OpenAI-compatible REST interface while dynamically dispatching requests to diverse underlying Vertex AI Model Garden endpoints.\nOpenAPI 3.x configuration: Define model routing tables, explicit routing rules, and default model fallbacks using the new x-google-api-management.ai.models.routing and x-google-model-router OpenAPI 3.x extensions.\nFor more information, see Overview of model routing and Configure model routing.\nBackup and DR\nFeature\nYou can now change the backup plan associated with a Cloud SQL instance. This allows you to switch an instance to a different backup plan, provided the new plan uses the same backup vault and is in the same region as the instance. This feature is available through the Google Cloud console and gcloud CLI. To learn more, see Change the associated backup plan for a Cloud SQL instance.\nBigQuery\nFeature\nYou can now use\ncross-cloud connections to query…",
+        "summary": "API Gateway\nFeature\nRoute LLM requests with model routing\nYou can now use model routing in API Gateway as a managed traffic management layer to accept OpenAI-compatible prompt requests, transcode them in-flight, and route them to specific foundation models in Gemini Enterprise Agent Platform Model Garden (including Gemini, Anthropic Claude, and OpenAI GPT models).\nKey benefits and capabilities include:\nCentralized traffic management: Consolidate AI traffic routing and lifecycle management at the network edge without hosting standalone client-side proxies.\nIn-flight transcoding: Standardize client applications on an OpenAI-compatible REST interface while dynamically dispatching requests to diverse underlying Agent Platform Model Garden endpoints.\nOpenAPI 3.x configuration: Define model routing tables, explicit routing rules, and default model fallbacks using the new x-google-api-management.ai.models.routing and x-google-model-router OpenAPI 3.x extensions.\nFor more information, see Overview of model routing and Configure model routing.\nBackup and DR\nFeature\nYou can now change the backup plan associated with a Cloud SQL instance. This allows you to switch an instance to a different backup plan, provided the new plan uses the same backup vault and is in the same region as the instance. This feature is available through the Google Cloud console and gcloud CLI. To learn more, see Change the associated backup plan for a Cloud SQL instance.\nBigQuery\nFeature\nYou can now use…",
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-08-03T07:00:00.000Z",
@@ -221,33 +248,6 @@
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-08-01T07:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "July 31, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#July_31_2026",
-        "summary": "Apigee hybrid\nAnnouncement\nv1.15.7\nOn July 31, 2026 we released an updated version of the Apigee hybrid software, v1.15.7.\nFor information on upgrading, see Upgrading Apigee hybrid to version v1.15.7.\nFor information on new installations, see The big picture.\nNote: This is a patch release: The container images used in patch releases are integrated with the Apigee hybrid Helm charts. Upgrading to a patch via the Helm chart automatically updates the images. No manual image changes are typically needed. For information on container image support in Apigee hybrid releases, see Apigee release process.\nFeature\nRuntime rollout strategy configuration\nIn this release, you can configure the rollout strategy used when updating runtime (message processor) ReplicaSets by setting the runtime.release.strategy property (with options rolling, scale-down-first, or none) or per-environment with envs[].components.runtime.release.strategy in your overrides configuration file. The property defaults to rolling.\nSecurity\nVarious security and CVE fixes are included in this release.\nCloud Load Balancing\nFeature\nCloud Load Balancing introduces a new version of the Network Load\nBalancer—the global external passthrough Network Load Balancer, which is the global variant of the\nregional external passthrough Network Load Balancer. The load balancer is available in Preview.\nThis load balancer variant solves use cases for Security Service Edge (SSE), DNS\nhosting, Adtech (real-time bidding), real-time…",
-        "image": null,
-        "source": "Google Cloud Platform (GCP) - Release notes",
-        "published": "2026-07-31T07:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "July 30, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#July_30_2026",
-        "summary": "BigQuery\nFeature\nYou can add tables, views, data sources, and data quality tests as tasks to\nBigQuery pipelines. For more information, see\nAdd a pipeline task.\nThis feature is\ngenerally available.\nFeature\nYou can audit when users download query results by using the BigQuery\nconsole. Data Access audit logs for the tabledata.list method now include a\nuiDownloadRequest\nfield to indicate whether the request was triggered by a UI download.\nThis feature is\ngenerally available\n(GA).\nBigtable\nFeature\nYou can use Bigtable as a remote storage backend for\nLMCache. By\nstoring the large language model (LLM) key-value (KV) cache externally in\nBigtable, multiple AI serving instances can share and reuse precomputed\nattention tensors. This reduces compute overhead and significantly improves\ntime-to-first-token (TTFT) for repeated prompts and shared documents. This\nfeature is in Preview.\nConfig Connector\nAnnouncement\nConfig Connector version 1.154.1 is now available.\nFeature\nNew Alpha Resources (Direct Reconciler):\nApigeeApiProduct\n\nManage Apigee API products to bundle APIs and make them available to developers.\n\nApigeeRegistryApi\n\nManage Apigee Registry APIs to catalog and manage APIs.\n\nApigeeRegistryArtifact\n\nManage Apigee Registry artifacts associated with APIs, versions, or specs.\n\nAPIHubExternalAPI\n\nManage API Hub external APIs to track APIs hosted outside of Google Cloud.\n\nAPIHubInstance\n\nManage API Hub instances to enable enterprise API management.\n\nAppOptimizeReport\n\nManage App Hub…",
-        "image": null,
-        "source": "Google Cloud Platform (GCP) - Release notes",
-        "published": "2026-07-30T07:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "July 29, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#July_29_2026",
-        "summary": "App Engine standard environment Go\nFeature\nSupport for enabling only needed legacy bundled services using the\napp_engine_bundled_services\nfield is in General Availability.\nApp Engine standard environment Java\nFeature\nSupport for enabling only needed legacy bundled services using the\napp_engine_bundled_services\nfield is in General Availability.\nApp Engine standard environment PHP\nFeature\nSupport for enabling only needed legacy bundled services using the\napp_engine_bundled_services\nfield is in General Availability.\nApp Engine standard environment Python\nFeature\nSupport for enabling only needed legacy bundled services using the\napp_engine_bundled_services\nfield is in General Availability.\nBigQuery\nFeature\nThe BigQuery Data Transfer Service now supports incremental data transfers\nwhen transferring data from Klaviyo to BigQuery. This feature is supported in\nPreview.\nBigtable\nFeature\nYou can use the Google Cloud console to manage row key schemas\nfor your Bigtable tables. This feature is in Preview.\nCloud Key Management Service\nFeature\nCloud KMS Autokey with same-project key storage (formerly known as Autokey for\ndelegated key management) is generally available. Autokey with same-project key\nstorage can be used on its own or alongside Autokey with dedicated-project key\nstorage (formerly known as Autokey for centralized key management).\nFor more information, see Enable Cloud KMS Autokey.\nTo learn how to set guardrails to constrain how Autokey is used in your\norganization, see…",
-        "image": null,
-        "source": "Google Cloud Platform (GCP) - Release notes",
-        "published": "2026-07-29T07:00:00.000Z",
         "isNew": false
       }
     ],
@@ -273,7 +273,7 @@
       {
         "title": "How the controller-runtime Cache Actually Works, and Why Your Controller Does Not Crash the API Server",
         "link": "https://kubernetes.io/blog/2026/07/29/controller-runtime-cache-explained/",
-        "summary": "Caution:\nSome of the technical detail in this article is not accurate. We are reviewing it and preparing\ncorrections. Until then, check what you read here against the\ncontroller-runtime documentation.\nKubernetes has long been the default platform for distributed workloads, and writing your own\ncontroller for it is now a matter of a few hours. The common path — Golang, using kubebuilder on top of\ncontroller-runtime — gives you a project scaffold, types, and a reconciler. For typical\nscenarios that is more than enough. But as soon as load grows or the controller starts behaving\nin ways you did not expect, a whole class of edge cases shows up. Most of them trace back to\nthe same root cause: a fuzzy mental model of how controller-runtime works inside. If you\nwrite Kubernetes controllers in Go, this article should help you build a coherent picture and\navoid expensive surprises in production.\nThis article walks through the internals of controller-runtime and, along the way, shows which\narchitectural decisions are baked into Kubernetes itself. The starting point is how\ncontrollers actually read objects from the Kubernetes API.\nA common misconception goes like this: r.Get() inside Reconcile queries kube-apiserver\ndirectly; r.List() returns a fresh, live view of the world; and after r.Update() you can\nre-read the object and immediately see the new state. In practice the model is the opposite:\ncontroller-runtime operates against a local copy of the data populated through list + watch.…",
+        "summary": "This article has been revised since it was first published, to correct several significant technical inaccuracies in the original text.\nKubernetes has long been the default platform for distributed workloads, and writing your own\ncontroller for it is now a matter of a few hours. The common path — Golang, using kubebuilder on top of\ncontroller-runtime — gives you a project scaffold, types, and a reconciler. For typical\nscenarios that is more than enough. But as soon as load grows or the controller starts behaving\nin ways you did not expect, a whole class of edge cases shows up. Most of them trace back to\nthe same root cause: a fuzzy mental model of how controller-runtime works inside. If you\nwrite Kubernetes controllers in Go, this article should help you build a coherent picture and\navoid expensive surprises in production.\nThis article walks through the internals of controller-runtime and, along the way, shows which\narchitectural decisions are baked into Kubernetes itself. The starting point is how\ncontrollers actually read objects from the Kubernetes API.\nA common misconception goes like this: r.Get() inside Reconcile queries kube-apiserver\ndirectly; r.List() returns a fresh, live view of the world; and after r.Update() you can\nre-read the object and immediately see the new state. In practice the model is the opposite:\ncontroller-runtime operates against a local copy of the data populated through list + watch.\nReads inside a reconciler cost almost nothing and do not load…",
         "image": "https://kubernetes.io/blog/2026/07/29/controller-runtime-cache-explained/pipeline.svg",
         "source": "Kubernetes Blog",
         "published": "2026-07-29T18:00:00.000Z",
