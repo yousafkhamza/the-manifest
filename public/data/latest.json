@@ -1,6 +1,6 @@
 {
-  "date": "2026-08-08",
-  "generatedAt": "2026-08-08T19:28:40.025Z",
+  "date": "2026-08-09",
+  "generatedAt": "2026-08-09T05:57:49.055Z",
   "totalArticles": 72,
   "ticker": [
     {
@@ -37,7 +37,7 @@
         "image": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2026/06/19/2026-06-18_12-25-58.png",
         "source": "AWS News Blog",
         "published": "2026-08-06T22:58:00.000Z",
-        "isNew": true
+        "isNew": false
       },
       {
         "title": "Amazon DynamoDB now supports real-time vector search at any scale",
@@ -111,7 +111,7 @@
         "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/08/MQ-AppMod-Blog-Thumbnail-1-1-1024x576.webp",
         "source": "Microsoft Azure Blog",
         "published": "2026-08-06T15:00:00.000Z",
-        "isNew": true
+        "isNew": false
       },
       {
         "title": "What customers value most in Microsoft Databases—from reliability to AI readiness",
@@ -185,7 +185,7 @@
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-08-08T07:00:00.000Z",
-        "isNew": true
+        "isNew": false
       },
       {
         "title": "August 07, 2026",
@@ -194,7 +194,7 @@
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-08-07T07:00:00.000Z",
-        "isNew": true
+        "isNew": false
       },
       {
         "title": "August 06, 2026",
@@ -203,7 +203,7 @@
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-08-06T07:00:00.000Z",
-        "isNew": true
+        "isNew": false
       },
       {
         "title": "August 05, 2026",
