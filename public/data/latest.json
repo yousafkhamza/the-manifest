@@ -1,6 +1,6 @@
 {
   "date": "2026-08-09",
-  "generatedAt": "2026-08-09T11:47:16.721Z",
+  "generatedAt": "2026-08-09T17:47:13.492Z",
   "totalArticles": 72,
   "ticker": [
     {
@@ -179,6 +179,15 @@
     ],
     "gcp": [
       {
+        "title": "August 09, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#August_09_2026",
+        "summary": "Google SecOps\nFeature\nSelf-service Bindplane Enterprise license download\nThis feature is currently in Preview. Google SecOps Enterprise Plus and Google Unified Security (GUS) customers can now download their Bindplane Enterprise (Google Edition) license key directly from the platform console under SIEM Settings > Collection Agents.\nFor more information, see Bindplane Enterprise (Google Edition).\nFeature\nUpdated rich-text editor\nUpgraded the rich-text editor across Google SecOps, including the Cases Wall, \nUse Case Upload dialog, Report Template dialog, and Dashboard Editor widget.\nKey changes include:\nSimplified typography: Choose font sizes using semantic options (Small, \nNormal, Large, Huge). Legacy font sizes on existing text are preserved.\nStreamlined tables: You can insert or remove entire tables. Formatting \ninside table cells is no longer supported.\nToolbar cleanup: Removed the Cut, Copy, and Paste buttons from the toolbar. \nStandard OS keyboard shortcuts remain supported.\nVisual alignment: Improved visual consistency between editor content \nduring editing and after submission.\nGoogle SecOps SOAR\nAnnouncement\nRelease 6.3.97 is being rolled out to the first phase of regions as listed\nhere.\nThis release contains internal and customer bug fixes.\nFeature\nUpdated rich-text editor\nUpgraded the rich-text editor across Google SecOps, including the Cases Wall, \nUse Case Upload dialog, Report Template dialog, and Dashboard Editor widget.\nKey changes include:\nSimplified…",
+        "image": null,
+        "source": "Google Cloud Platform (GCP) - Release notes",
+        "published": "2026-08-09T07:00:00.000Z",
+        "isNew": false
+      },
+      {
         "title": "August 08, 2026",
         "link": "https://docs.cloud.google.com/release-notes#August_08_2026",
         "summary": "Google SecOps SOAR\nAnnouncement\nRelease 6.3.96 is now\navailable for all regions.",
@@ -239,15 +248,6 @@
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-08-02T07:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "August 01, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#August_01_2026",
-        "summary": "Gemini Enterprise\nFeature\nGemini Enterprise: Pay for what you consume with the Pay-as-you-go edition\nThe Gemini Enterprise Pay-as-you-go edition is generally available. With\nthis edition, you pay for the feature usage your project consumes without\npooled user license quotas. To get started, you need an invoiced\nCloud Billing billing account with a one-seat minimum. You can monitor\nfeature usage and set monthly spend limits in the Google Cloud console.\nThis feature is rolling out gradually to eligible customers over the next\nfew weeks.\nFor more information, see the following:\nCompare editions of Gemini Enterprise\nGet a subscription\nView feature usage\nSet a monthly spend limit\nGoogle Cloud VMware Engine\nFeature\nPreview: Google Cloud VMware Engine capacity allocations are available in preview. A capacity\nallocation is a global reservation of physical nodes for your Cloud Billing account.\nYour reserved nodes are organized into placement groups (PGs), which represent the specific physical\nhardware and location of your reserved capacity.\nGoogle Cloud VMware Engine capacity allocations let you do the following:\n*   Use a capacity allocation during private cloud creation by selecting a PG.\n*   Use a capacity allocation when adding a cluster.\n*   Configure a hybrid private cloud across multiple PGs.\nFor more information, see Manage capacity allocations.\nGoogle SecOps SOAR\nAnnouncement\nRelease 6.3.95 is now\navailable for all regions.",
-        "image": null,
-        "source": "Google Cloud Platform (GCP) - Release notes",
-        "published": "2026-08-01T07:00:00.000Z",
         "isNew": false
       }
     ],
