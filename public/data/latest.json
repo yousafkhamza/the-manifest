@@ -1,6 +1,6 @@
 {
   "date": "2026-08-10",
-  "generatedAt": "2026-08-10T12:00:47.293Z",
+  "generatedAt": "2026-08-10T18:03:17.191Z",
   "totalArticles": 72,
   "ticker": [
     {
@@ -30,6 +30,15 @@
   ],
   "topics": {
     "aws": [
+      {
+        "title": "AWS Weekly Roundup: AWS Heroes Summit, Web Search on Amazon Bedrock, Dogwood, Kiro Crew, and more (August 10, 2026)",
+        "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-aws-heroes-summit-web-search-on-amazon-bedrock-dogwood-kiro-crew-and-more-august-10-2026/",
+        "summary": "Last week, we brought together AWS Heroes from around the world to connect, collaborate, and celebrate the builders who go above and beyond for the AWS community. The AWS Heroes Summit, an invite-only annual gathering, brings global experts specializing in fields like AI, serverless, and containers together for direct collaboration, technical deep-dives, and feedback sessions […]",
+        "image": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2026/08/07/1785879027542.jpg",
+        "source": "AWS News Blog",
+        "published": "2026-08-10T15:45:03.000Z",
+        "isNew": false
+      },
       {
         "title": "Runtime instances: persistent compute for production AI agents on Amazon Bedrock AgentCore",
         "link": "https://aws.amazon.com/blogs/aws/runtime-instances-persistent-compute-for-production-ai-agents-on-amazon-bedrock-agentcore/",
@@ -92,27 +101,9 @@
         "source": "AWS News Blog",
         "published": "2026-07-13T16:18:20.000Z",
         "isNew": false
-      },
-      {
-        "title": "AWS Weekly Roundup: Claude Sonnet 5 on AWS, Amazon WorkSpaces for AI agents, AWS service availability updates, and more (July 6, 2026)",
-        "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-claude-sonnet-5-on-aws-amazon-workspaces-for-ai-agents-aws-service-availability-updates-and-more-july-6-2026/",
-        "summary": "A couple of editions ago I wrote about what I find so energizing about working with startups. Last week I got a fresh dose of it: I spent a few days with the AWS Startups team, listening to stories of founders talking about the problems they’re actually solving. One story that stayed with me came […]",
-        "image": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2026/07/03/GetTogether_1540.jpg",
-        "source": "AWS News Blog",
-        "published": "2026-07-06T15:46:43.000Z",
-        "isNew": false
       }
     ],
     "azure": [
-      {
-        "title": "Microsoft named a Leader in the 2026 Gartner® Magic Quadrant™ for AI-Augmented Code Modernization Tools",
-        "link": "https://azure.microsoft.com/en-us/blog/microsoft-named-a-leader-in-the-2026-gartner-magic-quadrant-for-ai-augmented-code-modernization-tools/",
-        "summary": "GitHub Copilot and Azure are helping organizations modernize legacy applications, reduce technical debt, and prepare for AI innovation.\nThe post Microsoft named a Leader in the 2026 Gartner® Magic Quadrant™ for AI-Augmented Code Modernization Tools appeared first on Microsoft Azure Blog.",
-        "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/08/MQ-AppMod-Blog-Thumbnail-1-1-1024x576.webp",
-        "source": "Microsoft Azure Blog",
-        "published": "2026-08-06T15:00:00.000Z",
-        "isNew": false
-      },
       {
         "title": "What customers value most in Microsoft Databases—from reliability to AI readiness",
         "link": "https://azure.microsoft.com/en-us/blog/what-customers-value-most-in-microsoft-databases-from-reliability-to-ai-readiness/",
@@ -175,9 +166,27 @@
         "source": "Microsoft Azure Blog",
         "published": "2026-07-02T16:00:00.000Z",
         "isNew": false
+      },
+      {
+        "title": "Proving application resilience on Azure with Chaos Studio",
+        "link": "https://azure.microsoft.com/en-us/blog/proving-application-resilience-on-azure-with-chaos-studio/",
+        "summary": "Azure Chaos Studio helps organizations validate application resilience by simulating outages, failovers, network disruptions, and infrastructure failures before they impact production.\nThe post Proving application resilience on Azure with Chaos Studio appeared first on Microsoft Azure Blog.",
+        "image": "https://opensource.microsoft.com/blog/wp-content/uploads/2026/06/word-image-98613-1.png",
+        "source": "Microsoft Azure Blog",
+        "published": "2026-07-01T16:00:00.000Z",
+        "isNew": false
       }
     ],
     "gcp": [
+      {
+        "title": "August 10, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#August_10_2026",
+        "summary": "Security Command Center\nFeature\nThe integration of Security Command Center with\nApplication Design Center for\napplication lifecycle security assessments is generally available\n(GA). Design-time\nfindings are sent to Security Command Center on demand during deployment. This\nfeature lets you filter findings by App Hub application at the\napp-enabled folder and project levels.\nFor more information, see Application lifecycle security\nassessments.",
+        "image": null,
+        "source": "Google Cloud Platform (GCP) - Release notes",
+        "published": "2026-08-10T07:00:00.000Z",
+        "isNew": false
+      },
       {
         "title": "August 09, 2026",
         "link": "https://docs.cloud.google.com/release-notes#August_09_2026",
@@ -217,7 +226,7 @@
       {
         "title": "August 05, 2026",
         "link": "https://docs.cloud.google.com/release-notes#August_05_2026",
-        "summary": "Cloud Monitoring\nAnnouncement\nThe Telemetry API for metric ingestion is\ngenerally available (GA).\nYou can ingest OTLP metrics into Cloud Monitoring by using an\nOpenTelemetry Collector, an OTLP exporter, and the Telemetry API. For more\ninformation, see\nOTLP metric ingestion overview.\nCloud Run\nFeature\nCloud Run supports sandboxes for all resources, including jobs and worker pools (Preview).\nCloud SQL for MySQL\nFeature\nPerformance capture for Cloud SQL for MySQL is now generally available\n(GA).\nPerformance capture lets you take a point-in-time snapshot of your database and\noperating system metrics automatically and route them to Cloud Logging for\nroot-cause analysis.\nWith the GA release, you can configure custom thresholds that\nend long-running transactions automatically\nbefore they slow down your database. In addition,\nthe GA release includes six additional performance capture triggers:\nHigh CPU utilization\nHigh memory usage\nHigh temporary files usage\nHistory list length\nSemaphore waits\nTransaction lock waits\nFor more information, see Cloud SQL performance capture overview.\nGoogle Kubernetes Engine\nFeature\nYou can generate optimized GKE configurations that can improve performance for\nspecific workloads, such as Redis and MySQL, by using the gcloud CLI. The\nconfigurations are ConfigMaps and ComputeClasses that apply performance\nrecommendations to the workloads and the nodes. These optimizations are\navailable in Preview for GKE version 1.31.1-gke.12000 or later. You can measure…",
+        "summary": "Cloud Database Migration Service\nFeature\nYou can now manage your Database Migration Service migration jobs directly from the\ndestination Cloud SQL instance or AlloyDB for PostgreSQL cluster pages in\nthe Google Cloud console. For more information, see:\nManage homogeneous migration jobs:\n\n\nSQL Server to Cloud SQL for SQL Server\n\nMySQL to Cloud SQL for MySQL\n\nPostgreSQL to Cloud SQL for PostgreSQL\n\nPostgreSQL to AlloyDB for PostgreSQL\n\nManage heterogeneous migration jobs:\n\n\nOracle to Cloud SQL for PostgreSQL\n\nOracle to AlloyDB for PostgreSQL\n\nSQL Server to AlloyDB for PostgreSQL\n\nSQL Server to Cloud SQL for PostgreSQL\n\n\nCloud Monitoring\nAnnouncement\nThe Telemetry API for metric ingestion is\ngenerally available (GA).\nYou can ingest OTLP metrics into Cloud Monitoring by using an\nOpenTelemetry Collector, an OTLP exporter, and the Telemetry API. For more\ninformation, see\nOTLP metric ingestion overview.\nCloud Run\nFeature\nCloud Run supports sandboxes for all resources, including jobs and worker pools (Preview).\nCloud SQL for MySQL\nFeature\nPerformance capture for Cloud SQL for MySQL is now generally available\n(GA).\nPerformance capture lets you take a point-in-time snapshot of your database and\noperating system metrics automatically and route them to Cloud Logging for\nroot-cause analysis.\nWith the GA release, you can configure custom thresholds that\nend long-running transactions automatically\nbefore they slow down your database. In addition,\nthe GA release includes six additional…",
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-08-05T07:00:00.000Z",
@@ -239,15 +248,6 @@
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-08-03T07:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "August 02, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#August_02_2026",
-        "summary": "Google SecOps SOAR\nAnnouncement\nRelease 6.3.96 is being rolled out to the first phase of regions as listed\nhere.\nThis release contains internal and customer bug fixes.",
-        "image": null,
-        "source": "Google Cloud Platform (GCP) - Release notes",
-        "published": "2026-08-02T07:00:00.000Z",
         "isNew": false
       }
     ],
