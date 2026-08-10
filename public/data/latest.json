@@ -1,6 +1,6 @@
 {
-  "date": "2026-08-09",
-  "generatedAt": "2026-08-09T17:47:13.492Z",
+  "date": "2026-08-10",
+  "generatedAt": "2026-08-10T06:41:35.429Z",
   "totalArticles": 72,
   "ticker": [
     {
@@ -181,7 +181,7 @@
       {
         "title": "August 09, 2026",
         "link": "https://docs.cloud.google.com/release-notes#August_09_2026",
-        "summary": "Google SecOps\nFeature\nSelf-service Bindplane Enterprise license download\nThis feature is currently in Preview. Google SecOps Enterprise Plus and Google Unified Security (GUS) customers can now download their Bindplane Enterprise (Google Edition) license key directly from the platform console under SIEM Settings > Collection Agents.\nFor more information, see Bindplane Enterprise (Google Edition).\nFeature\nUpdated rich-text editor\nUpgraded the rich-text editor across Google SecOps, including the Cases Wall, \nUse Case Upload dialog, Report Template dialog, and Dashboard Editor widget.\nKey changes include:\nSimplified typography: Choose font sizes using semantic options (Small, \nNormal, Large, Huge). Legacy font sizes on existing text are preserved.\nStreamlined tables: You can insert or remove entire tables. Formatting \ninside table cells is no longer supported.\nToolbar cleanup: Removed the Cut, Copy, and Paste buttons from the toolbar. \nStandard OS keyboard shortcuts remain supported.\nVisual alignment: Improved visual consistency between editor content \nduring editing and after submission.\nGoogle SecOps SOAR\nAnnouncement\nRelease 6.3.97 is being rolled out to the first phase of regions as listed\nhere.\nThis release contains internal and customer bug fixes.\nFeature\nUpdated rich-text editor\nUpgraded the rich-text editor across Google SecOps, including the Cases Wall, \nUse Case Upload dialog, Report Template dialog, and Dashboard Editor widget.\nKey changes include:\nSimplified…",
+        "summary": "Google SecOps\nFeature\n[Spotlight Feature] Analyze feed activity with Cloud Logging\nThis feature is in public preview. You can now monitor, debug, and troubleshoot Google SecOps ingestion pipelines and feeds using Cloud Logging. By sending, viewing, and querying ingestion and feed activity logs in Logs Explorer, you can diagnose log delivery issues, such as, missing, delayed, or failing logs, and decrease the time required to resolve ingestion anomalies.\nThis visibility into push- and pull-based ingestion mechanisms lets you use Gemini Cloud Assist to investigate logging and metrics telemetry directly from the Google SecOps console. Additionally, you can use the Debug with logs option on the Feed management page to open Logs Explorer pre-filtered for a specific feed.\nFor more information, see Analyze feed activity with Cloud Logging.\nFeature\nSelf-service Bindplane Enterprise license download\nThis feature is currently in Preview. Google SecOps Enterprise Plus and Google Unified Security (GUS) customers can now download their Bindplane Enterprise (Google Edition) license key directly from the platform console under SIEM Settings > Collection Agents.\nFor more information, see Bindplane Enterprise (Google Edition).\nFeature\nUpdated rich-text editor\nUpgraded the rich-text editor across Google SecOps, including the Cases Wall, \nUse Case Upload dialog, Report Template dialog, and Dashboard Editor widget.\nKey changes include:\nSimplified typography: Choose font sizes using semantic…",
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-08-09T07:00:00.000Z",
