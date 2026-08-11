@@ -1,6 +1,6 @@
 {
   "date": "2026-08-11",
-  "generatedAt": "2026-08-11T11:59:39.562Z",
+  "generatedAt": "2026-08-11T18:06:40.179Z",
   "totalArticles": 72,
   "ticker": [
     {
@@ -179,6 +179,15 @@
     ],
     "gcp": [
       {
+        "title": "August 11, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#August_11_2026",
+        "summary": "Cortex Framework\nAnnouncement\nRelease 7.0.2\nFixed\nResolved security vulnerabilities in transitive dependencies by updating the following corresponding direct dependencies:  google-auth, google-cloud-bigquery, google-cloud-dataform, google-cloud-resource-manager, google-cloud-service-usage and google-cloud-storage.",
+        "image": null,
+        "source": "Google Cloud Platform (GCP) - Release notes",
+        "published": "2026-08-11T07:00:00.000Z",
+        "isNew": false
+      },
+      {
         "title": "August 10, 2026",
         "link": "https://docs.cloud.google.com/release-notes#August_10_2026",
         "summary": "BigQuery\nFeature\nBigQuery now supports the gemini-3.1-flash-lite and gemini-3.5-flash GA\nmodels, which are available for the us, eu, and global multi-regional\nendpoints. You can use these models in all generative AI functions.\nFor information about how to specify a multi-regional endpoint and\nhow endpoints are selected, read about\nlocations\nin the generative AI overview.\nCloud Hub\nAnnouncement\nStarting September 15, 2026, the App Topology API transitions to a\nusage-based billing model that includes a daily free data usage allotment. For\nmore information, see\nApp Topology pricing.\nCloud Run functions\nFeature\nThe Cloud Run functions upgrade tool is in General Availability. Use this tool to upgrade 1st gen functions to Cloud Run functions.\nConfidential Space\nAnnouncement\nA new Confidential Space image (260701) is available.\nEventarc\nChange\nWhen configuring Eventarc triggers for Cloud Run destinations (including Cloud\nRun functions), you can specify a single delivery attempt with no retries. For\nmore information, see\nRetries for Cloud Run destinations.\nGemini\nOther\nBug fixes in VS Code\nVarious bug fixes and minor product enhancements.\nGemini Enterprise\nFeature\nGemini Enterprise: Export user data to a CSV file\nGemini Enterprise administrators can export user data to a comma-separated\nvalues (CSV) file to sort, filter, and analyze records offline. This feature is\ngenerally available (GA).\nFor more information, see\nExport user data.\nGoogle Cloud Contact Center as a Service…",
@@ -239,15 +248,6 @@
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-08-04T07:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "August 03, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#August_03_2026",
-        "summary": "API Gateway\nFeature\nRoute LLM requests with model routing\nYou can now use model routing in API Gateway as a managed traffic management layer to accept OpenAI-compatible prompt requests, transcode them in-flight, and route them to specific foundation models in Gemini Enterprise Agent Platform Model Garden (including Gemini, Anthropic Claude, and OpenAI GPT models).\nKey benefits and capabilities include:\nCentralized traffic management: Consolidate AI traffic routing and lifecycle management at the network edge without hosting standalone client-side proxies.\nIn-flight transcoding: Standardize client applications on an OpenAI-compatible REST interface while dynamically dispatching requests to diverse underlying Agent Platform Model Garden endpoints.\nOpenAPI 3.x configuration: Define model routing tables, explicit routing rules, and default model fallbacks using the new x-google-api-management.ai.models.routing and x-google-model-router OpenAPI 3.x extensions.\nFor more information, see Overview of model routing and Configure model routing.\nBackup and DR\nFeature\nYou can now change the backup plan associated with a Cloud SQL instance. This allows you to switch an instance to a different backup plan, provided the new plan uses the same backup vault and is in the same region as the instance. This feature is available through the Google Cloud console and gcloud CLI. To learn more, see Change the associated backup plan for a Cloud SQL instance.\nBigQuery\nFeature\nYou can now use…",
-        "image": null,
-        "source": "Google Cloud Platform (GCP) - Release notes",
-        "published": "2026-08-03T07:00:00.000Z",
         "isNew": false
       }
     ],
