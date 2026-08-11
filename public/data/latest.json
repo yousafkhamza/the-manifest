@@ -1,6 +1,6 @@
 {
   "date": "2026-08-11",
-  "generatedAt": "2026-08-11T06:04:14.222Z",
+  "generatedAt": "2026-08-11T11:59:39.562Z",
   "totalArticles": 72,
   "ticker": [
     {
@@ -111,7 +111,7 @@
         "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/08/MQ-AppMod-Blog-Thumbnail-1-1-1024x576.webp",
         "source": "Microsoft Azure Blog",
         "published": "2026-08-06T15:00:00.000Z",
-        "isNew": true
+        "isNew": false
       },
       {
         "title": "What customers value most in Microsoft Databases—from reliability to AI readiness",
@@ -181,7 +181,7 @@
       {
         "title": "August 10, 2026",
         "link": "https://docs.cloud.google.com/release-notes#August_10_2026",
-        "summary": "BigQuery\nFeature\nBigQuery now supports the gemini-3.1-flash-lite and gemini-3.5-flash GA\nmodels, which are available for the us, eu, and global multi-regional\nendpoints. You can use these models in all generative AI functions.\nFor information about how to specify a multi-regional endpoint and\nhow endpoints are selected, read about\nlocations\nin the generative AI overview.\nCloud Hub\nAnnouncement\nStarting September 15, 2026, the App Topology API transitions to a\nusage-based billing model that includes a daily free data usage allotment. For\nmore information, see\nApp Topology pricing.\nCloud Run functions\nFeature\nThe Cloud Run functions upgrade tool is in General Availability. Use this tool to upgrade 1st gen functions to Cloud Run functions.\nConfidential Space\nAnnouncement\nA new Confidential Space image (260701) is available.\nEventarc\nChange\nWhen configuring Eventarc triggers for Cloud Run destinations (including Cloud\nRun functions), you can specify a single delivery attempt with no retries. For\nmore information, see\nRetries for Cloud Run destinations.\nGemini\nOther\nBug fixes in VS Code\nVarious bug fixes and minor product enhancements.\nGemini Enterprise\nFeature\nGemini Enterprise: Export user data to a CSV file\nGemini Enterprise administrators can export user data to a comma-separated\nvalues (CSV) file to sort, filter, and analyze records offline. This feature is\ngenerally available (GA).\nFor more information, see\nExport user data.\nMemorystore for Valkey\nFeature\nYou can use the…",
+        "summary": "BigQuery\nFeature\nBigQuery now supports the gemini-3.1-flash-lite and gemini-3.5-flash GA\nmodels, which are available for the us, eu, and global multi-regional\nendpoints. You can use these models in all generative AI functions.\nFor information about how to specify a multi-regional endpoint and\nhow endpoints are selected, read about\nlocations\nin the generative AI overview.\nCloud Hub\nAnnouncement\nStarting September 15, 2026, the App Topology API transitions to a\nusage-based billing model that includes a daily free data usage allotment. For\nmore information, see\nApp Topology pricing.\nCloud Run functions\nFeature\nThe Cloud Run functions upgrade tool is in General Availability. Use this tool to upgrade 1st gen functions to Cloud Run functions.\nConfidential Space\nAnnouncement\nA new Confidential Space image (260701) is available.\nEventarc\nChange\nWhen configuring Eventarc triggers for Cloud Run destinations (including Cloud\nRun functions), you can specify a single delivery attempt with no retries. For\nmore information, see\nRetries for Cloud Run destinations.\nGemini\nOther\nBug fixes in VS Code\nVarious bug fixes and minor product enhancements.\nGemini Enterprise\nFeature\nGemini Enterprise: Export user data to a CSV file\nGemini Enterprise administrators can export user data to a comma-separated\nvalues (CSV) file to sort, filter, and analyze records offline. This feature is\ngenerally available (GA).\nFor more information, see\nExport user data.\nGoogle Cloud Contact Center as a Service…",
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-08-10T07:00:00.000Z",
