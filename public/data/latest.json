@@ -1,6 +1,6 @@
 {
   "date": "2026-08-12",
-  "generatedAt": "2026-08-12T12:01:13.549Z",
+  "generatedAt": "2026-08-12T18:06:44.383Z",
   "totalArticles": 72,
   "ticker": [
     {
@@ -105,15 +105,6 @@
     ],
     "azure": [
       {
-        "title": "Microsoft named a Leader in the 2026 Gartner® Magic Quadrant™ for AI-Augmented Code Modernization Tools",
-        "link": "https://azure.microsoft.com/en-us/blog/microsoft-named-a-leader-in-the-2026-gartner-magic-quadrant-for-ai-augmented-code-modernization-tools/",
-        "summary": "GitHub Copilot and Azure are helping organizations modernize legacy applications, reduce technical debt, and prepare for AI innovation.\nThe post Microsoft named a Leader in the 2026 Gartner® Magic Quadrant™ for AI-Augmented Code Modernization Tools appeared first on Microsoft Azure Blog.",
-        "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/08/MQ-AppMod-Blog-Thumbnail-1-1-1024x576.webp",
-        "source": "Microsoft Azure Blog",
-        "published": "2026-08-06T15:00:00.000Z",
-        "isNew": false
-      },
-      {
         "title": "What customers value most in Microsoft Databases—from reliability to AI readiness",
         "link": "https://azure.microsoft.com/en-us/blog/what-customers-value-most-in-microsoft-databases-from-reliability-to-ai-readiness/",
         "summary": "Every day, customers trust Microsoft Databases to power their most critical applications, business processes, and AI-powered experiences.\nThe post What customers value most in Microsoft Databases—from reliability to AI readiness appeared first on Microsoft Azure Blog.",
@@ -175,9 +166,27 @@
         "source": "Microsoft Azure Blog",
         "published": "2026-07-02T16:00:00.000Z",
         "isNew": false
+      },
+      {
+        "title": "Proving application resilience on Azure with Chaos Studio",
+        "link": "https://azure.microsoft.com/en-us/blog/proving-application-resilience-on-azure-with-chaos-studio/",
+        "summary": "Azure Chaos Studio helps organizations validate application resilience by simulating outages, failovers, network disruptions, and infrastructure failures before they impact production.\nThe post Proving application resilience on Azure with Chaos Studio appeared first on Microsoft Azure Blog.",
+        "image": "https://opensource.microsoft.com/blog/wp-content/uploads/2026/06/word-image-98613-1.png",
+        "source": "Microsoft Azure Blog",
+        "published": "2026-07-01T16:00:00.000Z",
+        "isNew": false
       }
     ],
     "gcp": [
+      {
+        "title": "August 12, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#August_12_2026",
+        "summary": "Apigee API hub\nFeature\nConfigure and deploy MCP servers with gcloud CLI\nYou can use the gcloud apihub locations configure-and-deploy-server command to configure and deploy API hub Model Context Protocol (MCP) servers to an attached Apigee runtime.\nDefine MCP tools inline or by referencing a YAML or JSON specification file to expose your API hub operations for agent integrations.\nFor more information, see gcloud CLI for API hub.\nBigtable\nFeature\nYou can use the CLUSTER_ATTRIBUTE() filter to restrict continuous materialized\nview processing to specific clusters. This function lets you isolate views\nwithin an instance. This feature is generally available (GA).\nFor more information, see Non-deterministic SQL functions.\nCloud Trace\nFeature\nThe following remote MCP servers automatically generate a trace span for\ntools/call operations. These spans can help you understand the behavior of\nyour agentic applications. For more information, see\nInvestigate MCP calls using Trace.\nCloud Billing\nPersonalized Service Health\nFeature\nGoogle Cloud Observability automatically generates trace exemplars for charts on custom\ndashboards that display the result of a SQL query when the query runs against\nyour trace data and satisfies some constraints. The exemplars link the\nSQL query result to specific traces. This feature is in\nPreview.\nFor more information, see\nGenerate and display trace exemplars.",
+        "image": null,
+        "source": "Google Cloud Platform (GCP) - Release notes",
+        "published": "2026-08-12T07:00:00.000Z",
+        "isNew": false
+      },
       {
         "title": "August 11, 2026",
         "link": "https://docs.cloud.google.com/release-notes#August_11_2026",
@@ -239,15 +248,6 @@
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-08-05T07:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "August 04, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#August_04_2026",
-        "summary": "AlloyDB for PostgreSQL\nFeature\nAlloyDB now supports Best Matching 25 (BM25) indexes for full-text search in\nPreview.\nYou can use the pg_textsearch extension to create BM25 indexes and optimize\nprobabilistic ranking of full-text search. This feature is supported on AlloyDB\ninstances running PostgreSQL 17 or 18.\nFor more information, see Create and manage a BM25 index.\nCloud CDN\nFeature\nCloud CDN supports native image optimization at the Google network edge\nfor global external Application Load Balancers. This feature offloads\ncompute-intensive image transformations, such as resizing, cropping,\nand format conversion to reduce origin server load and egress costs.\nThis feature is in Preview.\nNote: During the Preview phase, image optimization is available free of charge.\nCharges will apply once it becomes Generally Available (GA).\nFor more information, see Optimize images with Cloud CDN.\nCloud Load Balancing\nFeature\nRegular expression URL rewrites (regexRewrite) for route rules in URL maps are\nnow available for Application Load Balancers. You can use regular expression\npattern rewrite actions to rewrite URL paths by substituting or removing URL\npath components before forwarding requests to your backends.\nFor more information, see Regular expression URL rewrites for route\nrules.\nThis feature is in Preview.\nCloud SQL for MySQL\nFeature\nDNS automation\nis now generally available (GA)\non Cloud SQL instances where Private Service Connect is enabled.\nYou can use DNS automation to…",
-        "image": null,
-        "source": "Google Cloud Platform (GCP) - Release notes",
-        "published": "2026-08-04T07:00:00.000Z",
         "isNew": false
       }
     ],
@@ -327,6 +327,24 @@
     ],
     "terraform": [
       {
+        "title": "v1.16.0-rc1",
+        "link": "https://github.com/hashicorp/terraform/releases/tag/v1.16.0-rc1",
+        "summary": "1.16.0-rc1 (August 12, 2026)\nNEW FEATURES:\nTerraform now stores planned private data for providers, allowing provider-specific state to be preserved across plan and apply. (#37986)\nterraform_data: The new store block can hold ephemeral and sensitive values across plan and apply. (#38298)\nProviders can now use nested blocks as computed values (#38305)\nimport: import blocks inside modules are now supported. (#38352)\nTerraform is now available as a pre-built binary for Linux s390x (zLinux). (#38384)\nResource action triggers can now use on_failure modes of halt, taint, or continue. (#38722)\nENHANCEMENTS:\nstate show: The state show command can now produce machine-readable output when supplied with the -json flag (#23940)\nworkspace: The workspace list command can now produce machine-readable output when supplied with the -json flag (#38397)\ntest: Terraform now reports which resources were left behind when skip_cleanup is set. (#38449)\nstacks: Action configurations now have access to a caller symbol containing the object value of the calling resource. (#38668)\nActions can now use before_destroy and after_destroy events. (#38668)\ncloud: Terraform now displays a summary of policy evaluation outcomes for plan and apply runs against HCP Terraform. (#38715)\npolicy: Terraform now resolves policy plugin credentials from the configured cloud or remote backend during init, plan, and apply, rather than requiring the plugin to read credentials itself. (#38716)\ngraph: The terraform graph…",
+        "image": "https://avatars.githubusercontent.com/u/82989873?s=60&v=4",
+        "source": "Release notes from terraform",
+        "published": "2026-08-12T15:22:32.000Z",
+        "isNew": false
+      },
+      {
+        "title": "v1.17.0-alpha20260812",
+        "link": "https://github.com/hashicorp/terraform/releases/tag/v1.17.0-alpha20260812",
+        "summary": "1.17.0-alpha20260812 (August 12, 2026)\nENHANCEMENTS:\ncommand/init: Enrich log messages with provider versions (#38918)\nBUG FIXES:\nfuncs: pow and log no longer panic when result is not a number (#38912)\nephemeral: Terraform will now use and display diagnostics raised when renewing an ephemeral resource. This may cause warnings to appear that previously were lost. We expect that any error diagnostics that were previously lost would have caused confusing downstream errors, so we do not anticipate this change to be breaking. (#38989)\nNOTES:\nversion: JSON output now includes a new format_version field, which will enable safer future changes of the command's JSON output format. It is assumed existing tooling ignores unknown fields and therefore this change should not be breaking in itself but we advice consumers to pay attention to format_version in future releases and/or use latest version of hashicorp/terraform-json & hashicorp/terraform-exec which does. (#38930)\nEXPERIMENTS:\nExperiments are only enabled in alpha releases of Terraform CLI. The following features are not yet available in stable releases.\nThe experimental \"deferred actions\" feature, enabled by passing the -allow-deferral option to terraform plan, permits count and for_each arguments in module, resource, and data blocks to have unknown values and allows providers to react more flexibly to unknown values.\nterraform test cleanup: The experimental test cleanup command. In experimental builds of Terraform, a manifest…",
+        "image": "https://avatars.githubusercontent.com/u/82989873?s=60&v=4",
+        "source": "Release notes from terraform",
+        "published": "2026-08-12T12:01:24.000Z",
+        "isNew": false
+      },
+      {
         "title": "v1.16.0-beta2",
         "link": "https://github.com/hashicorp/terraform/releases/tag/v1.16.0-beta2",
         "summary": "1.16.0-beta2 (August 05, 2026)\nNEW FEATURES:\nTerraform now stores planned private data for providers, allowing provider-specific state to be preserved across plan and apply. (#37986)\nterraform_data: The new store block can hold ephemeral and sensitive values across plan and apply. (#38298)\nProviders can now use nested blocks as computed values (#38305)\nimport: import blocks inside modules are now supported. (#38352)\nTerraform is now available as a pre-built binary for Linux s390x (zLinux). (#38384)\nResource action triggers can now use on_failure modes of halt, taint, or continue. (#38722)\nENHANCEMENTS:\nstate show: The state show command can now produce machine-readable output when supplied with the -json flag (#23940)\nworkspace: The workspace list command can now produce machine-readable output when supplied with the -json flag (#38397)\ntest: Terraform now reports which resources were left behind when skip_cleanup is set. (#38449)\nstacks: Action configurations now have access to a caller symbol containing the object value of the calling resource. (#38668)\nActions can now use before_destroy and after_destroy events. (#38668)\ncloud: Terraform now displays a summary of policy evaluation outcomes for plan and apply runs against HCP Terraform. (#38715)\npolicy: Terraform now resolves policy plugin credentials from the configured cloud or remote backend during init, plan, and apply, rather than requiring the plugin to read credentials itself. (#38716)\ngraph: The terraform graph…",
@@ -378,24 +396,6 @@
         "image": "https://avatars.githubusercontent.com/u/82989873?s=60&v=4",
         "source": "Release notes from terraform",
         "published": "2026-07-08T09:19:38.000Z",
-        "isNew": false
-      },
-      {
-        "title": "v1.16.0-alpha20260706",
-        "link": "https://github.com/hashicorp/terraform/releases/tag/v1.16.0-alpha20260706",
-        "summary": "1.16.0-alpha20260706 (July 06, 2026)\nNEW FEATURES:\nStore PlannedPrivate data for providers (#37986)\nNew store block in terraform_data that can handle ephemeral and sensitive values (#38298)\nProviders can now use nested blocks as computed values (#38305)\nimport: add support for import blocks inside modules (#38352)\nWe now produce builds for Linux s390x (zLinux) (#38384)\nworkspace: The workspace list command can now produce machine-readable output when supplied with the -json flag (#38397)\nResource action triggers can now use on_failure modes of halt, taint, or continue (#38722)\nENHANCEMENTS:\nfeat(cli): terraform state show accepts a -json flag (#23940)\nShow info when resources are left behind due to skip_cleanup (#38449)\nAction configuration now has a new caller symbol which contains the object value from the calling resource. (#38668)\nActions can now use before_destroy and after_destroy events (#38668)\ncloud: Render a summary of Terraform policy evaluation outcomes for plan and apply runs against HCP Terraform (#38715)\npolicy: Resolve the policy plugin entitlement (host, token, organization) from the configured cloud/remote backend for init, plan, and apply, instead of the plugin reading credentials itself (#38716)\nThe 'terraform graph' command now accepts a -format flag, and can output graphs in Mermaid format (#38719)\nchild module outputs with unreferenced deprecated nested attributes no longer return deprecation warnings. (#38778)\ncontains() function can now test for null…",
-        "image": "https://avatars.githubusercontent.com/u/82989873?s=60&v=4",
-        "source": "Release notes from terraform",
-        "published": "2026-07-06T14:49:07.000Z",
-        "isNew": false
-      },
-      {
-        "title": "v1.16.0-alpha20260701",
-        "link": "https://github.com/hashicorp/terraform/releases/tag/v1.16.0-alpha20260701",
-        "summary": "1.16.0-alpha20260701 (July 01, 2026)\nNEW FEATURES:\nStore PlannedPrivate data for providers (#37986)\nNew store block in terraform_data that can handle ephemeral and sensitive values (#38298)\nProviders can now use nested blocks as computed values (#38305)\nimport: add support for import blocks inside modules (#38352)\nWe now produce builds for Linux s390x (zLinux) (#38384)\nworkspace: The workspace list command can now produce machine-readable output when supplied with the -json flag (#38397)\nResource action triggers can now use on_failure modes of halt, taint, or continue (#38722)\nENHANCEMENTS:\nfeat(cli): terraform state show accepts a -json flag (#23940)\nShow info when resources are left behind due to skip_cleanup (#38449)\nAction configuration now has a new caller symbol which contains the object value from the calling resource. (#38668)\nActions can now use before_destroy and after_destroy events (#38668)\ncloud: Render a summary of Terraform policy evaluation outcomes for plan and apply runs against HCP Terraform (#38715)\npolicy: Resolve the policy plugin entitlement (host, token, organization) from the configured cloud/remote backend for init, plan, and apply, instead of the plugin reading credentials itself (#38716)\nchild module outputs with unreferenced deprecated nested attributes no longer return deprecation warnings. (#38778)\ncontains() function can now test for null (#38792)\nBUG FIXES:\nimport blocks no longer ignore provider local names (#38338)\nFix a terraform apply…",
-        "image": "https://avatars.githubusercontent.com/u/82989873?s=60&v=4",
-        "source": "Release notes from terraform",
-        "published": "2026-07-01T19:49:44.000Z",
         "isNew": false
       }
     ],
