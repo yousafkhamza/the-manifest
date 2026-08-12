@@ -1,6 +1,6 @@
 {
-  "date": "2026-08-11",
-  "generatedAt": "2026-08-11T18:06:40.179Z",
+  "date": "2026-08-12",
+  "generatedAt": "2026-08-12T06:42:00.176Z",
   "totalArticles": 72,
   "ticker": [
     {
@@ -181,7 +181,7 @@
       {
         "title": "August 11, 2026",
         "link": "https://docs.cloud.google.com/release-notes#August_11_2026",
-        "summary": "Cortex Framework\nAnnouncement\nRelease 7.0.2\nFixed\nResolved security vulnerabilities in transitive dependencies by updating the following corresponding direct dependencies:  google-auth, google-cloud-bigquery, google-cloud-dataform, google-cloud-resource-manager, google-cloud-service-usage and google-cloud-storage.",
+        "summary": "BigQuery\nFeature\nQuery templates\nfor data clean rooms are\ngenerally available\n(GA). Query templates allow data clean room owners and publishers to share\npredefined queries without exposing the underlying tables and views.\nAdditionally,\ntable parameters\nin table-valued functions (TVFs) are\ngenerally available\n(GA). You can use the ANY TABLE type as a table parameter to create\ngeneric functions that accept tables of any structure.\nCloud Run\nFeature\nCloud Run NVIDIA L4 GPU driver version 580.x.x is available for services, jobs, and worker pools.\nCloud SDK\nBreaking\n580.0.0 (2026-08-11)\nBreaking Changes\n(Google Cloud CLI) The google-cloud-sdk Snap package will be deprecated and removed on September 29th, 2026. Please migrate to the google-cloud-cli package. For more information, see https://docs.cloud.google.com/sdk/docs/downloads-snap.\nGoogle Cloud CLI\nFixed Google Compute Engine residency detection to prevent authentication\nfailures due to transient issues and command latency regressions in\nnon-Google Cloud environments.\nApihub\nPromoted gcloud apihub locations configure-and-deploy-server command to GA. This command configures and deploys an MCP (Model Context Protocol) server on Apigee X via API Hub.\nCertificate Authority Service\nAdded first-party activation support to gcloud privateca subordinates activate via --issuer-pool, --issuer-location, and --issuer-ca flags.\nAdded suggestion to use gcloud privateca subordinates activate when gcloud privateca subordinates create with…",
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-08-11T07:00:00.000Z",
@@ -190,7 +190,7 @@
       {
         "title": "August 10, 2026",
         "link": "https://docs.cloud.google.com/release-notes#August_10_2026",
-        "summary": "BigQuery\nFeature\nBigQuery now supports the gemini-3.1-flash-lite and gemini-3.5-flash GA\nmodels, which are available for the us, eu, and global multi-regional\nendpoints. You can use these models in all generative AI functions.\nFor information about how to specify a multi-regional endpoint and\nhow endpoints are selected, read about\nlocations\nin the generative AI overview.\nCloud Hub\nAnnouncement\nStarting September 15, 2026, the App Topology API transitions to a\nusage-based billing model that includes a daily free data usage allotment. For\nmore information, see\nApp Topology pricing.\nCloud Run functions\nFeature\nThe Cloud Run functions upgrade tool is in General Availability. Use this tool to upgrade 1st gen functions to Cloud Run functions.\nConfidential Space\nAnnouncement\nA new Confidential Space image (260701) is available.\nEventarc\nChange\nWhen configuring Eventarc triggers for Cloud Run destinations (including Cloud\nRun functions), you can specify a single delivery attempt with no retries. For\nmore information, see\nRetries for Cloud Run destinations.\nGemini\nOther\nBug fixes in VS Code\nVarious bug fixes and minor product enhancements.\nGemini Enterprise\nFeature\nGemini Enterprise: Export user data to a CSV file\nGemini Enterprise administrators can export user data to a comma-separated\nvalues (CSV) file to sort, filter, and analyze records offline. This feature is\ngenerally available (GA).\nFor more information, see\nExport user data.\nGoogle Cloud Contact Center as a Service…",
+        "summary": "BigQuery\nFeature\nBigQuery now supports the gemini-3.1-flash-lite and gemini-3.5-flash GA\nmodels, which are available for the us, eu, and global multi-regional\nendpoints. You can use these models in all generative AI functions.\nFor information about how to specify a multi-regional endpoint and\nhow endpoints are selected, read about\nlocations\nin the generative AI overview.\nBigtable\nLibraries\n\n\nGo\n1.52.0 (2026-08-03)\nFeatures\nbigtable: Add AFE picker (Simple / LeastInFlight / LeastLatency) (#20204) (bcbf714)\nbigtable: Add ClientConfig.DisableSession to opt out of session backend (#20297) (7ee5e44)\nbigtable: Add getClientConfigDirectAccessChecker for session pools (#20209) (3b8d30a)\nbigtable: Add NoOpChannelPrimer for session channel pools (#20208) (d055a8a)\nbigtable: Add per-AFE sessionList for the two-tier session pool (#20224) (dbf0c3f)\nbigtable: Add protoRowToRow conversion helper for TableShim (#20257) (1297143)\nbigtable: Add Session debug surface (observability fields + methods) (#20211) (d8d3e16)\nbigtable: Add Session lifecycle (Start, Close, ForceClose, readLoop, heartBeatLoop) (#20215) (b9e53c6)\nbigtable: Add Session struct + state machine (#20117) (09acbb3)\nbigtable: Add session.Config.EnableDebug to gate sessionz debug state (#20247) (ce74c31)\nbigtable: Add SessionClient + SessionTable + lazyPool (#20228) (ab2c96c)\nbigtable: Add SessionPoolImpl (two-tier pool + scaling + debug) (#20225) (683eda8)\nbigtable: Rename session pool display to <resource-id>-<PERM> (#20248)…",
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-08-10T07:00:00.000Z",
@@ -253,6 +253,15 @@
     ],
     "kubernetes": [
       {
+        "title": "How to Pretty-Print Your Kubernetes YAML as KYAML and Why You'd Want To",
+        "link": "https://kubernetes.io/blog/2026/08/11/how-to-pretty-print-kubernetes-yaml-as-kyaml/",
+        "summary": "YAML has been the standard way to write Kubernetes manifests for years. Every example, tutorial, and configuration file you come across is written in it. The problem isn't that YAML is a bad format. It's that YAML gives you a lot of choices, and not all of them are equally good for writing Kubernetes manifests. Some features make files harder to read, some are easy to misuse and others can lead to surprising behavior.\nThe interesting part is that Kubernetes doesn't actually need most of those features. It only relies on a small subset of YAML. This led to a simple question: if Kubernetes only needs a small part of YAML, why not standardize on that part and avoid the rest? Instead of introducing a new configuration language, SIG CLI introduced KYAML, a stricter, more consistent way to write YAML.\nWhat is KYAML?\nKYAML is a strict subset (or \"dialect\") of standard YAML, designed to be parseable by the existing ecosystem without any changes, as proposed in KEP 5295. It does not introduce a new format or a new parser. It just narrows the scope of choices you make when writing YAML, so everyone ends up making the same ones.\nThink of it less like a new language and more like an agreed-upon style. Everything valid in KYAML is valid YAML.\nHow KYAML solves it\nStandard YAML has a few well-known traps and JSON is not without its own.\nWhitespace sensitivity. Indentation defines structure in YAML, which means a wrongly indented file can remain syntactically valid while representing a…",
+        "image": null,
+        "source": "Kubernetes Blog",
+        "published": "2026-08-11T18:00:00.000Z",
+        "isNew": true
+      },
+      {
         "title": "Gateway API v1.6: TCPRoute and UDPRoute Graduate to Standard",
         "link": "https://kubernetes.io/blog/2026/08/03/gateway-api-v1-6-release/",
         "summary": "The Kubernetes SIG Network community is thrilled to share the release of Gateway API v1.6.0, which was released on June 30th of this year!\nGateway API has become the standard for modern, role-oriented,\nand expressive service networking in Kubernetes.\nIn previous releases, Gateway API established a production-grade foundation\nfor HTTP and TLS layer 7 traffic.\nWith version 1.6.0, Gateway API takes a major step forward by expanding\nstandard layer 4 protocol routing and introducing cleaner API boundaries for experimental innovation.\nHere is a quick summary of what's new in Gateway API v1.6.0:\nTCPRoute and UDPRoute Graduate to Standard: Raw L4 TCP and UDP traffic routing reach GA stability in the v1 API version.\nExperimental API Group Separation: Experimental resources transition to a distinct API group (gateway.networking.x-k8s.io) with an X prefix to make experimental vs. standard boundaries crystal clear.\nLet's dive into the details!\nTCPRoute and UDPRoute graduate to Standard\nLeads: Nick Young, Ricardo Katz and Zac Nixon\nGEP-2644 - TCPRoute\nGEP-2645 - UDPRoute\nUntil now, Gateway API only offered a stable routing model for HTTP and TLS traffic.\nWorkloads that speak a raw protocol over TCP or UDP - databases,\nDNS, VoIP, gaming, IoT telemetry - had no portable way to plug\ninto a Gateway. Users either fell back to a plain Kubernetes Service,\nor to an implementation-specific CRD that doesn't travel between Gateway controllers.\nTCPRoute and UDPRoute close that gap: they route…",
@@ -313,15 +322,6 @@
         "image": null,
         "source": "Kubernetes Blog",
         "published": "2026-07-08T12:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "Open source maintainership in the age of AI",
-        "link": "https://kubernetes.io/blog/2026/06/26/open-source-maintainership-in-the-age-of-ai/",
-        "summary": "AI has really changed the game around software development.\nMore people are leveraging AI than ever to contribute patches to projects they use.\nTo me, this is a good thing as more folks will contribute patches rather than fork or not fix them.\nThe main problem is that AI has made generating code fast but there has been very little improvement in maintaining code bases.\nIn this post, we will highlight the ways the Kubernetes community is adapting to the world of AI assisted coding.\nThe first step of this journey was to develop an AI policy. This seems mundane and bureaucratic but there were many PRs that derailed into discussions around AI usage.\nThe AI policy helps steer the conversation around the project's stance on AI and provides a clear signal to contributors on how to use these tools responsibly.\nKubernetes AI policy\nThe Kubernetes project has established clear guidelines for AI-assisted contributions that balance innovation with accountability.\nThese policies are designed to maintain code quality and ensure human oversight while acknowledging that AI tools can be valuable aids in the development process.\nTransparency first\nContributors must disclose when AI tools have been used to assist with a pull request. A simple statement in the PR description such as \"This PR was written in part with the assistance of generative AI\" is sufficient. This transparency helps reviewers understand the context and apply appropriate scrutiny.\nHuman accountability\nWhile AI tools can…",
-        "image": null,
-        "source": "Kubernetes Blog",
-        "published": "2026-06-26T18:00:00.000Z",
         "isNew": false
       }
     ],

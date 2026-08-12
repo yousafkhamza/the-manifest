@@ -1,6 +1,6 @@
 {
-  "date": "2026-08-04",
-  "generatedAt": "2026-08-04T18:52:17.269Z",
+  "date": "2026-08-12",
+  "generatedAt": "2026-08-12T06:42:00.176Z",
   "totalArticles": 72,
   "ticker": [
     {
@@ -13,7 +13,7 @@
     },
     {
       "label": "Python",
-      "version": "v3.14.6"
+      "version": "v3.14.7"
     },
     {
       "label": "Go",
@@ -25,11 +25,38 @@
     },
     {
       "label": "Node.js",
-      "version": "v26.6.0"
+      "version": "v26.7.0"
     }
   ],
   "topics": {
     "aws": [
+      {
+        "title": "AWS Weekly Roundup: AWS Heroes Summit, Web Search on Amazon Bedrock, Dogwood, Kiro Crew, and more (August 10, 2026)",
+        "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-aws-heroes-summit-web-search-on-amazon-bedrock-dogwood-kiro-crew-and-more-august-10-2026/",
+        "summary": "Last week, we brought together AWS Heroes from around the world to connect, collaborate, and celebrate the builders who go above and beyond for the AWS community. The AWS Heroes Summit, an invite-only annual gathering, brings global experts specializing in fields like AI, serverless, and containers together for direct collaboration, technical deep-dives, and feedback sessions […]",
+        "image": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2026/08/07/1785879027542.jpg",
+        "source": "AWS News Blog",
+        "published": "2026-08-10T15:45:03.000Z",
+        "isNew": false
+      },
+      {
+        "title": "Runtime instances: persistent compute for production AI agents on Amazon Bedrock AgentCore",
+        "link": "https://aws.amazon.com/blogs/aws/runtime-instances-persistent-compute-for-production-ai-agents-on-amazon-bedrock-agentcore/",
+        "summary": "Announcing runtime instances in Amazon Bedrock AgentCore—persistent, managed EC2 infrastructure for production AI agents with multi-agent collaboration, GPU support, and sessions lasting up to 14 days.",
+        "image": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2026/06/19/2026-06-18_12-25-58.png",
+        "source": "AWS News Blog",
+        "published": "2026-08-06T22:58:00.000Z",
+        "isNew": false
+      },
+      {
+        "title": "Amazon DynamoDB now supports real-time vector search at any scale",
+        "link": "https://aws.amazon.com/blogs/aws/amazon-dynamodb-now-supports-real-time-vector-search-at-any-scale/",
+        "summary": "DynamoDB now supports native vector search with single-digit millisecond latency at 99%+ recall. It is designed for any scale, even trillions of vectors and requires zero infrastructure management.",
+        "image": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2026/07/29/1212634454659342-0a-1.png",
+        "source": "AWS News Blog",
+        "published": "2026-08-05T14:45:10.000Z",
+        "isNew": false
+      },
       {
         "title": "AWS Weekly Roundup: Price reduction of GPT models in Bedrock, CloudWatch managed collectors for Prometheus metrics, and more (August 3, 2026)",
         "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-price-reduction-of-gpt-models-in-bedrock-cloudwatch-managed-collectors-for-prometheus-metrics-and-more-august-3-2026/",
@@ -74,36 +101,18 @@
         "source": "AWS News Blog",
         "published": "2026-07-13T16:18:20.000Z",
         "isNew": false
-      },
-      {
-        "title": "AWS Weekly Roundup: Claude Sonnet 5 on AWS, Amazon WorkSpaces for AI agents, AWS service availability updates, and more (July 6, 2026)",
-        "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-claude-sonnet-5-on-aws-amazon-workspaces-for-ai-agents-aws-service-availability-updates-and-more-july-6-2026/",
-        "summary": "A couple of editions ago I wrote about what I find so energizing about working with startups. Last week I got a fresh dose of it: I spent a few days with the AWS Startups team, listening to stories of founders talking about the problems they’re actually solving. One story that stayed with me came […]",
-        "image": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2026/07/03/GetTogether_1540.jpg",
-        "source": "AWS News Blog",
-        "published": "2026-07-06T15:46:43.000Z",
-        "isNew": false
-      },
-      {
-        "title": "Upgrade Amazon EKS clusters with confidence using Kubernetes version rollbacks",
-        "link": "https://aws.amazon.com/blogs/aws/upgrade-amazon-eks-clusters-with-confidence-using-kubernetes-version-rollbacks/",
-        "summary": "Learn how Kubernetes version rollbacks for Amazon EKS let you reverse cluster upgrades within seven days. This new feature provides a safety net for upgrade failures—no cluster rebuilds required—turning Kubernetes version upgrades into a reversible, low-risk operation.",
-        "image": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2026/06/27/eks-image-01-1024x382.png",
-        "source": "AWS News Blog",
-        "published": "2026-07-01T17:20:30.000Z",
-        "isNew": false
-      },
-      {
-        "title": "Accelerate your infrastructure deployments by up to 4x with AWS CloudFormation Express mode",
-        "link": "https://aws.amazon.com/blogs/aws/accelerate-your-infrastructure-deployments-by-up-to-4x-with-aws-cloudformation-express-mode/",
-        "summary": "AWS CloudFormation speeds up infrastructure deployment with Express mode, enabling AI agents and developers to receive deployment confirmation in seconds and iterate faster. Available in all commercial Regions at no additional cost.",
-        "image": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2026/06/25/2026-aws-cloudformation-express-mode-console.jpg",
-        "source": "AWS News Blog",
-        "published": "2026-06-30T21:30:33.000Z",
-        "isNew": false
       }
     ],
     "azure": [
+      {
+        "title": "Microsoft named a Leader in the 2026 Gartner® Magic Quadrant™ for AI-Augmented Code Modernization Tools",
+        "link": "https://azure.microsoft.com/en-us/blog/microsoft-named-a-leader-in-the-2026-gartner-magic-quadrant-for-ai-augmented-code-modernization-tools/",
+        "summary": "GitHub Copilot and Azure are helping organizations modernize legacy applications, reduce technical debt, and prepare for AI innovation.\nThe post Microsoft named a Leader in the 2026 Gartner® Magic Quadrant™ for AI-Augmented Code Modernization Tools appeared first on Microsoft Azure Blog.",
+        "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/08/MQ-AppMod-Blog-Thumbnail-1-1-1024x576.webp",
+        "source": "Microsoft Azure Blog",
+        "published": "2026-08-06T15:00:00.000Z",
+        "isNew": false
+      },
       {
         "title": "What customers value most in Microsoft Databases—from reliability to AI readiness",
         "link": "https://azure.microsoft.com/en-us/blog/what-customers-value-most-in-microsoft-databases-from-reliability-to-ai-readiness/",
@@ -166,92 +175,92 @@
         "source": "Microsoft Azure Blog",
         "published": "2026-07-02T16:00:00.000Z",
         "isNew": false
-      },
-      {
-        "title": "Proving application resilience on Azure with Chaos Studio",
-        "link": "https://azure.microsoft.com/en-us/blog/proving-application-resilience-on-azure-with-chaos-studio/",
-        "summary": "Azure Chaos Studio helps organizations validate application resilience by simulating outages, failovers, network disruptions, and infrastructure failures before they impact production.\nThe post Proving application resilience on Azure with Chaos Studio appeared first on Microsoft Azure Blog.",
-        "image": "https://opensource.microsoft.com/blog/wp-content/uploads/2026/06/word-image-98613-1.png",
-        "source": "Microsoft Azure Blog",
-        "published": "2026-07-01T16:00:00.000Z",
-        "isNew": false
       }
     ],
     "gcp": [
       {
+        "title": "August 11, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#August_11_2026",
+        "summary": "BigQuery\nFeature\nQuery templates\nfor data clean rooms are\ngenerally available\n(GA). Query templates allow data clean room owners and publishers to share\npredefined queries without exposing the underlying tables and views.\nAdditionally,\ntable parameters\nin table-valued functions (TVFs) are\ngenerally available\n(GA). You can use the ANY TABLE type as a table parameter to create\ngeneric functions that accept tables of any structure.\nCloud Run\nFeature\nCloud Run NVIDIA L4 GPU driver version 580.x.x is available for services, jobs, and worker pools.\nCloud SDK\nBreaking\n580.0.0 (2026-08-11)\nBreaking Changes\n(Google Cloud CLI) The google-cloud-sdk Snap package will be deprecated and removed on September 29th, 2026. Please migrate to the google-cloud-cli package. For more information, see https://docs.cloud.google.com/sdk/docs/downloads-snap.\nGoogle Cloud CLI\nFixed Google Compute Engine residency detection to prevent authentication\nfailures due to transient issues and command latency regressions in\nnon-Google Cloud environments.\nApihub\nPromoted gcloud apihub locations configure-and-deploy-server command to GA. This command configures and deploys an MCP (Model Context Protocol) server on Apigee X via API Hub.\nCertificate Authority Service\nAdded first-party activation support to gcloud privateca subordinates activate via --issuer-pool, --issuer-location, and --issuer-ca flags.\nAdded suggestion to use gcloud privateca subordinates activate when gcloud privateca subordinates create with…",
+        "image": null,
+        "source": "Google Cloud Platform (GCP) - Release notes",
+        "published": "2026-08-11T07:00:00.000Z",
+        "isNew": false
+      },
+      {
+        "title": "August 10, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#August_10_2026",
+        "summary": "BigQuery\nFeature\nBigQuery now supports the gemini-3.1-flash-lite and gemini-3.5-flash GA\nmodels, which are available for the us, eu, and global multi-regional\nendpoints. You can use these models in all generative AI functions.\nFor information about how to specify a multi-regional endpoint and\nhow endpoints are selected, read about\nlocations\nin the generative AI overview.\nBigtable\nLibraries\n\n\nGo\n1.52.0 (2026-08-03)\nFeatures\nbigtable: Add AFE picker (Simple / LeastInFlight / LeastLatency) (#20204) (bcbf714)\nbigtable: Add ClientConfig.DisableSession to opt out of session backend (#20297) (7ee5e44)\nbigtable: Add getClientConfigDirectAccessChecker for session pools (#20209) (3b8d30a)\nbigtable: Add NoOpChannelPrimer for session channel pools (#20208) (d055a8a)\nbigtable: Add per-AFE sessionList for the two-tier session pool (#20224) (dbf0c3f)\nbigtable: Add protoRowToRow conversion helper for TableShim (#20257) (1297143)\nbigtable: Add Session debug surface (observability fields + methods) (#20211) (d8d3e16)\nbigtable: Add Session lifecycle (Start, Close, ForceClose, readLoop, heartBeatLoop) (#20215) (b9e53c6)\nbigtable: Add Session struct + state machine (#20117) (09acbb3)\nbigtable: Add session.Config.EnableDebug to gate sessionz debug state (#20247) (ce74c31)\nbigtable: Add SessionClient + SessionTable + lazyPool (#20228) (ab2c96c)\nbigtable: Add SessionPoolImpl (two-tier pool + scaling + debug) (#20225) (683eda8)\nbigtable: Rename session pool display to <resource-id>-<PERM> (#20248)…",
+        "image": null,
+        "source": "Google Cloud Platform (GCP) - Release notes",
+        "published": "2026-08-10T07:00:00.000Z",
+        "isNew": false
+      },
+      {
+        "title": "August 09, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#August_09_2026",
+        "summary": "Google SecOps\nFeature\n[Spotlight Feature] Analyze feed activity with Cloud Logging\nThis feature is in public preview. You can now monitor, debug, and troubleshoot Google SecOps ingestion pipelines and feeds using Cloud Logging. By sending, viewing, and querying ingestion and feed activity logs in Logs Explorer, you can diagnose log delivery issues, such as, missing, delayed, or failing logs, and decrease the time required to resolve ingestion anomalies.\nThis visibility into push- and pull-based ingestion mechanisms lets you use Gemini Cloud Assist to investigate logging and metrics telemetry directly from the Google SecOps console. Additionally, you can use the Debug with logs option on the Feed management page to open Logs Explorer pre-filtered for a specific feed.\nFor more information, see Analyze feed activity with Cloud Logging.\nFeature\nSelf-service Bindplane Enterprise license download\nThis feature is currently in Preview. Google SecOps Enterprise Plus and Google Unified Security (GUS) customers can now download their Bindplane Enterprise (Google Edition) license key directly from the platform console under SIEM Settings > Collection Agents.\nFor more information, see Bindplane Enterprise (Google Edition).\nFeature\nUpdated rich-text editor\nUpgraded the rich-text editor across Google SecOps, including the Cases Wall, \nUse Case Upload dialog, Report Template dialog, and Dashboard Editor widget.\nKey changes include:\nSimplified typography: Choose font sizes using semantic…",
+        "image": null,
+        "source": "Google Cloud Platform (GCP) - Release notes",
+        "published": "2026-08-09T07:00:00.000Z",
+        "isNew": false
+      },
+      {
+        "title": "August 08, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#August_08_2026",
+        "summary": "Google SecOps SOAR\nAnnouncement\nRelease 6.3.96 is now\navailable for all regions.",
+        "image": null,
+        "source": "Google Cloud Platform (GCP) - Release notes",
+        "published": "2026-08-08T07:00:00.000Z",
+        "isNew": false
+      },
+      {
+        "title": "August 07, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#August_07_2026",
+        "summary": "AlloyDB for PostgreSQL\nFeature\nYou can now sync tables from BigQuery into your AlloyDB instance, either as a\none-time operation or on a periodic schedule. This feature (in Preview)\nlets you enable operational analytics that benefit from low-latency,\ntransactional access to your data lake.\nFor more information, see Sync BigQuery data to AlloyDB.\nFeature\nAlloyDB integration with BigQuery lets you connect your operational and\nanalytical data through real-time data access (lakehouse federation), periodic\ndata synchronization, and one-time table syncs. These features are in Preview.\nFor more information, see Choose how to access BigQuery data from AlloyDB.\nCloud Billing\nFeature\nNew filter and group-by option available in Cloud Billing Reports\nIn Billing Reports, Cloud Billing has added the\nOriginating products\nfilter and\nGroup by\nto provide additional options that let you analyze and understand your costs.\nOriginating products are Google Cloud products that cause usage in\nanother product. For example, Gemini Enterprise is an\noriginating product when it causes usage in the Gemini Enterprise\napp.\nTo help you track and analyze your AI spend, the Originating products\ndimension is used in the following ways:\nYou can use the Originating products filter and group by option to\nconfigure your Cloud Billing report to track and analyze your\nGemini Enterprise subscription and consumption costs.\n\n\nThe Originating products dimension supports a new\npreset report\nfor quick report configuration,…",
+        "image": null,
+        "source": "Google Cloud Platform (GCP) - Release notes",
+        "published": "2026-08-07T07:00:00.000Z",
+        "isNew": false
+      },
+      {
+        "title": "August 06, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#August_06_2026",
+        "summary": "Cloud Key Management Service\nFeature\nPreview: Cloud KMS supports quantum-safe key import. You can use the\nfollowing quantum-safe import methods:\nHPKE_KEM_XWING_HKDF_SHA256_AES_256_GCM\nHPKE_KEM_ML_KEM_768_HKDF_SHA256_AES_256_GCM\nHPKE_KEM_ML_KEM_1024_HKDF_SHA256_AES_256_GCM\nFor more information about quantum-safe key import, see Quantum-safe key\nimport.\nGemini Enterprise\nChange\nGemini Enterprise: Description field removed from Custom MCP server data store\nGemini Enterprise automatically calls your server's tools/list\nendpoint to discover and understand tools, parameter schemas, and\ncapabilities directly. Because Gemini Enterprise routes requests using\nexplicit tool definitions and parameter schemas, you don't need to\nwrite descriptions. This change simplifies data store\nsetup and improves routing accuracy. Existing custom MCP data stores do not\nrequire any updates.\nFor more information, see\nSet up a custom MCP server.\nAnnouncement\nGemini Enterprise: Postponed removal of Gemini 3.5 Flash in the Global\nregion\nWe have postponed the removal of Gemini 3.5 Flash from the global region\nin the Gemini Enterprise app. A revised removal schedule will be provided\nwhen available.\nNote: This is a correction to the July 21, 2026 release\nnote.\nGoogle Cloud Contact Center as a Service\nAnnouncement\nAdvanced reporting dashboards 5.1\nWe've released version 5.1 of the advanced reporting dashboards.\nFeature\nSub teams are included when top-level teams are selected in the Team filter\nWhen you select…",
+        "image": null,
+        "source": "Google Cloud Platform (GCP) - Release notes",
+        "published": "2026-08-06T07:00:00.000Z",
+        "isNew": false
+      },
+      {
+        "title": "August 05, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#August_05_2026",
+        "summary": "Cloud Database Migration Service\nFeature\nYou can now manage your Database Migration Service migration jobs directly from the\ndestination Cloud SQL instance or AlloyDB for PostgreSQL cluster pages in\nthe Google Cloud console. For more information, see:\nManage homogeneous migration jobs:\n\n\nSQL Server to Cloud SQL for SQL Server\n\nMySQL to Cloud SQL for MySQL\n\nPostgreSQL to Cloud SQL for PostgreSQL\n\nPostgreSQL to AlloyDB for PostgreSQL\n\nManage heterogeneous migration jobs:\n\n\nOracle to Cloud SQL for PostgreSQL\n\nOracle to AlloyDB for PostgreSQL\n\nSQL Server to AlloyDB for PostgreSQL\n\nSQL Server to Cloud SQL for PostgreSQL\n\n\nCloud Monitoring\nAnnouncement\nThe Telemetry API for metric ingestion is\ngenerally available (GA).\nYou can ingest OTLP metrics into Cloud Monitoring by using an\nOpenTelemetry Collector, an OTLP exporter, and the Telemetry API. For more\ninformation, see\nOTLP metric ingestion overview.\nCloud Run\nFeature\nCloud Run supports sandboxes for all resources, including jobs and worker pools (Preview).\nCloud SQL for MySQL\nFeature\nPerformance capture for Cloud SQL for MySQL is now generally available\n(GA).\nPerformance capture lets you take a point-in-time snapshot of your database and\noperating system metrics automatically and route them to Cloud Logging for\nroot-cause analysis.\nWith the GA release, you can configure custom thresholds that\nend long-running transactions automatically\nbefore they slow down your database. In addition,\nthe GA release includes six additional…",
+        "image": null,
+        "source": "Google Cloud Platform (GCP) - Release notes",
+        "published": "2026-08-05T07:00:00.000Z",
+        "isNew": false
+      },
+      {
         "title": "August 04, 2026",
         "link": "https://docs.cloud.google.com/release-notes#August_04_2026",
-        "summary": "Cloud CDN\nFeature\nCloud CDN supports native image optimization at the Google network edge\nfor global external Application Load Balancers. This feature offloads\ncompute-intensive image transformations, such as resizing, cropping,\nand format conversion to reduce origin server load and egress costs.\nThis feature is in Preview.\nNote: During the Preview phase, image optimization is available free of charge.\nCharges will apply once it becomes Generally Available (GA).\nFor more information, see Optimize images with Cloud CDN.",
+        "summary": "AlloyDB for PostgreSQL\nFeature\nAlloyDB now supports Best Matching 25 (BM25) indexes for full-text search in\nPreview.\nYou can use the pg_textsearch extension to create BM25 indexes and optimize\nprobabilistic ranking of full-text search. This feature is supported on AlloyDB\ninstances running PostgreSQL 17 or 18.\nFor more information, see Create and manage a BM25 index.\nCloud CDN\nFeature\nCloud CDN supports native image optimization at the Google network edge\nfor global external Application Load Balancers. This feature offloads\ncompute-intensive image transformations, such as resizing, cropping,\nand format conversion to reduce origin server load and egress costs.\nThis feature is in Preview.\nNote: During the Preview phase, image optimization is available free of charge.\nCharges will apply once it becomes Generally Available (GA).\nFor more information, see Optimize images with Cloud CDN.\nCloud Load Balancing\nFeature\nRegular expression URL rewrites (regexRewrite) for route rules in URL maps are\nnow available for Application Load Balancers. You can use regular expression\npattern rewrite actions to rewrite URL paths by substituting or removing URL\npath components before forwarding requests to your backends.\nFor more information, see Regular expression URL rewrites for route\nrules.\nThis feature is in Preview.\nCloud SQL for MySQL\nFeature\nDNS automation\nis now generally available (GA)\non Cloud SQL instances where Private Service Connect is enabled.\nYou can use DNS automation to…",
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-08-04T07:00:00.000Z",
         "isNew": false
-      },
-      {
-        "title": "August 03, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#August_03_2026",
-        "summary": "API Gateway\nFeature\nRoute LLM requests with model routing\nYou can now use model routing in API Gateway as a managed traffic management layer to accept OpenAI-compatible prompt requests, transcode them in-flight, and route them to specific foundation models in Vertex AI Model Garden (including Gemini, Anthropic Claude, and OpenAI GPT models).\nKey benefits and capabilities include:\nCentralized traffic management: Consolidate AI traffic routing and lifecycle management at the network edge without hosting standalone client-side proxies.\nIn-flight transcoding: Standardize client applications on an OpenAI-compatible REST interface while dynamically dispatching requests to diverse underlying Vertex AI Model Garden endpoints.\nOpenAPI 3.x configuration: Define model routing tables, explicit routing rules, and default model fallbacks using the new x-google-api-management.ai.models.routing and x-google-model-router OpenAPI 3.x extensions.\nFor more information, see Overview of model routing and Configure model routing.\nBackup and DR\nFeature\nYou can now change the backup plan associated with a Cloud SQL instance. This allows you to switch an instance to a different backup plan, provided the new plan uses the same backup vault and is in the same region as the instance. This feature is available through the Google Cloud console and gcloud CLI. To learn more, see Change the associated backup plan for a Cloud SQL instance.\nBigQuery\nFeature\nYou can now use\ncross-cloud connections to query…",
-        "image": null,
-        "source": "Google Cloud Platform (GCP) - Release notes",
-        "published": "2026-08-03T07:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "August 02, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#August_02_2026",
-        "summary": "Google SecOps SOAR\nAnnouncement\nRelease 6.3.96 is being rolled out to the first phase of regions as listed\nhere.\nThis release contains internal and customer bug fixes.",
-        "image": null,
-        "source": "Google Cloud Platform (GCP) - Release notes",
-        "published": "2026-08-02T07:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "August 01, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#August_01_2026",
-        "summary": "Google Cloud VMware Engine\nFeature\nPreview: Google Cloud VMware Engine capacity allocations are available in preview. A capacity\nallocation is a global reservation of physical nodes for your Cloud Billing account.\nYour reserved nodes are organized into placement groups (PGs), which represent the specific physical\nhardware and location of your reserved capacity.\nGoogle Cloud VMware Engine capacity allocations let you do the following:\n*   Use a capacity allocation during private cloud creation by selecting a PG.\n*   Use a capacity allocation when adding a cluster.\n*   Configure a hybrid private cloud across multiple PGs.\nFor more information, see Manage capacity allocations.\nGoogle SecOps SOAR\nAnnouncement\nRelease 6.3.95 is now\navailable for all regions.",
-        "image": null,
-        "source": "Google Cloud Platform (GCP) - Release notes",
-        "published": "2026-08-01T07:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "July 31, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#July_31_2026",
-        "summary": "Apigee hybrid\nAnnouncement\nv1.15.7\nOn July 31, 2026 we released an updated version of the Apigee hybrid software, v1.15.7.\nFor information on upgrading, see Upgrading Apigee hybrid to version v1.15.7.\nFor information on new installations, see The big picture.\nNote: This is a patch release: The container images used in patch releases are integrated with the Apigee hybrid Helm charts. Upgrading to a patch via the Helm chart automatically updates the images. No manual image changes are typically needed. For information on container image support in Apigee hybrid releases, see Apigee release process.\nFeature\nRuntime rollout strategy configuration\nIn this release, you can configure the rollout strategy used when updating runtime (message processor) ReplicaSets by setting the runtime.release.strategy property (with options rolling, scale-down-first, or none) or per-environment with envs[].components.runtime.release.strategy in your overrides configuration file. The property defaults to rolling.\nSecurity\nVarious security and CVE fixes are included in this release.\nCloud Load Balancing\nFeature\nCloud Load Balancing introduces a new version of the Network Load\nBalancer—the global external passthrough Network Load Balancer, which is the global variant of the\nregional external passthrough Network Load Balancer. The load balancer is available in Preview.\nThis load balancer variant solves use cases for Security Service Edge (SSE), DNS\nhosting, Adtech (real-time bidding), real-time…",
-        "image": null,
-        "source": "Google Cloud Platform (GCP) - Release notes",
-        "published": "2026-07-31T07:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "July 30, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#July_30_2026",
-        "summary": "BigQuery\nFeature\nYou can add tables, views, data sources, and data quality tests as tasks to\nBigQuery pipelines. For more information, see\nAdd a pipeline task.\nThis feature is\ngenerally available.\nFeature\nYou can audit when users download query results by using the BigQuery\nconsole. Data Access audit logs for the tabledata.list method now include a\nuiDownloadRequest\nfield to indicate whether the request was triggered by a UI download.\nThis feature is\ngenerally available\n(GA).\nBigtable\nFeature\nYou can use Bigtable as a remote storage backend for\nLMCache. By\nstoring the large language model (LLM) key-value (KV) cache externally in\nBigtable, multiple AI serving instances can share and reuse precomputed\nattention tensors. This reduces compute overhead and significantly improves\ntime-to-first-token (TTFT) for repeated prompts and shared documents. This\nfeature is in Preview.\nConfig Connector\nAnnouncement\nConfig Connector version 1.154.1 is now available.\nFeature\nNew Alpha Resources (Direct Reconciler):\nApigeeApiProduct\n\nManage Apigee API products to bundle APIs and make them available to developers.\n\nApigeeRegistryApi\n\nManage Apigee Registry APIs to catalog and manage APIs.\n\nApigeeRegistryArtifact\n\nManage Apigee Registry artifacts associated with APIs, versions, or specs.\n\nAPIHubExternalAPI\n\nManage API Hub external APIs to track APIs hosted outside of Google Cloud.\n\nAPIHubInstance\n\nManage API Hub instances to enable enterprise API management.\n\nAppOptimizeReport\n\nManage App Hub…",
-        "image": null,
-        "source": "Google Cloud Platform (GCP) - Release notes",
-        "published": "2026-07-30T07:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "July 29, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#July_29_2026",
-        "summary": "App Engine standard environment Go\nFeature\nSupport for enabling only needed legacy bundled services using the\napp_engine_bundled_services\nfield is in General Availability.\nApp Engine standard environment Java\nFeature\nSupport for enabling only needed legacy bundled services using the\napp_engine_bundled_services\nfield is in General Availability.\nApp Engine standard environment PHP\nFeature\nSupport for enabling only needed legacy bundled services using the\napp_engine_bundled_services\nfield is in General Availability.\nApp Engine standard environment Python\nFeature\nSupport for enabling only needed legacy bundled services using the\napp_engine_bundled_services\nfield is in General Availability.\nBigQuery\nFeature\nThe BigQuery Data Transfer Service now supports incremental data transfers\nwhen transferring data from Klaviyo to BigQuery. This feature is supported in\nPreview.\nBigtable\nFeature\nYou can use the Google Cloud console to manage row key schemas\nfor your Bigtable tables. This feature is in Preview.\nCloud Key Management Service\nFeature\nCloud KMS Autokey with same-project key storage (formerly known as Autokey for\ndelegated key management) is generally available. Autokey with same-project key\nstorage can be used on its own or alongside Autokey with dedicated-project key\nstorage (formerly known as Autokey for centralized key management).\nFor more information, see Enable Cloud KMS Autokey.\nTo learn how to set guardrails to constrain how Autokey is used in your\norganization, see…",
-        "image": null,
-        "source": "Google Cloud Platform (GCP) - Release notes",
-        "published": "2026-07-29T07:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "July 28, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#July_28_2026",
-        "summary": "AlloyDB for PostgreSQL\nFeature\nNote: IAM group authentication is available in Preview\nfor new AlloyDB clusters. To enable this feature on an existing cluster,\ncontact your Google Cloud account team.\nIAM group authentication for AlloyDB is available in Preview for new clusters running PostgreSQL 15 and later. This feature simplifies database user management by allowing access management at the group level, where group members inherit database roles and permissions. To use this feature, enable the alloydb.iam_authentication and alloydb.iam_group_authentication database flags.\nFor more information, see IAM group authentication and Manage IAM authentication.\nCompute Engine\nFeature\nHyperdisk Balanced volumes on C4D instances have increased maximum throughput\nlimits for these machine types:\nc4d-*-96: 3,125 MiB/s (up from 2,800 MiB/s).\nc4d-*-192: 6,250 MiB/s (up from 4,800 MiB/s).\nc4d-*-384: 12,500 MiB/s (up from 10,000 MiB/s).\nFor detailed performance limits, see\nHyperdisk Balanced performance limits when attached to an instance.\nConfidential VM\nIssue\nStarting August 2026, Confidential VM instances using AMD SEV-SNP might\nhave longer boot times and performance changes due to a guest\nkernel migration and security updates. This issue is expected to be resolved\nby November 2026. Confidential VM instances using AMD SEV or Intel TDX aren't\naffected.\nContainer Optimized OS\nChange\ncos-129-19506-299-60 \nKernel\nDocker\nContainerd\nGPU Drivers\n\n\nCOS-6.12.94\nv27.5.1\nv2.2.5\nSee List\n\n\nFixed…",
-        "image": null,
-        "source": "Google Cloud Platform (GCP) - Release notes",
-        "published": "2026-07-28T07:00:00.000Z",
-        "isNew": false
       }
     ],
     "kubernetes": [
+      {
+        "title": "How to Pretty-Print Your Kubernetes YAML as KYAML and Why You'd Want To",
+        "link": "https://kubernetes.io/blog/2026/08/11/how-to-pretty-print-kubernetes-yaml-as-kyaml/",
+        "summary": "YAML has been the standard way to write Kubernetes manifests for years. Every example, tutorial, and configuration file you come across is written in it. The problem isn't that YAML is a bad format. It's that YAML gives you a lot of choices, and not all of them are equally good for writing Kubernetes manifests. Some features make files harder to read, some are easy to misuse and others can lead to surprising behavior.\nThe interesting part is that Kubernetes doesn't actually need most of those features. It only relies on a small subset of YAML. This led to a simple question: if Kubernetes only needs a small part of YAML, why not standardize on that part and avoid the rest? Instead of introducing a new configuration language, SIG CLI introduced KYAML, a stricter, more consistent way to write YAML.\nWhat is KYAML?\nKYAML is a strict subset (or \"dialect\") of standard YAML, designed to be parseable by the existing ecosystem without any changes, as proposed in KEP 5295. It does not introduce a new format or a new parser. It just narrows the scope of choices you make when writing YAML, so everyone ends up making the same ones.\nThink of it less like a new language and more like an agreed-upon style. Everything valid in KYAML is valid YAML.\nHow KYAML solves it\nStandard YAML has a few well-known traps and JSON is not without its own.\nWhitespace sensitivity. Indentation defines structure in YAML, which means a wrongly indented file can remain syntactically valid while representing a…",
+        "image": null,
+        "source": "Kubernetes Blog",
+        "published": "2026-08-11T18:00:00.000Z",
+        "isNew": true
+      },
       {
         "title": "Gateway API v1.6: TCPRoute and UDPRoute Graduate to Standard",
         "link": "https://kubernetes.io/blog/2026/08/03/gateway-api-v1-6-release/",
@@ -273,7 +282,7 @@
       {
         "title": "How the controller-runtime Cache Actually Works, and Why Your Controller Does Not Crash the API Server",
         "link": "https://kubernetes.io/blog/2026/07/29/controller-runtime-cache-explained/",
-        "summary": "Caution:\nSome of the technical detail in this article is not accurate. We are reviewing it and preparing\ncorrections. Until then, check what you read here against the\ncontroller-runtime documentation.\nKubernetes has long been the default platform for distributed workloads, and writing your own\ncontroller for it is now a matter of a few hours. The common path — Golang, using kubebuilder on top of\ncontroller-runtime — gives you a project scaffold, types, and a reconciler. For typical\nscenarios that is more than enough. But as soon as load grows or the controller starts behaving\nin ways you did not expect, a whole class of edge cases shows up. Most of them trace back to\nthe same root cause: a fuzzy mental model of how controller-runtime works inside. If you\nwrite Kubernetes controllers in Go, this article should help you build a coherent picture and\navoid expensive surprises in production.\nThis article walks through the internals of controller-runtime and, along the way, shows which\narchitectural decisions are baked into Kubernetes itself. The starting point is how\ncontrollers actually read objects from the Kubernetes API.\nA common misconception goes like this: r.Get() inside Reconcile queries kube-apiserver\ndirectly; r.List() returns a fresh, live view of the world; and after r.Update() you can\nre-read the object and immediately see the new state. In practice the model is the opposite:\ncontroller-runtime operates against a local copy of the data populated through list + watch.…",
+        "summary": "This article has been revised since it was first published, to correct several significant technical inaccuracies in the original text.\nKubernetes has long been the default platform for distributed workloads, and writing your own\ncontroller for it is now a matter of a few hours. The common path — Golang, using kubebuilder on top of\ncontroller-runtime — gives you a project scaffold, types, and a reconciler. For typical\nscenarios that is more than enough. But as soon as load grows or the controller starts behaving\nin ways you did not expect, a whole class of edge cases shows up. Most of them trace back to\nthe same root cause: a fuzzy mental model of how controller-runtime works inside. If you\nwrite Kubernetes controllers in Go, this article should help you build a coherent picture and\navoid expensive surprises in production.\nThis article walks through the internals of controller-runtime and, along the way, shows which\narchitectural decisions are baked into Kubernetes itself. The starting point is how\ncontrollers actually read objects from the Kubernetes API.\nA common misconception goes like this: r.Get() inside Reconcile queries kube-apiserver\ndirectly; r.List() returns a fresh, live view of the world; and after r.Update() you can\nre-read the object and immediately see the new state. In practice the model is the opposite:\ncontroller-runtime operates against a local copy of the data populated through list + watch.\nReads inside a reconciler cost almost nothing and do not load…",
         "image": "https://kubernetes.io/blog/2026/07/29/controller-runtime-cache-explained/pipeline.svg",
         "source": "Kubernetes Blog",
         "published": "2026-07-29T18:00:00.000Z",
@@ -314,18 +323,18 @@
         "source": "Kubernetes Blog",
         "published": "2026-07-08T12:00:00.000Z",
         "isNew": false
-      },
-      {
-        "title": "Open source maintainership in the age of AI",
-        "link": "https://kubernetes.io/blog/2026/06/26/open-source-maintainership-in-the-age-of-ai/",
-        "summary": "AI has really changed the game around software development.\nMore people are leveraging AI than ever to contribute patches to projects they use.\nTo me, this is a good thing as more folks will contribute patches rather than fork or not fix them.\nThe main problem is that AI has made generating code fast but there has been very little improvement in maintaining code bases.\nIn this post, we will highlight the ways the Kubernetes community is adapting to the world of AI assisted coding.\nThe first step of this journey was to develop an AI policy. This seems mundane and bureaucratic but there were many PRs that derailed into discussions around AI usage.\nThe AI policy helps steer the conversation around the project's stance on AI and provides a clear signal to contributors on how to use these tools responsibly.\nKubernetes AI policy\nThe Kubernetes project has established clear guidelines for AI-assisted contributions that balance innovation with accountability.\nThese policies are designed to maintain code quality and ensure human oversight while acknowledging that AI tools can be valuable aids in the development process.\nTransparency first\nContributors must disclose when AI tools have been used to assist with a pull request. A simple statement in the PR description such as \"This PR was written in part with the assistance of generative AI\" is sufficient. This transparency helps reviewers understand the context and apply appropriate scrutiny.\nHuman accountability\nWhile AI tools can…",
-        "image": null,
-        "source": "Kubernetes Blog",
-        "published": "2026-06-26T18:00:00.000Z",
-        "isNew": false
       }
     ],
     "terraform": [
+      {
+        "title": "v1.16.0-beta2",
+        "link": "https://github.com/hashicorp/terraform/releases/tag/v1.16.0-beta2",
+        "summary": "1.16.0-beta2 (August 05, 2026)\nNEW FEATURES:\nTerraform now stores planned private data for providers, allowing provider-specific state to be preserved across plan and apply. (#37986)\nterraform_data: The new store block can hold ephemeral and sensitive values across plan and apply. (#38298)\nProviders can now use nested blocks as computed values (#38305)\nimport: import blocks inside modules are now supported. (#38352)\nTerraform is now available as a pre-built binary for Linux s390x (zLinux). (#38384)\nResource action triggers can now use on_failure modes of halt, taint, or continue. (#38722)\nENHANCEMENTS:\nstate show: The state show command can now produce machine-readable output when supplied with the -json flag (#23940)\nworkspace: The workspace list command can now produce machine-readable output when supplied with the -json flag (#38397)\ntest: Terraform now reports which resources were left behind when skip_cleanup is set. (#38449)\nstacks: Action configurations now have access to a caller symbol containing the object value of the calling resource. (#38668)\nActions can now use before_destroy and after_destroy events. (#38668)\ncloud: Terraform now displays a summary of policy evaluation outcomes for plan and apply runs against HCP Terraform. (#38715)\npolicy: Terraform now resolves policy plugin credentials from the configured cloud or remote backend during init, plan, and apply, rather than requiring the plugin to read credentials itself. (#38716)\ngraph: The terraform graph…",
+        "image": "https://avatars.githubusercontent.com/u/82989873?s=60&v=4",
+        "source": "Release notes from terraform",
+        "published": "2026-08-05T18:07:50.000Z",
+        "isNew": false
+      },
       {
         "title": "v1.17.0-alpha20260729",
         "link": "https://github.com/hashicorp/terraform/releases/tag/v1.17.0-alpha20260729",
@@ -388,18 +397,18 @@
         "source": "Release notes from terraform",
         "published": "2026-07-01T19:49:44.000Z",
         "isNew": false
-      },
-      {
-        "title": "v1.16.0-alpha20260626",
-        "link": "https://github.com/hashicorp/terraform/releases/tag/v1.16.0-alpha20260626",
-        "summary": "1.16.0-alpha20260626 (June 26, 2026)\nNEW FEATURES:\nStore PlannedPrivate data for providers (#37986)\nNew store block in terraform_data that can handle ephemeral and sensitive values (#38298)\nProviders can now use nested blocks as computed values (#38305)\nimport: add support for import blocks inside modules (#38352)\nWe now produce builds for Linux s390x (zLinux) (#38384)\nworkspace: The workspace list command can now produce machine-readable output when supplied with the -json flag (#38397)\nResource action triggers can now use on_failure modes of halt, taint, or continue (#38722)\nENHANCEMENTS:\nfeat(cli): terraform state show accepts a -json flag (#23940)\nShow info when resources are left behind due to skip_cleanup (#38449)\nAction configuration now has a new caller symbol which contains the object value from the calling resource. (#38668)\nActions can now use before_destroy and after_destroy events (#38668)\ncloud: Render a summary of Terraform policy evaluation outcomes for plan and apply runs against HCP Terraform (#38715)\npolicy: Resolve the policy plugin entitlement (host, token, organization) from the configured cloud/remote backend for init, plan, and apply, instead of the plugin reading credentials itself (#38716)\nchild module outputs with unreferenced deprecated nested attributes no longer return deprecation warnings. (#38778)\nBUG FIXES:\nimport blocks no longer ignore provider local names (#38338)\nFix a terraform apply panic when the plan contained a no-op change for a…",
-        "image": "https://avatars.githubusercontent.com/u/82989873?s=60&v=4",
-        "source": "Release notes from terraform",
-        "published": "2026-06-26T09:03:31.000Z",
-        "isNew": false
       }
     ],
     "python": [
+      {
+        "title": "Python 3.14.7 and 3.13.15 are now available!",
+        "link": "https://blog.python.org/2026/08/python-3147-31315/",
+        "summary": "A pair of bug fix releases await your upgrade.",
+        "image": null,
+        "source": "Python Insider",
+        "published": "2026-08-05T00:00:00.000Z",
+        "isNew": false
+      },
       {
         "title": "Python 3.15.0 candidate 1 is here!",
         "link": "https://blog.python.org/2026/08/python-3150-rc1/",
@@ -461,15 +470,6 @@
         "image": null,
         "source": "Python Insider",
         "published": "2026-07-18T00:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "Affirm Your PSF Membership Voting Status",
-        "link": "https://pyfound.blogspot.com/2026/07/affirm-PSF-voting-status-2026.html",
-        "summary": "Every Python Software Foundation (PSF) voting-eligible Member (Supporting, Contributing, and Fellow) needs to affirm their membership to vote in this year’s PSF Board and Python Packaging Council (PPC) elections.\nIf you wish to vote in either the PSF Board or Python Packaging Council elections, you must affirm your intention to vote for each election no later than Tuesday, August 25th, 2:00 pm UTC, to participate in this year’s elections. This year’s election votes begin Tuesday, September 1st, 2:00 pm UTC, and close on Tuesday, September 15th, 2:00 pm UTC. \n\nElection communications from psfmember.org\nYou should have received an email from \"psf@psfmember.org <Python Software Foundation>\" with the subject \"[Action Required] Affirm your PSF Membership voting intention for the 2026 PSF Board Election\" and/or “2026 Python Packaging Council Inaugural Election Information & Schedule” that contains information on how to affirm your voting status. If you were expecting to receive the email but have not (make sure to check your spam!), please email psf-elections@pyfound.org for the PSF Board election or pc-elections@python.org, and we’ll assist you. Please note: If you opted out of emails related to your membership, you did not receive these emails. \nPSF Members should review their communication preferences on psfmember.org if you would like to opt in or out of receiving emails about the PSF Board, PPC elections, or both. Here’s how:\n\nLogin to psfmember.org\nNavigate to your “Profile”…",
-        "image": null,
-        "source": "Python Software Foundation News",
-        "published": "2026-07-15T15:06:17.909Z",
         "isNew": false
       }
     ],
@@ -550,9 +550,9 @@
     "rust": [
       {
         "title": "Enabling the next iteration of the borrow checker on nightly",
-        "link": "https://blog.rust-lang.org/2026/08/04/enabling-polonius-alpha-on-nighty/",
+        "link": "https://blog.rust-lang.org/2026/08/04/enabling-polonius-alpha-on-nightly/",
         "summary": "TL;DR We are enabling the next iteration of the borrow checker (coined Polonius Alpha)\non nightly in preparation for stabilization in the next few months.\n\nWhaaaaaat?\nYes! You heard it right! The next iteration of the Rust borrow checker is coming! Rust's first borrow checker (\"AST borrowck\") was very limited and was phased out in 2019 in favor of NLL, other than a \"migrate mode\" that was used to provide nice error messages. That migrate mode was finally removed in 2022.\nThe Polonius borrow checker spun out of the NLL effort in 2018. The initial formulation passed the NLL test suite and accepted (sound) code that NLL did not. However, performance was a critically-limiting factor; generally borrow check was slower than NLL, but certain programs were considerably slower than NLL to the extent that using that implementation/formulation of Polonius was a non-starter. Attempts were made over the years to implement the Polonius formulation in a performant manner, without much luck in addressing the core issues.\nIn 2023, a new formulation of a Polonius-style borrow checker was imagined that required minimal rearchitecture of the existing NLL implementation and could be extended to allow more code to compile. We had hoped, to try to stabilize this new formulation in 2024; but, various things popped up that delayed this.\nBut! We're nearly there now! At this point, there are no known remaining issues with the subset coined Polonius Alpha that we intend to stabilize. And, performance…",
-        "image": "https://blog.rust-lang.org/2026/08/04/enabling-polonius-alpha-on-nighty/polonius_top10k_leaf.png",
+        "image": "https://blog.rust-lang.org/2026/08/04/enabling-polonius-alpha-on-nightly/polonius_top10k_leaf.png",
         "source": "Rust Blog",
         "published": "2026-08-04T00:00:00.000Z",
         "isNew": false
@@ -623,6 +623,15 @@
     ],
     "javascript": [
       {
+        "title": "Node.js 26.7.0 (Current)",
+        "link": "https://nodejs.org/en/blog/release/v26.7.0",
+        "summary": "",
+        "image": null,
+        "source": "Node.js Blog",
+        "published": "2026-08-05T16:25:55.000Z",
+        "isNew": false
+      },
+      {
         "title": "Node.js 26.6.0 (Current)",
         "link": "https://nodejs.org/en/blog/release/v26.6.0",
         "summary": "",
@@ -683,15 +692,6 @@
         "image": null,
         "source": "Node.js Blog",
         "published": "2026-07-24T19:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "Node.js 26.5.0 (Current)",
-        "link": "https://nodejs.org/en/blog/release/v26.5.0",
-        "summary": "",
-        "image": null,
-        "source": "Node.js Blog",
-        "published": "2026-07-08T12:00:35.000Z",
         "isNew": false
       }
     ]
