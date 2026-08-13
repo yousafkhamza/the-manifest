@@ -1,6 +1,6 @@
 {
-  "date": "2026-08-12",
-  "generatedAt": "2026-08-12T18:06:44.383Z",
+  "date": "2026-08-13",
+  "generatedAt": "2026-08-13T06:44:45.955Z",
   "totalArticles": 72,
   "ticker": [
     {
@@ -105,6 +105,15 @@
     ],
     "azure": [
       {
+        "title": "Microsoft named a Leader in the 2026 Gartner® Magic Quadrant™ for AI-Augmented Code Modernization Tools",
+        "link": "https://azure.microsoft.com/en-us/blog/microsoft-named-a-leader-in-the-2026-gartner-magic-quadrant-for-ai-augmented-code-modernization-tools/",
+        "summary": "GitHub Copilot and Azure are helping organizations modernize legacy applications, reduce technical debt, and prepare for AI innovation.\nThe post Microsoft named a Leader in the 2026 Gartner® Magic Quadrant™ for AI-Augmented Code Modernization Tools appeared first on Microsoft Azure Blog.",
+        "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/08/MQ-AppMod-Blog-Thumbnail-1-1-1024x576.webp",
+        "source": "Microsoft Azure Blog",
+        "published": "2026-08-06T15:00:00.000Z",
+        "isNew": true
+      },
+      {
         "title": "What customers value most in Microsoft Databases—from reliability to AI readiness",
         "link": "https://azure.microsoft.com/en-us/blog/what-customers-value-most-in-microsoft-databases-from-reliability-to-ai-readiness/",
         "summary": "Every day, customers trust Microsoft Databases to power their most critical applications, business processes, and AI-powered experiences.\nThe post What customers value most in Microsoft Databases—from reliability to AI readiness appeared first on Microsoft Azure Blog.",
@@ -166,22 +175,13 @@
         "source": "Microsoft Azure Blog",
         "published": "2026-07-02T16:00:00.000Z",
         "isNew": false
-      },
-      {
-        "title": "Proving application resilience on Azure with Chaos Studio",
-        "link": "https://azure.microsoft.com/en-us/blog/proving-application-resilience-on-azure-with-chaos-studio/",
-        "summary": "Azure Chaos Studio helps organizations validate application resilience by simulating outages, failovers, network disruptions, and infrastructure failures before they impact production.\nThe post Proving application resilience on Azure with Chaos Studio appeared first on Microsoft Azure Blog.",
-        "image": "https://opensource.microsoft.com/blog/wp-content/uploads/2026/06/word-image-98613-1.png",
-        "source": "Microsoft Azure Blog",
-        "published": "2026-07-01T16:00:00.000Z",
-        "isNew": false
       }
     ],
     "gcp": [
       {
         "title": "August 12, 2026",
         "link": "https://docs.cloud.google.com/release-notes#August_12_2026",
-        "summary": "Apigee API hub\nFeature\nConfigure and deploy MCP servers with gcloud CLI\nYou can use the gcloud apihub locations configure-and-deploy-server command to configure and deploy API hub Model Context Protocol (MCP) servers to an attached Apigee runtime.\nDefine MCP tools inline or by referencing a YAML or JSON specification file to expose your API hub operations for agent integrations.\nFor more information, see gcloud CLI for API hub.\nBigtable\nFeature\nYou can use the CLUSTER_ATTRIBUTE() filter to restrict continuous materialized\nview processing to specific clusters. This function lets you isolate views\nwithin an instance. This feature is generally available (GA).\nFor more information, see Non-deterministic SQL functions.\nCloud Trace\nFeature\nThe following remote MCP servers automatically generate a trace span for\ntools/call operations. These spans can help you understand the behavior of\nyour agentic applications. For more information, see\nInvestigate MCP calls using Trace.\nCloud Billing\nPersonalized Service Health\nFeature\nGoogle Cloud Observability automatically generates trace exemplars for charts on custom\ndashboards that display the result of a SQL query when the query runs against\nyour trace data and satisfies some constraints. The exemplars link the\nSQL query result to specific traces. This feature is in\nPreview.\nFor more information, see\nGenerate and display trace exemplars.",
+        "summary": "Apigee API hub\nFeature\nConfigure and deploy MCP servers with gcloud CLI\nYou can use the gcloud apihub locations configure-and-deploy-server command to configure and deploy API hub Model Context Protocol (MCP) servers to an attached Apigee runtime.\nDefine MCP tools inline or by referencing a YAML or JSON specification file to expose your API hub operations for agent integrations.\nFor more information, see gcloud CLI for API hub.\nBigQuery\nAnnouncement\nTable Explorer behavior has moved to the Reference panel. Table Explorer\nhas been deprecated. For more information, see \"Use the Reference panel\" in\nRun a query.\nBigtable\nFeature\nYou can use parameterized views in Bigtable to dynamically filter data ranges\nfor logical views based on application context and mitigate SQL injection risks.\nThis feature is generally available (GA).\nFor more information, see Parameterized views overview.\nFeature\nYou can use the CLUSTER_ATTRIBUTE() filter to restrict continuous materialized\nview processing to specific clusters. This function lets you isolate views\nwithin an instance. This feature is generally available (GA).\nFor more information, see Non-deterministic SQL functions.\nCloud Trace\nFeature\nThe following remote MCP servers automatically generate a trace span for\ntools/call operations. These spans can help you understand the behavior of\nyour agentic applications. For more information, see\nInvestigate MCP calls using Trace.\nCloud Billing\nPersonalized Service Health\nFeature\nGoogle Cloud…",
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-08-12T07:00:00.000Z",
@@ -208,7 +208,7 @@
       {
         "title": "August 09, 2026",
         "link": "https://docs.cloud.google.com/release-notes#August_09_2026",
-        "summary": "Google SecOps\nFeature\n[Spotlight Feature] Analyze feed activity with Cloud Logging\nThis feature is in public preview. You can now monitor, debug, and troubleshoot Google SecOps ingestion pipelines and feeds using Cloud Logging. By sending, viewing, and querying ingestion and feed activity logs in Logs Explorer, you can diagnose log delivery issues, such as, missing, delayed, or failing logs, and decrease the time required to resolve ingestion anomalies.\nThis visibility into push- and pull-based ingestion mechanisms lets you use Gemini Cloud Assist to investigate logging and metrics telemetry directly from the Google SecOps console. Additionally, you can use the Debug with logs option on the Feed management page to open Logs Explorer pre-filtered for a specific feed.\nFor more information, see Analyze feed activity with Cloud Logging.\nFeature\nUpdated rich-text editor\nUpgraded the rich-text editor across Google SecOps, including the Cases Wall, \nUse Case Upload dialog, Report Template dialog, and Dashboard Editor widget.\nKey changes include:\nSimplified typography: Choose font sizes using semantic options (Small, \nNormal, Large, Huge). Legacy font sizes on existing text are preserved.\nStreamlined tables: You can insert or remove entire tables. Formatting \ninside table cells is no longer supported.\nToolbar cleanup: Removed the Cut, Copy, and Paste buttons from the toolbar. \nStandard OS keyboard shortcuts remain supported.\nVisual alignment: Improved visual consistency between…",
+        "summary": "Google SecOps\nFeature\nUpdated rich-text editor\nUpgraded the rich-text editor across Google SecOps, including the Cases Wall, \nUse Case Upload dialog, Report Template dialog, and Dashboard Editor widget.\nKey changes include:\nSimplified typography: Choose font sizes using semantic options (Small, \nNormal, Large, Huge). Legacy font sizes on existing text are preserved.\nStreamlined tables: You can insert or remove entire tables. Formatting \ninside table cells is no longer supported.\nToolbar cleanup: Removed the Cut, Copy, and Paste buttons from the toolbar. \nStandard OS keyboard shortcuts remain supported.\nVisual alignment: Improved visual consistency between editor content \nduring editing and after submission.\nGoogle SecOps SOAR\nAnnouncement\nRelease 6.3.97 is being rolled out to the first phase of regions as listed\nhere.\nThis release contains internal and customer bug fixes.\nFeature\nUpdated rich-text editor\nUpgraded the rich-text editor across Google SecOps, including the Cases Wall, \nUse Case Upload dialog, Report Template dialog, and Dashboard Editor widget.\nKey changes include:\nSimplified typography: Choose font sizes using semantic options (Small, \nNormal, Large, Huge). Legacy font sizes on existing text are preserved.\nStreamlined tables: You can insert or remove entire tables. Formatting \ninside table cells is no longer supported.\nToolbar cleanup: Removed the Cut, Copy, and Paste buttons from the toolbar. \nStandard OS keyboard shortcuts remain supported.\nVisual alignment:…",
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-08-09T07:00:00.000Z",
@@ -401,6 +401,15 @@
     ],
     "python": [
       {
+        "title": "Python 3.12.14, 3.11.16 and 3.10.21 are now available!",
+        "link": "https://blog.python.org/2026/08/python-31214-31116-31021/",
+        "summary": "[Python Releases Eclipse Your Security!](https://discuss.python.org/t/python-3-12-14-3-11-16-and-3-10-21-are-now-available/108537) New security releases for 3.10, 3.11 and 3.12 are now available.",
+        "image": null,
+        "source": "Python Insider",
+        "published": "2026-08-12T00:00:00.000Z",
+        "isNew": true
+      },
+      {
         "title": "Python 3.14.7 and 3.13.15 are now available!",
         "link": "https://blog.python.org/2026/08/python-3147-31315/",
         "summary": "A pair of bug fix releases await your upgrade.",
@@ -461,15 +470,6 @@
         "image": null,
         "source": "Python Insider",
         "published": "2026-07-23T00:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "Python 3.15.0 beta 4 is here!",
-        "link": "https://blog.python.org/2026/07/python-3150-beta-4/",
-        "summary": "The final 3.15 beta is out!",
-        "image": null,
-        "source": "Python Insider",
-        "published": "2026-07-18T00:00:00.000Z",
         "isNew": false
       }
     ],
