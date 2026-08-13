@@ -1,6 +1,6 @@
 {
   "date": "2026-08-13",
-  "generatedAt": "2026-08-13T06:44:45.955Z",
+  "generatedAt": "2026-08-13T12:01:32.984Z",
   "totalArticles": 72,
   "ticker": [
     {
@@ -111,7 +111,7 @@
         "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/08/MQ-AppMod-Blog-Thumbnail-1-1-1024x576.webp",
         "source": "Microsoft Azure Blog",
         "published": "2026-08-06T15:00:00.000Z",
-        "isNew": true
+        "isNew": false
       },
       {
         "title": "What customers value most in Microsoft Databases—from reliability to AI readiness",
@@ -407,7 +407,7 @@
         "image": null,
         "source": "Python Insider",
         "published": "2026-08-12T00:00:00.000Z",
-        "isNew": true
+        "isNew": false
       },
       {
         "title": "Python 3.14.7 and 3.13.15 are now available!",
