@@ -1,6 +1,6 @@
 {
   "date": "2026-08-13",
-  "generatedAt": "2026-08-13T12:01:32.984Z",
+  "generatedAt": "2026-08-13T18:07:37.007Z",
   "totalArticles": 72,
   "ticker": [
     {
@@ -17,7 +17,7 @@
     },
     {
       "label": "Go",
-      "version": "go1.26.5"
+      "version": "go1.26.6"
     },
     {
       "label": "Rust",
@@ -179,6 +179,15 @@
     ],
     "gcp": [
       {
+        "title": "August 13, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#August_13_2026",
+        "summary": "Apigee X\nAnnouncement\nOn August 13th, 2026, we began maintenance updates of Apigee instances configured for maintenance windows.\nIf you set a preferred window for maintenance for your instance, and your instance version is\nbelow 1-18-0-apigee-2, your instance will be updated to 1-18-0-apigee-2 within the\nnext seven to 21 days. A notification containing the expected date of upgrade will be sent within the next two business days.\nNote: Instances that meet either of the following two criteria will not be updated:\n\nYour instance has a DNS misconfiguration, as described in Known Issue 445936920.\nYour instance uses an Apigee Java Library that has been removed, as described in Apigee release notes dated October 16, 2025.\n\nFor more information on participating in scheduled maintenance windows, see Maintenance overview and Manage Apigee instance maintenance windows.\nData Studio\nFeature\nFullscreen charts\nYou can view individual charts in fullscreen mode. Click the fullscreen\nbutton in the chart header to expand the chart. This feature is not available\nfor scorecards and gauge charts.\nFeature\nRotate components\nYou can rotate text boxes, images, and shapes in Data Studio. Report\ncreators can rotate these components on a non-responsive canvas and can reset\nthe rotation to 0 degrees.\nFeature\nCenter labels on stacked bar charts\nYou can position labels in the center of stacked bar charts. If\ninsufficient space is available to center the label within the bar, the label\nis displayed outside…",
+        "image": null,
+        "source": "Google Cloud Platform (GCP) - Release notes",
+        "published": "2026-08-13T07:00:00.000Z",
+        "isNew": false
+      },
+      {
         "title": "August 12, 2026",
         "link": "https://docs.cloud.google.com/release-notes#August_12_2026",
         "summary": "Apigee API hub\nFeature\nConfigure and deploy MCP servers with gcloud CLI\nYou can use the gcloud apihub locations configure-and-deploy-server command to configure and deploy API hub Model Context Protocol (MCP) servers to an attached Apigee runtime.\nDefine MCP tools inline or by referencing a YAML or JSON specification file to expose your API hub operations for agent integrations.\nFor more information, see gcloud CLI for API hub.\nBigQuery\nAnnouncement\nTable Explorer behavior has moved to the Reference panel. Table Explorer\nhas been deprecated. For more information, see \"Use the Reference panel\" in\nRun a query.\nBigtable\nFeature\nYou can use parameterized views in Bigtable to dynamically filter data ranges\nfor logical views based on application context and mitigate SQL injection risks.\nThis feature is generally available (GA).\nFor more information, see Parameterized views overview.\nFeature\nYou can use the CLUSTER_ATTRIBUTE() filter to restrict continuous materialized\nview processing to specific clusters. This function lets you isolate views\nwithin an instance. This feature is generally available (GA).\nFor more information, see Non-deterministic SQL functions.\nCloud Trace\nFeature\nThe following remote MCP servers automatically generate a trace span for\ntools/call operations. These spans can help you understand the behavior of\nyour agentic applications. For more information, see\nInvestigate MCP calls using Trace.\nCloud Billing\nPersonalized Service Health\nFeature\nGoogle Cloud…",
@@ -208,7 +217,7 @@
       {
         "title": "August 09, 2026",
         "link": "https://docs.cloud.google.com/release-notes#August_09_2026",
-        "summary": "Google SecOps\nFeature\nUpdated rich-text editor\nUpgraded the rich-text editor across Google SecOps, including the Cases Wall, \nUse Case Upload dialog, Report Template dialog, and Dashboard Editor widget.\nKey changes include:\nSimplified typography: Choose font sizes using semantic options (Small, \nNormal, Large, Huge). Legacy font sizes on existing text are preserved.\nStreamlined tables: You can insert or remove entire tables. Formatting \ninside table cells is no longer supported.\nToolbar cleanup: Removed the Cut, Copy, and Paste buttons from the toolbar. \nStandard OS keyboard shortcuts remain supported.\nVisual alignment: Improved visual consistency between editor content \nduring editing and after submission.\nGoogle SecOps SOAR\nAnnouncement\nRelease 6.3.97 is being rolled out to the first phase of regions as listed\nhere.\nThis release contains internal and customer bug fixes.\nFeature\nUpdated rich-text editor\nUpgraded the rich-text editor across Google SecOps, including the Cases Wall, \nUse Case Upload dialog, Report Template dialog, and Dashboard Editor widget.\nKey changes include:\nSimplified typography: Choose font sizes using semantic options (Small, \nNormal, Large, Huge). Legacy font sizes on existing text are preserved.\nStreamlined tables: You can insert or remove entire tables. Formatting \ninside table cells is no longer supported.\nToolbar cleanup: Removed the Cut, Copy, and Paste buttons from the toolbar. \nStandard OS keyboard shortcuts remain supported.\nVisual alignment:…",
+        "summary": "Agent Platform Workbench\nChange\nInstalled latest packages from upstream dependencies.\nChange\n20260809-2330-rc0 Release\nChange\nInstalled latest packages from upstream dependencies.\nChange\n20260809-2330-rc0 Release\nFixed\nFixed the Git panel's grayed out buttons which were disabled due to an issue with the Jupyter Lab's Git plugin introduced in version 0.54.0.\nChange\n20260809-2230-rc0 Release\nChange\nInstalled latest packages from upstream dependencies.\nFixed\nFixed the Git panel's grayed out buttons which were disabled due to an issue with the Jupyter Lab's Git plugin introduced in version 0.54.0.\nChange\n20260809-2230-rc0 Release\nChange\nInstalled latest packages from upstream dependencies.\nChange\n20260809-2130-rc0 Release\nChange\nUpdated the NVIDIA GPU driver on Workbench Debian 12 images from 580.65.06 to 580.126.20 for compatibility with the Debian 12 6.1.0-52 kernel.\nChange\nInstalled latest packages from upstream dependencies.\nFixed\nFixed the Git panel's grayed out buttons which were disabled due to an issue with the Jupyter Lab's Git plugin introduced in version 0.54.0.\nGoogle SecOps\nFeature\nUpdated rich-text editor\nUpgraded the rich-text editor across Google SecOps, including the Cases Wall, \nUse Case Upload dialog, Report Template dialog, and Dashboard Editor widget.\nKey changes include:\nSimplified typography: Choose font sizes using semantic options (Small, \nNormal, Large, Huge). Legacy font sizes on existing text are preserved.\nStreamlined tables: You can insert or remove…",
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-08-09T07:00:00.000Z",
@@ -239,15 +248,6 @@
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-08-06T07:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "August 05, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#August_05_2026",
-        "summary": "Cloud Database Migration Service\nFeature\nYou can now manage your Database Migration Service migration jobs directly from the\ndestination Cloud SQL instance or AlloyDB for PostgreSQL cluster pages in\nthe Google Cloud console. For more information, see:\nManage homogeneous migration jobs:\n\n\nSQL Server to Cloud SQL for SQL Server\n\nMySQL to Cloud SQL for MySQL\n\nPostgreSQL to Cloud SQL for PostgreSQL\n\nPostgreSQL to AlloyDB for PostgreSQL\n\nManage heterogeneous migration jobs:\n\n\nOracle to Cloud SQL for PostgreSQL\n\nOracle to AlloyDB for PostgreSQL\n\nSQL Server to AlloyDB for PostgreSQL\n\nSQL Server to Cloud SQL for PostgreSQL\n\n\nCloud Monitoring\nAnnouncement\nThe Telemetry API for metric ingestion is\ngenerally available (GA).\nYou can ingest OTLP metrics into Cloud Monitoring by using an\nOpenTelemetry Collector, an OTLP exporter, and the Telemetry API. For more\ninformation, see\nOTLP metric ingestion overview.\nCloud Run\nFeature\nCloud Run supports sandboxes for all resources, including jobs and worker pools (Preview).\nCloud SQL for MySQL\nFeature\nPerformance capture for Cloud SQL for MySQL is now generally available\n(GA).\nPerformance capture lets you take a point-in-time snapshot of your database and\noperating system metrics automatically and route them to Cloud Logging for\nroot-cause analysis.\nWith the GA release, you can configure custom thresholds that\nend long-running transactions automatically\nbefore they slow down your database. In addition,\nthe GA release includes six additional…",
-        "image": null,
-        "source": "Google Cloud Platform (GCP) - Release notes",
-        "published": "2026-08-05T07:00:00.000Z",
         "isNew": false
       }
     ],
@@ -401,6 +401,33 @@
     ],
     "python": [
       {
+        "title": "Announcing the Packaging Council Election Candidates for 2026!",
+        "link": "https://pyfound.blogspot.com/2026/08/announcing-packaging-council-election.html",
+        "summary": "What an exciting list! Please take a look at who is running for the inaugural Python Packaging Council (PPC) on the Nominees page. This election has 17 nominees for 5 open seats on the council.\nElection Overview\n\nThis inaugural election fills all five seats on the PPC. The two \ncandidates receiving the highest number of votes shall be designated \nCohort A with a two year term, and the three candidates receiving the \nnext highest number of votes shall be designated Cohort B with a one \nyear term.\nIn future elections, each cohort will be elected for a full two-year \nterm in alternating years, so that roughly half of the PPC turns over \neach cycle.\nElection Timeline\n\nNominations open: Tuesday, July 28th, 2:00 pm UTC\nNomination cut-off: Tuesday, August 11th, 2:00 pm UTC\nAnnounce candidates: Thursday, August 13th\nVoter affirmation cut-off: Tuesday, August 25th, 2:00 pm UTC\nVoting start date: Tuesday, September 1st, 2:00 pm UTC\nVoting end date: Tuesday, September 15th, 2:00 pm UTC\n\nNot sure what UTC is for you locally? Check this UTC time converter!\nReminder: Affirm your intention to vote\n\nIf you wish to vote in this election, you must affirm your \nintention to vote no later than Tuesday, August 25th, 2:00 pm UTC, to \nparticipate in this election.\nEvery PSF Voting Member (Supporting, Contributing, and Fellow) needs \nto affirm their membership to vote in this election. Find more \ninformation, including step-by-step instructions on voting affirmation, \nin our \"Affirm Your PSF…",
+        "image": null,
+        "source": "Python Software Foundation News",
+        "published": "2026-08-13T14:13:35.676Z",
+        "isNew": false
+      },
+      {
+        "title": "Announcing the PSF Board Candidates for 2026!",
+        "link": "https://pyfound.blogspot.com/2026/08/announcing-psf-board-candidates-for-2026.html",
+        "summary": "What an exciting list! Please take a look at the 18 candidates running for the PSF Board this year on the Nominees page. This year there are 4 seats open on the PSF Board. You can see who is currently on the board on the PSF Officers & Directors page. (Cheuk Ting Ho, Christopher Neugebauer, Denny Perez, and Georgi Ker are at the end of their current terms.)\nNomination and supporting statements are the clearest way to see how each candidate actually thinks: their priorities, experience, and vision for the PSF. Rather than just voting on name recognition, we encourage you to read each candidate's nomination and supporting statements. PSF Board members shape real decisions about budget, programs, and the direction of the PSF. Reading these statements helps ensure your vote reflects what the candidates would actually do in the role. \nBoard Election Timeline:\n\nNominations open: Tuesday, July 28th, 2:00 pm UTC\nNomination cut-off: Tuesday, August 11th, 2:00 pm UTC\nAnnounce candidates: Thursday, August 13th\nVoter affirmation cut-off: Tuesday, August 25th, 2:00 pm UTC\nVoting start date: Tuesday, September 1st, 2:00 pm UTC\nVoting end date: Tuesday, September 15th, 2:00 pm UTC\n\nNot sure what UTC is for you locally? Check this UTC time converter.\nReminder to affirm your intention to vote!\nIf you wish to vote in this year’s election, you must affirm your intention to vote no later than Tuesday, August 25th, 2:00 pm UTC, to participate in this year’s election. This year’s Board Election…",
+        "image": null,
+        "source": "Python Software Foundation News",
+        "published": "2026-08-13T13:48:30.294Z",
+        "isNew": false
+      },
+      {
+        "title": "Announcing the Packaging Council Election Candidates for 2026!",
+        "link": "https://blog.python.org/2026/08/2026-packaging-council-nominees/",
+        "summary": "Announcing the 17 nominees for the inaugural Python Packaging Council election, and how to vote in the election.",
+        "image": null,
+        "source": "Python Insider",
+        "published": "2026-08-13T00:00:00.000Z",
+        "isNew": false
+      },
+      {
         "title": "Python 3.12.14, 3.11.16 and 3.10.21 are now available!",
         "link": "https://blog.python.org/2026/08/python-31214-31116-31021/",
         "summary": "[Python Releases Eclipse Your Security!](https://discuss.python.org/t/python-3-12-14-3-11-16-and-3-10-21-are-now-available/108537) New security releases for 3.10, 3.11 and 3.12 are now available.",
@@ -443,33 +470,6 @@
         "image": null,
         "source": "Python Software Foundation News",
         "published": "2026-07-27T13:28:06.258Z",
-        "isNew": false
-      },
-      {
-        "title": "Get Ready: Python Packaging Council Nominations Opening Soon!",
-        "link": "https://pyfound.blogspot.com/2026/07/get-ready-python-packaging-council.html",
-        "summary": "The inaugural Python Packaging Council Election nomination\n period opens next week on Tuesday, July 28th, 2:00 pm UTC and closes on\n Tuesday, August 11th, 2:00 pm UTC.\nThe Python Packaging Council (PPC) will be the technical \ndecision-making body for the interoperability specifications that govern\n how Python packages are built, distributed, and installed. It will also\n coordinate efforts among packaging tool maintainers, the Python core \nteam, and the broader community.\nRunning for the Packaging Council\n\nDo you have a vision for improving the Python packaging \nexperience? Do you make the tools used to build and consume Python \npackages? Are you passionate about building communities, consensus, and \nstandards focused on the user experience? If these resonate with you, \nand you have the time to attend regular meetings and participate in the \nstandardization process, you should consider running for the inaugural \nPPC!\nWe're looking for candidates who can build bridges between\n projects and communities, who enjoy working with a very large community\n of passionate volunteers, and have a willingness to represent the wider\n community ahead of any single tool, project, or employer. We also \nwelcome candidates who have a diverse set of skills and experiences, \nincluding open-governance experience, community stewardship, fundraising\n knowledge, and (of course!) technical expertise in Python packaging and\n distribution.\nPEP 772 does provide non-binding operational suggestions,\n which…",
-        "image": null,
-        "source": "Python Software Foundation News",
-        "published": "2026-07-23T16:18:29.645Z",
-        "isNew": false
-      },
-      {
-        "title": "Get Ready: PSF Board Nominations Opening Soon!",
-        "link": "https://pyfound.blogspot.com/2026/07/get-ready-psf-board-nominations-opening.html",
-        "summary": "Who runs for the PSF Board? People who care about the Python community, who want to see it flourish and grow, and also have a few hours a month to attend regular meetings, serve on committees, participate in conversations, and promote the Python community. We're looking for candidates with a diverse range of skills and backgrounds, including leadership experience, fundraising knowledge, non-profit familiarity, and event organizing. Technical expertise, a record of collaboration, and experience speaking or teaching in the Python community are also all qualities we hope to see in Board members.\nWant to learn more about being on the PSF Board? Check out the following resources to learn more about the PSF, as well as what being a part of the PSF Board entails:\n\nFAQs About the PSF Board video on YouTube \nOur past few Annual Impact Reports:\n\n2024 Annual Impact Report\n2023 Annual Impact Report\n2022 Annual Impact Report \n\nBoard Election Timeline\n\nNominations open: Tuesday, July 28th, 2:00 pm UTC\nNomination cut-off: Tuesday, August 11th, 2:00 pm UTC\nAnnounce candidates: Thursday, August 13th\nVoter affirmation cut-off: Tuesday, August 25th, 2:00 pm UTC\nVoting start date: Tuesday, September 1st, 2:00 pm UTC\nVoting end date: Tuesday, September 15th, 2:00 pm UTC\n\nNot sure what UTC is for you locally? Check this UTC time converter!\n\nNominations \nYou can nominate yourself or someone else. If you're nominating someone else, we'd encourage you to reach out to them first to make sure they're…",
-        "image": null,
-        "source": "Python Software Foundation News",
-        "published": "2026-07-23T12:06:05.659Z",
-        "isNew": false
-      },
-      {
-        "title": "Get Ready: 2026 Python Packaging Council Nominations Opening Soon!",
-        "link": "https://blog.python.org/2026/07/2026-packaging-council-nominations/",
-        "summary": "The inaugural Python Packaging Council election nomination period opens on Tuesday, July 28th, 2:00 pm UTC and closes on Tuesday, August 11th, 2:00 pm UTC.",
-        "image": null,
-        "source": "Python Insider",
-        "published": "2026-07-23T00:00:00.000Z",
         "isNew": false
       }
     ],
