@@ -1,6 +1,6 @@
 {
   "date": "2026-08-14",
-  "generatedAt": "2026-08-14T11:59:32.671Z",
+  "generatedAt": "2026-08-14T18:06:13.454Z",
   "totalArticles": 72,
   "ticker": [
     {
@@ -179,6 +179,15 @@
     ],
     "gcp": [
       {
+        "title": "August 14, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#August_14_2026",
+        "summary": "Carbon Footprint\nAnnouncement\nAs detailed in our 2026 Environmental Report (p. 22), Google is now using Granular Certificates purchased from the marketplace to strategically match more of our load on an hourly basis. To accurately incorporate these certificates into the Cloud customers' allocation of carbon intensity calculations, the July 2026 semi-annual methodology refresh will be delayed by one month. We will provide further updates once the revised data is available.\nCortex Framework\nAnnouncement\nRelease 7.0.3\nFixed\nResolved an issue where SapBdcProductBuilder incorrectly enforced SAP-versioned sections (ecc, s4, common) in table_settings.\nIdentity and Access Management\nFeature\nYou can use custom constraints with Organization Policy to provide more\ngranular control over specific fields for Agent Identity resources, such as\nagentidentity.googleapis.com/AuthProvider. For more information, see\nUse custom organization policies for Agent Identity.\nThis feature is in\nGA.",
+        "image": null,
+        "source": "Google Cloud Platform (GCP) - Release notes",
+        "published": "2026-08-14T07:00:00.000Z",
+        "isNew": false
+      },
+      {
         "title": "August 13, 2026",
         "link": "https://docs.cloud.google.com/release-notes#August_13_2026",
         "summary": "Apigee X\nAnnouncement\nOn August 13th, 2026, we began maintenance updates of Apigee instances configured for maintenance windows.\nIf you set a preferred window for maintenance for your instance, and your instance version is\nbelow 1-18-0-apigee-2, your instance will be updated to 1-18-0-apigee-2 within the\nnext seven to 21 days. A notification containing the expected date of upgrade will be sent within the next two business days.\nNote: Instances that meet either of the following two criteria will not be updated:\n\nYour instance has a DNS misconfiguration, as described in Known Issue 445936920.\nYour instance uses an Apigee Java Library that has been removed, as described in Apigee release notes dated October 16, 2025.\n\nFor more information on participating in scheduled maintenance windows, see Maintenance overview and Manage Apigee instance maintenance windows.\nAnnouncement\nOn August 13th, 2026, we released an updated version of Apigee (1-18-0-apigee-3).\nNote: Rollouts of this release began today and may take four or more business days to be completed across all Google Cloud zones. Your instances may not have the features and fixes available until the rollout is complete.\nFixed\nBug ID\nDescription\n\n\n\n\n532147587\nTo fix forward proxy support.\n\n\n537657987\nFixed a bug where watcher failed to reconcile all routes if an environment was not found in the control plane.\n\n\n543022076\nGoogle Cloud BOM upgrade (protobuf 4.x, gRPC 1.81, Guava 33.5). One user-visible change: a malformed inbound…",
@@ -199,7 +208,7 @@
       {
         "title": "August 11, 2026",
         "link": "https://docs.cloud.google.com/release-notes#August_11_2026",
-        "summary": "Apigee hybrid\nAnnouncement\nv1.16.9\nOn August 11, 2026 we released an updated version of the Apigee hybrid software, v1.16.9.\nFor information on upgrading, see Upgrading Apigee hybrid to version v1.16.9.\nFor information on new installations, see The big picture.\nNote: This is a patch release: The container images used in patch releases are integrated with the Apigee hybrid Helm charts. Upgrading to a patch via the Helm chart automatically updates the images. No manual image changes are typically needed. For information on container image support in Apigee hybrid releases, see Apigee release process.\nFixed\nFixed in this release\nBug ID\nDescription\n\n\n\n\n514973778\nFixed an issue where the SanitizeUserPrompt and SanitizeModelResponse policies failed to tolerate unknown fields while parsing responses from the Model Armor Service.\n\n\n543171828\nFixed an issue where the apigee-logger DaemonSet failed to schedule on cluster nodes without custom node labels due to a default logger.nodeSelector in the Helm chart.\n\n\n\nSecurity\nVarious security and CVE fixes are included in this release.\nCloud Run\nFeature\nCloud Run NVIDIA L4 GPU driver version 580.x.x is available for services, jobs, and worker pools.\nCloud SDK\nBreaking\n580.0.0 (2026-08-11)\nBreaking Changes\n(Google Cloud CLI) The google-cloud-sdk Snap package will be deprecated and removed on September 29th, 2026. Please migrate to the google-cloud-cli package. For more information, see https://docs.cloud.google.com/sdk/docs/downloads-snap.…",
+        "summary": "Apigee hybrid\nAnnouncement\nv1.16.9\nOn August 11, 2026 we released an updated version of the Apigee hybrid software, v1.16.9.\nFor information on upgrading, see Upgrading Apigee hybrid to version v1.16.9.\nFor information on new installations, see The big picture.\nNote: This is a patch release: The container images used in patch releases are integrated with the Apigee hybrid Helm charts. Upgrading to a patch via the Helm chart automatically updates the images. No manual image changes are typically needed. For information on container image support in Apigee hybrid releases, see Apigee release process.\nFixed\nFixed in this release\nBug ID\nDescription\n\n\n\n\n514973778\nFixed an issue where the SanitizeUserPrompt and SanitizeModelResponse policies failed to tolerate unknown fields while parsing responses from the Model Armor Service.\n\n\n543171828\nFixed an issue where the apigee-logger DaemonSet failed to schedule on cluster nodes without custom node labels due to a default logger.nodeSelector in the Helm chart.\n\n\n\nSecurity\nVarious security and CVE fixes are included in this release.\nCloud Run\nFeature\nCloud Run NVIDIA L4 GPU driver version 580.x.x is available for services, jobs, and worker pools.\nCompute Engine\nFeature\nGenerally available: Compute flexible committed use discounts (CUDs) are\navailable for G2 and G4 GPU accelerator-optimized machine series. The supported\nresources include vCPUs, memory, Local SSD disks, and GPUs.\nCompute flexible CUDs are spend-based CUDs that apply to…",
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-08-11T07:00:00.000Z",
@@ -239,15 +248,6 @@
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-08-07T07:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "August 06, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#August_06_2026",
-        "summary": "Cloud Key Management Service\nFeature\nPreview: Cloud KMS supports quantum-safe key import. You can use the\nfollowing quantum-safe import methods:\nHPKE_KEM_XWING_HKDF_SHA256_AES_256_GCM\nHPKE_KEM_ML_KEM_768_HKDF_SHA256_AES_256_GCM\nHPKE_KEM_ML_KEM_1024_HKDF_SHA256_AES_256_GCM\nFor more information about quantum-safe key import, see Quantum-safe key\nimport.\nGemini Enterprise\nChange\nGemini Enterprise: Description field removed from Custom MCP server data store\nGemini Enterprise automatically calls your server's tools/list\nendpoint to discover and understand tools, parameter schemas, and\ncapabilities directly. Because Gemini Enterprise routes requests using\nexplicit tool definitions and parameter schemas, you don't need to\nwrite descriptions. This change simplifies data store\nsetup and improves routing accuracy. Existing custom MCP data stores do not\nrequire any updates.\nFor more information, see\nSet up a custom MCP server.\nAnnouncement\nGemini Enterprise: Postponed removal of Gemini 3.5 Flash in the Global\nregion\nWe have postponed the removal of Gemini 3.5 Flash from the global region\nin the Gemini Enterprise app. A revised removal schedule will be provided\nwhen available.\nNote: This is a correction to the July 21, 2026 release\nnote.\nGoogle Cloud Contact Center as a Service\nAnnouncement\nAdvanced reporting dashboards 5.1\nWe've released version 5.1 of the advanced reporting dashboards.\nFeature\nSub teams are included when top-level teams are selected in the Team filter\nWhen you select…",
-        "image": null,
-        "source": "Google Cloud Platform (GCP) - Release notes",
-        "published": "2026-08-06T07:00:00.000Z",
         "isNew": false
       }
     ],
