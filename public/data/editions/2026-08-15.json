@@ -1,6 +1,6 @@
 {
   "date": "2026-08-15",
-  "generatedAt": "2026-08-15T05:41:01.067Z",
+  "generatedAt": "2026-08-15T11:35:42.529Z",
   "totalArticles": 72,
   "ticker": [
     {
@@ -179,6 +179,15 @@
     ],
     "gcp": [
       {
+        "title": "August 15, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#August_15_2026",
+        "summary": "Google SecOps SOAR\nAnnouncement\nRelease 6.3.97 is now\navailable for all regions.",
+        "image": null,
+        "source": "Google Cloud Platform (GCP) - Release notes",
+        "published": "2026-08-15T07:00:00.000Z",
+        "isNew": false
+      },
+      {
         "title": "August 14, 2026",
         "link": "https://docs.cloud.google.com/release-notes#August_14_2026",
         "summary": "App Engine flexible environment .NET\nFeature\nTo improve security, starting in August 2026, App Engine opts your application into TLS version 1.2 and later. You can opt out until the end of August 2026. Starting in September 2026, App Engine might permanently block insecure traffic with TLS version 1.1 and earlier. For more information, see Secure minimum TLS.\nApp Engine flexible environment Go\nFeature\nTo improve security, starting in August 2026, App Engine opts your application into TLS version 1.2 and later. You can opt out until the end of August 2026. Starting in September 2026, App Engine might permanently block insecure traffic with TLS version 1.1 and earlier. For more information, see Secure minimum TLS.\nApp Engine flexible environment Java\nFeature\nTo improve security, starting in August 2026, App Engine opts your application into TLS version 1.2 and later. You can opt out until the end of August 2026. Starting in September 2026, App Engine might permanently block insecure traffic with TLS version 1.1 and earlier. For more information, see Secure minimum TLS.\nApp Engine flexible environment Node.js\nFeature\nTo improve security, starting in August 2026, App Engine opts your application into TLS version 1.2 and later. You can opt out until the end of August 2026. Starting in September 2026, App Engine might permanently block insecure traffic with TLS version 1.1 and earlier. For more information, see Secure minimum TLS.\nApp Engine flexible environment PHP\nFeature\nTo…",
@@ -239,15 +248,6 @@
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-08-08T07:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "August 07, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#August_07_2026",
-        "summary": "AlloyDB for PostgreSQL\nFeature\nYou can now sync tables from BigQuery into your AlloyDB instance, either as a\none-time operation or on a periodic schedule. This feature (in Preview)\nlets you enable operational analytics that benefit from low-latency,\ntransactional access to your data lake.\nFor more information, see Sync BigQuery data to AlloyDB.\nFeature\nAlloyDB integration with BigQuery lets you connect your operational and\nanalytical data through real-time data access (lakehouse federation), periodic\ndata synchronization, and one-time table syncs. These features are in Preview.\nFor more information, see Choose how to access BigQuery data from AlloyDB.\nCloud Billing\nFeature\nNew filter and group-by option available in Cloud Billing Reports\nIn Billing Reports, Cloud Billing has added the\nOriginating products\nfilter and\nGroup by\nto provide additional options that let you analyze and understand your costs.\nOriginating products are Google Cloud products that cause usage in\nanother product. For example, Gemini Enterprise is an\noriginating product when it causes usage in the Gemini Enterprise\napp.\nTo help you track and analyze your AI spend, the Originating products\ndimension is used in the following ways:\nYou can use the Originating products filter and group by option to\nconfigure your Cloud Billing report to track and analyze your\nGemini Enterprise subscription and consumption costs.\n\n\nThe Originating products dimension supports a new\npreset report\nfor quick report configuration,…",
-        "image": null,
-        "source": "Google Cloud Platform (GCP) - Release notes",
-        "published": "2026-08-07T07:00:00.000Z",
         "isNew": false
       }
     ],
