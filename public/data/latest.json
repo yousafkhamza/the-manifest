@@ -1,6 +1,6 @@
 {
-  "date": "2026-08-14",
-  "generatedAt": "2026-08-14T18:06:13.454Z",
+  "date": "2026-08-15",
+  "generatedAt": "2026-08-15T05:41:01.067Z",
   "totalArticles": 72,
   "ticker": [
     {
@@ -181,7 +181,7 @@
       {
         "title": "August 14, 2026",
         "link": "https://docs.cloud.google.com/release-notes#August_14_2026",
-        "summary": "Carbon Footprint\nAnnouncement\nAs detailed in our 2026 Environmental Report (p. 22), Google is now using Granular Certificates purchased from the marketplace to strategically match more of our load on an hourly basis. To accurately incorporate these certificates into the Cloud customers' allocation of carbon intensity calculations, the July 2026 semi-annual methodology refresh will be delayed by one month. We will provide further updates once the revised data is available.\nCortex Framework\nAnnouncement\nRelease 7.0.3\nFixed\nResolved an issue where SapBdcProductBuilder incorrectly enforced SAP-versioned sections (ecc, s4, common) in table_settings.\nIdentity and Access Management\nFeature\nYou can use custom constraints with Organization Policy to provide more\ngranular control over specific fields for Agent Identity resources, such as\nagentidentity.googleapis.com/AuthProvider. For more information, see\nUse custom organization policies for Agent Identity.\nThis feature is in\nGA.",
+        "summary": "App Engine flexible environment .NET\nFeature\nTo improve security, starting in August 2026, App Engine opts your application into TLS version 1.2 and later. You can opt out until the end of August 2026. Starting in September 2026, App Engine might permanently block insecure traffic with TLS version 1.1 and earlier. For more information, see Secure minimum TLS.\nApp Engine flexible environment Go\nFeature\nTo improve security, starting in August 2026, App Engine opts your application into TLS version 1.2 and later. You can opt out until the end of August 2026. Starting in September 2026, App Engine might permanently block insecure traffic with TLS version 1.1 and earlier. For more information, see Secure minimum TLS.\nApp Engine flexible environment Java\nFeature\nTo improve security, starting in August 2026, App Engine opts your application into TLS version 1.2 and later. You can opt out until the end of August 2026. Starting in September 2026, App Engine might permanently block insecure traffic with TLS version 1.1 and earlier. For more information, see Secure minimum TLS.\nApp Engine flexible environment Node.js\nFeature\nTo improve security, starting in August 2026, App Engine opts your application into TLS version 1.2 and later. You can opt out until the end of August 2026. Starting in September 2026, App Engine might permanently block insecure traffic with TLS version 1.1 and earlier. For more information, see Secure minimum TLS.\nApp Engine flexible environment PHP\nFeature\nTo…",
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-08-14T07:00:00.000Z",
