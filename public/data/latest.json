@@ -1,6 +1,6 @@
 {
-  "date": "2026-08-15",
-  "generatedAt": "2026-08-15T17:34:48.053Z",
+  "date": "2026-08-16",
+  "generatedAt": "2026-08-16T05:42:52.425Z",
   "totalArticles": 72,
   "ticker": [
     {
@@ -181,7 +181,7 @@
       {
         "title": "August 15, 2026",
         "link": "https://docs.cloud.google.com/release-notes#August_15_2026",
-        "summary": "Google SecOps SOAR\nAnnouncement\nRelease 6.3.97 is now\navailable for all regions.",
+        "summary": "Gemini Enterprise Agent Platform\nFeature\nMonitor semantic governance policies with built-in metrics (Preview)\nBuilt-in Cloud Monitoring metrics for the semantic governance policy engine\nare available in Preview. You can now observe request throughput, evaluation\ncounts, latencies, verdict distribution (ALLOW versus DENY), and LLM\ntoken consumption for the policy engine directly in\nMetrics Explorer, query them through\nthe Cloud Monitoring v3 API and PromQL, and use them in alerting policies.\nFor more information, see Monitor semantic governance\npolicies.\nGoogle SecOps SOAR\nAnnouncement\nRelease 6.3.97 is now\navailable for all regions.",
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-08-15T07:00:00.000Z",
