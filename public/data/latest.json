@@ -1,6 +1,6 @@
 {
   "date": "2026-08-16",
-  "generatedAt": "2026-08-16T11:36:30.106Z",
+  "generatedAt": "2026-08-16T17:34:00.988Z",
   "totalArticles": 72,
   "ticker": [
     {
@@ -179,6 +179,15 @@
     ],
     "gcp": [
       {
+        "title": "August 16, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#August_16_2026",
+        "summary": "Google SecOps SOAR\nAnnouncement\nRelease 6.3.98 is being rolled out to the first phase of regions as listed\nhere.\nThis release contains internal and customer bug fixes.",
+        "image": null,
+        "source": "Google Cloud Platform (GCP) - Release notes",
+        "published": "2026-08-16T07:00:00.000Z",
+        "isNew": false
+      },
+      {
         "title": "August 15, 2026",
         "link": "https://docs.cloud.google.com/release-notes#August_15_2026",
         "summary": "Gemini Enterprise Agent Platform\nFeature\nMonitor semantic governance policies with built-in metrics (Preview)\nBuilt-in Cloud Monitoring metrics for the semantic governance policy engine\nare available in Preview. You can now observe request throughput, evaluation\ncounts, latencies, verdict distribution (ALLOW versus DENY), and LLM\ntoken consumption for the policy engine directly in\nMetrics Explorer, query them through\nthe Cloud Monitoring v3 API and PromQL, and use them in alerting policies.\nFor more information, see Monitor semantic governance\npolicies.\nGoogle SecOps SOAR\nAnnouncement\nRelease 6.3.97 is now\navailable for all regions.",
@@ -208,7 +217,7 @@
       {
         "title": "August 12, 2026",
         "link": "https://docs.cloud.google.com/release-notes#August_12_2026",
-        "summary": "Apigee API hub\nFeature\nConfigure and deploy MCP servers with gcloud CLI\nYou can use the gcloud apihub locations configure-and-deploy-server command to configure and deploy API hub Model Context Protocol (MCP) servers to an attached Apigee runtime.\nDefine MCP tools inline or by referencing a YAML or JSON specification file to expose your API hub operations for agent integrations.\nFor more information, see gcloud CLI for API hub.\nBigtable\nFeature\nYou can use parameterized views in Bigtable to dynamically filter data ranges\nfor logical views based on application context and mitigate SQL injection risks.\nThis feature is generally available (GA).\nFor more information, see Parameterized views overview.\nFeature\nYou can use the CLUSTER_ATTRIBUTE() filter to restrict continuous materialized\nview processing to specific clusters. This function lets you isolate views\nwithin an instance. This feature is generally available (GA).\nFor more information, see Non-deterministic SQL functions.\nCloud Trace\nFeature\nThe following remote MCP servers automatically generate a trace span for\ntools/call operations. These spans can help you understand the behavior of\nyour agentic applications. For more information, see\nInvestigate MCP calls using Trace.\nCloud Billing\nPersonalized Service Health\nFeature\nGoogle Cloud Observability automatically generates trace exemplars for charts on custom\ndashboards that display the result of a SQL query when the query runs against\nyour trace data and satisfies some…",
+        "summary": "Apigee API hub\nFeature\nConfigure and deploy MCP servers with gcloud CLI\nYou can use the gcloud apihub locations configure-and-deploy-server command to configure and deploy API hub Model Context Protocol (MCP) servers to an attached Apigee runtime.\nDefine MCP tools inline or by referencing a YAML or JSON specification file to expose your API hub operations for agent integrations.\nFor more information, see gcloud CLI for API hub.\nBigQuery\nAnnouncement\nTable Explorer behavior has moved to the Reference panel. Table Explorer\nhas been deprecated. For more information, see \"Use the Reference panel\" in\nRun a query.\nBigtable\nFeature\nYou can use parameterized views in Bigtable to dynamically filter data ranges\nfor logical views based on application context and mitigate SQL injection risks.\nThis feature is generally available (GA).\nFor more information, see Parameterized views overview.\nFeature\nYou can use the CLUSTER_ATTRIBUTE() filter to restrict continuous materialized\nview processing to specific clusters. This function lets you isolate views\nwithin an instance. This feature is generally available (GA).\nFor more information, see Non-deterministic SQL functions.\nCloud Trace\nFeature\nThe following remote MCP servers automatically generate a trace span for\ntools/call operations. These spans can help you understand the behavior of\nyour agentic applications. For more information, see\nInvestigate MCP calls using Trace.\nCloud Billing\nPersonalized Service Health\nFeature\nGoogle Cloud…",
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-08-12T07:00:00.000Z",
@@ -217,7 +226,7 @@
       {
         "title": "August 11, 2026",
         "link": "https://docs.cloud.google.com/release-notes#August_11_2026",
-        "summary": "Apigee hybrid\nAnnouncement\nv1.16.9\nOn August 11, 2026 we released an updated version of the Apigee hybrid software, v1.16.9.\nFor information on upgrading, see Upgrading Apigee hybrid to version v1.16.9.\nFor information on new installations, see The big picture.\nNote: This is a patch release: The container images used in patch releases are integrated with the Apigee hybrid Helm charts. Upgrading to a patch via the Helm chart automatically updates the images. No manual image changes are typically needed. For information on container image support in Apigee hybrid releases, see Apigee release process.\nFixed\nFixed in this release\nBug ID\nDescription\n\n\n\n\n514973778\nFixed an issue where the SanitizeUserPrompt and SanitizeModelResponse policies failed to tolerate unknown fields while parsing responses from the Model Armor Service.\n\n\n543171828\nFixed an issue where the apigee-logger DaemonSet failed to schedule on cluster nodes without custom node labels due to a default logger.nodeSelector in the Helm chart.\n\n\n\nSecurity\nVarious security and CVE fixes are included in this release.\nCloud Run\nFeature\nCloud Run NVIDIA L4 GPU driver version 580.x.x is available for services, jobs, and worker pools.\nCompute Engine\nFeature\nGenerally available: Compute flexible committed use discounts (CUDs) are\navailable for G2 and G4 GPU accelerator-optimized machine series. The supported\nresources include vCPUs, memory, Local SSD disks, and GPUs.\nCompute flexible CUDs are spend-based CUDs that apply to…",
+        "summary": "Apigee hybrid\nAnnouncement\nv1.16.9\nOn August 11, 2026 we released an updated version of the Apigee hybrid software, v1.16.9.\nFor information on upgrading, see Upgrading Apigee hybrid to version v1.16.9.\nFor information on new installations, see The big picture.\nNote: This is a patch release: The container images used in patch releases are integrated with the Apigee hybrid Helm charts. Upgrading to a patch via the Helm chart automatically updates the images. No manual image changes are typically needed. For information on container image support in Apigee hybrid releases, see Apigee release process.\nFixed\nFixed in this release\nBug ID\nDescription\n\n\n\n\n514973778\nFixed an issue where the SanitizeUserPrompt and SanitizeModelResponse policies failed to tolerate unknown fields while parsing responses from the Model Armor Service.\n\n\n543171828\nFixed an issue where the apigee-logger DaemonSet failed to schedule on cluster nodes without custom node labels due to a default logger.nodeSelector in the Helm chart.\n\n\n\nSecurity\nVarious security and CVE fixes are included in this release.\nBigQuery\nFeature\nQuery templates\nfor data clean rooms are\ngenerally available\n(GA). Query templates allow data clean room owners and publishers to share\npredefined queries without exposing the underlying tables and views.\nAdditionally,\ntable parameters\nin table-valued functions (TVFs) are\ngenerally available\n(GA). You can use the ANY TABLE type as a table parameter to create\ngeneric functions that accept…",
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-08-11T07:00:00.000Z",
@@ -226,7 +235,7 @@
       {
         "title": "August 10, 2026",
         "link": "https://docs.cloud.google.com/release-notes#August_10_2026",
-        "summary": "Bigtable\nLibraries\n\n\nGo\n1.52.0 (2026-08-03)\nFeatures\nbigtable: Add AFE picker (Simple / LeastInFlight / LeastLatency) (#20204) (bcbf714)\nbigtable: Add ClientConfig.DisableSession to opt out of session backend (#20297) (7ee5e44)\nbigtable: Add getClientConfigDirectAccessChecker for session pools (#20209) (3b8d30a)\nbigtable: Add NoOpChannelPrimer for session channel pools (#20208) (d055a8a)\nbigtable: Add per-AFE sessionList for the two-tier session pool (#20224) (dbf0c3f)\nbigtable: Add protoRowToRow conversion helper for TableShim (#20257) (1297143)\nbigtable: Add Session debug surface (observability fields + methods) (#20211) (d8d3e16)\nbigtable: Add Session lifecycle (Start, Close, ForceClose, readLoop, heartBeatLoop) (#20215) (b9e53c6)\nbigtable: Add Session struct + state machine (#20117) (09acbb3)\nbigtable: Add session.Config.EnableDebug to gate sessionz debug state (#20247) (ce74c31)\nbigtable: Add SessionClient + SessionTable + lazyPool (#20228) (ab2c96c)\nbigtable: Add SessionPoolImpl (two-tier pool + scaling + debug) (#20225) (683eda8)\nbigtable: Rename session pool display to <resource-id>-<PERM> (#20248) (35e146e)\nbigtable: Route Client.Open()-returned *Table through the Diverter (#20273) (2b81c7d)\nbigtable: State-based classification for abnormal session close (#20243) (f2905b7)\nbigtable: TableShim fallback to classic on session UNIMPLEMENTED (#20269) (36540af)\nbigtable: TTL-on-idle cache for per-resource session.TableAPI (#20263) (00b2a49)\nbigtable: Wire Diverter on…",
+        "summary": "BigQuery\nFeature\nBigQuery now supports the gemini-3.1-flash-lite and gemini-3.5-flash GA\nmodels, which are available for the us, eu, and global multi-regional\nendpoints. You can use these models in all generative AI functions.\nFor information about how to specify a multi-regional endpoint and\nhow endpoints are selected, read about\nlocations\nin the generative AI overview.\nBigtable\nLibraries\n\n\nGo\n1.52.0 (2026-08-03)\nFeatures\nbigtable: Add AFE picker (Simple / LeastInFlight / LeastLatency) (#20204) (bcbf714)\nbigtable: Add ClientConfig.DisableSession to opt out of session backend (#20297) (7ee5e44)\nbigtable: Add getClientConfigDirectAccessChecker for session pools (#20209) (3b8d30a)\nbigtable: Add NoOpChannelPrimer for session channel pools (#20208) (d055a8a)\nbigtable: Add per-AFE sessionList for the two-tier session pool (#20224) (dbf0c3f)\nbigtable: Add protoRowToRow conversion helper for TableShim (#20257) (1297143)\nbigtable: Add Session debug surface (observability fields + methods) (#20211) (d8d3e16)\nbigtable: Add Session lifecycle (Start, Close, ForceClose, readLoop, heartBeatLoop) (#20215) (b9e53c6)\nbigtable: Add Session struct + state machine (#20117) (09acbb3)\nbigtable: Add session.Config.EnableDebug to gate sessionz debug state (#20247) (ce74c31)\nbigtable: Add SessionClient + SessionTable + lazyPool (#20228) (ab2c96c)\nbigtable: Add SessionPoolImpl (two-tier pool + scaling + debug) (#20225) (683eda8)\nbigtable: Rename session pool display to <resource-id>-<PERM> (#20248)…",
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-08-10T07:00:00.000Z",
@@ -239,15 +248,6 @@
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-08-09T07:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "August 08, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#August_08_2026",
-        "summary": "Google SecOps SOAR\nAnnouncement\nRelease 6.3.96 is now\navailable for all regions.",
-        "image": null,
-        "source": "Google Cloud Platform (GCP) - Release notes",
-        "published": "2026-08-08T07:00:00.000Z",
         "isNew": false
       }
     ],
