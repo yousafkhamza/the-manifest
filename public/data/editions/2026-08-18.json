@@ -1,6 +1,6 @@
 {
   "date": "2026-08-18",
-  "generatedAt": "2026-08-18T11:43:20.235Z",
+  "generatedAt": "2026-08-18T17:42:34.309Z",
   "totalArticles": 72,
   "ticker": [
     {
@@ -30,6 +30,15 @@
   ],
   "topics": {
     "aws": [
+      {
+        "title": "In the works: AWS Builder Lofts in Berlin, Hyderabad, and São Paulo",
+        "link": "https://aws.amazon.com/blogs/aws/in-the-works-aws-builder-lofts-in-berlin-hyderabad-and-sao-paulo/",
+        "summary": "Each location will be a permanent community space to offer free workshops, networking events, pitch nights, content creation spaces, collaboration/co-working areas, and event hosting for developers, students, or tech professionals who want to walk through the doors.",
+        "image": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2026/08/15/2026-builder-loft-sf-1-year.jpg",
+        "source": "AWS News Blog",
+        "published": "2026-08-18T13:58:41.000Z",
+        "isNew": false
+      },
       {
         "title": "AWS Weekly Roundup: EC2 application status checks, IAM role manager, OpenAI Daybreak on Bedrock, and more (August 17, 2026)",
         "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-ec2-application-status-checks-iam-role-manager-openai-daybreak-on-bedrock-and-more-august-17-2026/",
@@ -91,15 +100,6 @@
         "image": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2026/07/17/2026-aws-devex-awskrug.jpg",
         "source": "AWS News Blog",
         "published": "2026-07-20T16:37:34.000Z",
-        "isNew": false
-      },
-      {
-        "title": "Amazon SQS turns 20: Two decades of reliable messaging at scale",
-        "link": "https://aws.amazon.com/blogs/aws/amazon-sqs-turns-20-two-decades-of-reliable-messaging-at-scale/",
-        "summary": "On July 13, 2006, we launched Amazon Simple Queue Service (Amazon SQS) as one of the first three services available to customers, alongside Amazon EC2 and Amazon S3. We had learned firsthand that distributed systems need a reliable way to pass messages between components without creating tight dependencies. If one service called another directly and […]",
-        "image": null,
-        "source": "AWS News Blog",
-        "published": "2026-07-13T18:13:57.000Z",
         "isNew": false
       }
     ],
@@ -181,7 +181,7 @@
       {
         "title": "August 17, 2026",
         "link": "https://docs.cloud.google.com/release-notes#August_17_2026",
-        "summary": "Backup and DR\nAnnouncement\nBeginning November 1, 2026, Backup and DR Service will automatically apply a project-level lien to any project containing a backup vault with backups protected by enforced retention. To secure project liens against unauthorized removal and manage lien deletion securely, you can configure multi-party approval using Privileged Access Manager (PAM).\nFor more information, see Protect project liens by using Privileged Access Manager and Protect projects with liens.\nCloud CDN\nFeature\nCloud CDN supports the targeted CDN-Cache-Control HTTP response\nheader RFC 9213. You can use\nthis header to specify caching directives specifically for Cloud CDN edge\ncaches without affecting browser-level caching.\nFor details, see Cache control header precedence.\nCloud Database Migration Service\nAnnouncement\nDatabase Migration Service for MySQL homogeneous migrations now supports MySQL version 9.7.\nFor more information, see\n\nSupported source and destination databases.\nCloud NGFW\nFeature\nSupport for the Advanced malware sandbox (WildFire) service is now restored.\nYou can now use Advanced malware sandbox to perform deep inspection of\nnetwork-routed file transfers and block zero-day malware before it reaches\nyour workloads. Advanced malware sandbox\nis available in the Cloud Next Generation Firewall Enterprise tier.\nFor more information, see\nAdvanced malware sandbox overview and\nConfigure Advanced malware sandbox in your network.\nThis feature is available in Preview.\nCloud…",
+        "summary": "AlloyDB for PostgreSQL\nFeature\nYou can now use the\nModel Context Protocol (MCP) Toolbox for Databases\nto access AlloyDB observability features and advanced query insights directly in\nyour IDE.\nBackup and DR\nAnnouncement\nBeginning November 1, 2026, Backup and DR Service will automatically apply a project-level lien to any project containing a backup vault with backups protected by enforced retention. To secure project liens against unauthorized removal and manage lien deletion securely, you can configure multi-party approval using Privileged Access Manager (PAM).\nFor more information, see Protect project liens by using Privileged Access Manager and Protect projects with liens.\nCloud CDN\nFeature\nCloud CDN supports the targeted CDN-Cache-Control HTTP response\nheader RFC 9213. You can use\nthis header to specify caching directives specifically for Cloud CDN edge\ncaches without affecting browser-level caching.\nFor details, see Cache control header precedence.\nCloud Database Migration Service\nAnnouncement\nDatabase Migration Service for MySQL homogeneous migrations now supports MySQL version 9.7.\nFor more information, see\n\nSupported source and destination databases.\nCloud NGFW\nFeature\nSupport for the Advanced malware sandbox (WildFire) service is now restored.\nYou can now use Advanced malware sandbox to perform deep inspection of\nnetwork-routed file transfers and block zero-day malware before it reaches\nyour workloads. Advanced malware sandbox\nis available in the Cloud Next…",
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-08-17T07:00:00.000Z",
