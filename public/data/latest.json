@@ -1,6 +1,6 @@
 {
-  "date": "2026-08-18",
-  "generatedAt": "2026-08-18T17:42:34.309Z",
+  "date": "2026-08-19",
+  "generatedAt": "2026-08-19T05:46:05.833Z",
   "totalArticles": 72,
   "ticker": [
     {
@@ -105,6 +105,15 @@
     ],
     "azure": [
       {
+        "title": "Microsoft named a Leader in the 2026 Gartner® Magic Quadrant™ for Cloud-Native Application Platforms",
+        "link": "https://azure.microsoft.com/en-us/blog/microsoft-named-a-leader-in-the-2026-gartner-magic-quadrant-for-cloud-native-application-platforms/",
+        "summary": "Cloud-native platforms are becoming the foundation for AI transformation. Discover how Microsoft's Azure application platform helps organizations modernize, innovate, and operate AI-powered applications at scale.\nThe post Microsoft named a Leader in the 2026 Gartner® Magic Quadrant™ for Cloud-Native Application Platforms  appeared first on Microsoft Azure Blog.",
+        "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/08/MQ-Cloud-Native-App-Platform-Blog-Thumbnail-2-1024x1024.webp",
+        "source": "Microsoft Azure Blog",
+        "published": "2026-08-17T15:00:00.000Z",
+        "isNew": true
+      },
+      {
         "title": "The Economics of Agent Optimization: From pilots to measurable returns",
         "link": "https://azure.microsoft.com/en-us/blog/the-economics-of-agent-optimization-from-pilots-to-measurable-returns/",
         "summary": "Learn how AI cost management helps organizations move from AI pilots to measurable ROI through greater visibility, governance, and optimization.\nThe post The Economics of Agent Optimization: From pilots to measurable returns appeared first on Microsoft Azure Blog.",
@@ -166,22 +175,22 @@
         "source": "Microsoft Azure Blog",
         "published": "2026-07-08T16:00:00.000Z",
         "isNew": false
-      },
-      {
-        "title": "External key management for Azure Managed HSM is now in public preview",
-        "link": "https://azure.microsoft.com/en-us/blog/external-key-management-for-azure-managed-hsm-is-now-in-public-preview/",
-        "summary": "Azure Key Vault Managed Hardware Security Module (HSM) provides strong sovereignty over your encryption keys. Keys are generated and stored in a single-tenant, FIPS 140-3 Level 3 HSM that only you control: Microsoft has no access to your key material, and you govern who can use each key.\nThe post External key management for Azure Managed HSM is now in public preview appeared first on Microsoft Azure Blog.",
-        "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/07/Azure-AIPlatform-Light-3-scaled.jpg",
-        "source": "Microsoft Azure Blog",
-        "published": "2026-07-07T16:00:00.000Z",
-        "isNew": false
       }
     ],
     "gcp": [
       {
+        "title": "August 18, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#August_18_2026",
+        "summary": "App Engine standard environment Java\nFeature\nSupport for migrating from the App Engine Images service to\nCloud Run is in\nGeneral Availability (GA).\nApp Engine standard environment Python\nFeature\nSupport for migrating from the App Engine Images service to\nCloud Run is in\nGeneral Availability (GA).\nCloud SDK\nBreaking\n581.0.0 (2026-08-18)\nBreaking Changes\n(Cloud Services) Removed gcloud beta services mcp enable, gcloud beta services mcp disable, and gcloud beta services mcp list as MCP enablement is no longer required and they have been functioning as no-ops.\nAI Platform\nAdded gcloud beta ai semantic-governance-policy-engine deprovision\ncommand to tear down a semantic governance policy engine, including its\ntenant project, GKE cluster, and PSC service attachments.\n\n\nPromoted gcloud ai semantic-governance-policies (create, describe,\nupdate, delete, list) and gcloud ai\nsemantic-governance-policy-engine (describe, update, deprovision)\ncommands from beta to GA.\n\n\nBigQuery\nAdded fields precedence and condition to the commands bq ls\n--reservation_assignment and bq show --reservation_assignment output.\nAdded the new AUTOMATIC_MATERIALIZED_VIEW_REFRESH job type for users to create reservation assignments with.\nCloud Auth\nEnabled Enterprise Certificate Proxy (ECP) HTTP Proxy by default for context-aware mTLS requests.\nCloud Bigtable\nRebuilt cbt cli with newer version of bigtable client for CVE-2026-39883.\nCloud IAM\nUpdated gcloud iam workforce-pools create-cred-config and gcloud iam…",
+        "image": null,
+        "source": "Google Cloud Platform (GCP) - Release notes",
+        "published": "2026-08-18T07:00:00.000Z",
+        "isNew": true
+      },
+      {
         "title": "August 17, 2026",
         "link": "https://docs.cloud.google.com/release-notes#August_17_2026",
-        "summary": "AlloyDB for PostgreSQL\nFeature\nYou can now use the\nModel Context Protocol (MCP) Toolbox for Databases\nto access AlloyDB observability features and advanced query insights directly in\nyour IDE.\nBackup and DR\nAnnouncement\nBeginning November 1, 2026, Backup and DR Service will automatically apply a project-level lien to any project containing a backup vault with backups protected by enforced retention. To secure project liens against unauthorized removal and manage lien deletion securely, you can configure multi-party approval using Privileged Access Manager (PAM).\nFor more information, see Protect project liens by using Privileged Access Manager and Protect projects with liens.\nCloud CDN\nFeature\nCloud CDN supports the targeted CDN-Cache-Control HTTP response\nheader RFC 9213. You can use\nthis header to specify caching directives specifically for Cloud CDN edge\ncaches without affecting browser-level caching.\nFor details, see Cache control header precedence.\nCloud Database Migration Service\nAnnouncement\nDatabase Migration Service for MySQL homogeneous migrations now supports MySQL version 9.7.\nFor more information, see\n\nSupported source and destination databases.\nCloud NGFW\nFeature\nSupport for the Advanced malware sandbox (WildFire) service is now restored.\nYou can now use Advanced malware sandbox to perform deep inspection of\nnetwork-routed file transfers and block zero-day malware before it reaches\nyour workloads. Advanced malware sandbox\nis available in the Cloud Next…",
+        "summary": "AlloyDB for PostgreSQL\nFeature\nYou can now use the\nModel Context Protocol (MCP) Toolbox for Databases\nto access AlloyDB observability features and advanced query insights directly in\nyour IDE.\nAssured Workloads\nFeature\nThe\nData Boundary for Canada Controlled Goods Program (CGP)\ncontrol package is now generally available.\nBackup and DR\nAnnouncement\nBeginning November 1, 2026, Backup and DR Service will automatically apply a project-level lien to any project containing a backup vault with backups protected by enforced retention. To secure project liens against unauthorized removal and manage lien deletion securely, you can configure multi-party approval using Privileged Access Manager (PAM).\nFor more information, see Protect project liens by using Privileged Access Manager and Protect projects with liens.\nCloud CDN\nFeature\nCloud CDN supports the targeted CDN-Cache-Control HTTP response\nheader RFC 9213. You can use\nthis header to specify caching directives specifically for Cloud CDN edge\ncaches without affecting browser-level caching.\nFor details, see Cache control header precedence.\nCloud Database Migration Service\nAnnouncement\nDatabase Migration Service for MySQL homogeneous migrations now supports MySQL version 9.7.\nFor more information, see\n\nSupported source and destination databases.\nCloud NGFW\nFeature\nSupport for the Advanced malware sandbox (WildFire) service is now restored.\nYou can now use Advanced malware sandbox to perform deep inspection of\nnetwork-routed file…",
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-08-17T07:00:00.000Z",
@@ -190,7 +199,7 @@
       {
         "title": "August 16, 2026",
         "link": "https://docs.cloud.google.com/release-notes#August_16_2026",
-        "summary": "Google SecOps SOAR\nAnnouncement\nRelease 6.3.98 is being rolled out to the first phase of regions as listed\nhere.\nThis release contains internal and customer bug fixes.",
+        "summary": "Agent Platform Workbench\nSecurity\nUpdated the bundled Ruby gems rexml and net-imap to patched versions, addressing known vulnerabilities.\nChange\n20260816-2330-rc0 Release\nSecurity\nUpdated aiohttp, joblib and cryptography to patched versions, addressing known vulnerabilities including CVE-2022-21797 and CVE-2025-69223.\nChange\nInstalled latest packages from upstream dependencies.\nChange\nUpdated the CUDA base image from 12.8.1 to 12.9.2 (CUDA 12.9, cuDNN 9.10). This is a minor CUDA 12 update, binary compatible with the previous image, and also addresses known vulnerabilities in a bundled NVIDIA profiler component.\nSecurity\nUpdated the bundled Ruby gems rexml and net-imap to patched versions, addressing known vulnerabilities.\nDeprecated\nRemoved the JupyterLab 3 environment from the Python 3.12 custom container; JupyterLab 4 is now the only JupyterLab environment and is always used. The Python 3.10 images are unaffected.\nChange\n20260816-2330-rc0 Release\nSecurity\nUpdated aiohttp, joblib and cryptography to patched versions, addressing known vulnerabilities including CVE-2022-21797 and CVE-2025-69223.\nChange\nInstalled latest packages from upstream dependencies.\nChange\n20260816-2230-rc0 Release\nChange\nInstalled latest packages from upstream dependencies.\nChange\n20260816-2230-rc0 Release\nChange\nInstalled latest packages from upstream dependencies.\nChange\n20260816-2130-rc0 Release\nChange\nInstalled latest packages from upstream dependencies.\nChange\nInstalled latest packages from…",
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-08-16T07:00:00.000Z",
@@ -199,7 +208,7 @@
       {
         "title": "August 15, 2026",
         "link": "https://docs.cloud.google.com/release-notes#August_15_2026",
-        "summary": "Gemini Enterprise Agent Platform\nFeature\nMonitor semantic governance policies with built-in metrics (Preview)\nBuilt-in Cloud Monitoring metrics for the semantic governance policy engine\nare available in Preview. You can now observe request throughput, evaluation\ncounts, latencies, verdict distribution (ALLOW versus DENY), and LLM\ntoken consumption for the policy engine directly in\nMetrics Explorer, query them through\nthe Cloud Monitoring v3 API and PromQL, and use them in alerting policies.\nFor more information, see Monitor semantic governance\npolicies.\nGoogle SecOps SOAR\nAnnouncement\nRelease 6.3.97 is now\navailable for all regions.",
+        "summary": "Gemini Enterprise Agent Platform\nFeature\nMonitor semantic governance policies with built-in metrics (Preview)\nBuilt-in Cloud Monitoring metrics for the semantic governance policy engine\nare available in Preview. You can now observe request throughput, evaluation\ncounts, latencies, verdict distribution (ALLOW versus DENY), and LLM\ntoken consumption for the policy engine directly in\nMetrics Explorer, query them through\nthe Cloud Monitoring v3 API and PromQL, and use them in alerting policies.\nFor more information, see Monitor semantic governance\npolicies.\nFeature\nAlphaFold 3 is generally available\nAlphaFold 3 is now generally available (GA) and available for approved users for\ncommercial research use.\nAlphaFold 3 Google DeepMind's and Isomorphic Labs' deep learning model to\npredict the 3D structures and interactions of proteins, DNA, RNA, ligands, and\nions. For more information, see\nAlphaFold 3.\nGoogle SecOps SOAR\nAnnouncement\nRelease 6.3.97 is now\navailable for all regions.\nSecure Source Manager\nFeature\nThe Secure Source Manager Model Context Protocol (MCP) server is available in\nPreview. You can use the\nSecure Source Manager MCP server to connect AI tools and coding assistants directly\nto your repositories, branch rules, pull requests, and issues.\nFor more information, see the\n\nSecure Source Manager MCP reference.",
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-08-15T07:00:00.000Z",
@@ -239,15 +248,6 @@
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-08-11T07:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "August 10, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#August_10_2026",
-        "summary": "BigQuery\nFeature\nBigQuery now supports the gemini-3.1-flash-lite and gemini-3.5-flash GA\nmodels, which are available for the us, eu, and global multi-regional\nendpoints. You can use these models in all generative AI functions.\nFor information about how to specify a multi-regional endpoint and\nhow endpoints are selected, read about\nlocations\nin the generative AI overview.\nBigtable\nLibraries\n\n\nGo\n1.52.0 (2026-08-03)\nFeatures\nbigtable: Add AFE picker (Simple / LeastInFlight / LeastLatency) (#20204) (bcbf714)\nbigtable: Add ClientConfig.DisableSession to opt out of session backend (#20297) (7ee5e44)\nbigtable: Add getClientConfigDirectAccessChecker for session pools (#20209) (3b8d30a)\nbigtable: Add NoOpChannelPrimer for session channel pools (#20208) (d055a8a)\nbigtable: Add per-AFE sessionList for the two-tier session pool (#20224) (dbf0c3f)\nbigtable: Add protoRowToRow conversion helper for TableShim (#20257) (1297143)\nbigtable: Add Session debug surface (observability fields + methods) (#20211) (d8d3e16)\nbigtable: Add Session lifecycle (Start, Close, ForceClose, readLoop, heartBeatLoop) (#20215) (b9e53c6)\nbigtable: Add Session struct + state machine (#20117) (09acbb3)\nbigtable: Add session.Config.EnableDebug to gate sessionz debug state (#20247) (ce74c31)\nbigtable: Add SessionClient + SessionTable + lazyPool (#20228) (ab2c96c)\nbigtable: Add SessionPoolImpl (two-tier pool + scaling + debug) (#20225) (683eda8)\nbigtable: Rename session pool display to <resource-id>-<PERM> (#20248)…",
-        "image": null,
-        "source": "Google Cloud Platform (GCP) - Release notes",
-        "published": "2026-08-10T07:00:00.000Z",
         "isNew": false
       }
     ],

@@ -1,6 +1,6 @@
 {
-  "date": "2026-08-12",
-  "generatedAt": "2026-08-12T18:06:44.383Z",
+  "date": "2026-08-19",
+  "generatedAt": "2026-08-19T05:46:05.833Z",
   "totalArticles": 72,
   "ticker": [
     {
@@ -17,7 +17,7 @@
     },
     {
       "label": "Go",
-      "version": "go1.26.5"
+      "version": "go1.26.6"
     },
     {
       "label": "Rust",
@@ -30,6 +30,24 @@
   ],
   "topics": {
     "aws": [
+      {
+        "title": "In the works: AWS Builder Lofts in Berlin, Hyderabad, and São Paulo",
+        "link": "https://aws.amazon.com/blogs/aws/in-the-works-aws-builder-lofts-in-berlin-hyderabad-and-sao-paulo/",
+        "summary": "Each location will be a permanent community space to offer free workshops, networking events, pitch nights, content creation spaces, collaboration/co-working areas, and event hosting for developers, students, or tech professionals who want to walk through the doors.",
+        "image": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2026/08/15/2026-builder-loft-sf-1-year.jpg",
+        "source": "AWS News Blog",
+        "published": "2026-08-18T13:58:41.000Z",
+        "isNew": false
+      },
+      {
+        "title": "AWS Weekly Roundup: EC2 application status checks, IAM role manager, OpenAI Daybreak on Bedrock, and more (August 17, 2026)",
+        "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-ec2-application-status-checks-iam-role-manager-openai-daybreak-on-bedrock-and-more-august-17-2026/",
+        "summary": "Last week, AWS contributors joined the OpenSearch and Valkey communities at Open Source Summit Korea 2026 and MCP DevSummit Seoul 2026 to meet open source developers and contributors. At the four-day event, community leaders and users of these Linux Foundation open source projects gathered to share knowledge, collaborate on solutions, and push the projects forward. […]",
+        "image": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2026/08/15/2026-osss-korea-opensearch-valkey.jpg",
+        "source": "AWS News Blog",
+        "published": "2026-08-17T16:02:36.000Z",
+        "isNew": false
+      },
       {
         "title": "AWS Weekly Roundup: AWS Heroes Summit, Web Search on Amazon Bedrock, Dogwood, Kiro Crew, and more (August 10, 2026)",
         "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-aws-heroes-summit-web-search-on-amazon-bedrock-dogwood-kiro-crew-and-more-august-10-2026/",
@@ -83,27 +101,36 @@
         "source": "AWS News Blog",
         "published": "2026-07-20T16:37:34.000Z",
         "isNew": false
-      },
-      {
-        "title": "Amazon SQS turns 20: Two decades of reliable messaging at scale",
-        "link": "https://aws.amazon.com/blogs/aws/amazon-sqs-turns-20-two-decades-of-reliable-messaging-at-scale/",
-        "summary": "On July 13, 2006, we launched Amazon Simple Queue Service (Amazon SQS) as one of the first three services available to customers, alongside Amazon EC2 and Amazon S3. We had learned firsthand that distributed systems need a reliable way to pass messages between components without creating tight dependencies. If one service called another directly and […]",
-        "image": null,
-        "source": "AWS News Blog",
-        "published": "2026-07-13T18:13:57.000Z",
-        "isNew": false
-      },
-      {
-        "title": "AWS Weekly Roundup: AWS Builder Center at 1 year, Network Scanning in Security Hub, Loom for AWS, and more (July 13, 2026)",
-        "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-aws-builder-center-at-one-year-network-scanning-in-security-hub-loom-for-aws-and-more-july-13-2026/",
-        "summary": "AWS Builder Center turned one year old last week. Launched on July 9, 2025, the platform has grown from a community hub with Wishlist voting, community profiles, and a toolbox into a full ecosystem with sandbox environments, workshops, Spaces, and a Builders’ Library. To mark the anniversary, Rick Suttles published a full feature timeline covering […]",
-        "image": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2026/07/13/1215504668303320.png",
-        "source": "AWS News Blog",
-        "published": "2026-07-13T16:18:20.000Z",
-        "isNew": false
       }
     ],
     "azure": [
+      {
+        "title": "Microsoft named a Leader in the 2026 Gartner® Magic Quadrant™ for Cloud-Native Application Platforms",
+        "link": "https://azure.microsoft.com/en-us/blog/microsoft-named-a-leader-in-the-2026-gartner-magic-quadrant-for-cloud-native-application-platforms/",
+        "summary": "Cloud-native platforms are becoming the foundation for AI transformation. Discover how Microsoft's Azure application platform helps organizations modernize, innovate, and operate AI-powered applications at scale.\nThe post Microsoft named a Leader in the 2026 Gartner® Magic Quadrant™ for Cloud-Native Application Platforms  appeared first on Microsoft Azure Blog.",
+        "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/08/MQ-Cloud-Native-App-Platform-Blog-Thumbnail-2-1024x1024.webp",
+        "source": "Microsoft Azure Blog",
+        "published": "2026-08-17T15:00:00.000Z",
+        "isNew": true
+      },
+      {
+        "title": "The Economics of Agent Optimization: From pilots to measurable returns",
+        "link": "https://azure.microsoft.com/en-us/blog/the-economics-of-agent-optimization-from-pilots-to-measurable-returns/",
+        "summary": "Learn how AI cost management helps organizations move from AI pilots to measurable ROI through greater visibility, governance, and optimization.\nThe post The Economics of Agent Optimization: From pilots to measurable returns appeared first on Microsoft Azure Blog.",
+        "image": null,
+        "source": "Microsoft Azure Blog",
+        "published": "2026-08-12T16:00:00.000Z",
+        "isNew": false
+      },
+      {
+        "title": "Microsoft named a Leader in the 2026 Gartner® Magic Quadrant™ for AI-Augmented Code Modernization Tools",
+        "link": "https://azure.microsoft.com/en-us/blog/microsoft-named-a-leader-in-the-2026-gartner-magic-quadrant-for-ai-augmented-code-modernization-tools/",
+        "summary": "GitHub Copilot and Azure are helping organizations modernize legacy applications, reduce technical debt, and prepare for AI innovation.\nThe post Microsoft named a Leader in the 2026 Gartner® Magic Quadrant™ for AI-Augmented Code Modernization Tools appeared first on Microsoft Azure Blog.",
+        "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/08/MQ-AppMod-Blog-Thumbnail-1-1-1024x576.webp",
+        "source": "Microsoft Azure Blog",
+        "published": "2026-08-06T15:00:00.000Z",
+        "isNew": false
+      },
       {
         "title": "What customers value most in Microsoft Databases—from reliability to AI readiness",
         "link": "https://azure.microsoft.com/en-us/blog/what-customers-value-most-in-microsoft-databases-from-reliability-to-ai-readiness/",
@@ -148,40 +175,67 @@
         "source": "Microsoft Azure Blog",
         "published": "2026-07-08T16:00:00.000Z",
         "isNew": false
-      },
-      {
-        "title": "External key management for Azure Managed HSM is now in public preview",
-        "link": "https://azure.microsoft.com/en-us/blog/external-key-management-for-azure-managed-hsm-is-now-in-public-preview/",
-        "summary": "Azure Key Vault Managed Hardware Security Module (HSM) provides strong sovereignty over your encryption keys. Keys are generated and stored in a single-tenant, FIPS 140-3 Level 3 HSM that only you control: Microsoft has no access to your key material, and you govern who can use each key.\nThe post External key management for Azure Managed HSM is now in public preview appeared first on Microsoft Azure Blog.",
-        "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/07/Azure-AIPlatform-Light-3-scaled.jpg",
-        "source": "Microsoft Azure Blog",
-        "published": "2026-07-07T16:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "Meet Brain: The AI system behind Azure reliability",
-        "link": "https://azure.microsoft.com/en-us/blog/meet-brain-the-ai-system-behind-azure-reliability/",
-        "summary": "Learn how Microsoft is building a digital twin of Azure Service Health and why it changes how hyperscale operates.\nThe post Meet Brain: The AI system behind Azure reliability appeared first on Microsoft Azure Blog.",
-        "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/07/Brain-at-a-glance-2.jpeg",
-        "source": "Microsoft Azure Blog",
-        "published": "2026-07-02T16:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "Proving application resilience on Azure with Chaos Studio",
-        "link": "https://azure.microsoft.com/en-us/blog/proving-application-resilience-on-azure-with-chaos-studio/",
-        "summary": "Azure Chaos Studio helps organizations validate application resilience by simulating outages, failovers, network disruptions, and infrastructure failures before they impact production.\nThe post Proving application resilience on Azure with Chaos Studio appeared first on Microsoft Azure Blog.",
-        "image": "https://opensource.microsoft.com/blog/wp-content/uploads/2026/06/word-image-98613-1.png",
-        "source": "Microsoft Azure Blog",
-        "published": "2026-07-01T16:00:00.000Z",
-        "isNew": false
       }
     ],
     "gcp": [
       {
+        "title": "August 18, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#August_18_2026",
+        "summary": "App Engine standard environment Java\nFeature\nSupport for migrating from the App Engine Images service to\nCloud Run is in\nGeneral Availability (GA).\nApp Engine standard environment Python\nFeature\nSupport for migrating from the App Engine Images service to\nCloud Run is in\nGeneral Availability (GA).\nCloud SDK\nBreaking\n581.0.0 (2026-08-18)\nBreaking Changes\n(Cloud Services) Removed gcloud beta services mcp enable, gcloud beta services mcp disable, and gcloud beta services mcp list as MCP enablement is no longer required and they have been functioning as no-ops.\nAI Platform\nAdded gcloud beta ai semantic-governance-policy-engine deprovision\ncommand to tear down a semantic governance policy engine, including its\ntenant project, GKE cluster, and PSC service attachments.\n\n\nPromoted gcloud ai semantic-governance-policies (create, describe,\nupdate, delete, list) and gcloud ai\nsemantic-governance-policy-engine (describe, update, deprovision)\ncommands from beta to GA.\n\n\nBigQuery\nAdded fields precedence and condition to the commands bq ls\n--reservation_assignment and bq show --reservation_assignment output.\nAdded the new AUTOMATIC_MATERIALIZED_VIEW_REFRESH job type for users to create reservation assignments with.\nCloud Auth\nEnabled Enterprise Certificate Proxy (ECP) HTTP Proxy by default for context-aware mTLS requests.\nCloud Bigtable\nRebuilt cbt cli with newer version of bigtable client for CVE-2026-39883.\nCloud IAM\nUpdated gcloud iam workforce-pools create-cred-config and gcloud iam…",
+        "image": null,
+        "source": "Google Cloud Platform (GCP) - Release notes",
+        "published": "2026-08-18T07:00:00.000Z",
+        "isNew": true
+      },
+      {
+        "title": "August 17, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#August_17_2026",
+        "summary": "AlloyDB for PostgreSQL\nFeature\nYou can now use the\nModel Context Protocol (MCP) Toolbox for Databases\nto access AlloyDB observability features and advanced query insights directly in\nyour IDE.\nAssured Workloads\nFeature\nThe\nData Boundary for Canada Controlled Goods Program (CGP)\ncontrol package is now generally available.\nBackup and DR\nAnnouncement\nBeginning November 1, 2026, Backup and DR Service will automatically apply a project-level lien to any project containing a backup vault with backups protected by enforced retention. To secure project liens against unauthorized removal and manage lien deletion securely, you can configure multi-party approval using Privileged Access Manager (PAM).\nFor more information, see Protect project liens by using Privileged Access Manager and Protect projects with liens.\nCloud CDN\nFeature\nCloud CDN supports the targeted CDN-Cache-Control HTTP response\nheader RFC 9213. You can use\nthis header to specify caching directives specifically for Cloud CDN edge\ncaches without affecting browser-level caching.\nFor details, see Cache control header precedence.\nCloud Database Migration Service\nAnnouncement\nDatabase Migration Service for MySQL homogeneous migrations now supports MySQL version 9.7.\nFor more information, see\n\nSupported source and destination databases.\nCloud NGFW\nFeature\nSupport for the Advanced malware sandbox (WildFire) service is now restored.\nYou can now use Advanced malware sandbox to perform deep inspection of\nnetwork-routed file…",
+        "image": null,
+        "source": "Google Cloud Platform (GCP) - Release notes",
+        "published": "2026-08-17T07:00:00.000Z",
+        "isNew": false
+      },
+      {
+        "title": "August 16, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#August_16_2026",
+        "summary": "Agent Platform Workbench\nSecurity\nUpdated the bundled Ruby gems rexml and net-imap to patched versions, addressing known vulnerabilities.\nChange\n20260816-2330-rc0 Release\nSecurity\nUpdated aiohttp, joblib and cryptography to patched versions, addressing known vulnerabilities including CVE-2022-21797 and CVE-2025-69223.\nChange\nInstalled latest packages from upstream dependencies.\nChange\nUpdated the CUDA base image from 12.8.1 to 12.9.2 (CUDA 12.9, cuDNN 9.10). This is a minor CUDA 12 update, binary compatible with the previous image, and also addresses known vulnerabilities in a bundled NVIDIA profiler component.\nSecurity\nUpdated the bundled Ruby gems rexml and net-imap to patched versions, addressing known vulnerabilities.\nDeprecated\nRemoved the JupyterLab 3 environment from the Python 3.12 custom container; JupyterLab 4 is now the only JupyterLab environment and is always used. The Python 3.10 images are unaffected.\nChange\n20260816-2330-rc0 Release\nSecurity\nUpdated aiohttp, joblib and cryptography to patched versions, addressing known vulnerabilities including CVE-2022-21797 and CVE-2025-69223.\nChange\nInstalled latest packages from upstream dependencies.\nChange\n20260816-2230-rc0 Release\nChange\nInstalled latest packages from upstream dependencies.\nChange\n20260816-2230-rc0 Release\nChange\nInstalled latest packages from upstream dependencies.\nChange\n20260816-2130-rc0 Release\nChange\nInstalled latest packages from upstream dependencies.\nChange\nInstalled latest packages from…",
+        "image": null,
+        "source": "Google Cloud Platform (GCP) - Release notes",
+        "published": "2026-08-16T07:00:00.000Z",
+        "isNew": false
+      },
+      {
+        "title": "August 15, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#August_15_2026",
+        "summary": "Gemini Enterprise Agent Platform\nFeature\nMonitor semantic governance policies with built-in metrics (Preview)\nBuilt-in Cloud Monitoring metrics for the semantic governance policy engine\nare available in Preview. You can now observe request throughput, evaluation\ncounts, latencies, verdict distribution (ALLOW versus DENY), and LLM\ntoken consumption for the policy engine directly in\nMetrics Explorer, query them through\nthe Cloud Monitoring v3 API and PromQL, and use them in alerting policies.\nFor more information, see Monitor semantic governance\npolicies.\nFeature\nAlphaFold 3 is generally available\nAlphaFold 3 is now generally available (GA) and available for approved users for\ncommercial research use.\nAlphaFold 3 Google DeepMind's and Isomorphic Labs' deep learning model to\npredict the 3D structures and interactions of proteins, DNA, RNA, ligands, and\nions. For more information, see\nAlphaFold 3.\nGoogle SecOps SOAR\nAnnouncement\nRelease 6.3.97 is now\navailable for all regions.\nSecure Source Manager\nFeature\nThe Secure Source Manager Model Context Protocol (MCP) server is available in\nPreview. You can use the\nSecure Source Manager MCP server to connect AI tools and coding assistants directly\nto your repositories, branch rules, pull requests, and issues.\nFor more information, see the\n\nSecure Source Manager MCP reference.",
+        "image": null,
+        "source": "Google Cloud Platform (GCP) - Release notes",
+        "published": "2026-08-15T07:00:00.000Z",
+        "isNew": false
+      },
+      {
+        "title": "August 14, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#August_14_2026",
+        "summary": "App Engine flexible environment .NET\nFeature\nTo improve security, starting in August 2026, App Engine opts your application into TLS version 1.2 and later. You can opt out until the end of August 2026. Starting in September 2026, App Engine might permanently block insecure traffic with TLS version 1.1 and earlier. For more information, see Secure minimum TLS.\nApp Engine flexible environment Go\nFeature\nTo improve security, starting in August 2026, App Engine opts your application into TLS version 1.2 and later. You can opt out until the end of August 2026. Starting in September 2026, App Engine might permanently block insecure traffic with TLS version 1.1 and earlier. For more information, see Secure minimum TLS.\nApp Engine flexible environment Java\nFeature\nTo improve security, starting in August 2026, App Engine opts your application into TLS version 1.2 and later. You can opt out until the end of August 2026. Starting in September 2026, App Engine might permanently block insecure traffic with TLS version 1.1 and earlier. For more information, see Secure minimum TLS.\nApp Engine flexible environment Node.js\nFeature\nTo improve security, starting in August 2026, App Engine opts your application into TLS version 1.2 and later. You can opt out until the end of August 2026. Starting in September 2026, App Engine might permanently block insecure traffic with TLS version 1.1 and earlier. For more information, see Secure minimum TLS.\nApp Engine flexible environment PHP\nFeature\nTo…",
+        "image": null,
+        "source": "Google Cloud Platform (GCP) - Release notes",
+        "published": "2026-08-14T07:00:00.000Z",
+        "isNew": false
+      },
+      {
+        "title": "August 13, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#August_13_2026",
+        "summary": "Apigee X\nAnnouncement\nOn August 13th, 2026, we began maintenance updates of Apigee instances configured for maintenance windows.\nIf you set a preferred window for maintenance for your instance, and your instance version is\nbelow 1-18-0-apigee-2, your instance will be updated to 1-18-0-apigee-2 within the\nnext seven to 21 days. A notification containing the expected date of upgrade will be sent within the next two business days.\nNote: Instances that meet either of the following two criteria will not be updated:\n\nYour instance has a DNS misconfiguration, as described in Known Issue 445936920.\nYour instance uses an Apigee Java Library that has been removed, as described in Apigee release notes dated October 16, 2025.\n\nFor more information on participating in scheduled maintenance windows, see Maintenance overview and Manage Apigee instance maintenance windows.\nAnnouncement\nOn August 13th, 2026, we released an updated version of Apigee (1-18-0-apigee-3).\nNote: Rollouts of this release began today and may take four or more business days to be completed across all Google Cloud zones. Your instances may not have the features and fixes available until the rollout is complete.\nFixed\nBug ID\nDescription\n\n\n\n\n532147587\nTo fix forward proxy support.\n\n\n537657987\nFixed a bug where watcher failed to reconcile all routes if an environment was not found in the control plane.\n\n\n543022076\nGoogle Cloud BOM upgrade (protobuf 4.x, gRPC 1.81, Guava 33.5). One user-visible change: a malformed inbound…",
+        "image": null,
+        "source": "Google Cloud Platform (GCP) - Release notes",
+        "published": "2026-08-13T07:00:00.000Z",
+        "isNew": false
+      },
+      {
         "title": "August 12, 2026",
         "link": "https://docs.cloud.google.com/release-notes#August_12_2026",
-        "summary": "Apigee API hub\nFeature\nConfigure and deploy MCP servers with gcloud CLI\nYou can use the gcloud apihub locations configure-and-deploy-server command to configure and deploy API hub Model Context Protocol (MCP) servers to an attached Apigee runtime.\nDefine MCP tools inline or by referencing a YAML or JSON specification file to expose your API hub operations for agent integrations.\nFor more information, see gcloud CLI for API hub.\nBigtable\nFeature\nYou can use the CLUSTER_ATTRIBUTE() filter to restrict continuous materialized\nview processing to specific clusters. This function lets you isolate views\nwithin an instance. This feature is generally available (GA).\nFor more information, see Non-deterministic SQL functions.\nCloud Trace\nFeature\nThe following remote MCP servers automatically generate a trace span for\ntools/call operations. These spans can help you understand the behavior of\nyour agentic applications. For more information, see\nInvestigate MCP calls using Trace.\nCloud Billing\nPersonalized Service Health\nFeature\nGoogle Cloud Observability automatically generates trace exemplars for charts on custom\ndashboards that display the result of a SQL query when the query runs against\nyour trace data and satisfies some constraints. The exemplars link the\nSQL query result to specific traces. This feature is in\nPreview.\nFor more information, see\nGenerate and display trace exemplars.",
+        "summary": "Apigee API hub\nFeature\nConfigure and deploy MCP servers with gcloud CLI\nYou can use the gcloud apihub locations configure-and-deploy-server command to configure and deploy API hub Model Context Protocol (MCP) servers to an attached Apigee runtime.\nDefine MCP tools inline or by referencing a YAML or JSON specification file to expose your API hub operations for agent integrations.\nFor more information, see gcloud CLI for API hub.\nBigQuery\nAnnouncement\nTable Explorer behavior has moved to the Reference panel. Table Explorer\nhas been deprecated. For more information, see \"Use the Reference panel\" in\nRun a query.\nBigtable\nFeature\nYou can use parameterized views in Bigtable to dynamically filter data ranges\nfor logical views based on application context and mitigate SQL injection risks.\nThis feature is generally available (GA).\nFor more information, see Parameterized views overview.\nFeature\nYou can use the CLUSTER_ATTRIBUTE() filter to restrict continuous materialized\nview processing to specific clusters. This function lets you isolate views\nwithin an instance. This feature is generally available (GA).\nFor more information, see Non-deterministic SQL functions.\nCloud Trace\nFeature\nThe following remote MCP servers automatically generate a trace span for\ntools/call operations. These spans can help you understand the behavior of\nyour agentic applications. For more information, see\nInvestigate MCP calls using Trace.\nCloud Billing\nPersonalized Service Health\nFeature\nGoogle Cloud…",
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-08-12T07:00:00.000Z",
@@ -194,60 +248,6 @@
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-08-11T07:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "August 10, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#August_10_2026",
-        "summary": "BigQuery\nFeature\nBigQuery now supports the gemini-3.1-flash-lite and gemini-3.5-flash GA\nmodels, which are available for the us, eu, and global multi-regional\nendpoints. You can use these models in all generative AI functions.\nFor information about how to specify a multi-regional endpoint and\nhow endpoints are selected, read about\nlocations\nin the generative AI overview.\nBigtable\nLibraries\n\n\nGo\n1.52.0 (2026-08-03)\nFeatures\nbigtable: Add AFE picker (Simple / LeastInFlight / LeastLatency) (#20204) (bcbf714)\nbigtable: Add ClientConfig.DisableSession to opt out of session backend (#20297) (7ee5e44)\nbigtable: Add getClientConfigDirectAccessChecker for session pools (#20209) (3b8d30a)\nbigtable: Add NoOpChannelPrimer for session channel pools (#20208) (d055a8a)\nbigtable: Add per-AFE sessionList for the two-tier session pool (#20224) (dbf0c3f)\nbigtable: Add protoRowToRow conversion helper for TableShim (#20257) (1297143)\nbigtable: Add Session debug surface (observability fields + methods) (#20211) (d8d3e16)\nbigtable: Add Session lifecycle (Start, Close, ForceClose, readLoop, heartBeatLoop) (#20215) (b9e53c6)\nbigtable: Add Session struct + state machine (#20117) (09acbb3)\nbigtable: Add session.Config.EnableDebug to gate sessionz debug state (#20247) (ce74c31)\nbigtable: Add SessionClient + SessionTable + lazyPool (#20228) (ab2c96c)\nbigtable: Add SessionPoolImpl (two-tier pool + scaling + debug) (#20225) (683eda8)\nbigtable: Rename session pool display to <resource-id>-<PERM> (#20248)…",
-        "image": null,
-        "source": "Google Cloud Platform (GCP) - Release notes",
-        "published": "2026-08-10T07:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "August 09, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#August_09_2026",
-        "summary": "Google SecOps\nFeature\n[Spotlight Feature] Analyze feed activity with Cloud Logging\nThis feature is in public preview. You can now monitor, debug, and troubleshoot Google SecOps ingestion pipelines and feeds using Cloud Logging. By sending, viewing, and querying ingestion and feed activity logs in Logs Explorer, you can diagnose log delivery issues, such as, missing, delayed, or failing logs, and decrease the time required to resolve ingestion anomalies.\nThis visibility into push- and pull-based ingestion mechanisms lets you use Gemini Cloud Assist to investigate logging and metrics telemetry directly from the Google SecOps console. Additionally, you can use the Debug with logs option on the Feed management page to open Logs Explorer pre-filtered for a specific feed.\nFor more information, see Analyze feed activity with Cloud Logging.\nFeature\nUpdated rich-text editor\nUpgraded the rich-text editor across Google SecOps, including the Cases Wall, \nUse Case Upload dialog, Report Template dialog, and Dashboard Editor widget.\nKey changes include:\nSimplified typography: Choose font sizes using semantic options (Small, \nNormal, Large, Huge). Legacy font sizes on existing text are preserved.\nStreamlined tables: You can insert or remove entire tables. Formatting \ninside table cells is no longer supported.\nToolbar cleanup: Removed the Cut, Copy, and Paste buttons from the toolbar. \nStandard OS keyboard shortcuts remain supported.\nVisual alignment: Improved visual consistency between…",
-        "image": null,
-        "source": "Google Cloud Platform (GCP) - Release notes",
-        "published": "2026-08-09T07:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "August 08, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#August_08_2026",
-        "summary": "Google SecOps SOAR\nAnnouncement\nRelease 6.3.96 is now\navailable for all regions.",
-        "image": null,
-        "source": "Google Cloud Platform (GCP) - Release notes",
-        "published": "2026-08-08T07:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "August 07, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#August_07_2026",
-        "summary": "AlloyDB for PostgreSQL\nFeature\nYou can now sync tables from BigQuery into your AlloyDB instance, either as a\none-time operation or on a periodic schedule. This feature (in Preview)\nlets you enable operational analytics that benefit from low-latency,\ntransactional access to your data lake.\nFor more information, see Sync BigQuery data to AlloyDB.\nFeature\nAlloyDB integration with BigQuery lets you connect your operational and\nanalytical data through real-time data access (lakehouse federation), periodic\ndata synchronization, and one-time table syncs. These features are in Preview.\nFor more information, see Choose how to access BigQuery data from AlloyDB.\nCloud Billing\nFeature\nNew filter and group-by option available in Cloud Billing Reports\nIn Billing Reports, Cloud Billing has added the\nOriginating products\nfilter and\nGroup by\nto provide additional options that let you analyze and understand your costs.\nOriginating products are Google Cloud products that cause usage in\nanother product. For example, Gemini Enterprise is an\noriginating product when it causes usage in the Gemini Enterprise\napp.\nTo help you track and analyze your AI spend, the Originating products\ndimension is used in the following ways:\nYou can use the Originating products filter and group by option to\nconfigure your Cloud Billing report to track and analyze your\nGemini Enterprise subscription and consumption costs.\n\n\nThe Originating products dimension supports a new\npreset report\nfor quick report configuration,…",
-        "image": null,
-        "source": "Google Cloud Platform (GCP) - Release notes",
-        "published": "2026-08-07T07:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "August 06, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#August_06_2026",
-        "summary": "Cloud Key Management Service\nFeature\nPreview: Cloud KMS supports quantum-safe key import. You can use the\nfollowing quantum-safe import methods:\nHPKE_KEM_XWING_HKDF_SHA256_AES_256_GCM\nHPKE_KEM_ML_KEM_768_HKDF_SHA256_AES_256_GCM\nHPKE_KEM_ML_KEM_1024_HKDF_SHA256_AES_256_GCM\nFor more information about quantum-safe key import, see Quantum-safe key\nimport.\nGemini Enterprise\nChange\nGemini Enterprise: Description field removed from Custom MCP server data store\nGemini Enterprise automatically calls your server's tools/list\nendpoint to discover and understand tools, parameter schemas, and\ncapabilities directly. Because Gemini Enterprise routes requests using\nexplicit tool definitions and parameter schemas, you don't need to\nwrite descriptions. This change simplifies data store\nsetup and improves routing accuracy. Existing custom MCP data stores do not\nrequire any updates.\nFor more information, see\nSet up a custom MCP server.\nAnnouncement\nGemini Enterprise: Postponed removal of Gemini 3.5 Flash in the Global\nregion\nWe have postponed the removal of Gemini 3.5 Flash from the global region\nin the Gemini Enterprise app. A revised removal schedule will be provided\nwhen available.\nNote: This is a correction to the July 21, 2026 release\nnote.\nGoogle Cloud Contact Center as a Service\nAnnouncement\nAdvanced reporting dashboards 5.1\nWe've released version 5.1 of the advanced reporting dashboards.\nFeature\nSub teams are included when top-level teams are selected in the Team filter\nWhen you select…",
-        "image": null,
-        "source": "Google Cloud Platform (GCP) - Release notes",
-        "published": "2026-08-06T07:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "August 05, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#August_05_2026",
-        "summary": "Cloud Database Migration Service\nFeature\nYou can now manage your Database Migration Service migration jobs directly from the\ndestination Cloud SQL instance or AlloyDB for PostgreSQL cluster pages in\nthe Google Cloud console. For more information, see:\nManage homogeneous migration jobs:\n\n\nSQL Server to Cloud SQL for SQL Server\n\nMySQL to Cloud SQL for MySQL\n\nPostgreSQL to Cloud SQL for PostgreSQL\n\nPostgreSQL to AlloyDB for PostgreSQL\n\nManage heterogeneous migration jobs:\n\n\nOracle to Cloud SQL for PostgreSQL\n\nOracle to AlloyDB for PostgreSQL\n\nSQL Server to AlloyDB for PostgreSQL\n\nSQL Server to Cloud SQL for PostgreSQL\n\n\nCloud Monitoring\nAnnouncement\nThe Telemetry API for metric ingestion is\ngenerally available (GA).\nYou can ingest OTLP metrics into Cloud Monitoring by using an\nOpenTelemetry Collector, an OTLP exporter, and the Telemetry API. For more\ninformation, see\nOTLP metric ingestion overview.\nCloud Run\nFeature\nCloud Run supports sandboxes for all resources, including jobs and worker pools (Preview).\nCloud SQL for MySQL\nFeature\nPerformance capture for Cloud SQL for MySQL is now generally available\n(GA).\nPerformance capture lets you take a point-in-time snapshot of your database and\noperating system metrics automatically and route them to Cloud Logging for\nroot-cause analysis.\nWith the GA release, you can configure custom thresholds that\nend long-running transactions automatically\nbefore they slow down your database. In addition,\nthe GA release includes six additional…",
-        "image": null,
-        "source": "Google Cloud Platform (GCP) - Release notes",
-        "published": "2026-08-05T07:00:00.000Z",
         "isNew": false
       }
     ],
@@ -401,6 +401,42 @@
     ],
     "python": [
       {
+        "title": "Announcing the Packaging Council Election Candidates for 2026!",
+        "link": "https://pyfound.blogspot.com/2026/08/announcing-packaging-council-election.html",
+        "summary": "What an exciting list! Please take a look at who is running for the inaugural Python Packaging Council (PPC) on the Nominees page. This election has 17 nominees for 5 open seats on the council.\nElection Overview\n\nThis inaugural election fills all five seats on the PPC. The two \ncandidates receiving the highest number of votes shall be designated \nCohort A with a two year term, and the three candidates receiving the \nnext highest number of votes shall be designated Cohort B with a one \nyear term.\nIn future elections, each cohort will be elected for a full two-year \nterm in alternating years, so that roughly half of the PPC turns over \neach cycle.\nElection Timeline\n\nNominations open: Tuesday, July 28th, 2:00 pm UTC\nNomination cut-off: Tuesday, August 11th, 2:00 pm UTC\nAnnounce candidates: Thursday, August 13th\nVoter affirmation cut-off: Tuesday, August 25th, 2:00 pm UTC\nVoting start date: Tuesday, September 1st, 2:00 pm UTC\nVoting end date: Tuesday, September 15th, 2:00 pm UTC\n\nNot sure what UTC is for you locally? Check this UTC time converter!\nReminder: Affirm your intention to vote\n\nIf you wish to vote in this election, you must affirm your \nintention to vote no later than Tuesday, August 25th, 2:00 pm UTC, to \nparticipate in this election.\nEvery PSF Voting Member (Supporting, Contributing, and Fellow) needs \nto affirm their membership to vote in this election. Find more \ninformation, including step-by-step instructions on voting affirmation, \nin our \"Affirm Your PSF…",
+        "image": null,
+        "source": "Python Software Foundation News",
+        "published": "2026-08-13T14:13:35.676Z",
+        "isNew": false
+      },
+      {
+        "title": "Announcing the PSF Board Candidates for 2026!",
+        "link": "https://pyfound.blogspot.com/2026/08/announcing-psf-board-candidates-for-2026.html",
+        "summary": "What an exciting list! Please take a look at the 18 candidates running for the PSF Board this year on the Nominees page. This year there are 4 seats open on the PSF Board. You can see who is currently on the board on the PSF Officers & Directors page. (Cheuk Ting Ho, Christopher Neugebauer, Denny Perez, and Georgi Ker are at the end of their current terms.)\nNomination and supporting statements are the clearest way to see how each candidate actually thinks: their priorities, experience, and vision for the PSF. Rather than just voting on name recognition, we encourage you to read each candidate's nomination and supporting statements. PSF Board members shape real decisions about budget, programs, and the direction of the PSF. Reading these statements helps ensure your vote reflects what the candidates would actually do in the role. \nBoard Election Timeline:\n\nNominations open: Tuesday, July 28th, 2:00 pm UTC\nNomination cut-off: Tuesday, August 11th, 2:00 pm UTC\nAnnounce candidates: Thursday, August 13th\nVoter affirmation cut-off: Tuesday, August 25th, 2:00 pm UTC\nVoting start date: Tuesday, September 1st, 2:00 pm UTC\nVoting end date: Tuesday, September 15th, 2:00 pm UTC\n\nNot sure what UTC is for you locally? Check this UTC time converter.\nReminder to affirm your intention to vote!\nIf you wish to vote in this year’s election, you must affirm your intention to vote no later than Tuesday, August 25th, 2:00 pm UTC, to participate in this year’s election. This year’s Board Election…",
+        "image": null,
+        "source": "Python Software Foundation News",
+        "published": "2026-08-13T13:48:30.294Z",
+        "isNew": false
+      },
+      {
+        "title": "Announcing the Packaging Council Election Candidates for 2026!",
+        "link": "https://blog.python.org/2026/08/2026-packaging-council-nominees/",
+        "summary": "Announcing the 17 nominees for the inaugural Python Packaging Council election, and how to vote in the election.",
+        "image": null,
+        "source": "Python Insider",
+        "published": "2026-08-13T00:00:00.000Z",
+        "isNew": false
+      },
+      {
+        "title": "Python 3.12.14, 3.11.16 and 3.10.21 are now available!",
+        "link": "https://blog.python.org/2026/08/python-31214-31116-31021/",
+        "summary": "[Python Releases Eclipse Your Security!](https://discuss.python.org/t/python-3-12-14-3-11-16-and-3-10-21-are-now-available/108537) New security releases for 3.10, 3.11 and 3.12 are now available.",
+        "image": null,
+        "source": "Python Insider",
+        "published": "2026-08-12T00:00:00.000Z",
+        "isNew": false
+      },
+      {
         "title": "Python 3.14.7 and 3.13.15 are now available!",
         "link": "https://blog.python.org/2026/08/python-3147-31315/",
         "summary": "A pair of bug fix releases await your upgrade.",
@@ -434,42 +470,6 @@
         "image": null,
         "source": "Python Software Foundation News",
         "published": "2026-07-27T13:28:06.258Z",
-        "isNew": false
-      },
-      {
-        "title": "Get Ready: Python Packaging Council Nominations Opening Soon!",
-        "link": "https://pyfound.blogspot.com/2026/07/get-ready-python-packaging-council.html",
-        "summary": "The inaugural Python Packaging Council Election nomination\n period opens next week on Tuesday, July 28th, 2:00 pm UTC and closes on\n Tuesday, August 11th, 2:00 pm UTC.\nThe Python Packaging Council (PPC) will be the technical \ndecision-making body for the interoperability specifications that govern\n how Python packages are built, distributed, and installed. It will also\n coordinate efforts among packaging tool maintainers, the Python core \nteam, and the broader community.\nRunning for the Packaging Council\n\nDo you have a vision for improving the Python packaging \nexperience? Do you make the tools used to build and consume Python \npackages? Are you passionate about building communities, consensus, and \nstandards focused on the user experience? If these resonate with you, \nand you have the time to attend regular meetings and participate in the \nstandardization process, you should consider running for the inaugural \nPPC!\nWe're looking for candidates who can build bridges between\n projects and communities, who enjoy working with a very large community\n of passionate volunteers, and have a willingness to represent the wider\n community ahead of any single tool, project, or employer. We also \nwelcome candidates who have a diverse set of skills and experiences, \nincluding open-governance experience, community stewardship, fundraising\n knowledge, and (of course!) technical expertise in Python packaging and\n distribution.\nPEP 772 does provide non-binding operational suggestions,\n which…",
-        "image": null,
-        "source": "Python Software Foundation News",
-        "published": "2026-07-23T16:18:29.645Z",
-        "isNew": false
-      },
-      {
-        "title": "Get Ready: PSF Board Nominations Opening Soon!",
-        "link": "https://pyfound.blogspot.com/2026/07/get-ready-psf-board-nominations-opening.html",
-        "summary": "Who runs for the PSF Board? People who care about the Python community, who want to see it flourish and grow, and also have a few hours a month to attend regular meetings, serve on committees, participate in conversations, and promote the Python community. We're looking for candidates with a diverse range of skills and backgrounds, including leadership experience, fundraising knowledge, non-profit familiarity, and event organizing. Technical expertise, a record of collaboration, and experience speaking or teaching in the Python community are also all qualities we hope to see in Board members.\nWant to learn more about being on the PSF Board? Check out the following resources to learn more about the PSF, as well as what being a part of the PSF Board entails:\n\nFAQs About the PSF Board video on YouTube \nOur past few Annual Impact Reports:\n\n2024 Annual Impact Report\n2023 Annual Impact Report\n2022 Annual Impact Report \n\nBoard Election Timeline\n\nNominations open: Tuesday, July 28th, 2:00 pm UTC\nNomination cut-off: Tuesday, August 11th, 2:00 pm UTC\nAnnounce candidates: Thursday, August 13th\nVoter affirmation cut-off: Tuesday, August 25th, 2:00 pm UTC\nVoting start date: Tuesday, September 1st, 2:00 pm UTC\nVoting end date: Tuesday, September 15th, 2:00 pm UTC\n\nNot sure what UTC is for you locally? Check this UTC time converter!\n\nNominations \nYou can nominate yourself or someone else. If you're nominating someone else, we'd encourage you to reach out to them first to make sure they're…",
-        "image": null,
-        "source": "Python Software Foundation News",
-        "published": "2026-07-23T12:06:05.659Z",
-        "isNew": false
-      },
-      {
-        "title": "Get Ready: 2026 Python Packaging Council Nominations Opening Soon!",
-        "link": "https://blog.python.org/2026/07/2026-packaging-council-nominations/",
-        "summary": "The inaugural Python Packaging Council election nomination period opens on Tuesday, July 28th, 2:00 pm UTC and closes on Tuesday, August 11th, 2:00 pm UTC.",
-        "image": null,
-        "source": "Python Insider",
-        "published": "2026-07-23T00:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "Python 3.15.0 beta 4 is here!",
-        "link": "https://blog.python.org/2026/07/python-3150-beta-4/",
-        "summary": "The final 3.15 beta is out!",
-        "image": null,
-        "source": "Python Insider",
-        "published": "2026-07-18T00:00:00.000Z",
         "isNew": false
       }
     ],
@@ -623,6 +623,15 @@
     ],
     "javascript": [
       {
+        "title": "Node.js Interactive 2026: A Recap",
+        "link": "https://nodejs.org/en/blog/events/nodejs-interactive-2026",
+        "summary": "",
+        "image": null,
+        "source": "Node.js Blog",
+        "published": "2026-08-14T00:00:00.000Z",
+        "isNew": false
+      },
+      {
         "title": "Node.js 26.7.0 (Current)",
         "link": "https://nodejs.org/en/blog/release/v26.7.0",
         "summary": "",
@@ -683,15 +692,6 @@
         "image": null,
         "source": "Node.js Blog",
         "published": "2026-07-29T00:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "Check out the New Node.js API Documentation Preview",
-        "link": "https://nodejs.org/en/blog/announcements/new-api-docs-beta",
-        "summary": "",
-        "image": null,
-        "source": "Node.js Blog",
-        "published": "2026-07-24T19:00:00.000Z",
         "isNew": false
       }
     ]
