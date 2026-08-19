@@ -1,6 +1,6 @@
 {
   "date": "2026-08-19",
-  "generatedAt": "2026-08-19T05:46:05.833Z",
+  "generatedAt": "2026-08-19T11:43:13.922Z",
   "totalArticles": 72,
   "ticker": [
     {
@@ -111,7 +111,7 @@
         "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/08/MQ-Cloud-Native-App-Platform-Blog-Thumbnail-2-1024x1024.webp",
         "source": "Microsoft Azure Blog",
         "published": "2026-08-17T15:00:00.000Z",
-        "isNew": true
+        "isNew": false
       },
       {
         "title": "The Economics of Agent Optimization: From pilots to measurable returns",
@@ -179,13 +179,22 @@
     ],
     "gcp": [
       {
+        "title": "August 19, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#August_19_2026",
+        "summary": "Oracle Database@Google Cloud\nFeature\nOracle Database@Google Cloud supports provisioning VM file system storage (VM images) and VM backups on Exascale storage for Exadata VM Clusters. This feature lets you to offload VM artifacts to Exascale, freeing up capacity and reducing dependence on local DB Server storage. For more information, see Configure Exascale Storage Vault for Exadata Infrastructure and Create Exadata VM Clusters with Exascale Storage Vaults.\nThis feature is Generally Available (GA).",
+        "image": null,
+        "source": "Google Cloud Platform (GCP) - Release notes",
+        "published": "2026-08-19T07:00:00.000Z",
+        "isNew": false
+      },
+      {
         "title": "August 18, 2026",
         "link": "https://docs.cloud.google.com/release-notes#August_18_2026",
-        "summary": "App Engine standard environment Java\nFeature\nSupport for migrating from the App Engine Images service to\nCloud Run is in\nGeneral Availability (GA).\nApp Engine standard environment Python\nFeature\nSupport for migrating from the App Engine Images service to\nCloud Run is in\nGeneral Availability (GA).\nCloud SDK\nBreaking\n581.0.0 (2026-08-18)\nBreaking Changes\n(Cloud Services) Removed gcloud beta services mcp enable, gcloud beta services mcp disable, and gcloud beta services mcp list as MCP enablement is no longer required and they have been functioning as no-ops.\nAI Platform\nAdded gcloud beta ai semantic-governance-policy-engine deprovision\ncommand to tear down a semantic governance policy engine, including its\ntenant project, GKE cluster, and PSC service attachments.\n\n\nPromoted gcloud ai semantic-governance-policies (create, describe,\nupdate, delete, list) and gcloud ai\nsemantic-governance-policy-engine (describe, update, deprovision)\ncommands from beta to GA.\n\n\nBigQuery\nAdded fields precedence and condition to the commands bq ls\n--reservation_assignment and bq show --reservation_assignment output.\nAdded the new AUTOMATIC_MATERIALIZED_VIEW_REFRESH job type for users to create reservation assignments with.\nCloud Auth\nEnabled Enterprise Certificate Proxy (ECP) HTTP Proxy by default for context-aware mTLS requests.\nCloud Bigtable\nRebuilt cbt cli with newer version of bigtable client for CVE-2026-39883.\nCloud IAM\nUpdated gcloud iam workforce-pools create-cred-config and gcloud iam…",
+        "summary": "App Engine standard environment Java\nFeature\nSupport for migrating from the App Engine Images service to\nCloud Run is in\nGeneral Availability (GA).\nApp Engine standard environment Python\nFeature\nSupport for migrating from the App Engine Images service to\nCloud Run is in\nGeneral Availability (GA).\nBigQuery\nFeature\nThe default per-project limit of user-specific\nreservation assignments\nhas been increased from 10 to 100.\nCloud SDK\nBreaking\n581.0.0 (2026-08-18)\nBreaking Changes\n(Cloud Services) Removed gcloud beta services mcp enable, gcloud beta services mcp disable, and gcloud beta services mcp list as MCP enablement is no longer required and they have been functioning as no-ops.\nAI Platform\nAdded gcloud beta ai semantic-governance-policy-engine deprovision\ncommand to tear down a semantic governance policy engine, including its\ntenant project, GKE cluster, and PSC service attachments.\n\n\nPromoted gcloud ai semantic-governance-policies (create, describe,\nupdate, delete, list) and gcloud ai\nsemantic-governance-policy-engine (describe, update, deprovision)\ncommands from beta to GA.\n\n\nBigQuery\nAdded fields precedence and condition to the commands bq ls\n--reservation_assignment and bq show --reservation_assignment output.\nAdded the new AUTOMATIC_MATERIALIZED_VIEW_REFRESH job type for users to create reservation assignments with.\nCloud Auth\nEnabled Enterprise Certificate Proxy (ECP) HTTP Proxy by default for context-aware mTLS requests.\nCloud Bigtable\nRebuilt cbt cli with newer…",
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-08-18T07:00:00.000Z",
-        "isNew": true
+        "isNew": false
       },
       {
         "title": "August 17, 2026",
@@ -239,15 +248,6 @@
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-08-12T07:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "August 11, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#August_11_2026",
-        "summary": "Apigee hybrid\nAnnouncement\nv1.16.9\nOn August 11, 2026 we released an updated version of the Apigee hybrid software, v1.16.9.\nFor information on upgrading, see Upgrading Apigee hybrid to version v1.16.9.\nFor information on new installations, see The big picture.\nNote: This is a patch release: The container images used in patch releases are integrated with the Apigee hybrid Helm charts. Upgrading to a patch via the Helm chart automatically updates the images. No manual image changes are typically needed. For information on container image support in Apigee hybrid releases, see Apigee release process.\nFixed\nFixed in this release\nBug ID\nDescription\n\n\n\n\n514973778\nFixed an issue where the SanitizeUserPrompt and SanitizeModelResponse policies failed to tolerate unknown fields while parsing responses from the Model Armor Service.\n\n\n543171828\nFixed an issue where the apigee-logger DaemonSet failed to schedule on cluster nodes without custom node labels due to a default logger.nodeSelector in the Helm chart.\n\n\n\nSecurity\nVarious security and CVE fixes are included in this release.\nBigQuery\nFeature\nQuery templates\nfor data clean rooms are\ngenerally available\n(GA). Query templates allow data clean room owners and publishers to share\npredefined queries without exposing the underlying tables and views.\nAdditionally,\ntable parameters\nin table-valued functions (TVFs) are\ngenerally available\n(GA). You can use the ANY TABLE type as a table parameter to create\ngeneric functions that accept…",
-        "image": null,
-        "source": "Google Cloud Platform (GCP) - Release notes",
-        "published": "2026-08-11T07:00:00.000Z",
         "isNew": false
       }
     ],
