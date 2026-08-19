@@ -1,6 +1,6 @@
 {
   "date": "2026-08-19",
-  "generatedAt": "2026-08-19T11:43:13.922Z",
+  "generatedAt": "2026-08-19T17:40:15.669Z",
   "totalArticles": 72,
   "ticker": [
     {
@@ -9,7 +9,7 @@
     },
     {
       "label": "Terraform",
-      "version": "v1.15.8"
+      "version": "v1.15.9"
     },
     {
       "label": "Python",
@@ -17,7 +17,7 @@
     },
     {
       "label": "Go",
-      "version": "go1.26.6"
+      "version": "go1.27.0"
     },
     {
       "label": "Rust",
@@ -105,15 +105,6 @@
     ],
     "azure": [
       {
-        "title": "Microsoft named a Leader in the 2026 Gartner® Magic Quadrant™ for Cloud-Native Application Platforms",
-        "link": "https://azure.microsoft.com/en-us/blog/microsoft-named-a-leader-in-the-2026-gartner-magic-quadrant-for-cloud-native-application-platforms/",
-        "summary": "Cloud-native platforms are becoming the foundation for AI transformation. Discover how Microsoft's Azure application platform helps organizations modernize, innovate, and operate AI-powered applications at scale.\nThe post Microsoft named a Leader in the 2026 Gartner® Magic Quadrant™ for Cloud-Native Application Platforms  appeared first on Microsoft Azure Blog.",
-        "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/08/MQ-Cloud-Native-App-Platform-Blog-Thumbnail-2-1024x1024.webp",
-        "source": "Microsoft Azure Blog",
-        "published": "2026-08-17T15:00:00.000Z",
-        "isNew": false
-      },
-      {
         "title": "The Economics of Agent Optimization: From pilots to measurable returns",
         "link": "https://azure.microsoft.com/en-us/blog/the-economics-of-agent-optimization-from-pilots-to-measurable-returns/",
         "summary": "Learn how AI cost management helps organizations move from AI pilots to measurable ROI through greater visibility, governance, and optimization.\nThe post The Economics of Agent Optimization: From pilots to measurable returns appeared first on Microsoft Azure Blog.",
@@ -175,13 +166,22 @@
         "source": "Microsoft Azure Blog",
         "published": "2026-07-08T16:00:00.000Z",
         "isNew": false
+      },
+      {
+        "title": "External key management for Azure Managed HSM is now in public preview",
+        "link": "https://azure.microsoft.com/en-us/blog/external-key-management-for-azure-managed-hsm-is-now-in-public-preview/",
+        "summary": "Azure Key Vault Managed Hardware Security Module (HSM) provides strong sovereignty over your encryption keys. Keys are generated and stored in a single-tenant, FIPS 140-3 Level 3 HSM that only you control: Microsoft has no access to your key material, and you govern who can use each key.\nThe post External key management for Azure Managed HSM is now in public preview appeared first on Microsoft Azure Blog.",
+        "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/07/Azure-AIPlatform-Light-3-scaled.jpg",
+        "source": "Microsoft Azure Blog",
+        "published": "2026-07-07T16:00:00.000Z",
+        "isNew": false
       }
     ],
     "gcp": [
       {
         "title": "August 19, 2026",
         "link": "https://docs.cloud.google.com/release-notes#August_19_2026",
-        "summary": "Oracle Database@Google Cloud\nFeature\nOracle Database@Google Cloud supports provisioning VM file system storage (VM images) and VM backups on Exascale storage for Exadata VM Clusters. This feature lets you to offload VM artifacts to Exascale, freeing up capacity and reducing dependence on local DB Server storage. For more information, see Configure Exascale Storage Vault for Exadata Infrastructure and Create Exadata VM Clusters with Exascale Storage Vaults.\nThis feature is Generally Available (GA).",
+        "summary": "App Engine standard environment Go\nFeature\nYou can migrate your App Engine push queues to Cloud Tasks by updating the\nbundled services SDK. This method lets you upgrade your app without needing to\nmodify your application code. For more information on how to migrate, see the\npush queues migration guide\n(Preview).\nApp Engine standard environment Python\nFeature\nYou can migrate your App Engine push queues to Cloud Tasks by updating the\nbundled services SDK. This method lets you upgrade your app without needing to\nmodify your application code. For more information on how to migrate, see the\npush queues migration guide\n(Preview).\nOracle Database@Google Cloud\nFeature\nOracle Database@Google Cloud supports provisioning VM file system storage (VM images) and VM backups on Exascale storage for Exadata VM Clusters. This feature lets you to offload VM artifacts to Exascale, freeing up capacity and reducing dependence on local DB Server storage. For more information, see Configure Exascale Storage Vault for Exadata Infrastructure and Create Exadata VM Clusters with Exascale Storage Vaults.\nThis feature is Generally Available (GA).",
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-08-19T07:00:00.000Z",
@@ -327,6 +327,24 @@
     ],
     "terraform": [
       {
+        "title": "v1.15.9",
+        "link": "https://github.com/hashicorp/terraform/releases/tag/v1.15.9",
+        "summary": "1.15.9 (August 19, 2026)\nBUG FIXES:\nvalidate: Child module validation has been fixed and will now raise errors or warning diagnostics for invalid blocks. (list, import, backend, and cloud) (#38994)\nNOTES:\nUpdate go-slug to v0.18.3 to mitigate CVE-2026-14978, which is a Unicode normalization issue that could lead to files not being correctly excluded via .terraformignore from upload to a Terraform Enterprise or HCP Terraform during a run (#39036)",
+        "image": "https://avatars.githubusercontent.com/u/82989873?s=60&v=4",
+        "source": "Release notes from terraform",
+        "published": "2026-08-19T14:29:32.000Z",
+        "isNew": false
+      },
+      {
+        "title": "v1.16.0-rc2",
+        "link": "https://github.com/hashicorp/terraform/releases/tag/v1.16.0-rc2",
+        "summary": "1.16.0-rc2 (August 19, 2026)\nNEW FEATURES:\nTerraform now stores planned private data for providers, allowing provider-specific state to be preserved across plan and apply. (#37986)\nterraform_data: The new store block can hold ephemeral and sensitive values across plan and apply. (#38298)\nProviders can now use nested blocks as computed values (#38305)\nimport: import blocks inside modules are now supported. (#38352)\nTerraform is now available as a pre-built binary for Linux s390x (zLinux). (#38384)\nResource action triggers can now use on_failure modes of halt, taint, or continue. (#38722)\nENHANCEMENTS:\nstate show: The state show command can now produce machine-readable output when supplied with the -json flag (#23940)\nworkspace: The workspace list command can now produce machine-readable output when supplied with the -json flag (#38397)\ntest: Terraform now reports which resources were left behind when skip_cleanup is set. (#38449)\nstacks: Action configurations now have access to a caller symbol containing the object value of the calling resource. (#38668)\nActions can now use before_destroy and after_destroy events. (#38668)\ncloud: Terraform now displays a summary of policy evaluation outcomes for plan and apply runs against HCP Terraform. (#38715)\npolicy: Terraform now resolves policy plugin credentials from the configured cloud or remote backend during init, plan, and apply, rather than requiring the plugin to read credentials itself. (#38716)\ngraph: The terraform graph…",
+        "image": "https://avatars.githubusercontent.com/u/82989873?s=60&v=4",
+        "source": "Release notes from terraform",
+        "published": "2026-08-19T12:08:45.000Z",
+        "isNew": false
+      },
+      {
         "title": "v1.16.0-rc1",
         "link": "https://github.com/hashicorp/terraform/releases/tag/v1.16.0-rc1",
         "summary": "1.16.0-rc1 (August 12, 2026)\nNEW FEATURES:\nTerraform now stores planned private data for providers, allowing provider-specific state to be preserved across plan and apply. (#37986)\nterraform_data: The new store block can hold ephemeral and sensitive values across plan and apply. (#38298)\nProviders can now use nested blocks as computed values (#38305)\nimport: import blocks inside modules are now supported. (#38352)\nTerraform is now available as a pre-built binary for Linux s390x (zLinux). (#38384)\nResource action triggers can now use on_failure modes of halt, taint, or continue. (#38722)\nENHANCEMENTS:\nstate show: The state show command can now produce machine-readable output when supplied with the -json flag (#23940)\nworkspace: The workspace list command can now produce machine-readable output when supplied with the -json flag (#38397)\ntest: Terraform now reports which resources were left behind when skip_cleanup is set. (#38449)\nstacks: Action configurations now have access to a caller symbol containing the object value of the calling resource. (#38668)\nActions can now use before_destroy and after_destroy events. (#38668)\ncloud: Terraform now displays a summary of policy evaluation outcomes for plan and apply runs against HCP Terraform. (#38715)\npolicy: Terraform now resolves policy plugin credentials from the configured cloud or remote backend during init, plan, and apply, rather than requiring the plugin to read credentials itself. (#38716)\ngraph: The terraform graph…",
@@ -379,27 +397,18 @@
         "source": "Release notes from terraform",
         "published": "2026-07-15T12:44:36.000Z",
         "isNew": false
-      },
-      {
-        "title": "v1.15.8",
-        "link": "https://github.com/hashicorp/terraform/releases/tag/v1.15.8",
-        "summary": "1.15.8 (July 8, 2026)\nBUG FIXES:\nFix terraform init error when installing providers sourced from a service-discovery alias advertised by the configured backend (such as localterraform.com)\nNOTES:\ncommand/init: Provider installation was changed to enable future enhancements in the area. This effectively reverses the log message changes from v1.15. initializing_provider_plugin_message is being re-introduced to replace the short-lived two message types initializing_provider_plugin_from_config_message & initializing_provider_plugin_from_state_message. The change should not have any significant end-user impact aside from the command output. (#38838)\ncommand/init: Provider installation was changed to enable future enhancements in the area. This partially reverses the init event order changes from v1.15; module installation will now occur after the backend is initialized. The change should not have any significant end-user impact aside from the command output. (#38838)",
-        "image": "https://avatars.githubusercontent.com/u/82989873?s=60&v=4",
-        "source": "Release notes from terraform",
-        "published": "2026-07-08T17:45:09.000Z",
-        "isNew": false
-      },
-      {
-        "title": "v1.16.0-alpha20260708",
-        "link": "https://github.com/hashicorp/terraform/releases/tag/v1.16.0-alpha20260708",
-        "summary": "1.16.0-alpha20260708 (July 08, 2026)\nNEW FEATURES:\nStore PlannedPrivate data for providers (#37986)\nNew store block in terraform_data that can handle ephemeral and sensitive values (#38298)\nProviders can now use nested blocks as computed values (#38305)\nimport: add support for import blocks inside modules (#38352)\nWe now produce builds for Linux s390x (zLinux) (#38384)\nworkspace: The workspace list command can now produce machine-readable output when supplied with the -json flag (#38397)\nResource action triggers can now use on_failure modes of halt, taint, or continue (#38722)\nENHANCEMENTS:\nfeat(cli): terraform state show accepts a -json flag (#23940)\nShow info when resources are left behind due to skip_cleanup (#38449)\nAction configuration now has a new caller symbol which contains the object value from the calling resource. (#38668)\nActions can now use before_destroy and after_destroy events (#38668)\ncloud: Render a summary of Terraform policy evaluation outcomes for plan and apply runs against HCP Terraform (#38715)\npolicy: Resolve the policy plugin entitlement (host, token, organization) from the configured cloud/remote backend for init, plan, and apply, instead of the plugin reading credentials itself (#38716)\nThe 'terraform graph' command now accepts a -format flag, and can output graphs in Mermaid format (#38719)\nchild module outputs with unreferenced deprecated nested attributes no longer return deprecation warnings. (#38778)\nSupport destroy=false in resource…",
-        "image": "https://avatars.githubusercontent.com/u/82989873?s=60&v=4",
-        "source": "Release notes from terraform",
-        "published": "2026-07-08T09:19:38.000Z",
-        "isNew": false
       }
     ],
     "python": [
+      {
+        "title": "How AWS Powers PyPI and the PSF",
+        "link": "https://pyfound.blogspot.com/2026/08/how-aws-powers-pypi-and-psf.html",
+        "summary": "Written by Jacob Coffee, Director of Engineering at the Python Software Foundation\nWorking on infrastructure at the Python Software Foundation (PSF) as the Director of Engineering is a broad job with many hats. Python turns up everywhere. It's in healthcare systems and government agencies, in research labs and classrooms, in one-person side projects and in infrastructure at companies with six-figure headcounts. Somebody is using it to analyze a genome right now and somebody else is using it to automate a spreadsheet they hate arranging by hand. That range has always been the interesting part of the PSF's work, and it's only broadened in the last couple of years as AI continues to pull people from many disciplines into writing Python.\nAt the PSF we support and maintain the infrastructure behind PyPI, Python.org, PyCon US, CPython, and a growing number of community services. The majority of the PSF's infrastructure runs on AWS, and nearly all of that bill is covered by credits from the AWS Open Source Credits Program.\nThe shape of it\nPyPI takes over six billion requests a day and about thirteen billion counting file downloads. Package egress runs around 10 petabytes a day.\nAlmost none of that reaches AWS. Fastly serves it at the edge through their Fast Forward program at a hit ratio just under 99%, so only about one request in seventy makes it to origin. That caching is the core reason our AWS bill is not measured in the millions of dollars a year.\nWhat does reach us is the…",
+        "image": null,
+        "source": "Python Software Foundation News",
+        "published": "2026-08-19T12:53:50.845Z",
+        "isNew": false
+      },
       {
         "title": "Announcing the Packaging Council Election Candidates for 2026!",
         "link": "https://pyfound.blogspot.com/2026/08/announcing-packaging-council-election.html",
@@ -462,18 +471,18 @@
         "source": "Python Software Foundation News",
         "published": "2026-07-28T12:14:47.114Z",
         "isNew": false
-      },
-      {
-        "title": "Announcing Python Software Foundation Fellow Members for Q2 2026! 🎉",
-        "link": "https://pyfound.blogspot.com/2026/07/announcing-python-software-foundation.html",
-        "summary": "The PSF is pleased to announce its second batch of PSF Fellows for 2026. Let us welcome the new PSF Fellows for Q2! The following people continue to do amazing things for the Python community:\nAndy Terrel\nBlog\nJulius Nana Acheampong Boakye\nLinkedIn, X, GitHub, Website\nPetr Viktorin\nGitHub\nSayantika Banik\nGitHub, LinkedIn, Bluesky\nTakanori Suzuki\nGitHub, Website, LinkedIn, X, Untappd\nThank you for your continued contributions. We have added you to our Fellows Roster.\nThe above members help support the Python ecosystem by being phenomenal leaders, sustaining the growth of the Python scientific community, maintaining virtual Python communities, maintaining Python libraries, creating educational material, organizing Python events and conferences, starting Python communities in local regions, and overall being great mentors in our community. Each of them continues to help make Python more accessible around the world. To learn more about the new Fellow members, check out their links above.\nLet's continue recognizing Pythonistas all over the world for their impact on our community. The criteria for Fellow members is available on our PSF Fellow Membership page. If you would like to nominate someone to be a PSF Fellow, please send a description of their Python accomplishments and their email address to psf-fellow at python.org. We are accepting nominations for Quarter 3 of 2026 through August 20th, 2026.\nAre you a PSF Fellow and want to help the Work Group review nominations? Contact…",
-        "image": null,
-        "source": "Python Software Foundation News",
-        "published": "2026-07-27T13:28:06.258Z",
-        "isNew": false
       }
     ],
     "go": [
+      {
+        "title": "Go 1.27 is released",
+        "link": "https://go.dev/blog/go1.27",
+        "summary": "The Go Blog\nGo 1.27 is released\nToday the Go team is pleased to release Go 1.27. You can find its binary\narchives and installers on the download page.\nGo 1.27 brings major enhancements across the language, toolchain, runtime, and\nstandard library. Below are some of the key highlights.\nLanguage changes\nGo 1.27 introduces three notable updates to the\nlanguage specification.\nFirst, generic methods are now supported. For example, see\nmath/rand/v2.Rand:\n// Prior to Go 1.27, a separate method on Rand had to be added for each type\n// (unsigned integer methods omitted for brevity).\nfunc (r *Rand) Int32N(n int32) int32\nfunc (r *Rand) Int64N(n int64) int64\nfunc (r *Rand) IntN(n int) int\n\n// Go 1.27 adds a new generic method that works for all integer types.\nfunc (r *Rand) N[Int intType](n Int) Int\n\nSecond, a key in a struct literal may now be any\nvalid field selector for the struct type, allowing fields\nin nested or embedded structs to be initialized directly:\ntype Habitat struct {\n    Burrow string\n}\n\ntype Gopher struct {\n    Name    string\n    Habitat // Embedded struct.\n}\n\n// Go 1.27 allows using Burrow as a key directly.\ng := Gopher{\n    Name:   \"Gopher\",\n    Burrow: \"Burrow #42\",\n}\n\nFinally, function type inference has been generalized to apply in all assignment\ncontexts. Generic functions can now be used without explicit type arguments in\ncomposite literals, type conversions, and channel sends:\nfunc GenericFormatter[T any](v T) string {\n    return fmt.Sprintf(\"value: %v\", v)\n}…",
+        "image": null,
+        "source": "The Go Blog",
+        "published": "2026-08-19T00:00:00.000Z",
+        "isNew": false
+      },
       {
         "title": "Introducing the pkg.go.dev API",
         "link": "https://go.dev/blog/pkgsite-api",
@@ -535,15 +544,6 @@
         "image": null,
         "source": "The Go Blog",
         "published": "2026-01-21T00:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "Go’s Sweet 16",
-        "link": "https://go.dev/blog/16years",
-        "summary": "The Go Blog\nGo’s Sweet 16\nThis past Monday, November 10th, we celebrated the 16th anniversary of Go’s\nopen source\nrelease!\nWe released Go 1.24 in February and Go 1.25 in\nAugust, following our now well-established and dependable release\ncadence. Continuing our mission to build the most productive language platform\nfor building production systems, these releases included new APIs for building\nrobust and reliable software, significant advances in Go’s track record for\nbuilding secure software, and some serious under-the-hood improvements.\nMeanwhile, no one can ignore the seismic shifts in our industry brought by\ngenerative AI. The Go team is applying its thoughtful and uncompromising mindset\nto the problems and opportunities of this dynamic space, working to bring Go’s\nproduction-ready approach to building robust AI integrations, products, agents,\nand infrastructure.\nCore language and library improvements\nFirst released in Go 1.24 as an experiment and then graduated in Go 1.25, the\nnew testing/synctest package\nsignificantly simplifies writing tests for concurrent, asynchronous\ncode. Such code is particularly common in network services,\nand is traditionally very hard to test well. The synctest package works by\nvirtualizing time itself. It takes tests that used to be slow, flaky, or both,\nand makes them easy to rewrite into reliable and nearly instantaneous tests,\noften with just a couple extra lines of code. It’s also a great example of Go’s\nintegrated approach to software…",
-        "image": null,
-        "source": "The Go Blog",
-        "published": "2025-11-14T00:00:00.000Z",
         "isNew": false
       }
     ],
