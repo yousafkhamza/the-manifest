@@ -1,6 +1,6 @@
 {
   "date": "2026-08-20",
-  "generatedAt": "2026-08-20T05:46:08.262Z",
+  "generatedAt": "2026-08-20T11:45:04.756Z",
   "totalArticles": 72,
   "ticker": [
     {
@@ -105,6 +105,15 @@
     ],
     "azure": [
       {
+        "title": "Microsoft named a Leader in the 2026 Gartner® Magic Quadrant™ for Cloud-Native Application Platforms",
+        "link": "https://azure.microsoft.com/en-us/blog/microsoft-named-a-leader-in-the-2026-gartner-magic-quadrant-for-cloud-native-application-platforms/",
+        "summary": "Cloud-native platforms are becoming the foundation for AI transformation. Discover how Microsoft's Azure application platform helps organizations modernize, innovate, and operate AI-powered applications at scale.\nThe post Microsoft named a Leader in the 2026 Gartner® Magic Quadrant™ for Cloud-Native Application Platforms  appeared first on Microsoft Azure Blog.",
+        "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/08/MQ-Cloud-Native-App-Platform-Blog-Thumbnail-2-1024x1024.webp",
+        "source": "Microsoft Azure Blog",
+        "published": "2026-08-17T15:00:00.000Z",
+        "isNew": false
+      },
+      {
         "title": "The Economics of Agent Optimization: From pilots to measurable returns",
         "link": "https://azure.microsoft.com/en-us/blog/the-economics-of-agent-optimization-from-pilots-to-measurable-returns/",
         "summary": "Learn how AI cost management helps organizations move from AI pilots to measurable ROI through greater visibility, governance, and optimization.\nThe post The Economics of Agent Optimization: From pilots to measurable returns appeared first on Microsoft Azure Blog.",
@@ -165,15 +174,6 @@
         "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/05/CLO24-Azure-Fintech-012-scaled.jpg",
         "source": "Microsoft Azure Blog",
         "published": "2026-07-08T16:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "External key management for Azure Managed HSM is now in public preview",
-        "link": "https://azure.microsoft.com/en-us/blog/external-key-management-for-azure-managed-hsm-is-now-in-public-preview/",
-        "summary": "Azure Key Vault Managed Hardware Security Module (HSM) provides strong sovereignty over your encryption keys. Keys are generated and stored in a single-tenant, FIPS 140-3 Level 3 HSM that only you control: Microsoft has no access to your key material, and you govern who can use each key.\nThe post External key management for Azure Managed HSM is now in public preview appeared first on Microsoft Azure Blog.",
-        "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/07/Azure-AIPlatform-Light-3-scaled.jpg",
-        "source": "Microsoft Azure Blog",
-        "published": "2026-07-07T16:00:00.000Z",
         "isNew": false
       }
     ],
@@ -549,6 +549,15 @@
     ],
     "rust": [
       {
+        "title": "Supply chain attack on arrayref",
+        "link": "https://blog.rust-lang.org/2026/08/20/supply-chain-attack-on-arrayref/",
+        "summary": "What happened\nOn 2026-08-20 at 7:15 UTC we got a report that the proc-macro1 crate was malicious.\nThe Rust Security Response Team verified this to be the case: the crate had a build script that was downloading a malicious payload.\nThis crate proc-macro1 and others like it (proc-macro-en, aovine, arone, aronenao, tinymember) have been deleted.\nFurthermore, we discovered that the popular arrayref crate had recently been republished and made to depend on this crate, with the most recent versions yanked. We have removed the malicious version and unyanked the maliciously-yanked versions. Other crates by that author (internment, append-only-vec) were also affected so we have done the same for those, and locked the account as a precaution. We do not believe the author of arrayref to be acting maliciously, but their computer or credentials are likely compromised, and we are attempting to contact them.\n\nWhat you need to do\nWe recommend you check your local dependencies to ensure these crates were not pulled in.\nHere are the malicious versions that we deleted from crates.io:\nappend-only-vec@0.1.9: published at 2026-08-20T07:37:49Z, deleted at 2026-08-20T09:25:24Z. Online for 107 minutes.\narrayref@0.3.10: published at 2026-08-20T07:15:00Z, deleted at 2026-08-20T08:41:40Z. Online for 86 minutes.\ninternment@0.8.7: published at 2026-08-20T07:34:07Z, deleted at 2026-08-20T09:04:11Z. Online for 90 minutes.\nproc-macro1, proc-macro-en, aovine, arone, aronenao, tinymember (any versions).\nYou…",
+        "image": null,
+        "source": "Rust Blog",
+        "published": "2026-08-20T00:00:00.000Z",
+        "isNew": false
+      },
+      {
         "title": "Enabling the next iteration of the borrow checker on nightly",
         "link": "https://blog.rust-lang.org/2026/08/04/enabling-polonius-alpha-on-nightly/",
         "summary": "TL;DR We are enabling the next iteration of the borrow checker (coined Polonius Alpha)\non nightly in preparation for stabilization in the next few months.\n\nWhaaaaaat?\nYes! You heard it right! The next iteration of the Rust borrow checker is coming! Rust's first borrow checker (\"AST borrowck\") was very limited and was phased out in 2019 in favor of NLL, other than a \"migrate mode\" that was used to provide nice error messages. That migrate mode was finally removed in 2022.\nThe Polonius borrow checker spun out of the NLL effort in 2018. The initial formulation passed the NLL test suite and accepted (sound) code that NLL did not. However, performance was a critically-limiting factor; generally borrow check was slower than NLL, but certain programs were considerably slower than NLL to the extent that using that implementation/formulation of Polonius was a non-starter. Attempts were made over the years to implement the Polonius formulation in a performant manner, without much luck in addressing the core issues.\nIn 2023, a new formulation of a Polonius-style borrow checker was imagined that required minimal rearchitecture of the existing NLL implementation and could be extended to allow more code to compile. We had hoped, to try to stabilize this new formulation in 2024; but, various things popped up that delayed this.\nBut! We're nearly there now! At this point, there are no known remaining issues with the subset coined Polonius Alpha that we intend to stabilize. And, performance…",
@@ -609,15 +618,6 @@
         "image": null,
         "source": "Rust Blog",
         "published": "2026-06-02T00:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "Announcing Rust 1.96.0",
-        "link": "https://blog.rust-lang.org/2026/05/28/Rust-1.96.0/",
-        "summary": "The Rust team is happy to announce a new version of Rust, 1.96.0. Rust is a programming language empowering everyone to build reliable and efficient software.\nIf you have a previous version of Rust installed via rustup, you can get 1.96.0 with:\n$ rustup update stable\nIf you don't have it already, you can get rustup from the appropriate page on our website, and check out the detailed release notes for 1.96.0.\nIf you'd like to help us out by testing future releases, you might consider updating locally to use the beta channel (rustup default beta) or the nightly channel (rustup default nightly). Please report any bugs you might come across!\n\nWhat's in 1.96.0 stable\n\nNew Range* types\nMany users expect Range and related core::ops types to be Copy, but this is not the case: they implement Iterator directly, and it is a footgun to implement both Iterator and Copy on the same type so this has been avoided. RFC3550 proposed a set of replacement range types that implement IntoIterator rather than Iterator, meaning they can also be Copy. The standard library portion of that RFC is now stable, introducing:\ncore::range::Range\ncore::range::RangeFrom\ncore::range::RangeInclusive\nAssociated iterators\nA Rust version in the near future will also add core::range::RangeFull and core::range::RangeTo as re-exports from core::ops (these do not implement Iterator and already implement Copy), and core::range::legacy::* as the new home for the current ranges. Range syntax like 0..1 still produces the…",
-        "image": null,
-        "source": "Rust Blog",
-        "published": "2026-05-28T00:00:00.000Z",
         "isNew": false
       }
     ],
