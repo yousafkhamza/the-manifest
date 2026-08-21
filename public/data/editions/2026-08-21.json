@@ -1,6 +1,6 @@
 {
   "date": "2026-08-21",
-  "generatedAt": "2026-08-21T05:47:46.659Z",
+  "generatedAt": "2026-08-21T11:44:41.199Z",
   "totalArticles": 72,
   "ticker": [
     {
@@ -181,11 +181,11 @@
       {
         "title": "August 20, 2026",
         "link": "https://docs.cloud.google.com/release-notes#August_20_2026",
-        "summary": "App Engine flexible environment Java\nFeature\nStarting from August 2026, to provide modern security patches and support for MySQL 8.4 and later, the App Engine flexible environment uses Cloud SQL Auth Proxy v2 as the built-in sidecar container for connections to Cloud SQL. To use the latest Cloud SQL Auth Proxy container immediately, restart your VMs or deploy a new version of your application.\nApp Engine flexible environment Ruby\nFeature\nStarting from August 2026, to provide modern security patches and support for MySQL 8.4 and later, the App Engine flexible environment uses Cloud SQL Auth Proxy v2 as the built-in sidecar container for connections to Cloud SQL. To use the latest Cloud SQL Auth Proxy container immediately, restart your VMs or deploy a new version of your application.\nApp Engine flexible environment custom runtimes\nFeature\nStarting from August 2026, to provide modern security patches and support for MySQL 8.4 and later, the App Engine flexible environment uses Cloud SQL Auth Proxy v2 as the built-in sidecar container for connections to Cloud SQL. To use the latest Cloud SQL Auth Proxy container immediately, restart your VMs or deploy a new version of your application.\nBigQuery\nFeature\nBigQuery supports the following table-valued functions in the query editor and\nas part of\nconversational analytics\nto help you analyze your time series data:\nML.TREND:\nidentify the directional trajectory of your data.\nML.SEASONALITY:\nidentify repeating patterns in your data.…",
+        "summary": "App Engine flexible environment .NET\nFeature\nStarting from August 2026, to provide modern security patches and support for MySQL 8.4 and later, the App Engine flexible environment uses Cloud SQL Auth Proxy v2 as the built-in sidecar container for connections to Cloud SQL. To use the latest Cloud SQL Auth Proxy container immediately, restart your VMs or deploy a new version of your application.\nApp Engine flexible environment Go\nFeature\nStarting from August 2026, to provide modern security patches and support for MySQL 8.4 and later, the App Engine flexible environment uses Cloud SQL Auth Proxy v2 as the built-in sidecar container for connections to Cloud SQL. To use the latest Cloud SQL Auth Proxy container immediately, restart your VMs or deploy a new version of your application.\nApp Engine flexible environment Java\nFeature\nStarting from August 2026, to provide modern security patches and support for MySQL 8.4 and later, the App Engine flexible environment uses Cloud SQL Auth Proxy v2 as the built-in sidecar container for connections to Cloud SQL. To use the latest Cloud SQL Auth Proxy container immediately, restart your VMs or deploy a new version of your application.\nApp Engine flexible environment Node.js\nFeature\nStarting from August 2026, to provide modern security patches and support for MySQL 8.4 and later, the App Engine flexible environment uses Cloud SQL Auth Proxy v2 as the built-in sidecar container for connections to Cloud SQL. To use the latest Cloud SQL Auth…",
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-08-20T07:00:00.000Z",
-        "isNew": true
+        "isNew": false
       },
       {
         "title": "August 19, 2026",
