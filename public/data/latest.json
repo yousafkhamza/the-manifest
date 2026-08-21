@@ -1,6 +1,6 @@
 {
-  "date": "2026-08-20",
-  "generatedAt": "2026-08-20T17:45:26.886Z",
+  "date": "2026-08-21",
+  "generatedAt": "2026-08-21T05:47:46.659Z",
   "totalArticles": 72,
   "ticker": [
     {
@@ -179,6 +179,15 @@
     ],
     "gcp": [
       {
+        "title": "August 20, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#August_20_2026",
+        "summary": "App Engine flexible environment Java\nFeature\nStarting from August 2026, to provide modern security patches and support for MySQL 8.4 and later, the App Engine flexible environment uses Cloud SQL Auth Proxy v2 as the built-in sidecar container for connections to Cloud SQL. To use the latest Cloud SQL Auth Proxy container immediately, restart your VMs or deploy a new version of your application.\nApp Engine flexible environment Ruby\nFeature\nStarting from August 2026, to provide modern security patches and support for MySQL 8.4 and later, the App Engine flexible environment uses Cloud SQL Auth Proxy v2 as the built-in sidecar container for connections to Cloud SQL. To use the latest Cloud SQL Auth Proxy container immediately, restart your VMs or deploy a new version of your application.\nApp Engine flexible environment custom runtimes\nFeature\nStarting from August 2026, to provide modern security patches and support for MySQL 8.4 and later, the App Engine flexible environment uses Cloud SQL Auth Proxy v2 as the built-in sidecar container for connections to Cloud SQL. To use the latest Cloud SQL Auth Proxy container immediately, restart your VMs or deploy a new version of your application.\nBigQuery\nFeature\nBigQuery supports the following table-valued functions in the query editor and\nas part of\nconversational analytics\nto help you analyze your time series data:\nML.TREND:\nidentify the directional trajectory of your data.\nML.SEASONALITY:\nidentify repeating patterns in your data.…",
+        "image": null,
+        "source": "Google Cloud Platform (GCP) - Release notes",
+        "published": "2026-08-20T07:00:00.000Z",
+        "isNew": true
+      },
+      {
         "title": "August 19, 2026",
         "link": "https://docs.cloud.google.com/release-notes#August_19_2026",
         "summary": "App Engine flexible environment Go\nFeature\nSupport for the Go 1.27 runtime is in\nPreview.\nFeature\nStarting from Go runtime version 1.26 and later, the lifecycle support dates\nalign more closely with the\nGo community release cycle. For more\ninformation, see\nRuntime support schedule.\nApp Engine standard environment Go\nFeature\nSupport for the Go 1.27 runtime is in\nPreview.\nFeature\nStarting from Go runtime version 1.26 and later, the lifecycle support dates\nalign more closely with the\nGo community release cycle. For more\ninformation, see\nRuntime support schedule.\nFeature\nYou can migrate your App Engine push queues to Cloud Tasks by updating the\nbundled services SDK. This method lets you upgrade your app without needing to\nmodify your application code. For more information on how to migrate, see the\npush queues migration guide\n(Preview).\nApp Engine standard environment Java\nFeature\nYou can migrate your App Engine push queues to Cloud Tasks by updating the\nbundled services SDK. This method lets you upgrade your app without needing to\nmodify your application code. For more information on how to migrate, see the\npush queues migration guide\n(Preview).\nApp Engine standard environment Python\nFeature\nYou can migrate your App Engine push queues to Cloud Tasks by updating the\nbundled services SDK. This method lets you upgrade your app without needing to\nmodify your application code. For more information on how to migrate, see the\npush queues migration guide\n(Preview).\nBatch\nDeprecated\nThe…",
@@ -239,15 +248,6 @@
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-08-13T07:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "August 12, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#August_12_2026",
-        "summary": "Apigee API hub\nFeature\nConfigure and deploy MCP servers with gcloud CLI\nYou can use the gcloud apihub locations configure-and-deploy-server command to configure and deploy API hub Model Context Protocol (MCP) servers to an attached Apigee runtime.\nDefine MCP tools inline or by referencing a YAML or JSON specification file to expose your API hub operations for agent integrations.\nFor more information, see gcloud CLI for API hub.\nBigQuery\nAnnouncement\nTable Explorer behavior has moved to the Reference panel. Table Explorer\nhas been deprecated. For more information, see \"Use the Reference panel\" in\nRun a query.\nBigtable\nFeature\nYou can use parameterized views in Bigtable to dynamically filter data ranges\nfor logical views based on application context and mitigate SQL injection risks.\nThis feature is generally available (GA).\nFor more information, see Parameterized views overview.\nFeature\nYou can use the CLUSTER_ATTRIBUTE() filter to restrict continuous materialized\nview processing to specific clusters. This function lets you isolate views\nwithin an instance. This feature is generally available (GA).\nFor more information, see Non-deterministic SQL functions.\nCloud Trace\nFeature\nThe following remote MCP servers automatically generate a trace span for\ntools/call operations. These spans can help you understand the behavior of\nyour agentic applications. For more information, see\nInvestigate MCP calls using Trace.\nCloud Billing\nPersonalized Service Health\nFeature\nGoogle Cloud…",
-        "image": null,
-        "source": "Google Cloud Platform (GCP) - Release notes",
-        "published": "2026-08-12T07:00:00.000Z",
         "isNew": false
       }
     ],

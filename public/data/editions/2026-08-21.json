@@ -1,15 +1,15 @@
 {
-  "date": "2026-08-14",
-  "generatedAt": "2026-08-14T18:06:13.454Z",
+  "date": "2026-08-21",
+  "generatedAt": "2026-08-21T05:47:46.659Z",
   "totalArticles": 72,
   "ticker": [
     {
       "label": "Kubernetes",
-      "version": "v1.36.3"
+      "version": "v1.36.4"
     },
     {
       "label": "Terraform",
-      "version": "v1.15.8"
+      "version": "v1.15.9"
     },
     {
       "label": "Python",
@@ -17,11 +17,11 @@
     },
     {
       "label": "Go",
-      "version": "go1.26.6"
+      "version": "go1.27.0"
     },
     {
       "label": "Rust",
-      "version": "1.97.1"
+      "version": "1.98.0"
     },
     {
       "label": "Node.js",
@@ -30,6 +30,24 @@
   ],
   "topics": {
     "aws": [
+      {
+        "title": "In the works: AWS Builder Lofts in Berlin, Hyderabad, and São Paulo",
+        "link": "https://aws.amazon.com/blogs/aws/in-the-works-aws-builder-lofts-in-berlin-hyderabad-and-sao-paulo/",
+        "summary": "Each location will be a permanent community space to offer free workshops, networking events, pitch nights, content creation spaces, collaboration/co-working areas, and event hosting for developers, students, or tech professionals who want to walk through the doors.",
+        "image": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2026/08/15/2026-builder-loft-sf-1-year.jpg",
+        "source": "AWS News Blog",
+        "published": "2026-08-18T13:58:41.000Z",
+        "isNew": false
+      },
+      {
+        "title": "AWS Weekly Roundup: EC2 application status checks, IAM role manager, OpenAI Daybreak on Bedrock, and more (August 17, 2026)",
+        "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-ec2-application-status-checks-iam-role-manager-openai-daybreak-on-bedrock-and-more-august-17-2026/",
+        "summary": "Last week, AWS contributors joined the OpenSearch and Valkey communities at Open Source Summit Korea 2026 and MCP DevSummit Seoul 2026 to meet open source developers and contributors. At the four-day event, community leaders and users of these Linux Foundation open source projects gathered to share knowledge, collaborate on solutions, and push the projects forward. […]",
+        "image": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2026/08/15/2026-osss-korea-opensearch-valkey.jpg",
+        "source": "AWS News Blog",
+        "published": "2026-08-17T16:02:36.000Z",
+        "isNew": false
+      },
       {
         "title": "AWS Weekly Roundup: AWS Heroes Summit, Web Search on Amazon Bedrock, Dogwood, Kiro Crew, and more (August 10, 2026)",
         "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-aws-heroes-summit-web-search-on-amazon-bedrock-dogwood-kiro-crew-and-more-august-10-2026/",
@@ -83,27 +101,18 @@
         "source": "AWS News Blog",
         "published": "2026-07-20T16:37:34.000Z",
         "isNew": false
-      },
-      {
-        "title": "Amazon SQS turns 20: Two decades of reliable messaging at scale",
-        "link": "https://aws.amazon.com/blogs/aws/amazon-sqs-turns-20-two-decades-of-reliable-messaging-at-scale/",
-        "summary": "On July 13, 2006, we launched Amazon Simple Queue Service (Amazon SQS) as one of the first three services available to customers, alongside Amazon EC2 and Amazon S3. We had learned firsthand that distributed systems need a reliable way to pass messages between components without creating tight dependencies. If one service called another directly and […]",
-        "image": null,
-        "source": "AWS News Blog",
-        "published": "2026-07-13T18:13:57.000Z",
-        "isNew": false
-      },
-      {
-        "title": "AWS Weekly Roundup: AWS Builder Center at 1 year, Network Scanning in Security Hub, Loom for AWS, and more (July 13, 2026)",
-        "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-aws-builder-center-at-one-year-network-scanning-in-security-hub-loom-for-aws-and-more-july-13-2026/",
-        "summary": "AWS Builder Center turned one year old last week. Launched on July 9, 2025, the platform has grown from a community hub with Wishlist voting, community profiles, and a toolbox into a full ecosystem with sandbox environments, workshops, Spaces, and a Builders’ Library. To mark the anniversary, Rick Suttles published a full feature timeline covering […]",
-        "image": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2026/07/13/1215504668303320.png",
-        "source": "AWS News Blog",
-        "published": "2026-07-13T16:18:20.000Z",
-        "isNew": false
       }
     ],
     "azure": [
+      {
+        "title": "Microsoft named a Leader in the 2026 Gartner® Magic Quadrant™ for Cloud-Native Application Platforms",
+        "link": "https://azure.microsoft.com/en-us/blog/microsoft-named-a-leader-in-the-2026-gartner-magic-quadrant-for-cloud-native-application-platforms/",
+        "summary": "Cloud-native platforms are becoming the foundation for AI transformation. Discover how Microsoft's Azure application platform helps organizations modernize, innovate, and operate AI-powered applications at scale.\nThe post Microsoft named a Leader in the 2026 Gartner® Magic Quadrant™ for Cloud-Native Application Platforms  appeared first on Microsoft Azure Blog.",
+        "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/08/MQ-Cloud-Native-App-Platform-Blog-Thumbnail-2-1024x1024.webp",
+        "source": "Microsoft Azure Blog",
+        "published": "2026-08-17T15:00:00.000Z",
+        "isNew": false
+      },
       {
         "title": "The Economics of Agent Optimization: From pilots to measurable returns",
         "link": "https://azure.microsoft.com/en-us/blog/the-economics-of-agent-optimization-from-pilots-to-measurable-returns/",
@@ -166,22 +175,67 @@
         "source": "Microsoft Azure Blog",
         "published": "2026-07-08T16:00:00.000Z",
         "isNew": false
-      },
-      {
-        "title": "External key management for Azure Managed HSM is now in public preview",
-        "link": "https://azure.microsoft.com/en-us/blog/external-key-management-for-azure-managed-hsm-is-now-in-public-preview/",
-        "summary": "Azure Key Vault Managed Hardware Security Module (HSM) provides strong sovereignty over your encryption keys. Keys are generated and stored in a single-tenant, FIPS 140-3 Level 3 HSM that only you control: Microsoft has no access to your key material, and you govern who can use each key.\nThe post External key management for Azure Managed HSM is now in public preview appeared first on Microsoft Azure Blog.",
-        "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/07/Azure-AIPlatform-Light-3-scaled.jpg",
-        "source": "Microsoft Azure Blog",
-        "published": "2026-07-07T16:00:00.000Z",
-        "isNew": false
       }
     ],
     "gcp": [
       {
+        "title": "August 20, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#August_20_2026",
+        "summary": "App Engine flexible environment Java\nFeature\nStarting from August 2026, to provide modern security patches and support for MySQL 8.4 and later, the App Engine flexible environment uses Cloud SQL Auth Proxy v2 as the built-in sidecar container for connections to Cloud SQL. To use the latest Cloud SQL Auth Proxy container immediately, restart your VMs or deploy a new version of your application.\nApp Engine flexible environment Ruby\nFeature\nStarting from August 2026, to provide modern security patches and support for MySQL 8.4 and later, the App Engine flexible environment uses Cloud SQL Auth Proxy v2 as the built-in sidecar container for connections to Cloud SQL. To use the latest Cloud SQL Auth Proxy container immediately, restart your VMs or deploy a new version of your application.\nApp Engine flexible environment custom runtimes\nFeature\nStarting from August 2026, to provide modern security patches and support for MySQL 8.4 and later, the App Engine flexible environment uses Cloud SQL Auth Proxy v2 as the built-in sidecar container for connections to Cloud SQL. To use the latest Cloud SQL Auth Proxy container immediately, restart your VMs or deploy a new version of your application.\nBigQuery\nFeature\nBigQuery supports the following table-valued functions in the query editor and\nas part of\nconversational analytics\nto help you analyze your time series data:\nML.TREND:\nidentify the directional trajectory of your data.\nML.SEASONALITY:\nidentify repeating patterns in your data.…",
+        "image": null,
+        "source": "Google Cloud Platform (GCP) - Release notes",
+        "published": "2026-08-20T07:00:00.000Z",
+        "isNew": true
+      },
+      {
+        "title": "August 19, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#August_19_2026",
+        "summary": "App Engine flexible environment Go\nFeature\nSupport for the Go 1.27 runtime is in\nPreview.\nFeature\nStarting from Go runtime version 1.26 and later, the lifecycle support dates\nalign more closely with the\nGo community release cycle. For more\ninformation, see\nRuntime support schedule.\nApp Engine standard environment Go\nFeature\nSupport for the Go 1.27 runtime is in\nPreview.\nFeature\nStarting from Go runtime version 1.26 and later, the lifecycle support dates\nalign more closely with the\nGo community release cycle. For more\ninformation, see\nRuntime support schedule.\nFeature\nYou can migrate your App Engine push queues to Cloud Tasks by updating the\nbundled services SDK. This method lets you upgrade your app without needing to\nmodify your application code. For more information on how to migrate, see the\npush queues migration guide\n(Preview).\nApp Engine standard environment Java\nFeature\nYou can migrate your App Engine push queues to Cloud Tasks by updating the\nbundled services SDK. This method lets you upgrade your app without needing to\nmodify your application code. For more information on how to migrate, see the\npush queues migration guide\n(Preview).\nApp Engine standard environment Python\nFeature\nYou can migrate your App Engine push queues to Cloud Tasks by updating the\nbundled services SDK. This method lets you upgrade your app without needing to\nmodify your application code. For more information on how to migrate, see the\npush queues migration guide\n(Preview).\nBatch\nDeprecated\nThe…",
+        "image": null,
+        "source": "Google Cloud Platform (GCP) - Release notes",
+        "published": "2026-08-19T07:00:00.000Z",
+        "isNew": false
+      },
+      {
+        "title": "August 18, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#August_18_2026",
+        "summary": "App Engine standard environment Java\nFeature\nSupport for migrating from the App Engine Images service to\nCloud Run is in\nGeneral Availability (GA).\nApp Engine standard environment Python\nFeature\nSupport for migrating from the App Engine Images service to\nCloud Run is in\nGeneral Availability (GA).\nBigQuery\nFeature\nThe default per-project limit of user-specific\nreservation assignments\nhas been increased from 10 to 100.\nCloud SDK\nBreaking\n581.0.0 (2026-08-18)\nBreaking Changes\n(Cloud Services) Removed gcloud beta services mcp enable, gcloud beta services mcp disable, and gcloud beta services mcp list as MCP enablement is no longer required and they have been functioning as no-ops.\nAI Platform\nAdded gcloud beta ai semantic-governance-policy-engine deprovision\ncommand to tear down a semantic governance policy engine, including its\ntenant project, GKE cluster, and PSC service attachments.\n\n\nPromoted gcloud ai semantic-governance-policies (create, describe,\nupdate, delete, list) and gcloud ai\nsemantic-governance-policy-engine (describe, update, deprovision)\ncommands from beta to GA.\n\n\nBigQuery\nAdded fields precedence and condition to the commands bq ls\n--reservation_assignment and bq show --reservation_assignment output.\nAdded the new AUTOMATIC_MATERIALIZED_VIEW_REFRESH job type for users to create reservation assignments with.\nCloud Auth\nEnabled Enterprise Certificate Proxy (ECP) HTTP Proxy by default for context-aware mTLS requests.\nCloud Bigtable\nRebuilt cbt cli with newer…",
+        "image": null,
+        "source": "Google Cloud Platform (GCP) - Release notes",
+        "published": "2026-08-18T07:00:00.000Z",
+        "isNew": false
+      },
+      {
+        "title": "August 17, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#August_17_2026",
+        "summary": "AlloyDB for PostgreSQL\nFeature\nYou can now use the\nModel Context Protocol (MCP) Toolbox for Databases\nto access AlloyDB observability features and advanced query insights directly in\nyour IDE.\nAssured Workloads\nFeature\nThe\nData Boundary for Canada Controlled Goods Program (CGP)\ncontrol package is now generally available.\nBackup and DR\nAnnouncement\nBeginning November 1, 2026, Backup and DR Service will automatically apply a project-level lien to any project containing a backup vault with backups protected by enforced retention. To secure project liens against unauthorized removal and manage lien deletion securely, you can configure multi-party approval using Privileged Access Manager (PAM).\nFor more information, see Protect project liens by using Privileged Access Manager and Protect projects with liens.\nCloud CDN\nFeature\nCloud CDN supports the targeted CDN-Cache-Control HTTP response\nheader RFC 9213. You can use\nthis header to specify caching directives specifically for Cloud CDN edge\ncaches without affecting browser-level caching.\nFor details, see Cache control header precedence.\nCloud Database Migration Service\nAnnouncement\nDatabase Migration Service for MySQL homogeneous migrations now supports MySQL version 9.7.\nFor more information, see\n\nSupported source and destination databases.\nCloud NGFW\nFeature\nSupport for the Advanced malware sandbox (WildFire) service is now restored.\nYou can now use Advanced malware sandbox to perform deep inspection of\nnetwork-routed file…",
+        "image": null,
+        "source": "Google Cloud Platform (GCP) - Release notes",
+        "published": "2026-08-17T07:00:00.000Z",
+        "isNew": false
+      },
+      {
+        "title": "August 16, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#August_16_2026",
+        "summary": "Agent Platform Workbench\nSecurity\nUpdated the bundled Ruby gems rexml and net-imap to patched versions, addressing known vulnerabilities.\nChange\n20260816-2330-rc0 Release\nSecurity\nUpdated aiohttp, joblib and cryptography to patched versions, addressing known vulnerabilities including CVE-2022-21797 and CVE-2025-69223.\nChange\nInstalled latest packages from upstream dependencies.\nChange\nUpdated the CUDA base image from 12.8.1 to 12.9.2 (CUDA 12.9, cuDNN 9.10). This is a minor CUDA 12 update, binary compatible with the previous image, and also addresses known vulnerabilities in a bundled NVIDIA profiler component.\nSecurity\nUpdated the bundled Ruby gems rexml and net-imap to patched versions, addressing known vulnerabilities.\nDeprecated\nRemoved the JupyterLab 3 environment from the Python 3.12 custom container; JupyterLab 4 is now the only JupyterLab environment and is always used. The Python 3.10 images are unaffected.\nChange\n20260816-2330-rc0 Release\nSecurity\nUpdated aiohttp, joblib and cryptography to patched versions, addressing known vulnerabilities including CVE-2022-21797 and CVE-2025-69223.\nChange\nInstalled latest packages from upstream dependencies.\nChange\n20260816-2230-rc0 Release\nChange\nInstalled latest packages from upstream dependencies.\nChange\n20260816-2230-rc0 Release\nChange\nInstalled latest packages from upstream dependencies.\nChange\n20260816-2130-rc0 Release\nChange\nInstalled latest packages from upstream dependencies.\nChange\nInstalled latest packages from…",
+        "image": null,
+        "source": "Google Cloud Platform (GCP) - Release notes",
+        "published": "2026-08-16T07:00:00.000Z",
+        "isNew": false
+      },
+      {
+        "title": "August 15, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#August_15_2026",
+        "summary": "Gemini Enterprise Agent Platform\nFeature\nMonitor semantic governance policies with built-in metrics (Preview)\nBuilt-in Cloud Monitoring metrics for the semantic governance policy engine\nare available in Preview. You can now observe request throughput, evaluation\ncounts, latencies, verdict distribution (ALLOW versus DENY), and LLM\ntoken consumption for the policy engine directly in\nMetrics Explorer, query them through\nthe Cloud Monitoring v3 API and PromQL, and use them in alerting policies.\nFor more information, see Monitor semantic governance\npolicies.\nFeature\nAlphaFold 3 is generally available\nAlphaFold 3 is now generally available (GA) and available for approved users for\ncommercial research use.\nAlphaFold 3 Google DeepMind's and Isomorphic Labs' deep learning model to\npredict the 3D structures and interactions of proteins, DNA, RNA, ligands, and\nions. For more information, see\nAlphaFold 3.\nGoogle SecOps SOAR\nAnnouncement\nRelease 6.3.97 is now\navailable for all regions.\nSecure Source Manager\nFeature\nThe Secure Source Manager Model Context Protocol (MCP) server is available in\nPreview. You can use the\nSecure Source Manager MCP server to connect AI tools and coding assistants directly\nto your repositories, branch rules, pull requests, and issues.\nFor more information, see the\n\nSecure Source Manager MCP reference.",
+        "image": null,
+        "source": "Google Cloud Platform (GCP) - Release notes",
+        "published": "2026-08-15T07:00:00.000Z",
+        "isNew": false
+      },
+      {
         "title": "August 14, 2026",
         "link": "https://docs.cloud.google.com/release-notes#August_14_2026",
-        "summary": "Carbon Footprint\nAnnouncement\nAs detailed in our 2026 Environmental Report (p. 22), Google is now using Granular Certificates purchased from the marketplace to strategically match more of our load on an hourly basis. To accurately incorporate these certificates into the Cloud customers' allocation of carbon intensity calculations, the July 2026 semi-annual methodology refresh will be delayed by one month. We will provide further updates once the revised data is available.\nCortex Framework\nAnnouncement\nRelease 7.0.3\nFixed\nResolved an issue where SapBdcProductBuilder incorrectly enforced SAP-versioned sections (ecc, s4, common) in table_settings.\nIdentity and Access Management\nFeature\nYou can use custom constraints with Organization Policy to provide more\ngranular control over specific fields for Agent Identity resources, such as\nagentidentity.googleapis.com/AuthProvider. For more information, see\nUse custom organization policies for Agent Identity.\nThis feature is in\nGA.",
+        "summary": "App Engine flexible environment .NET\nFeature\nTo improve security, starting in August 2026, App Engine opts your application into TLS version 1.2 and later. You can opt out until the end of August 2026. Starting in September 2026, App Engine might permanently block insecure traffic with TLS version 1.1 and earlier. For more information, see Secure minimum TLS.\nApp Engine flexible environment Go\nFeature\nTo improve security, starting in August 2026, App Engine opts your application into TLS version 1.2 and later. You can opt out until the end of August 2026. Starting in September 2026, App Engine might permanently block insecure traffic with TLS version 1.1 and earlier. For more information, see Secure minimum TLS.\nApp Engine flexible environment Java\nFeature\nTo improve security, starting in August 2026, App Engine opts your application into TLS version 1.2 and later. You can opt out until the end of August 2026. Starting in September 2026, App Engine might permanently block insecure traffic with TLS version 1.1 and earlier. For more information, see Secure minimum TLS.\nApp Engine flexible environment Node.js\nFeature\nTo improve security, starting in August 2026, App Engine opts your application into TLS version 1.2 and later. You can opt out until the end of August 2026. Starting in September 2026, App Engine might permanently block insecure traffic with TLS version 1.1 and earlier. For more information, see Secure minimum TLS.\nApp Engine flexible environment PHP\nFeature\nTo…",
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-08-14T07:00:00.000Z",
@@ -194,60 +248,6 @@
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-08-13T07:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "August 12, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#August_12_2026",
-        "summary": "Apigee API hub\nFeature\nConfigure and deploy MCP servers with gcloud CLI\nYou can use the gcloud apihub locations configure-and-deploy-server command to configure and deploy API hub Model Context Protocol (MCP) servers to an attached Apigee runtime.\nDefine MCP tools inline or by referencing a YAML or JSON specification file to expose your API hub operations for agent integrations.\nFor more information, see gcloud CLI for API hub.\nBigtable\nFeature\nYou can use parameterized views in Bigtable to dynamically filter data ranges\nfor logical views based on application context and mitigate SQL injection risks.\nThis feature is generally available (GA).\nFor more information, see Parameterized views overview.\nFeature\nYou can use the CLUSTER_ATTRIBUTE() filter to restrict continuous materialized\nview processing to specific clusters. This function lets you isolate views\nwithin an instance. This feature is generally available (GA).\nFor more information, see Non-deterministic SQL functions.\nCloud Trace\nFeature\nThe following remote MCP servers automatically generate a trace span for\ntools/call operations. These spans can help you understand the behavior of\nyour agentic applications. For more information, see\nInvestigate MCP calls using Trace.\nCloud Billing\nPersonalized Service Health\nFeature\nGoogle Cloud Observability automatically generates trace exemplars for charts on custom\ndashboards that display the result of a SQL query when the query runs against\nyour trace data and satisfies some…",
-        "image": null,
-        "source": "Google Cloud Platform (GCP) - Release notes",
-        "published": "2026-08-12T07:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "August 11, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#August_11_2026",
-        "summary": "Apigee hybrid\nAnnouncement\nv1.16.9\nOn August 11, 2026 we released an updated version of the Apigee hybrid software, v1.16.9.\nFor information on upgrading, see Upgrading Apigee hybrid to version v1.16.9.\nFor information on new installations, see The big picture.\nNote: This is a patch release: The container images used in patch releases are integrated with the Apigee hybrid Helm charts. Upgrading to a patch via the Helm chart automatically updates the images. No manual image changes are typically needed. For information on container image support in Apigee hybrid releases, see Apigee release process.\nFixed\nFixed in this release\nBug ID\nDescription\n\n\n\n\n514973778\nFixed an issue where the SanitizeUserPrompt and SanitizeModelResponse policies failed to tolerate unknown fields while parsing responses from the Model Armor Service.\n\n\n543171828\nFixed an issue where the apigee-logger DaemonSet failed to schedule on cluster nodes without custom node labels due to a default logger.nodeSelector in the Helm chart.\n\n\n\nSecurity\nVarious security and CVE fixes are included in this release.\nCloud Run\nFeature\nCloud Run NVIDIA L4 GPU driver version 580.x.x is available for services, jobs, and worker pools.\nCompute Engine\nFeature\nGenerally available: Compute flexible committed use discounts (CUDs) are\navailable for G2 and G4 GPU accelerator-optimized machine series. The supported\nresources include vCPUs, memory, Local SSD disks, and GPUs.\nCompute flexible CUDs are spend-based CUDs that apply to…",
-        "image": null,
-        "source": "Google Cloud Platform (GCP) - Release notes",
-        "published": "2026-08-11T07:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "August 10, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#August_10_2026",
-        "summary": "Bigtable\nLibraries\n\n\nGo\n1.52.0 (2026-08-03)\nFeatures\nbigtable: Add AFE picker (Simple / LeastInFlight / LeastLatency) (#20204) (bcbf714)\nbigtable: Add ClientConfig.DisableSession to opt out of session backend (#20297) (7ee5e44)\nbigtable: Add getClientConfigDirectAccessChecker for session pools (#20209) (3b8d30a)\nbigtable: Add NoOpChannelPrimer for session channel pools (#20208) (d055a8a)\nbigtable: Add per-AFE sessionList for the two-tier session pool (#20224) (dbf0c3f)\nbigtable: Add protoRowToRow conversion helper for TableShim (#20257) (1297143)\nbigtable: Add Session debug surface (observability fields + methods) (#20211) (d8d3e16)\nbigtable: Add Session lifecycle (Start, Close, ForceClose, readLoop, heartBeatLoop) (#20215) (b9e53c6)\nbigtable: Add Session struct + state machine (#20117) (09acbb3)\nbigtable: Add session.Config.EnableDebug to gate sessionz debug state (#20247) (ce74c31)\nbigtable: Add SessionClient + SessionTable + lazyPool (#20228) (ab2c96c)\nbigtable: Add SessionPoolImpl (two-tier pool + scaling + debug) (#20225) (683eda8)\nbigtable: Rename session pool display to <resource-id>-<PERM> (#20248) (35e146e)\nbigtable: Route Client.Open()-returned *Table through the Diverter (#20273) (2b81c7d)\nbigtable: State-based classification for abnormal session close (#20243) (f2905b7)\nbigtable: TableShim fallback to classic on session UNIMPLEMENTED (#20269) (36540af)\nbigtable: TTL-on-idle cache for per-resource session.TableAPI (#20263) (00b2a49)\nbigtable: Wire Diverter on…",
-        "image": null,
-        "source": "Google Cloud Platform (GCP) - Release notes",
-        "published": "2026-08-10T07:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "August 09, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#August_09_2026",
-        "summary": "Agent Platform Workbench\nChange\nInstalled latest packages from upstream dependencies.\nChange\n20260809-2330-rc0 Release\nChange\nInstalled latest packages from upstream dependencies.\nChange\n20260809-2330-rc0 Release\nFixed\nFixed the Git panel's grayed out buttons which were disabled due to an issue with the Jupyter Lab's Git plugin introduced in version 0.54.0.\nChange\n20260809-2230-rc0 Release\nChange\nInstalled latest packages from upstream dependencies.\nFixed\nFixed the Git panel's grayed out buttons which were disabled due to an issue with the Jupyter Lab's Git plugin introduced in version 0.54.0.\nChange\n20260809-2230-rc0 Release\nChange\nInstalled latest packages from upstream dependencies.\nChange\n20260809-2130-rc0 Release\nChange\nUpdated the NVIDIA GPU driver on Workbench Debian 12 images from 580.65.06 to 580.126.20 for compatibility with the Debian 12 6.1.0-52 kernel.\nChange\nInstalled latest packages from upstream dependencies.\nFixed\nFixed the Git panel's grayed out buttons which were disabled due to an issue with the Jupyter Lab's Git plugin introduced in version 0.54.0.\nGoogle SecOps\nFeature\nUpdated rich-text editor\nUpgraded the rich-text editor across Google SecOps, including the Cases Wall, \nUse Case Upload dialog, Report Template dialog, and Dashboard Editor widget.\nKey changes include:\nSimplified typography: Choose font sizes using semantic options (Small, \nNormal, Large, Huge). Legacy font sizes on existing text are preserved.\nStreamlined tables: You can insert or remove…",
-        "image": null,
-        "source": "Google Cloud Platform (GCP) - Release notes",
-        "published": "2026-08-09T07:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "August 08, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#August_08_2026",
-        "summary": "Google SecOps SOAR\nAnnouncement\nRelease 6.3.96 is now\navailable for all regions.",
-        "image": null,
-        "source": "Google Cloud Platform (GCP) - Release notes",
-        "published": "2026-08-08T07:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "August 07, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#August_07_2026",
-        "summary": "AlloyDB for PostgreSQL\nFeature\nYou can now sync tables from BigQuery into your AlloyDB instance, either as a\none-time operation or on a periodic schedule. This feature (in Preview)\nlets you enable operational analytics that benefit from low-latency,\ntransactional access to your data lake.\nFor more information, see Sync BigQuery data to AlloyDB.\nFeature\nAlloyDB integration with BigQuery lets you connect your operational and\nanalytical data through real-time data access (lakehouse federation), periodic\ndata synchronization, and one-time table syncs. These features are in Preview.\nFor more information, see Choose how to access BigQuery data from AlloyDB.\nCloud Billing\nFeature\nNew filter and group-by option available in Cloud Billing Reports\nIn Billing Reports, Cloud Billing has added the\nOriginating products\nfilter and\nGroup by\nto provide additional options that let you analyze and understand your costs.\nOriginating products are Google Cloud products that cause usage in\nanother product. For example, Gemini Enterprise is an\noriginating product when it causes usage in the Gemini Enterprise\napp.\nTo help you track and analyze your AI spend, the Originating products\ndimension is used in the following ways:\nYou can use the Originating products filter and group by option to\nconfigure your Cloud Billing report to track and analyze your\nGemini Enterprise subscription and consumption costs.\n\n\nThe Originating products dimension supports a new\npreset report\nfor quick report configuration,…",
-        "image": null,
-        "source": "Google Cloud Platform (GCP) - Release notes",
-        "published": "2026-08-07T07:00:00.000Z",
         "isNew": false
       }
     ],
@@ -327,6 +327,24 @@
     ],
     "terraform": [
       {
+        "title": "v1.15.9",
+        "link": "https://github.com/hashicorp/terraform/releases/tag/v1.15.9",
+        "summary": "1.15.9 (August 19, 2026)\nBUG FIXES:\nvalidate: Child module validation has been fixed and will now raise errors or warning diagnostics for invalid blocks. (list, import, backend, and cloud) (#38994)\nNOTES:\nUpdate go-slug to v0.18.3 to mitigate CVE-2026-14978, which is a Unicode normalization issue that could lead to files not being correctly excluded via .terraformignore from upload to a Terraform Enterprise or HCP Terraform during a run (#39036)",
+        "image": "https://avatars.githubusercontent.com/u/82989873?s=60&v=4",
+        "source": "Release notes from terraform",
+        "published": "2026-08-19T14:29:32.000Z",
+        "isNew": false
+      },
+      {
+        "title": "v1.16.0-rc2",
+        "link": "https://github.com/hashicorp/terraform/releases/tag/v1.16.0-rc2",
+        "summary": "1.16.0-rc2 (August 19, 2026)\nNEW FEATURES:\nTerraform now stores planned private data for providers, allowing provider-specific state to be preserved across plan and apply. (#37986)\nterraform_data: The new store block can hold ephemeral and sensitive values across plan and apply. (#38298)\nProviders can now use nested blocks as computed values (#38305)\nimport: import blocks inside modules are now supported. (#38352)\nTerraform is now available as a pre-built binary for Linux s390x (zLinux). (#38384)\nResource action triggers can now use on_failure modes of halt, taint, or continue. (#38722)\nENHANCEMENTS:\nstate show: The state show command can now produce machine-readable output when supplied with the -json flag (#23940)\nworkspace: The workspace list command can now produce machine-readable output when supplied with the -json flag (#38397)\ntest: Terraform now reports which resources were left behind when skip_cleanup is set. (#38449)\nstacks: Action configurations now have access to a caller symbol containing the object value of the calling resource. (#38668)\nActions can now use before_destroy and after_destroy events. (#38668)\ncloud: Terraform now displays a summary of policy evaluation outcomes for plan and apply runs against HCP Terraform. (#38715)\npolicy: Terraform now resolves policy plugin credentials from the configured cloud or remote backend during init, plan, and apply, rather than requiring the plugin to read credentials itself. (#38716)\ngraph: The terraform graph…",
+        "image": "https://avatars.githubusercontent.com/u/82989873?s=60&v=4",
+        "source": "Release notes from terraform",
+        "published": "2026-08-19T12:08:45.000Z",
+        "isNew": false
+      },
+      {
         "title": "v1.16.0-rc1",
         "link": "https://github.com/hashicorp/terraform/releases/tag/v1.16.0-rc1",
         "summary": "1.16.0-rc1 (August 12, 2026)\nNEW FEATURES:\nTerraform now stores planned private data for providers, allowing provider-specific state to be preserved across plan and apply. (#37986)\nterraform_data: The new store block can hold ephemeral and sensitive values across plan and apply. (#38298)\nProviders can now use nested blocks as computed values (#38305)\nimport: import blocks inside modules are now supported. (#38352)\nTerraform is now available as a pre-built binary for Linux s390x (zLinux). (#38384)\nResource action triggers can now use on_failure modes of halt, taint, or continue. (#38722)\nENHANCEMENTS:\nstate show: The state show command can now produce machine-readable output when supplied with the -json flag (#23940)\nworkspace: The workspace list command can now produce machine-readable output when supplied with the -json flag (#38397)\ntest: Terraform now reports which resources were left behind when skip_cleanup is set. (#38449)\nstacks: Action configurations now have access to a caller symbol containing the object value of the calling resource. (#38668)\nActions can now use before_destroy and after_destroy events. (#38668)\ncloud: Terraform now displays a summary of policy evaluation outcomes for plan and apply runs against HCP Terraform. (#38715)\npolicy: Terraform now resolves policy plugin credentials from the configured cloud or remote backend during init, plan, and apply, rather than requiring the plugin to read credentials itself. (#38716)\ngraph: The terraform graph…",
@@ -379,27 +397,18 @@
         "source": "Release notes from terraform",
         "published": "2026-07-15T12:44:36.000Z",
         "isNew": false
-      },
-      {
-        "title": "v1.15.8",
-        "link": "https://github.com/hashicorp/terraform/releases/tag/v1.15.8",
-        "summary": "1.15.8 (July 8, 2026)\nBUG FIXES:\nFix terraform init error when installing providers sourced from a service-discovery alias advertised by the configured backend (such as localterraform.com)\nNOTES:\ncommand/init: Provider installation was changed to enable future enhancements in the area. This effectively reverses the log message changes from v1.15. initializing_provider_plugin_message is being re-introduced to replace the short-lived two message types initializing_provider_plugin_from_config_message & initializing_provider_plugin_from_state_message. The change should not have any significant end-user impact aside from the command output. (#38838)\ncommand/init: Provider installation was changed to enable future enhancements in the area. This partially reverses the init event order changes from v1.15; module installation will now occur after the backend is initialized. The change should not have any significant end-user impact aside from the command output. (#38838)",
-        "image": "https://avatars.githubusercontent.com/u/82989873?s=60&v=4",
-        "source": "Release notes from terraform",
-        "published": "2026-07-08T17:45:09.000Z",
-        "isNew": false
-      },
-      {
-        "title": "v1.16.0-alpha20260708",
-        "link": "https://github.com/hashicorp/terraform/releases/tag/v1.16.0-alpha20260708",
-        "summary": "1.16.0-alpha20260708 (July 08, 2026)\nNEW FEATURES:\nStore PlannedPrivate data for providers (#37986)\nNew store block in terraform_data that can handle ephemeral and sensitive values (#38298)\nProviders can now use nested blocks as computed values (#38305)\nimport: add support for import blocks inside modules (#38352)\nWe now produce builds for Linux s390x (zLinux) (#38384)\nworkspace: The workspace list command can now produce machine-readable output when supplied with the -json flag (#38397)\nResource action triggers can now use on_failure modes of halt, taint, or continue (#38722)\nENHANCEMENTS:\nfeat(cli): terraform state show accepts a -json flag (#23940)\nShow info when resources are left behind due to skip_cleanup (#38449)\nAction configuration now has a new caller symbol which contains the object value from the calling resource. (#38668)\nActions can now use before_destroy and after_destroy events (#38668)\ncloud: Render a summary of Terraform policy evaluation outcomes for plan and apply runs against HCP Terraform (#38715)\npolicy: Resolve the policy plugin entitlement (host, token, organization) from the configured cloud/remote backend for init, plan, and apply, instead of the plugin reading credentials itself (#38716)\nThe 'terraform graph' command now accepts a -format flag, and can output graphs in Mermaid format (#38719)\nchild module outputs with unreferenced deprecated nested attributes no longer return deprecation warnings. (#38778)\nSupport destroy=false in resource…",
-        "image": "https://avatars.githubusercontent.com/u/82989873?s=60&v=4",
-        "source": "Release notes from terraform",
-        "published": "2026-07-08T09:19:38.000Z",
-        "isNew": false
       }
     ],
     "python": [
+      {
+        "title": "How AWS Powers PyPI and the PSF",
+        "link": "https://pyfound.blogspot.com/2026/08/how-aws-powers-pypi-and-psf.html",
+        "summary": "Written by Jacob Coffee, Director of Engineering at the Python Software Foundation\nWorking on infrastructure at the Python Software Foundation (PSF) as the Director of Engineering is a broad job with many hats. Python turns up everywhere. It's in healthcare systems and government agencies, in research labs and classrooms, in one-person side projects and in infrastructure at companies with six-figure headcounts. Somebody is using it to analyze a genome right now and somebody else is using it to automate a spreadsheet they hate arranging by hand. That range has always been the interesting part of the PSF's work, and it's only broadened in the last couple of years as AI continues to pull people from many disciplines into writing Python.\nAt the PSF we support and maintain the infrastructure behind PyPI, Python.org, PyCon US, CPython, and a growing number of community services. The majority of the PSF's infrastructure runs on AWS, and nearly all of that bill is covered by credits from the AWS Open Source Credits Program.\nThe shape of it\nPyPI takes over six billion requests a day and about thirteen billion counting file downloads. Package egress runs around 10 petabytes a day.\nAlmost none of that reaches AWS. Fastly serves it at the edge through their Fast Forward program at a hit ratio just under 99%, so only about one request in seventy makes it to origin. That caching is the core reason our AWS bill is not measured in the millions of dollars a year.\nWhat does reach us is the…",
+        "image": null,
+        "source": "Python Software Foundation News",
+        "published": "2026-08-19T12:53:50.845Z",
+        "isNew": false
+      },
       {
         "title": "Announcing the Packaging Council Election Candidates for 2026!",
         "link": "https://pyfound.blogspot.com/2026/08/announcing-packaging-council-election.html",
@@ -462,18 +471,18 @@
         "source": "Python Software Foundation News",
         "published": "2026-07-28T12:14:47.114Z",
         "isNew": false
-      },
-      {
-        "title": "Announcing Python Software Foundation Fellow Members for Q2 2026! 🎉",
-        "link": "https://pyfound.blogspot.com/2026/07/announcing-python-software-foundation.html",
-        "summary": "The PSF is pleased to announce its second batch of PSF Fellows for 2026. Let us welcome the new PSF Fellows for Q2! The following people continue to do amazing things for the Python community:\nAndy Terrel\nBlog\nJulius Nana Acheampong Boakye\nLinkedIn, X, GitHub, Website\nPetr Viktorin\nGitHub\nSayantika Banik\nGitHub, LinkedIn, Bluesky\nTakanori Suzuki\nGitHub, Website, LinkedIn, X, Untappd\nThank you for your continued contributions. We have added you to our Fellows Roster.\nThe above members help support the Python ecosystem by being phenomenal leaders, sustaining the growth of the Python scientific community, maintaining virtual Python communities, maintaining Python libraries, creating educational material, organizing Python events and conferences, starting Python communities in local regions, and overall being great mentors in our community. Each of them continues to help make Python more accessible around the world. To learn more about the new Fellow members, check out their links above.\nLet's continue recognizing Pythonistas all over the world for their impact on our community. The criteria for Fellow members is available on our PSF Fellow Membership page. If you would like to nominate someone to be a PSF Fellow, please send a description of their Python accomplishments and their email address to psf-fellow at python.org. We are accepting nominations for Quarter 3 of 2026 through August 20th, 2026.\nAre you a PSF Fellow and want to help the Work Group review nominations? Contact…",
-        "image": null,
-        "source": "Python Software Foundation News",
-        "published": "2026-07-27T13:28:06.258Z",
-        "isNew": false
       }
     ],
     "go": [
+      {
+        "title": "Go 1.27 is released",
+        "link": "https://go.dev/blog/go1.27",
+        "summary": "The Go Blog\nGo 1.27 is released\nToday the Go team is pleased to release Go 1.27. You can find its binary\narchives and installers on the download page.\nGo 1.27 brings major enhancements across the language, toolchain, runtime, and\nstandard library. Below are some of the key highlights.\nLanguage changes\nGo 1.27 introduces three notable updates to the\nlanguage specification.\nFirst, generic methods are now supported. For example, see\nmath/rand/v2.Rand:\n// Prior to Go 1.27, a separate method on Rand had to be added for each type\n// (unsigned integer methods omitted for brevity).\nfunc (r *Rand) Int32N(n int32) int32\nfunc (r *Rand) Int64N(n int64) int64\nfunc (r *Rand) IntN(n int) int\n\n// Go 1.27 adds a new generic method that works for all integer types.\nfunc (r *Rand) N[Int intType](n Int) Int\n\nSecond, a key in a struct literal may now be any\nvalid field selector for the struct type, allowing fields\nin nested or embedded structs to be initialized directly:\ntype Habitat struct {\n    Burrow string\n}\n\ntype Gopher struct {\n    Name    string\n    Habitat // Embedded struct.\n}\n\n// Go 1.27 allows using Burrow as a key directly.\ng := Gopher{\n    Name:   \"Gopher\",\n    Burrow: \"Burrow #42\",\n}\n\nFinally, function type inference has been generalized to apply in all assignment\ncontexts. Generic functions can now be used without explicit type arguments in\ncomposite literals, type conversions, and channel sends:\nfunc GenericFormatter[T any](v T) string {\n    return fmt.Sprintf(\"value: %v\", v)\n}…",
+        "image": null,
+        "source": "The Go Blog",
+        "published": "2026-08-19T00:00:00.000Z",
+        "isNew": false
+      },
       {
         "title": "Introducing the pkg.go.dev API",
         "link": "https://go.dev/blog/pkgsite-api",
@@ -536,18 +545,27 @@
         "source": "The Go Blog",
         "published": "2026-01-21T00:00:00.000Z",
         "isNew": false
-      },
-      {
-        "title": "Go’s Sweet 16",
-        "link": "https://go.dev/blog/16years",
-        "summary": "The Go Blog\nGo’s Sweet 16\nThis past Monday, November 10th, we celebrated the 16th anniversary of Go’s\nopen source\nrelease!\nWe released Go 1.24 in February and Go 1.25 in\nAugust, following our now well-established and dependable release\ncadence. Continuing our mission to build the most productive language platform\nfor building production systems, these releases included new APIs for building\nrobust and reliable software, significant advances in Go’s track record for\nbuilding secure software, and some serious under-the-hood improvements.\nMeanwhile, no one can ignore the seismic shifts in our industry brought by\ngenerative AI. The Go team is applying its thoughtful and uncompromising mindset\nto the problems and opportunities of this dynamic space, working to bring Go’s\nproduction-ready approach to building robust AI integrations, products, agents,\nand infrastructure.\nCore language and library improvements\nFirst released in Go 1.24 as an experiment and then graduated in Go 1.25, the\nnew testing/synctest package\nsignificantly simplifies writing tests for concurrent, asynchronous\ncode. Such code is particularly common in network services,\nand is traditionally very hard to test well. The synctest package works by\nvirtualizing time itself. It takes tests that used to be slow, flaky, or both,\nand makes them easy to rewrite into reliable and nearly instantaneous tests,\noften with just a couple extra lines of code. It’s also a great example of Go’s\nintegrated approach to software…",
-        "image": null,
-        "source": "The Go Blog",
-        "published": "2025-11-14T00:00:00.000Z",
-        "isNew": false
       }
     ],
     "rust": [
+      {
+        "title": "Supply chain attack on arrayref",
+        "link": "https://blog.rust-lang.org/2026/08/20/supply-chain-attack-on-arrayref/",
+        "summary": "What happened\nOn 2026-08-20 at 7:15 UTC we got a report that the proc-macro1 crate was malicious.\nThe Rust Security Response Team verified this to be the case: the crate had a build script that was downloading a malicious payload.\nThis crate proc-macro1 and others like it (proc-macro-en, aovine, arone, aronenao, tinymember) have been deleted.\nFurthermore, we discovered that the popular arrayref crate had recently been republished and made to depend on this crate, with the most recent versions yanked. We have removed the malicious version and unyanked the maliciously-yanked versions. Other crates by that author (internment, append-only-vec) were also affected so we have done the same for those, and locked the account as a precaution. We do not believe the author of arrayref to be acting maliciously, but their computer or credentials are likely compromised, and we are attempting to contact them.\n\nWhat you need to do\nWe recommend you check your local dependencies to ensure these crates were not pulled in.\nHere are the malicious versions that we deleted from crates.io:\nappend-only-vec@0.1.9: published at 2026-08-20T07:37:49Z, deleted at 2026-08-20T09:25:24Z. Online for 107 minutes.\narrayref@0.3.10: published at 2026-08-20T07:15:00Z, deleted at 2026-08-20T08:41:40Z. Online for 86 minutes.\ninternment@0.8.7: published at 2026-08-20T07:34:07Z, deleted at 2026-08-20T09:04:11Z. Online for 90 minutes.\nproc-macro1, proc-macro-en, aovine, arone, aronenao, tinymember (any versions).\nYou…",
+        "image": null,
+        "source": "Rust Blog",
+        "published": "2026-08-20T00:00:00.000Z",
+        "isNew": false
+      },
+      {
+        "title": "Announcing Rust 1.98.0",
+        "link": "https://blog.rust-lang.org/2026/08/20/Rust-1.98.0/",
+        "summary": "The Rust team is happy to announce a new version of Rust, 1.98.0. Rust is a programming language empowering everyone to build reliable and efficient software.\nIf you have a previous version of Rust installed via rustup, you can get 1.98.0 with:\n$ rustup update stable\nIf you don't have it already, you can get rustup from the appropriate page on our website, and check out the detailed release notes for 1.98.0.\nIf you'd like to help us out by testing future releases, you might consider updating locally to use the beta channel (rustup default beta) or the nightly channel (rustup default nightly). Please report any bugs you might come across!\n\nWhat's in 1.98.0 stable\n\nAlgebraic floating-point methods\nThe floating-point types f32 and f64 now have \"algebraic\" methods for addition, subtraction, multiplication, division, and remainder. These allow optimizations on these operations using the algebraic properties of real numbers, even though these properties do not hold with the limitations of floating-point representations. The exact set of optimizations is not specified, but may be similar to the kind of optimization you would see with the -ffast-math option in other languages.\nFor example, floating-point addition is not associative, so a sum like a + b + c + d must be evaluated in the left-associative order in which it is parsed, like ((a + b) + c) + d. If you write the same sum as a chain of algebraic_add calls, then the compiler is free to reorder it, perhaps like (a + b) + (c +…",
+        "image": null,
+        "source": "Rust Blog",
+        "published": "2026-08-20T00:00:00.000Z",
+        "isNew": false
+      },
       {
         "title": "Enabling the next iteration of the borrow checker on nightly",
         "link": "https://blog.rust-lang.org/2026/08/04/enabling-polonius-alpha-on-nightly/",
@@ -601,27 +619,18 @@
         "source": "Rust Blog",
         "published": "2026-06-25T00:00:00.000Z",
         "isNew": false
-      },
-      {
-        "title": "Launching the Rust Foundation Maintainers Fund",
-        "link": "https://blog.rust-lang.org/2026/06/02/launching-the-rust-foundation-maintainers-fund/",
-        "summary": "If you want to financially support the development of Rust, please consider donating to the Rust Foundation Maintainers Fund.\nA few months ago, the Rust Foundation announced the Rust Foundation Maintainers Fund (RFMF). Since then, the Rust Project has been closely cooperating with the Rust Foundation to determine how exactly this fund will be used to support Rust maintainers. This resulted in the acceptance of RFC #3931, which established the Funding team and the Maintainer in Residence program.\nThe primary goal of the Funding team is to ensure that maintainers who work on Rust and its toolchain will be properly supported. We will talk to Rust Project members to figure out their funding situation, meet Rust team leads to learn about their maintenance needs, approach companies to find opportunities for them to invest into Rust by supporting Rust maintainers, coordinate various funding efforts and ensure that the beneficial effects of funded maintenance are visibly promoted, with the help of the Content team.\nMaintainer in Residence is a new program dedicated to financially supporting existing Rust Project maintainers1. Each Maintainer in Residence will be funded to maintain one or more critical parts of Rust, such as the compiler, the standard library, Cargo, Clippy or one of many other projects that the Rust Project develops and maintains. The funded work will include activities such as performing large-scale refactorings, code reviews, unblocking new features, issue…",
-        "image": null,
-        "source": "Rust Blog",
-        "published": "2026-06-02T00:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "Announcing Rust 1.96.0",
-        "link": "https://blog.rust-lang.org/2026/05/28/Rust-1.96.0/",
-        "summary": "The Rust team is happy to announce a new version of Rust, 1.96.0. Rust is a programming language empowering everyone to build reliable and efficient software.\nIf you have a previous version of Rust installed via rustup, you can get 1.96.0 with:\n$ rustup update stable\nIf you don't have it already, you can get rustup from the appropriate page on our website, and check out the detailed release notes for 1.96.0.\nIf you'd like to help us out by testing future releases, you might consider updating locally to use the beta channel (rustup default beta) or the nightly channel (rustup default nightly). Please report any bugs you might come across!\n\nWhat's in 1.96.0 stable\n\nNew Range* types\nMany users expect Range and related core::ops types to be Copy, but this is not the case: they implement Iterator directly, and it is a footgun to implement both Iterator and Copy on the same type so this has been avoided. RFC3550 proposed a set of replacement range types that implement IntoIterator rather than Iterator, meaning they can also be Copy. The standard library portion of that RFC is now stable, introducing:\ncore::range::Range\ncore::range::RangeFrom\ncore::range::RangeInclusive\nAssociated iterators\nA Rust version in the near future will also add core::range::RangeFull and core::range::RangeTo as re-exports from core::ops (these do not implement Iterator and already implement Copy), and core::range::legacy::* as the new home for the current ranges. Range syntax like 0..1 still produces the…",
-        "image": null,
-        "source": "Rust Blog",
-        "published": "2026-05-28T00:00:00.000Z",
-        "isNew": false
       }
     ],
     "javascript": [
+      {
+        "title": "Node.js Interactive 2026: A Recap",
+        "link": "https://nodejs.org/en/blog/events/nodejs-interactive-2026",
+        "summary": "",
+        "image": null,
+        "source": "Node.js Blog",
+        "published": "2026-08-14T00:00:00.000Z",
+        "isNew": false
+      },
       {
         "title": "Node.js 26.7.0 (Current)",
         "link": "https://nodejs.org/en/blog/release/v26.7.0",
@@ -683,15 +692,6 @@
         "image": null,
         "source": "Node.js Blog",
         "published": "2026-07-29T00:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "Check out the New Node.js API Documentation Preview",
-        "link": "https://nodejs.org/en/blog/announcements/new-api-docs-beta",
-        "summary": "",
-        "image": null,
-        "source": "Node.js Blog",
-        "published": "2026-07-24T19:00:00.000Z",
         "isNew": false
       }
     ]
