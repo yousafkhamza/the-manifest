@@ -1,6 +1,6 @@
 {
   "date": "2026-08-22",
-  "generatedAt": "2026-08-22T05:42:35.152Z",
+  "generatedAt": "2026-08-22T11:37:38.609Z",
   "totalArticles": 72,
   "ticker": [
     {
@@ -37,7 +37,7 @@
         "image": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2026/07/21/2026-aws-glue-6.0-console.png",
         "source": "AWS News Blog",
         "published": "2026-08-21T18:53:26.000Z",
-        "isNew": true
+        "isNew": false
       },
       {
         "title": "In the works: AWS Builder Lofts in Berlin, Hyderabad, and São Paulo",
@@ -185,7 +185,7 @@
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-08-21T07:00:00.000Z",
-        "isNew": true
+        "isNew": false
       },
       {
         "title": "August 20, 2026",
