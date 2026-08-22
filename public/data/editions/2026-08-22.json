@@ -1,6 +1,6 @@
 {
   "date": "2026-08-22",
-  "generatedAt": "2026-08-22T11:37:38.609Z",
+  "generatedAt": "2026-08-22T17:35:29.189Z",
   "totalArticles": 72,
   "ticker": [
     {
@@ -33,7 +33,7 @@
       {
         "title": "AWS Glue 6.0 now available with 30% lower price and full Apache Iceberg v3 support",
         "link": "https://aws.amazon.com/blogs/aws/aws-glue-6-0-now-available-with-30-lower-price-and-full-apache-iceberg-v3-support/",
-        "summary": "AWS Glue 6.0 is built on a fully modernized runtime, Apache Spark 4.1, Python 3.12, and Scala 2.13, delivering 30% lower pricing than previous AWS Glue versions.",
+        "summary": "AWS Glue 6.0 is built on a fully modernized runtime, Apache Spark 4.1, Python 3.13, and Scala 2.13, delivering 30% lower pricing than previous AWS Glue versions.",
         "image": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2026/07/21/2026-aws-glue-6.0-console.png",
         "source": "AWS News Blog",
         "published": "2026-08-21T18:53:26.000Z",
@@ -179,6 +179,15 @@
     ],
     "gcp": [
       {
+        "title": "August 22, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#August_22_2026",
+        "summary": "Apigee UI\nFixed\nBug ID\nDescription\n\n\n\n\n543626585\n\n\nServiceCallout policy can now be added in the Apigee UI\n\n\n          Adding a ServiceCallout policy in the Apigee UI no longer leaves the\n          Create or Add button disabled.\n        \nService Callout in the\n          Create policy or Add policy panel could display only\n          the Name and Display name fields and omit the required\n          HTTP target field. With the required field missing, the form never\n          became valid, so the Create or Add button stayed\n          disabled no matter what you entered. This affected both API proxies\n          and shared flows.\n        \nServiceCallout policy\n          and\n          Attach and configure policies in the UI.\n        \nFixed\nBug ID\nDescription\n\n\n\n\n540008387\n\n\nDeveloper custom attributes now save reliably in the Apigee UI\n\n\n          Saving changes to a developer in the\n          Apigee UI in Cloud console\n          no longer intermittently fails to persist that developer's custom\n          attributes.\n        \n\n          Previously, the UI reported the save as successful, but the previous\n          attribute values reappeared when the page was reloaded. Developer\n          updates made with the Apigee API were not affected.",
+        "image": null,
+        "source": "Google Cloud Platform (GCP) - Release notes",
+        "published": "2026-08-22T07:00:00.000Z",
+        "isNew": false
+      },
+      {
         "title": "August 21, 2026",
         "link": "https://docs.cloud.google.com/release-notes#August_21_2026",
         "summary": "AlloyDB for PostgreSQL\nFixed\nAlloyDB now provides more accurate memory usage estimation, and it prevents out-of-memory (OOM) errors when you build a ScaNN four-level tree index. This feature is in Preview. This update improves the stability of index builds by enforcing memory limits and improving memory estimation under constrained conditions.\nFor more information, see Create a ScaNN index.\nApplication Integration\nSecurity\nMissing authorization in QueryEngineTask (CVE-2026-12710)\nA missing authorization vulnerability (CVE-2026-12710) in QueryEngineTask in Application Integration was patched on April 4, 2026, and no customer action is needed.\nCompute Engine\nFeature\nGenerally available: The network- and memory-optimized\nM4N machine series is\ngenerally available. Powered by 5th generation Intel Xeon Scalable processors\n(Emerald Rapids), M4N instances are purpose-built for network and block\nstorage-intensive workloads such as:\nHigh-performance vector databases\nRetrieval-augmented generation (RAG) data layers\nMassive in-memory context caching\nReal-time semantic search\nThe M4N machine series delivers the highest I/O performance available in\nCompute Engine, supporting up to 400 Gbps of network bandwidth.\nM4N also offers leading block storage performance with Hyperdisk Extreme that scales up to\n25 GiB/s of bandwidth and 1M IOPS. M4N instances are available in\npredefined machine shapes, ranging in size from 16 to 224 vCPUs and up to\n5,952 GB of DDR5 memory.\nGemini Enterprise\nFeature…",
@@ -239,15 +248,6 @@
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-08-15T07:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "August 14, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#August_14_2026",
-        "summary": "App Engine flexible environment .NET\nFeature\nTo improve security, starting in August 2026, App Engine opts your application into TLS version 1.2 and later. You can opt out until the end of August 2026. Starting in September 2026, App Engine might permanently block insecure traffic with TLS version 1.1 and earlier. For more information, see Secure minimum TLS.\nApp Engine flexible environment Go\nFeature\nTo improve security, starting in August 2026, App Engine opts your application into TLS version 1.2 and later. You can opt out until the end of August 2026. Starting in September 2026, App Engine might permanently block insecure traffic with TLS version 1.1 and earlier. For more information, see Secure minimum TLS.\nApp Engine flexible environment Java\nFeature\nTo improve security, starting in August 2026, App Engine opts your application into TLS version 1.2 and later. You can opt out until the end of August 2026. Starting in September 2026, App Engine might permanently block insecure traffic with TLS version 1.1 and earlier. For more information, see Secure minimum TLS.\nApp Engine flexible environment Node.js\nFeature\nTo improve security, starting in August 2026, App Engine opts your application into TLS version 1.2 and later. You can opt out until the end of August 2026. Starting in September 2026, App Engine might permanently block insecure traffic with TLS version 1.1 and earlier. For more information, see Secure minimum TLS.\nApp Engine flexible environment PHP\nFeature\nTo…",
-        "image": null,
-        "source": "Google Cloud Platform (GCP) - Release notes",
-        "published": "2026-08-14T07:00:00.000Z",
         "isNew": false
       }
     ],
@@ -401,6 +401,15 @@
     ],
     "python": [
       {
+        "title": "The Python documentation is now available in Russian!",
+        "link": "https://blog.python.org/2026/08/the-python-documentation-is-now-available-in-russian/",
+        "summary": "",
+        "image": null,
+        "source": "Python Insider",
+        "published": "2026-08-22T00:00:00.000Z",
+        "isNew": false
+      },
+      {
         "title": "How AWS Powers PyPI and the PSF",
         "link": "https://pyfound.blogspot.com/2026/08/how-aws-powers-pypi-and-psf.html",
         "summary": "Written by Jacob Coffee, Director of Engineering at the Python Software Foundation\nWorking on infrastructure at the Python Software Foundation (PSF) as the Director of Engineering is a broad job with many hats. Python turns up everywhere. It's in healthcare systems and government agencies, in research labs and classrooms, in one-person side projects and in infrastructure at companies with six-figure headcounts. Somebody is using it to analyze a genome right now and somebody else is using it to automate a spreadsheet they hate arranging by hand. That range has always been the interesting part of the PSF's work, and it's only broadened in the last couple of years as AI continues to pull people from many disciplines into writing Python.\nAt the PSF we support and maintain the infrastructure behind PyPI, Python.org, PyCon US, CPython, and a growing number of community services. The majority of the PSF's infrastructure runs on AWS, and nearly all of that bill is covered by credits from the AWS Open Source Credits Program.\nThe shape of it\nPyPI takes over six billion requests a day and about thirteen billion counting file downloads. Package egress runs around 10 petabytes a day.\nAlmost none of that reaches AWS. Fastly serves it at the edge through their Fast Forward program at a hit ratio just under 99%, so only about one request in seventy makes it to origin. That caching is the core reason our AWS bill is not measured in the millions of dollars a year.\nWhat does reach us is the…",
@@ -461,15 +470,6 @@
         "image": null,
         "source": "Python Insider",
         "published": "2026-08-04T00:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "Announcing a 2026 PSF Grants Program Funding Round",
-        "link": "https://pyfound.blogspot.com/2026/07/announcing-2026-psf-grants-program.html",
-        "summary": "The Python Software Foundation (PSF) is excited to announce a 2026 PSF Grants Program funding round. This is not a full reopening of the Grants Program as it existed before. Rather, it's what the PSF is able to sustainably offer right now, given where we stand financially and operationally. The PSF Board, PSF Staff, and PSF Grants Work Group (GWG) are deeply passionate about the program and understand how important it is to the Python community. It’s our honor to have the opportunity to disburse grant funding in 2026. \nIn keeping with our focus on sustainability, this round of grant funding has a set budget capped at $90,000 USD, a limited scope, and a different structure and timeline for applying and reviewing. We will be accepting applications from August 4 - 25 AoE, for Conferences and Workshops that are scheduled between December 1, 2026, and April 30, 2027. Our top priority is getting available funds to the regional communities who need it most: those who have had to pause their events and initiatives because of lack of funding from PSF Grants or loss of sponsors.\n\nContext\nAs folks following along with the PSF may remember, the last couple of years have been financially challenging, with the PSF’s assets and yearly revenue declining and costs increasing across the board. At the same time, the demand for our work has continued to multiply. Making the decision to pause the Grants Program last year was difficult, but a necessary step to protect both the future of the…",
-        "image": null,
-        "source": "Python Software Foundation News",
-        "published": "2026-07-28T12:14:47.114Z",
         "isNew": false
       }
     ],
