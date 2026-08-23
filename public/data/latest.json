@@ -1,6 +1,6 @@
 {
   "date": "2026-08-23",
-  "generatedAt": "2026-08-23T11:38:01.371Z",
+  "generatedAt": "2026-08-23T17:34:17.489Z",
   "totalArticles": 72,
   "ticker": [
     {
@@ -181,7 +181,7 @@
       {
         "title": "August 22, 2026",
         "link": "https://docs.cloud.google.com/release-notes#August_22_2026",
-        "summary": "Apigee UI\nFixed\nBug ID\nDescription\n\n\n\n\n543626585\n\n\nServiceCallout policy can now be added in the Apigee UI\n\n\n          Adding a ServiceCallout policy in the Apigee UI no longer leaves the\n          Create or Add button disabled.\n        \nService Callout in the\n          Create policy or Add policy panel could display only\n          the Name and Display name fields and omit the required\n          HTTP target field. With the required field missing, the form never\n          became valid, so the Create or Add button stayed\n          disabled no matter what you entered. This affected both API proxies\n          and shared flows.\n        \nServiceCallout policy\n          and\n          Attach and configure policies in the UI.\n        \nFixed\nBug ID\nDescription\n\n\n\n\n540008387\n\n\nDeveloper custom attributes now save reliably in the Apigee UI\n\n\n          Saving changes to a developer in the\n          Apigee UI in Cloud console\n          no longer intermittently fails to persist that developer's custom\n          attributes.\n        \n\n          Previously, the UI reported the save as successful, but the previous\n          attribute values reappeared when the page was reloaded. Developer\n          updates made with the Apigee API were not affected.",
+        "summary": "Apigee UI\nFixed\nBug ID\nDescription\n\n\n\n\n543626585\n\n\nServiceCallout policy can now be added in the Apigee UI\n\n\n          Adding a ServiceCallout policy in the Apigee UI no longer leaves the\n          Create or Add button disabled.\n        \nService Callout in the\n          Create policy or Add policy panel could display only\n          the Name and Display name fields and omit the required\n          HTTP target field. With the required field missing, the form never\n          became valid, so the Create or Add button stayed\n          disabled no matter what you entered. This affected both API proxies\n          and shared flows.\n        \nServiceCallout policy\n          and\n          Attach and configure policies in the UI.\n        \nFixed\nBug ID\nDescription\n\n\n\n\n540008387\n\n\nDeveloper custom attributes now save reliably in the Apigee UI\n\n\n          Saving changes to a developer in the\n          Apigee UI in Cloud console\n          no longer intermittently fails to persist that developer's custom\n          attributes.\n        \nIdentity and Access Management\nFeature\nThe Agent Identity auth manager and the Agent Identity APIs\n(agentidentity.googleapis.com and agentidentitycredentials.googleapis.com)\nare generally available.\nAgent Identity auth manager provides a centralized credentials vault and\nauthentication broker that simplifies outbound tool authentication for 3-legged\nOAuth, 2-legged OAuth, and API keys. The Agent Identity APIs replace the legacy\nIAM Connectors API…",
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-08-22T07:00:00.000Z",
