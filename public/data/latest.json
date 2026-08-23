@@ -1,6 +1,6 @@
 {
-  "date": "2026-08-22",
-  "generatedAt": "2026-08-22T17:35:29.189Z",
+  "date": "2026-08-23",
+  "generatedAt": "2026-08-23T05:44:39.572Z",
   "totalArticles": 72,
   "ticker": [
     {
@@ -190,7 +190,7 @@
       {
         "title": "August 21, 2026",
         "link": "https://docs.cloud.google.com/release-notes#August_21_2026",
-        "summary": "AlloyDB for PostgreSQL\nFixed\nAlloyDB now provides more accurate memory usage estimation, and it prevents out-of-memory (OOM) errors when you build a ScaNN four-level tree index. This feature is in Preview. This update improves the stability of index builds by enforcing memory limits and improving memory estimation under constrained conditions.\nFor more information, see Create a ScaNN index.\nApplication Integration\nSecurity\nMissing authorization in QueryEngineTask (CVE-2026-12710)\nA missing authorization vulnerability (CVE-2026-12710) in QueryEngineTask in Application Integration was patched on April 4, 2026, and no customer action is needed.\nCompute Engine\nFeature\nGenerally available: The network- and memory-optimized\nM4N machine series is\ngenerally available. Powered by 5th generation Intel Xeon Scalable processors\n(Emerald Rapids), M4N instances are purpose-built for network and block\nstorage-intensive workloads such as:\nHigh-performance vector databases\nRetrieval-augmented generation (RAG) data layers\nMassive in-memory context caching\nReal-time semantic search\nThe M4N machine series delivers the highest I/O performance available in\nCompute Engine, supporting up to 400 Gbps of network bandwidth.\nM4N also offers leading block storage performance with Hyperdisk Extreme that scales up to\n25 GiB/s of bandwidth and 1M IOPS. M4N instances are available in\npredefined machine shapes, ranging in size from 16 to 224 vCPUs and up to\n5,952 GB of DDR5 memory.\nGemini Enterprise\nFeature…",
+        "summary": "AI Hypercomputer\nChange\nAI Hypercomputer has expanded to cover all GPU machine series. Specifically,\nthe documentation for AI Hypercomputer has been significantly updated as\nfollows:\nDocumentation has been added for the A3 Edge, A2, G4, G2, N1+T4, and N1+V100 GPU machine series.\nPages are labeled based on whether they are relevant to the newly documented\nmachine series for\ngeneral GPU,\nthe pre-existing machine series for\nclustered GPU,\nor both.\nTo learn more about the differences between\ngeneral GPUs and\nclustered GPUs, see\nChoose your accelerator infrastructure.\nTo view workload recommendations, see Choose between general GPUs and clustered GPUs.\nAlloyDB for PostgreSQL\nFixed\nAlloyDB now provides more accurate memory usage estimation, and it prevents out-of-memory (OOM) errors when you build a ScaNN four-level tree index. This feature is in Preview. This update improves the stability of index builds by enforcing memory limits and improving memory estimation under constrained conditions.\nFor more information, see Create a ScaNN index.\nApplication Integration\nSecurity\nMissing authorization in QueryEngineTask (CVE-2026-12710)\nA missing authorization vulnerability (CVE-2026-12710) in QueryEngineTask in Application Integration was patched on April 4, 2026, and no customer action is needed.\nCompute Engine\nFeature\nGenerally available: The network- and memory-optimized\nM4N machine series is\ngenerally available. Powered by 5th generation Intel Xeon Scalable processors\n(Emerald…",
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-08-21T07:00:00.000Z",
