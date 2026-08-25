@@ -1,6 +1,6 @@
 {
   "date": "2026-08-25",
-  "generatedAt": "2026-08-25T05:47:52.799Z",
+  "generatedAt": "2026-08-25T11:45:57.934Z",
   "totalArticles": 72,
   "ticker": [
     {
@@ -407,7 +407,7 @@
         "image": null,
         "source": "Python Insider",
         "published": "2026-08-24T00:00:00.000Z",
-        "isNew": true
+        "isNew": false
       },
       {
         "title": "The Python documentation is now available in Russian!",
