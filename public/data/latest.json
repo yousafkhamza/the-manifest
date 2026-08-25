@@ -1,6 +1,6 @@
 {
-  "date": "2026-08-24",
-  "generatedAt": "2026-08-24T17:46:39.845Z",
+  "date": "2026-08-25",
+  "generatedAt": "2026-08-25T05:47:52.799Z",
   "totalArticles": 72,
   "ticker": [
     {
@@ -181,7 +181,7 @@
       {
         "title": "August 24, 2026",
         "link": "https://docs.cloud.google.com/release-notes#August_24_2026",
-        "summary": "Google SecOps\nFeature\n[Spotlight Feature] Operations in Emerging Threats Center\nGoogle SecOps now supports Operations in the Emerging Threats Center feed to provide rapid visibility into threat activity details involving the targeting of a single organization. Operations complement global Campaigns by providing granular threat intelligence derived from frontline investigations, such as Managed Threat Defense (MTD) engagements. For more information, see Operations in Emerging Threats.\nKey capabilities include:\nFocused threat insights: Zero in on localized adversary activity and personalized attack vectors specific to individual missions.\nHolistic threat mapping: View Operations alongside global Campaigns to see the full scope of adversary tactics, techniques, and procedures (TTPs).",
+        "summary": "Backup and DR\nFeature\nBackup vault support for Filestore instances encrypted with customer-managed encryption keys (CMEK) is now generally available (GA). When you back up Filestore instances to a CMEK-enabled backup vault, the backups are encrypted using the backup vault CMEK key.\nFor more information, see Customer-managed encryption keys (CMEK), Back up Filestore instances to a backup vault, and Restore a Filestore instance from a backup vault.\nBigQuery\nFeature\nYou can now\nmonitor\nthe performance, adoption, latency, and costs of your data agents and their\nconversations by using Google Cloud Observability in BigQuery.\nThis feature is in\nPreview.\nCloud Trace\nFeature\nYou can update the display name, description, and Cloud KMS key\napplied to a _Trace observability bucket.\nFor more information, see\nUpdate observability buckets.\nFeature\nYou can manually create the _Trace observability bucket before your project\nreceives trace data. When creating the bucket, you must specify a storage\nlocation. Google Cloud Observability applies the Cloud KMS key defined in your\ndefault settings unless you explicitly specify a different key in your create\nrequest.\nFor more information, see the following documents:\nCreate observability buckets\nSet defaults for observability buckets\nFeature\nThe following remote MCP servers automatically generate a trace span for\ntools/call operations.\nPolicy Troubleshooter\nManaged Service for Apache Airflow\nThese spans can help you understand the behavior of\nyour…",
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-08-24T07:00:00.000Z",
@@ -199,7 +199,7 @@
       {
         "title": "August 21, 2026",
         "link": "https://docs.cloud.google.com/release-notes#August_21_2026",
-        "summary": "AI Hypercomputer\nChange\nAI Hypercomputer has expanded to cover all GPU machine series. Specifically,\nthe documentation for AI Hypercomputer has been significantly updated as\nfollows:\nDocumentation has been added for the A3 Edge, A2, G4, G2, N1+T4, and N1+V100 GPU machine series.\nPages are labeled based on whether they are relevant to the newly documented\nmachine series for\ngeneral GPU,\nthe pre-existing machine series for\nclustered GPU,\nor both.\nTo learn more about the differences between\ngeneral GPUs and\nclustered GPUs, see\nChoose your accelerator infrastructure.\nTo view workload recommendations, see Choose between general GPUs and clustered GPUs.\nAlloyDB for PostgreSQL\nFixed\nAlloyDB now provides more accurate memory usage estimation, and it prevents out-of-memory (OOM) errors when you build a ScaNN four-level tree index. This feature is in Preview. This update improves the stability of index builds by enforcing memory limits and improving memory estimation under constrained conditions.\nFor more information, see Create a ScaNN index.\nApplication Integration\nSecurity\nMissing authorization in QueryEngineTask (CVE-2026-12710)\nA missing authorization vulnerability (CVE-2026-12710) in QueryEngineTask in Application Integration was patched on April 4, 2026, and no customer action is needed.\nCompute Engine\nFeature\nGenerally available: The network- and memory-optimized\nM4N machine series is\ngenerally available. Powered by 5th generation Intel Xeon Scalable processors\n(Emerald…",
+        "summary": "AI Hypercomputer\nChange\nAI Hypercomputer has expanded to cover all GPU machine series. Specifically,\nthe documentation for AI Hypercomputer has been significantly updated as\nfollows:\nDocumentation has been added for the A3 Edge, A2, G4, G2, N1+T4, and N1+V100 GPU machine series.\nPages are labeled based on whether they are relevant to the newly documented\nmachine series for\ngeneral GPU,\nthe pre-existing machine series for\nclustered GPU,\nor both.\nTo learn more about the differences between\ngeneral GPUs and\nclustered GPUs, see\nChoose your accelerator infrastructure.\nTo view workload recommendations, see Choose between general GPUs and clustered GPUs.\nAlloyDB for PostgreSQL\nFixed\nAlloyDB now provides more accurate memory usage estimation, and it prevents out-of-memory (OOM) errors when you build a ScaNN four-level tree index. This feature is in Preview. This update improves the stability of index builds by enforcing memory limits and improving memory estimation under constrained conditions.\nFor more information, see Create a ScaNN index.\nApplication Integration\nSecurity\nMissing authorization in QueryEngineTask (CVE-2026-12710)\nA missing authorization vulnerability (CVE-2026-12710) in QueryEngineTask in Application Integration was patched on April 4, 2026, and no customer action is needed.\nAssured Workloads\nFeature\nThe\nSwitzerland Data Boundary with Access Justifications\ncontrol package is now generally available.\nFeature\nThe Data Boundary for ITAR\nsupports the following…",
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-08-21T07:00:00.000Z",
@@ -401,6 +401,15 @@
     ],
     "python": [
       {
+        "title": "RISC-V is now officially supported by CPython!",
+        "link": "https://blog.python.org/2026/08/riscv-now-officially-supported/",
+        "summary": "I’m happy to announce that RISC-V platforms are now officially supported by CPython. 🎉 🚀",
+        "image": null,
+        "source": "Python Insider",
+        "published": "2026-08-24T00:00:00.000Z",
+        "isNew": true
+      },
+      {
         "title": "The Python documentation is now available in Russian!",
         "link": "https://blog.python.org/2026/08/the-python-documentation-is-now-available-in-russian/",
         "summary": "",
@@ -461,15 +470,6 @@
         "image": null,
         "source": "Python Insider",
         "published": "2026-08-05T00:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "Python 3.15.0 candidate 1 is here!",
-        "link": "https://blog.python.org/2026/08/python-3150-rc1/",
-        "summary": "Get those wheels rolling!",
-        "image": null,
-        "source": "Python Insider",
-        "published": "2026-08-04T00:00:00.000Z",
         "isNew": false
       }
     ],
