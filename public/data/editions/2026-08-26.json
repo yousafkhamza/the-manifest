@@ -1,15 +1,15 @@
 {
   "date": "2026-08-26",
-  "generatedAt": "2026-08-26T11:47:33.501Z",
+  "generatedAt": "2026-08-26T19:19:02.957Z",
   "totalArticles": 72,
   "ticker": [
     {
       "label": "Kubernetes",
-      "version": "v1.36.4"
+      "version": "v1.37.0"
     },
     {
       "label": "Terraform",
-      "version": "v1.15.9"
+      "version": "v1.16.0"
     },
     {
       "label": "Python",
@@ -25,7 +25,7 @@
     },
     {
       "label": "Node.js",
-      "version": "v26.7.0"
+      "version": "v26.8.0"
     }
   ],
   "topics": {
@@ -105,6 +105,15 @@
     ],
     "azure": [
       {
+        "title": "The patch window is collapsing: Why security needs a new control plane",
+        "link": "https://azure.microsoft.com/en-us/blog/the-patch-window-is-collapsing-why-security-needs-a-new-control-plane/",
+        "summary": "Organizations need protection that operates in the gap between discovery and remediation.\nThe post The patch window is collapsing: Why security needs a new control plane appeared first on Microsoft Azure Blog.",
+        "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/08/1121922_In-blog-3-1024x576.jpg",
+        "source": "Microsoft Azure Blog",
+        "published": "2026-08-25T16:00:00.000Z",
+        "isNew": false
+      },
+      {
         "title": "Microsoft named a Leader in the 2026 Gartner® Magic Quadrant™ for Cloud-Native Application Platforms",
         "link": "https://azure.microsoft.com/en-us/blog/microsoft-named-a-leader-in-the-2026-gartner-magic-quadrant-for-cloud-native-application-platforms/",
         "summary": "Cloud-native platforms are becoming the foundation for AI transformation. Discover how Microsoft's Azure application platform helps organizations modernize, innovate, and operate AI-powered applications at scale.\nThe post Microsoft named a Leader in the 2026 Gartner® Magic Quadrant™ for Cloud-Native Application Platforms  appeared first on Microsoft Azure Blog.",
@@ -166,18 +175,18 @@
         "source": "Microsoft Azure Blog",
         "published": "2026-07-09T17:00:00.000Z",
         "isNew": false
-      },
-      {
-        "title": "Built to bounce back: How Azure resiliency evolved",
-        "link": "https://azure.microsoft.com/en-us/blog/built-to-bounce-back-how-azure-resiliency-evolved/",
-        "summary": "Cloud resiliency is about ensuring systems can adapt, recover, and keep functioning within real-world constraints.\nThe post Built to bounce back: How Azure resiliency evolved appeared first on Microsoft Azure Blog.",
-        "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/05/CLO24-Azure-Fintech-012-scaled.jpg",
-        "source": "Microsoft Azure Blog",
-        "published": "2026-07-08T16:00:00.000Z",
-        "isNew": false
       }
     ],
     "gcp": [
+      {
+        "title": "August 26, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#August_26_2026",
+        "summary": "Cloud Load Balancing\nFeature\nSSL policy cross-project referencing is now available for\nApplication Load Balancers and proxy Network Load Balancers in Preview. You can use\ncross-project referencing to define and maintain a central SSL policy in an\nadministrative project and reference it from target HTTPS proxies or target SSL\nproxies in different projects.\nCross-project referencing is supported for global and regional SSL policies. You\ncan use cross-project referencing with the following load balancers:\nGlobal external Application Load Balancer\nRegional external Application Load Balancer\nCross-region internal Application Load Balancer\nRegional internal Application Load Balancer\nGlobal external proxy Network Load Balancer\nFor more information, see\nCross-project SSL policy referencing.\nGoogle SecOps\nFeature\n[Spotlight Feature] Mandiant Frontline Threats rule packs\nCurated Detections has been enhanced with additional Mandiant Frontline Threats detections for Linux, MacOS, and Google Cloud. The following rule packs have been added to the Content Hub:\nMandiant Frontline Threats for Linux\nMandiant Frontline Threats for MacOS\nMandiant Frontline Threats for Google Cloud\nGoogle SecOps SIEM\nFeature\n[Spotlight Feature] Mandiant Frontline Threats rule packs\nCurated Detections has been enhanced with additional Mandiant Frontline Threats detections for Linux, MacOS, and Google Cloud. The following rule packs have been added to the Content Hub:\nMandiant Frontline Threats for Linux\nMandiant…",
+        "image": null,
+        "source": "Google Cloud Platform (GCP) - Release notes",
+        "published": "2026-08-26T07:00:00.000Z",
+        "isNew": false
+      },
       {
         "title": "August 25, 2026",
         "link": "https://docs.cloud.google.com/release-notes#August_25_2026",
@@ -190,7 +199,7 @@
       {
         "title": "August 24, 2026",
         "link": "https://docs.cloud.google.com/release-notes#August_24_2026",
-        "summary": "Anthos Config Management\nChange\nAddressed multiple Common Vulnerabilities and Exposures (CVEs) by updating dependencies.\nFeature\nYou can now disable monitoring for specific custom RootSync or RepoSync objects by setting the spec.monitoring.enabled field to false. This disables metric telemetry collection and exporting for that reconciler, which can help reduce cluster resource consumption. For more information, see Disable monitoring.\nBackup and DR\nFeature\nBackup vault support for Filestore instances encrypted with customer-managed encryption keys (CMEK) is now generally available (GA). When you back up Filestore instances to a CMEK-enabled backup vault, the backups are encrypted using the backup vault CMEK key.\nFor more information, see Customer-managed encryption keys (CMEK), Back up Filestore instances to a backup vault, and Restore a Filestore instance from a backup vault.\nBigQuery\nFeature\nYou can now\nmonitor\nthe performance, adoption, latency, and costs of your data agents and their\nconversations by using Google Cloud Observability in BigQuery.\nThis feature is in\nPreview.\nCloud Trace\nFeature\nYou can update the display name, description, and Cloud KMS key\napplied to a _Trace observability bucket.\nFor more information, see\nUpdate observability buckets.\nFeature\nYou can manually create the _Trace observability bucket before your project\nreceives trace data. When creating the bucket, you must specify a storage\nlocation. Google Cloud Observability applies the Cloud KMS key…",
+        "summary": "Anthos Config Management\nChange\nAddressed multiple Common Vulnerabilities and Exposures (CVEs) by updating dependencies.\nFeature\nYou can now disable monitoring for specific custom RootSync or RepoSync objects by setting the spec.monitoring.enabled field to false. This disables metric telemetry collection and exporting for that reconciler, which can help reduce cluster resource consumption. For more information, see Disable monitoring.\nBackup and DR\nFeature\nBackup vault support for Filestore instances encrypted with customer-managed encryption keys (CMEK) is now generally available (GA). When you back up Filestore instances to a CMEK-enabled backup vault, the backups are encrypted using the backup vault CMEK key.\nFor more information, see Customer-managed encryption keys (CMEK), Back up Filestore instances to a backup vault, and Restore a Filestore instance from a backup vault.\nBigQuery\nFeature\nYou can now\nmonitor\nthe performance, adoption, latency, and costs of your data agents and their\nconversations by using Google Cloud Observability in BigQuery.\nThis feature is in\nPreview.\nCloud Build\nSecurity\nAn Incorrect Authorization vulnerability CVE-2026-19410,\nin GitHub Trigger Comment Control in Cloud Build, was fixed. No customer action is needed.\nCloud Trace\nFeature\nYou can update the display name, description, and Cloud KMS key\napplied to a _Trace observability bucket.\nFor more information, see\nUpdate observability buckets.\nFeature\nYou can manually create the _Trace…",
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-08-24T07:00:00.000Z",
@@ -240,18 +249,18 @@
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-08-19T07:00:00.000Z",
         "isNew": false
-      },
-      {
-        "title": "August 18, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#August_18_2026",
-        "summary": "App Engine standard environment Java\nFeature\nSupport for migrating from the App Engine Images service to\nCloud Run is in\nGeneral Availability (GA).\nApp Engine standard environment Python\nFeature\nSupport for migrating from the App Engine Images service to\nCloud Run is in\nGeneral Availability (GA).\nBigQuery\nFeature\nThe default per-project limit of user-specific\nreservation assignments\nhas been increased from 10 to 100.\nGemini Enterprise\nFeature\nGemini Enterprise: Show new team member announcements on the app home page\nGemini Enterprise can display new team member announcement cards on the\napp home page to welcome people who recently joined the organization. Users see\npeople who recently joined their part of the organization.\nThis feature is generally available (GA).\nFor more information, see Show new team member\nannouncements.\nFeature\nGemini Enterprise: Gemini 3.6 Flash available in US and EU multi-regions\nGemini 3.6 Flash is generally available in the us and eu multi-regions, and\nan allowlist is no longer required to use Gemini 3.6 Flash in the us\nmulti-region.\nTo make Gemini 3.6 Flash available to users in the Gemini Enterprise app,\nadministrators must turn on the Gemini 3.6 Flash feature toggle in the\nGoogle Cloud console.\nIf an administrator previously turned on the Gemini 3.6 Flash toggle for\nan app in the us or eu multi-region and accepted the out-of-region routing\nwarning, traffic for that app automatically routes to the app's location\n(us or eu). No action is required.…",
-        "image": null,
-        "source": "Google Cloud Platform (GCP) - Release notes",
-        "published": "2026-08-18T07:00:00.000Z",
-        "isNew": false
       }
     ],
     "kubernetes": [
+      {
+        "title": "Kubernetes v1.37: Garhwal",
+        "link": "https://kubernetes.io/blog/2026/08/26/kubernetes-v1-37-release/",
+        "summary": "Editors: Arsh Sharma, Christopher Tineo, Kirti Goyal, Sophia Ugochukwu, Swathi Rao, Troy Connor\nSimilar to previous releases, the release of Kubernetes v1.37 introduces new Stable, Beta, and Alpha features. The consistent delivery of high-quality releases underscores the strength of our development cycle and the vibrant support from our community.\nThis release consists of 67 enhancements.\nOf those enhancements, 16 have graduated to Stable, 23 have graduated to Beta,\n27 are entering Alpha, and 1 is a deprecation/removal.\nRelease theme and logo\nThe theme for Kubernetes v1.37 is Garhwal (गढ़वाल, pronounced gaṛhvāl), a Himalayan region of Uttarakhand, India. The snow-capped peaks of the Garhwal Himalaya, deodar forests, terraced fields, rivers and streams, and mountain paths shape both the region and the logo. Together, these elements reflect a community in which every layer, route, and contribution is connected.\nThe logo is imagined as a window into Garhwal's landscape.1 Inside, terraced fields climb towards the snowy peaks, each level supported by the one below, much as every Kubernetes release depends on work carried forward. A river winds through the valley and gathers mountain streams, reflecting contributions from many SIGs and communities flowing into one project.\nThe deodar forest represents the wider Kubernetes ecosystem, where distinct projects share common ground and grow side by side. Stonework and woodcraft shape the path and mountain house, placing people at the…",
+        "image": "https://kubernetes.io/blog/2026/08/26/kubernetes-v1-37-release/k8s-v1.37.svg",
+        "source": "Kubernetes Blog",
+        "published": "2026-08-26T00:00:00.000Z",
+        "isNew": false
+      },
       {
         "title": "How to Pretty-Print Your Kubernetes YAML as KYAML and Why You'd Want To",
         "link": "https://kubernetes.io/blog/2026/08/11/how-to-pretty-print-kubernetes-yaml-as-kyaml/",
@@ -314,18 +323,18 @@
         "source": "Kubernetes Blog",
         "published": "2026-07-13T18:00:00.000Z",
         "isNew": false
-      },
-      {
-        "title": "Announcing etcd v3.7.0",
-        "link": "https://kubernetes.io/blog/2026/07/08/announcing-etcd-3.7/",
-        "summary": "This article is a mirror of the original announcement\nToday, SIG etcd is releasing etcd v3.7.0, the latest minor release of the popular distributed key-value store and core Kubernetes component. v3.7 ships the long-requested RangeStream feature, delivers several other performance improvements, removes the last remnants of the legacy v2store, and completes a major protobuf overhaul.\nYou can download etcd v3.7.0 here:\nSource code\nBinaries\nOfficial container images\nThis release also includes new versions of the two core etcd dependencies, bbolt v1.5.0 and raft v3.7.0.\nFor instructions on installing etcd, see the install documentation. For the full list of changes, see the etcd v3.7 changelog.\nA heartfelt thank you to all the contributors who made this release possible!\nMajor features\nThe most significant changes in v3.7.0 include:\nRangeStream — stream large result sets in chunks instead of buffering the whole response.\nKeys-only range requests, faster and more reliable leases, and several other performance improvements.\netcd now boots entirely from v3store, eliminating a long-standing dependency on the legacy v2 store\nA completed protobuf overhaul, replacing outdated protobuf libraries with fully supported ones.\netcd v3.7 ships with bbolt v1.5.1 and raft v3.7.0.\nFeatures\nRangeStream\nIn etcd v3.6 and earlier, it is challenging to work with requests that return large result sets. The database would buffer the full result set before sending, leading to unpredictable latency and…",
-        "image": null,
-        "source": "Kubernetes Blog",
-        "published": "2026-07-08T12:00:00.000Z",
-        "isNew": false
       }
     ],
     "terraform": [
+      {
+        "title": "v1.16.0",
+        "link": "https://github.com/hashicorp/terraform/releases/tag/v1.16.0",
+        "summary": "1.16.0 (August 26, 2026)\nNEW FEATURES:\nTerraform now stores planned private data for providers, allowing provider-specific state to be preserved across plan and apply. (#37986)\nterraform_data: The new store block can hold ephemeral and sensitive values across plan and apply. (#38298)\nProviders can now use nested blocks as computed values (#38305)\nimport: import blocks inside modules are now supported. (#38352)\nTerraform is now available as a pre-built binary for Linux s390x (zLinux). (#38384)\nResource action triggers can now use on_failure modes of halt, taint, or continue. (#38722)\nENHANCEMENTS:\nstate show: The state show command can now produce machine-readable output when supplied with the -json flag (#23940)\nworkspace: The workspace list command can now produce machine-readable output when supplied with the -json flag (#38397)\ntest: Terraform now reports which resources were left behind when skip_cleanup is set. (#38449)\nstacks: Action configurations now have access to a caller symbol containing the object value of the calling resource. (#38668)\nActions can now use before_destroy and after_destroy events. (#38668)\ncloud: Terraform now displays a summary of policy evaluation outcomes for plan and apply runs against HCP Terraform. (#38715)\npolicy: Terraform now resolves policy plugin credentials from the configured cloud or remote backend during init, plan, and apply, rather than requiring the plugin to read credentials itself. (#38716)\ngraph: The terraform graph command…",
+        "image": "https://avatars.githubusercontent.com/u/82989873?s=60&v=4",
+        "source": "Release notes from terraform",
+        "published": "2026-08-26T13:05:28.000Z",
+        "isNew": false
+      },
       {
         "title": "v1.15.9",
         "link": "https://github.com/hashicorp/terraform/releases/tag/v1.15.9",
@@ -387,15 +396,6 @@
         "image": "https://avatars.githubusercontent.com/u/82989873?s=60&v=4",
         "source": "Release notes from terraform",
         "published": "2026-07-23T16:51:01.000Z",
-        "isNew": false
-      },
-      {
-        "title": "v1.16.0-alpha20260715",
-        "link": "https://github.com/hashicorp/terraform/releases/tag/v1.16.0-alpha20260715",
-        "summary": "1.16.0-alpha20260715 (July 15, 2026)\nNEW FEATURES:\nStore PlannedPrivate data for providers (#37986)\nNew store block in terraform_data that can handle ephemeral and sensitive values (#38298)\nProviders can now use nested blocks as computed values (#38305)\nimport: add support for import blocks inside modules (#38352)\nWe now produce builds for Linux s390x (zLinux) (#38384)\nworkspace: The workspace list command can now produce machine-readable output when supplied with the -json flag (#38397)\nResource action triggers can now use on_failure modes of halt, taint, or continue (#38722)\nENHANCEMENTS:\nfeat(cli): terraform state show accepts a -json flag (#23940)\nShow info when resources are left behind due to skip_cleanup (#38449)\nAction configuration now has a new caller symbol which contains the object value from the calling resource. (#38668)\nActions can now use before_destroy and after_destroy events (#38668)\ncloud: Render a summary of Terraform policy evaluation outcomes for plan and apply runs against HCP Terraform (#38715)\npolicy: Resolve the policy plugin entitlement (host, token, organization) from the configured cloud/remote backend for init, plan, and apply, instead of the plugin reading credentials itself (#38716)\nThe 'terraform graph' command now accepts a -format flag, and can output graphs in Mermaid format (#38719)\nchild module outputs with unreferenced deprecated nested attributes no longer return deprecation warnings. (#38778)\nSupport destroy=false in resource…",
-        "image": "https://avatars.githubusercontent.com/u/82989873?s=60&v=4",
-        "source": "Release notes from terraform",
-        "published": "2026-07-15T12:44:36.000Z",
         "isNew": false
       }
     ],
@@ -549,6 +549,15 @@
     ],
     "rust": [
       {
+        "title": "Announcing our first Maintainers in Residence",
+        "link": "https://blog.rust-lang.org/2026/08/26/announcing-our-first-maintainers-in-residence/",
+        "summary": "We are very happy to announce the Rust Project's first round of Maintainers in Residence:\nGen Li (@rami3l), Chris Denton (@ChrisDenton), Alejandra González (@blyxyas), León Liehr (@fmease), and Maintainer Grant recipients: Jason Newcomb (@Jarcho) and Jonas Böttiger (@joboet). These contributors will be funded for their rust-lang maintenance activities for (at least) the following 12 months!\nThe funding of the Maintainer in Residence (MiR) and Maintainer Grantee roles is possible thanks to generous donations to the Rust Foundation Maintainers Fund (RFMF) from Google, AWS, OpenAI, the Rust Project Leadership Council and also individual sponsors. We also want to thank the people who advocated for maintainer funding within their companies; Tyler Mandry from Google, Niko Matsakis and Jess Izen from AWS and Predrag Gruevski from OpenAI, and also the whole Rust Leadership Council and our funding advisors. If you would like to help us support even more Rust contributors, consider donating to RFMF.\nThe Rust Foundation has published a press release and a blog post, where you can learn more about the sponsors and the supported contributors.\nRead more below to learn about the MiR program, how we chose the funded contributors, and of course who they are!\n\nBackground\nThe Maintainer in Residence program, established in RFC 3931, is designed to provide stable financial support for Rust contributors, so that they can truly focus on crucial maintenance activities. Currently, there are three…",
+        "image": null,
+        "source": "Rust Blog",
+        "published": "2026-08-26T00:00:00.000Z",
+        "isNew": false
+      },
+      {
         "title": "Enabling the next-generation trait solver on nightly",
         "link": "https://blog.rust-lang.org/2026/08/21/enabling-next-solver-on-nightly/",
         "summary": "After nearly 4 years of active development, the next-generation trait solver is close to stabilization. We are enabling it by default on nightly to surface any remaining issues and plan to stabilize it in the next months. This is the largest single change to the Rust compiler since its initial release. It completely replaces how we prove where-clauses, normalize associated types, and much more. Please try out the latest nightly and open an issue if you encounter any bugs or regressions.\nThis is an internal component of the compiler. The main benefits of this rework will come in the future. The removal of the old implementation will unblock features such as Type Alias Impl Trait and Return Type Notation, allow us to add new implicit default trait bounds (e.g., Move and Forget), and enable us to fix the remaining type system unsoundnesses.\nEven so, this already fixes a huge number of issues. As an underapproximation, we currently know of more than 200 issues on GitHub fixed by this change. This also has a significant impact on compile times; more on that later. When developing on nightly, you may accidentally rely on behavior only supported by the new trait solver.\nThis is an incredibly big change which results in a non-trivial amount of breakage. Most of these changes are intended improvements to type inference or the removal of undesirable behavior. We are tracking the known issues and breakage in a pinned GitHub issue.\n\nWhat can I do?\nPlease update to the latest nightly…",
@@ -610,18 +619,27 @@
         "source": "Rust Blog",
         "published": "2026-07-09T00:00:00.000Z",
         "isNew": false
-      },
-      {
-        "title": "Announcing Rust 1.96.1",
-        "link": "https://blog.rust-lang.org/2026/06/30/Rust-1.96.1/",
-        "summary": "The Rust team has published a new point release of Rust, 1.96.1. Rust is a programming language that is empowering everyone to build reliable and efficient software.\nIf you have a previous version of Rust installed via rustup, getting Rust 1.96.1 is as easy as:\nrustup update stable\nIf you don't have it already, you can get rustup from the appropriate page on our website.\n\nWhat's in 1.96.1\nRust 1.96.1 fixes:\nMissing retries / timeouts in Cargo's HTTP client\nMiscompilation in a MIR optimization\nIt also fixes three CVEs\naffecting libssh2 (which is compiled into Cargo):\nCVE-2025-15661\nCVE-2026-55199\nCVE-2026-55200\n\nContributors to 1.96.1\nMany people came together to create Rust 1.96.1. We couldn't have done it without all of you. Thanks!",
-        "image": null,
-        "source": "Rust Blog",
-        "published": "2026-06-30T00:00:00.000Z",
-        "isNew": false
       }
     ],
     "javascript": [
+      {
+        "title": "Node.js 26.8.0 (Current)",
+        "link": "https://nodejs.org/en/blog/release/v26.8.0",
+        "summary": "",
+        "image": null,
+        "source": "Node.js Blog",
+        "published": "2026-08-26T14:29:48.000Z",
+        "isNew": false
+      },
+      {
+        "title": "Node.js 24.20.0 (LTS)",
+        "link": "https://nodejs.org/en/blog/release/v24.20.0",
+        "summary": "",
+        "image": null,
+        "source": "Node.js Blog",
+        "published": "2026-08-26T14:29:42.000Z",
+        "isNew": false
+      },
       {
         "title": "Node.js Interactive 2026: A Recap",
         "link": "https://nodejs.org/en/blog/events/nodejs-interactive-2026",
@@ -674,24 +692,6 @@
         "image": null,
         "source": "Node.js Blog",
         "published": "2026-07-29T14:03:39.000Z",
-        "isNew": false
-      },
-      {
-        "title": "Node.js 22.23.2 (LTS)",
-        "link": "https://nodejs.org/en/blog/release/v22.23.2",
-        "summary": "",
-        "image": null,
-        "source": "Node.js Blog",
-        "published": "2026-07-29T14:01:35.000Z",
-        "isNew": false
-      },
-      {
-        "title": "Wednesday, July 29, 2026 Security Releases",
-        "link": "https://nodejs.org/en/blog/vulnerability/july-2026-security-releases",
-        "summary": "",
-        "image": null,
-        "source": "Node.js Blog",
-        "published": "2026-07-29T00:00:00.000Z",
         "isNew": false
       }
     ]
