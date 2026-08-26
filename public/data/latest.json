@@ -1,6 +1,6 @@
 {
-  "date": "2026-08-25",
-  "generatedAt": "2026-08-25T17:45:05.299Z",
+  "date": "2026-08-26",
+  "generatedAt": "2026-08-26T05:50:30.462Z",
   "totalArticles": 72,
   "ticker": [
     {
@@ -179,6 +179,15 @@
     ],
     "gcp": [
       {
+        "title": "August 25, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#August_25_2026",
+        "summary": "BigQuery\nFeature\nBigQuery data governance tags are\nsupported in Terraform. This feature is in\nPreview.\nCloud SDK\nBreaking\n582.0.0 (2026-08-25)\nBreaking Changes\n(Google Cloud CLI) Removed the legacy Cloud SQL Proxy V1 component ('cloud_sql_proxy') from the Google Cloud CLI. All connect commands now rely exclusively on Cloud SQL Auth Proxy V2 ('cloud-sql-proxy').\n(API Registry) Removed gcloud api-registry mcp servers list and gcloud api-registry\nmcp tools list. For similar functionality, see Agent Registry at\n<https://docs.cloud.google.com/sdk/gcloud/reference/alpha/agent-registry/mcp-servers>.\n(Cloud Services) Removed gcloud beta services mcp policies get, gcloud beta services mcp\npolicies get-effective, and gcloud beta services mcp policies test-enabled\nas MCP policies are not required and they have been functioning as no-ops.\nAnthos\nUpdated anthos-cli with newer go version and library dependencies.\nApp Engine\nUpdated the Java SDK to version 5.1.0 build from the open source project\nhttps://github.com/GoogleCloudPlatform/appengine-java-standard/releases/tag/v5.1.0.\nUpgraded Jetty 12.0 to 12.0.38 and Jetty 12.1 to 12.1.12.\nAdded gRPC support to the App Engine Images service for image transformations and composition.\nApp Lifecycle Manager\nAdded --flags flag to gcloud beta app-lifecycle-manager flags releases create to allow creating flag releases from a list of flag IDs.\nCloud Composer\nEnabled Airflow CLI commands for Composer environments running new Airflow 3.3.x versions.…",
+        "image": null,
+        "source": "Google Cloud Platform (GCP) - Release notes",
+        "published": "2026-08-25T07:00:00.000Z",
+        "isNew": true
+      },
+      {
         "title": "August 24, 2026",
         "link": "https://docs.cloud.google.com/release-notes#August_24_2026",
         "summary": "Anthos Config Management\nChange\nAddressed multiple Common Vulnerabilities and Exposures (CVEs) by updating dependencies.\nFeature\nYou can now disable monitoring for specific custom RootSync or RepoSync objects by setting the spec.monitoring.enabled field to false. This disables metric telemetry collection and exporting for that reconciler, which can help reduce cluster resource consumption. For more information, see Disable monitoring.\nBackup and DR\nFeature\nBackup vault support for Filestore instances encrypted with customer-managed encryption keys (CMEK) is now generally available (GA). When you back up Filestore instances to a CMEK-enabled backup vault, the backups are encrypted using the backup vault CMEK key.\nFor more information, see Customer-managed encryption keys (CMEK), Back up Filestore instances to a backup vault, and Restore a Filestore instance from a backup vault.\nBigQuery\nFeature\nYou can now\nmonitor\nthe performance, adoption, latency, and costs of your data agents and their\nconversations by using Google Cloud Observability in BigQuery.\nThis feature is in\nPreview.\nCloud Trace\nFeature\nYou can update the display name, description, and Cloud KMS key\napplied to a _Trace observability bucket.\nFor more information, see\nUpdate observability buckets.\nFeature\nYou can manually create the _Trace observability bucket before your project\nreceives trace data. When creating the bucket, you must specify a storage\nlocation. Google Cloud Observability applies the Cloud KMS key…",
@@ -186,6 +195,15 @@
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-08-24T07:00:00.000Z",
         "isNew": false
+      },
+      {
+        "title": "August 23, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#August_23_2026",
+        "summary": "Agent Platform Workbench\nChange\nInstalled latest packages from upstream dependencies.\nChange\n20260823-2330-rc0 Release\nChange\nInstalled latest packages from upstream dependencies.\nChange\n20260823-2330-rc0 Release\nChange\n20260823-2230-rc0 Release\nChange\nInstalled latest packages from upstream dependencies.\nChange\n20260823-2230-rc0 Release\nChange\nInstalled latest packages from upstream dependencies.\nFixed\nScheduled notebook executions now report their final status when the execution user's credentials stop working part way through a run, instead of continuing until the execution timeout.\nChange\n20260823-2130-rc0 Release\nChange\nInstalled latest packages from upstream dependencies.\nFixed\nScheduled notebook executions now report their final status when the execution user's credentials stop working part way through a run, instead of continuing until the execution timeout.\nChange\nInstalled latest packages from upstream dependencies.\nChange\nM147 Release",
+        "image": null,
+        "source": "Google Cloud Platform (GCP) - Release notes",
+        "published": "2026-08-23T07:00:00.000Z",
+        "isNew": true
       },
       {
         "title": "August 22, 2026",
@@ -230,24 +248,6 @@
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-08-18T07:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "August 17, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#August_17_2026",
-        "summary": "AlloyDB for PostgreSQL\nFeature\nYou can now use the\nModel Context Protocol (MCP) Toolbox for Databases\nto access AlloyDB observability features and advanced query insights directly in\nyour IDE.\nAssured Workloads\nFeature\nThe\nData Boundary for Canada Controlled Goods Program (CGP)\ncontrol package is now generally available.\nBackup and DR\nAnnouncement\nBeginning November 1, 2026, Backup and DR will automatically apply a project-level lien to any project containing a backup vault with backups protected by enforced retention. To secure project liens against unauthorized removal and manage lien deletion securely, you can configure multi-party approval using Privileged Access Manager (PAM).\nFor more information, see Protect project liens by using Privileged Access Manager and Protect projects with liens.\nCloud CDN\nFeature\nCloud CDN supports the targeted CDN-Cache-Control HTTP response\nheader RFC 9213. You can use\nthis header to specify caching directives specifically for Cloud CDN edge\ncaches without affecting browser-level caching.\nFor details, see Cache control header precedence.\nCloud Database Migration Service\nAnnouncement\nDatabase Migration Service for MySQL homogeneous migrations now supports MySQL version 9.7.\nFor more information, see\n\nSupported source and destination databases.\nCloud NGFW\nFeature\nSupport for the Advanced malware sandbox (WildFire) service is now restored.\nYou can now use Advanced malware sandbox to perform deep inspection of\nnetwork-routed file transfers and…",
-        "image": null,
-        "source": "Google Cloud Platform (GCP) - Release notes",
-        "published": "2026-08-17T07:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "August 16, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#August_16_2026",
-        "summary": "Agent Platform Workbench\nSecurity\nUpdated the bundled Ruby gems rexml and net-imap to patched versions, addressing known vulnerabilities.\nChange\n20260816-2330-rc0 Release\nSecurity\nUpdated aiohttp, joblib and cryptography to patched versions, addressing known vulnerabilities including CVE-2022-21797 and CVE-2025-69223.\nChange\nInstalled latest packages from upstream dependencies.\nChange\nUpdated the CUDA base image from 12.8.1 to 12.9.2 (CUDA 12.9, cuDNN 9.10). This is a minor CUDA 12 update, binary compatible with the previous image, and also addresses known vulnerabilities in a bundled NVIDIA profiler component.\nSecurity\nUpdated the bundled Ruby gems rexml and net-imap to patched versions, addressing known vulnerabilities.\nDeprecated\nRemoved the JupyterLab 3 environment from the Python 3.12 custom container; JupyterLab 4 is now the only JupyterLab environment and is always used. The Python 3.10 images are unaffected.\nChange\n20260816-2330-rc0 Release\nSecurity\nUpdated aiohttp, joblib and cryptography to patched versions, addressing known vulnerabilities including CVE-2022-21797 and CVE-2025-69223.\nChange\nInstalled latest packages from upstream dependencies.\nChange\n20260816-2230-rc0 Release\nChange\nInstalled latest packages from upstream dependencies.\nChange\n20260816-2230-rc0 Release\nChange\nInstalled latest packages from upstream dependencies.\nChange\n20260816-2130-rc0 Release\nChange\nInstalled latest packages from upstream dependencies.\nChange\nInstalled latest packages from…",
-        "image": null,
-        "source": "Google Cloud Platform (GCP) - Release notes",
-        "published": "2026-08-16T07:00:00.000Z",
         "isNew": false
       }
     ],
