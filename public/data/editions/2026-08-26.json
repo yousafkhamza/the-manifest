@@ -1,6 +1,6 @@
 {
   "date": "2026-08-26",
-  "generatedAt": "2026-08-26T05:50:30.462Z",
+  "generatedAt": "2026-08-26T11:47:33.501Z",
   "totalArticles": 72,
   "ticker": [
     {
@@ -181,11 +181,11 @@
       {
         "title": "August 25, 2026",
         "link": "https://docs.cloud.google.com/release-notes#August_25_2026",
-        "summary": "BigQuery\nFeature\nBigQuery data governance tags are\nsupported in Terraform. This feature is in\nPreview.\nCloud SDK\nBreaking\n582.0.0 (2026-08-25)\nBreaking Changes\n(Google Cloud CLI) Removed the legacy Cloud SQL Proxy V1 component ('cloud_sql_proxy') from the Google Cloud CLI. All connect commands now rely exclusively on Cloud SQL Auth Proxy V2 ('cloud-sql-proxy').\n(API Registry) Removed gcloud api-registry mcp servers list and gcloud api-registry\nmcp tools list. For similar functionality, see Agent Registry at\n<https://docs.cloud.google.com/sdk/gcloud/reference/alpha/agent-registry/mcp-servers>.\n(Cloud Services) Removed gcloud beta services mcp policies get, gcloud beta services mcp\npolicies get-effective, and gcloud beta services mcp policies test-enabled\nas MCP policies are not required and they have been functioning as no-ops.\nAnthos\nUpdated anthos-cli with newer go version and library dependencies.\nApp Engine\nUpdated the Java SDK to version 5.1.0 build from the open source project\nhttps://github.com/GoogleCloudPlatform/appengine-java-standard/releases/tag/v5.1.0.\nUpgraded Jetty 12.0 to 12.0.38 and Jetty 12.1 to 12.1.12.\nAdded gRPC support to the App Engine Images service for image transformations and composition.\nApp Lifecycle Manager\nAdded --flags flag to gcloud beta app-lifecycle-manager flags releases create to allow creating flag releases from a list of flag IDs.\nCloud Composer\nEnabled Airflow CLI commands for Composer environments running new Airflow 3.3.x versions.…",
+        "summary": "BigQuery\nFeature\nBigQuery data governance tags are\nsupported in Terraform. This feature is in\nPreview.\nCloud Run\nFeature\nCloud Run instances\nare available in\nPreview. Instances\nare specifically designed for running long-lived and individually addressable\nworkloads.\nCloud SDK\nBreaking\n582.0.0 (2026-08-25)\nBreaking Changes\n(Google Cloud CLI) Removed the legacy Cloud SQL Proxy V1 component ('cloud_sql_proxy') from the Google Cloud CLI. All connect commands now rely exclusively on Cloud SQL Auth Proxy V2 ('cloud-sql-proxy').\n(API Registry) Removed gcloud api-registry mcp servers list and gcloud api-registry\nmcp tools list. For similar functionality, see Agent Registry at\n<https://docs.cloud.google.com/sdk/gcloud/reference/alpha/agent-registry/mcp-servers>.\n(Cloud Services) Removed gcloud beta services mcp policies get, gcloud beta services mcp\npolicies get-effective, and gcloud beta services mcp policies test-enabled\nas MCP policies are not required and they have been functioning as no-ops.\nAnthos\nUpdated anthos-cli with newer go version and library dependencies.\nApp Engine\nUpdated the Java SDK to version 5.1.0 build from the open source project\nhttps://github.com/GoogleCloudPlatform/appengine-java-standard/releases/tag/v5.1.0.\nUpgraded Jetty 12.0 to 12.0.38 and Jetty 12.1 to 12.1.12.\nAdded gRPC support to the App Engine Images service for image transformations and composition.\nApp Lifecycle Manager\nAdded --flags flag to gcloud beta app-lifecycle-manager flags releases create to…",
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-08-25T07:00:00.000Z",
-        "isNew": true
+        "isNew": false
       },
       {
         "title": "August 24, 2026",
@@ -203,7 +203,7 @@
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-08-23T07:00:00.000Z",
-        "isNew": true
+        "isNew": false
       },
       {
         "title": "August 22, 2026",
