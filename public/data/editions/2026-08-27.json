@@ -1,15 +1,15 @@
 {
-  "date": "2026-08-20",
-  "generatedAt": "2026-08-20T17:45:26.886Z",
+  "date": "2026-08-27",
+  "generatedAt": "2026-08-27T16:30:27.079Z",
   "totalArticles": 72,
   "ticker": [
     {
       "label": "Kubernetes",
-      "version": "v1.36.4"
+      "version": "v1.37.0"
     },
     {
       "label": "Terraform",
-      "version": "v1.15.9"
+      "version": "v1.16.0"
     },
     {
       "label": "Python",
@@ -25,11 +25,38 @@
     },
     {
       "label": "Node.js",
-      "version": "v26.7.0"
+      "version": "v26.8.1"
     }
   ],
   "topics": {
     "aws": [
+      {
+        "title": "Happy 20th Birthday, Amazon EC2",
+        "link": "https://aws.amazon.com/blogs/aws/happy-20th-birthday-amazon-ec2/",
+        "summary": "On the 20th Anniversary, we recognize how AWS has continued to push the boundaries of what cloud computing can deliver, building custom silicon for general-purpose and AI workloads and expanding EC2 into new form factors and deployment models that our customers in 2006 could not have imagined.",
+        "image": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2026/08/19/2026-amazon-ec2-20th-thumbx250.jpg",
+        "source": "AWS News Blog",
+        "published": "2026-08-25T16:11:02.000Z",
+        "isNew": false
+      },
+      {
+        "title": "AWS Weekly Roundup: Student Rewards on AWS Builder Center, Local Zone in Las Vegas, and more (August 24, 2026)",
+        "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-student-rewards-on-aws-builder-center-local-zone-in-las-vegas-and-more-august-24-2026/",
+        "summary": "During my time at AWS, I have always looked for opportunities to work with students. I have delivered over 50 talks at universities across the region, and watching the potential in the room is always a strong motivator. It reminds me of why I do this work, and that the students I meet today may […]",
+        "image": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2026/08/23/2026-08-24-WIR.png",
+        "source": "AWS News Blog",
+        "published": "2026-08-24T16:20:15.000Z",
+        "isNew": false
+      },
+      {
+        "title": "AWS Glue 6.0 now available with 30% lower price and full Apache Iceberg v3 support",
+        "link": "https://aws.amazon.com/blogs/aws/aws-glue-6-0-now-available-with-30-lower-price-and-full-apache-iceberg-v3-support/",
+        "summary": "AWS Glue 6.0 is built on a fully modernized runtime, Apache Spark 4.1, Python 3.13, and Scala 2.13, delivering 30% lower pricing than previous AWS Glue versions.",
+        "image": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2026/07/21/2026-aws-glue-6.0-console.png",
+        "source": "AWS News Blog",
+        "published": "2026-08-21T18:53:26.000Z",
+        "isNew": false
+      },
       {
         "title": "In the works: AWS Builder Lofts in Berlin, Hyderabad, and São Paulo",
         "link": "https://aws.amazon.com/blogs/aws/in-the-works-aws-builder-lofts-in-berlin-hyderabad-and-sao-paulo/",
@@ -74,36 +101,27 @@
         "source": "AWS News Blog",
         "published": "2026-08-05T14:45:10.000Z",
         "isNew": false
-      },
-      {
-        "title": "AWS Weekly Roundup: Price reduction of GPT models in Bedrock, CloudWatch managed collectors for Prometheus metrics, and more (August 3, 2026)",
-        "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-price-reduction-of-gpt-models-in-bedrock-cloudwatch-managed-collectors-for-prometheus-metrics-and-more-august-3-2026/",
-        "summary": "Last week I had the joy of participating in Amazon’s “Bring Your Kids to Work Day” with my 7 year old son. We commuted together into the New York City office, his first real rush hour train ride, and spent the day exploring how Amazon uses AI, machine learning, and robotics to deliver packages to […]",
-        "image": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2026/08/03/IMG_2179-225x300.jpg",
-        "source": "AWS News Blog",
-        "published": "2026-08-03T16:12:30.000Z",
-        "isNew": false
-      },
-      {
-        "title": "AWS Weekly Roundup: Local Zone in Athens, Claude Opus 5 on AWS, Lambda durable execution for .NET, and more (July 27, 2026)",
-        "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-july-27-2026/",
-        "summary": "Last week I had the privilege of spending three days in São Paulo with technical builders from across Latin America, brought together for a regional tech event full of deep-dive sessions, hands-on workshops, and conversations with customers and partners. What struck me most wasn’t any single session, it was the energy of a technical community […]",
-        "image": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2026/07/24/eamm-summit-latam.jpg",
-        "source": "AWS News Blog",
-        "published": "2026-07-27T14:54:41.000Z",
-        "isNew": false
-      },
-      {
-        "title": "AWS Weekly Roundup: One-click Lambda setup prompt, OpenAI GPT-5.6 models on Bedrock, and more (July 20, 2026)",
-        "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-one-click-lambda-setup-prompt-openai-gpt-5-6-models-on-bedrock-and-more-july-20-2026/",
-        "summary": "Last week, my team visited Seoul to meet AWS Korea User Group (AWSKRUG) leaders. AWSKRUG is the largest cloud developer community in Korea, with 20 meetup groups organized by topic and area that collectively host over 100 events each year, primarily in Seoul. My team regularly visits countries across the Asia-Pacific region, listens to feedback […]",
-        "image": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2026/07/17/2026-aws-devex-awskrug.jpg",
-        "source": "AWS News Blog",
-        "published": "2026-07-20T16:37:34.000Z",
-        "isNew": false
       }
     ],
     "azure": [
+      {
+        "title": "The Economics of Agent Optimization: Four ways to lower the cost",
+        "link": "https://azure.microsoft.com/en-us/blog/the-economics-of-agent-optimization-four-ways-to-lower-the-cost/",
+        "summary": "Microsoft Foundry gives you four levers that act on every request, before a single line of agent logic changes.\nThe post The Economics of Agent Optimization: Four ways to lower the cost appeared first on Microsoft Azure Blog.",
+        "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/06/CLO23_WorkAnywhere_025.jpg",
+        "source": "Microsoft Azure Blog",
+        "published": "2026-08-26T16:00:00.000Z",
+        "isNew": true
+      },
+      {
+        "title": "The patch window is collapsing: Why security needs a new control plane",
+        "link": "https://azure.microsoft.com/en-us/blog/the-patch-window-is-collapsing-why-security-needs-a-new-control-plane/",
+        "summary": "Organizations need protection that operates in the gap between discovery and remediation.\nThe post The patch window is collapsing: Why security needs a new control plane appeared first on Microsoft Azure Blog.",
+        "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/08/1121922_In-blog-3-1024x576.jpg",
+        "source": "Microsoft Azure Blog",
+        "published": "2026-08-25T16:00:00.000Z",
+        "isNew": false
+      },
       {
         "title": "Microsoft named a Leader in the 2026 Gartner® Magic Quadrant™ for Cloud-Native Application Platforms",
         "link": "https://azure.microsoft.com/en-us/blog/microsoft-named-a-leader-in-the-2026-gartner-magic-quadrant-for-cloud-native-application-platforms/",
@@ -157,101 +175,92 @@
         "source": "Microsoft Azure Blog",
         "published": "2026-07-15T15:00:00.000Z",
         "isNew": false
-      },
-      {
-        "title": "GPT-5.6 now available in Microsoft Foundry",
-        "link": "https://azure.microsoft.com/en-us/blog/gpt-5-6-now-available-in-microsoft-foundry/",
-        "summary": "Introducing OpenAI's latest frontier model series, the Asia Pacific Data Zone, and product agent capabilities, all generally available in Microsoft Foundry.\nThe post GPT-5.6 now available in Microsoft Foundry  appeared first on Microsoft Azure Blog.",
-        "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/06/Azure-Infrastructure-Dark-1-scaled.jpg",
-        "source": "Microsoft Azure Blog",
-        "published": "2026-07-09T17:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "Built to bounce back: How Azure resiliency evolved",
-        "link": "https://azure.microsoft.com/en-us/blog/built-to-bounce-back-how-azure-resiliency-evolved/",
-        "summary": "Cloud resiliency is about ensuring systems can adapt, recover, and keep functioning within real-world constraints.\nThe post Built to bounce back: How Azure resiliency evolved appeared first on Microsoft Azure Blog.",
-        "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/05/CLO24-Azure-Fintech-012-scaled.jpg",
-        "source": "Microsoft Azure Blog",
-        "published": "2026-07-08T16:00:00.000Z",
-        "isNew": false
       }
     ],
     "gcp": [
       {
-        "title": "August 19, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#August_19_2026",
-        "summary": "App Engine flexible environment Go\nFeature\nSupport for the Go 1.27 runtime is in\nPreview.\nFeature\nStarting from Go runtime version 1.26 and later, the lifecycle support dates\nalign more closely with the\nGo community release cycle. For more\ninformation, see\nRuntime support schedule.\nApp Engine standard environment Go\nFeature\nSupport for the Go 1.27 runtime is in\nPreview.\nFeature\nStarting from Go runtime version 1.26 and later, the lifecycle support dates\nalign more closely with the\nGo community release cycle. For more\ninformation, see\nRuntime support schedule.\nFeature\nYou can migrate your App Engine push queues to Cloud Tasks by updating the\nbundled services SDK. This method lets you upgrade your app without needing to\nmodify your application code. For more information on how to migrate, see the\npush queues migration guide\n(Preview).\nApp Engine standard environment Java\nFeature\nYou can migrate your App Engine push queues to Cloud Tasks by updating the\nbundled services SDK. This method lets you upgrade your app without needing to\nmodify your application code. For more information on how to migrate, see the\npush queues migration guide\n(Preview).\nApp Engine standard environment Python\nFeature\nYou can migrate your App Engine push queues to Cloud Tasks by updating the\nbundled services SDK. This method lets you upgrade your app without needing to\nmodify your application code. For more information on how to migrate, see the\npush queues migration guide\n(Preview).\nBatch\nDeprecated\nThe…",
+        "title": "August 27, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#August_27_2026",
+        "summary": "Cloud Trace\nFeature\nThe following remote MCP server automatically generates a trace span for\ntools/call operations.\nDatastream\nThese spans can help you understand the behavior of\nyour agentic applications. For more information, see\nInvestigate MCP calls using Trace.\nGoogle SecOps\nAnnouncement\nScheduled maintenance \nSOAR database and infrastructure maintenance is scheduled to take place during\nthe standard maintenance window on Sunday, August 30. During this window, your\nsystem will experience a brief period of downtime. You don't need to take any \naction.\nGoogle SecOps SOAR\nAnnouncement\nScheduled maintenance \nSOAR database and infrastructure maintenance is scheduled to take place during\nthe standard maintenance window on Sunday, August 16. During this window, your\nsystem will experience a brief period of downtime. You don't need to take any \naction.",
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
-        "published": "2026-08-19T07:00:00.000Z",
+        "published": "2026-08-27T07:00:00.000Z",
+        "isNew": true
+      },
+      {
+        "title": "August 26, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#August_26_2026",
+        "summary": "Apigee hybrid\nAnnouncement\nv1.14.8\nOn August 26, 2026 we released an updated version of the Apigee hybrid software, v1.14.8.\nFor information on upgrading, see Upgrading Apigee hybrid to version v1.14.8.\nFor information on new installations, see The big picture.\nNote: This is a patch release: The container images used in patch releases are integrated with the Apigee hybrid Helm charts. Upgrading to a patch via the Helm chart automatically updates the images. No manual image changes are typically needed. For information on container image support in Apigee hybrid releases, see Apigee release process.\nSecurity\nBug ID\nDescription\n\n\n\n\nN/A\nSecurity fixes for apigee-asm-ingress. \nThis addresses the following vulnerabilities: \nCVE-2026-39822 \nCVE-2026-42505 \n\n\n\nN/A\nSecurity fixes for apigee-asm-istiod. \nThis addresses the following vulnerabilities: \nCVE-2026-39822 \nCVE-2026-42505 \n\n\n\nN/A\nSecurity fixes for apigee-connect-agent. \nThis addresses the following vulnerabilities: \nCVE-2026-33818 \nCVE-2026-39821 \nCVE-2026-46600 \nCVE-2026-56853 \nCVE-2026-56858 \nCVE-2026-56859 \nCVE-2026-56860 \nCVE-2026-56862 \nCVE-2026-56864 \nCVE-2026-56865 \nGHSA-hrxh-6v49-42gf \n\n\n\nN/A\nSecurity fixes for apigee-fluent-bit. \nThis addresses the following vulnerabilities: \nCVE-2025-13151 \nCVE-2025-14524 \nCVE-2025-14819 \nCVE-2026-14662 \nCVE-2026-14663 \nCVE-2026-14664 \nCVE-2026-14666 \nCVE-2026-14668 \nCVE-2026-14669 \nCVE-2026-14670 \nCVE-2026-14671 \nCVE-2026-14672 \nCVE-2026-14673 \nCVE-2026-14677 \nCVE-2026-14678…",
+        "image": null,
+        "source": "Google Cloud Platform (GCP) - Release notes",
+        "published": "2026-08-26T07:00:00.000Z",
         "isNew": false
       },
       {
-        "title": "August 18, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#August_18_2026",
-        "summary": "App Engine standard environment Java\nFeature\nSupport for migrating from the App Engine Images service to\nCloud Run is in\nGeneral Availability (GA).\nApp Engine standard environment Python\nFeature\nSupport for migrating from the App Engine Images service to\nCloud Run is in\nGeneral Availability (GA).\nBigQuery\nFeature\nThe default per-project limit of user-specific\nreservation assignments\nhas been increased from 10 to 100.\nCloud SDK\nBreaking\n581.0.0 (2026-08-18)\nBreaking Changes\n(Cloud Services) Removed gcloud beta services mcp enable, gcloud beta services mcp disable, and gcloud beta services mcp list as MCP enablement is no longer required and they have been functioning as no-ops.\nAI Platform\nAdded gcloud beta ai semantic-governance-policy-engine deprovision\ncommand to tear down a semantic governance policy engine, including its\ntenant project, GKE cluster, and PSC service attachments.\n\n\nPromoted gcloud ai semantic-governance-policies (create, describe,\nupdate, delete, list) and gcloud ai\nsemantic-governance-policy-engine (describe, update, deprovision)\ncommands from beta to GA.\n\n\nBigQuery\nAdded fields precedence and condition to the commands bq ls\n--reservation_assignment and bq show --reservation_assignment output.\nAdded the new AUTOMATIC_MATERIALIZED_VIEW_REFRESH job type for users to create reservation assignments with.\nCloud Auth\nEnabled Enterprise Certificate Proxy (ECP) HTTP Proxy by default for context-aware mTLS requests.\nCloud Bigtable\nRebuilt cbt cli with newer…",
+        "title": "August 25, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#August_25_2026",
+        "summary": "BigQuery\nFeature\nBigQuery data governance tags are\nsupported in Terraform. This feature is in\nPreview.\nCloud Run\nFeature\nCloud Run instances\nare available in\nPreview. Instances\nare specifically designed for running long-lived and individually addressable\nworkloads.\nCloud SDK\nBreaking\n582.0.0 (2026-08-25)\nBreaking Changes\n(Google Cloud CLI) Removed the legacy Cloud SQL Proxy V1 component ('cloud_sql_proxy') from the Google Cloud CLI. All connect commands now rely exclusively on Cloud SQL Auth Proxy V2 ('cloud-sql-proxy').\n(API Registry) Removed gcloud api-registry mcp servers list and gcloud api-registry\nmcp tools list. For similar functionality, see Agent Registry at\n<https://docs.cloud.google.com/sdk/gcloud/reference/alpha/agent-registry/mcp-servers>.\n(Cloud Services) Removed gcloud beta services mcp policies get, gcloud beta services mcp\npolicies get-effective, and gcloud beta services mcp policies test-enabled\nas MCP policies are not required and they have been functioning as no-ops.\nAnthos\nUpdated anthos-cli with newer go version and library dependencies.\nApp Engine\nUpdated the Java SDK to version 5.1.0 build from the open source project\nhttps://github.com/GoogleCloudPlatform/appengine-java-standard/releases/tag/v5.1.0.\nUpgraded Jetty 12.0 to 12.0.38 and Jetty 12.1 to 12.1.12.\nAdded gRPC support to the App Engine Images service for image transformations and composition.\nApp Lifecycle Manager\nAdded --flags flag to gcloud beta app-lifecycle-manager flags releases create to…",
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
-        "published": "2026-08-18T07:00:00.000Z",
+        "published": "2026-08-25T07:00:00.000Z",
         "isNew": false
       },
       {
-        "title": "August 17, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#August_17_2026",
-        "summary": "AlloyDB for PostgreSQL\nFeature\nYou can now use the\nModel Context Protocol (MCP) Toolbox for Databases\nto access AlloyDB observability features and advanced query insights directly in\nyour IDE.\nAssured Workloads\nFeature\nThe\nData Boundary for Canada Controlled Goods Program (CGP)\ncontrol package is now generally available.\nBackup and DR\nAnnouncement\nBeginning November 1, 2026, Backup and DR Service will automatically apply a project-level lien to any project containing a backup vault with backups protected by enforced retention. To secure project liens against unauthorized removal and manage lien deletion securely, you can configure multi-party approval using Privileged Access Manager (PAM).\nFor more information, see Protect project liens by using Privileged Access Manager and Protect projects with liens.\nCloud CDN\nFeature\nCloud CDN supports the targeted CDN-Cache-Control HTTP response\nheader RFC 9213. You can use\nthis header to specify caching directives specifically for Cloud CDN edge\ncaches without affecting browser-level caching.\nFor details, see Cache control header precedence.\nCloud Database Migration Service\nAnnouncement\nDatabase Migration Service for MySQL homogeneous migrations now supports MySQL version 9.7.\nFor more information, see\n\nSupported source and destination databases.\nCloud NGFW\nFeature\nSupport for the Advanced malware sandbox (WildFire) service is now restored.\nYou can now use Advanced malware sandbox to perform deep inspection of\nnetwork-routed file…",
+        "title": "August 24, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#August_24_2026",
+        "summary": "Anthos Config Management\nChange\nAddressed multiple Common Vulnerabilities and Exposures (CVEs) by updating dependencies.\nFeature\nYou can now disable monitoring for specific custom RootSync or RepoSync objects by setting the spec.monitoring.enabled field to false. This disables metric telemetry collection and exporting for that reconciler, which can help reduce cluster resource consumption. For more information, see Disable monitoring.\nBackup and DR\nFeature\nBackup vault support for Filestore instances encrypted with customer-managed encryption keys (CMEK) is now generally available (GA). When you back up Filestore instances to a CMEK-enabled backup vault, the backups are encrypted using the backup vault CMEK key.\nFor more information, see Customer-managed encryption keys (CMEK), Back up Filestore instances to a backup vault, and Restore a Filestore instance from a backup vault.\nBigQuery\nFeature\nYou can now\nmonitor\nthe performance, adoption, latency, and costs of your data agents and their\nconversations by using Google Cloud Observability in BigQuery.\nThis feature is in\nPreview.\nCloud Build\nSecurity\nAn Incorrect Authorization vulnerability CVE-2026-19410,\nin GitHub Trigger Comment Control in Cloud Build, was fixed. No customer action is needed.\nCloud Trace\nFeature\nYou can update the display name, description, and Cloud KMS key\napplied to a _Trace observability bucket.\nFor more information, see\nUpdate observability buckets.\nFeature\nYou can manually create the _Trace…",
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
-        "published": "2026-08-17T07:00:00.000Z",
+        "published": "2026-08-24T07:00:00.000Z",
         "isNew": false
       },
       {
-        "title": "August 16, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#August_16_2026",
-        "summary": "Agent Platform Workbench\nSecurity\nUpdated the bundled Ruby gems rexml and net-imap to patched versions, addressing known vulnerabilities.\nChange\n20260816-2330-rc0 Release\nSecurity\nUpdated aiohttp, joblib and cryptography to patched versions, addressing known vulnerabilities including CVE-2022-21797 and CVE-2025-69223.\nChange\nInstalled latest packages from upstream dependencies.\nChange\nUpdated the CUDA base image from 12.8.1 to 12.9.2 (CUDA 12.9, cuDNN 9.10). This is a minor CUDA 12 update, binary compatible with the previous image, and also addresses known vulnerabilities in a bundled NVIDIA profiler component.\nSecurity\nUpdated the bundled Ruby gems rexml and net-imap to patched versions, addressing known vulnerabilities.\nDeprecated\nRemoved the JupyterLab 3 environment from the Python 3.12 custom container; JupyterLab 4 is now the only JupyterLab environment and is always used. The Python 3.10 images are unaffected.\nChange\n20260816-2330-rc0 Release\nSecurity\nUpdated aiohttp, joblib and cryptography to patched versions, addressing known vulnerabilities including CVE-2022-21797 and CVE-2025-69223.\nChange\nInstalled latest packages from upstream dependencies.\nChange\n20260816-2230-rc0 Release\nChange\nInstalled latest packages from upstream dependencies.\nChange\n20260816-2230-rc0 Release\nChange\nInstalled latest packages from upstream dependencies.\nChange\n20260816-2130-rc0 Release\nChange\nInstalled latest packages from upstream dependencies.\nChange\nInstalled latest packages from…",
+        "title": "August 23, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#August_23_2026",
+        "summary": "Agent Platform Workbench\nChange\nInstalled latest packages from upstream dependencies.\nChange\n20260823-2330-rc0 Release\nChange\nInstalled latest packages from upstream dependencies.\nChange\n20260823-2330-rc0 Release\nChange\n20260823-2230-rc0 Release\nChange\nInstalled latest packages from upstream dependencies.\nChange\n20260823-2230-rc0 Release\nChange\nInstalled latest packages from upstream dependencies.\nFixed\nScheduled notebook executions now report their final status when the execution user's credentials stop working part way through a run, instead of continuing until the execution timeout.\nChange\n20260823-2130-rc0 Release\nChange\nInstalled latest packages from upstream dependencies.\nFixed\nScheduled notebook executions now report their final status when the execution user's credentials stop working part way through a run, instead of continuing until the execution timeout.\nChange\nInstalled latest packages from upstream dependencies.\nChange\nM147 Release",
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
-        "published": "2026-08-16T07:00:00.000Z",
+        "published": "2026-08-23T07:00:00.000Z",
         "isNew": false
       },
       {
-        "title": "August 15, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#August_15_2026",
-        "summary": "Gemini Enterprise Agent Platform\nFeature\nMonitor semantic governance policies with built-in metrics (Preview)\nBuilt-in Cloud Monitoring metrics for the semantic governance policy engine\nare available in Preview. You can now observe request throughput, evaluation\ncounts, latencies, verdict distribution (ALLOW versus DENY), and LLM\ntoken consumption for the policy engine directly in\nMetrics Explorer, query them through\nthe Cloud Monitoring v3 API and PromQL, and use them in alerting policies.\nFor more information, see Monitor semantic governance\npolicies.\nFeature\nAlphaFold 3 is generally available\nAlphaFold 3 is now generally available (GA) and available for approved users for\ncommercial research use.\nAlphaFold 3 Google DeepMind's and Isomorphic Labs' deep learning model to\npredict the 3D structures and interactions of proteins, DNA, RNA, ligands, and\nions. For more information, see\nAlphaFold 3.\nGoogle SecOps SOAR\nAnnouncement\nRelease 6.3.97 is now\navailable for all regions.\nSecure Source Manager\nFeature\nThe Secure Source Manager Model Context Protocol (MCP) server is available in\nPreview. You can use the\nSecure Source Manager MCP server to connect AI tools and coding assistants directly\nto your repositories, branch rules, pull requests, and issues.\nFor more information, see the\n\nSecure Source Manager MCP reference.",
+        "title": "August 22, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#August_22_2026",
+        "summary": "Apigee UI\nFixed\nBug ID\nDescription\n\n\n\n\n543626585\n\n\nServiceCallout policy can now be added in the Apigee UI\n\n\n          Adding a ServiceCallout policy in the Apigee UI no longer leaves the\n          Create or Add button disabled.\n        \nService Callout in the\n          Create policy or Add policy panel could display only\n          the Name and Display name fields and omit the required\n          HTTP target field. With the required field missing, the form never\n          became valid, so the Create or Add button stayed\n          disabled no matter what you entered. This affected both API proxies\n          and shared flows.\n        \nServiceCallout policy\n          and\n          Attach and configure policies in the UI.\n        \nFixed\nBug ID\nDescription\n\n\n\n\n540008387\n\n\nDeveloper custom attributes now save reliably in the Apigee UI\n\n\n          Saving changes to a developer in the\n          Apigee UI in Cloud console\n          no longer intermittently fails to persist that developer's custom\n          attributes.\n        \nIdentity and Access Management\nFeature\nThe Agent Identity auth manager and the Agent Identity APIs\n(agentidentity.googleapis.com and agentidentitycredentials.googleapis.com)\nare generally available.\nAgent Identity auth manager provides a centralized credentials vault and\nauthentication broker that simplifies outbound tool authentication for 3-legged\nOAuth, 2-legged OAuth, and API keys. The Agent Identity APIs replace the legacy\nIAM Connectors API…",
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
-        "published": "2026-08-15T07:00:00.000Z",
+        "published": "2026-08-22T07:00:00.000Z",
         "isNew": false
       },
       {
-        "title": "August 14, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#August_14_2026",
-        "summary": "App Engine flexible environment .NET\nFeature\nTo improve security, starting in August 2026, App Engine opts your application into TLS version 1.2 and later. You can opt out until the end of August 2026. Starting in September 2026, App Engine might permanently block insecure traffic with TLS version 1.1 and earlier. For more information, see Secure minimum TLS.\nApp Engine flexible environment Go\nFeature\nTo improve security, starting in August 2026, App Engine opts your application into TLS version 1.2 and later. You can opt out until the end of August 2026. Starting in September 2026, App Engine might permanently block insecure traffic with TLS version 1.1 and earlier. For more information, see Secure minimum TLS.\nApp Engine flexible environment Java\nFeature\nTo improve security, starting in August 2026, App Engine opts your application into TLS version 1.2 and later. You can opt out until the end of August 2026. Starting in September 2026, App Engine might permanently block insecure traffic with TLS version 1.1 and earlier. For more information, see Secure minimum TLS.\nApp Engine flexible environment Node.js\nFeature\nTo improve security, starting in August 2026, App Engine opts your application into TLS version 1.2 and later. You can opt out until the end of August 2026. Starting in September 2026, App Engine might permanently block insecure traffic with TLS version 1.1 and earlier. For more information, see Secure minimum TLS.\nApp Engine flexible environment PHP\nFeature\nTo…",
+        "title": "August 21, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#August_21_2026",
+        "summary": "AI Hypercomputer\nChange\nAI Hypercomputer has expanded to cover all GPU machine series. Specifically,\nthe documentation for AI Hypercomputer has been significantly updated as\nfollows:\nDocumentation has been added for the A3 Edge, A2, G4, G2, N1+T4, and N1+V100 GPU machine series.\nPages are labeled based on whether they are relevant to the newly documented\nmachine series for\ngeneral GPU,\nthe pre-existing machine series for\nclustered GPU,\nor both.\nTo learn more about the differences between\ngeneral GPUs and\nclustered GPUs, see\nChoose your accelerator infrastructure.\nTo view workload recommendations, see Choose between general GPUs and clustered GPUs.\nAlloyDB for PostgreSQL\nFixed\nAlloyDB now provides more accurate memory usage estimation, and it prevents out-of-memory (OOM) errors when you build a ScaNN four-level tree index. This feature is in Preview. This update improves the stability of index builds by enforcing memory limits and improving memory estimation under constrained conditions.\nFor more information, see Create a ScaNN index.\nApplication Integration\nSecurity\nMissing authorization in QueryEngineTask (CVE-2026-12710)\nA missing authorization vulnerability (CVE-2026-12710) in QueryEngineTask in Application Integration was patched on April 4, 2026, and no customer action is needed.\nAssured Workloads\nFeature\nThe\nSwitzerland Data Boundary with Access Justifications\ncontrol package is now generally available.\nFeature\nThe Data Boundary for ITAR\nsupports the following…",
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
-        "published": "2026-08-14T07:00:00.000Z",
+        "published": "2026-08-21T07:00:00.000Z",
         "isNew": false
       },
       {
-        "title": "August 13, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#August_13_2026",
-        "summary": "Apigee X\nAnnouncement\nOn August 13th, 2026, we began maintenance updates of Apigee instances configured for maintenance windows.\nIf you set a preferred window for maintenance for your instance, and your instance version is\nbelow 1-18-0-apigee-2, your instance will be updated to 1-18-0-apigee-2 within the\nnext seven to 21 days. A notification containing the expected date of upgrade will be sent within the next two business days.\nNote: Instances that meet either of the following two criteria will not be updated:\n\nYour instance has a DNS misconfiguration, as described in Known Issue 445936920.\nYour instance uses an Apigee Java Library that has been removed, as described in Apigee release notes dated October 16, 2025.\n\nFor more information on participating in scheduled maintenance windows, see Maintenance overview and Manage Apigee instance maintenance windows.\nAnnouncement\nOn August 13th, 2026, we released an updated version of Apigee (1-18-0-apigee-3).\nNote: Rollouts of this release began today and may take four or more business days to be completed across all Google Cloud zones. Your instances may not have the features and fixes available until the rollout is complete.\nFixed\nBug ID\nDescription\n\n\n\n\n532147587\nTo fix forward proxy support.\n\n\n537657987\nFixed a bug where watcher failed to reconcile all routes if an environment was not found in the control plane.\n\n\n543022076\nGoogle Cloud BOM upgrade (protobuf 4.x, gRPC 1.81, Guava 33.5). One user-visible change: a malformed inbound…",
+        "title": "August 20, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#August_20_2026",
+        "summary": "App Engine flexible environment .NET\nFeature\nStarting from August 2026, to provide modern security patches and support for MySQL 8.4 and later, the App Engine flexible environment uses Cloud SQL Auth Proxy v2 as the built-in sidecar container for connections to Cloud SQL. To use the latest Cloud SQL Auth Proxy container immediately, restart your VMs or deploy a new version of your application.\nApp Engine flexible environment Go\nFeature\nStarting from August 2026, to provide modern security patches and support for MySQL 8.4 and later, the App Engine flexible environment uses Cloud SQL Auth Proxy v2 as the built-in sidecar container for connections to Cloud SQL. To use the latest Cloud SQL Auth Proxy container immediately, restart your VMs or deploy a new version of your application.\nApp Engine flexible environment Java\nFeature\nStarting from August 2026, to provide modern security patches and support for MySQL 8.4 and later, the App Engine flexible environment uses Cloud SQL Auth Proxy v2 as the built-in sidecar container for connections to Cloud SQL. To use the latest Cloud SQL Auth Proxy container immediately, restart your VMs or deploy a new version of your application.\nApp Engine flexible environment Node.js\nFeature\nStarting from August 2026, to provide modern security patches and support for MySQL 8.4 and later, the App Engine flexible environment uses Cloud SQL Auth Proxy v2 as the built-in sidecar container for connections to Cloud SQL. To use the latest Cloud SQL Auth…",
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
-        "published": "2026-08-13T07:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "August 12, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#August_12_2026",
-        "summary": "Apigee API hub\nFeature\nConfigure and deploy MCP servers with gcloud CLI\nYou can use the gcloud apihub locations configure-and-deploy-server command to configure and deploy API hub Model Context Protocol (MCP) servers to an attached Apigee runtime.\nDefine MCP tools inline or by referencing a YAML or JSON specification file to expose your API hub operations for agent integrations.\nFor more information, see gcloud CLI for API hub.\nBigQuery\nAnnouncement\nTable Explorer behavior has moved to the Reference panel. Table Explorer\nhas been deprecated. For more information, see \"Use the Reference panel\" in\nRun a query.\nBigtable\nFeature\nYou can use parameterized views in Bigtable to dynamically filter data ranges\nfor logical views based on application context and mitigate SQL injection risks.\nThis feature is generally available (GA).\nFor more information, see Parameterized views overview.\nFeature\nYou can use the CLUSTER_ATTRIBUTE() filter to restrict continuous materialized\nview processing to specific clusters. This function lets you isolate views\nwithin an instance. This feature is generally available (GA).\nFor more information, see Non-deterministic SQL functions.\nCloud Trace\nFeature\nThe following remote MCP servers automatically generate a trace span for\ntools/call operations. These spans can help you understand the behavior of\nyour agentic applications. For more information, see\nInvestigate MCP calls using Trace.\nCloud Billing\nPersonalized Service Health\nFeature\nGoogle Cloud…",
-        "image": null,
-        "source": "Google Cloud Platform (GCP) - Release notes",
-        "published": "2026-08-12T07:00:00.000Z",
+        "published": "2026-08-20T07:00:00.000Z",
         "isNew": false
       }
     ],
     "kubernetes": [
+      {
+        "title": "Kubernetes v1.37: Garhwal",
+        "link": "https://kubernetes.io/blog/2026/08/26/kubernetes-v1-37-release/",
+        "summary": "Editors: Arsh Sharma, Christopher Tineo, Kirti Goyal, Sophia Ugochukwu, Swathi Rao, Troy Connor\nSimilar to previous releases, the release of Kubernetes v1.37 introduces new Stable, Beta, and Alpha features. The consistent delivery of high-quality releases underscores the strength of our development cycle and the vibrant support from our community.\nThis release consists of 67 enhancements.\nOf those enhancements, 16 have graduated to Stable, 23 have graduated to Beta,\n27 are entering Alpha, and 1 is a deprecation/removal.\nRelease theme and logo\nThe theme for Kubernetes v1.37 is Garhwal (गढ़वाल, pronounced gaṛhvāl), a Himalayan region of Uttarakhand, India. The snow-capped peaks of the Garhwal Himalaya, deodar forests, terraced fields, rivers and streams, and mountain paths shape both the region and the logo. Together, these elements reflect a community in which every layer, route, and contribution is connected.\nThe logo is imagined as a window into Garhwal's landscape.1 Inside, terraced fields climb towards the snowy peaks, each level supported by the one below, much as every Kubernetes release depends on work carried forward. A river winds through the valley and gathers mountain streams, reflecting contributions from many SIGs and communities flowing into one project.\nThe deodar forest represents the wider Kubernetes ecosystem, where distinct projects share common ground and grow side by side. Stonework and woodcraft shape the path and mountain house, placing people at the…",
+        "image": "https://kubernetes.io/blog/2026/08/26/kubernetes-v1-37-release/k8s-v1.37.svg",
+        "source": "Kubernetes Blog",
+        "published": "2026-08-26T00:00:00.000Z",
+        "isNew": false
+      },
       {
         "title": "How to Pretty-Print Your Kubernetes YAML as KYAML and Why You'd Want To",
         "link": "https://kubernetes.io/blog/2026/08/11/how-to-pretty-print-kubernetes-yaml-as-kyaml/",
@@ -314,18 +323,27 @@
         "source": "Kubernetes Blog",
         "published": "2026-07-13T18:00:00.000Z",
         "isNew": false
-      },
-      {
-        "title": "Announcing etcd v3.7.0",
-        "link": "https://kubernetes.io/blog/2026/07/08/announcing-etcd-3.7/",
-        "summary": "This article is a mirror of the original announcement\nToday, SIG etcd is releasing etcd v3.7.0, the latest minor release of the popular distributed key-value store and core Kubernetes component. v3.7 ships the long-requested RangeStream feature, delivers several other performance improvements, removes the last remnants of the legacy v2store, and completes a major protobuf overhaul.\nYou can download etcd v3.7.0 here:\nSource code\nBinaries\nOfficial container images\nThis release also includes new versions of the two core etcd dependencies, bbolt v1.5.0 and raft v3.7.0.\nFor instructions on installing etcd, see the install documentation. For the full list of changes, see the etcd v3.7 changelog.\nA heartfelt thank you to all the contributors who made this release possible!\nMajor features\nThe most significant changes in v3.7.0 include:\nRangeStream — stream large result sets in chunks instead of buffering the whole response.\nKeys-only range requests, faster and more reliable leases, and several other performance improvements.\netcd now boots entirely from v3store, eliminating a long-standing dependency on the legacy v2 store\nA completed protobuf overhaul, replacing outdated protobuf libraries with fully supported ones.\netcd v3.7 ships with bbolt v1.5.1 and raft v3.7.0.\nFeatures\nRangeStream\nIn etcd v3.6 and earlier, it is challenging to work with requests that return large result sets. The database would buffer the full result set before sending, leading to unpredictable latency and…",
-        "image": null,
-        "source": "Kubernetes Blog",
-        "published": "2026-07-08T12:00:00.000Z",
-        "isNew": false
       }
     ],
     "terraform": [
+      {
+        "title": "v1.17.0-alpha20260827",
+        "link": "https://github.com/hashicorp/terraform/releases/tag/v1.17.0-alpha20260827",
+        "summary": "1.17.0-alpha20260827 (August 27, 2026)\nNEW FEATURES:\nA new -minimal-refresh planning option has been added, which will only refresh resources that have proposed changes. (#35290)\nENHANCEMENTS:\ncommand/init: Enrich log messages with provider versions (#38918)\ncommand/login: display warning after successful login if user is subject to an organization's TTL policy\nBUG FIXES:\nfuncs: pow and log no longer panic when result is not a number (#38912)\nephemeral: Terraform will now use and display diagnostics raised when renewing an ephemeral resource. This may cause warnings to appear that previously were lost. We expect that any error diagnostics that were previously lost would have caused confusing downstream errors, so we do not anticipate this change to be breaking. (#38989)\nFix panic when import identity references sensitive value (#39013)\nNOTES:\nversion: JSON output now includes a new format_version field, which will enable safer future changes of the command's JSON output format. It is assumed existing tooling ignores unknown fields and therefore this change should not be breaking in itself but we advice consumers to pay attention to format_version in future releases and/or use latest version of hashicorp/terraform-json & hashicorp/terraform-exec which does. (#38930)\nEXPERIMENTS:\nExperiments are only enabled in alpha releases of Terraform CLI. The following features are not yet available in stable releases.\nThe experimental \"deferred actions\" feature, enabled by passing the…",
+        "image": "https://avatars.githubusercontent.com/u/82989873?s=60&v=4",
+        "source": "Release notes from terraform",
+        "published": "2026-08-27T10:30:11.000Z",
+        "isNew": true
+      },
+      {
+        "title": "v1.16.0",
+        "link": "https://github.com/hashicorp/terraform/releases/tag/v1.16.0",
+        "summary": "1.16.0 (August 26, 2026)\nNEW FEATURES:\nTerraform now stores planned private data for providers, allowing provider-specific state to be preserved across plan and apply. (#37986)\nterraform_data: The new store block can hold ephemeral and sensitive values across plan and apply. (#38298)\nProviders can now use nested blocks as computed values (#38305)\nimport: import blocks inside modules are now supported. (#38352)\nTerraform is now available as a pre-built binary for Linux s390x (zLinux). (#38384)\nResource action triggers can now use on_failure modes of halt, taint, or continue. (#38722)\nENHANCEMENTS:\nstate show: The state show command can now produce machine-readable output when supplied with the -json flag (#23940)\nworkspace: The workspace list command can now produce machine-readable output when supplied with the -json flag (#38397)\ntest: Terraform now reports which resources were left behind when skip_cleanup is set. (#38449)\nstacks: Action configurations now have access to a caller symbol containing the object value of the calling resource. (#38668)\nActions can now use before_destroy and after_destroy events. (#38668)\ncloud: Terraform now displays a summary of policy evaluation outcomes for plan and apply runs against HCP Terraform. (#38715)\npolicy: Terraform now resolves policy plugin credentials from the configured cloud or remote backend during init, plan, and apply, rather than requiring the plugin to read credentials itself. (#38716)\ngraph: The terraform graph command…",
+        "image": "https://avatars.githubusercontent.com/u/82989873?s=60&v=4",
+        "source": "Release notes from terraform",
+        "published": "2026-08-26T13:05:28.000Z",
+        "isNew": false
+      },
       {
         "title": "v1.15.9",
         "link": "https://github.com/hashicorp/terraform/releases/tag/v1.15.9",
@@ -379,101 +397,92 @@
         "source": "Release notes from terraform",
         "published": "2026-07-29T19:38:27.000Z",
         "isNew": false
-      },
-      {
-        "title": "v1.16.0-beta1",
-        "link": "https://github.com/hashicorp/terraform/releases/tag/v1.16.0-beta1",
-        "summary": "1.16.0-beta1 (July 23, 2026)\nNEW FEATURES:\nTerraform now stores planned private data for providers, allowing provider-specific state to be preserved across plan and apply. (#37986)\nterraform_data: The new store block can hold ephemeral and sensitive values across plan and apply. (#38298)\nProviders can now use nested blocks as computed values (#38305)\nimport: import blocks inside modules are now supported. (#38352)\nTerraform is now available as a pre-built binary for Linux s390x (zLinux). (#38384)\nResource action triggers can now use on_failure modes of halt, taint, or continue. (#38722)\nENHANCEMENTS:\nstate show: The state show command can now produce machine-readable output when supplied with the -json flag (#23940)\nworkspace: The workspace list command can now produce machine-readable output when supplied with the -json flag (#38397)\ntest: Terraform now reports which resources were left behind when skip_cleanup is set. (#38449)\nstacks: Action configurations now have access to a caller symbol containing the object value of the calling resource. (#38668)\nActions can now use before_destroy and after_destroy events. (#38668)\ncloud: Terraform now displays a summary of policy evaluation outcomes for plan and apply runs against HCP Terraform. (#38715)\npolicy: Terraform now resolves policy plugin credentials from the configured cloud or remote backend during init, plan, and apply, rather than requiring the plugin to read credentials itself. (#38716)\ngraph: The terraform graph…",
-        "image": "https://avatars.githubusercontent.com/u/82989873?s=60&v=4",
-        "source": "Release notes from terraform",
-        "published": "2026-07-23T16:51:01.000Z",
-        "isNew": false
-      },
-      {
-        "title": "v1.16.0-alpha20260715",
-        "link": "https://github.com/hashicorp/terraform/releases/tag/v1.16.0-alpha20260715",
-        "summary": "1.16.0-alpha20260715 (July 15, 2026)\nNEW FEATURES:\nStore PlannedPrivate data for providers (#37986)\nNew store block in terraform_data that can handle ephemeral and sensitive values (#38298)\nProviders can now use nested blocks as computed values (#38305)\nimport: add support for import blocks inside modules (#38352)\nWe now produce builds for Linux s390x (zLinux) (#38384)\nworkspace: The workspace list command can now produce machine-readable output when supplied with the -json flag (#38397)\nResource action triggers can now use on_failure modes of halt, taint, or continue (#38722)\nENHANCEMENTS:\nfeat(cli): terraform state show accepts a -json flag (#23940)\nShow info when resources are left behind due to skip_cleanup (#38449)\nAction configuration now has a new caller symbol which contains the object value from the calling resource. (#38668)\nActions can now use before_destroy and after_destroy events (#38668)\ncloud: Render a summary of Terraform policy evaluation outcomes for plan and apply runs against HCP Terraform (#38715)\npolicy: Resolve the policy plugin entitlement (host, token, organization) from the configured cloud/remote backend for init, plan, and apply, instead of the plugin reading credentials itself (#38716)\nThe 'terraform graph' command now accepts a -format flag, and can output graphs in Mermaid format (#38719)\nchild module outputs with unreferenced deprecated nested attributes no longer return deprecation warnings. (#38778)\nSupport destroy=false in resource…",
-        "image": "https://avatars.githubusercontent.com/u/82989873?s=60&v=4",
-        "source": "Release notes from terraform",
-        "published": "2026-07-15T12:44:36.000Z",
-        "isNew": false
       }
     ],
     "python": [
       {
-        "title": "How AWS Powers PyPI and the PSF",
-        "link": "https://pyfound.blogspot.com/2026/08/how-aws-powers-pypi-and-psf.html",
-        "summary": "Written by Jacob Coffee, Director of Engineering at the Python Software Foundation\nWorking on infrastructure at the Python Software Foundation (PSF) as the Director of Engineering is a broad job with many hats. Python turns up everywhere. It's in healthcare systems and government agencies, in research labs and classrooms, in one-person side projects and in infrastructure at companies with six-figure headcounts. Somebody is using it to analyze a genome right now and somebody else is using it to automate a spreadsheet they hate arranging by hand. That range has always been the interesting part of the PSF's work, and it's only broadened in the last couple of years as AI continues to pull people from many disciplines into writing Python.\nAt the PSF we support and maintain the infrastructure behind PyPI, Python.org, PyCon US, CPython, and a growing number of community services. The majority of the PSF's infrastructure runs on AWS, and nearly all of that bill is covered by credits from the AWS Open Source Credits Program.\nThe shape of it\nPyPI takes over six billion requests a day and about thirteen billion counting file downloads. Package egress runs around 10 petabytes a day.\nAlmost none of that reaches AWS. Fastly serves it at the edge through their Fast Forward program at a hit ratio just under 99%, so only about one request in seventy makes it to origin. That caching is the core reason our AWS bill is not measured in the millions of dollars a year.\nWhat does reach us is the…",
+        "title": "Ramya Ravi: 2026 PSF Board Election Candidate Interview",
+        "link": "https://pyfound.blogspot.com/2026/08/ramya-ravi-2026-psf-board-election.html",
+        "summary": "Who are you?\nI'm Ramya Ravi, a Developer Advocate for AI and Open Source at NetApp Instaclustr, based in Connecticut. My day to day is teaching developers how to actually build with open source technology, not just read about it. I write technical tutorials, record videos, and speak at conferences, about things like vector search, retrieval augmented generation, and open source AI infrastructure. Python sits underneath almost everything I work on. The PyTorch and OpenSearch tooling I write about every week both run on it, so in a very real sense I've been a daily Python user for my entire career, even before I thought of myself as part of the Python community in the traditional sense.\nOutside of work, I care a lot about lowering the barrier to entry for newer developers. Earlier in my career I built a developer community from zero to over 6,000 members, and watching someone go from lurker to confident contributor is honestly what keeps me doing this kind of work.\nWhat would you bring to the PSF Board of Directors?\nI'd bring three things: a track record of building community from nothing, a habit of teaching at scale, and a genuinely outside perspective. I grew a developer community from zero to 6,000+ members earlier in my career, so I know what it actually takes to onboard someone new, keep them engaged, and turn them into someone who helps the next person. I've applied that same instinct to technical education, writing tutorials and producing videos across multiple open…",
         "image": null,
         "source": "Python Software Foundation News",
-        "published": "2026-08-19T12:53:50.845Z",
+        "published": "2026-08-25T12:52:26.929Z",
         "isNew": false
       },
       {
-        "title": "Announcing the Packaging Council Election Candidates for 2026!",
-        "link": "https://pyfound.blogspot.com/2026/08/announcing-packaging-council-election.html",
-        "summary": "What an exciting list! Please take a look at who is running for the inaugural Python Packaging Council (PPC) on the Nominees page. This election has 17 nominees for 5 open seats on the council.\nElection Overview\n\nThis inaugural election fills all five seats on the PPC. The two \ncandidates receiving the highest number of votes shall be designated \nCohort A with a two year term, and the three candidates receiving the \nnext highest number of votes shall be designated Cohort B with a one \nyear term.\nIn future elections, each cohort will be elected for a full two-year \nterm in alternating years, so that roughly half of the PPC turns over \neach cycle.\nElection Timeline\n\nNominations open: Tuesday, July 28th, 2:00 pm UTC\nNomination cut-off: Tuesday, August 11th, 2:00 pm UTC\nAnnounce candidates: Thursday, August 13th\nVoter affirmation cut-off: Tuesday, August 25th, 2:00 pm UTC\nVoting start date: Tuesday, September 1st, 2:00 pm UTC\nVoting end date: Tuesday, September 15th, 2:00 pm UTC\n\nNot sure what UTC is for you locally? Check this UTC time converter!\nReminder: Affirm your intention to vote\n\nIf you wish to vote in this election, you must affirm your \nintention to vote no later than Tuesday, August 25th, 2:00 pm UTC, to \nparticipate in this election.\nEvery PSF Voting Member (Supporting, Contributing, and Fellow) needs \nto affirm their membership to vote in this election. Find more \ninformation, including step-by-step instructions on voting affirmation, \nin our \"Affirm Your PSF…",
-        "image": null,
+        "title": "Petr Andreev: 2026 PSF Board Election Candidate Interview",
+        "link": "https://pyfound.blogspot.com/2026/08/petr-andreev-2026-psf-board-election.html",
+        "summary": "Who are you?\nI am a Python educator, CPython-internals specialist, community organizer, and international Python speaker.\nI teach Advanced Python and CPython internals, from memory management and interpreter architecture to free-threading and performance. My work increasingly focuses on turning technical education into real-world participation: research, open-source contribution, conference speaking, and leadership.\nBefore focusing on Python, I helped build an educational community of roughly 2,500 participants. I assembled an organizing team, secured external funding, and developed partnerships with companies, an endowment, and other organizations to support courses, competitions, speakers, and community programs.\nThese experiences shaped the model behind much of my work:\ndevelop developers → develop contributors → develop community leaders.\n\nWhat would you bring to the PSF Board of Directors?\nI would bring experience building organizations and systems around technical communities.\nI have worked on both sides of community development: developing individuals through education and mentorship, and building the infrastructure around them through organizing teams, institutional partnerships, external funding, events, and opportunities to lead.\nI also bring an unusual combination of technical depth and community-building experience. I can communicate with CPython contributors about implementation-level problems, with educators about developing new talent, and with institutions…",
+        "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiUD8bPnCnC6SEryAPFvdHv0KLYU2lJhpRDgXldKPjYjbT4oyn40HEVRBdjEL2cNU-CUKM_bKJjP6lID5fGc1tPsahfLFRHqLdiMjA9yVY6Drcsj_56XkOXwyhlW5VyvxpWyQrpJv0lDLvGFXaHSnU6esIbiyE9dUHGtGDxYof1O4PXe_SiOw/s72-c/PetrAndreev_2026PSFBoardElection.jpg",
         "source": "Python Software Foundation News",
-        "published": "2026-08-13T14:13:35.676Z",
+        "published": "2026-08-25T12:52:15.851Z",
         "isNew": false
       },
       {
-        "title": "Announcing the PSF Board Candidates for 2026!",
-        "link": "https://pyfound.blogspot.com/2026/08/announcing-psf-board-candidates-for-2026.html",
-        "summary": "What an exciting list! Please take a look at the 18 candidates running for the PSF Board this year on the Nominees page. This year there are 4 seats open on the PSF Board. You can see who is currently on the board on the PSF Officers & Directors page. (Cheuk Ting Ho, Christopher Neugebauer, Denny Perez, and Georgi Ker are at the end of their current terms.)\nNomination and supporting statements are the clearest way to see how each candidate actually thinks: their priorities, experience, and vision for the PSF. Rather than just voting on name recognition, we encourage you to read each candidate's nomination and supporting statements. PSF Board members shape real decisions about budget, programs, and the direction of the PSF. Reading these statements helps ensure your vote reflects what the candidates would actually do in the role. \nBoard Election Timeline:\n\nNominations open: Tuesday, July 28th, 2:00 pm UTC\nNomination cut-off: Tuesday, August 11th, 2:00 pm UTC\nAnnounce candidates: Thursday, August 13th\nVoter affirmation cut-off: Tuesday, August 25th, 2:00 pm UTC\nVoting start date: Tuesday, September 1st, 2:00 pm UTC\nVoting end date: Tuesday, September 15th, 2:00 pm UTC\n\nNot sure what UTC is for you locally? Check this UTC time converter.\nReminder to affirm your intention to vote!\nIf you wish to vote in this year’s election, you must affirm your intention to vote no later than Tuesday, August 25th, 2:00 pm UTC, to participate in this year’s election. This year’s Board Election…",
-        "image": null,
+        "title": "Nina Zakharenko: 2026 PSF Board Election Candidate Interview",
+        "link": "https://pyfound.blogspot.com/2026/08/nina-zakharenko-2026-psf-board-election.html",
+        "summary": "Who are you?\nI'm Nina Zakharenko. I went to my first PyCon US in Santa Clara in 2013, and fell in love with the Python community. Since then, I've co-chaired PyCascades, taught Python to hundreds of students, and given talks, workshops, and keynotes at Python events around the world, including the closing keynote at PyCon US 2019. Professionally, I've held roles at Microsoft and Google focused on Python, open source, developer communities, and supply chain security. These days I work for myself, and I'm running as an independent candidate.\nI served on the PSF Board of Directors from 2020 to 2023, including as Communications Co-Chair and Co-Vice Chair. After spending time recharging, I'm running again because I believe the Python community is entering a period of significant change, and I'd like to contribute my relevant experience to a community that has been central to my life and career for over a decade. Outside of work, I love to be creative with hobbies like 3D printing, ceramics, and stained glass artwork.\nWhat would you bring to the PSF Board of Directors?\nThree years of board experience, along with perspective from working across industry and community. During my previous term, I worked on initiatives around grants and helped introduce a more accessible membership tier. I also learned the less visible side of board work: fundraising, executive oversight, and recruiting new directors. That means I can start contributing quickly, and invest time in helping new…",
+        "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj7kgtFVKRtd8ybJZ6wYD7k4wF0TwHe1MUlele4YBYQ8TyfyTwMJhRTnAb3l4sUxsF2RSxQyLy2ir__WFXVrSG_KDdy7t-trkgh4c_59cv4GfPlrdKVefrNEFDX4DUOd0t3LeXEiiF7mDyiGRGc3HlFTwk7aa9UR6hItEP4Gx3JpMv60xHhVg/s72-c/NinaZakharenko_2026PSFBoardElection.jpg",
         "source": "Python Software Foundation News",
-        "published": "2026-08-13T13:48:30.294Z",
+        "published": "2026-08-25T12:52:00.184Z",
         "isNew": false
       },
       {
-        "title": "Announcing the Packaging Council Election Candidates for 2026!",
-        "link": "https://blog.python.org/2026/08/2026-packaging-council-nominees/",
-        "summary": "Announcing the 17 nominees for the inaugural Python Packaging Council election, and how to vote in the election.",
-        "image": null,
-        "source": "Python Insider",
-        "published": "2026-08-13T00:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "Python 3.12.14, 3.11.16 and 3.10.21 are now available!",
-        "link": "https://blog.python.org/2026/08/python-31214-31116-31021/",
-        "summary": "[Python Releases Eclipse Your Security!](https://discuss.python.org/t/python-3-12-14-3-11-16-and-3-10-21-are-now-available/108537) New security releases for 3.10, 3.11 and 3.12 are now available.",
-        "image": null,
-        "source": "Python Insider",
-        "published": "2026-08-12T00:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "Python 3.14.7 and 3.13.15 are now available!",
-        "link": "https://blog.python.org/2026/08/python-3147-31315/",
-        "summary": "A pair of bug fix releases await your upgrade.",
-        "image": null,
-        "source": "Python Insider",
-        "published": "2026-08-05T00:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "Python 3.15.0 candidate 1 is here!",
-        "link": "https://blog.python.org/2026/08/python-3150-rc1/",
-        "summary": "Get those wheels rolling!",
-        "image": null,
-        "source": "Python Insider",
-        "published": "2026-08-04T00:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "Announcing a 2026 PSF Grants Program Funding Round",
-        "link": "https://pyfound.blogspot.com/2026/07/announcing-2026-psf-grants-program.html",
-        "summary": "The Python Software Foundation (PSF) is excited to announce a 2026 PSF Grants Program funding round. This is not a full reopening of the Grants Program as it existed before. Rather, it's what the PSF is able to sustainably offer right now, given where we stand financially and operationally. The PSF Board, PSF Staff, and PSF Grants Work Group (GWG) are deeply passionate about the program and understand how important it is to the Python community. It’s our honor to have the opportunity to disburse grant funding in 2026. \nIn keeping with our focus on sustainability, this round of grant funding has a set budget capped at $90,000 USD, a limited scope, and a different structure and timeline for applying and reviewing. We will be accepting applications from August 4 - 25 AoE, for Conferences and Workshops that are scheduled between December 1, 2026, and April 30, 2027. Our top priority is getting available funds to the regional communities who need it most: those who have had to pause their events and initiatives because of lack of funding from PSF Grants or loss of sponsors.\n\nContext\nAs folks following along with the PSF may remember, the last couple of years have been financially challenging, with the PSF’s assets and yearly revenue declining and costs increasing across the board. At the same time, the demand for our work has continued to multiply. Making the decision to pause the Grants Program last year was difficult, but a necessary step to protect both the future of the…",
-        "image": null,
+        "title": "Keith Murray: 2026 PSF Board Election Candidate Interview",
+        "link": "https://pyfound.blogspot.com/2026/08/keith-murray-2026-psf-board-election.html",
+        "summary": "Who are you?\nI’m Keith Murray.\nI engage with a lot of Python Communities, often with the handle KeithTheEE, and I find that my favorite parts of the many communities are seeing the hobbies people have, and if/how Python intersects them. Hobbies and passion projects (including silly, fun passions) are one of the ways to make code matter, and are one of the things I’ve been falling back to of late to help balance against burnout: particularly when I feel overwhelmed by code ‘engagement’ that feels overly extractive. Discovering hobbies of other Python community members has made engaging feel like a collaborative and supportive experience, even if the code isn’t tied to the hobby at all.\nI love (trying) to grow orchids, birding, and making pasta, and while I don’t involve Python in every aspect of it, hearing about how it resonates with others (constructive or destructively), like how some prefer begonias over orchids, never got birding but love their dogs, or the many foods from their home I now need to try--helps me look forward to reading comments on the item at hand. So I’m Keith, I like many things and I love how so many people make the code around me joyful.\nWhat would you bring to the PSF Board of Directors?\nMy experience would help drive outreach to communities and direct small changes to help navigate the Python ecosystem and communities with an increased awareness of engagement opportunities. A particular interest is tied to PSF membership, and using it as a pathway…",
+        "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgHNH2FD_Y4H9LpT2IpuFRi7pGsKuAexjQwp3YV05wFlxgF2BTGhMhAqoRPLV33DaGp_LZYPlsOLWI7gG07gB19S-fD0LkWYSFENHEkcad0dSiRk4zcThiy7wWhunJn9SUj-NKb1oJ7IgeW10svF0NRVfzC0cQO6tvvTeZfRrImz451YtsOpg/s72-c/KeithMurray_2026PSFBoardElection.jpg",
         "source": "Python Software Foundation News",
-        "published": "2026-07-28T12:14:47.114Z",
+        "published": "2026-08-25T12:51:41.133Z",
+        "isNew": false
+      },
+      {
+        "title": "Karo Ladino-Puerto: 2026 PSF Board Election Candidate Interview",
+        "link": "https://pyfound.blogspot.com/2026/08/karo-ladino-puerto-2026-psf-board.html",
+        "summary": "Who are you?\n\n¡Hola mundo! I'm Karo Ladino-Puerto, though most of the community knows me as Karobot. I'm Colombian, a PSF Fellow since 2020, and I've spent the last eight years building Python community infrastructure in my country alongside a lot of amazing people. I've co-led PyLadies Colombia since 2018, supporting chapters in Bogotá, Medellín, Cali, Bucaramanga, Boyacá and Santa Marta. I co-organized PyCon Colombia from 2020 to 2025, and today I'm one of three women leading Python Colombia, with the objective of reconnecting the Python communities across the whole country. In 2025 I co-founded Fundación Átoma with Carolina Gómez and Nicole Franco, a Colombian non-profit that trains women in programming and helps local organizers keep their tech conferences free.\nBy trade I'm a project manager, which mostly means I'm the person who notices the task nobody was assigned, asks the awkward question early, and keeps the timeline honest. It's the same skill I use in community work. I over-communicate on purpose, I'm detail-oriented to a degree that occasionally annoys people, and I still believe most good things don't need a big budget, just organization and consistency.\nWhat would you bring to the PSF Board of Directors?\nI ran for the Board in 2024. I'm running again because the question in front of the PSF has changed, and I think I can be more useful this time.\nIn 2024 we were mostly talking about growth. Today the Grants Program is running on a capped budget after last…",
+        "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjFUxjESZAcGGxEgsr2BlBo75pZ4yTvWEsF1GxwRdGiGAhtwbdmv_WGZwzEf4LaAKP0PvOjFPEm7KvtkDTxh97AaLqbtwx_JCQPszloYH7xloxj2jXH1whXYKARm-Ow6ZBo9hiIoPgxgFSiJwxt9qkLI7c29uQTs_MXwmOAkmI4g8UjPSR5Dg/s72-c/KaroLadino-Puerto_2026PSFBoardElection.png",
+        "source": "Python Software Foundation News",
+        "published": "2026-08-25T12:51:24.106Z",
+        "isNew": false
+      },
+      {
+        "title": "Kalyan Prasad: 2026 PSF Board Election Candidate Interview",
+        "link": "https://pyfound.blogspot.com/2026/08/kalyan-prasad-2026-psf-board-election.html",
+        "summary": "Who are you? \nHi, I’m Kalyan Prasad. My journey has been unconventional and shaped by persistence, self-learning, and community. I started working at a young age while continuing my studies, including delivering newspapers and milk. I later began my professional career in the financial services industry, working across operations and related roles.\nOver time, I became increasingly curious about data and technology and decided to make a career transition. Coming from a non-technical background, I had a lot to learn. Through self-learning, continuous practice, and the support of communities, I moved into data science, later took on data and AI leadership roles, and today work as an AI and Data Science Practice Lead.\nPython has been an important part of both my professional and community journey. I became involved with the Python community in 2019, starting as a room monitor at PyConf Hyderabad. Since then, I have grown from being a volunteer to organizing conferences, mentoring others, contributing to program committees and working groups, and taking on community leadership responsibilities.\nFor me, Python is much more than a programming language. It is a community that has helped me learn, grow, contribute, and build meaningful relationships. That experience continues to shape how I think about technology, opportunity, and community service.\nWhat would you bring to the PSF Board of Directors?\nI would bring the perspective of someone who has worked both inside community…",
+        "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi9O8dr_u_Ki0RcICOA53RJBxuN74txctNYJQFJyFjY4SiSNb2RhlERSBOTUz0lP8HAxtrMLuZ0hj1MT8W0QJMja4kqgCNkMs78rEDXFO5nejNNiZVINVAp8EEJIgEZMDJVtGnmdohI213jpmlvJuKcuc6n3tCiHg-mT1u83sezP3IvSe0YBw/s72-c/KalyanPrasad_2026PSFBoardElection.jpg",
+        "source": "Python Software Foundation News",
+        "published": "2026-08-25T12:51:09.255Z",
+        "isNew": false
+      },
+      {
+        "title": "Jeremy Tanner: 2026 PSF Board Election Candidate Interview",
+        "link": "https://pyfound.blogspot.com/2026/08/jeremy-tanner-2026-psf-board-election.html",
+        "summary": "Who are you? \nI'm Jeremy Tanner, an organizer, speaker, sponsor, Python developer, and community member. I'm based in North America, though many of my favorite people, places, and events are not. I've spent much of my career in the open Python ecosystem; packaging infrastructure, developer tooling, and the supply chains that get Python into the hands of pythonistas building everything imaginable. I believe the Python community should look like the world, not just the English-speaking, North American corner of it, and that sustainable finances are what make that vision achievable. I'm running for the PSF Board to do both: raise sustainable funds and resources, and make sure they reach everywhere.\n\nWhat would you bring to the PSF Board of Directors?\nSponsorship for Python Foundations, Events, Organizations: I have direct experience securing corporate partnerships and sponsorships for the Python ecosystem, including navigating the internal processes of large companies to provide support to open source projects, infrastructure, and community gatherings. I’ve been on the organizing side as well, responsible for fundraising, programming, and attendee experience.\n\nWhat motivated you to run for the PSF Board of Directors?\nI wouldn't be here if it weren't for Python.\nThe PSF is the organizational backbone of the most important programming language in the world, and it is perpetually underfunded relative to its mission. Companies and the community benefit enormously from the PSF's…",
+        "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjBGUudyb_kNO5hqkqN2Fdqez0R3Cs1UDXL-ZsM0xaWNCW2uiEggYUKpKzjUI3a48WgwPAoCea6WyzXoOrElU0SEx7fE7UWlR4gDFtdqRGdgGKmD4gOPNDtWnmTKroBJp9ULk_Rr81WWM9FIK2g_051RQw0J2jEIco6Q5qlO5RF1dF_H3As3g/s72-c/JeremyTanner_2026PSFBoardElection.jpg",
+        "source": "Python Software Foundation News",
+        "published": "2026-08-25T12:50:54.540Z",
+        "isNew": false
+      },
+      {
+        "title": "Georgi Ker: 2026 PSF Board Election Candidate Interview",
+        "link": "https://pyfound.blogspot.com/2026/08/georgi-ker-2026-psf-board-election.html",
+        "summary": "Who are you?\nHi, I’m Georgi, an independent entrepreneur, open source community organiser, and leader. I’m also a PSF Fellow and a recipient of the PSF Community Service Award.\nAlthough I currently live in Amsterdam, I am proud to represent communities across Asia. I have served on the PSF Board since 2023. I also helped design PyCon US branding and websites since 2022 and for other open source community events and projects as well.\nMy contributions to the Python community span over many years, beginning mainly in Asia and becoming more international over time. Much of my work sits where people, governance, and community meet.\nI care especially about the people doing the quiet work that keeps open source communities alive. They may not always be on the main stage, but the community would not exist without them.\nWhat would you bring to the PSF Board of Directors?\nThree years on the Board have taught me where the PSF is strong, where it is fragile, and where good intentions are not becoming results. \nAs a former Treasurer, I raised concerns about the lack of a clear financial runway and pushed for stronger budgeting and regular financial planning. Through the Executive Committee, I have also participated in staff discussions, document reviews, difficult organisational decisions, and helped finalize the PSF’s long-delayed strategic planning process with the board.\nMy perspective is also strongly shaped by communities around the world. The work began from Asia and now includes…",
+        "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgrpX5v7vO-OUtX-lzQ81sfxw7Qk-CMsLtK4xlsWQW2mYJj5Z63jISDCOtzpx644pbtXdDNCpr9FRcMIdBUN0Q6xP8lka5tIG7qfrunaBHQDqYFXATpX8FYPXJg8qZOA38aiG-j7ib_ZJA538DG6YEAH5EO6sURsSWGzUvKPAOAokUYZH-_IQ/s72-c/GeorgiKer_2026PSFBoardElection.jpg",
+        "source": "Python Software Foundation News",
+        "published": "2026-08-25T12:50:41.036Z",
         "isNew": false
       }
     ],
     "go": [
+      {
+        "title": "Generic Methods",
+        "link": "https://go.dev/blog/generic-methods",
+        "summary": "The Go Blog\nGeneric Methods\nGenerics was a profound change for Go—it fundamentally expanded the kinds of\nprograms that gophers could write by adding type parameters to the language.\nOne could now express generic types and functions in Go. These constructs\ndecreased the need for specialized data types and functions, reducing program\nverbosity and improving the ergonomics of the language in those cases.\nTo illustrate, different kinds of linked lists could now be condensed into a\nsingle type definition:\n// before Go 1.18\ntype ListOfInts struct {\n    elem int\n    next *ListOfInts\n}\ntype ListOfStrings struct {\n    elem string\n    next *ListOfStrings\n}\n// ...\n\n// after Go 1.18\ntype List[E any] struct {\n    elem E\n    next *List[E]\n}\n\nLikewise, sorting different kinds of ordered data could be expressed as a single\nfunction:\n// before Go 1.18\nfunc SortInts(s []int) { /* ... */ }\nfunc SortStrings(s []string) { /* ... */ }\n// ...\n\n// after Go 1.18\nfunc Sort[E cmp.Ordered](s []E) { /* ... */ }\n\nHowever, no such capability came to methods.\nThe generics proposal reasoned that because generic interface\nmethods are difficult to implement efficiently (discussed\nlater), it didn’t make sense to\nadd type parameters to non-interface (or “concrete”) methods either. In that\nview, methods are primarily the means of implementing an interface.\nGo 1.27 takes a different view and consequently adds generic methods to Go. In\nthis post, we’ll explain this change of view and demonstrate some uses of this…",
+        "image": null,
+        "source": "The Go Blog",
+        "published": "2026-08-26T00:00:00.000Z",
+        "isNew": true
+      },
       {
         "title": "Go 1.27 is released",
         "link": "https://go.dev/blog/go1.27",
@@ -536,18 +545,27 @@
         "source": "The Go Blog",
         "published": "2026-02-10T00:00:00.000Z",
         "isNew": false
-      },
-      {
-        "title": "Results from the 2025 Go Developer Survey",
-        "link": "https://go.dev/blog/survey2025",
-        "summary": "The Go Blog\nResults from the 2025 Go Developer Survey\nHello! In this article we’ll discuss the results of the 2025 Go Developer\nSurvey, conducted during September 2025.\nThank you to the 5,379 Go developers who responded to our survey invitation\nthis year. Your feedback helps both the Go team at Google and the wider Go\ncommunity understand the current state of the Go ecosystem and prioritize\nprojects for the year ahead.\nOur three biggest findings are:\nBroadly speaking, Go developers asked for help with identifying and applying\nbest practices, making the most of the standard library, and expanding the\nlanguage and built-in tooling with more modern capabilities.\nMost Go developers are now using AI-powered development tools when seeking\ninformation (e.g., learning how to use a module) or toiling (e.g., writing\nrepetitive blocks of similar code), but their satisfaction with these tools\nis middling due, in part, to quality concerns.\nA surprisingly high proportion of respondents said they frequently need to\nreview documentation for core go subcommands, including go build, go run, and go mod, suggesting meaningful room for improvement with the go\ncommand’s help system.\nRead on for the details about these findings, and much more.\nSections\nWho did we hear from?\nHow do people feel about Go?\nWhat are people building with Go?\nWhat are the biggest challenges facing Go\ndevelopers?\nWhat do their development environments look like?\nSurvey methodology\nWho did we hear from?\nMost survey…",
-        "image": null,
-        "source": "The Go Blog",
-        "published": "2026-01-21T00:00:00.000Z",
-        "isNew": false
       }
     ],
     "rust": [
+      {
+        "title": "Announcing our first Maintainers in Residence",
+        "link": "https://blog.rust-lang.org/2026/08/26/announcing-our-first-maintainers-in-residence/",
+        "summary": "We are very happy to announce the Rust Project's first round of Maintainers in Residence:\nGen Li (@rami3l), Chris Denton (@ChrisDenton), Alejandra González (@blyxyas), León Liehr (@fmease), and Maintainer Grant recipients: Jason Newcomb (@Jarcho) and Jonas Böttiger (@joboet). These contributors will be funded for their rust-lang maintenance activities for (at least) the following 12 months!\nThe funding of the Maintainer in Residence (MiR) and Maintainer Grantee roles is possible thanks to generous donations to the Rust Foundation Maintainers Fund (RFMF) from Google, AWS, OpenAI, the Rust Project Leadership Council and also individual sponsors. We also want to thank the people who advocated for maintainer funding within their companies; Tyler Mandry from Google, Niko Matsakis and Jess Izen from AWS and Predrag Gruevski from OpenAI, and also the whole Rust Leadership Council and our funding advisors. If you would like to help us support even more Rust contributors, consider donating to RFMF.\nThe Rust Foundation has published a press release and a blog post, where you can learn more about the sponsors and the supported contributors.\nRead more below to learn about the MiR program, how we chose the funded contributors, and of course who they are!\n\nBackground\nThe Maintainer in Residence program, established in RFC 3931, is designed to provide stable financial support for Rust contributors, so that they can truly focus on crucial maintenance activities. Currently, there are three…",
+        "image": null,
+        "source": "Rust Blog",
+        "published": "2026-08-26T00:00:00.000Z",
+        "isNew": false
+      },
+      {
+        "title": "Enabling the next-generation trait solver on nightly",
+        "link": "https://blog.rust-lang.org/2026/08/21/enabling-next-solver-on-nightly/",
+        "summary": "After nearly 4 years of active development, the next-generation trait solver is close to stabilization. We are enabling it by default on nightly to surface any remaining issues and plan to stabilize it in the next months. This is the largest single change to the Rust compiler since its initial release. It completely replaces how we prove where-clauses, normalize associated types, and much more. Please try out the latest nightly and open an issue if you encounter any bugs or regressions.\nThis is an internal component of the compiler. The main benefits of this rework will come in the future. The removal of the old implementation will unblock features such as Type Alias Impl Trait and Return Type Notation, allow us to add new implicit default trait bounds (e.g., Move and Forget), and enable us to fix the remaining type system unsoundnesses.\nEven so, this already fixes a huge number of issues. As an underapproximation, we currently know of more than 200 issues on GitHub fixed by this change. This also has a significant impact on compile times; more on that later. When developing on nightly, you may accidentally rely on behavior only supported by the new trait solver.\nThis is an incredibly big change which results in a non-trivial amount of breakage. Most of these changes are intended improvements to type inference or the removal of undesirable behavior. We are tracking the known issues and breakage in a pinned GitHub issue.\n\nWhat can I do?\nPlease update to the latest nightly…",
+        "image": "https://blog.rust-lang.org/2026/08/21/enabling-next-solver-on-nightly/visualization.png",
+        "source": "Rust Blog",
+        "published": "2026-08-21T00:00:00.000Z",
+        "isNew": false
+      },
       {
         "title": "Supply chain attack on arrayref",
         "link": "https://blog.rust-lang.org/2026/08/20/supply-chain-attack-on-arrayref/",
@@ -601,27 +619,36 @@
         "source": "Rust Blog",
         "published": "2026-07-09T00:00:00.000Z",
         "isNew": false
-      },
-      {
-        "title": "Announcing Rust 1.96.1",
-        "link": "https://blog.rust-lang.org/2026/06/30/Rust-1.96.1/",
-        "summary": "The Rust team has published a new point release of Rust, 1.96.1. Rust is a programming language that is empowering everyone to build reliable and efficient software.\nIf you have a previous version of Rust installed via rustup, getting Rust 1.96.1 is as easy as:\nrustup update stable\nIf you don't have it already, you can get rustup from the appropriate page on our website.\n\nWhat's in 1.96.1\nRust 1.96.1 fixes:\nMissing retries / timeouts in Cargo's HTTP client\nMiscompilation in a MIR optimization\nIt also fixes three CVEs\naffecting libssh2 (which is compiled into Cargo):\nCVE-2025-15661\nCVE-2026-55199\nCVE-2026-55200\n\nContributors to 1.96.1\nMany people came together to create Rust 1.96.1. We couldn't have done it without all of you. Thanks!",
-        "image": null,
-        "source": "Rust Blog",
-        "published": "2026-06-30T00:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "The many journeys of learning Rust",
-        "link": "https://blog.rust-lang.org/2026/06/25/vision-doc-journeys-to-learning-rust/",
-        "summary": "This is another post in our series covering what we learned through the Vision Doc process. We previously described the overall approach and what we learned about doing user research, we explored what people love about Rust, dug into what it takes to ship safety-crticial Rust, and described some of the major challenges that people face when using Rust.\nIn this post we walk through what folks have found on their journey to learn the Rust programming language with ups and downs covered.\nAs a disclaimer, LLMs (Large Language Models) come up in this post because our interviewees brought them up. We're scoping discussion to their use as a learning tool, covering research and example generation, not broader questions about AI (Artificial Intelligence) in software development.\n\nMany paths to needing Rust\nThe interviews surfaced several different paths into Rust: curiosity, embedded work, job-market pressure, organizational adoption, and reassignment after a team or company chose Rust. That last path matters because many learners are not evaluating Rust from a blank slate; they are trying to become productive after Rust has already arrived in their work.\n\"Funny enough, I've advocated for more niche languages than Rust in the past. Rust has pretty much stopped being as much of a niche language as it was, but it's not Java.\" -- Fractional CTO\n\nRust learning resources\nLikely as expected, the folks that we talked to reach for a range of resources to learn Rust. Some reach for official…",
-        "image": null,
-        "source": "Rust Blog",
-        "published": "2026-06-25T00:00:00.000Z",
-        "isNew": false
       }
     ],
     "javascript": [
+      {
+        "title": "Node.js 26.8.1 (Current)",
+        "link": "https://nodejs.org/en/blog/release/v26.8.1",
+        "summary": "",
+        "image": null,
+        "source": "Node.js Blog",
+        "published": "2026-08-26T22:11:36.000Z",
+        "isNew": true
+      },
+      {
+        "title": "Node.js 26.8.0 (Current)",
+        "link": "https://nodejs.org/en/blog/release/v26.8.0",
+        "summary": "",
+        "image": null,
+        "source": "Node.js Blog",
+        "published": "2026-08-26T14:29:48.000Z",
+        "isNew": false
+      },
+      {
+        "title": "Node.js 24.20.0 (LTS)",
+        "link": "https://nodejs.org/en/blog/release/v24.20.0",
+        "summary": "",
+        "image": null,
+        "source": "Node.js Blog",
+        "published": "2026-08-26T14:29:42.000Z",
+        "isNew": false
+      },
       {
         "title": "Node.js Interactive 2026: A Recap",
         "link": "https://nodejs.org/en/blog/events/nodejs-interactive-2026",
@@ -665,33 +692,6 @@
         "image": null,
         "source": "Node.js Blog",
         "published": "2026-07-29T16:19:07.000Z",
-        "isNew": false
-      },
-      {
-        "title": "Node.js 26.5.1 (Current)",
-        "link": "https://nodejs.org/en/blog/release/v26.5.1",
-        "summary": "",
-        "image": null,
-        "source": "Node.js Blog",
-        "published": "2026-07-29T14:03:39.000Z",
-        "isNew": false
-      },
-      {
-        "title": "Node.js 22.23.2 (LTS)",
-        "link": "https://nodejs.org/en/blog/release/v22.23.2",
-        "summary": "",
-        "image": null,
-        "source": "Node.js Blog",
-        "published": "2026-07-29T14:01:35.000Z",
-        "isNew": false
-      },
-      {
-        "title": "Wednesday, July 29, 2026 Security Releases",
-        "link": "https://nodejs.org/en/blog/vulnerability/july-2026-security-releases",
-        "summary": "",
-        "image": null,
-        "source": "Node.js Blog",
-        "published": "2026-07-29T00:00:00.000Z",
         "isNew": false
       }
     ]

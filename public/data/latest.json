@@ -1,6 +1,6 @@
 {
-  "date": "2026-08-26",
-  "generatedAt": "2026-08-26T19:19:02.957Z",
+  "date": "2026-08-27",
+  "generatedAt": "2026-08-27T16:30:27.079Z",
   "totalArticles": 72,
   "ticker": [
     {
@@ -25,7 +25,7 @@
     },
     {
       "label": "Node.js",
-      "version": "v26.8.0"
+      "version": "v26.8.1"
     }
   ],
   "topics": {
@@ -105,6 +105,15 @@
     ],
     "azure": [
       {
+        "title": "The Economics of Agent Optimization: Four ways to lower the cost",
+        "link": "https://azure.microsoft.com/en-us/blog/the-economics-of-agent-optimization-four-ways-to-lower-the-cost/",
+        "summary": "Microsoft Foundry gives you four levers that act on every request, before a single line of agent logic changes.\nThe post The Economics of Agent Optimization: Four ways to lower the cost appeared first on Microsoft Azure Blog.",
+        "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/06/CLO23_WorkAnywhere_025.jpg",
+        "source": "Microsoft Azure Blog",
+        "published": "2026-08-26T16:00:00.000Z",
+        "isNew": true
+      },
+      {
         "title": "The patch window is collapsing: Why security needs a new control plane",
         "link": "https://azure.microsoft.com/en-us/blog/the-patch-window-is-collapsing-why-security-needs-a-new-control-plane/",
         "summary": "Organizations need protection that operates in the gap between discovery and remediation.\nThe post The patch window is collapsing: Why security needs a new control plane appeared first on Microsoft Azure Blog.",
@@ -166,22 +175,22 @@
         "source": "Microsoft Azure Blog",
         "published": "2026-07-15T15:00:00.000Z",
         "isNew": false
-      },
-      {
-        "title": "GPT-5.6 now available in Microsoft Foundry",
-        "link": "https://azure.microsoft.com/en-us/blog/gpt-5-6-now-available-in-microsoft-foundry/",
-        "summary": "Introducing OpenAI's latest frontier model series, the Asia Pacific Data Zone, and product agent capabilities, all generally available in Microsoft Foundry.\nThe post GPT-5.6 now available in Microsoft Foundry  appeared first on Microsoft Azure Blog.",
-        "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/06/Azure-Infrastructure-Dark-1-scaled.jpg",
-        "source": "Microsoft Azure Blog",
-        "published": "2026-07-09T17:00:00.000Z",
-        "isNew": false
       }
     ],
     "gcp": [
       {
+        "title": "August 27, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#August_27_2026",
+        "summary": "Cloud Trace\nFeature\nThe following remote MCP server automatically generates a trace span for\ntools/call operations.\nDatastream\nThese spans can help you understand the behavior of\nyour agentic applications. For more information, see\nInvestigate MCP calls using Trace.\nGoogle SecOps\nAnnouncement\nScheduled maintenance \nSOAR database and infrastructure maintenance is scheduled to take place during\nthe standard maintenance window on Sunday, August 30. During this window, your\nsystem will experience a brief period of downtime. You don't need to take any \naction.\nGoogle SecOps SOAR\nAnnouncement\nScheduled maintenance \nSOAR database and infrastructure maintenance is scheduled to take place during\nthe standard maintenance window on Sunday, August 16. During this window, your\nsystem will experience a brief period of downtime. You don't need to take any \naction.",
+        "image": null,
+        "source": "Google Cloud Platform (GCP) - Release notes",
+        "published": "2026-08-27T07:00:00.000Z",
+        "isNew": true
+      },
+      {
         "title": "August 26, 2026",
         "link": "https://docs.cloud.google.com/release-notes#August_26_2026",
-        "summary": "Cloud Load Balancing\nFeature\nSSL policy cross-project referencing is now available for\nApplication Load Balancers and proxy Network Load Balancers in Preview. You can use\ncross-project referencing to define and maintain a central SSL policy in an\nadministrative project and reference it from target HTTPS proxies or target SSL\nproxies in different projects.\nCross-project referencing is supported for global and regional SSL policies. You\ncan use cross-project referencing with the following load balancers:\nGlobal external Application Load Balancer\nRegional external Application Load Balancer\nCross-region internal Application Load Balancer\nRegional internal Application Load Balancer\nGlobal external proxy Network Load Balancer\nFor more information, see\nCross-project SSL policy referencing.\nGoogle SecOps\nFeature\n[Spotlight Feature] Mandiant Frontline Threats rule packs\nCurated Detections has been enhanced with additional Mandiant Frontline Threats detections for Linux, MacOS, and Google Cloud. The following rule packs have been added to the Content Hub:\nMandiant Frontline Threats for Linux\nMandiant Frontline Threats for MacOS\nMandiant Frontline Threats for Google Cloud\nGoogle SecOps SIEM\nFeature\n[Spotlight Feature] Mandiant Frontline Threats rule packs\nCurated Detections has been enhanced with additional Mandiant Frontline Threats detections for Linux, MacOS, and Google Cloud. The following rule packs have been added to the Content Hub:\nMandiant Frontline Threats for Linux\nMandiant…",
+        "summary": "Apigee hybrid\nAnnouncement\nv1.14.8\nOn August 26, 2026 we released an updated version of the Apigee hybrid software, v1.14.8.\nFor information on upgrading, see Upgrading Apigee hybrid to version v1.14.8.\nFor information on new installations, see The big picture.\nNote: This is a patch release: The container images used in patch releases are integrated with the Apigee hybrid Helm charts. Upgrading to a patch via the Helm chart automatically updates the images. No manual image changes are typically needed. For information on container image support in Apigee hybrid releases, see Apigee release process.\nSecurity\nBug ID\nDescription\n\n\n\n\nN/A\nSecurity fixes for apigee-asm-ingress. \nThis addresses the following vulnerabilities: \nCVE-2026-39822 \nCVE-2026-42505 \n\n\n\nN/A\nSecurity fixes for apigee-asm-istiod. \nThis addresses the following vulnerabilities: \nCVE-2026-39822 \nCVE-2026-42505 \n\n\n\nN/A\nSecurity fixes for apigee-connect-agent. \nThis addresses the following vulnerabilities: \nCVE-2026-33818 \nCVE-2026-39821 \nCVE-2026-46600 \nCVE-2026-56853 \nCVE-2026-56858 \nCVE-2026-56859 \nCVE-2026-56860 \nCVE-2026-56862 \nCVE-2026-56864 \nCVE-2026-56865 \nGHSA-hrxh-6v49-42gf \n\n\n\nN/A\nSecurity fixes for apigee-fluent-bit. \nThis addresses the following vulnerabilities: \nCVE-2025-13151 \nCVE-2025-14524 \nCVE-2025-14819 \nCVE-2026-14662 \nCVE-2026-14663 \nCVE-2026-14664 \nCVE-2026-14666 \nCVE-2026-14668 \nCVE-2026-14669 \nCVE-2026-14670 \nCVE-2026-14671 \nCVE-2026-14672 \nCVE-2026-14673 \nCVE-2026-14677 \nCVE-2026-14678…",
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-08-26T07:00:00.000Z",
@@ -239,15 +248,6 @@
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-08-20T07:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "August 19, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#August_19_2026",
-        "summary": "App Engine flexible environment Go\nFeature\nSupport for the Go 1.27 runtime is in\nPreview.\nFeature\nStarting from Go runtime version 1.26 and later, the lifecycle support dates\nalign more closely with the\nGo community release cycle. For more\ninformation, see\nRuntime support schedule.\nApp Engine standard environment Go\nFeature\nSupport for the Go 1.27 runtime is in\nPreview.\nFeature\nStarting from Go runtime version 1.26 and later, the lifecycle support dates\nalign more closely with the\nGo community release cycle. For more\ninformation, see\nRuntime support schedule.\nFeature\nYou can migrate your App Engine push queues to Cloud Tasks by updating the\nbundled services SDK. This method lets you upgrade your app without needing to\nmodify your application code. For more information on how to migrate, see the\npush queues migration guide\n(Preview).\nApp Engine standard environment Java\nFeature\nYou can migrate your App Engine push queues to Cloud Tasks by updating the\nbundled services SDK. This method lets you upgrade your app without needing to\nmodify your application code. For more information on how to migrate, see the\npush queues migration guide\n(Preview).\nApp Engine standard environment Python\nFeature\nYou can migrate your App Engine push queues to Cloud Tasks by updating the\nbundled services SDK. This method lets you upgrade your app without needing to\nmodify your application code. For more information on how to migrate, see the\npush queues migration guide\n(Preview).\nBatch\nDeprecated\nThe…",
-        "image": null,
-        "source": "Google Cloud Platform (GCP) - Release notes",
-        "published": "2026-08-19T07:00:00.000Z",
         "isNew": false
       }
     ],
@@ -327,6 +327,15 @@
     ],
     "terraform": [
       {
+        "title": "v1.17.0-alpha20260827",
+        "link": "https://github.com/hashicorp/terraform/releases/tag/v1.17.0-alpha20260827",
+        "summary": "1.17.0-alpha20260827 (August 27, 2026)\nNEW FEATURES:\nA new -minimal-refresh planning option has been added, which will only refresh resources that have proposed changes. (#35290)\nENHANCEMENTS:\ncommand/init: Enrich log messages with provider versions (#38918)\ncommand/login: display warning after successful login if user is subject to an organization's TTL policy\nBUG FIXES:\nfuncs: pow and log no longer panic when result is not a number (#38912)\nephemeral: Terraform will now use and display diagnostics raised when renewing an ephemeral resource. This may cause warnings to appear that previously were lost. We expect that any error diagnostics that were previously lost would have caused confusing downstream errors, so we do not anticipate this change to be breaking. (#38989)\nFix panic when import identity references sensitive value (#39013)\nNOTES:\nversion: JSON output now includes a new format_version field, which will enable safer future changes of the command's JSON output format. It is assumed existing tooling ignores unknown fields and therefore this change should not be breaking in itself but we advice consumers to pay attention to format_version in future releases and/or use latest version of hashicorp/terraform-json & hashicorp/terraform-exec which does. (#38930)\nEXPERIMENTS:\nExperiments are only enabled in alpha releases of Terraform CLI. The following features are not yet available in stable releases.\nThe experimental \"deferred actions\" feature, enabled by passing the…",
+        "image": "https://avatars.githubusercontent.com/u/82989873?s=60&v=4",
+        "source": "Release notes from terraform",
+        "published": "2026-08-27T10:30:11.000Z",
+        "isNew": true
+      },
+      {
         "title": "v1.16.0",
         "link": "https://github.com/hashicorp/terraform/releases/tag/v1.16.0",
         "summary": "1.16.0 (August 26, 2026)\nNEW FEATURES:\nTerraform now stores planned private data for providers, allowing provider-specific state to be preserved across plan and apply. (#37986)\nterraform_data: The new store block can hold ephemeral and sensitive values across plan and apply. (#38298)\nProviders can now use nested blocks as computed values (#38305)\nimport: import blocks inside modules are now supported. (#38352)\nTerraform is now available as a pre-built binary for Linux s390x (zLinux). (#38384)\nResource action triggers can now use on_failure modes of halt, taint, or continue. (#38722)\nENHANCEMENTS:\nstate show: The state show command can now produce machine-readable output when supplied with the -json flag (#23940)\nworkspace: The workspace list command can now produce machine-readable output when supplied with the -json flag (#38397)\ntest: Terraform now reports which resources were left behind when skip_cleanup is set. (#38449)\nstacks: Action configurations now have access to a caller symbol containing the object value of the calling resource. (#38668)\nActions can now use before_destroy and after_destroy events. (#38668)\ncloud: Terraform now displays a summary of policy evaluation outcomes for plan and apply runs against HCP Terraform. (#38715)\npolicy: Terraform now resolves policy plugin credentials from the configured cloud or remote backend during init, plan, and apply, rather than requiring the plugin to read credentials itself. (#38716)\ngraph: The terraform graph command…",
@@ -387,15 +396,6 @@
         "image": "https://avatars.githubusercontent.com/u/82989873?s=60&v=4",
         "source": "Release notes from terraform",
         "published": "2026-07-29T19:38:27.000Z",
-        "isNew": false
-      },
-      {
-        "title": "v1.16.0-beta1",
-        "link": "https://github.com/hashicorp/terraform/releases/tag/v1.16.0-beta1",
-        "summary": "1.16.0-beta1 (July 23, 2026)\nNEW FEATURES:\nTerraform now stores planned private data for providers, allowing provider-specific state to be preserved across plan and apply. (#37986)\nterraform_data: The new store block can hold ephemeral and sensitive values across plan and apply. (#38298)\nProviders can now use nested blocks as computed values (#38305)\nimport: import blocks inside modules are now supported. (#38352)\nTerraform is now available as a pre-built binary for Linux s390x (zLinux). (#38384)\nResource action triggers can now use on_failure modes of halt, taint, or continue. (#38722)\nENHANCEMENTS:\nstate show: The state show command can now produce machine-readable output when supplied with the -json flag (#23940)\nworkspace: The workspace list command can now produce machine-readable output when supplied with the -json flag (#38397)\ntest: Terraform now reports which resources were left behind when skip_cleanup is set. (#38449)\nstacks: Action configurations now have access to a caller symbol containing the object value of the calling resource. (#38668)\nActions can now use before_destroy and after_destroy events. (#38668)\ncloud: Terraform now displays a summary of policy evaluation outcomes for plan and apply runs against HCP Terraform. (#38715)\npolicy: Terraform now resolves policy plugin credentials from the configured cloud or remote backend during init, plan, and apply, rather than requiring the plugin to read credentials itself. (#38716)\ngraph: The terraform graph…",
-        "image": "https://avatars.githubusercontent.com/u/82989873?s=60&v=4",
-        "source": "Release notes from terraform",
-        "published": "2026-07-23T16:51:01.000Z",
         "isNew": false
       }
     ],
@@ -475,6 +475,15 @@
     ],
     "go": [
       {
+        "title": "Generic Methods",
+        "link": "https://go.dev/blog/generic-methods",
+        "summary": "The Go Blog\nGeneric Methods\nGenerics was a profound change for Go—it fundamentally expanded the kinds of\nprograms that gophers could write by adding type parameters to the language.\nOne could now express generic types and functions in Go. These constructs\ndecreased the need for specialized data types and functions, reducing program\nverbosity and improving the ergonomics of the language in those cases.\nTo illustrate, different kinds of linked lists could now be condensed into a\nsingle type definition:\n// before Go 1.18\ntype ListOfInts struct {\n    elem int\n    next *ListOfInts\n}\ntype ListOfStrings struct {\n    elem string\n    next *ListOfStrings\n}\n// ...\n\n// after Go 1.18\ntype List[E any] struct {\n    elem E\n    next *List[E]\n}\n\nLikewise, sorting different kinds of ordered data could be expressed as a single\nfunction:\n// before Go 1.18\nfunc SortInts(s []int) { /* ... */ }\nfunc SortStrings(s []string) { /* ... */ }\n// ...\n\n// after Go 1.18\nfunc Sort[E cmp.Ordered](s []E) { /* ... */ }\n\nHowever, no such capability came to methods.\nThe generics proposal reasoned that because generic interface\nmethods are difficult to implement efficiently (discussed\nlater), it didn’t make sense to\nadd type parameters to non-interface (or “concrete”) methods either. In that\nview, methods are primarily the means of implementing an interface.\nGo 1.27 takes a different view and consequently adds generic methods to Go. In\nthis post, we’ll explain this change of view and demonstrate some uses of this…",
+        "image": null,
+        "source": "The Go Blog",
+        "published": "2026-08-26T00:00:00.000Z",
+        "isNew": true
+      },
+      {
         "title": "Go 1.27 is released",
         "link": "https://go.dev/blog/go1.27",
         "summary": "The Go Blog\nGo 1.27 is released\nToday the Go team is pleased to release Go 1.27. You can find its binary\narchives and installers on the download page.\nGo 1.27 brings major enhancements across the language, toolchain, runtime, and\nstandard library. Below are some of the key highlights.\nLanguage changes\nGo 1.27 introduces three notable updates to the\nlanguage specification.\nFirst, generic methods are now supported. For example, see\nmath/rand/v2.Rand:\n// Prior to Go 1.27, a separate method on Rand had to be added for each type\n// (unsigned integer methods omitted for brevity).\nfunc (r *Rand) Int32N(n int32) int32\nfunc (r *Rand) Int64N(n int64) int64\nfunc (r *Rand) IntN(n int) int\n\n// Go 1.27 adds a new generic method that works for all integer types.\nfunc (r *Rand) N[Int intType](n Int) Int\n\nSecond, a key in a struct literal may now be any\nvalid field selector for the struct type, allowing fields\nin nested or embedded structs to be initialized directly:\ntype Habitat struct {\n    Burrow string\n}\n\ntype Gopher struct {\n    Name    string\n    Habitat // Embedded struct.\n}\n\n// Go 1.27 allows using Burrow as a key directly.\ng := Gopher{\n    Name:   \"Gopher\",\n    Burrow: \"Burrow #42\",\n}\n\nFinally, function type inference has been generalized to apply in all assignment\ncontexts. Generic functions can now be used without explicit type arguments in\ncomposite literals, type conversions, and channel sends:\nfunc GenericFormatter[T any](v T) string {\n    return fmt.Sprintf(\"value: %v\", v)\n}…",
@@ -535,15 +544,6 @@
         "image": null,
         "source": "The Go Blog",
         "published": "2026-02-10T00:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "Results from the 2025 Go Developer Survey",
-        "link": "https://go.dev/blog/survey2025",
-        "summary": "The Go Blog\nResults from the 2025 Go Developer Survey\nHello! In this article we’ll discuss the results of the 2025 Go Developer\nSurvey, conducted during September 2025.\nThank you to the 5,379 Go developers who responded to our survey invitation\nthis year. Your feedback helps both the Go team at Google and the wider Go\ncommunity understand the current state of the Go ecosystem and prioritize\nprojects for the year ahead.\nOur three biggest findings are:\nBroadly speaking, Go developers asked for help with identifying and applying\nbest practices, making the most of the standard library, and expanding the\nlanguage and built-in tooling with more modern capabilities.\nMost Go developers are now using AI-powered development tools when seeking\ninformation (e.g., learning how to use a module) or toiling (e.g., writing\nrepetitive blocks of similar code), but their satisfaction with these tools\nis middling due, in part, to quality concerns.\nA surprisingly high proportion of respondents said they frequently need to\nreview documentation for core go subcommands, including go build, go run, and go mod, suggesting meaningful room for improvement with the go\ncommand’s help system.\nRead on for the details about these findings, and much more.\nSections\nWho did we hear from?\nHow do people feel about Go?\nWhat are people building with Go?\nWhat are the biggest challenges facing Go\ndevelopers?\nWhat do their development environments look like?\nSurvey methodology\nWho did we hear from?\nMost survey…",
-        "image": null,
-        "source": "The Go Blog",
-        "published": "2026-01-21T00:00:00.000Z",
         "isNew": false
       }
     ],
@@ -623,6 +623,15 @@
     ],
     "javascript": [
       {
+        "title": "Node.js 26.8.1 (Current)",
+        "link": "https://nodejs.org/en/blog/release/v26.8.1",
+        "summary": "",
+        "image": null,
+        "source": "Node.js Blog",
+        "published": "2026-08-26T22:11:36.000Z",
+        "isNew": true
+      },
+      {
         "title": "Node.js 26.8.0 (Current)",
         "link": "https://nodejs.org/en/blog/release/v26.8.0",
         "summary": "",
@@ -683,15 +692,6 @@
         "image": null,
         "source": "Node.js Blog",
         "published": "2026-07-29T16:19:07.000Z",
-        "isNew": false
-      },
-      {
-        "title": "Node.js 26.5.1 (Current)",
-        "link": "https://nodejs.org/en/blog/release/v26.5.1",
-        "summary": "",
-        "image": null,
-        "source": "Node.js Blog",
-        "published": "2026-07-29T14:03:39.000Z",
         "isNew": false
       }
     ]
