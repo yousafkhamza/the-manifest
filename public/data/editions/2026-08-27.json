@@ -1,6 +1,6 @@
 {
   "date": "2026-08-27",
-  "generatedAt": "2026-08-27T16:30:27.079Z",
+  "generatedAt": "2026-08-27T21:02:58.404Z",
   "totalArticles": 72,
   "ticker": [
     {
@@ -105,13 +105,22 @@
     ],
     "azure": [
       {
+        "title": "Managed PostgreSQL vs. self-hosted PostgreSQL: Key benefits and trade-offs",
+        "link": "https://azure.microsoft.com/en-us/blog/managed-postgresql-vs-self-hosted-postgresql-key-benefits-and-trade-offs/",
+        "summary": "Compare managed PostgreSQL vs. self-hosted PostgreSQL across cost, control, security, resilience, scalability, and operational effort.\nThe post Managed PostgreSQL vs. self-hosted PostgreSQL: Key benefits and trade-offs appeared first on Microsoft Azure Blog.",
+        "image": "https://opensource.microsoft.com/blog/wp-content/uploads/2126/03/word-image-98353-1-1.png",
+        "source": "Microsoft Azure Blog",
+        "published": "2026-08-27T17:00:00.000Z",
+        "isNew": false
+      },
+      {
         "title": "The Economics of Agent Optimization: Four ways to lower the cost",
         "link": "https://azure.microsoft.com/en-us/blog/the-economics-of-agent-optimization-four-ways-to-lower-the-cost/",
         "summary": "Microsoft Foundry gives you four levers that act on every request, before a single line of agent logic changes.\nThe post The Economics of Agent Optimization: Four ways to lower the cost appeared first on Microsoft Azure Blog.",
         "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/06/CLO23_WorkAnywhere_025.jpg",
         "source": "Microsoft Azure Blog",
         "published": "2026-08-26T16:00:00.000Z",
-        "isNew": true
+        "isNew": false
       },
       {
         "title": "The patch window is collapsing: Why security needs a new control plane",
@@ -166,26 +175,17 @@
         "source": "Microsoft Azure Blog",
         "published": "2026-07-23T18:30:00.000Z",
         "isNew": false
-      },
-      {
-        "title": "Azure Databricks delivers proven business value",
-        "link": "https://azure.microsoft.com/en-us/blog/azure-databricks-delivers-proven-business-value/",
-        "summary": "Microsoft Azure Databricks delivers the first-party advantage of Databricks on Microsoft—and for customers, that advantage shows up as real, measurable value. It is the same Databricks platform your teams already know, co-engineered with Microsoft and delivered as a native Azure service, so it fits naturally into the Microsoft tools, identity, and governance your organization already runs.\nThe post Azure Databricks delivers proven business value appeared first on Microsoft Azure Blog.",
-        "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/07/TEI-of-ADB-infographic-791x1024.jpg",
-        "source": "Microsoft Azure Blog",
-        "published": "2026-07-15T15:00:00.000Z",
-        "isNew": false
       }
     ],
     "gcp": [
       {
         "title": "August 27, 2026",
         "link": "https://docs.cloud.google.com/release-notes#August_27_2026",
-        "summary": "Cloud Trace\nFeature\nThe following remote MCP server automatically generates a trace span for\ntools/call operations.\nDatastream\nThese spans can help you understand the behavior of\nyour agentic applications. For more information, see\nInvestigate MCP calls using Trace.\nGoogle SecOps\nAnnouncement\nScheduled maintenance \nSOAR database and infrastructure maintenance is scheduled to take place during\nthe standard maintenance window on Sunday, August 30. During this window, your\nsystem will experience a brief period of downtime. You don't need to take any \naction.\nGoogle SecOps SOAR\nAnnouncement\nScheduled maintenance \nSOAR database and infrastructure maintenance is scheduled to take place during\nthe standard maintenance window on Sunday, August 16. During this window, your\nsystem will experience a brief period of downtime. You don't need to take any \naction.",
+        "summary": "Cloud Load Balancing\nFeature\nFor regional external passthrough Network Load Balancers, reserving specific or automatically allocated\nbring your own IP (BYOIP) IPv6 addresses before creating a load balancer, and\npromoting an ephemeral BYOIP IPv6 address in use by a load balancer to a\nreserved static IP address, is generally available (GA).\nFor more information, see the following documentation:\nSet up a regional external passthrough Network Load Balancer with a backend service.\nSet up a regional external passthrough Network Load Balancer for multiple IP protocols\nSet up a regional external passthrough Network Load Balancer with zonal NEGs\nCloud SQL for MySQL\nFeature\nCloud SQL now makes it easier to configure Private Service Connect for your\nCloud SQL instance. When you create an\ninstance that's enabled with\nPrivate Service Connect, you can choose to automatically create\nthe service connection policy and endpoint in the VPC network\nthat you want to use with Private Service Connect.\nFor more information, see Configure Private Service Connect.\nCloud SQL for PostgreSQL\nFeature\nCloud SQL now makes it easier to configure Private Service Connect for your\nCloud SQL instance. When you create an\ninstance that's enabled with\nPrivate Service Connect, you can choose to automatically create\nthe service connection policy and endpoint in the VPC network\nthat you want to use with Private Service Connect.\nFor more information, see Configure Private Service Connect.\nCloud SQL for SQL Server…",
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-08-27T07:00:00.000Z",
-        "isNew": true
+        "isNew": false
       },
       {
         "title": "August 26, 2026",
@@ -199,7 +199,7 @@
       {
         "title": "August 25, 2026",
         "link": "https://docs.cloud.google.com/release-notes#August_25_2026",
-        "summary": "BigQuery\nFeature\nBigQuery data governance tags are\nsupported in Terraform. This feature is in\nPreview.\nCloud Run\nFeature\nCloud Run instances\nare available in\nPreview. Instances\nare specifically designed for running long-lived and individually addressable\nworkloads.\nCloud SDK\nBreaking\n582.0.0 (2026-08-25)\nBreaking Changes\n(Google Cloud CLI) Removed the legacy Cloud SQL Proxy V1 component ('cloud_sql_proxy') from the Google Cloud CLI. All connect commands now rely exclusively on Cloud SQL Auth Proxy V2 ('cloud-sql-proxy').\n(API Registry) Removed gcloud api-registry mcp servers list and gcloud api-registry\nmcp tools list. For similar functionality, see Agent Registry at\n<https://docs.cloud.google.com/sdk/gcloud/reference/alpha/agent-registry/mcp-servers>.\n(Cloud Services) Removed gcloud beta services mcp policies get, gcloud beta services mcp\npolicies get-effective, and gcloud beta services mcp policies test-enabled\nas MCP policies are not required and they have been functioning as no-ops.\nAnthos\nUpdated anthos-cli with newer go version and library dependencies.\nApp Engine\nUpdated the Java SDK to version 5.1.0 build from the open source project\nhttps://github.com/GoogleCloudPlatform/appengine-java-standard/releases/tag/v5.1.0.\nUpgraded Jetty 12.0 to 12.0.38 and Jetty 12.1 to 12.1.12.\nAdded gRPC support to the App Engine Images service for image transformations and composition.\nApp Lifecycle Manager\nAdded --flags flag to gcloud beta app-lifecycle-manager flags releases create to…",
+        "summary": "BigQuery\nFeature\nBigQuery data governance tags are\nsupported in Terraform. This feature is in\nPreview.\nCloud Run\nFeature\nCloud Run instances\nare available in\nPreview. Instances\nare specifically designed for running long-lived and individually addressable\nworkloads. To learn more, see the\nproduct overview,\nresource comparison,\nand instance lifecycle pages.\nCloud SDK\nBreaking\n582.0.0 (2026-08-25)\nBreaking Changes\n(Google Cloud CLI) Removed the legacy Cloud SQL Proxy V1 component ('cloud_sql_proxy') from the Google Cloud CLI. All connect commands now rely exclusively on Cloud SQL Auth Proxy V2 ('cloud-sql-proxy').\n(API Registry) Removed gcloud api-registry mcp servers list and gcloud api-registry\nmcp tools list. For similar functionality, see Agent Registry at\n<https://docs.cloud.google.com/sdk/gcloud/reference/alpha/agent-registry/mcp-servers>.\n(Cloud Services) Removed gcloud beta services mcp policies get, gcloud beta services mcp\npolicies get-effective, and gcloud beta services mcp policies test-enabled\nas MCP policies are not required and they have been functioning as no-ops.\nAnthos\nUpdated anthos-cli with newer go version and library dependencies.\nApp Engine\nUpdated the Java SDK to version 5.1.0 build from the open source project\nhttps://github.com/GoogleCloudPlatform/appengine-java-standard/releases/tag/v5.1.0.\nUpgraded Jetty 12.0 to 12.0.38 and Jetty 12.1 to 12.1.12.\nAdded gRPC support to the App Engine Images service for image transformations and composition.\nApp…",
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-08-25T07:00:00.000Z",
@@ -333,7 +333,7 @@
         "image": "https://avatars.githubusercontent.com/u/82989873?s=60&v=4",
         "source": "Release notes from terraform",
         "published": "2026-08-27T10:30:11.000Z",
-        "isNew": true
+        "isNew": false
       },
       {
         "title": "v1.16.0",
@@ -481,7 +481,7 @@
         "image": null,
         "source": "The Go Blog",
         "published": "2026-08-26T00:00:00.000Z",
-        "isNew": true
+        "isNew": false
       },
       {
         "title": "Go 1.27 is released",
@@ -629,7 +629,7 @@
         "image": null,
         "source": "Node.js Blog",
         "published": "2026-08-26T22:11:36.000Z",
-        "isNew": true
+        "isNew": false
       },
       {
         "title": "Node.js 26.8.0 (Current)",
