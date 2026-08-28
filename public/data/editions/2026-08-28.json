@@ -1,6 +1,6 @@
 {
   "date": "2026-08-28",
-  "generatedAt": "2026-08-28T17:26:33.285Z",
+  "generatedAt": "2026-08-28T21:26:39.655Z",
   "totalArticles": 72,
   "ticker": [
     {
@@ -179,6 +179,15 @@
     ],
     "gcp": [
       {
+        "title": "August 28, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#August_28_2026",
+        "summary": "Application Integration\nAnnouncement\nUpcoming authorization changes for integration runs\nApplication Integration is updating how identities are handled for integration runs. Every run will act as either the person who triggered it or a run-as service account that you configure, and running an integration will require permission to act as that service account. Integrations that run without a person, such as those started by a schedule or an event, will need an explicitly configured run-as service account.\nAction might be required before the change takes effect. For guidance on identifying affected integrations and updating them, see Prepare for upcoming authorization changes.\nManaged Service for Apache Airflow\nFeature\nOrchestration Pipelines\nare now generally available (GA).",
+        "image": null,
+        "source": "Google Cloud Platform (GCP) - Release notes",
+        "published": "2026-08-28T07:00:00.000Z",
+        "isNew": false
+      },
+      {
         "title": "August 27, 2026",
         "link": "https://docs.cloud.google.com/release-notes#August_27_2026",
         "summary": "Apigee X\nAnnouncement\nOn August 27th, 2026, we released an updated version of Apigee (1-18-0-apigee-4).\nNote: Rollouts of this release began today and may take four or more business days to be completed across all Google Cloud zones. Your instances may not have the features and fixes available until the rollout is complete.\nFixed\nBug ID\nDescription\n\n\n\n\n507878328\nUpgraded the Apigee runtime to run on JDK 17, while maintaining backward compatibility with JDK 11.\n\n\n530965355\nAdded an opt-in Message Processor connection-failure back-off (CWC property HTTPClient.backoff.enabled, defaults to false) that prevents the Message Processor from consuming excessive CPU when a target is completely unavailable.\n\n\n532793298\nFixed an API product bug where combining a payloadOperationGroup with a REST or llmOperationGroup rejected REST/LLM traffic with a 401.\n\n\n534420582\nThe JSONThreatProtection policy adds a new optional child element <RejectDuplicateKeys> that rejects request bodies containing duplicate JSON keys within the same object. Defaults to false to preserve existing behavior.\n\n\nN/A\nUpdates to infrastructure and libraries.\n\n\n\nSecurity\nBug ID\nDescription\n\n\n\n\n544570126\nSecurity fix for Apigee. Fixed a security issue in the PythonScript policy.\n\n\nN/A\nSecurity fix for Apigee infrastructure.\n\n\n\nBigQuery\nFeature\nThe Data Engineering Agent\nis now HIPAA compliant.\nFor more information, see HIPAA compliance on Google Cloud.\nAnnouncement\nCore graph processing for BigQuery Graph\nrequires an…",
@@ -239,15 +248,6 @@
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-08-21T07:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "August 20, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#August_20_2026",
-        "summary": "App Engine flexible environment .NET\nFeature\nStarting from August 2026, to provide modern security patches and support for MySQL 8.4 and later, the App Engine flexible environment uses Cloud SQL Auth Proxy v2 as the built-in sidecar container for connections to Cloud SQL. To use the latest Cloud SQL Auth Proxy container immediately, restart your VMs or deploy a new version of your application.\nApp Engine flexible environment Go\nFeature\nStarting from August 2026, to provide modern security patches and support for MySQL 8.4 and later, the App Engine flexible environment uses Cloud SQL Auth Proxy v2 as the built-in sidecar container for connections to Cloud SQL. To use the latest Cloud SQL Auth Proxy container immediately, restart your VMs or deploy a new version of your application.\nApp Engine flexible environment Java\nFeature\nStarting from August 2026, to provide modern security patches and support for MySQL 8.4 and later, the App Engine flexible environment uses Cloud SQL Auth Proxy v2 as the built-in sidecar container for connections to Cloud SQL. To use the latest Cloud SQL Auth Proxy container immediately, restart your VMs or deploy a new version of your application.\nApp Engine flexible environment Node.js\nFeature\nStarting from August 2026, to provide modern security patches and support for MySQL 8.4 and later, the App Engine flexible environment uses Cloud SQL Auth Proxy v2 as the built-in sidecar container for connections to Cloud SQL. To use the latest Cloud SQL Auth…",
-        "image": null,
-        "source": "Google Cloud Platform (GCP) - Release notes",
-        "published": "2026-08-20T07:00:00.000Z",
         "isNew": false
       }
     ],
