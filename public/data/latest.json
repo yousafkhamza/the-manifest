@@ -1,6 +1,6 @@
 {
   "date": "2026-08-28",
-  "generatedAt": "2026-08-28T01:29:45.836Z",
+  "generatedAt": "2026-08-28T17:26:33.285Z",
   "totalArticles": 72,
   "ticker": [
     {
@@ -181,7 +181,7 @@
       {
         "title": "August 27, 2026",
         "link": "https://docs.cloud.google.com/release-notes#August_27_2026",
-        "summary": "BigQuery\nFeature\nThe Data Engineering Agent\nis now HIPAA compliant.\nFor more information, see HIPAA compliance on Google Cloud.\nCloud Load Balancing\nFeature\nFor regional external passthrough Network Load Balancers, reserving specific or automatically allocated\nbring your own IP (BYOIP) IPv6 addresses before creating a load balancer, and\npromoting an ephemeral BYOIP IPv6 address in use by a load balancer to a\nreserved static IP address, is generally available (GA).\nFor more information, see the following documentation:\nSet up a regional external passthrough Network Load Balancer with a backend service.\nSet up a regional external passthrough Network Load Balancer for multiple IP protocols\nSet up a regional external passthrough Network Load Balancer with zonal NEGs\nCloud SQL for MySQL\nFeature\nCloud SQL now makes it easier to configure Private Service Connect for your\nCloud SQL instance. When you create an\ninstance that's enabled with\nPrivate Service Connect, you can choose to automatically create\nthe service connection policy and endpoint in the VPC network\nthat you want to use with Private Service Connect.\nFor more information, see Configure Private Service Connect.\nCloud SQL for PostgreSQL\nChange\nThe rollout of the following extension upgrades is complete:\npg_partman is upgraded from 5.2.4 to 5.4.3.\npgfincore is upgraded from 1.3.1 to 1.4.\npgvector is upgraded from 0.8.1 to 0.8.5.\nFor more information, see Configure PostgreSQL extensions.\nFeature\nCloud SQL now makes it easier…",
+        "summary": "Apigee X\nAnnouncement\nOn August 27th, 2026, we released an updated version of Apigee (1-18-0-apigee-4).\nNote: Rollouts of this release began today and may take four or more business days to be completed across all Google Cloud zones. Your instances may not have the features and fixes available until the rollout is complete.\nFixed\nBug ID\nDescription\n\n\n\n\n507878328\nUpgraded the Apigee runtime to run on JDK 17, while maintaining backward compatibility with JDK 11.\n\n\n530965355\nAdded an opt-in Message Processor connection-failure back-off (CWC property HTTPClient.backoff.enabled, defaults to false) that prevents the Message Processor from consuming excessive CPU when a target is completely unavailable.\n\n\n532793298\nFixed an API product bug where combining a payloadOperationGroup with a REST or llmOperationGroup rejected REST/LLM traffic with a 401.\n\n\n534420582\nThe JSONThreatProtection policy adds a new optional child element <RejectDuplicateKeys> that rejects request bodies containing duplicate JSON keys within the same object. Defaults to false to preserve existing behavior.\n\n\nN/A\nUpdates to infrastructure and libraries.\n\n\n\nSecurity\nBug ID\nDescription\n\n\n\n\n544570126\nSecurity fix for Apigee. Fixed a security issue in the PythonScript policy.\n\n\nN/A\nSecurity fix for Apigee infrastructure.\n\n\n\nBigQuery\nFeature\nThe Data Engineering Agent\nis now HIPAA compliant.\nFor more information, see HIPAA compliance on Google Cloud.\nAnnouncement\nCore graph processing for BigQuery Graph\nrequires an…",
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-08-27T07:00:00.000Z",
@@ -199,7 +199,7 @@
       {
         "title": "August 25, 2026",
         "link": "https://docs.cloud.google.com/release-notes#August_25_2026",
-        "summary": "BigQuery\nFeature\nBigQuery data governance tags are\nsupported in Terraform. This feature is in\nPreview.\nCloud Run\nFeature\nCloud Run instances\nare available in\nPreview. Instances\nare specifically designed for running long-lived and individually addressable\nworkloads. To learn more, see the\nproduct overview,\nresource comparison,\nand instance lifecycle pages.\nCloud SDK\nBreaking\n582.0.0 (2026-08-25)\nBreaking Changes\n(Google Cloud CLI) Removed the legacy Cloud SQL Proxy V1 component ('cloud_sql_proxy') from the Google Cloud CLI. All connect commands now rely exclusively on Cloud SQL Auth Proxy V2 ('cloud-sql-proxy').\n(API Registry) Removed gcloud api-registry mcp servers list and gcloud api-registry\nmcp tools list. For similar functionality, see Agent Registry at\n<https://docs.cloud.google.com/sdk/gcloud/reference/alpha/agent-registry/mcp-servers>.\n(Cloud Services) Removed gcloud beta services mcp policies get, gcloud beta services mcp\npolicies get-effective, and gcloud beta services mcp policies test-enabled\nas MCP policies are not required and they have been functioning as no-ops.\nAnthos\nUpdated anthos-cli with newer go version and library dependencies.\nApp Engine\nUpdated the Java SDK to version 5.1.0 build from the open source project\nhttps://github.com/GoogleCloudPlatform/appengine-java-standard/releases/tag/v5.1.0.\nUpgraded Jetty 12.0 to 12.0.38 and Jetty 12.1 to 12.1.12.\nAdded gRPC support to the App Engine Images service for image transformations and composition.\nApp…",
+        "summary": "BigQuery\nFeature\nBigQuery data governance tags are\nsupported in Terraform. This feature is in\nPreview.\nCloud Run\nFeature\nCloud Run instances\nare available in\nPreview. Instances\nare specifically designed for running long-lived and individually addressable\nworkloads. To learn more, see the\nproduct overview,\nresource comparison,\nand instance lifecycle pages.\nCloud SQL for PostgreSQL\nFeature\nUse assessments (Preview)\nin Database Center to assess and test the\nperformance impact of database recommendations before you apply them to your\nproduction database fleet.\nThe assessments workflow performs these operations:\nClones your database instance.\nRuns benchmarking simulation tests on the clone.\nCompares the baseline performance of the clone against the performance after\nyou apply the recommended configuration changes.\nFor more information, see Assessments in Database Center.\nDatabase Center\nFeature\nUse assessments (Preview)\nin Database Center to assess and test the performance impact of\ndatabase recommendations before you apply them to your production database fleet.\nThe assessments workflow performs these operations:\nClones your database instance.\nRuns benchmarking simulation tests on the clone.\nCompares the baseline performance of the clone against the performance after\nyou apply the recommended configuration changes.\nDatabase Center assessments are available only for\nCloud SQL for PostgreSQL instances.\nFor more information, see Create an assessment of a recommendation.\nGoogle…",
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-08-25T07:00:00.000Z",
@@ -252,6 +252,15 @@
       }
     ],
     "kubernetes": [
+      {
+        "title": "Kubernetes v1.37: Metrics API graduates to stable",
+        "link": "https://kubernetes.io/blog/2026/08/27/kubernetes-v1-37-metrics-api-ga/",
+        "summary": "Kubernetes v1.37 promotes the metrics.k8s.io API to stable (v1). This\nAPI provides CPU and memory usage for nodes and Pods, and is the API behind\ncommands such as kubectl top and resource-metrics-based autoscaling.\nFor cluster operators and application developers, this graduation means that\nthe API now has the stability guarantees associated with a Kubernetes stable\nAPI. The v1 API has the same resource types and fields as v1beta1; this is\nan API-version graduation, not a change to the metrics that are collected or\nreturned.\nA long-lived API reaches stable\nThe resource Metrics API was introduced as alpha in Kubernetes v1.6 and became\nbeta in v1.8. It has remained unchanged and has been used in production for\nyears by clients including the HorizontalPodAutoscaler (HPA) and kubectl top.\nKubernetes v1.37 formally graduates that proven API to metrics.k8s.io/v1.\nThe API exposes two resource types:\nNodeMetrics, for CPU and memory usage for a node.\nPodMetrics, for CPU and memory usage for a Pod, with a per-container\nbreakdown in its containers field.\nThe API remains intentionally small. It provides the resource metrics needed\nfor autoscaling and basic inspection; it is not a replacement for a full\nmonitoring pipeline or the custom metrics (custom.metrics.k8s.io) API.\nWhat changed with the v1.37 release?\nThe v1 API surface is identical to v1beta1, except for the API version.\nThere are no renamed fields, new fields, or changes to the meaning of the\nreturned CPU and memory values.\nFor…",
+        "image": null,
+        "source": "Kubernetes Blog",
+        "published": "2026-08-27T18:30:00.000Z",
+        "isNew": false
+      },
       {
         "title": "Kubernetes v1.37: Garhwal",
         "link": "https://kubernetes.io/blog/2026/08/26/kubernetes-v1-37-release/",
@@ -313,15 +322,6 @@
         "image": null,
         "source": "Kubernetes Blog",
         "published": "2026-07-13T20:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "Kubernetes Dashboard to Headlamp: A Step-by-Step Guide",
-        "link": "https://kubernetes.io/blog/2026/07/13/kubernetes-dashboard-to-headlamp/",
-        "summary": "1. Before you start: know what is changing\nKubernetes Dashboard and Headlamp both show what is running in a cluster, but they work differently. When Headlamp runs on the desktop, it uses your existing kubeconfig to connect to one or more clusters and can be extended with plugins. When Headlamp runs inside a cluster, it uses a Kubernetes ServiceAccount to access the API and follow RBAC rules. Kubernetes Dashboard, in contrast, only runs in-cluster and always relies on service account tokens. Understanding these models early helps you choose the right setup and permissions.\n1.1 How Kubernetes Dashboard works\nDashboard is a web app that runs inside your cluster.\nYou install it in the cluster, often with Helm.\nYou usually run one Dashboard per cluster.\nYou often reach it with kubectl port-forward or an ingress.\nYou log in with a Bearer token. That token is often from a service account.\nIt includes forms that help you create resources.\nIt leans on tables and lists for navigation.\nIt feels like this: a UI that lives with the cluster.\n1.2 How Headlamp works\nHeadlamp acts more like a Kubernetes client with a UI.\nIt can run on your desktop or in a cluster.\nIt reads your kubeconfig, like kubectl does.\nIt can show more than one cluster in one place.\nIt favors YAML when you create or change resources.\nIt includes list views and a visual map.\nYou can add features with plugins.\nHeadlamp is a UI that follows your identity, not your cluster.\n1.3 What stays the same\nMany workflows will feel…",
-        "image": null,
-        "source": "Kubernetes Blog",
-        "published": "2026-07-13T18:00:00.000Z",
         "isNew": false
       }
     ],
