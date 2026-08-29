@@ -1,6 +1,6 @@
 {
   "date": "2026-08-29",
-  "generatedAt": "2026-08-29T11:40:02.406Z",
+  "generatedAt": "2026-08-29T15:39:37.780Z",
   "totalArticles": 72,
   "ticker": [
     {
@@ -179,6 +179,15 @@
     ],
     "gcp": [
       {
+        "title": "August 29, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#August_29_2026",
+        "summary": "Google SecOps SOAR\nAnnouncement\nRelease 6.3.98 is now\navailable for all regions.",
+        "image": null,
+        "source": "Google Cloud Platform (GCP) - Release notes",
+        "published": "2026-08-29T07:00:00.000Z",
+        "isNew": false
+      },
+      {
         "title": "August 28, 2026",
         "link": "https://docs.cloud.google.com/release-notes#August_28_2026",
         "summary": "Application Integration\nAnnouncement\nUpcoming authorization changes for integration runs\nApplication Integration is updating how identities are handled for integration runs. Every run will act as either the person who triggered it or a run-as service account that you configure, and running an integration will require permission to act as that service account. Integrations that run without a person, such as those started by a schedule or an event, will need an explicitly configured run-as service account.\nAction might be required before the change takes effect. For guidance on identifying affected integrations and updating them, see Prepare for upcoming authorization changes.\nCloud Build\nFeature\nYou can now update access tokens from the Connection details page for\nyour 2nd generation Bitbucket and 2nd generation Gitlab host connections.\nFor more information, see the following:\nRotate old or expired Bitbucket Cloud access tokens\nRotate old or expired Bitbucket Data Center access tokens\nRotate old or expired Bitbucket Server access tokens\nRotate old or expired GitLab Enterprise Edition access tokens\nRotate old or expired GitLab access tokens\nGemini Enterprise\nFeature\nGemini Enterprise: New data stores and support for new actions (Preview)\nThe following data stores are available in Public Preview in Gemini Enterprise:\nCampfire\nClay\nCourtListener\nDaloopa\nMSCI\nYou can search and read data from these data stores using natural language.\nAdditionally, the following data stores…",
@@ -217,7 +226,7 @@
       {
         "title": "August 24, 2026",
         "link": "https://docs.cloud.google.com/release-notes#August_24_2026",
-        "summary": "Anthos Config Management\nChange\nAddressed multiple Common Vulnerabilities and Exposures (CVEs) by updating dependencies.\nFeature\nYou can now disable monitoring for specific custom RootSync or RepoSync objects by setting the spec.monitoring.enabled field to false. This disables metric telemetry collection and exporting for that reconciler, which can help reduce cluster resource consumption. For more information, see Disable monitoring.\nBackup and DR\nFeature\nBackup vault support for Filestore instances encrypted with customer-managed encryption keys (CMEK) is now generally available (GA). When you back up Filestore instances to a CMEK-enabled backup vault, the backups are encrypted using the backup vault CMEK key.\nFor more information, see Customer-managed encryption keys (CMEK), Back up Filestore instances to a backup vault, and Restore a Filestore instance from a backup vault.\nBigQuery\nFeature\nYou can now\nmonitor\nthe performance, adoption, latency, and costs of your data agents and their\nconversations by using Google Cloud Observability in BigQuery.\nThis feature is in\nPreview.\nCloud Build\nSecurity\nAn Incorrect Authorization vulnerability CVE-2026-19410,\nin GitHub Trigger Comment Control in Cloud Build, was fixed. No customer action is needed.\nCloud Trace\nFeature\nYou can update the display name, description, and Cloud KMS key\napplied to a _Trace observability bucket.\nFor more information, see\nUpdate observability buckets.\nFeature\nYou can manually create the _Trace…",
+        "summary": "Backup and DR\nFeature\nBackup vault support for Filestore instances encrypted with customer-managed encryption keys (CMEK) is now generally available (GA). When you back up Filestore instances to a CMEK-enabled backup vault, the backups are encrypted using the backup vault CMEK key.\nFor more information, see Customer-managed encryption keys (CMEK), Back up Filestore instances to a backup vault, and Restore a Filestore instance from a backup vault.\nBigQuery\nFeature\nYou can now\nmonitor\nthe performance, adoption, latency, and costs of your data agents and their\nconversations by using Google Cloud Observability in BigQuery.\nThis feature is in\nPreview.\nCloud Build\nSecurity\nAn Incorrect Authorization vulnerability CVE-2026-19410,\nin GitHub Trigger Comment Control in Cloud Build, was fixed. No customer action is needed.\nCloud Trace\nFeature\nYou can update the display name, description, and Cloud KMS key\napplied to a _Trace observability bucket.\nFor more information, see\nUpdate observability buckets.\nFeature\nYou can manually create the _Trace observability bucket before your project\nreceives trace data. When creating the bucket, you must specify a storage\nlocation. Google Cloud Observability applies the Cloud KMS key defined in your\ndefault settings unless you explicitly specify a different key in your create\nrequest.\nFor more information, see the following documents:\nCreate observability buckets\nSet defaults for observability buckets\nFeature\nThe following remote MCP servers…",
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-08-24T07:00:00.000Z",
@@ -239,15 +248,6 @@
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-08-22T07:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "August 21, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#August_21_2026",
-        "summary": "AI Hypercomputer\nChange\nAI Hypercomputer has expanded to cover all GPU machine series. Specifically,\nthe documentation for AI Hypercomputer has been significantly updated as\nfollows:\nDocumentation has been added for the A3 Edge, A2, G4, G2, N1+T4, and N1+V100 GPU machine series.\nPages are labeled based on whether they are relevant to the newly documented\nmachine series for\ngeneral GPU,\nthe pre-existing machine series for\nclustered GPU,\nor both.\nTo learn more about the differences between\ngeneral GPUs and\nclustered GPUs, see\nChoose your accelerator infrastructure.\nTo view workload recommendations, see Choose between general GPUs and clustered GPUs.\nAlloyDB for PostgreSQL\nFixed\nAlloyDB now provides more accurate memory usage estimation, and it prevents out-of-memory (OOM) errors when you build a ScaNN four-level tree index. This feature is in Preview. This update improves the stability of index builds by enforcing memory limits and improving memory estimation under constrained conditions.\nFor more information, see Create a ScaNN index.\nApplication Integration\nSecurity\nMissing authorization in QueryEngineTask (CVE-2026-12710)\nA missing authorization vulnerability (CVE-2026-12710) in QueryEngineTask in Application Integration was patched on April 4, 2026, and no customer action is needed.\nAssured Workloads\nFeature\nThe\nSwitzerland Data Boundary with Access Justifications\ncontrol package is now generally available.\nFeature\nThe Data Boundary for ITAR\nsupports the following…",
-        "image": null,
-        "source": "Google Cloud Platform (GCP) - Release notes",
-        "published": "2026-08-21T07:00:00.000Z",
         "isNew": false
       }
     ],
