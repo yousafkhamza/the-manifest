@@ -1,6 +1,6 @@
 {
-  "date": "2026-08-28",
-  "generatedAt": "2026-08-28T21:26:39.655Z",
+  "date": "2026-08-29",
+  "generatedAt": "2026-08-29T00:58:12.610Z",
   "totalArticles": 72,
   "ticker": [
     {
@@ -181,7 +181,7 @@
       {
         "title": "August 28, 2026",
         "link": "https://docs.cloud.google.com/release-notes#August_28_2026",
-        "summary": "Application Integration\nAnnouncement\nUpcoming authorization changes for integration runs\nApplication Integration is updating how identities are handled for integration runs. Every run will act as either the person who triggered it or a run-as service account that you configure, and running an integration will require permission to act as that service account. Integrations that run without a person, such as those started by a schedule or an event, will need an explicitly configured run-as service account.\nAction might be required before the change takes effect. For guidance on identifying affected integrations and updating them, see Prepare for upcoming authorization changes.\nManaged Service for Apache Airflow\nFeature\nOrchestration Pipelines\nare now generally available (GA).",
+        "summary": "Application Integration\nAnnouncement\nUpcoming authorization changes for integration runs\nApplication Integration is updating how identities are handled for integration runs. Every run will act as either the person who triggered it or a run-as service account that you configure, and running an integration will require permission to act as that service account. Integrations that run without a person, such as those started by a schedule or an event, will need an explicitly configured run-as service account.\nAction might be required before the change takes effect. For guidance on identifying affected integrations and updating them, see Prepare for upcoming authorization changes.\nGemini Enterprise\nFeature\nGemini Enterprise: New data stores and support for new actions (Preview)\nThe following data stores are available in Public Preview in Gemini Enterprise:\nCampfire\nClay\nCourtListener\nDaloopa\nMSCI\nYou can search and read data from these data stores using natural language.\nAdditionally, the following data stores support new actions in Public Preview:\nAirOps: Update knowledge base document metadata.\nAirtable: Create records for a table.\nZoho Desk: Update event.\nLooker\nAnnouncement\nFrom August 24 through August 26, 2026, the following features will be automatically enabled for Looker (original) instances running Looker 26.14.\nFeature\nThe Advanced Unused Content Cleanup feature is now generally available.\nFeature\nConversational Analytics verified queries, also known as golden queries,…",
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-08-28T07:00:00.000Z",
@@ -253,6 +253,15 @@
     ],
     "kubernetes": [
       {
+        "title": "Kubernetes v1.37: Pod Certificates and Cluster Trust Bundles",
+        "link": "https://kubernetes.io/blog/2026/08/28/kubernetes-v1-37-pod-certificates-and-cluster-trust-bundles/",
+        "summary": "Pod Certificate / Cluster Trust Bundles Blog Post\nKubernetes brings a wealth of features that make it easy to run your production\nworkloads securely and reliably. While aspects like scheduling, health checks\nand resource limits are probably at the front of your mind, one other important\nfeature of Kubernetes is production identity — how your workload can\nauthenticate to other systems in order to do its job.\nUp until now, the primary production identity mechanism built into Kubernetes\nhas been service account JWTs (JSON Web Tokens). These are\ncryptographically-signed tokens, issued by the control plane of your cluster,\nthat let anyone in the world understand who is calling when your workload uses\nthem.\nIn Kubernetes 1.37, the foundations of a new built-in production identity\ntechnology have gone GA. Pod Certificates (and the closely-associated Cluster\nTrust Bundles) build X.509 certificate issuance for TLS and mTLS directly into\ncore Kubernetes.\nWhy?\nService account JWTs have a lot going for them:\nThey are built directly into Kubelet, and work pretty magically. They are\nwritten to your workload container’s filesystem before your workload starts\nup, and automatically kept up to date.\nThe issuance system follows least-privilege principles; the node restriction\nadmission plugin ensures that tokens can only be requested by the Kubelet that\nis actually currently running your pod.\nThey can be federated, allowing you to use them to authenticate to other\nsystems outside of…",
+        "image": "https://kubernetes.io/blog/2026/08/28/kubernetes-v1-37-pod-certificates-and-cluster-trust-bundles/pod-certificates-architecture.svg",
+        "source": "Kubernetes Blog",
+        "published": "2026-08-28T18:30:00.000Z",
+        "isNew": true
+      },
+      {
         "title": "Kubernetes v1.37: Metrics API graduates to stable",
         "link": "https://kubernetes.io/blog/2026/08/27/kubernetes-v1-37-metrics-api-ga/",
         "summary": "Kubernetes v1.37 promotes the metrics.k8s.io API to stable (v1). This\nAPI provides CPU and memory usage for nodes and Pods, and is the API behind\ncommands such as kubectl top and resource-metrics-based autoscaling.\nFor cluster operators and application developers, this graduation means that\nthe API now has the stability guarantees associated with a Kubernetes stable\nAPI. The v1 API has the same resource types and fields as v1beta1; this is\nan API-version graduation, not a change to the metrics that are collected or\nreturned.\nA long-lived API reaches stable\nThe resource Metrics API was introduced as alpha in Kubernetes v1.6 and became\nbeta in v1.8. It has remained unchanged and has been used in production for\nyears by clients including the HorizontalPodAutoscaler (HPA) and kubectl top.\nKubernetes v1.37 formally graduates that proven API to metrics.k8s.io/v1.\nThe API exposes two resource types:\nNodeMetrics, for CPU and memory usage for a node.\nPodMetrics, for CPU and memory usage for a Pod, with a per-container\nbreakdown in its containers field.\nThe API remains intentionally small. It provides the resource metrics needed\nfor autoscaling and basic inspection; it is not a replacement for a full\nmonitoring pipeline or the custom metrics (custom.metrics.k8s.io) API.\nWhat changed with the v1.37 release?\nThe v1 API surface is identical to v1beta1, except for the API version.\nThere are no renamed fields, new fields, or changes to the meaning of the\nreturned CPU and memory values.\nFor…",
@@ -313,15 +322,6 @@
         "image": null,
         "source": "Kubernetes Blog",
         "published": "2026-07-14T18:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "Operating AI/ML Workloads on Kubernetes: A Headlamp Plugin for Kubeflow",
-        "link": "https://kubernetes.io/blog/2026/07/13/introducing-headlamp-plugin-for-kubeflow/",
-        "summary": "Kubernetes has quietly become the default platform for AI and machine learning. Whether you run notebook servers for data scientists, schedule distributed training jobs, tune hyperparameters, or orchestrate multi-step ML pipelines, those workloads increasingly land on a Kubernetes cluster. Kubeflow is one of the most popular ways to assemble that stack, and it does so the Kubernetes-native way: every capability is exposed as a Custom Resource Definition (CRD).\nThat design is a gift to cluster operators, because it means ML workloads can be observed and managed with the same primitives as everything else in the cluster. But in practice the specialized ML dashboards that ship with these platforms hide the Kubernetes layer underneath. When a notebook is stuck or a training run fails, the operator is often left dropping back to kubectl to find out what actually happened at the Pod level.\nThis post introduces the Headlamp Kubeflow plugin, which closes that gap by surfacing Kubeflow's custom resources directly inside a general-purpose Kubernetes UI. It is a worked example of a pattern any CRD-heavy platform can follow: meet operators where they already work, and show them the cluster-level truth.\nHeadlamp itself is an extensible Kubernetes web UI maintained under Kubernetes SIG UI and licensed under Apache 2.0. It runs as a desktop app or in-cluster, and its plugin system lets anyone add first-class views for custom resources.\nWhy operators need a different view\nPurpose-built ML…",
-        "image": null,
-        "source": "Kubernetes Blog",
-        "published": "2026-07-13T20:00:00.000Z",
         "isNew": false
       }
     ],
