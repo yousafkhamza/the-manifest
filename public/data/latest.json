@@ -1,6 +1,6 @@
 {
   "date": "2026-08-29",
-  "generatedAt": "2026-08-29T00:58:12.610Z",
+  "generatedAt": "2026-08-29T11:40:02.406Z",
   "totalArticles": 72,
   "ticker": [
     {
@@ -181,7 +181,7 @@
       {
         "title": "August 28, 2026",
         "link": "https://docs.cloud.google.com/release-notes#August_28_2026",
-        "summary": "Application Integration\nAnnouncement\nUpcoming authorization changes for integration runs\nApplication Integration is updating how identities are handled for integration runs. Every run will act as either the person who triggered it or a run-as service account that you configure, and running an integration will require permission to act as that service account. Integrations that run without a person, such as those started by a schedule or an event, will need an explicitly configured run-as service account.\nAction might be required before the change takes effect. For guidance on identifying affected integrations and updating them, see Prepare for upcoming authorization changes.\nGemini Enterprise\nFeature\nGemini Enterprise: New data stores and support for new actions (Preview)\nThe following data stores are available in Public Preview in Gemini Enterprise:\nCampfire\nClay\nCourtListener\nDaloopa\nMSCI\nYou can search and read data from these data stores using natural language.\nAdditionally, the following data stores support new actions in Public Preview:\nAirOps: Update knowledge base document metadata.\nAirtable: Create records for a table.\nZoho Desk: Update event.\nLooker\nAnnouncement\nFrom August 24 through August 26, 2026, the following features will be automatically enabled for Looker (original) instances running Looker 26.14.\nFeature\nThe Advanced Unused Content Cleanup feature is now generally available.\nFeature\nConversational Analytics verified queries, also known as golden queries,…",
+        "summary": "Application Integration\nAnnouncement\nUpcoming authorization changes for integration runs\nApplication Integration is updating how identities are handled for integration runs. Every run will act as either the person who triggered it or a run-as service account that you configure, and running an integration will require permission to act as that service account. Integrations that run without a person, such as those started by a schedule or an event, will need an explicitly configured run-as service account.\nAction might be required before the change takes effect. For guidance on identifying affected integrations and updating them, see Prepare for upcoming authorization changes.\nCloud Build\nFeature\nYou can now update access tokens from the Connection details page for\nyour 2nd generation Bitbucket and 2nd generation Gitlab host connections.\nFor more information, see the following:\nRotate old or expired Bitbucket Cloud access tokens\nRotate old or expired Bitbucket Data Center access tokens\nRotate old or expired Bitbucket Server access tokens\nRotate old or expired GitLab Enterprise Edition access tokens\nRotate old or expired GitLab access tokens\nGemini Enterprise\nFeature\nGemini Enterprise: New data stores and support for new actions (Preview)\nThe following data stores are available in Public Preview in Gemini Enterprise:\nCampfire\nClay\nCourtListener\nDaloopa\nMSCI\nYou can search and read data from these data stores using natural language.\nAdditionally, the following data stores…",
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-08-28T07:00:00.000Z",
@@ -259,7 +259,7 @@
         "image": "https://kubernetes.io/blog/2026/08/28/kubernetes-v1-37-pod-certificates-and-cluster-trust-bundles/pod-certificates-architecture.svg",
         "source": "Kubernetes Blog",
         "published": "2026-08-28T18:30:00.000Z",
-        "isNew": true
+        "isNew": false
       },
       {
         "title": "Kubernetes v1.37: Metrics API graduates to stable",
