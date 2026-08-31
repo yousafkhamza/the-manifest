@@ -1,6 +1,6 @@
 {
   "date": "2026-08-31",
-  "generatedAt": "2026-08-31T11:36:12.267Z",
+  "generatedAt": "2026-08-31T18:01:22.223Z",
   "totalArticles": 72,
   "ticker": [
     {
@@ -30,6 +30,15 @@
   ],
   "topics": {
     "aws": [
+      {
+        "title": "AWS Weekly Roundup: Welcome DuckLabs to the team, Agentic Resource Discovery (ARD), and more (August 31, 2026)",
+        "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-welcome-ducklabs-to-the-team-agentic-resource-discovery-ard-and-more-august-31-2026/",
+        "summary": "The news that interested me the most last week was the DuckLabs acquisition. AWS has signed a definitive agreement to acquire DuckLabs, the Amsterdam-based company behind DuckDB, the popular open source analytical database that runs in-process and executes SQL directly against files like Parquet, CSV, and JSON. DuckDB stays open source under its independent foundation […]",
+        "image": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2026/08/28/AWS_Ducklabs_white_logo_800x400.png",
+        "source": "AWS News Blog",
+        "published": "2026-08-31T14:45:25.000Z",
+        "isNew": false
+      },
       {
         "title": "Happy 20th Birthday, Amazon EC2",
         "link": "https://aws.amazon.com/blogs/aws/happy-20th-birthday-amazon-ec2/",
@@ -91,15 +100,6 @@
         "image": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2026/06/19/2026-06-18_12-25-58.png",
         "source": "AWS News Blog",
         "published": "2026-08-06T22:58:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "Amazon DynamoDB now supports real-time vector search at any scale",
-        "link": "https://aws.amazon.com/blogs/aws/amazon-dynamodb-now-supports-real-time-vector-search-at-any-scale/",
-        "summary": "DynamoDB now supports native vector search with single-digit millisecond latency at 99%+ recall. It is designed for any scale, even trillions of vectors and requires zero infrastructure management.",
-        "image": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2026/07/29/1212634454659342-0a-1.png",
-        "source": "AWS News Blog",
-        "published": "2026-08-05T14:45:10.000Z",
         "isNew": false
       }
     ],
@@ -179,6 +179,15 @@
     ],
     "gcp": [
       {
+        "title": "August 31, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#August_31_2026",
+        "summary": "Datastream\nFeature\nYou can now create a Datastream stream directly from the overview page\nof your Cloud SQL instances using the automated flow.\nFor more information, see\nCreate a Cloud SQL stream using the automated flow.",
+        "image": null,
+        "source": "Google Cloud Platform (GCP) - Release notes",
+        "published": "2026-08-31T07:00:00.000Z",
+        "isNew": false
+      },
+      {
         "title": "August 30, 2026",
         "link": "https://docs.cloud.google.com/release-notes#August_30_2026",
         "summary": "Google SecOps SOAR\nAnnouncement\nRelease 6.3.99 is being rolled out to the first phase of regions as listed\nhere.\nThis release contains internal and customer bug fixes.",
@@ -239,15 +248,6 @@
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-08-24T07:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "August 23, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#August_23_2026",
-        "summary": "Agent Platform Workbench\nChange\nInstalled latest packages from upstream dependencies.\nChange\n20260823-2330-rc0 Release\nChange\nInstalled latest packages from upstream dependencies.\nChange\n20260823-2330-rc0 Release\nChange\n20260823-2230-rc0 Release\nChange\nInstalled latest packages from upstream dependencies.\nChange\n20260823-2230-rc0 Release\nChange\nInstalled latest packages from upstream dependencies.\nFixed\nScheduled notebook executions now report their final status when the execution user's credentials stop working part way through a run, instead of continuing until the execution timeout.\nChange\n20260823-2130-rc0 Release\nChange\nInstalled latest packages from upstream dependencies.\nFixed\nScheduled notebook executions now report their final status when the execution user's credentials stop working part way through a run, instead of continuing until the execution timeout.\nChange\nInstalled latest packages from upstream dependencies.\nChange\nM147 Release",
-        "image": null,
-        "source": "Google Cloud Platform (GCP) - Release notes",
-        "published": "2026-08-23T07:00:00.000Z",
         "isNew": false
       }
     ],
@@ -401,6 +401,15 @@
     ],
     "python": [
       {
+        "title": "Kojo Idrissa: 2026 PSF Board Election Candidate Interview",
+        "link": "https://pyfound.blogspot.com/2026/08/kojo-idrissa-2026-psf-board-election.html",
+        "summary": "Who are you? \nI'm a software engineer at REVSYS. Before that I was an accountant. I was also a university instructor in the US and China.  I taught English, Western Culture, Problem-Solving, Accounting and MIS.\nWhat would you bring to the PSF Board of Directors?\nI bring business acumen from my accounting degree, MBA, and prior career as an accountant. I've also been on a non-profit board, when I was a board member for DEFNA, the non-profit that puts on DjangoCon US. I bring a global perspective of the Python community. I'm American, but I've spoken at conferences in Canada, Mexico, the Dominican Republic, Europe, Africa, and Australia. I used those opportunities to build ties with those local communities and increase my awareness of how their needs differ from the communities in the US, where the PSF is based.\nWhat motivated you to run for the PSF Board of Directors?\nI hadn't thought about running for the board until someone suggested I consider it, based on my prior community activity. As I thought about it, I realized I had some expertise and experience that I could use to benefit the broader Python community. In addition to my business background, I've made lots of connections with people from different parts of the global community.\nWhat problem or challenge do you want to address if you are on the board?\nThe decline in the community's confidence in the board.\nWhat I see (and hear, from other community members) is more a set of related challenges, instead of a single…",
+        "image": null,
+        "source": "Python Software Foundation News",
+        "published": "2026-08-31T14:45:44.984Z",
+        "isNew": false
+      },
+      {
         "title": "Ramya Ravi: 2026 PSF Board Election Candidate Interview",
         "link": "https://pyfound.blogspot.com/2026/08/ramya-ravi-2026-psf-board-election.html",
         "summary": "Who are you?\nI'm Ramya Ravi, a Developer Advocate for AI and Open Source at NetApp Instaclustr, based in Connecticut. My day to day is teaching developers how to actually build with open source technology, not just read about it. I write technical tutorials, record videos, and speak at conferences, about things like vector search, retrieval augmented generation, and open source AI infrastructure. Python sits underneath almost everything I work on. The PyTorch and OpenSearch tooling I write about every week both run on it, so in a very real sense I've been a daily Python user for my entire career, even before I thought of myself as part of the Python community in the traditional sense.\nOutside of work, I care a lot about lowering the barrier to entry for newer developers. Earlier in my career I built a developer community from zero to over 6,000 members, and watching someone go from lurker to confident contributor is honestly what keeps me doing this kind of work.\nWhat would you bring to the PSF Board of Directors?\nI'd bring three things: a track record of building community from nothing, a habit of teaching at scale, and a genuinely outside perspective. I grew a developer community from zero to 6,000+ members earlier in my career, so I know what it actually takes to onboard someone new, keep them engaged, and turn them into someone who helps the next person. I've applied that same instinct to technical education, writing tutorials and producing videos across multiple open…",
@@ -461,15 +470,6 @@
         "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjBGUudyb_kNO5hqkqN2Fdqez0R3Cs1UDXL-ZsM0xaWNCW2uiEggYUKpKzjUI3a48WgwPAoCea6WyzXoOrElU0SEx7fE7UWlR4gDFtdqRGdgGKmD4gOPNDtWnmTKroBJp9ULk_Rr81WWM9FIK2g_051RQw0J2jEIco6Q5qlO5RF1dF_H3As3g/s72-c/JeremyTanner_2026PSFBoardElection.jpg",
         "source": "Python Software Foundation News",
         "published": "2026-08-25T12:50:54.540Z",
-        "isNew": false
-      },
-      {
-        "title": "Georgi Ker: 2026 PSF Board Election Candidate Interview",
-        "link": "https://pyfound.blogspot.com/2026/08/georgi-ker-2026-psf-board-election.html",
-        "summary": "Who are you?\nHi, I’m Georgi, an independent entrepreneur, open source community organiser, and leader. I’m also a PSF Fellow and a recipient of the PSF Community Service Award.\nAlthough I currently live in Amsterdam, I am proud to represent communities across Asia. I have served on the PSF Board since 2023. I also helped design PyCon US branding and websites since 2022 and for other open source community events and projects as well.\nMy contributions to the Python community span over many years, beginning mainly in Asia and becoming more international over time. Much of my work sits where people, governance, and community meet.\nI care especially about the people doing the quiet work that keeps open source communities alive. They may not always be on the main stage, but the community would not exist without them.\nWhat would you bring to the PSF Board of Directors?\nThree years on the Board have taught me where the PSF is strong, where it is fragile, and where good intentions are not becoming results. \nAs a former Treasurer, I raised concerns about the lack of a clear financial runway and pushed for stronger budgeting and regular financial planning. Through the Executive Committee, I have also participated in staff discussions, document reviews, difficult organisational decisions, and helped finalize the PSF’s long-delayed strategic planning process with the board.\nMy perspective is also strongly shaped by communities around the world. The work began from Asia and now includes…",
-        "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgrpX5v7vO-OUtX-lzQ81sfxw7Qk-CMsLtK4xlsWQW2mYJj5Z63jISDCOtzpx644pbtXdDNCpr9FRcMIdBUN0Q6xP8lka5tIG7qfrunaBHQDqYFXATpX8FYPXJg8qZOA38aiG-j7ib_ZJA538DG6YEAH5EO6sURsSWGzUvKPAOAokUYZH-_IQ/s72-c/GeorgiKer_2026PSFBoardElection.jpg",
-        "source": "Python Software Foundation News",
-        "published": "2026-08-25T12:50:41.036Z",
         "isNew": false
       }
     ],
