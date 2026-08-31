@@ -1,6 +1,6 @@
 {
   "date": "2026-08-31",
-  "generatedAt": "2026-08-31T18:01:22.223Z",
+  "generatedAt": "2026-08-31T21:54:06.412Z",
   "totalArticles": 72,
   "ticker": [
     {
@@ -30,6 +30,15 @@
   ],
   "topics": {
     "aws": [
+      {
+        "title": "Amazon EC2 R9g and R9gd instances powered by AWS Graviton5 processors are now generally available",
+        "link": "https://aws.amazon.com/blogs/aws/amazon-ec2-r9g-and-r9gd-instances-powered-by-aws-graviton5-processors-are-now-generally-available/",
+        "summary": "Amazon EC2 R9g and R9gd instances powered by AWS Graviton5 are now generally available, delivering up to 25% better compute performance than R8g, ideal for databases, in-memory caches, and real-time analytics.",
+        "image": null,
+        "source": "AWS News Blog",
+        "published": "2026-08-31T19:53:34.000Z",
+        "isNew": false
+      },
       {
         "title": "AWS Weekly Roundup: Welcome DuckLabs to the team, Agentic Resource Discovery (ARD), and more (August 31, 2026)",
         "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-welcome-ducklabs-to-the-team-agentic-resource-discovery-ard-and-more-august-31-2026/",
@@ -91,15 +100,6 @@
         "image": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2026/08/07/1785879027542.jpg",
         "source": "AWS News Blog",
         "published": "2026-08-10T15:45:03.000Z",
-        "isNew": false
-      },
-      {
-        "title": "Runtime instances: persistent compute for production AI agents on Amazon Bedrock AgentCore",
-        "link": "https://aws.amazon.com/blogs/aws/runtime-instances-persistent-compute-for-production-ai-agents-on-amazon-bedrock-agentcore/",
-        "summary": "Announcing runtime instances in Amazon Bedrock AgentCore—persistent, managed EC2 infrastructure for production AI agents with multi-agent collaboration, GPU support, and sessions lasting up to 14 days.",
-        "image": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2026/06/19/2026-06-18_12-25-58.png",
-        "source": "AWS News Blog",
-        "published": "2026-08-06T22:58:00.000Z",
         "isNew": false
       }
     ],
@@ -181,7 +181,7 @@
       {
         "title": "August 31, 2026",
         "link": "https://docs.cloud.google.com/release-notes#August_31_2026",
-        "summary": "Datastream\nFeature\nYou can now create a Datastream stream directly from the overview page\nof your Cloud SQL instances using the automated flow.\nFor more information, see\nCreate a Cloud SQL stream using the automated flow.",
+        "summary": "BigQuery\nFeature\nYou can now create, store, and\nmanage pipelines in Git folders.\nThis feature is in\nPreview.\nFeature\nUsing folders to\ncreate, store, and manage pipelines is\ngenerally available.\nCloud SQL for PostgreSQL\nFeature\nYou can use the pgAudit extension to prevent string literals that might indicate\nsensitive information, such as passwords and secrets, from appearing in your log\nquery results.\nThis pgAudit extension capability is supported on\n[PostgreSQL version].R20260712.01_06 or later.\nFor more information, see Audit for PostgreSQL using pgAudit.\nDatastream\nFeature\nYou can now create a Datastream stream directly from the overview page\nof your Cloud SQL instances using the automated flow.\nFor more information, see\nCreate a Cloud SQL stream using the automated flow.\nGemini Enterprise\nFeature\nGemini Enterprise: Support for federated data stores in Assured Workloads\n with FedRAMP High compliance\nGemini Enterprise now supports connecting Google Workspace and third-party\nfederated data stores to projects inside Assured Workloads folders, which\nautomatically enforce security and compliance controls on your Google Cloud\nresources to meet FedRAMP High standards.\nThis feature is generally available (GA). For more information, see\nConnect a Google data\nsource.\n\n\nConnect a third-party data\nsource.\n\n\nFeature\nGemini Enterprise: Gemini 3.5 Flash regional availability in Canada\nGemini 3.5 Flash is available in Canada (ca) with\nin-region at-rest data residency (DRZ) and machine…",
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-08-31T07:00:00.000Z",
