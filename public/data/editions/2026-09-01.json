@@ -1,6 +1,6 @@
 {
   "date": "2026-09-01",
-  "generatedAt": "2026-09-01T15:28:26.581Z",
+  "generatedAt": "2026-09-01T19:56:30.144Z",
   "totalArticles": 72,
   "ticker": [
     {
@@ -179,6 +179,15 @@
     ],
     "gcp": [
       {
+        "title": "September 01, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#September_01_2026",
+        "summary": "Cortex Framework\nAnnouncement\nRelease 7.0.5\nFixed\nRemoved obsolete review items checklist from tests.\nGemini Enterprise Agent Platform\nChange\nPricing updates for agent metering\nSession and memory bank compute metering is in effect for the Agent Platform\ncompute SKU.\nFor more information, see Gemini Agent Platform\nPricing.",
+        "image": null,
+        "source": "Google Cloud Platform (GCP) - Release notes",
+        "published": "2026-09-01T07:00:00.000Z",
+        "isNew": false
+      },
+      {
         "title": "August 31, 2026",
         "link": "https://docs.cloud.google.com/release-notes#August_31_2026",
         "summary": "BigQuery\nFeature\nYou can now create, store, and\nmanage pipelines in Git folders.\nThis feature is in\nPreview.\nFeature\nBigQuery now supports TabFM,\nGoogle's pre-trained foundation model for tabular data. TabFM enables zero-shot\nregression and classification through in-context learning. It delivers\nhigh-accuracy predictions on structured data without requiring model training\nor hyperparameter tuning.\nYou can use TabFM directly through the\nAI.PREDICT function\nand evaluate model performance by using the\nAI.EVALUATE function.\nThis feature is in\nPreview.\nFixed\nSupport for configuring daily token quotas\nfor BigQuery generative AI functions has been restored.\nFeature\nUsing folders to\ncreate, store, and manage pipelines is\ngenerally available.\nFeature\nYou can now create an\nidentity column, sometimes\nreferred to as an auto-incrementing column, on a table. You can use identity\ncolumns to create and\nmaintain primary keys on your tables. When you insert a row into a table\nthat has an identity column, BigQuery generates a unique integer\nvalue for that column. This feature is in\nPreview.\nFeature\nBigQuery Graph\nis generally available\n(GA).\nBigQuery Graph now includes support for the CALL\ngraph query statement,\nand the following path inspection\nGQL functions:\nIS_ACYCLIC\nIS_SIMPLE\nIS_TRAIL.\nCloud SQL for PostgreSQL\nFeature\nYou can use the pgAudit extension to prevent string literals that might indicate\nsensitive information, such as passwords and secrets, from appearing in your log\nquery…",
@@ -239,15 +248,6 @@
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-08-25T07:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "August 24, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#August_24_2026",
-        "summary": "Anthos Config Management\nChange\nAddressed multiple Common Vulnerabilities and Exposures (CVEs) by updating dependencies.\nFeature\nYou can now disable monitoring for specific custom RootSync or RepoSync objects by setting the spec.monitoring.enabled field to false. This disables metric telemetry collection and exporting for that reconciler, which can help reduce cluster resource consumption. For more information, see Disable monitoring.\nBackup and DR\nFeature\nBackup vault support for Filestore instances encrypted with customer-managed encryption keys (CMEK) is now generally available (GA). When you back up Filestore instances to a CMEK-enabled backup vault, the backups are encrypted using the backup vault CMEK key.\nFor more information, see Customer-managed encryption keys (CMEK), Back up Filestore instances to a backup vault, and Restore a Filestore instance from a backup vault.\nBigQuery\nFeature\nYou can now\nmonitor\nthe performance, adoption, latency, and costs of your data agents and their\nconversations by using Google Cloud Observability in BigQuery.\nThis feature is in\nPreview.\nCloud Build\nSecurity\nAn Incorrect Authorization vulnerability CVE-2026-19410,\nin GitHub Trigger Comment Control in Cloud Build, was fixed. No customer action is needed.\nCloud Trace\nFeature\nYou can update the display name, description, and Cloud KMS key\napplied to a _Trace observability bucket.\nFor more information, see\nUpdate observability buckets.\nFeature\nYou can manually create the _Trace…",
-        "image": null,
-        "source": "Google Cloud Platform (GCP) - Release notes",
-        "published": "2026-08-24T07:00:00.000Z",
         "isNew": false
       }
     ],
