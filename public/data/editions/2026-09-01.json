@@ -1,6 +1,6 @@
 {
   "date": "2026-09-01",
-  "generatedAt": "2026-09-01T10:05:55.377Z",
+  "generatedAt": "2026-09-01T15:28:26.581Z",
   "totalArticles": 72,
   "ticker": [
     {
@@ -259,7 +259,7 @@
         "image": null,
         "source": "Kubernetes Blog",
         "published": "2026-08-31T18:30:00.000Z",
-        "isNew": true
+        "isNew": false
       },
       {
         "title": "Kubernetes v1.37: Pod Certificates and Cluster Trust Bundles",
@@ -401,6 +401,33 @@
     ],
     "python": [
       {
+        "title": "The 2026 PSF Board Election is Open!",
+        "link": "https://pyfound.blogspot.com/2026/09/the-2026-psf-board-election-is-open.html",
+        "summary": "It’s time to cast your vote! Voting for the 2026 PSF Board Election is open starting today Tuesday, September 1st, 2:00 pm UTC, through Tuesday, September 15th, 2:00 pm UTC. \n\nHow to Vote\nIf you are a voting member of the PSF who affirmed your intention to participate in this year’s election or you voted in last year’s election, you will receive an email today from “OpaVote Voting Link <noreply@opavote.com>” with a link to your ballot. The subject line will read “Python Software Foundation Board of Directors Election 2026”. If you haven’t seen your ballot by Wednesday, please first check your spam folder for a message from “noreply@opavote.com”. If you can’t find the ballot email from OpaVote please get in touch by emailing psf-elections@pyfound.org so we can look into your account and make sure we have the most up-to-date email for you.\nFour seats on the board are open, but you can vote to approve as many of the 17 candidates as you like. We’re delighted by how many of you are willing to contribute to the Python community by serving on the PSF Board! Make sure you take some time to look at all the nominee statements and choose your candidates carefully. \nATTN: Choose carefully before you press the big green vote button. Once your vote is cast, it cannot be changed.\n\nAn Informed Vote is a Great Vote\nNomination and supporting statements are the clearest way to see how each candidate actually thinks: their priorities, experience, and vision for the PSF. Rather than just voting…",
+        "image": null,
+        "source": "Python Software Foundation News",
+        "published": "2026-09-01T14:02:12.153Z",
+        "isNew": false
+      },
+      {
+        "title": "Inaugural Python Packaging Council Election: Voting is now open!",
+        "link": "https://pyfound.blogspot.com/2026/09/inaugural-python-packaging-council.html",
+        "summary": "It’s time to cast your vote! Voting for the inaugural 2026 Python Packaging Council (PPC) Election is open now through September 15 at 2:00 pm UTC.\n\nFind Your Ballot\nIf you are a voting member of the PSF who affirmed your intention to participate in this year’s election, you will receive an email today from “OpaVote Voting Link <noreply@opavote.com>” containing a link to your ballot. The subject line will be “Python Packaging Council Election 2026”.\nIf you haven’t received your ballot by September 2, first check your spam folder for a message from noreply@opavote.com. If you still can’t find the OpaVote email, please contact pc-elections@python.org. We can look into your account and confirm that we have the most up-to-date email address for you.\n\nReview the Nominees\nPlease take some time to read all of the nominee statements before casting your ballot. Consider what each nominee brings to the Council, the priorities and perspectives they describe, and how you would like to see Python packaging evolve. You can also ask candidates questions directly in the PPC Nominations AMA threads on discuss.python.org.\nImportant: Review your selections carefully before pressing the big green vote button. Once your ballot has been cast, your vote cannot be changed.\n\nWho Can Vote?\nTo vote in this election, you must be a Contributing, Supporting, or Fellow member of the PSF and have affirmed your intention to vote by August 25 at 2:00 pm UTC.\nIf you’d like to learn more about PSF membership…",
+        "image": null,
+        "source": "Python Software Foundation News",
+        "published": "2026-09-01T13:59:58.882Z",
+        "isNew": false
+      },
+      {
+        "title": "Python 3.15.0 candidate 2 is here!",
+        "link": "https://blog.python.org/2026/09/python-3150-rc2/",
+        "summary": "Last chance to test before the big day!",
+        "image": null,
+        "source": "Python Insider",
+        "published": "2026-09-01T00:00:00.000Z",
+        "isNew": false
+      },
+      {
         "title": "Kojo Idrissa: 2026 PSF Board Election Candidate Interview",
         "link": "https://pyfound.blogspot.com/2026/08/kojo-idrissa-2026-psf-board-election.html",
         "summary": "Who are you? \nI'm a software engineer at REVSYS. Before that I was an accountant. I was also a university instructor in the US and China.  I taught English, Western Culture, Problem-Solving, Accounting and MIS.\nWhat would you bring to the PSF Board of Directors?\nI bring business acumen from my accounting degree, MBA, and prior career as an accountant. I've also been on a non-profit board, when I was a board member for DEFNA, the non-profit that puts on DjangoCon US. I bring a global perspective of the Python community. I'm American, but I've spoken at conferences in Canada, Mexico, the Dominican Republic, Europe, Africa, and Australia. I used those opportunities to build ties with those local communities and increase my awareness of how their needs differ from the communities in the US, where the PSF is based.\nWhat motivated you to run for the PSF Board of Directors?\nI hadn't thought about running for the board until someone suggested I consider it, based on my prior community activity. As I thought about it, I realized I had some expertise and experience that I could use to benefit the broader Python community. In addition to my business background, I've made lots of connections with people from different parts of the global community.\nWhat problem or challenge do you want to address if you are on the board?\nThe decline in the community's confidence in the board.\nWhat I see (and hear, from other community members) is more a set of related challenges, instead of a single…",
@@ -443,33 +470,6 @@
         "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgHNH2FD_Y4H9LpT2IpuFRi7pGsKuAexjQwp3YV05wFlxgF2BTGhMhAqoRPLV33DaGp_LZYPlsOLWI7gG07gB19S-fD0LkWYSFENHEkcad0dSiRk4zcThiy7wWhunJn9SUj-NKb1oJ7IgeW10svF0NRVfzC0cQO6tvvTeZfRrImz451YtsOpg/s72-c/KeithMurray_2026PSFBoardElection.jpg",
         "source": "Python Software Foundation News",
         "published": "2026-08-25T12:51:41.133Z",
-        "isNew": false
-      },
-      {
-        "title": "Karo Ladino-Puerto: 2026 PSF Board Election Candidate Interview",
-        "link": "https://pyfound.blogspot.com/2026/08/karo-ladino-puerto-2026-psf-board.html",
-        "summary": "Who are you?\n\n¡Hola mundo! I'm Karo Ladino-Puerto, though most of the community knows me as Karobot. I'm Colombian, a PSF Fellow since 2020, and I've spent the last eight years building Python community infrastructure in my country alongside a lot of amazing people. I've co-led PyLadies Colombia since 2018, supporting chapters in Bogotá, Medellín, Cali, Bucaramanga, Boyacá and Santa Marta. I co-organized PyCon Colombia from 2020 to 2025, and today I'm one of three women leading Python Colombia, with the objective of reconnecting the Python communities across the whole country. In 2025 I co-founded Fundación Átoma with Carolina Gómez and Nicole Franco, a Colombian non-profit that trains women in programming and helps local organizers keep their tech conferences free.\nBy trade I'm a project manager, which mostly means I'm the person who notices the task nobody was assigned, asks the awkward question early, and keeps the timeline honest. It's the same skill I use in community work. I over-communicate on purpose, I'm detail-oriented to a degree that occasionally annoys people, and I still believe most good things don't need a big budget, just organization and consistency.\nWhat would you bring to the PSF Board of Directors?\nI ran for the Board in 2024. I'm running again because the question in front of the PSF has changed, and I think I can be more useful this time.\nIn 2024 we were mostly talking about growth. Today the Grants Program is running on a capped budget after last…",
-        "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjFUxjESZAcGGxEgsr2BlBo75pZ4yTvWEsF1GxwRdGiGAhtwbdmv_WGZwzEf4LaAKP0PvOjFPEm7KvtkDTxh97AaLqbtwx_JCQPszloYH7xloxj2jXH1whXYKARm-Ow6ZBo9hiIoPgxgFSiJwxt9qkLI7c29uQTs_MXwmOAkmI4g8UjPSR5Dg/s72-c/KaroLadino-Puerto_2026PSFBoardElection.png",
-        "source": "Python Software Foundation News",
-        "published": "2026-08-25T12:51:24.106Z",
-        "isNew": false
-      },
-      {
-        "title": "Kalyan Prasad: 2026 PSF Board Election Candidate Interview",
-        "link": "https://pyfound.blogspot.com/2026/08/kalyan-prasad-2026-psf-board-election.html",
-        "summary": "Who are you? \nHi, I’m Kalyan Prasad. My journey has been unconventional and shaped by persistence, self-learning, and community. I started working at a young age while continuing my studies, including delivering newspapers and milk. I later began my professional career in the financial services industry, working across operations and related roles.\nOver time, I became increasingly curious about data and technology and decided to make a career transition. Coming from a non-technical background, I had a lot to learn. Through self-learning, continuous practice, and the support of communities, I moved into data science, later took on data and AI leadership roles, and today work as an AI and Data Science Practice Lead.\nPython has been an important part of both my professional and community journey. I became involved with the Python community in 2019, starting as a room monitor at PyConf Hyderabad. Since then, I have grown from being a volunteer to organizing conferences, mentoring others, contributing to program committees and working groups, and taking on community leadership responsibilities.\nFor me, Python is much more than a programming language. It is a community that has helped me learn, grow, contribute, and build meaningful relationships. That experience continues to shape how I think about technology, opportunity, and community service.\nWhat would you bring to the PSF Board of Directors?\nI would bring the perspective of someone who has worked both inside community…",
-        "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi9O8dr_u_Ki0RcICOA53RJBxuN74txctNYJQFJyFjY4SiSNb2RhlERSBOTUz0lP8HAxtrMLuZ0hj1MT8W0QJMja4kqgCNkMs78rEDXFO5nejNNiZVINVAp8EEJIgEZMDJVtGnmdohI213jpmlvJuKcuc6n3tCiHg-mT1u83sezP3IvSe0YBw/s72-c/KalyanPrasad_2026PSFBoardElection.jpg",
-        "source": "Python Software Foundation News",
-        "published": "2026-08-25T12:51:09.255Z",
-        "isNew": false
-      },
-      {
-        "title": "Jeremy Tanner: 2026 PSF Board Election Candidate Interview",
-        "link": "https://pyfound.blogspot.com/2026/08/jeremy-tanner-2026-psf-board-election.html",
-        "summary": "Who are you? \nI'm Jeremy Tanner, an organizer, speaker, sponsor, Python developer, and community member. I'm based in North America, though many of my favorite people, places, and events are not. I've spent much of my career in the open Python ecosystem; packaging infrastructure, developer tooling, and the supply chains that get Python into the hands of pythonistas building everything imaginable. I believe the Python community should look like the world, not just the English-speaking, North American corner of it, and that sustainable finances are what make that vision achievable. I'm running for the PSF Board to do both: raise sustainable funds and resources, and make sure they reach everywhere.\n\nWhat would you bring to the PSF Board of Directors?\nSponsorship for Python Foundations, Events, Organizations: I have direct experience securing corporate partnerships and sponsorships for the Python ecosystem, including navigating the internal processes of large companies to provide support to open source projects, infrastructure, and community gatherings. I’ve been on the organizing side as well, responsible for fundraising, programming, and attendee experience.\n\nWhat motivated you to run for the PSF Board of Directors?\nI wouldn't be here if it weren't for Python.\nThe PSF is the organizational backbone of the most important programming language in the world, and it is perpetually underfunded relative to its mission. Companies and the community benefit enormously from the PSF's…",
-        "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjBGUudyb_kNO5hqkqN2Fdqez0R3Cs1UDXL-ZsM0xaWNCW2uiEggYUKpKzjUI3a48WgwPAoCea6WyzXoOrElU0SEx7fE7UWlR4gDFtdqRGdgGKmD4gOPNDtWnmTKroBJp9ULk_Rr81WWM9FIK2g_051RQw0J2jEIco6Q5qlO5RF1dF_H3As3g/s72-c/JeremyTanner_2026PSFBoardElection.jpg",
-        "source": "Python Software Foundation News",
-        "published": "2026-08-25T12:50:54.540Z",
         "isNew": false
       }
     ],
@@ -549,6 +549,15 @@
     ],
     "rust": [
       {
+        "title": "Announcing rustup 1.29.1",
+        "link": "https://blog.rust-lang.org/2026/09/01/Rustup-1.29.1/",
+        "summary": "The rustup team is happy to announce the release of rustup version 1.29.1.\nRustup is the recommended tool to install Rust, a\nprogramming language that empowers everyone to build reliable and efficient\nsoftware.\n\nWhat's new in rustup 1.29.1\nThe headlines of this release are:\nConcurrency in certain rustup operations has been improved:\nWhen running rustup update, rustup will first check for possible updates in parallel. pr#4752\nWhen running rustup component add with multiple components, they will be installed concurrently. pr#4790\nImplicit installation of the active toolchain in rustup-init and rustup invocations has\nbeen deprecated where deemed unnecessary and will now produce a warning. pr#4840\nPlease see our\nblog post\nfor more details regarding this change.\nrustup doc now supports the --serve flag which allows serving the docs over local HTTP.\nThis should help users with containerized browser and/or rustup setups. pr#4986\nInstalling i686-pc-windows-* host toolchains on 64-bit Windows now requires --force-non-host.\npr#4935\nrustup-init will no longer leave unexpected files on disk after cancelled installations. pr#4996\nA bug has been fixed which might cause Windows installation to fail when using rustup-init.sh.\npr#4756\n\"Target triple\" has been renamed to \"target tuple\" across the project to reflect the\nnew terminology.\npr#4743 pr#4827 pr#4834\nPlease note that this is not a breaking change in the CLI since the existing\noptions such as --target are not using this terminology.…",
+        "image": null,
+        "source": "Rust Blog",
+        "published": "2026-09-01T00:00:00.000Z",
+        "isNew": false
+      },
+      {
         "title": "Announcing our first Maintainers in Residence",
         "link": "https://blog.rust-lang.org/2026/08/26/announcing-our-first-maintainers-in-residence/",
         "summary": "We are very happy to announce the Rust Project's first round of Maintainers in Residence:\nGen Li (@rami3l), Chris Denton (@ChrisDenton), Alejandra González (@blyxyas), León Liehr (@fmease), and Maintainer Grant recipients: Jason Newcomb (@Jarcho) and Jonas Böttiger (@joboet). These contributors will be funded for their rust-lang maintenance activities for (at least) the following 12 months!\nThe funding of the Maintainer in Residence (MiR) and Maintainer Grantee roles is possible thanks to generous donations to the Rust Foundation Maintainers Fund (RFMF) from Google, AWS, OpenAI, the Rust Project Leadership Council and also individual sponsors. We also want to thank the people who advocated for maintainer funding within their companies; Tyler Mandry from Google, Niko Matsakis and Jess Izen from AWS and Predrag Gruevski from OpenAI, and also the whole Rust Leadership Council and our funding advisors. If you would like to help us support even more Rust contributors, consider donating to RFMF.\nThe Rust Foundation has published a press release and a blog post, where you can learn more about the sponsors and the supported contributors.\nRead more below to learn about the MiR program, how we chose the funded contributors, and of course who they are!\n\nBackground\nThe Maintainer in Residence program, established in RFC 3931, is designed to provide stable financial support for Rust contributors, so that they can truly focus on crucial maintenance activities. Currently, there are three…",
@@ -609,15 +618,6 @@
         "image": "https://blog.rust-lang.org/2026/07/13/crates-io-development-update/code-tab.png",
         "source": "Rust Blog",
         "published": "2026-07-13T00:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "Announcing Rust 1.97.0",
-        "link": "https://blog.rust-lang.org/2026/07/09/Rust-1.97.0/",
-        "summary": "The Rust team is happy to announce a new version of Rust, 1.97.0. Rust is a programming language empowering everyone to build reliable and efficient software.\nIf you have a previous version of Rust installed via rustup, you can get 1.97.0 with:\n$ rustup update stable\nIf you don't have it already, you can get rustup from the appropriate page on our website, and check out the detailed release notes for 1.97.0.\nIf you'd like to help us out by testing future releases, you might consider updating locally to use the beta channel (rustup default beta) or the nightly channel (rustup default nightly). Please report any bugs you might come across!\n\nWhat's in 1.97.0 stable\n\nSymbol mangling v0 enabled by default\nWhen Rust is compiled into object files and binaries, each item (functions,\nstatics, etc) must have a globally unique \"symbol\" identifying it. To avoid\nconflicts when linking together different Rust programs, Rust mangles the\noriginal name of items to include additional context such as the module path,\ndefining crate, generics, and more. Historically, this mangling was based on\nthe Itanium ABI,\nalso (sometimes) used by C++.\nThe new mangling scheme resolves a number of drawbacks from the previous one:\nGeneric parameter instantiations preserve their values, rather than being tracked solely behind a hash\nInconsistencies: not all parts used the Itanium ABI, meaning that custom demangling was still necessary\nSince Rust 1.59, the compiler has supported opting into a Rust-specific…",
-        "image": null,
-        "source": "Rust Blog",
-        "published": "2026-07-09T00:00:00.000Z",
         "isNew": false
       }
     ],
