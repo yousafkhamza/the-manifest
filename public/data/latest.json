@@ -1,6 +1,6 @@
 {
-  "date": "2026-08-31",
-  "generatedAt": "2026-08-31T21:54:06.412Z",
+  "date": "2026-09-01",
+  "generatedAt": "2026-09-01T10:05:55.377Z",
   "totalArticles": 72,
   "ticker": [
     {
@@ -181,7 +181,7 @@
       {
         "title": "August 31, 2026",
         "link": "https://docs.cloud.google.com/release-notes#August_31_2026",
-        "summary": "BigQuery\nFeature\nYou can now create, store, and\nmanage pipelines in Git folders.\nThis feature is in\nPreview.\nFeature\nUsing folders to\ncreate, store, and manage pipelines is\ngenerally available.\nCloud SQL for PostgreSQL\nFeature\nYou can use the pgAudit extension to prevent string literals that might indicate\nsensitive information, such as passwords and secrets, from appearing in your log\nquery results.\nThis pgAudit extension capability is supported on\n[PostgreSQL version].R20260712.01_06 or later.\nFor more information, see Audit for PostgreSQL using pgAudit.\nDatastream\nFeature\nYou can now create a Datastream stream directly from the overview page\nof your Cloud SQL instances using the automated flow.\nFor more information, see\nCreate a Cloud SQL stream using the automated flow.\nGemini Enterprise\nFeature\nGemini Enterprise: Support for federated data stores in Assured Workloads\n with FedRAMP High compliance\nGemini Enterprise now supports connecting Google Workspace and third-party\nfederated data stores to projects inside Assured Workloads folders, which\nautomatically enforce security and compliance controls on your Google Cloud\nresources to meet FedRAMP High standards.\nThis feature is generally available (GA). For more information, see\nConnect a Google data\nsource.\n\n\nConnect a third-party data\nsource.\n\n\nFeature\nGemini Enterprise: Gemini 3.5 Flash regional availability in Canada\nGemini 3.5 Flash is available in Canada (ca) with\nin-region at-rest data residency (DRZ) and machine…",
+        "summary": "BigQuery\nFeature\nYou can now create, store, and\nmanage pipelines in Git folders.\nThis feature is in\nPreview.\nFeature\nBigQuery now supports TabFM,\nGoogle's pre-trained foundation model for tabular data. TabFM enables zero-shot\nregression and classification through in-context learning. It delivers\nhigh-accuracy predictions on structured data without requiring model training\nor hyperparameter tuning.\nYou can use TabFM directly through the\nAI.PREDICT function\nand evaluate model performance by using the\nAI.EVALUATE function.\nThis feature is in\nPreview.\nFixed\nSupport for configuring daily token quotas\nfor BigQuery generative AI functions has been restored.\nFeature\nUsing folders to\ncreate, store, and manage pipelines is\ngenerally available.\nFeature\nYou can now create an\nidentity column, sometimes\nreferred to as an auto-incrementing column, on a table. You can use identity\ncolumns to create and\nmaintain primary keys on your tables. When you insert a row into a table\nthat has an identity column, BigQuery generates a unique integer\nvalue for that column. This feature is in\nPreview.\nFeature\nBigQuery Graph\nis generally available\n(GA).\nBigQuery Graph now includes support for the CALL\ngraph query statement,\nand the following path inspection\nGQL functions:\nIS_ACYCLIC\nIS_SIMPLE\nIS_TRAIL.\nCloud SQL for PostgreSQL\nFeature\nYou can use the pgAudit extension to prevent string literals that might indicate\nsensitive information, such as passwords and secrets, from appearing in your log\nquery…",
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-08-31T07:00:00.000Z",
@@ -253,6 +253,15 @@
     ],
     "kubernetes": [
       {
+        "title": "Kubernetes v1.37: Storage Version Migration Enabled by Default",
+        "link": "https://kubernetes.io/blog/2026/08/31/kubernetes-v1-37-storage-version-migration-ga/",
+        "summary": "I am excited that storage version migration (SVM) has graduated to General Availability (GA) in Kubernetes v1.37!\nAfter a number of releases of work and testing, the built-in StorageVersionMigration API (storagemigration.k8s.io/v1)\nand control plane controller are now fully stable and enabled by default across all v1.37 Kubernetes clusters.\nThe problem with stale storage versions\nIn Kubernetes, stored API resources are written using a specific storage version (schema representation). The way Kubernetes interacts with object storage fundamentally requires mutation of a resource in order to ensure that the latest storage version is used for all resources. This creates problems when you want to change the storage version of a resource.\nOne example of a scenario where you may want to change the storage version of a resource is when you are promoting a CRD to drop an older API version (such as v1alpha1) to a newer version (leaving just v1beta1 and v1). It's a problem to drop the older API version whilst there are still resources stored with the old alpha version.\nTo avoid problems, you designate v1 as the new storage version; but, on it's own, that's not enough. While new writes are stored as v1, any existing resource could remain stored as v1alpha1 or v1beta1 in storage. You cannot safely remove v1alpha1 from the CRD's .status.storedVersions or drop serving support until every single resource in storage has been re-written to not be serialized and stored with the alpha version.…",
+        "image": null,
+        "source": "Kubernetes Blog",
+        "published": "2026-08-31T18:30:00.000Z",
+        "isNew": true
+      },
+      {
         "title": "Kubernetes v1.37: Pod Certificates and Cluster Trust Bundles",
         "link": "https://kubernetes.io/blog/2026/08/28/kubernetes-v1-37-pod-certificates-and-cluster-trust-bundles/",
         "summary": "Pod Certificate / Cluster Trust Bundles Blog Post\nKubernetes brings a wealth of features that make it easy to run your production\nworkloads securely and reliably. While aspects like scheduling, health checks\nand resource limits are probably at the front of your mind, one other important\nfeature of Kubernetes is production identity — how your workload can\nauthenticate to other systems in order to do its job.\nUp until now, the primary production identity mechanism built into Kubernetes\nhas been service account JWTs (JSON Web Tokens). These are\ncryptographically-signed tokens, issued by the control plane of your cluster,\nthat let anyone in the world understand who is calling when your workload uses\nthem.\nIn Kubernetes 1.37, the foundations of a new built-in production identity\ntechnology have gone GA. Pod Certificates (and the closely-associated Cluster\nTrust Bundles) build X.509 certificate issuance for TLS and mTLS directly into\ncore Kubernetes.\nWhy?\nService account JWTs have a lot going for them:\nThey are built directly into Kubelet, and work pretty magically. They are\nwritten to your workload container’s filesystem before your workload starts\nup, and automatically kept up to date.\nThe issuance system follows least-privilege principles; the node restriction\nadmission plugin ensures that tokens can only be requested by the Kubelet that\nis actually currently running your pod.\nThey can be federated, allowing you to use them to authenticate to other\nsystems outside of…",
@@ -313,15 +322,6 @@
         "image": "https://kubernetes.io/blog/2026/07/29/controller-runtime-cache-explained/pipeline.svg",
         "source": "Kubernetes Blog",
         "published": "2026-07-29T18:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "Building a Custom Metrics Exporter for Kubernetes",
-        "link": "https://kubernetes.io/blog/2026/07/14/custom-metrics-exporter-kubernetes/",
-        "summary": "Kubernetes ships with built-in awareness of CPU and memory, but most\nreal-world scaling decisions depend on signals that live entirely outside\nthat narrow window: how many messages are waiting in a queue, how long\nthe last batch job took, how many active WebSocket connections a pod is\nholding. When the built-in metrics are not enough, a metrics exporter\nbridges that gap.\nThis post walks through writing one from scratch, packaging it as a\ncontainer, and wiring it into a cluster so that Prometheus — and\nultimately the HorizontalPodAutoscaler — can consume it.\nWhat a metrics exporter actually does\nAn exporter is a small HTTP server with a single responsibility: expose\napplication state as text on a /metrics endpoint. Prometheus scrapes\nthat endpoint on a regular interval, stores the time-series data, and\nmakes it available for queries, alerts, and autoscaling rules.\nIn some cases you can instrument your application directly — embedding\nthe Prometheus client library and exposing /metrics from within the\nsame process — rather than running a separate exporter. A standalone\nexporter makes more sense when the data source is external to your\napplication or when you do not control the application code.\nThe format Prometheus expects is plain text — one metric per line, with\na name, optional labels, and a numeric value. Client libraries handle\nthe serialization for you, so in practice you only need to decide what\nto measure and call the right function when that value changes.\nChoosing…",
-        "image": null,
-        "source": "Kubernetes Blog",
-        "published": "2026-07-14T18:00:00.000Z",
         "isNew": false
       }
     ],
