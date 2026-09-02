@@ -1,6 +1,6 @@
 {
   "date": "2026-09-02",
-  "generatedAt": "2026-09-02T09:37:09.494Z",
+  "generatedAt": "2026-09-02T15:07:49.012Z",
   "totalArticles": 72,
   "ticker": [
     {
@@ -9,7 +9,7 @@
     },
     {
       "label": "Terraform",
-      "version": "v1.16.0"
+      "version": "v1.16.1"
     },
     {
       "label": "Python",
@@ -111,7 +111,7 @@
         "image": null,
         "source": "Microsoft Azure Blog",
         "published": "2026-08-31T18:00:00.000Z",
-        "isNew": true
+        "isNew": false
       },
       {
         "title": "Inside Microsoft’s marketing team: Scaling expertise with AI",
@@ -120,7 +120,7 @@
         "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/06/CLO20b_Evan_office_001-scaled.jpg",
         "source": "Microsoft Azure Blog",
         "published": "2026-08-31T16:00:00.000Z",
-        "isNew": true
+        "isNew": false
       },
       {
         "title": "Managed PostgreSQL vs. self-hosted PostgreSQL: Key benefits and trade-offs",
@@ -259,7 +259,7 @@
         "image": null,
         "source": "Kubernetes Blog",
         "published": "2026-09-01T18:30:00.000Z",
-        "isNew": true
+        "isNew": false
       },
       {
         "title": "Kubernetes v1.37: Storage Version Migration Enabled by Default",
@@ -327,6 +327,15 @@
     ],
     "terraform": [
       {
+        "title": "v1.16.1",
+        "link": "https://github.com/hashicorp/terraform/releases/tag/v1.16.1",
+        "summary": "1.16.1 (September 2, 2026)\nBUG FIXES:\ncloud: Fixed a bug causing the CLI to pause indefinitely after a run task failure with pending policy evaluations (#38751)\nSupport referencing modules containing dynamic sources in Terraform Test (#38950)\nstacks: Fixed validation to ensure the provider versions in the lock file and configuration are compatible. (#38829)\nFix panic when import identity references sensitive value (#39013)\nimport: Fixed a bug where import blocks would be ignored when multiple imports targeted different instances of a resource config using for_each or count. (#39068)\nstate show: Fix a panic when given an attribute path instead of a resource instance address (#39087)\nFix create_before_destroy ordering in some combinations of changes (#39091)",
+        "image": "https://avatars.githubusercontent.com/u/82989873?s=60&v=4",
+        "source": "Release notes from terraform",
+        "published": "2026-09-02T14:49:32.000Z",
+        "isNew": false
+      },
+      {
         "title": "v1.17.0-alpha20260827",
         "link": "https://github.com/hashicorp/terraform/releases/tag/v1.17.0-alpha20260827",
         "summary": "1.17.0-alpha20260827 (August 27, 2026)\nNEW FEATURES:\nA new -minimal-refresh planning option has been added, which will only refresh resources that have proposed changes. (#35290)\nENHANCEMENTS:\ncommand/init: Enrich log messages with provider versions (#38918)\ncommand/login: display warning after successful login if user is subject to an organization's TTL policy\nBUG FIXES:\nfuncs: pow and log no longer panic when result is not a number (#38912)\nephemeral: Terraform will now use and display diagnostics raised when renewing an ephemeral resource. This may cause warnings to appear that previously were lost. We expect that any error diagnostics that were previously lost would have caused confusing downstream errors, so we do not anticipate this change to be breaking. (#38989)\nFix panic when import identity references sensitive value (#39013)\nNOTES:\nversion: JSON output now includes a new format_version field, which will enable safer future changes of the command's JSON output format. It is assumed existing tooling ignores unknown fields and therefore this change should not be breaking in itself but we advice consumers to pay attention to format_version in future releases and/or use latest version of hashicorp/terraform-json & hashicorp/terraform-exec which does. (#38930)\nEXPERIMENTS:\nExperiments are only enabled in alpha releases of Terraform CLI. The following features are not yet available in stable releases.\nThe experimental \"deferred actions\" feature, enabled by passing the…",
@@ -387,15 +396,6 @@
         "image": "https://avatars.githubusercontent.com/u/82989873?s=60&v=4",
         "source": "Release notes from terraform",
         "published": "2026-08-05T18:07:50.000Z",
-        "isNew": false
-      },
-      {
-        "title": "v1.17.0-alpha20260729",
-        "link": "https://github.com/hashicorp/terraform/releases/tag/v1.17.0-alpha20260729",
-        "summary": "1.17.0-alpha20260729 (July 29, 2026)\nENHANCEMENTS:\ncommand/init: Enrich log messages with provider versions (#38918)\nBUG FIXES:\nfuncs: pow and log no longer panic when result is not a number (#38912)\nEXPERIMENTS:\nExperiments are only enabled in alpha releases of Terraform CLI. The following features are not yet available in stable releases.\nThe experimental \"deferred actions\" feature, enabled by passing the -allow-deferral option to terraform plan, permits count and for_each arguments in module, resource, and data blocks to have unknown values and allows providers to react more flexibly to unknown values.\nterraform test cleanup: The experimental test cleanup command. In experimental builds of Terraform, a manifest file and state files for each failed cleanup operation during test operations are saved within the .terraform local directory. The test cleanup command will attempt to clean up the local state files left behind automatically, without requiring manual intervention.\nterraform test: backend blocks and skip_cleanup attributes:\n\nTest authors can now specify backend blocks within run blocks in Terraform Test files. Run blocks with backend blocks will load state from the specified backend instead of starting from empty state on every execution. This allows test authors to keep long-running test infrastructure alive between test operations, saving time during regular test operations.\nTest authors can now specify skip_cleanup attributes within test files and within run…",
-        "image": "https://avatars.githubusercontent.com/u/82989873?s=60&v=4",
-        "source": "Release notes from terraform",
-        "published": "2026-07-29T19:38:27.000Z",
         "isNew": false
       }
     ],
