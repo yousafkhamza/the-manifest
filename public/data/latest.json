@@ -1,6 +1,6 @@
 {
   "date": "2026-09-02",
-  "generatedAt": "2026-09-02T15:07:49.012Z",
+  "generatedAt": "2026-09-02T19:47:26.051Z",
   "totalArticles": 72,
   "ticker": [
     {
@@ -179,6 +179,15 @@
     ],
     "gcp": [
       {
+        "title": "September 02, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#September_02_2026",
+        "summary": "Spanner\nFeature\nSpanner supports using the TABLESAMPLE operator in PostgreSQL-dialect\ndatabases to select a random sample of a dataset.\nFor more information, see\nTABLESAMPLE operator.",
+        "image": null,
+        "source": "Google Cloud Platform (GCP) - Release notes",
+        "published": "2026-09-02T07:00:00.000Z",
+        "isNew": false
+      },
+      {
         "title": "September 01, 2026",
         "link": "https://docs.cloud.google.com/release-notes#September_01_2026",
         "summary": "Apigee UI\nAnnouncement\nOn September 1, 2026, we released an updated version of the Apigee UI.\nFixed\nBug ID\nDescription\n\n\n\n\n547582067\n\n\nRevisions can now be imported for API proxies and shared flows in a space\n\n\n          Importing a revision in the Apigee UI now works for an API proxy or\n          shared flow that is associated with a\n          space.\n        \nApp Engine flexible environment Go\nFeature\nSupport for the Go 1.27 runtime is in\nGeneral Availability (GA).\nApp Engine standard environment Go\nFeature\nSupport for the Go 1.27 runtime is in\nGeneral Availability (GA).\nBackup and DR\nFeature\nBackup vault support for AlloyDB for PostgreSQL instances encrypted with customer-managed encryption keys (CMEK) is generally available (GA), providing immutable and indelible storage with enforced retention. For more information, see Encrypt AlloyDB for PostgreSQL cluster backups.\nAnnouncing the general availability (GA) of cross-region backups for AlloyDB for PostgreSQL clusters. You can now protect AlloyDB for PostgreSQL clusters against regional outages by storing backups in a distinct secondary region of your choice. To learn more, see Backup vaults for immutable and indelible backups.\nBigQuery\nFeature\nThe Rust SDK for BigQuery is now in\nPreview.\nBigtable\nFeature\nYou can use the Google Cloud console to create and manage aggregate column families\nfor your Bigtable tables. You can also view and query aggregate column families in Bigtable Studio. This feature is generally available…",
@@ -239,15 +248,6 @@
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-08-26T07:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "August 25, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#August_25_2026",
-        "summary": "BigQuery\nFeature\nBigQuery data governance tags are\nsupported in Terraform. This feature is in\nPreview.\nCloud Run\nFeature\nCloud Run instances\nare available in\nPreview. Instances\nare specifically designed for running long-lived and individually addressable\nworkloads. To learn more, see the\nproduct overview,\nresource comparison,\nand instance lifecycle pages.\nCloud SQL for PostgreSQL\nFeature\nUse assessments (Preview)\nin Database Center to assess and test the\nperformance impact of database recommendations before you apply them to your\nproduction database fleet.\nThe assessments workflow performs these operations:\nClones your database instance.\nRuns benchmarking simulation tests on the clone.\nCompares the baseline performance of the clone against the performance after\nyou apply the recommended configuration changes.\nFor more information, see Assessments in Database Center.\nDatabase Center\nFeature\nUse assessments (Preview)\nin Database Center to assess and test the performance impact of\ndatabase recommendations before you apply them to your production database fleet.\nThe assessments workflow performs these operations:\nClones your database instance.\nRuns benchmarking simulation tests on the clone.\nCompares the baseline performance of the clone against the performance after\nyou apply the recommended configuration changes.\nDatabase Center assessments are available only for\nCloud SQL for PostgreSQL instances.\nFor more information, see Create an assessment of a recommendation.\nGoogle…",
-        "image": null,
-        "source": "Google Cloud Platform (GCP) - Release notes",
-        "published": "2026-08-25T07:00:00.000Z",
         "isNew": false
       }
     ],
@@ -475,6 +475,15 @@
     ],
     "go": [
       {
+        "title": "Goroutine Leak Profiles",
+        "link": "https://go.dev/blog/goroutine-leak-profiles",
+        "summary": "The Go Blog\nGoroutine Leak Profiles\nGo’s concurrency features are powerful and easy to use, but\nthat same ease can sometimes lead even seasoned developers to make\nmistakes.\nFortunately, the Go ecosystem comes equipped with useful tools for\ndebugging, e.g., the race detector,\nbut even existing tools may miss some concurrency bugs,\nsuch as the topic of this article, the goroutine leak.\nGoroutines synchronize or exchange information\nvia shared concurrency primitives, e.g., channels, locks, and wait groups.\nWhile communicating, goroutines often block on these primitives,\nas in, wait until some condition is met;\nubiquitous examples include waiting to acquire a held mutex,\nor receive a message over a channel.\nGoroutines can also block on operating system operations, like reading from a network socket or a file.\nWe may consider a goroutine leaked if it is blocked,\nbut the conditions needed to unblock it can never be met.\nOver time, an accumulation of leaked goroutines degrades\nperformance through excessive memory usage (by the leaked\ngoroutines themselves or the memory they reference), as well as\nCPU usage from the garbage collector, especially\nif GOMEMLIMIT is in use.\nGoroutine leaks can be notoriously difficult to detect.\nIn unit testing, the most significant breakthroughs include\nthe open-source library goleak,\nwhich can instrument individual tests to signal any\nun-terminated goroutines after the test wraps up as suspicious.\nSimilarly, Go 1.25 introduced the synctest package to…",
+        "image": null,
+        "source": "The Go Blog",
+        "published": "2026-09-02T00:00:00.000Z",
+        "isNew": false
+      },
+      {
         "title": "Generic Methods",
         "link": "https://go.dev/blog/generic-methods",
         "summary": "The Go Blog\nGeneric Methods\nGenerics was a profound change for Go—it fundamentally expanded the kinds of\nprograms that gophers could write by adding type parameters to the language.\nOne could now express generic types and functions in Go. These constructs\ndecreased the need for specialized data types and functions, reducing program\nverbosity and improving the ergonomics of the language in those cases.\nTo illustrate, different kinds of linked lists could now be condensed into a\nsingle type definition:\n// before Go 1.18\ntype ListOfInts struct {\n    elem int\n    next *ListOfInts\n}\ntype ListOfStrings struct {\n    elem string\n    next *ListOfStrings\n}\n// ...\n\n// after Go 1.18\ntype List[E any] struct {\n    elem E\n    next *List[E]\n}\n\nLikewise, sorting different kinds of ordered data could be expressed as a single\nfunction:\n// before Go 1.18\nfunc SortInts(s []int) { /* ... */ }\nfunc SortStrings(s []string) { /* ... */ }\n// ...\n\n// after Go 1.18\nfunc Sort[E cmp.Ordered](s []E) { /* ... */ }\n\nHowever, no such capability came to methods.\nThe generics proposal reasoned that because generic interface\nmethods are difficult to implement efficiently (discussed\nlater), it didn’t make sense to\nadd type parameters to non-interface (or “concrete”) methods either. In that\nview, methods are primarily the means of implementing an interface.\nGo 1.27 takes a different view and consequently adds generic methods to Go. In\nthis post, we’ll explain this change of view and demonstrate some uses of this…",
@@ -535,15 +544,6 @@
         "image": null,
         "source": "The Go Blog",
         "published": "2026-02-17T00:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "Go 1.26 is released",
-        "link": "https://go.dev/blog/go1.26",
-        "summary": "The Go Blog\nGo 1.26 is released\nToday the Go team is pleased to release Go 1.26.\nYou can find its binary archives and installers on the download page.\nLanguage changes\nGo 1.26 introduces two significant refinements to the language\nsyntax and type system.\nFirst, the built-in new function, which creates a new variable, now allows its operand to be an\nexpression, specifying the initial value of the variable.\nA simple example of this change means that code such as this:\nx := int64(300)\nptr := &x\n\nCan be simplified to:\nptr := new(int64(300))\n\nSecond, generic types may now refer to themselves in their own type parameter list. This change\nsimplifies the implementation of complex data structures and interfaces.\nPerformance improvements\nThe previously experimental Green Tea garbage collector\nis now enabled by default.\nThe baseline cgo overhead has been reduced\nby approximately 30%.\nThe compiler can now allocate the backing store for\nslices on the stack in more situations, which improves performance.\nTool improvements\nThe go fix command has been completely rewritten to use the\nGo analysis framework, and now includes a\ncouple dozen “modernizers”, analyzers\nthat suggest safe fixes to help your code take advantage of newer features of the language\nand standard library. It also includes the\ninline analyzer, which\nattempts to inline all calls to each function annotated with a //go:fix inline directive.\nTwo upcoming blog posts will address these features in more detail.\nMore improvements…",
-        "image": null,
-        "source": "The Go Blog",
-        "published": "2026-02-10T00:00:00.000Z",
         "isNew": false
       }
     ],
