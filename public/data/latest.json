@@ -1,6 +1,6 @@
 {
-  "date": "2026-09-01",
-  "generatedAt": "2026-09-01T19:56:30.144Z",
+  "date": "2026-09-02",
+  "generatedAt": "2026-09-02T09:37:09.494Z",
   "totalArticles": 72,
   "ticker": [
     {
@@ -17,7 +17,7 @@
     },
     {
       "label": "Go",
-      "version": "go1.27.0"
+      "version": "go1.27.1"
     },
     {
       "label": "Rust",
@@ -105,6 +105,24 @@
     ],
     "azure": [
       {
+        "title": "Introducing Azure Multicloud Interconnect for AWS",
+        "link": "https://azure.microsoft.com/en-us/blog/introducing-azure-multicloud-interconnect-for-aws/",
+        "summary": "Azure Multicloud Interconnect helps simplify private connectivity between Microsoft Azure and AWS, enabling organizations to support multicloud and AI workloads with a more streamlined, cloud-native networking experience. Built on open interoperability standards, it helps reduce operational complexity while providing high-performance connectivity across cloud environments.\nThe post Introducing Azure Multicloud Interconnect for AWS appeared first on Microsoft Azure Blog.",
+        "image": null,
+        "source": "Microsoft Azure Blog",
+        "published": "2026-08-31T18:00:00.000Z",
+        "isNew": true
+      },
+      {
+        "title": "Inside Microsoft’s marketing team: Scaling expertise with AI",
+        "link": "https://azure.microsoft.com/en-us/blog/inside-microsofts-marketing-team-scaling-expertise-with-ai/",
+        "summary": "AI is helping organizations meet high expectations as markets change quickly and technology advances at a rapid pace.\nThe post Inside Microsoft’s marketing team: Scaling expertise with AI appeared first on Microsoft Azure Blog.",
+        "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/06/CLO20b_Evan_office_001-scaled.jpg",
+        "source": "Microsoft Azure Blog",
+        "published": "2026-08-31T16:00:00.000Z",
+        "isNew": true
+      },
+      {
         "title": "Managed PostgreSQL vs. self-hosted PostgreSQL: Key benefits and trade-offs",
         "link": "https://azure.microsoft.com/en-us/blog/managed-postgresql-vs-self-hosted-postgresql-key-benefits-and-trade-offs/",
         "summary": "Compare managed PostgreSQL vs. self-hosted PostgreSQL across cost, control, security, resilience, scalability, and operational effort.\nThe post Managed PostgreSQL vs. self-hosted PostgreSQL: Key benefits and trade-offs appeared first on Microsoft Azure Blog.",
@@ -157,31 +175,13 @@
         "source": "Microsoft Azure Blog",
         "published": "2026-08-06T15:00:00.000Z",
         "isNew": false
-      },
-      {
-        "title": "What customers value most in Microsoft Databases—from reliability to AI readiness",
-        "link": "https://azure.microsoft.com/en-us/blog/what-customers-value-most-in-microsoft-databases-from-reliability-to-ai-readiness/",
-        "summary": "Every day, customers trust Microsoft Databases to power their most critical applications, business processes, and AI-powered experiences.\nThe post What customers value most in Microsoft Databases—from reliability to AI readiness appeared first on Microsoft Azure Blog.",
-        "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/10/CLO20b_Jean_Alain_casual_office_003.jpg",
-        "source": "Microsoft Azure Blog",
-        "published": "2026-07-27T15:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "AT&T and Microsoft scale trillion-token workloads with Microsoft Foundry and AMD",
-        "link": "https://azure.microsoft.com/en-us/blog/att-and-microsoft-scale-trillion-token-workloads-with-microsoft-foundry-and-amd/",
-        "summary": "AT&T processed approximately one trillion tokens while developing OTel2.0 using Microsoft Foundry Managed Compute, open AI models, and AMD and NVIDIA GPU infrastructure. Discover how flexible model choice and scalable infrastructure are enabling production-scale telecom AI.\nThe post AT&T and Microsoft scale trillion-token workloads with Microsoft Foundry and AMD appeared first on Microsoft Azure Blog.",
-        "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2027/06/FY26AE-Azure-Composite-DeepBlue-006-H.jpg",
-        "source": "Microsoft Azure Blog",
-        "published": "2026-07-23T18:30:00.000Z",
-        "isNew": false
       }
     ],
     "gcp": [
       {
         "title": "September 01, 2026",
         "link": "https://docs.cloud.google.com/release-notes#September_01_2026",
-        "summary": "Cortex Framework\nAnnouncement\nRelease 7.0.5\nFixed\nRemoved obsolete review items checklist from tests.\nGemini Enterprise Agent Platform\nChange\nPricing updates for agent metering\nSession and memory bank compute metering is in effect for the Agent Platform\ncompute SKU.\nFor more information, see Gemini Agent Platform\nPricing.",
+        "summary": "Apigee UI\nAnnouncement\nOn September 1, 2026, we released an updated version of the Apigee UI.\nFixed\nBug ID\nDescription\n\n\n\n\n547582067\n\n\nRevisions can now be imported for API proxies and shared flows in a space\n\n\n          Importing a revision in the Apigee UI now works for an API proxy or\n          shared flow that is associated with a\n          space.\n        \nApp Engine flexible environment Go\nFeature\nSupport for the Go 1.27 runtime is in\nGeneral Availability (GA).\nApp Engine standard environment Go\nFeature\nSupport for the Go 1.27 runtime is in\nGeneral Availability (GA).\nBackup and DR\nFeature\nBackup vault support for AlloyDB for PostgreSQL instances encrypted with customer-managed encryption keys (CMEK) is generally available (GA), providing immutable and indelible storage with enforced retention. For more information, see Encrypt AlloyDB for PostgreSQL cluster backups.\nAnnouncing the general availability (GA) of cross-region backups for AlloyDB for PostgreSQL clusters. You can now protect AlloyDB for PostgreSQL clusters against regional outages by storing backups in a distinct secondary region of your choice. To learn more, see Backup vaults for immutable and indelible backups.\nBigQuery\nFeature\nThe Rust SDK for BigQuery is now in\nPreview.\nBigtable\nFeature\nYou can use the Google Cloud console to create and manage aggregate column families\nfor your Bigtable tables. You can also view and query aggregate column families in Bigtable Studio. This feature is generally available…",
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-09-01T07:00:00.000Z",
@@ -199,7 +199,7 @@
       {
         "title": "August 30, 2026",
         "link": "https://docs.cloud.google.com/release-notes#August_30_2026",
-        "summary": "Google SecOps SOAR\nAnnouncement\nRelease 6.3.99 is being rolled out to the first phase of regions as listed\nhere.\nThis release contains internal and customer bug fixes.",
+        "summary": "Agent Platform Workbench\nChange\n20260830-2330-rc0 Release\nChange\n20260831.01_p0 Release\nChange\nInstalled latest packages from upstream dependencies.\nChange\nInstalled latest packages from upstream dependencies.\nFixed\nThe terminal and file browser are now more responsive when working in a Cloud Storage bucket that is mounted through the file browser. Frequent background checks for non-existent files are now cached instead of repeatedly querying Cloud Storage, which previously could make actions such as listing files or running terminal commands take several seconds.\nFixed\nCloud Storage buckets that you mount through the file browser are now automatically re-mounted after the instance is restarted or is stopped and started. Previously the mounted folder could be left behind as an empty, unusable directory that had to be manually removed and re-mounted.\nChange\nThe obsolete\ngoogle-cloud-sdk transitional package is no longer installed. The Google Cloud\nCLI itself is unchanged; it was already provided by the google-cloud-cli\npackage.\nChange\n20260830-2230-rc0 Release\nChange\n20260830-2230-rc0 Release\nChange\nInstalled latest packages from upstream dependencies.\nChange\nInstalled latest packages from upstream dependencies.\nFixed\nCloud Storage buckets that you mount through the file browser are now automatically re-mounted after the instance is restarted or is stopped and started. Previously the mounted folder could be left behind as an empty, unusable directory that had to be manually…",
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-08-30T07:00:00.000Z",
@@ -252,6 +252,15 @@
       }
     ],
     "kubernetes": [
+      {
+        "title": "Kubernetes v1.37: etcd RangeStream Cuts Memory Use on Large List Reads",
+        "link": "https://kubernetes.io/blog/2026/09/01/kubernetes-v1-37-etcd-range-stream/",
+        "summary": "I am excited to announce that etcd RangeStream is graduating to beta in\nKubernetes v1.37. Paired with etcd v3.7, it reduces the memory the API server and\netcd need to read a large collection, and makes peak usage more predictable.\nThe cost of large reads\nThe API server serves most list and watch requests from its in-memory watch cache.\nPopulating that cache requires reading a resource's full state from etcd, at\nstartup and on every re-initialization. For a resource with many objects, or large\nones, such as Pods, that read is expensive.\nThe API server already paginated these reads, asking etcd for a fixed number of\nkeys at a time rather than the whole collection at once. But a page bounded by key\ncount has no awareness of object size, so a page of large objects can still be\nvery large. That makes memory usage hard to predict, and a bad combination of\nobject size and concurrent reads can be enough to trigger an OOM. etcd's unary\nRange assembles each page in full before sending it, and the API server holds it\nwhile decoding, so the same payload sits in memory on both sides at once. Most of\nthat cost lands on etcd, which is also where streaming helps most.\nStreaming reads with RangeStream\netcd v3.7 adds a streaming version of that read, the RangeStream RPC. It takes\nthe same RangeRequest as Range and returns the same result set, but instead of\nbuilding the whole response up front, etcd splits it into chunks and streams them.\nChunk size is tuned adaptively to the values being…",
+        "image": null,
+        "source": "Kubernetes Blog",
+        "published": "2026-09-01T18:30:00.000Z",
+        "isNew": true
+      },
       {
         "title": "Kubernetes v1.37: Storage Version Migration Enabled by Default",
         "link": "https://kubernetes.io/blog/2026/08/31/kubernetes-v1-37-storage-version-migration-ga/",
@@ -313,15 +322,6 @@
         "image": null,
         "source": "Kubernetes Blog",
         "published": "2026-07-31T16:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "How the controller-runtime Cache Actually Works, and Why Your Controller Does Not Crash the API Server",
-        "link": "https://kubernetes.io/blog/2026/07/29/controller-runtime-cache-explained/",
-        "summary": "This article has been revised since it was first published, to correct several significant technical inaccuracies in the original text.\nKubernetes has long been the default platform for distributed workloads, and writing your own\ncontroller for it is now a matter of a few hours. The common path — Golang, using kubebuilder on top of\ncontroller-runtime — gives you a project scaffold, types, and a reconciler. For typical\nscenarios that is more than enough. But as soon as load grows or the controller starts behaving\nin ways you did not expect, a whole class of edge cases shows up. Most of them trace back to\nthe same root cause: a fuzzy mental model of how controller-runtime works inside. If you\nwrite Kubernetes controllers in Go, this article should help you build a coherent picture and\navoid expensive surprises in production.\nThis article walks through the internals of controller-runtime and, along the way, shows which\narchitectural decisions are baked into Kubernetes itself. The starting point is how\ncontrollers actually read objects from the Kubernetes API.\nA common misconception goes like this: r.Get() inside Reconcile queries kube-apiserver\ndirectly; r.List() returns a fresh, live view of the world; and after r.Update() you can\nre-read the object and immediately see the new state. In practice the model is the opposite:\ncontroller-runtime operates against a local copy of the data populated through list + watch.\nReads inside a reconciler cost almost nothing and do not load…",
-        "image": "https://kubernetes.io/blog/2026/07/29/controller-runtime-cache-explained/pipeline.svg",
-        "source": "Kubernetes Blog",
-        "published": "2026-07-29T18:00:00.000Z",
         "isNew": false
       }
     ],
