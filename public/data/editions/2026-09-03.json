@@ -1,6 +1,6 @@
 {
   "date": "2026-09-03",
-  "generatedAt": "2026-09-03T09:49:26.561Z",
+  "generatedAt": "2026-09-03T15:01:15.561Z",
   "totalArticles": 72,
   "ticker": [
     {
@@ -21,7 +21,7 @@
     },
     {
       "label": "Rust",
-      "version": "1.98.0"
+      "version": "1.98.1"
     },
     {
       "label": "Node.js",
@@ -105,15 +105,6 @@
     ],
     "azure": [
       {
-        "title": "The Economics of Agent Optimization: Context engineering for enterprise AI agents",
-        "link": "https://azure.microsoft.com/en-us/blog/the-economics-of-agent-optimization-context-engineering-for-enterprise-ai-agents/",
-        "summary": "AI cost optimization goes beyond model selection. Discover how context engineering in Microsoft Foundry helps lower AI costs by improving knowledge retrieval, tool selection, memory, and agent performance at scale.\nThe post The Economics of Agent Optimization: Context engineering for enterprise AI agents appeared first on Microsoft Azure Blog.",
-        "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/09/image-2.webp",
-        "source": "Microsoft Azure Blog",
-        "published": "2026-09-02T16:00:00.000Z",
-        "isNew": true
-      },
-      {
         "title": "Introducing Azure Multicloud Interconnect for AWS",
         "link": "https://azure.microsoft.com/en-us/blog/introducing-azure-multicloud-interconnect-for-aws/",
         "summary": "Azure Multicloud Interconnect helps simplify private connectivity between Microsoft Azure and AWS, enabling organizations to support multicloud and AI workloads with a more streamlined, cloud-native networking experience. Built on open interoperability standards, it helps reduce operational complexity while providing high-performance connectivity across cloud environments.\nThe post Introducing Azure Multicloud Interconnect for AWS appeared first on Microsoft Azure Blog.",
@@ -175,9 +166,27 @@
         "source": "Microsoft Azure Blog",
         "published": "2026-08-12T16:00:00.000Z",
         "isNew": false
+      },
+      {
+        "title": "Microsoft named a Leader in the 2026 Gartner® Magic Quadrant™ for AI-Augmented Code Modernization Tools",
+        "link": "https://azure.microsoft.com/en-us/blog/microsoft-named-a-leader-in-the-2026-gartner-magic-quadrant-for-ai-augmented-code-modernization-tools/",
+        "summary": "GitHub Copilot and Azure are helping organizations modernize legacy applications, reduce technical debt, and prepare for AI innovation.\nThe post Microsoft named a Leader in the 2026 Gartner® Magic Quadrant™ for AI-Augmented Code Modernization Tools appeared first on Microsoft Azure Blog.",
+        "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/08/MQ-AppMod-Blog-Thumbnail-1-1-1024x576.webp",
+        "source": "Microsoft Azure Blog",
+        "published": "2026-08-06T15:00:00.000Z",
+        "isNew": false
       }
     ],
     "gcp": [
+      {
+        "title": "September 03, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#September_03_2026",
+        "summary": "VPC Service Controls\nFeature\nVPC Service Controls feature (Status:\nPreview):\nVPC Service Controls supports retrieving and updating service perimeters that\ncontain deleted IAM principals. When you enable this feature, you can manage\nperimeters that contain deleted user, group, or service account identities\nwithout triggering the The email address is invalid or non-existent error.\nFor more information, see Supported identities for ingress and egress\nrules.",
+        "image": null,
+        "source": "Google Cloud Platform (GCP) - Release notes",
+        "published": "2026-09-03T07:00:00.000Z",
+        "isNew": false
+      },
       {
         "title": "September 02, 2026",
         "link": "https://docs.cloud.google.com/release-notes#September_02_2026",
@@ -240,15 +249,6 @@
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-08-27T07:00:00.000Z",
         "isNew": false
-      },
-      {
-        "title": "August 26, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#August_26_2026",
-        "summary": "Apigee hybrid\nAnnouncement\nv1.14.8\nOn August 26, 2026 we released an updated version of the Apigee hybrid software, v1.14.8.\nFor information on upgrading, see Upgrading Apigee hybrid to version v1.14.8.\nFor information on new installations, see The big picture.\nNote: This is a patch release: The container images used in patch releases are integrated with the Apigee hybrid Helm charts. Upgrading to a patch via the Helm chart automatically updates the images. No manual image changes are typically needed. For information on container image support in Apigee hybrid releases, see Apigee release process.\nSecurity\nBug ID\nDescription\n\n\n\n\nN/A\nSecurity fixes for apigee-asm-ingress. \nThis addresses the following vulnerabilities: \nCVE-2026-39822 \nCVE-2026-42505 \n\n\n\nN/A\nSecurity fixes for apigee-asm-istiod. \nThis addresses the following vulnerabilities: \nCVE-2026-39822 \nCVE-2026-42505 \n\n\n\nN/A\nSecurity fixes for apigee-connect-agent. \nThis addresses the following vulnerabilities: \nCVE-2026-33818 \nCVE-2026-39821 \nCVE-2026-46600 \nCVE-2026-56853 \nCVE-2026-56858 \nCVE-2026-56859 \nCVE-2026-56860 \nCVE-2026-56862 \nCVE-2026-56864 \nCVE-2026-56865 \nGHSA-hrxh-6v49-42gf \n\n\n\nN/A\nSecurity fixes for apigee-fluent-bit. \nThis addresses the following vulnerabilities: \nCVE-2025-13151 \nCVE-2025-14524 \nCVE-2025-14819 \nCVE-2026-14662 \nCVE-2026-14663 \nCVE-2026-14664 \nCVE-2026-14666 \nCVE-2026-14668 \nCVE-2026-14669 \nCVE-2026-14670 \nCVE-2026-14671 \nCVE-2026-14672 \nCVE-2026-14673 \nCVE-2026-14677 \nCVE-2026-14678…",
-        "image": null,
-        "source": "Google Cloud Platform (GCP) - Release notes",
-        "published": "2026-08-26T07:00:00.000Z",
-        "isNew": false
       }
     ],
     "kubernetes": [
@@ -259,7 +259,7 @@
         "image": null,
         "source": "Kubernetes Blog",
         "published": "2026-09-02T18:30:00.000Z",
-        "isNew": true
+        "isNew": false
       },
       {
         "title": "Kubernetes v1.37: etcd RangeStream Cuts Memory Use on Large List Reads",
@@ -549,6 +549,15 @@
     ],
     "rust": [
       {
+        "title": "Announcing Rust 1.98.1",
+        "link": "https://blog.rust-lang.org/2026/09/03/Rust-1.98.1/",
+        "summary": "The Rust team has published a new point release of Rust, 1.98.1. Rust is a programming language that is empowering everyone to build reliable and efficient software.\nIf you have a previous version of Rust installed via rustup, getting Rust 1.98.1 is as easy as:\nrustup update stable\nIf you don't have it already, you can get rustup from the appropriate page on our website.\n\nWhat's in 1.98.1\nRust 1.98.1 fixes a miscompilation in vtable generation.\nIn Rust 1.98.0, in some circumstances, rustc would incorrectly generate a trait object vtable with a null pointer\nwhere a function pointer should be. This leads to undefined behavior in the\nemitted code. In some cases this may 'just' cause segfaults due to the null\npointer being loaded, but it is possible for it to be justification for\narbitrary effects (as is typical for UB).\nIf you'd like to help us out by testing future releases, you might consider\nusing the beta (rustup default beta) and nightly (rustup default nightly) channels locally and in your CI. Please\nreport any bugs you\nmight come across!\n\nContributors to 1.98.1\nMany people came together to create Rust 1.98.1. We couldn't have done it without all of you. Thanks!",
+        "image": null,
+        "source": "Rust Blog",
+        "published": "2026-09-03T00:00:00.000Z",
+        "isNew": false
+      },
+      {
         "title": "Announcing rustup 1.29.1",
         "link": "https://blog.rust-lang.org/2026/09/01/Rustup-1.29.1/",
         "summary": "The rustup team is happy to announce the release of rustup version 1.29.1.\nRustup is the recommended tool to install Rust, a\nprogramming language that empowers everyone to build reliable and efficient\nsoftware.\n\nWhat's new in rustup 1.29.1\nThe headlines of this release are:\nConcurrency in certain rustup operations has been improved:\nWhen running rustup update, rustup will first check for possible updates in parallel. pr#4752\nWhen running rustup component add with multiple components, they will be installed concurrently. pr#4790\nImplicit installation of the active toolchain in rustup-init and rustup invocations has\nbeen deprecated where deemed unnecessary and will now produce a warning. pr#4840\nPlease see our\nblog post\nfor more details regarding this change.\nrustup doc now supports the --serve flag which allows serving the docs over local HTTP.\nThis should help users with containerized browser and/or rustup setups. pr#4986\nInstalling i686-pc-windows-* host toolchains on 64-bit Windows now requires --force-non-host.\npr#4935\nrustup-init will no longer leave unexpected files on disk after cancelled installations. pr#4996\nA bug has been fixed which might cause Windows installation to fail when using rustup-init.sh.\npr#4756\n\"Target triple\" has been renamed to \"target tuple\" across the project to reflect the\nnew terminology.\npr#4743 pr#4827 pr#4834\nPlease note that this is not a breaking change in the CLI since the existing\noptions such as --target are not using this terminology.…",
@@ -609,15 +618,6 @@
         "image": null,
         "source": "Rust Blog",
         "published": "2026-07-16T00:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "crates.io: development update",
-        "link": "https://blog.rust-lang.org/2026/07/13/crates-io-development-update/",
-        "summary": "Another six months have passed since our last development update, and the crates.io team has been busy. Here's a summary of the most notable changes and improvements made to crates.io since then.\n\nSource Code Viewer\nCrate pages now have a \"Code\" tab that lets you browse the contents of published crate versions directly on crates.io. This shows you the exact files that cargo downloads when you add a crate as a dependency, which might differ from the linked repository. This makes it much easier to audit your dependencies, including files that never appear in the repository, like the normalized Cargo.toml files that cargo generates.\n\nThe viewer comes with a file tree sidebar with search functionality, syntax highlighting, and GitHub-style line selection, where clicking or dragging line numbers produces shareable #L10-L20 URLs.\nUnder the hood, the server now builds a zip file for every published version. Since the .crate files that cargo consumes are gzipped tarballs without random access support, a background job re-packs each of them into a seekable zip archive plus a JSON manifest describing the contained files. Both are served from our static CDN. The frontend then fetches only the manifest and loads each file on demand with an HTTP range request. Because of this architecture, browsing crate sources essentially adds no load on the crates.io API servers. Existing crate versions have been backfilled, so this works for old releases too.\nThe rendering library behind the code…",
-        "image": "https://blog.rust-lang.org/2026/07/13/crates-io-development-update/code-tab.png",
-        "source": "Rust Blog",
-        "published": "2026-07-13T00:00:00.000Z",
         "isNew": false
       }
     ],
