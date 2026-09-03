@@ -1,6 +1,6 @@
 {
-  "date": "2026-09-02",
-  "generatedAt": "2026-09-02T19:47:26.051Z",
+  "date": "2026-09-03",
+  "generatedAt": "2026-09-03T09:49:26.561Z",
   "totalArticles": 72,
   "ticker": [
     {
@@ -105,6 +105,15 @@
     ],
     "azure": [
       {
+        "title": "The Economics of Agent Optimization: Context engineering for enterprise AI agents",
+        "link": "https://azure.microsoft.com/en-us/blog/the-economics-of-agent-optimization-context-engineering-for-enterprise-ai-agents/",
+        "summary": "AI cost optimization goes beyond model selection. Discover how context engineering in Microsoft Foundry helps lower AI costs by improving knowledge retrieval, tool selection, memory, and agent performance at scale.\nThe post The Economics of Agent Optimization: Context engineering for enterprise AI agents appeared first on Microsoft Azure Blog.",
+        "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/09/image-2.webp",
+        "source": "Microsoft Azure Blog",
+        "published": "2026-09-02T16:00:00.000Z",
+        "isNew": true
+      },
+      {
         "title": "Introducing Azure Multicloud Interconnect for AWS",
         "link": "https://azure.microsoft.com/en-us/blog/introducing-azure-multicloud-interconnect-for-aws/",
         "summary": "Azure Multicloud Interconnect helps simplify private connectivity between Microsoft Azure and AWS, enabling organizations to support multicloud and AI workloads with a more streamlined, cloud-native networking experience. Built on open interoperability standards, it helps reduce operational complexity while providing high-performance connectivity across cloud environments.\nThe post Introducing Azure Multicloud Interconnect for AWS appeared first on Microsoft Azure Blog.",
@@ -166,22 +175,13 @@
         "source": "Microsoft Azure Blog",
         "published": "2026-08-12T16:00:00.000Z",
         "isNew": false
-      },
-      {
-        "title": "Microsoft named a Leader in the 2026 Gartner® Magic Quadrant™ for AI-Augmented Code Modernization Tools",
-        "link": "https://azure.microsoft.com/en-us/blog/microsoft-named-a-leader-in-the-2026-gartner-magic-quadrant-for-ai-augmented-code-modernization-tools/",
-        "summary": "GitHub Copilot and Azure are helping organizations modernize legacy applications, reduce technical debt, and prepare for AI innovation.\nThe post Microsoft named a Leader in the 2026 Gartner® Magic Quadrant™ for AI-Augmented Code Modernization Tools appeared first on Microsoft Azure Blog.",
-        "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/08/MQ-AppMod-Blog-Thumbnail-1-1-1024x576.webp",
-        "source": "Microsoft Azure Blog",
-        "published": "2026-08-06T15:00:00.000Z",
-        "isNew": false
       }
     ],
     "gcp": [
       {
         "title": "September 02, 2026",
         "link": "https://docs.cloud.google.com/release-notes#September_02_2026",
-        "summary": "Spanner\nFeature\nSpanner supports using the TABLESAMPLE operator in PostgreSQL-dialect\ndatabases to select a random sample of a dataset.\nFor more information, see\nTABLESAMPLE operator.",
+        "summary": "AlloyDB for PostgreSQL\nFeature\nAlloyDB real-time data access to BigQuery (in Preview) now offers limit pushdown and runtime projects:\nLimit pushdown: when you query foreign tables, some LIMIT and OFFSET clauses are automatically pushed down to BigQuery, reducing network transfer and improving query response times. For more information, see Access to real-time data in BigQuery overview.\nRuntime projects: you can specify an optional runtime project at either the foreign server or foreign table level to execute queries and manage compute costs independently of the project that stores your data. For more information, see Configure access to real-time data in BigQuery.\nConsider using least-privilege security controls to restrict foreign server usage.\nFor more information, see Secure BigQuery data access using the foreign data wrapper.\nBigQuery\nChange\nAn updated version of the\nSimba JDBC driver for BigQuery\nis now available.\nCloud SQL for MySQL\nFeature\nCloud SQL supports Workforce Identity Federation authentication. This lets you\nauthenticate to your Cloud SQL instance using identities from an external\nidentity provider such as Microsoft Active Directory or Okta. For more\ninformation, see Workforce Identity Federation\nauthentication.\nCloud SQL for PostgreSQL\nFeature\nCloud SQL supports Workforce Identity Federation authentication. This lets you\nauthenticate to your Cloud SQL instance using identities from an external\nidentity provider such as Microsoft Active Directory or Okta. For…",
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-09-02T07:00:00.000Z",
@@ -253,6 +253,15 @@
     ],
     "kubernetes": [
       {
+        "title": "Kubernetes v1.37: Scale Workloads to Zero with HorizontalPodAutoscaler",
+        "link": "https://kubernetes.io/blog/2026/09/02/kubernetes-v1-37-hpa-scale-to-zero-beta/",
+        "summary": "Kubernetes v1.37 includes API support for horizontal autoscaling of workloads down\nto zero replicas. This feature is now Beta and enabled by default. A\nHorizontalPodAutoscaler\n(HPA) that uses a suitable object metric or external metric can now scale a\nworkload to zero replicas, then bring it back when the metric changes.\nBefore v1.37, you needed an add-on or external component, or you had to enable the\nAlpha feature gate, to scale from zero. It is now part of core Kubernetes.\nScaling to zero removes the last idle Pod from workloads such as queue consumers and\nbatch processors. The savings are largest when each Pod reserves expensive resources,\nincluding dedicated CPUs or GPUs.\nThe trade-off is cold-start time: the HPA must observe the metric, schedule a Pod, and\nstart the application. This works well when work can wait in a durable queue.\nKubernetes Services do not buffer requests while no Pods are ready, so HTTP and other\nrequest-driven workloads need a separate buffering layer.\nWhy scaling from zero needs a different metric\nThe HPA commonly scales on CPU or memory usage. Both metrics come from running Pods.\nOnce the replica count reaches zero, there are no Pods left to measure and no signal\nthat can tell the HPA to scale back up.\nObject and external metrics do not have that limitation. A queue length, for example,\nexists independently of the workers that consume it. The HPA can continue reading the\nqueue length while no workers are running.\nThe following example scales a…",
+        "image": null,
+        "source": "Kubernetes Blog",
+        "published": "2026-09-02T18:30:00.000Z",
+        "isNew": true
+      },
+      {
         "title": "Kubernetes v1.37: etcd RangeStream Cuts Memory Use on Large List Reads",
         "link": "https://kubernetes.io/blog/2026/09/01/kubernetes-v1-37-etcd-range-stream/",
         "summary": "I am excited to announce that etcd RangeStream is graduating to beta in\nKubernetes v1.37. Paired with etcd v3.7, it reduces the memory the API server and\netcd need to read a large collection, and makes peak usage more predictable.\nThe cost of large reads\nThe API server serves most list and watch requests from its in-memory watch cache.\nPopulating that cache requires reading a resource's full state from etcd, at\nstartup and on every re-initialization. For a resource with many objects, or large\nones, such as Pods, that read is expensive.\nThe API server already paginated these reads, asking etcd for a fixed number of\nkeys at a time rather than the whole collection at once. But a page bounded by key\ncount has no awareness of object size, so a page of large objects can still be\nvery large. That makes memory usage hard to predict, and a bad combination of\nobject size and concurrent reads can be enough to trigger an OOM. etcd's unary\nRange assembles each page in full before sending it, and the API server holds it\nwhile decoding, so the same payload sits in memory on both sides at once. Most of\nthat cost lands on etcd, which is also where streaming helps most.\nStreaming reads with RangeStream\netcd v3.7 adds a streaming version of that read, the RangeStream RPC. It takes\nthe same RangeRequest as Range and returns the same result set, but instead of\nbuilding the whole response up front, etcd splits it into chunks and streams them.\nChunk size is tuned adaptively to the values being…",
@@ -313,15 +322,6 @@
         "image": "https://kubernetes.io/blog/2026/08/03/gateway-api-v1-6-release/gateway-api-logo.svg",
         "source": "Kubernetes Blog",
         "published": "2026-08-03T16:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "Kubernetes v1.37 Sneak Peek",
-        "link": "https://kubernetes.io/blog/2026/07/31/kubernetes-v1-37-sneak-peek/",
-        "summary": "As we get closer to the release date for Kubernetes v1.37, the project develops and matures,\nfeatures may be deprecated, removed, or replaced with better ones for the project's overall\nhealth. This blog outlines some of the planned changes for the Kubernetes v1.37 release that the\nrelease team feels you should be aware of for the continued maintenance of your Kubernetes\nenvironment and keeping up to date with the latest changes. The information below reflects the\ncurrent status of the v1.37 release and may change before the actual release date.\nDeprecations and removals for Kubernetes v1.37\nKubectl: kubectl run --filename/-f to be deprecated\nThe --filename (or -f) flag for kubectl run is being deprecated as the generated pod is always built purely from CLI arguments like NAME and --image.\nSee kubernetes/kubernetes#138671 for the original issue and discussion.\nKubelet: Static Pods can no longer reference Secrets or ConfigMaps\nStatic Pods were never meant to read API resources directly, since they aren't created through the API server — but a bug let them reference Secrets or ConfigMaps via fields like configMapRef or secretRef. That bug is now fixed: as of v1.37 these references are strictly prohibited, and the PreventStaticPodAPIReferences feature gate that previously let you opt out of the restriction has been removed.\nSee kubernetes/kubernetes#140226 for the original issue and discussion.\nDeprecating kube-proxy's support for ipvs mode\nkube-proxy support for ipvs mode was…",
-        "image": null,
-        "source": "Kubernetes Blog",
-        "published": "2026-07-31T16:00:00.000Z",
         "isNew": false
       }
     ],
