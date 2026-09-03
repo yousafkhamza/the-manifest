@@ -1,6 +1,6 @@
 {
   "date": "2026-09-03",
-  "generatedAt": "2026-09-03T15:01:15.561Z",
+  "generatedAt": "2026-09-03T19:50:23.392Z",
   "totalArticles": 72,
   "ticker": [
     {
@@ -181,7 +181,7 @@
       {
         "title": "September 03, 2026",
         "link": "https://docs.cloud.google.com/release-notes#September_03_2026",
-        "summary": "VPC Service Controls\nFeature\nVPC Service Controls feature (Status:\nPreview):\nVPC Service Controls supports retrieving and updating service perimeters that\ncontain deleted IAM principals. When you enable this feature, you can manage\nperimeters that contain deleted user, group, or service account identities\nwithout triggering the The email address is invalid or non-existent error.\nFor more information, see Supported identities for ingress and egress\nrules.",
+        "summary": "Google Kubernetes Engine\nFeature\nGKE support for using the c3-standard-*-lssd machine types as Confidential\nGKE Nodes with Intel TDX is generally available. For more information, see the\nfollowing:\nTo use this feature with GKE, see Encrypt workload data in-use with\nConfidential GKE\nNodes.\nTo learn more about the feature from Compute Engine, see Confidential VM\noverview.\nTo see supported configurations, including machine support, see\nSupported configurations\n and its \"Machine types, CPUs, and zones\" section.\nVPC Service Controls\nFeature\nVPC Service Controls feature (Status:\nPreview):\nVPC Service Controls supports retrieving and updating service perimeters that\ncontain deleted IAM principals. When you enable this feature, you can manage\nperimeters that contain deleted user, group, or service account identities\nwithout triggering the The email address is invalid or non-existent error.\nFor more information, see Supported identities for ingress and egress\nrules.",
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-09-03T07:00:00.000Z",
@@ -253,6 +253,15 @@
     ],
     "kubernetes": [
       {
+        "title": "Kubernetes v1.37: DRA Updates",
+        "link": "https://kubernetes.io/blog/2026/09/03/kubernetes-v1-37-dra-updates/",
+        "summary": "Kubernetes 1.37 is here and Dynamic Resource Allocation (DRA) keeps pushing past where it started! This release brings DRA Extended Resource support to GA, a milestone the team has been building toward for three straight releases. Several more features graduate to Beta or GA. A fresh batch of alpha features rounds out the release.\nI'll dive into what's new for DRA in Kubernetes 1.37!\nWhat's stable in 1.37\nDRA Extended Resource support has graduated to GA. This is the mechanism that lets DRA drivers satisfy requests made through the traditional extended resource API, think example.com/gpu in a Pod spec, without requiring a separate device plugin alongside the DRA driver. An extended resource name can be set directly on a DeviceClass, and Pods requesting it get matched to a device through DRA with no ResourceClaim needed on the workload's part.\nIt's been on a steady path since KEP acceptance in 1.34. Alpha landed in 1.35, Beta in 1.36, and now it's Stable. For cluster operators, this is what makes DRA adoption gradual. Existing workloads written against extended resources keep working unmodified while the backend allocation logic moves over to DRA.\nResourceClaims status with possible standardized network interface data adds a devices field to ResourceClaim .status, letting DRA drivers report per-device status, including, for network devices, the interface name, MAC address, and IP addresses. This gives users and controllers visibility into device state that was previously…",
+        "image": null,
+        "source": "Kubernetes Blog",
+        "published": "2026-09-03T18:30:00.000Z",
+        "isNew": false
+      },
+      {
         "title": "Kubernetes v1.37: Scale Workloads to Zero with HorizontalPodAutoscaler",
         "link": "https://kubernetes.io/blog/2026/09/02/kubernetes-v1-37-hpa-scale-to-zero-beta/",
         "summary": "Kubernetes v1.37 includes API support for horizontal autoscaling of workloads down\nto zero replicas. This feature is now Beta and enabled by default. A\nHorizontalPodAutoscaler\n(HPA) that uses a suitable object metric or external metric can now scale a\nworkload to zero replicas, then bring it back when the metric changes.\nBefore v1.37, you needed an add-on or external component, or you had to enable the\nAlpha feature gate, to scale from zero. It is now part of core Kubernetes.\nScaling to zero removes the last idle Pod from workloads such as queue consumers and\nbatch processors. The savings are largest when each Pod reserves expensive resources,\nincluding dedicated CPUs or GPUs.\nThe trade-off is cold-start time: the HPA must observe the metric, schedule a Pod, and\nstart the application. This works well when work can wait in a durable queue.\nKubernetes Services do not buffer requests while no Pods are ready, so HTTP and other\nrequest-driven workloads need a separate buffering layer.\nWhy scaling from zero needs a different metric\nThe HPA commonly scales on CPU or memory usage. Both metrics come from running Pods.\nOnce the replica count reaches zero, there are no Pods left to measure and no signal\nthat can tell the HPA to scale back up.\nObject and external metrics do not have that limitation. A queue length, for example,\nexists independently of the workers that consume it. The HPA can continue reading the\nqueue length while no workers are running.\nThe following example scales a…",
@@ -313,15 +322,6 @@
         "image": null,
         "source": "Kubernetes Blog",
         "published": "2026-08-11T18:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "Gateway API v1.6: TCPRoute and UDPRoute Graduate to Standard",
-        "link": "https://kubernetes.io/blog/2026/08/03/gateway-api-v1-6-release/",
-        "summary": "The Kubernetes SIG Network community is thrilled to share the release of Gateway API v1.6.0, which was released on June 30th of this year!\nGateway API has become the standard for modern, role-oriented,\nand expressive service networking in Kubernetes.\nIn previous releases, Gateway API established a production-grade foundation\nfor HTTP and TLS layer 7 traffic.\nWith version 1.6.0, Gateway API takes a major step forward by expanding\nstandard layer 4 protocol routing and introducing cleaner API boundaries for experimental innovation.\nHere is a quick summary of what's new in Gateway API v1.6.0:\nTCPRoute and UDPRoute Graduate to Standard: Raw L4 TCP and UDP traffic routing reach GA stability in the v1 API version.\nExperimental API Group Separation: Experimental resources transition to a distinct API group (gateway.networking.x-k8s.io) with an X prefix to make experimental vs. standard boundaries crystal clear.\nLet's dive into the details!\nTCPRoute and UDPRoute graduate to Standard\nLeads: Nick Young, Ricardo Katz and Zac Nixon\nGEP-2644 - TCPRoute\nGEP-2645 - UDPRoute\nUntil now, Gateway API only offered a stable routing model for HTTP and TLS traffic.\nWorkloads that speak a raw protocol over TCP or UDP - databases,\nDNS, VoIP, gaming, IoT telemetry - had no portable way to plug\ninto a Gateway. Users either fell back to a plain Kubernetes Service,\nor to an implementation-specific CRD that doesn't travel between Gateway controllers.\nTCPRoute and UDPRoute close that gap: they route…",
-        "image": "https://kubernetes.io/blog/2026/08/03/gateway-api-v1-6-release/gateway-api-logo.svg",
-        "source": "Kubernetes Blog",
-        "published": "2026-08-03T16:00:00.000Z",
         "isNew": false
       }
     ],
