@@ -1,6 +1,6 @@
 {
-  "date": "2026-09-03",
-  "generatedAt": "2026-09-03T19:50:23.392Z",
+  "date": "2026-09-04",
+  "generatedAt": "2026-09-04T09:46:07.972Z",
   "totalArticles": 72,
   "ticker": [
     {
@@ -105,6 +105,15 @@
     ],
     "azure": [
       {
+        "title": "The Economics of Agent Optimization: Context engineering for enterprise AI agents",
+        "link": "https://azure.microsoft.com/en-us/blog/the-economics-of-agent-optimization-context-engineering-for-enterprise-ai-agents/",
+        "summary": "AI cost optimization goes beyond model selection. Discover how context engineering in Microsoft Foundry helps lower AI costs by improving knowledge retrieval, tool selection, memory, and agent performance at scale.\nThe post The Economics of Agent Optimization: Context engineering for enterprise AI agents appeared first on Microsoft Azure Blog.",
+        "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/09/image-2.webp",
+        "source": "Microsoft Azure Blog",
+        "published": "2026-09-02T16:00:00.000Z",
+        "isNew": true
+      },
+      {
         "title": "Introducing Azure Multicloud Interconnect for AWS",
         "link": "https://azure.microsoft.com/en-us/blog/introducing-azure-multicloud-interconnect-for-aws/",
         "summary": "Azure Multicloud Interconnect helps simplify private connectivity between Microsoft Azure and AWS, enabling organizations to support multicloud and AI workloads with a more streamlined, cloud-native networking experience. Built on open interoperability standards, it helps reduce operational complexity while providing high-performance connectivity across cloud environments.\nThe post Introducing Azure Multicloud Interconnect for AWS appeared first on Microsoft Azure Blog.",
@@ -166,22 +175,13 @@
         "source": "Microsoft Azure Blog",
         "published": "2026-08-12T16:00:00.000Z",
         "isNew": false
-      },
-      {
-        "title": "Microsoft named a Leader in the 2026 Gartner® Magic Quadrant™ for AI-Augmented Code Modernization Tools",
-        "link": "https://azure.microsoft.com/en-us/blog/microsoft-named-a-leader-in-the-2026-gartner-magic-quadrant-for-ai-augmented-code-modernization-tools/",
-        "summary": "GitHub Copilot and Azure are helping organizations modernize legacy applications, reduce technical debt, and prepare for AI innovation.\nThe post Microsoft named a Leader in the 2026 Gartner® Magic Quadrant™ for AI-Augmented Code Modernization Tools appeared first on Microsoft Azure Blog.",
-        "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/08/MQ-AppMod-Blog-Thumbnail-1-1-1024x576.webp",
-        "source": "Microsoft Azure Blog",
-        "published": "2026-08-06T15:00:00.000Z",
-        "isNew": false
       }
     ],
     "gcp": [
       {
         "title": "September 03, 2026",
         "link": "https://docs.cloud.google.com/release-notes#September_03_2026",
-        "summary": "Google Kubernetes Engine\nFeature\nGKE support for using the c3-standard-*-lssd machine types as Confidential\nGKE Nodes with Intel TDX is generally available. For more information, see the\nfollowing:\nTo use this feature with GKE, see Encrypt workload data in-use with\nConfidential GKE\nNodes.\nTo learn more about the feature from Compute Engine, see Confidential VM\noverview.\nTo see supported configurations, including machine support, see\nSupported configurations\n and its \"Machine types, CPUs, and zones\" section.\nVPC Service Controls\nFeature\nVPC Service Controls feature (Status:\nPreview):\nVPC Service Controls supports retrieving and updating service perimeters that\ncontain deleted IAM principals. When you enable this feature, you can manage\nperimeters that contain deleted user, group, or service account identities\nwithout triggering the The email address is invalid or non-existent error.\nFor more information, see Supported identities for ingress and egress\nrules.",
+        "summary": "API Gateway\nChange\nNew model routing gateways might use a gateway.dev default hostname\nIf you create a gateway that uses model routing on or after September 3, 2026, it\nmight receive a gateway.dev default hostname instead of a run.app one, in the\nform https://GATEWAY_ID-PROJECT_NUMBER.REGION.gateway.dev — for example, https://my-gateway-123456789012.us-central1.gateway.dev. This is a second gateway.dev format; other gateways keep the existing one.\nTo get a gateway's URL, read its defaultHostname property.\nFor more information, see Deploy an API to a gateway.\nBigQuery\nFeature\nConversational analytics now supports questions about\nmarket basket analysis.\nThis feature is\ngenerally available\n(GA).\nGemini Enterprise\nFeature\nGemini Enterprise: Latency and error rate views for agents\nTo monitor operational telemetry for your agents, use the two new views on the\nObservability tab:\nLatency: Shows response times for your agents. This view displays p50\n(median) and p95 (95th percentile) metrics for Time to First Token (TTFT),\nTime to First Answer (TTFA), and Time to Last Token (TTLT). TTFT counts the\nfirst token of any kind, including the model's thinking, while TTFA counts\nonly the first token of the answer itself. You can also compare latencies by\nspecific agent features, such as web search, media generation, or parametric\ninteractions.\nError rate: Shows how your agent's requests resolve by tracking request\nvolume and error rates. This view groups results by response class (OK, client…",
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-09-03T07:00:00.000Z",
