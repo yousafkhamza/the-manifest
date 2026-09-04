@@ -1,6 +1,6 @@
 {
   "date": "2026-09-04",
-  "generatedAt": "2026-09-04T14:59:16.678Z",
+  "generatedAt": "2026-09-04T19:35:16.924Z",
   "totalArticles": 72,
   "ticker": [
     {
@@ -105,6 +105,15 @@
     ],
     "azure": [
       {
+        "title": "The Economics of Agent Optimization: Context engineering for enterprise AI agents",
+        "link": "https://azure.microsoft.com/en-us/blog/the-economics-of-agent-optimization-context-engineering-for-enterprise-ai-agents/",
+        "summary": "AI cost optimization goes beyond model selection. Discover how context engineering in Microsoft Foundry helps lower AI costs by improving knowledge retrieval, tool selection, memory, and agent performance at scale.\nThe post The Economics of Agent Optimization: Context engineering for enterprise AI agents appeared first on Microsoft Azure Blog.",
+        "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/09/image-2.webp",
+        "source": "Microsoft Azure Blog",
+        "published": "2026-09-02T16:00:00.000Z",
+        "isNew": false
+      },
+      {
         "title": "Introducing Azure Multicloud Interconnect for AWS",
         "link": "https://azure.microsoft.com/en-us/blog/introducing-azure-multicloud-interconnect-for-aws/",
         "summary": "Azure Multicloud Interconnect helps simplify private connectivity between Microsoft Azure and AWS, enabling organizations to support multicloud and AI workloads with a more streamlined, cloud-native networking experience. Built on open interoperability standards, it helps reduce operational complexity while providing high-performance connectivity across cloud environments.\nThe post Introducing Azure Multicloud Interconnect for AWS appeared first on Microsoft Azure Blog.",
@@ -166,22 +175,22 @@
         "source": "Microsoft Azure Blog",
         "published": "2026-08-12T16:00:00.000Z",
         "isNew": false
-      },
-      {
-        "title": "Microsoft named a Leader in the 2026 Gartner® Magic Quadrant™ for AI-Augmented Code Modernization Tools",
-        "link": "https://azure.microsoft.com/en-us/blog/microsoft-named-a-leader-in-the-2026-gartner-magic-quadrant-for-ai-augmented-code-modernization-tools/",
-        "summary": "GitHub Copilot and Azure are helping organizations modernize legacy applications, reduce technical debt, and prepare for AI innovation.\nThe post Microsoft named a Leader in the 2026 Gartner® Magic Quadrant™ for AI-Augmented Code Modernization Tools appeared first on Microsoft Azure Blog.",
-        "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/08/MQ-AppMod-Blog-Thumbnail-1-1-1024x576.webp",
-        "source": "Microsoft Azure Blog",
-        "published": "2026-08-06T15:00:00.000Z",
-        "isNew": false
       }
     ],
     "gcp": [
       {
+        "title": "September 04, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#September_04_2026",
+        "summary": "Cloud SQL for SQL Server\nFeature\nCloud SQL for SQL Server now supports connecting to instances\nwith write endpoints using the Cloud SQL Auth Proxy or Cloud SQL language\nconnectors. When you configure the proxy or a language connector with a\nwrite endpoint DNS name, connections are redirected automatically to the new\nprimary instance during replica failover or switchover.\nFor more information, see\nConnect to an instance using a write endpoint.\nGemini\nAnnouncement\nNew subscriptions for Gemini Code Assist can no longer be purchased through the\nGoogle Cloud console using billing accounts that don't have an active\nGemini Code Assist subscription. Billing accounts that currently have an active\nGemini Code Assist subscription are unaffected.\nFor billing accounts that don't have an active Gemini Code Assist\nsubscription, you can obtain a new Gemini Code Assist subscription by\ncontacting Google Cloud sales.\nFor alternative AI developer tools, use Antigravity, which is available through\neligible Gemini Enterprise subscriptions\nand through Gemini Enterprise Agent Platform.\nAnnouncement\nNew subscriptions for Gemini Code Assist can no longer be purchased through the\nGoogle Cloud console using billing accounts that don't have an active\nGemini Code Assist subscription. Billing accounts that currently have an active\nGemini Code Assist subscription are unaffected.\nFor billing accounts that don't have an active Gemini Code Assist\nsubscription, you can obtain a new Gemini Code Assist…",
+        "image": null,
+        "source": "Google Cloud Platform (GCP) - Release notes",
+        "published": "2026-09-04T07:00:00.000Z",
+        "isNew": false
+      },
+      {
         "title": "September 03, 2026",
         "link": "https://docs.cloud.google.com/release-notes#September_03_2026",
-        "summary": "API Gateway\nChange\nNew model routing gateways might use a gateway.dev default hostname\nIf you create a gateway that uses model routing on or after September 3, 2026, it\nmight receive a gateway.dev default hostname instead of a run.app one, in the\nform https://GATEWAY_ID-PROJECT_NUMBER.REGION.gateway.dev — for example, https://my-gateway-123456789012.us-central1.gateway.dev. This is a second gateway.dev format; other gateways keep the existing one.\nTo get a gateway's URL, read its defaultHostname property.\nFor more information, see Deploy an API to a gateway.\nBigQuery\nFeature\nConversational analytics now supports questions about\nmarket basket analysis.\nThis feature is\ngenerally available\n(GA).\nGemini Enterprise\nFeature\nGemini Enterprise: Latency and error rate views for agents\nTo monitor operational telemetry for your agents, use the two new views on the\nObservability tab:\nLatency: Shows response times for your agents. This view displays p50\n(median) and p95 (95th percentile) metrics for Time to First Token (TTFT),\nTime to First Answer (TTFA), and Time to Last Token (TTLT). TTFT counts the\nfirst token of any kind, including the model's thinking, while TTFA counts\nonly the first token of the answer itself. You can also compare latencies by\nspecific agent features, such as web search, media generation, or parametric\ninteractions.\nError rate: Shows how your agent's requests resolve by tracking request\nvolume and error rates. This view groups results by response class (OK, client…",
+        "summary": "API Gateway\nChange\nNew model routing gateways might use a gateway.dev default hostname\nIf you create a gateway that uses model routing on or after September 3, 2026, it\nmight receive a gateway.dev default hostname instead of a run.app one, in the\nform https://GATEWAY_ID-PROJECT_NUMBER.REGION.gateway.dev — for example, https://my-gateway-123456789012.us-central1.gateway.dev. This is a second gateway.dev format; other gateways keep the existing one.\nTo get a gateway's URL, read its defaultHostname property.\nFor more information, see Deploy an API to a gateway.\nBigQuery\nFeature\nConversational analytics now supports questions about\nmarket basket analysis.\nThis feature is\ngenerally available\n(GA).\nCloud Storage\nFeature\nYou can use Storage batch operations to do the following:\nSelect objects dynamically across a project by using Common Expression\nLanguage (CEL) filters\nbased on metadata in your Storage Insights datasets,\nwithout manual CSV manifests or BigQuery export queries.\nTarget objects across up to 1,000 buckets in a single batch job.\nTransition objects in bulk to different storage classes.\nPatch object access control lists (ACLs) in bulk to update or remove\npermissions.\nUse dry run to validate job configurations across multiple buckets, and\ncreate jobs directly from a dry run to process the same validated\nobjects.\nFor more information, see Storage batch operations overview\nand Create and manage batch operations jobs.\nGemini Enterprise\nFeature\nGemini Enterprise: Latency and…",
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-09-03T07:00:00.000Z",
@@ -190,7 +199,7 @@
       {
         "title": "September 02, 2026",
         "link": "https://docs.cloud.google.com/release-notes#September_02_2026",
-        "summary": "AlloyDB for PostgreSQL\nFeature\nAlloyDB real-time data access to BigQuery (in Preview) now offers limit pushdown and runtime projects:\nLimit pushdown: when you query foreign tables, some LIMIT and OFFSET clauses are automatically pushed down to BigQuery, reducing network transfer and improving query response times. For more information, see Access to real-time data in BigQuery overview.\nRuntime projects: you can specify an optional runtime project at either the foreign server or foreign table level to execute queries and manage compute costs independently of the project that stores your data. For more information, see Configure access to real-time data in BigQuery.\nConsider using least-privilege security controls to restrict foreign server usage.\nFor more information, see Secure BigQuery data access using the foreign data wrapper.\nBigQuery\nChange\nAn updated version of the\nSimba JDBC driver for BigQuery\nis now available.\nCloud SQL for MySQL\nFeature\nCloud SQL supports Workforce Identity Federation authentication. This lets you\nauthenticate to your Cloud SQL instance using identities from an external\nidentity provider such as Microsoft Active Directory or Okta. For more\ninformation, see Workforce Identity Federation\nauthentication.\nCloud SQL for PostgreSQL\nFeature\nCloud SQL supports Workforce Identity Federation authentication. This lets you\nauthenticate to your Cloud SQL instance using identities from an external\nidentity provider such as Microsoft Active Directory or Okta. For…",
+        "summary": "AlloyDB for PostgreSQL\nFeature\nAlloyDB real-time data access to BigQuery (in Preview) now offers limit pushdown and runtime projects:\nLimit pushdown: when you query foreign tables, some LIMIT and OFFSET clauses are automatically pushed down to BigQuery, reducing network transfer and improving query response times. For more information, see Access to real-time data in BigQuery overview.\nRuntime projects: you can specify an optional runtime project at either the foreign server or foreign table level to execute queries and manage compute costs independently of the project that stores your data. For more information, see Configure access to real-time data in BigQuery.\nConsider using least-privilege security controls to restrict foreign server usage.\nFor more information, see Secure BigQuery data access using the foreign data wrapper.\nApplication Design Center\nFeature\nApplication Design Center supports the following components in General Availability:\nFirebase AI Logic\nFirebase AI Logic Prompt Template\nFirebase App Check\nFirebase Authentication\nFirebase Multi-Platform App\nFirestore Security Rules\nBigQuery\nChange\nAn updated version of the\nSimba JDBC driver for BigQuery\nis now available.\nCloud SQL for MySQL\nFeature\nCloud SQL supports Workforce Identity Federation authentication. This lets you\nauthenticate to your Cloud SQL instance using identities from an external\nidentity provider such as Microsoft Active Directory or Okta. For more\ninformation, see Workforce Identity Federation…",
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-09-02T07:00:00.000Z",
@@ -239,15 +248,6 @@
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-08-28T07:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "August 27, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#August_27_2026",
-        "summary": "Apigee X\nAnnouncement\nOn August 27th, 2026, we released an updated version of Apigee (1-18-0-apigee-4).\nNote: Rollouts of this release began today and may take four or more business days to be completed across all Google Cloud zones. Your instances may not have the features and fixes available until the rollout is complete.\nFixed\nBug ID\nDescription\n\n\n\n\n507878328\nUpgraded the Apigee runtime to run on JDK 17, while maintaining backward compatibility with JDK 11.\n\n\n530965355\nAdded an opt-in Message Processor connection-failure back-off (CWC property HTTPClient.backoff.enabled, defaults to false) that prevents the Message Processor from consuming excessive CPU when a target is completely unavailable.\n\n\n532793298\nFixed an API product bug where combining a payloadOperationGroup with a REST or llmOperationGroup rejected REST/LLM traffic with a 401.\n\n\n534420582\nThe JSONThreatProtection policy adds a new optional child element <RejectDuplicateKeys> that rejects request bodies containing duplicate JSON keys within the same object. Defaults to false to preserve existing behavior.\n\n\nN/A\nUpdates to infrastructure and libraries.\n\n\n\nSecurity\nBug ID\nDescription\n\n\n\n\n544570126\nSecurity fix for Apigee. Fixed a security issue in the PythonScript policy.\n\n\nN/A\nSecurity fix for Apigee infrastructure.\n\n\n\nBigQuery\nFeature\nThe Data Engineering Agent\nis now HIPAA compliant.\nFor more information, see HIPAA compliance on Google Cloud.\nAnnouncement\nCore graph processing for BigQuery Graph\nrequires an…",
-        "image": null,
-        "source": "Google Cloud Platform (GCP) - Release notes",
-        "published": "2026-08-27T07:00:00.000Z",
         "isNew": false
       }
     ],
