@@ -1,6 +1,6 @@
 {
   "date": "2026-09-05",
-  "generatedAt": "2026-09-05T09:04:22.584Z",
+  "generatedAt": "2026-09-05T13:53:08.163Z",
   "totalArticles": 72,
   "ticker": [
     {
@@ -111,16 +111,16 @@
         "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/09/Figure1-scaled.webp",
         "source": "Microsoft Azure Blog",
         "published": "2026-09-03T19:00:00.000Z",
-        "isNew": true
+        "isNew": false
       },
       {
-        "title": "GPT-6 Astra: Frontier intelligence for work, now generally available in Microsoft Foundry",
-        "link": "https://azure.microsoft.com/en-us/blog/gpt-6-astra-frontier-intelligence-for-work-now-generally-available-in-microsoft-foundry/",
-        "summary": "GPT-6 Astra, OpenAI's newest frontier model, begins rolling out today through the Microsoft Foundry Limited Access Program, with availability expanding to participating customers over the coming days.\nThe post GPT-6 Astra: Frontier intelligence for work, now generally available in Microsoft Foundry appeared first on Microsoft Azure Blog.",
+        "title": "GPT-6 Astra: Frontier intelligence for work, now available in Microsoft Foundry",
+        "link": "https://azure.microsoft.com/en-us/blog/gpt-6-astra-frontier-intelligence-for-work-now-available-in-microsoft-foundry/",
+        "summary": "GPT-6 Astra, OpenAI's newest frontier model, begins rolling out today through the Microsoft Foundry Limited Access Program, with availability expanding to participating customers over the coming days.\nThe post GPT-6 Astra: Frontier intelligence for work, now available in Microsoft Foundry appeared first on Microsoft Azure Blog.",
         "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/06/Azure-DevTools-Dark-1-scaled.jpg",
         "source": "Microsoft Azure Blog",
         "published": "2026-09-03T18:15:00.000Z",
-        "isNew": true
+        "isNew": false
       },
       {
         "title": "How Microsoft’s Physical Security Engineering Team scaled hybrid operations with Azure Arc and Azure Virtual Desktop",
@@ -129,7 +129,7 @@
         "image": null,
         "source": "Microsoft Azure Blog",
         "published": "2026-09-03T15:00:00.000Z",
-        "isNew": true
+        "isNew": false
       },
       {
         "title": "The Economics of Agent Optimization: Context engineering for enterprise AI agents",
@@ -259,7 +259,7 @@
         "image": null,
         "source": "Kubernetes Blog",
         "published": "2026-09-04T18:30:00.000Z",
-        "isNew": true
+        "isNew": false
       },
       {
         "title": "Kubernetes v1.37: DRA Updates",
