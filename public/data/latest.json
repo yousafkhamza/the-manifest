@@ -1,6 +1,6 @@
 {
-  "date": "2026-09-04",
-  "generatedAt": "2026-09-04T19:35:16.924Z",
+  "date": "2026-09-05",
+  "generatedAt": "2026-09-05T09:04:22.584Z",
   "totalArticles": 72,
   "ticker": [
     {
@@ -105,6 +105,33 @@
     ],
     "azure": [
       {
+        "title": "Enterprise AI transformation relies on the end-to-end platform: Azure was built for this moment",
+        "link": "https://azure.microsoft.com/en-us/blog/enterprise-ai-transformation-relies-on-the-end-to-end-platform-azure-was-built-for-this-moment/",
+        "summary": "The recognition for Microsoft over the past couple of weeks comes down to models, infrastructure, data, applications, and developer tools working as one system when AI moves into production.\nThe post Enterprise AI transformation relies on the end-to-end platform: Azure was built for this moment appeared first on Microsoft Azure Blog.",
+        "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/09/Figure1-scaled.webp",
+        "source": "Microsoft Azure Blog",
+        "published": "2026-09-03T19:00:00.000Z",
+        "isNew": true
+      },
+      {
+        "title": "GPT-6 Astra: Frontier intelligence for work, now generally available in Microsoft Foundry",
+        "link": "https://azure.microsoft.com/en-us/blog/gpt-6-astra-frontier-intelligence-for-work-now-generally-available-in-microsoft-foundry/",
+        "summary": "GPT-6 Astra, OpenAI's newest frontier model, begins rolling out today through the Microsoft Foundry Limited Access Program, with availability expanding to participating customers over the coming days.\nThe post GPT-6 Astra: Frontier intelligence for work, now generally available in Microsoft Foundry appeared first on Microsoft Azure Blog.",
+        "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/06/Azure-DevTools-Dark-1-scaled.jpg",
+        "source": "Microsoft Azure Blog",
+        "published": "2026-09-03T18:15:00.000Z",
+        "isNew": true
+      },
+      {
+        "title": "How Microsoft’s Physical Security Engineering Team scaled hybrid operations with Azure Arc and Azure Virtual Desktop",
+        "link": "https://azure.microsoft.com/en-us/blog/how-microsofts-physical-security-engineering-team-scaled-hybrid-operations-with-azure-arc-and-azure-virtual-desktop/",
+        "summary": "Learn how Microsoft used Azure Arc and Azure Virtual Desktop to simplify hybrid security operations, improve visibility, and scale globally.\nThe post How Microsoft’s Physical Security Engineering Team scaled hybrid operations with Azure Arc and Azure Virtual Desktop appeared first on Microsoft Azure Blog.",
+        "image": null,
+        "source": "Microsoft Azure Blog",
+        "published": "2026-09-03T15:00:00.000Z",
+        "isNew": true
+      },
+      {
         "title": "The Economics of Agent Optimization: Context engineering for enterprise AI agents",
         "link": "https://azure.microsoft.com/en-us/blog/the-economics-of-agent-optimization-context-engineering-for-enterprise-ai-agents/",
         "summary": "AI cost optimization goes beyond model selection. Discover how context engineering in Microsoft Foundry helps lower AI costs by improving knowledge retrieval, tool selection, memory, and agent performance at scale.\nThe post The Economics of Agent Optimization: Context engineering for enterprise AI agents appeared first on Microsoft Azure Blog.",
@@ -148,40 +175,13 @@
         "source": "Microsoft Azure Blog",
         "published": "2026-08-26T16:00:00.000Z",
         "isNew": false
-      },
-      {
-        "title": "The patch window is collapsing: Why security needs a new control plane",
-        "link": "https://azure.microsoft.com/en-us/blog/the-patch-window-is-collapsing-why-security-needs-a-new-control-plane/",
-        "summary": "Organizations need protection that operates in the gap between discovery and remediation.\nThe post The patch window is collapsing: Why security needs a new control plane appeared first on Microsoft Azure Blog.",
-        "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/08/1121922_In-blog-3-1024x576.jpg",
-        "source": "Microsoft Azure Blog",
-        "published": "2026-08-25T16:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "Microsoft named a Leader in the 2026 Gartner® Magic Quadrant™ for Cloud-Native Application Platforms",
-        "link": "https://azure.microsoft.com/en-us/blog/microsoft-named-a-leader-in-the-2026-gartner-magic-quadrant-for-cloud-native-application-platforms/",
-        "summary": "Cloud-native platforms are becoming the foundation for AI transformation. Discover how Microsoft's Azure application platform helps organizations modernize, innovate, and operate AI-powered applications at scale.\nThe post Microsoft named a Leader in the 2026 Gartner® Magic Quadrant™ for Cloud-Native Application Platforms  appeared first on Microsoft Azure Blog.",
-        "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/08/MQ-Cloud-Native-App-Platform-Blog-Thumbnail-2-1024x1024.webp",
-        "source": "Microsoft Azure Blog",
-        "published": "2026-08-17T15:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "The Economics of Agent Optimization: From pilots to measurable returns",
-        "link": "https://azure.microsoft.com/en-us/blog/the-economics-of-agent-optimization-from-pilots-to-measurable-returns/",
-        "summary": "Learn how AI cost management helps organizations move from AI pilots to measurable ROI through greater visibility, governance, and optimization.\nThe post The Economics of Agent Optimization: From pilots to measurable returns appeared first on Microsoft Azure Blog.",
-        "image": null,
-        "source": "Microsoft Azure Blog",
-        "published": "2026-08-12T16:00:00.000Z",
-        "isNew": false
       }
     ],
     "gcp": [
       {
         "title": "September 04, 2026",
         "link": "https://docs.cloud.google.com/release-notes#September_04_2026",
-        "summary": "Cloud SQL for SQL Server\nFeature\nCloud SQL for SQL Server now supports connecting to instances\nwith write endpoints using the Cloud SQL Auth Proxy or Cloud SQL language\nconnectors. When you configure the proxy or a language connector with a\nwrite endpoint DNS name, connections are redirected automatically to the new\nprimary instance during replica failover or switchover.\nFor more information, see\nConnect to an instance using a write endpoint.\nGemini\nAnnouncement\nNew subscriptions for Gemini Code Assist can no longer be purchased through the\nGoogle Cloud console using billing accounts that don't have an active\nGemini Code Assist subscription. Billing accounts that currently have an active\nGemini Code Assist subscription are unaffected.\nFor billing accounts that don't have an active Gemini Code Assist\nsubscription, you can obtain a new Gemini Code Assist subscription by\ncontacting Google Cloud sales.\nFor alternative AI developer tools, use Antigravity, which is available through\neligible Gemini Enterprise subscriptions\nand through Gemini Enterprise Agent Platform.\nAnnouncement\nNew subscriptions for Gemini Code Assist can no longer be purchased through the\nGoogle Cloud console using billing accounts that don't have an active\nGemini Code Assist subscription. Billing accounts that currently have an active\nGemini Code Assist subscription are unaffected.\nFor billing accounts that don't have an active Gemini Code Assist\nsubscription, you can obtain a new Gemini Code Assist…",
+        "summary": "Cloud Billing\nChange\nIntroducing the Incentives page, for tracking spend-based milestone credits,\nRaMP, and other conditional incentives\nIf you have a custom pricing contract, you might be enrolled in conditional\nincentives, where you earn credits or discounts for spending specific amounts\non Google Cloud.\nThe Incentives page\nreplaces the\nSpend-based Milestones tab\nthat was located in the Credits page. The Incentives page provides a\nconsolidated and enhanced experience for tracking your progress towards\nconditional incentives, including spend-based milestone credits and Rapid\nMigration & Modernization Program (RaMP) credits and discounts.\nLearn more about\ntracking conditional incentives.\nCloud SQL for MySQL\nFeature\nThe C4 machine series\nis now available for Cloud SQL for MySQL Enterprise Plus instances in the\nfollowing regions:\nafrica-south1 — Johannesburg\nasia-northeast3 — Seoul\nasia-south2 — Delhi\neurope-west6 — Zürich\nsouthamerica-west1 — Santiago\nus-west3 — Salt Lake City\nThe C4 machine series provides the following benefits:\nSupports fifth and sixth generation Intel Xeon Scalable processors.\nOffers a price-performance balance that makes it suitable for\nhigh-demand workloads.\nFeature\nCloud SQL supports in-place upgrades and downgrades to your instance's\ninfrastructure. You can change all of the following in place:\nThe edition that your Cloud SQL instance uses.\nThe machine type.\nThe storage type.\nThe database version.\nMaking in-place changes is the most direct and least…",
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-09-04T07:00:00.000Z",
@@ -253,6 +253,15 @@
     ],
     "kubernetes": [
       {
+        "title": "Kubernetes v1.37: KubeletInUserNamespace (aka Rootless mode) Graduates to Beta",
+        "link": "https://kubernetes.io/blog/2026/09/04/kubernetes-v1-37-rootless-beta/",
+        "summary": "Kubernetes v1.37 promotes the KubeletInUserNamespace feature gate to beta.\nWith this feature enabled, all of the node components (kubelet, CRI and OCI runtimes,\nCNI plugins, and kube-proxy) can run as a non-root user on the host, using a\nLinux user namespace.\nThis technique is also known as rootless mode.\nThe work started as an experiment in 2018, and was merged into Kubernetes v1.22 (2021)\nas an alpha feature (Kubernetes Enhancement Proposal KEP-2033).\nThis feature should not be confused with user namespaces for pods\n(hostUsers: false with the UserNamespacesSupport feature gate, GA since v1.36),\nwhich puts pods in user namespaces but still runs the node components as root.\nThese two features do not conflict.\nMoreover, they can be combined to nest Kubernetes inside Kubernetes without resorting to\nthe full privileged: true.\nWhy run the node components in a user namespace?\nBecause the node components have historically had container-breakout vulnerabilities\nthat could compromise full root privileges on the host.\nExamples of such vulnerabilities include:\nCVE-2022-0811\n(\"cr8escape\"): CRI-O could be tricked into setting arbitrary sysctls, such as\nkernel.core_pattern, resulting in arbitrary code execution as root on the host\nCVE-2023-27561:\nrunc could be tricked into bypassing the masked paths of a container via a volume\nmount race, exposing the host's procfs files (a regression of CVE-2019-19921)\nCVE-2024-10220:\nthe kubelet could be made to execute arbitrary commands as root via…",
+        "image": null,
+        "source": "Kubernetes Blog",
+        "published": "2026-09-04T18:30:00.000Z",
+        "isNew": true
+      },
+      {
         "title": "Kubernetes v1.37: DRA Updates",
         "link": "https://kubernetes.io/blog/2026/09/03/kubernetes-v1-37-dra-updates/",
         "summary": "Kubernetes 1.37 is here and Dynamic Resource Allocation (DRA) keeps pushing past where it started! This release brings DRA Extended Resource support to GA, a milestone the team has been building toward for three straight releases. Several more features graduate to Beta or GA. A fresh batch of alpha features rounds out the release.\nI'll dive into what's new for DRA in Kubernetes 1.37!\nWhat's stable in 1.37\nDRA Extended Resource support has graduated to GA. This is the mechanism that lets DRA drivers satisfy requests made through the traditional extended resource API, think example.com/gpu in a Pod spec, without requiring a separate device plugin alongside the DRA driver. An extended resource name can be set directly on a DeviceClass, and Pods requesting it get matched to a device through DRA with no ResourceClaim needed on the workload's part.\nIt's been on a steady path since KEP acceptance in 1.34. Alpha landed in 1.35, Beta in 1.36, and now it's Stable. For cluster operators, this is what makes DRA adoption gradual. Existing workloads written against extended resources keep working unmodified while the backend allocation logic moves over to DRA.\nResourceClaims status with possible standardized network interface data adds a devices field to ResourceClaim .status, letting DRA drivers report per-device status, including, for network devices, the interface name, MAC address, and IP addresses. This gives users and controllers visibility into device state that was previously…",
@@ -313,15 +322,6 @@
         "image": "https://kubernetes.io/blog/2026/08/26/kubernetes-v1-37-release/k8s-v1.37.svg",
         "source": "Kubernetes Blog",
         "published": "2026-08-26T00:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "How to Pretty-Print Your Kubernetes YAML as KYAML and Why You'd Want To",
-        "link": "https://kubernetes.io/blog/2026/08/11/how-to-pretty-print-kubernetes-yaml-as-kyaml/",
-        "summary": "YAML has been the standard way to write Kubernetes manifests for years. Every example, tutorial, and configuration file you come across is written in it. The problem isn't that YAML is a bad format. It's that YAML gives you a lot of choices, and not all of them are equally good for writing Kubernetes manifests. Some features make files harder to read, some are easy to misuse and others can lead to surprising behavior.\nThe interesting part is that Kubernetes doesn't actually need most of those features. It only relies on a small subset of YAML. This led to a simple question: if Kubernetes only needs a small part of YAML, why not standardize on that part and avoid the rest? Instead of introducing a new configuration language, SIG CLI introduced KYAML, a stricter, more consistent way to write YAML.\nWhat is KYAML?\nKYAML is a strict subset (or \"dialect\") of standard YAML, designed to be parseable by the existing ecosystem without any changes, as proposed in KEP 5295. It does not introduce a new format or a new parser. It just narrows the scope of choices you make when writing YAML, so everyone ends up making the same ones.\nThink of it less like a new language and more like an agreed-upon style. Everything valid in KYAML is valid YAML.\nHow KYAML solves it\nStandard YAML has a few well-known traps and JSON is not without its own.\nWhitespace sensitivity. Indentation defines structure in YAML, which means a wrongly indented file can remain syntactically valid while representing a…",
-        "image": null,
-        "source": "Kubernetes Blog",
-        "published": "2026-08-11T18:00:00.000Z",
         "isNew": false
       }
     ],

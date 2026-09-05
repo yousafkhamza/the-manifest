@@ -1,6 +1,6 @@
 {
-  "date": "2026-08-29",
-  "generatedAt": "2026-08-29T19:44:27.036Z",
+  "date": "2026-09-05",
+  "generatedAt": "2026-09-05T09:04:22.584Z",
   "totalArticles": 72,
   "ticker": [
     {
@@ -9,7 +9,7 @@
     },
     {
       "label": "Terraform",
-      "version": "v1.16.0"
+      "version": "v1.16.1"
     },
     {
       "label": "Python",
@@ -17,11 +17,11 @@
     },
     {
       "label": "Go",
-      "version": "go1.27.0"
+      "version": "go1.27.1"
     },
     {
       "label": "Rust",
-      "version": "1.98.0"
+      "version": "1.98.1"
     },
     {
       "label": "Node.js",
@@ -30,6 +30,24 @@
   ],
   "topics": {
     "aws": [
+      {
+        "title": "Amazon EC2 R9g and R9gd instances powered by AWS Graviton5 processors are now generally available",
+        "link": "https://aws.amazon.com/blogs/aws/amazon-ec2-r9g-and-r9gd-instances-powered-by-aws-graviton5-processors-are-now-generally-available/",
+        "summary": "Amazon EC2 R9g and R9gd instances powered by AWS Graviton5 are now generally available, delivering up to 25% better compute performance than R8g, ideal for databases, in-memory caches, and real-time analytics.",
+        "image": null,
+        "source": "AWS News Blog",
+        "published": "2026-08-31T19:53:34.000Z",
+        "isNew": false
+      },
+      {
+        "title": "AWS Weekly Roundup: Welcome DuckLabs to the team, Agentic Resource Discovery (ARD), and more (August 31, 2026)",
+        "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-welcome-ducklabs-to-the-team-agentic-resource-discovery-ard-and-more-august-31-2026/",
+        "summary": "The news that interested me the most last week was the DuckLabs acquisition. AWS has signed a definitive agreement to acquire DuckLabs, the Amsterdam-based company behind DuckDB, the popular open source analytical database that runs in-process and executes SQL directly against files like Parquet, CSV, and JSON. DuckDB stays open source under its independent foundation […]",
+        "image": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2026/08/28/AWS_Ducklabs_white_logo_800x400.png",
+        "source": "AWS News Blog",
+        "published": "2026-08-31T14:45:25.000Z",
+        "isNew": false
+      },
       {
         "title": "Happy 20th Birthday, Amazon EC2",
         "link": "https://aws.amazon.com/blogs/aws/happy-20th-birthday-amazon-ec2/",
@@ -83,27 +101,63 @@
         "source": "AWS News Blog",
         "published": "2026-08-10T15:45:03.000Z",
         "isNew": false
-      },
-      {
-        "title": "Runtime instances: persistent compute for production AI agents on Amazon Bedrock AgentCore",
-        "link": "https://aws.amazon.com/blogs/aws/runtime-instances-persistent-compute-for-production-ai-agents-on-amazon-bedrock-agentcore/",
-        "summary": "Announcing runtime instances in Amazon Bedrock AgentCore—persistent, managed EC2 infrastructure for production AI agents with multi-agent collaboration, GPU support, and sessions lasting up to 14 days.",
-        "image": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2026/06/19/2026-06-18_12-25-58.png",
-        "source": "AWS News Blog",
-        "published": "2026-08-06T22:58:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "Amazon DynamoDB now supports real-time vector search at any scale",
-        "link": "https://aws.amazon.com/blogs/aws/amazon-dynamodb-now-supports-real-time-vector-search-at-any-scale/",
-        "summary": "DynamoDB now supports native vector search with single-digit millisecond latency at 99%+ recall. It is designed for any scale, even trillions of vectors and requires zero infrastructure management.",
-        "image": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2026/07/29/1212634454659342-0a-1.png",
-        "source": "AWS News Blog",
-        "published": "2026-08-05T14:45:10.000Z",
-        "isNew": false
       }
     ],
     "azure": [
+      {
+        "title": "Enterprise AI transformation relies on the end-to-end platform: Azure was built for this moment",
+        "link": "https://azure.microsoft.com/en-us/blog/enterprise-ai-transformation-relies-on-the-end-to-end-platform-azure-was-built-for-this-moment/",
+        "summary": "The recognition for Microsoft over the past couple of weeks comes down to models, infrastructure, data, applications, and developer tools working as one system when AI moves into production.\nThe post Enterprise AI transformation relies on the end-to-end platform: Azure was built for this moment appeared first on Microsoft Azure Blog.",
+        "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/09/Figure1-scaled.webp",
+        "source": "Microsoft Azure Blog",
+        "published": "2026-09-03T19:00:00.000Z",
+        "isNew": true
+      },
+      {
+        "title": "GPT-6 Astra: Frontier intelligence for work, now generally available in Microsoft Foundry",
+        "link": "https://azure.microsoft.com/en-us/blog/gpt-6-astra-frontier-intelligence-for-work-now-generally-available-in-microsoft-foundry/",
+        "summary": "GPT-6 Astra, OpenAI's newest frontier model, begins rolling out today through the Microsoft Foundry Limited Access Program, with availability expanding to participating customers over the coming days.\nThe post GPT-6 Astra: Frontier intelligence for work, now generally available in Microsoft Foundry appeared first on Microsoft Azure Blog.",
+        "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/06/Azure-DevTools-Dark-1-scaled.jpg",
+        "source": "Microsoft Azure Blog",
+        "published": "2026-09-03T18:15:00.000Z",
+        "isNew": true
+      },
+      {
+        "title": "How Microsoft’s Physical Security Engineering Team scaled hybrid operations with Azure Arc and Azure Virtual Desktop",
+        "link": "https://azure.microsoft.com/en-us/blog/how-microsofts-physical-security-engineering-team-scaled-hybrid-operations-with-azure-arc-and-azure-virtual-desktop/",
+        "summary": "Learn how Microsoft used Azure Arc and Azure Virtual Desktop to simplify hybrid security operations, improve visibility, and scale globally.\nThe post How Microsoft’s Physical Security Engineering Team scaled hybrid operations with Azure Arc and Azure Virtual Desktop appeared first on Microsoft Azure Blog.",
+        "image": null,
+        "source": "Microsoft Azure Blog",
+        "published": "2026-09-03T15:00:00.000Z",
+        "isNew": true
+      },
+      {
+        "title": "The Economics of Agent Optimization: Context engineering for enterprise AI agents",
+        "link": "https://azure.microsoft.com/en-us/blog/the-economics-of-agent-optimization-context-engineering-for-enterprise-ai-agents/",
+        "summary": "AI cost optimization goes beyond model selection. Discover how context engineering in Microsoft Foundry helps lower AI costs by improving knowledge retrieval, tool selection, memory, and agent performance at scale.\nThe post The Economics of Agent Optimization: Context engineering for enterprise AI agents appeared first on Microsoft Azure Blog.",
+        "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/09/image-2.webp",
+        "source": "Microsoft Azure Blog",
+        "published": "2026-09-02T16:00:00.000Z",
+        "isNew": false
+      },
+      {
+        "title": "Introducing Azure Multicloud Interconnect for AWS",
+        "link": "https://azure.microsoft.com/en-us/blog/introducing-azure-multicloud-interconnect-for-aws/",
+        "summary": "Azure Multicloud Interconnect helps simplify private connectivity between Microsoft Azure and AWS, enabling organizations to support multicloud and AI workloads with a more streamlined, cloud-native networking experience. Built on open interoperability standards, it helps reduce operational complexity while providing high-performance connectivity across cloud environments.\nThe post Introducing Azure Multicloud Interconnect for AWS appeared first on Microsoft Azure Blog.",
+        "image": null,
+        "source": "Microsoft Azure Blog",
+        "published": "2026-08-31T18:00:00.000Z",
+        "isNew": false
+      },
+      {
+        "title": "Inside Microsoft’s marketing team: Scaling expertise with AI",
+        "link": "https://azure.microsoft.com/en-us/blog/inside-microsofts-marketing-team-scaling-expertise-with-ai/",
+        "summary": "AI is helping organizations meet high expectations as markets change quickly and technology advances at a rapid pace.\nThe post Inside Microsoft’s marketing team: Scaling expertise with AI appeared first on Microsoft Azure Blog.",
+        "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/06/CLO20b_Evan_office_001-scaled.jpg",
+        "source": "Microsoft Azure Blog",
+        "published": "2026-08-31T16:00:00.000Z",
+        "isNew": false
+      },
       {
         "title": "Managed PostgreSQL vs. self-hosted PostgreSQL: Key benefits and trade-offs",
         "link": "https://azure.microsoft.com/en-us/blog/managed-postgresql-vs-self-hosted-postgresql-key-benefits-and-trade-offs/",
@@ -121,63 +175,63 @@
         "source": "Microsoft Azure Blog",
         "published": "2026-08-26T16:00:00.000Z",
         "isNew": false
-      },
-      {
-        "title": "The patch window is collapsing: Why security needs a new control plane",
-        "link": "https://azure.microsoft.com/en-us/blog/the-patch-window-is-collapsing-why-security-needs-a-new-control-plane/",
-        "summary": "Organizations need protection that operates in the gap between discovery and remediation.\nThe post The patch window is collapsing: Why security needs a new control plane appeared first on Microsoft Azure Blog.",
-        "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/08/1121922_In-blog-3-1024x576.jpg",
-        "source": "Microsoft Azure Blog",
-        "published": "2026-08-25T16:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "Microsoft named a Leader in the 2026 Gartner® Magic Quadrant™ for Cloud-Native Application Platforms",
-        "link": "https://azure.microsoft.com/en-us/blog/microsoft-named-a-leader-in-the-2026-gartner-magic-quadrant-for-cloud-native-application-platforms/",
-        "summary": "Cloud-native platforms are becoming the foundation for AI transformation. Discover how Microsoft's Azure application platform helps organizations modernize, innovate, and operate AI-powered applications at scale.\nThe post Microsoft named a Leader in the 2026 Gartner® Magic Quadrant™ for Cloud-Native Application Platforms  appeared first on Microsoft Azure Blog.",
-        "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/08/MQ-Cloud-Native-App-Platform-Blog-Thumbnail-2-1024x1024.webp",
-        "source": "Microsoft Azure Blog",
-        "published": "2026-08-17T15:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "The Economics of Agent Optimization: From pilots to measurable returns",
-        "link": "https://azure.microsoft.com/en-us/blog/the-economics-of-agent-optimization-from-pilots-to-measurable-returns/",
-        "summary": "Learn how AI cost management helps organizations move from AI pilots to measurable ROI through greater visibility, governance, and optimization.\nThe post The Economics of Agent Optimization: From pilots to measurable returns appeared first on Microsoft Azure Blog.",
-        "image": null,
-        "source": "Microsoft Azure Blog",
-        "published": "2026-08-12T16:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "Microsoft named a Leader in the 2026 Gartner® Magic Quadrant™ for AI-Augmented Code Modernization Tools",
-        "link": "https://azure.microsoft.com/en-us/blog/microsoft-named-a-leader-in-the-2026-gartner-magic-quadrant-for-ai-augmented-code-modernization-tools/",
-        "summary": "GitHub Copilot and Azure are helping organizations modernize legacy applications, reduce technical debt, and prepare for AI innovation.\nThe post Microsoft named a Leader in the 2026 Gartner® Magic Quadrant™ for AI-Augmented Code Modernization Tools appeared first on Microsoft Azure Blog.",
-        "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/08/MQ-AppMod-Blog-Thumbnail-1-1-1024x576.webp",
-        "source": "Microsoft Azure Blog",
-        "published": "2026-08-06T15:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "What customers value most in Microsoft Databases—from reliability to AI readiness",
-        "link": "https://azure.microsoft.com/en-us/blog/what-customers-value-most-in-microsoft-databases-from-reliability-to-ai-readiness/",
-        "summary": "Every day, customers trust Microsoft Databases to power their most critical applications, business processes, and AI-powered experiences.\nThe post What customers value most in Microsoft Databases—from reliability to AI readiness appeared first on Microsoft Azure Blog.",
-        "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/10/CLO20b_Jean_Alain_casual_office_003.jpg",
-        "source": "Microsoft Azure Blog",
-        "published": "2026-07-27T15:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "AT&T and Microsoft scale trillion-token workloads with Microsoft Foundry and AMD",
-        "link": "https://azure.microsoft.com/en-us/blog/att-and-microsoft-scale-trillion-token-workloads-with-microsoft-foundry-and-amd/",
-        "summary": "AT&T processed approximately one trillion tokens while developing OTel2.0 using Microsoft Foundry Managed Compute, open AI models, and AMD and NVIDIA GPU infrastructure. Discover how flexible model choice and scalable infrastructure are enabling production-scale telecom AI.\nThe post AT&T and Microsoft scale trillion-token workloads with Microsoft Foundry and AMD appeared first on Microsoft Azure Blog.",
-        "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2027/06/FY26AE-Azure-Composite-DeepBlue-006-H.jpg",
-        "source": "Microsoft Azure Blog",
-        "published": "2026-07-23T18:30:00.000Z",
-        "isNew": false
       }
     ],
     "gcp": [
+      {
+        "title": "September 04, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#September_04_2026",
+        "summary": "Cloud Billing\nChange\nIntroducing the Incentives page, for tracking spend-based milestone credits,\nRaMP, and other conditional incentives\nIf you have a custom pricing contract, you might be enrolled in conditional\nincentives, where you earn credits or discounts for spending specific amounts\non Google Cloud.\nThe Incentives page\nreplaces the\nSpend-based Milestones tab\nthat was located in the Credits page. The Incentives page provides a\nconsolidated and enhanced experience for tracking your progress towards\nconditional incentives, including spend-based milestone credits and Rapid\nMigration & Modernization Program (RaMP) credits and discounts.\nLearn more about\ntracking conditional incentives.\nCloud SQL for MySQL\nFeature\nThe C4 machine series\nis now available for Cloud SQL for MySQL Enterprise Plus instances in the\nfollowing regions:\nafrica-south1 — Johannesburg\nasia-northeast3 — Seoul\nasia-south2 — Delhi\neurope-west6 — Zürich\nsouthamerica-west1 — Santiago\nus-west3 — Salt Lake City\nThe C4 machine series provides the following benefits:\nSupports fifth and sixth generation Intel Xeon Scalable processors.\nOffers a price-performance balance that makes it suitable for\nhigh-demand workloads.\nFeature\nCloud SQL supports in-place upgrades and downgrades to your instance's\ninfrastructure. You can change all of the following in place:\nThe edition that your Cloud SQL instance uses.\nThe machine type.\nThe storage type.\nThe database version.\nMaking in-place changes is the most direct and least…",
+        "image": null,
+        "source": "Google Cloud Platform (GCP) - Release notes",
+        "published": "2026-09-04T07:00:00.000Z",
+        "isNew": false
+      },
+      {
+        "title": "September 03, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#September_03_2026",
+        "summary": "API Gateway\nChange\nNew model routing gateways might use a gateway.dev default hostname\nIf you create a gateway that uses model routing on or after September 3, 2026, it\nmight receive a gateway.dev default hostname instead of a run.app one, in the\nform https://GATEWAY_ID-PROJECT_NUMBER.REGION.gateway.dev — for example, https://my-gateway-123456789012.us-central1.gateway.dev. This is a second gateway.dev format; other gateways keep the existing one.\nTo get a gateway's URL, read its defaultHostname property.\nFor more information, see Deploy an API to a gateway.\nBigQuery\nFeature\nConversational analytics now supports questions about\nmarket basket analysis.\nThis feature is\ngenerally available\n(GA).\nCloud Storage\nFeature\nYou can use Storage batch operations to do the following:\nSelect objects dynamically across a project by using Common Expression\nLanguage (CEL) filters\nbased on metadata in your Storage Insights datasets,\nwithout manual CSV manifests or BigQuery export queries.\nTarget objects across up to 1,000 buckets in a single batch job.\nTransition objects in bulk to different storage classes.\nPatch object access control lists (ACLs) in bulk to update or remove\npermissions.\nUse dry run to validate job configurations across multiple buckets, and\ncreate jobs directly from a dry run to process the same validated\nobjects.\nFor more information, see Storage batch operations overview\nand Create and manage batch operations jobs.\nGemini Enterprise\nFeature\nGemini Enterprise: Latency and…",
+        "image": null,
+        "source": "Google Cloud Platform (GCP) - Release notes",
+        "published": "2026-09-03T07:00:00.000Z",
+        "isNew": false
+      },
+      {
+        "title": "September 02, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#September_02_2026",
+        "summary": "AlloyDB for PostgreSQL\nFeature\nAlloyDB real-time data access to BigQuery (in Preview) now offers limit pushdown and runtime projects:\nLimit pushdown: when you query foreign tables, some LIMIT and OFFSET clauses are automatically pushed down to BigQuery, reducing network transfer and improving query response times. For more information, see Access to real-time data in BigQuery overview.\nRuntime projects: you can specify an optional runtime project at either the foreign server or foreign table level to execute queries and manage compute costs independently of the project that stores your data. For more information, see Configure access to real-time data in BigQuery.\nConsider using least-privilege security controls to restrict foreign server usage.\nFor more information, see Secure BigQuery data access using the foreign data wrapper.\nApplication Design Center\nFeature\nApplication Design Center supports the following components in General Availability:\nFirebase AI Logic\nFirebase AI Logic Prompt Template\nFirebase App Check\nFirebase Authentication\nFirebase Multi-Platform App\nFirestore Security Rules\nBigQuery\nChange\nAn updated version of the\nSimba JDBC driver for BigQuery\nis now available.\nCloud SQL for MySQL\nFeature\nCloud SQL supports Workforce Identity Federation authentication. This lets you\nauthenticate to your Cloud SQL instance using identities from an external\nidentity provider such as Microsoft Active Directory or Okta. For more\ninformation, see Workforce Identity Federation…",
+        "image": null,
+        "source": "Google Cloud Platform (GCP) - Release notes",
+        "published": "2026-09-02T07:00:00.000Z",
+        "isNew": false
+      },
+      {
+        "title": "September 01, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#September_01_2026",
+        "summary": "Apigee UI\nAnnouncement\nOn September 1, 2026, we released an updated version of the Apigee UI.\nFixed\nBug ID\nDescription\n\n\n\n\n547582067\n\n\nRevisions can now be imported for API proxies and shared flows in a space\n\n\n          Importing a revision in the Apigee UI now works for an API proxy or\n          shared flow that is associated with a\n          space.\n        \nApp Engine flexible environment Go\nFeature\nSupport for the Go 1.27 runtime is in\nGeneral Availability (GA).\nApp Engine standard environment Go\nFeature\nSupport for the Go 1.27 runtime is in\nGeneral Availability (GA).\nBackup and DR\nFeature\nBackup vault support for AlloyDB for PostgreSQL instances encrypted with customer-managed encryption keys (CMEK) is generally available (GA), providing immutable and indelible storage with enforced retention. For more information, see Encrypt AlloyDB for PostgreSQL cluster backups.\nAnnouncing the general availability (GA) of cross-region backups for AlloyDB for PostgreSQL clusters. You can now protect AlloyDB for PostgreSQL clusters against regional outages by storing backups in a distinct secondary region of your choice. To learn more, see Backup vaults for immutable and indelible backups.\nBigQuery\nFeature\nThe Rust SDK for BigQuery is now in\nPreview.\nBigtable\nFeature\nYou can use the Google Cloud console to create and manage aggregate column families\nfor your Bigtable tables. You can also view and query aggregate column families in Bigtable Studio. This feature is generally available…",
+        "image": null,
+        "source": "Google Cloud Platform (GCP) - Release notes",
+        "published": "2026-09-01T07:00:00.000Z",
+        "isNew": false
+      },
+      {
+        "title": "August 31, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#August_31_2026",
+        "summary": "BigQuery\nFeature\nYou can now create, store, and\nmanage pipelines in Git folders.\nThis feature is in\nPreview.\nFeature\nBigQuery now supports TabFM,\nGoogle's pre-trained foundation model for tabular data. TabFM enables zero-shot\nregression and classification through in-context learning. It delivers\nhigh-accuracy predictions on structured data without requiring model training\nor hyperparameter tuning.\nYou can use TabFM directly through the\nAI.PREDICT function\nand evaluate model performance by using the\nAI.EVALUATE function.\nThis feature is in\nPreview.\nFixed\nSupport for configuring daily token quotas\nfor BigQuery generative AI functions has been restored.\nFeature\nUsing folders to\ncreate, store, and manage pipelines is\ngenerally available.\nFeature\nYou can now create an\nidentity column, sometimes\nreferred to as an auto-incrementing column, on a table. You can use identity\ncolumns to create and\nmaintain primary keys on your tables. When you insert a row into a table\nthat has an identity column, BigQuery generates a unique integer\nvalue for that column. This feature is in\nPreview.\nFeature\nBigQuery Graph\nis generally available\n(GA).\nBigQuery Graph now includes support for the CALL\ngraph query statement,\nand the following path inspection\nGQL functions:\nIS_ACYCLIC\nIS_SIMPLE\nIS_TRAIL.\nCloud SQL for PostgreSQL\nFeature\nYou can use the pgAudit extension to prevent string literals that might indicate\nsensitive information, such as passwords and secrets, from appearing in your log\nquery…",
+        "image": null,
+        "source": "Google Cloud Platform (GCP) - Release notes",
+        "published": "2026-08-31T07:00:00.000Z",
+        "isNew": false
+      },
+      {
+        "title": "August 30, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#August_30_2026",
+        "summary": "Agent Platform Workbench\nChange\n20260830-2330-rc0 Release\nChange\n20260831.01_p0 Release\nChange\nInstalled latest packages from upstream dependencies.\nChange\nInstalled latest packages from upstream dependencies.\nFixed\nThe terminal and file browser are now more responsive when working in a Cloud Storage bucket that is mounted through the file browser. Frequent background checks for non-existent files are now cached instead of repeatedly querying Cloud Storage, which previously could make actions such as listing files or running terminal commands take several seconds.\nFixed\nCloud Storage buckets that you mount through the file browser are now automatically re-mounted after the instance is restarted or is stopped and started. Previously the mounted folder could be left behind as an empty, unusable directory that had to be manually removed and re-mounted.\nChange\nThe obsolete\ngoogle-cloud-sdk transitional package is no longer installed. The Google Cloud\nCLI itself is unchanged; it was already provided by the google-cloud-cli\npackage.\nChange\n20260830-2230-rc0 Release\nChange\n20260830-2230-rc0 Release\nChange\nInstalled latest packages from upstream dependencies.\nChange\nInstalled latest packages from upstream dependencies.\nFixed\nCloud Storage buckets that you mount through the file browser are now automatically re-mounted after the instance is restarted or is stopped and started. Previously the mounted folder could be left behind as an empty, unusable directory that had to be manually…",
+        "image": null,
+        "source": "Google Cloud Platform (GCP) - Release notes",
+        "published": "2026-08-30T07:00:00.000Z",
+        "isNew": false
+      },
       {
         "title": "August 29, 2026",
         "link": "https://docs.cloud.google.com/release-notes#August_29_2026",
@@ -195,63 +249,54 @@
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-08-28T07:00:00.000Z",
         "isNew": false
-      },
-      {
-        "title": "August 27, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#August_27_2026",
-        "summary": "Apigee X\nAnnouncement\nOn August 27th, 2026, we released an updated version of Apigee (1-18-0-apigee-4).\nNote: Rollouts of this release began today and may take four or more business days to be completed across all Google Cloud zones. Your instances may not have the features and fixes available until the rollout is complete.\nFixed\nBug ID\nDescription\n\n\n\n\n507878328\nUpgraded the Apigee runtime to run on JDK 17, while maintaining backward compatibility with JDK 11.\n\n\n530965355\nAdded an opt-in Message Processor connection-failure back-off (CWC property HTTPClient.backoff.enabled, defaults to false) that prevents the Message Processor from consuming excessive CPU when a target is completely unavailable.\n\n\n532793298\nFixed an API product bug where combining a payloadOperationGroup with a REST or llmOperationGroup rejected REST/LLM traffic with a 401.\n\n\n534420582\nThe JSONThreatProtection policy adds a new optional child element <RejectDuplicateKeys> that rejects request bodies containing duplicate JSON keys within the same object. Defaults to false to preserve existing behavior.\n\n\nN/A\nUpdates to infrastructure and libraries.\n\n\n\nSecurity\nBug ID\nDescription\n\n\n\n\n544570126\nSecurity fix for Apigee. Fixed a security issue in the PythonScript policy.\n\n\nN/A\nSecurity fix for Apigee infrastructure.\n\n\n\nBigQuery\nFeature\nThe Data Engineering Agent\nis now HIPAA compliant.\nFor more information, see HIPAA compliance on Google Cloud.\nAnnouncement\nCore graph processing for BigQuery Graph\nrequires an…",
-        "image": null,
-        "source": "Google Cloud Platform (GCP) - Release notes",
-        "published": "2026-08-27T07:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "August 26, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#August_26_2026",
-        "summary": "Apigee hybrid\nAnnouncement\nv1.14.8\nOn August 26, 2026 we released an updated version of the Apigee hybrid software, v1.14.8.\nFor information on upgrading, see Upgrading Apigee hybrid to version v1.14.8.\nFor information on new installations, see The big picture.\nNote: This is a patch release: The container images used in patch releases are integrated with the Apigee hybrid Helm charts. Upgrading to a patch via the Helm chart automatically updates the images. No manual image changes are typically needed. For information on container image support in Apigee hybrid releases, see Apigee release process.\nSecurity\nBug ID\nDescription\n\n\n\n\nN/A\nSecurity fixes for apigee-asm-ingress. \nThis addresses the following vulnerabilities: \nCVE-2026-39822 \nCVE-2026-42505 \n\n\n\nN/A\nSecurity fixes for apigee-asm-istiod. \nThis addresses the following vulnerabilities: \nCVE-2026-39822 \nCVE-2026-42505 \n\n\n\nN/A\nSecurity fixes for apigee-connect-agent. \nThis addresses the following vulnerabilities: \nCVE-2026-33818 \nCVE-2026-39821 \nCVE-2026-46600 \nCVE-2026-56853 \nCVE-2026-56858 \nCVE-2026-56859 \nCVE-2026-56860 \nCVE-2026-56862 \nCVE-2026-56864 \nCVE-2026-56865 \nGHSA-hrxh-6v49-42gf \n\n\n\nN/A\nSecurity fixes for apigee-fluent-bit. \nThis addresses the following vulnerabilities: \nCVE-2025-13151 \nCVE-2025-14524 \nCVE-2025-14819 \nCVE-2026-14662 \nCVE-2026-14663 \nCVE-2026-14664 \nCVE-2026-14666 \nCVE-2026-14668 \nCVE-2026-14669 \nCVE-2026-14670 \nCVE-2026-14671 \nCVE-2026-14672 \nCVE-2026-14673 \nCVE-2026-14677 \nCVE-2026-14678…",
-        "image": null,
-        "source": "Google Cloud Platform (GCP) - Release notes",
-        "published": "2026-08-26T07:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "August 25, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#August_25_2026",
-        "summary": "BigQuery\nFeature\nBigQuery data governance tags are\nsupported in Terraform. This feature is in\nPreview.\nCloud Run\nFeature\nCloud Run instances\nare available in\nPreview. Instances\nare specifically designed for running long-lived and individually addressable\nworkloads. To learn more, see the\nproduct overview,\nresource comparison,\nand instance lifecycle pages.\nCloud SQL for PostgreSQL\nFeature\nUse assessments (Preview)\nin Database Center to assess and test the\nperformance impact of database recommendations before you apply them to your\nproduction database fleet.\nThe assessments workflow performs these operations:\nClones your database instance.\nRuns benchmarking simulation tests on the clone.\nCompares the baseline performance of the clone against the performance after\nyou apply the recommended configuration changes.\nFor more information, see Assessments in Database Center.\nDatabase Center\nFeature\nUse assessments (Preview)\nin Database Center to assess and test the performance impact of\ndatabase recommendations before you apply them to your production database fleet.\nThe assessments workflow performs these operations:\nClones your database instance.\nRuns benchmarking simulation tests on the clone.\nCompares the baseline performance of the clone against the performance after\nyou apply the recommended configuration changes.\nDatabase Center assessments are available only for\nCloud SQL for PostgreSQL instances.\nFor more information, see Create an assessment of a recommendation.\nGoogle…",
-        "image": null,
-        "source": "Google Cloud Platform (GCP) - Release notes",
-        "published": "2026-08-25T07:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "August 24, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#August_24_2026",
-        "summary": "Anthos Config Management\nChange\nAddressed multiple Common Vulnerabilities and Exposures (CVEs) by updating dependencies.\nFeature\nYou can now disable monitoring for specific custom RootSync or RepoSync objects by setting the spec.monitoring.enabled field to false. This disables metric telemetry collection and exporting for that reconciler, which can help reduce cluster resource consumption. For more information, see Disable monitoring.\nBackup and DR\nFeature\nBackup vault support for Filestore instances encrypted with customer-managed encryption keys (CMEK) is now generally available (GA). When you back up Filestore instances to a CMEK-enabled backup vault, the backups are encrypted using the backup vault CMEK key.\nFor more information, see Customer-managed encryption keys (CMEK), Back up Filestore instances to a backup vault, and Restore a Filestore instance from a backup vault.\nBigQuery\nFeature\nYou can now\nmonitor\nthe performance, adoption, latency, and costs of your data agents and their\nconversations by using Google Cloud Observability in BigQuery.\nThis feature is in\nPreview.\nCloud Build\nSecurity\nAn Incorrect Authorization vulnerability CVE-2026-19410,\nin GitHub Trigger Comment Control in Cloud Build, was fixed. No customer action is needed.\nCloud Trace\nFeature\nYou can update the display name, description, and Cloud KMS key\napplied to a _Trace observability bucket.\nFor more information, see\nUpdate observability buckets.\nFeature\nYou can manually create the _Trace…",
-        "image": null,
-        "source": "Google Cloud Platform (GCP) - Release notes",
-        "published": "2026-08-24T07:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "August 23, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#August_23_2026",
-        "summary": "Agent Platform Workbench\nChange\nInstalled latest packages from upstream dependencies.\nChange\n20260823-2330-rc0 Release\nChange\nInstalled latest packages from upstream dependencies.\nChange\n20260823-2330-rc0 Release\nChange\n20260823-2230-rc0 Release\nChange\nInstalled latest packages from upstream dependencies.\nChange\n20260823-2230-rc0 Release\nChange\nInstalled latest packages from upstream dependencies.\nFixed\nScheduled notebook executions now report their final status when the execution user's credentials stop working part way through a run, instead of continuing until the execution timeout.\nChange\n20260823-2130-rc0 Release\nChange\nInstalled latest packages from upstream dependencies.\nFixed\nScheduled notebook executions now report their final status when the execution user's credentials stop working part way through a run, instead of continuing until the execution timeout.\nChange\nInstalled latest packages from upstream dependencies.\nChange\nM147 Release",
-        "image": null,
-        "source": "Google Cloud Platform (GCP) - Release notes",
-        "published": "2026-08-23T07:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "August 22, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#August_22_2026",
-        "summary": "Apigee UI\nFixed\nBug ID\nDescription\n\n\n\n\n543626585\n\n\nServiceCallout policy can now be added in the Apigee UI\n\n\n          Adding a ServiceCallout policy in the Apigee UI no longer leaves the\n          Create or Add button disabled.\n        \nService Callout in the\n          Create policy or Add policy panel could display only\n          the Name and Display name fields and omit the required\n          HTTP target field. With the required field missing, the form never\n          became valid, so the Create or Add button stayed\n          disabled no matter what you entered. This affected both API proxies\n          and shared flows.\n        \nServiceCallout policy\n          and\n          Attach and configure policies in the UI.\n        \nFixed\nBug ID\nDescription\n\n\n\n\n540008387\n\n\nDeveloper custom attributes now save reliably in the Apigee UI\n\n\n          Saving changes to a developer in the\n          Apigee UI in Cloud console\n          no longer intermittently fails to persist that developer's custom\n          attributes.\n        \nIdentity and Access Management\nFeature\nThe Agent Identity auth manager and the Agent Identity APIs\n(agentidentity.googleapis.com and agentidentitycredentials.googleapis.com)\nare generally available.\nAgent Identity auth manager provides a centralized credentials vault and\nauthentication broker that simplifies outbound tool authentication for 3-legged\nOAuth, 2-legged OAuth, and API keys. The Agent Identity APIs replace the legacy\nIAM Connectors API…",
-        "image": null,
-        "source": "Google Cloud Platform (GCP) - Release notes",
-        "published": "2026-08-22T07:00:00.000Z",
-        "isNew": false
       }
     ],
     "kubernetes": [
+      {
+        "title": "Kubernetes v1.37: KubeletInUserNamespace (aka Rootless mode) Graduates to Beta",
+        "link": "https://kubernetes.io/blog/2026/09/04/kubernetes-v1-37-rootless-beta/",
+        "summary": "Kubernetes v1.37 promotes the KubeletInUserNamespace feature gate to beta.\nWith this feature enabled, all of the node components (kubelet, CRI and OCI runtimes,\nCNI plugins, and kube-proxy) can run as a non-root user on the host, using a\nLinux user namespace.\nThis technique is also known as rootless mode.\nThe work started as an experiment in 2018, and was merged into Kubernetes v1.22 (2021)\nas an alpha feature (Kubernetes Enhancement Proposal KEP-2033).\nThis feature should not be confused with user namespaces for pods\n(hostUsers: false with the UserNamespacesSupport feature gate, GA since v1.36),\nwhich puts pods in user namespaces but still runs the node components as root.\nThese two features do not conflict.\nMoreover, they can be combined to nest Kubernetes inside Kubernetes without resorting to\nthe full privileged: true.\nWhy run the node components in a user namespace?\nBecause the node components have historically had container-breakout vulnerabilities\nthat could compromise full root privileges on the host.\nExamples of such vulnerabilities include:\nCVE-2022-0811\n(\"cr8escape\"): CRI-O could be tricked into setting arbitrary sysctls, such as\nkernel.core_pattern, resulting in arbitrary code execution as root on the host\nCVE-2023-27561:\nrunc could be tricked into bypassing the masked paths of a container via a volume\nmount race, exposing the host's procfs files (a regression of CVE-2019-19921)\nCVE-2024-10220:\nthe kubelet could be made to execute arbitrary commands as root via…",
+        "image": null,
+        "source": "Kubernetes Blog",
+        "published": "2026-09-04T18:30:00.000Z",
+        "isNew": true
+      },
+      {
+        "title": "Kubernetes v1.37: DRA Updates",
+        "link": "https://kubernetes.io/blog/2026/09/03/kubernetes-v1-37-dra-updates/",
+        "summary": "Kubernetes 1.37 is here and Dynamic Resource Allocation (DRA) keeps pushing past where it started! This release brings DRA Extended Resource support to GA, a milestone the team has been building toward for three straight releases. Several more features graduate to Beta or GA. A fresh batch of alpha features rounds out the release.\nI'll dive into what's new for DRA in Kubernetes 1.37!\nWhat's stable in 1.37\nDRA Extended Resource support has graduated to GA. This is the mechanism that lets DRA drivers satisfy requests made through the traditional extended resource API, think example.com/gpu in a Pod spec, without requiring a separate device plugin alongside the DRA driver. An extended resource name can be set directly on a DeviceClass, and Pods requesting it get matched to a device through DRA with no ResourceClaim needed on the workload's part.\nIt's been on a steady path since KEP acceptance in 1.34. Alpha landed in 1.35, Beta in 1.36, and now it's Stable. For cluster operators, this is what makes DRA adoption gradual. Existing workloads written against extended resources keep working unmodified while the backend allocation logic moves over to DRA.\nResourceClaims status with possible standardized network interface data adds a devices field to ResourceClaim .status, letting DRA drivers report per-device status, including, for network devices, the interface name, MAC address, and IP addresses. This gives users and controllers visibility into device state that was previously…",
+        "image": null,
+        "source": "Kubernetes Blog",
+        "published": "2026-09-03T18:30:00.000Z",
+        "isNew": false
+      },
+      {
+        "title": "Kubernetes v1.37: Scale Workloads to Zero with HorizontalPodAutoscaler",
+        "link": "https://kubernetes.io/blog/2026/09/02/kubernetes-v1-37-hpa-scale-to-zero-beta/",
+        "summary": "Kubernetes v1.37 includes API support for horizontal autoscaling of workloads down\nto zero replicas. This feature is now Beta and enabled by default. A\nHorizontalPodAutoscaler\n(HPA) that uses a suitable object metric or external metric can now scale a\nworkload to zero replicas, then bring it back when the metric changes.\nBefore v1.37, you needed an add-on or external component, or you had to enable the\nAlpha feature gate, to scale from zero. It is now part of core Kubernetes.\nScaling to zero removes the last idle Pod from workloads such as queue consumers and\nbatch processors. The savings are largest when each Pod reserves expensive resources,\nincluding dedicated CPUs or GPUs.\nThe trade-off is cold-start time: the HPA must observe the metric, schedule a Pod, and\nstart the application. This works well when work can wait in a durable queue.\nKubernetes Services do not buffer requests while no Pods are ready, so HTTP and other\nrequest-driven workloads need a separate buffering layer.\nWhy scaling from zero needs a different metric\nThe HPA commonly scales on CPU or memory usage. Both metrics come from running Pods.\nOnce the replica count reaches zero, there are no Pods left to measure and no signal\nthat can tell the HPA to scale back up.\nObject and external metrics do not have that limitation. A queue length, for example,\nexists independently of the workers that consume it. The HPA can continue reading the\nqueue length while no workers are running.\nThe following example scales a…",
+        "image": null,
+        "source": "Kubernetes Blog",
+        "published": "2026-09-02T18:30:00.000Z",
+        "isNew": false
+      },
+      {
+        "title": "Kubernetes v1.37: etcd RangeStream Cuts Memory Use on Large List Reads",
+        "link": "https://kubernetes.io/blog/2026/09/01/kubernetes-v1-37-etcd-range-stream/",
+        "summary": "I am excited to announce that etcd RangeStream is graduating to beta in\nKubernetes v1.37. Paired with etcd v3.7, it reduces the memory the API server and\netcd need to read a large collection, and makes peak usage more predictable.\nThe cost of large reads\nThe API server serves most list and watch requests from its in-memory watch cache.\nPopulating that cache requires reading a resource's full state from etcd, at\nstartup and on every re-initialization. For a resource with many objects, or large\nones, such as Pods, that read is expensive.\nThe API server already paginated these reads, asking etcd for a fixed number of\nkeys at a time rather than the whole collection at once. But a page bounded by key\ncount has no awareness of object size, so a page of large objects can still be\nvery large. That makes memory usage hard to predict, and a bad combination of\nobject size and concurrent reads can be enough to trigger an OOM. etcd's unary\nRange assembles each page in full before sending it, and the API server holds it\nwhile decoding, so the same payload sits in memory on both sides at once. Most of\nthat cost lands on etcd, which is also where streaming helps most.\nStreaming reads with RangeStream\netcd v3.7 adds a streaming version of that read, the RangeStream RPC. It takes\nthe same RangeRequest as Range and returns the same result set, but instead of\nbuilding the whole response up front, etcd splits it into chunks and streams them.\nChunk size is tuned adaptively to the values being…",
+        "image": null,
+        "source": "Kubernetes Blog",
+        "published": "2026-09-01T18:30:00.000Z",
+        "isNew": false
+      },
+      {
+        "title": "Kubernetes v1.37: Storage Version Migration Enabled by Default",
+        "link": "https://kubernetes.io/blog/2026/08/31/kubernetes-v1-37-storage-version-migration-ga/",
+        "summary": "I am excited that storage version migration (SVM) has graduated to General Availability (GA) in Kubernetes v1.37!\nAfter a number of releases of work and testing, the built-in StorageVersionMigration API (storagemigration.k8s.io/v1)\nand control plane controller are now fully stable and enabled by default across all v1.37 Kubernetes clusters.\nThe problem with stale storage versions\nIn Kubernetes, stored API resources are written using a specific storage version (schema representation). The way Kubernetes interacts with object storage fundamentally requires mutation of a resource in order to ensure that the latest storage version is used for all resources. This creates problems when you want to change the storage version of a resource.\nOne example of a scenario where you may want to change the storage version of a resource is when you are promoting a CRD to drop an older API version (such as v1alpha1) to a newer version (leaving just v1beta1 and v1). It's a problem to drop the older API version whilst there are still resources stored with the old alpha version.\nTo avoid problems, you designate v1 as the new storage version; but, on it's own, that's not enough. While new writes are stored as v1, any existing resource could remain stored as v1alpha1 or v1beta1 in storage. You cannot safely remove v1alpha1 from the CRD's .status.storedVersions or drop serving support until every single resource in storage has been re-written to not be serialized and stored with the alpha version.…",
+        "image": null,
+        "source": "Kubernetes Blog",
+        "published": "2026-08-31T18:30:00.000Z",
+        "isNew": false
+      },
       {
         "title": "Kubernetes v1.37: Pod Certificates and Cluster Trust Bundles",
         "link": "https://kubernetes.io/blog/2026/08/28/kubernetes-v1-37-pod-certificates-and-cluster-trust-bundles/",
@@ -278,54 +323,18 @@
         "source": "Kubernetes Blog",
         "published": "2026-08-26T00:00:00.000Z",
         "isNew": false
-      },
-      {
-        "title": "How to Pretty-Print Your Kubernetes YAML as KYAML and Why You'd Want To",
-        "link": "https://kubernetes.io/blog/2026/08/11/how-to-pretty-print-kubernetes-yaml-as-kyaml/",
-        "summary": "YAML has been the standard way to write Kubernetes manifests for years. Every example, tutorial, and configuration file you come across is written in it. The problem isn't that YAML is a bad format. It's that YAML gives you a lot of choices, and not all of them are equally good for writing Kubernetes manifests. Some features make files harder to read, some are easy to misuse and others can lead to surprising behavior.\nThe interesting part is that Kubernetes doesn't actually need most of those features. It only relies on a small subset of YAML. This led to a simple question: if Kubernetes only needs a small part of YAML, why not standardize on that part and avoid the rest? Instead of introducing a new configuration language, SIG CLI introduced KYAML, a stricter, more consistent way to write YAML.\nWhat is KYAML?\nKYAML is a strict subset (or \"dialect\") of standard YAML, designed to be parseable by the existing ecosystem without any changes, as proposed in KEP 5295. It does not introduce a new format or a new parser. It just narrows the scope of choices you make when writing YAML, so everyone ends up making the same ones.\nThink of it less like a new language and more like an agreed-upon style. Everything valid in KYAML is valid YAML.\nHow KYAML solves it\nStandard YAML has a few well-known traps and JSON is not without its own.\nWhitespace sensitivity. Indentation defines structure in YAML, which means a wrongly indented file can remain syntactically valid while representing a…",
-        "image": null,
-        "source": "Kubernetes Blog",
-        "published": "2026-08-11T18:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "Gateway API v1.6: TCPRoute and UDPRoute Graduate to Standard",
-        "link": "https://kubernetes.io/blog/2026/08/03/gateway-api-v1-6-release/",
-        "summary": "The Kubernetes SIG Network community is thrilled to share the release of Gateway API v1.6.0, which was released on June 30th of this year!\nGateway API has become the standard for modern, role-oriented,\nand expressive service networking in Kubernetes.\nIn previous releases, Gateway API established a production-grade foundation\nfor HTTP and TLS layer 7 traffic.\nWith version 1.6.0, Gateway API takes a major step forward by expanding\nstandard layer 4 protocol routing and introducing cleaner API boundaries for experimental innovation.\nHere is a quick summary of what's new in Gateway API v1.6.0:\nTCPRoute and UDPRoute Graduate to Standard: Raw L4 TCP and UDP traffic routing reach GA stability in the v1 API version.\nExperimental API Group Separation: Experimental resources transition to a distinct API group (gateway.networking.x-k8s.io) with an X prefix to make experimental vs. standard boundaries crystal clear.\nLet's dive into the details!\nTCPRoute and UDPRoute graduate to Standard\nLeads: Nick Young, Ricardo Katz and Zac Nixon\nGEP-2644 - TCPRoute\nGEP-2645 - UDPRoute\nUntil now, Gateway API only offered a stable routing model for HTTP and TLS traffic.\nWorkloads that speak a raw protocol over TCP or UDP - databases,\nDNS, VoIP, gaming, IoT telemetry - had no portable way to plug\ninto a Gateway. Users either fell back to a plain Kubernetes Service,\nor to an implementation-specific CRD that doesn't travel between Gateway controllers.\nTCPRoute and UDPRoute close that gap: they route…",
-        "image": "https://kubernetes.io/blog/2026/08/03/gateway-api-v1-6-release/gateway-api-logo.svg",
-        "source": "Kubernetes Blog",
-        "published": "2026-08-03T16:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "Kubernetes v1.37 Sneak Peek",
-        "link": "https://kubernetes.io/blog/2026/07/31/kubernetes-v1-37-sneak-peek/",
-        "summary": "As we get closer to the release date for Kubernetes v1.37, the project develops and matures,\nfeatures may be deprecated, removed, or replaced with better ones for the project's overall\nhealth. This blog outlines some of the planned changes for the Kubernetes v1.37 release that the\nrelease team feels you should be aware of for the continued maintenance of your Kubernetes\nenvironment and keeping up to date with the latest changes. The information below reflects the\ncurrent status of the v1.37 release and may change before the actual release date.\nDeprecations and removals for Kubernetes v1.37\nKubectl: kubectl run --filename/-f to be deprecated\nThe --filename (or -f) flag for kubectl run is being deprecated as the generated pod is always built purely from CLI arguments like NAME and --image.\nSee kubernetes/kubernetes#138671 for the original issue and discussion.\nKubelet: Static Pods can no longer reference Secrets or ConfigMaps\nStatic Pods were never meant to read API resources directly, since they aren't created through the API server — but a bug let them reference Secrets or ConfigMaps via fields like configMapRef or secretRef. That bug is now fixed: as of v1.37 these references are strictly prohibited, and the PreventStaticPodAPIReferences feature gate that previously let you opt out of the restriction has been removed.\nSee kubernetes/kubernetes#140226 for the original issue and discussion.\nDeprecating kube-proxy's support for ipvs mode\nkube-proxy support for ipvs mode was…",
-        "image": null,
-        "source": "Kubernetes Blog",
-        "published": "2026-07-31T16:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "How the controller-runtime Cache Actually Works, and Why Your Controller Does Not Crash the API Server",
-        "link": "https://kubernetes.io/blog/2026/07/29/controller-runtime-cache-explained/",
-        "summary": "This article has been revised since it was first published, to correct several significant technical inaccuracies in the original text.\nKubernetes has long been the default platform for distributed workloads, and writing your own\ncontroller for it is now a matter of a few hours. The common path — Golang, using kubebuilder on top of\ncontroller-runtime — gives you a project scaffold, types, and a reconciler. For typical\nscenarios that is more than enough. But as soon as load grows or the controller starts behaving\nin ways you did not expect, a whole class of edge cases shows up. Most of them trace back to\nthe same root cause: a fuzzy mental model of how controller-runtime works inside. If you\nwrite Kubernetes controllers in Go, this article should help you build a coherent picture and\navoid expensive surprises in production.\nThis article walks through the internals of controller-runtime and, along the way, shows which\narchitectural decisions are baked into Kubernetes itself. The starting point is how\ncontrollers actually read objects from the Kubernetes API.\nA common misconception goes like this: r.Get() inside Reconcile queries kube-apiserver\ndirectly; r.List() returns a fresh, live view of the world; and after r.Update() you can\nre-read the object and immediately see the new state. In practice the model is the opposite:\ncontroller-runtime operates against a local copy of the data populated through list + watch.\nReads inside a reconciler cost almost nothing and do not load…",
-        "image": "https://kubernetes.io/blog/2026/07/29/controller-runtime-cache-explained/pipeline.svg",
-        "source": "Kubernetes Blog",
-        "published": "2026-07-29T18:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "Building a Custom Metrics Exporter for Kubernetes",
-        "link": "https://kubernetes.io/blog/2026/07/14/custom-metrics-exporter-kubernetes/",
-        "summary": "Kubernetes ships with built-in awareness of CPU and memory, but most\nreal-world scaling decisions depend on signals that live entirely outside\nthat narrow window: how many messages are waiting in a queue, how long\nthe last batch job took, how many active WebSocket connections a pod is\nholding. When the built-in metrics are not enough, a metrics exporter\nbridges that gap.\nThis post walks through writing one from scratch, packaging it as a\ncontainer, and wiring it into a cluster so that Prometheus — and\nultimately the HorizontalPodAutoscaler — can consume it.\nWhat a metrics exporter actually does\nAn exporter is a small HTTP server with a single responsibility: expose\napplication state as text on a /metrics endpoint. Prometheus scrapes\nthat endpoint on a regular interval, stores the time-series data, and\nmakes it available for queries, alerts, and autoscaling rules.\nIn some cases you can instrument your application directly — embedding\nthe Prometheus client library and exposing /metrics from within the\nsame process — rather than running a separate exporter. A standalone\nexporter makes more sense when the data source is external to your\napplication or when you do not control the application code.\nThe format Prometheus expects is plain text — one metric per line, with\na name, optional labels, and a numeric value. Client libraries handle\nthe serialization for you, so in practice you only need to decide what\nto measure and call the right function when that value changes.\nChoosing…",
-        "image": null,
-        "source": "Kubernetes Blog",
-        "published": "2026-07-14T18:00:00.000Z",
-        "isNew": false
       }
     ],
     "terraform": [
+      {
+        "title": "v1.16.1",
+        "link": "https://github.com/hashicorp/terraform/releases/tag/v1.16.1",
+        "summary": "1.16.1 (September 2, 2026)\nBUG FIXES:\ncloud: Fixed a bug causing the CLI to pause indefinitely after a run task failure with pending policy evaluations (#38751)\nSupport referencing modules containing dynamic sources in Terraform Test (#38950)\nstacks: Fixed validation to ensure the provider versions in the lock file and configuration are compatible. (#38829)\nFix panic when import identity references sensitive value (#39013)\nimport: Fixed a bug where import blocks would be ignored when multiple imports targeted different instances of a resource config using for_each or count. (#39068)\nstate show: Fix a panic when given an attribute path instead of a resource instance address (#39087)\nFix create_before_destroy ordering in some combinations of changes (#39091)",
+        "image": "https://avatars.githubusercontent.com/u/82989873?s=60&v=4",
+        "source": "Release notes from terraform",
+        "published": "2026-09-02T14:49:32.000Z",
+        "isNew": false
+      },
       {
         "title": "v1.17.0-alpha20260827",
         "link": "https://github.com/hashicorp/terraform/releases/tag/v1.17.0-alpha20260827",
@@ -388,18 +397,45 @@
         "source": "Release notes from terraform",
         "published": "2026-08-05T18:07:50.000Z",
         "isNew": false
-      },
-      {
-        "title": "v1.17.0-alpha20260729",
-        "link": "https://github.com/hashicorp/terraform/releases/tag/v1.17.0-alpha20260729",
-        "summary": "1.17.0-alpha20260729 (July 29, 2026)\nENHANCEMENTS:\ncommand/init: Enrich log messages with provider versions (#38918)\nBUG FIXES:\nfuncs: pow and log no longer panic when result is not a number (#38912)\nEXPERIMENTS:\nExperiments are only enabled in alpha releases of Terraform CLI. The following features are not yet available in stable releases.\nThe experimental \"deferred actions\" feature, enabled by passing the -allow-deferral option to terraform plan, permits count and for_each arguments in module, resource, and data blocks to have unknown values and allows providers to react more flexibly to unknown values.\nterraform test cleanup: The experimental test cleanup command. In experimental builds of Terraform, a manifest file and state files for each failed cleanup operation during test operations are saved within the .terraform local directory. The test cleanup command will attempt to clean up the local state files left behind automatically, without requiring manual intervention.\nterraform test: backend blocks and skip_cleanup attributes:\n\nTest authors can now specify backend blocks within run blocks in Terraform Test files. Run blocks with backend blocks will load state from the specified backend instead of starting from empty state on every execution. This allows test authors to keep long-running test infrastructure alive between test operations, saving time during regular test operations.\nTest authors can now specify skip_cleanup attributes within test files and within run…",
-        "image": "https://avatars.githubusercontent.com/u/82989873?s=60&v=4",
-        "source": "Release notes from terraform",
-        "published": "2026-07-29T19:38:27.000Z",
-        "isNew": false
       }
     ],
     "python": [
+      {
+        "title": "The 2026 PSF Board Election is Open!",
+        "link": "https://pyfound.blogspot.com/2026/09/the-2026-psf-board-election-is-open.html",
+        "summary": "It’s time to cast your vote! Voting for the 2026 PSF Board Election is open starting today Tuesday, September 1st, 2:00 pm UTC, through Tuesday, September 15th, 2:00 pm UTC. \n\nHow to Vote\nIf you are a voting member of the PSF who affirmed your intention to participate in this year’s election or you voted in last year’s election, you will receive an email today from “OpaVote Voting Link <noreply@opavote.com>” with a link to your ballot. The subject line will read “Python Software Foundation Board of Directors Election 2026”. If you haven’t seen your ballot by Wednesday, please first check your spam folder for a message from “noreply@opavote.com”. If you can’t find the ballot email from OpaVote please get in touch by emailing psf-elections@pyfound.org so we can look into your account and make sure we have the most up-to-date email for you.\nFour seats on the board are open, but you can vote to approve as many of the 17 candidates as you like. We’re delighted by how many of you are willing to contribute to the Python community by serving on the PSF Board! Make sure you take some time to look at all the nominee statements and choose your candidates carefully. \nATTN: Choose carefully before you press the big green vote button. Once your vote is cast, it cannot be changed.\n\nAn Informed Vote is a Great Vote\nNomination and supporting statements are the clearest way to see how each candidate actually thinks: their priorities, experience, and vision for the PSF. Rather than just voting…",
+        "image": null,
+        "source": "Python Software Foundation News",
+        "published": "2026-09-01T14:02:12.153Z",
+        "isNew": false
+      },
+      {
+        "title": "Inaugural Python Packaging Council Election: Voting is now open!",
+        "link": "https://pyfound.blogspot.com/2026/09/inaugural-python-packaging-council.html",
+        "summary": "It’s time to cast your vote! Voting for the inaugural 2026 Python Packaging Council (PPC) Election is open now through September 15 at 2:00 pm UTC.\n\nFind Your Ballot\nIf you are a voting member of the PSF who affirmed your intention to participate in this year’s election, you will receive an email today from “OpaVote Voting Link <noreply@opavote.com>” containing a link to your ballot. The subject line will be “Python Packaging Council Election 2026”.\nIf you haven’t received your ballot by September 2, first check your spam folder for a message from noreply@opavote.com. If you still can’t find the OpaVote email, please contact pc-elections@python.org. We can look into your account and confirm that we have the most up-to-date email address for you.\n\nReview the Nominees\nPlease take some time to read all of the nominee statements before casting your ballot. Consider what each nominee brings to the Council, the priorities and perspectives they describe, and how you would like to see Python packaging evolve. You can also ask candidates questions directly in the PPC Nominations AMA threads on discuss.python.org.\nImportant: Review your selections carefully before pressing the big green vote button. Once your ballot has been cast, your vote cannot be changed.\n\nWho Can Vote?\nTo vote in this election, you must be a Contributing, Supporting, or Fellow member of the PSF and have affirmed your intention to vote by August 25 at 2:00 pm UTC.\nIf you’d like to learn more about PSF membership…",
+        "image": null,
+        "source": "Python Software Foundation News",
+        "published": "2026-09-01T13:59:58.882Z",
+        "isNew": false
+      },
+      {
+        "title": "Python 3.15.0 candidate 2 is here!",
+        "link": "https://blog.python.org/2026/09/python-3150-rc2/",
+        "summary": "Last chance to test before the big day!",
+        "image": null,
+        "source": "Python Insider",
+        "published": "2026-09-01T00:00:00.000Z",
+        "isNew": false
+      },
+      {
+        "title": "Kojo Idrissa: 2026 PSF Board Election Candidate Interview",
+        "link": "https://pyfound.blogspot.com/2026/08/kojo-idrissa-2026-psf-board-election.html",
+        "summary": "Who are you? \nI'm a software engineer at REVSYS. Before that I was an accountant. I was also a university instructor in the US and China.  I taught English, Western Culture, Problem-Solving, Accounting and MIS.\nWhat would you bring to the PSF Board of Directors?\nI bring business acumen from my accounting degree, MBA, and prior career as an accountant. I've also been on a non-profit board, when I was a board member for DEFNA, the non-profit that puts on DjangoCon US. I bring a global perspective of the Python community. I'm American, but I've spoken at conferences in Canada, Mexico, the Dominican Republic, Europe, Africa, and Australia. I used those opportunities to build ties with those local communities and increase my awareness of how their needs differ from the communities in the US, where the PSF is based.\nWhat motivated you to run for the PSF Board of Directors?\nI hadn't thought about running for the board until someone suggested I consider it, based on my prior community activity. As I thought about it, I realized I had some expertise and experience that I could use to benefit the broader Python community. In addition to my business background, I've made lots of connections with people from different parts of the global community.\nWhat problem or challenge do you want to address if you are on the board?\nThe decline in the community's confidence in the board.\nWhat I see (and hear, from other community members) is more a set of related challenges, instead of a single…",
+        "image": null,
+        "source": "Python Software Foundation News",
+        "published": "2026-08-31T14:45:44.984Z",
+        "isNew": false
+      },
       {
         "title": "Ramya Ravi: 2026 PSF Board Election Candidate Interview",
         "link": "https://pyfound.blogspot.com/2026/08/ramya-ravi-2026-psf-board-election.html",
@@ -435,45 +471,18 @@
         "source": "Python Software Foundation News",
         "published": "2026-08-25T12:51:41.133Z",
         "isNew": false
-      },
-      {
-        "title": "Karo Ladino-Puerto: 2026 PSF Board Election Candidate Interview",
-        "link": "https://pyfound.blogspot.com/2026/08/karo-ladino-puerto-2026-psf-board.html",
-        "summary": "Who are you?\n\n¡Hola mundo! I'm Karo Ladino-Puerto, though most of the community knows me as Karobot. I'm Colombian, a PSF Fellow since 2020, and I've spent the last eight years building Python community infrastructure in my country alongside a lot of amazing people. I've co-led PyLadies Colombia since 2018, supporting chapters in Bogotá, Medellín, Cali, Bucaramanga, Boyacá and Santa Marta. I co-organized PyCon Colombia from 2020 to 2025, and today I'm one of three women leading Python Colombia, with the objective of reconnecting the Python communities across the whole country. In 2025 I co-founded Fundación Átoma with Carolina Gómez and Nicole Franco, a Colombian non-profit that trains women in programming and helps local organizers keep their tech conferences free.\nBy trade I'm a project manager, which mostly means I'm the person who notices the task nobody was assigned, asks the awkward question early, and keeps the timeline honest. It's the same skill I use in community work. I over-communicate on purpose, I'm detail-oriented to a degree that occasionally annoys people, and I still believe most good things don't need a big budget, just organization and consistency.\nWhat would you bring to the PSF Board of Directors?\nI ran for the Board in 2024. I'm running again because the question in front of the PSF has changed, and I think I can be more useful this time.\nIn 2024 we were mostly talking about growth. Today the Grants Program is running on a capped budget after last…",
-        "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjFUxjESZAcGGxEgsr2BlBo75pZ4yTvWEsF1GxwRdGiGAhtwbdmv_WGZwzEf4LaAKP0PvOjFPEm7KvtkDTxh97AaLqbtwx_JCQPszloYH7xloxj2jXH1whXYKARm-Ow6ZBo9hiIoPgxgFSiJwxt9qkLI7c29uQTs_MXwmOAkmI4g8UjPSR5Dg/s72-c/KaroLadino-Puerto_2026PSFBoardElection.png",
-        "source": "Python Software Foundation News",
-        "published": "2026-08-25T12:51:24.106Z",
-        "isNew": false
-      },
-      {
-        "title": "Kalyan Prasad: 2026 PSF Board Election Candidate Interview",
-        "link": "https://pyfound.blogspot.com/2026/08/kalyan-prasad-2026-psf-board-election.html",
-        "summary": "Who are you? \nHi, I’m Kalyan Prasad. My journey has been unconventional and shaped by persistence, self-learning, and community. I started working at a young age while continuing my studies, including delivering newspapers and milk. I later began my professional career in the financial services industry, working across operations and related roles.\nOver time, I became increasingly curious about data and technology and decided to make a career transition. Coming from a non-technical background, I had a lot to learn. Through self-learning, continuous practice, and the support of communities, I moved into data science, later took on data and AI leadership roles, and today work as an AI and Data Science Practice Lead.\nPython has been an important part of both my professional and community journey. I became involved with the Python community in 2019, starting as a room monitor at PyConf Hyderabad. Since then, I have grown from being a volunteer to organizing conferences, mentoring others, contributing to program committees and working groups, and taking on community leadership responsibilities.\nFor me, Python is much more than a programming language. It is a community that has helped me learn, grow, contribute, and build meaningful relationships. That experience continues to shape how I think about technology, opportunity, and community service.\nWhat would you bring to the PSF Board of Directors?\nI would bring the perspective of someone who has worked both inside community…",
-        "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi9O8dr_u_Ki0RcICOA53RJBxuN74txctNYJQFJyFjY4SiSNb2RhlERSBOTUz0lP8HAxtrMLuZ0hj1MT8W0QJMja4kqgCNkMs78rEDXFO5nejNNiZVINVAp8EEJIgEZMDJVtGnmdohI213jpmlvJuKcuc6n3tCiHg-mT1u83sezP3IvSe0YBw/s72-c/KalyanPrasad_2026PSFBoardElection.jpg",
-        "source": "Python Software Foundation News",
-        "published": "2026-08-25T12:51:09.255Z",
-        "isNew": false
-      },
-      {
-        "title": "Jeremy Tanner: 2026 PSF Board Election Candidate Interview",
-        "link": "https://pyfound.blogspot.com/2026/08/jeremy-tanner-2026-psf-board-election.html",
-        "summary": "Who are you? \nI'm Jeremy Tanner, an organizer, speaker, sponsor, Python developer, and community member. I'm based in North America, though many of my favorite people, places, and events are not. I've spent much of my career in the open Python ecosystem; packaging infrastructure, developer tooling, and the supply chains that get Python into the hands of pythonistas building everything imaginable. I believe the Python community should look like the world, not just the English-speaking, North American corner of it, and that sustainable finances are what make that vision achievable. I'm running for the PSF Board to do both: raise sustainable funds and resources, and make sure they reach everywhere.\n\nWhat would you bring to the PSF Board of Directors?\nSponsorship for Python Foundations, Events, Organizations: I have direct experience securing corporate partnerships and sponsorships for the Python ecosystem, including navigating the internal processes of large companies to provide support to open source projects, infrastructure, and community gatherings. I’ve been on the organizing side as well, responsible for fundraising, programming, and attendee experience.\n\nWhat motivated you to run for the PSF Board of Directors?\nI wouldn't be here if it weren't for Python.\nThe PSF is the organizational backbone of the most important programming language in the world, and it is perpetually underfunded relative to its mission. Companies and the community benefit enormously from the PSF's…",
-        "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjBGUudyb_kNO5hqkqN2Fdqez0R3Cs1UDXL-ZsM0xaWNCW2uiEggYUKpKzjUI3a48WgwPAoCea6WyzXoOrElU0SEx7fE7UWlR4gDFtdqRGdgGKmD4gOPNDtWnmTKroBJp9ULk_Rr81WWM9FIK2g_051RQw0J2jEIco6Q5qlO5RF1dF_H3As3g/s72-c/JeremyTanner_2026PSFBoardElection.jpg",
-        "source": "Python Software Foundation News",
-        "published": "2026-08-25T12:50:54.540Z",
-        "isNew": false
-      },
-      {
-        "title": "Georgi Ker: 2026 PSF Board Election Candidate Interview",
-        "link": "https://pyfound.blogspot.com/2026/08/georgi-ker-2026-psf-board-election.html",
-        "summary": "Who are you?\nHi, I’m Georgi, an independent entrepreneur, open source community organiser, and leader. I’m also a PSF Fellow and a recipient of the PSF Community Service Award.\nAlthough I currently live in Amsterdam, I am proud to represent communities across Asia. I have served on the PSF Board since 2023. I also helped design PyCon US branding and websites since 2022 and for other open source community events and projects as well.\nMy contributions to the Python community span over many years, beginning mainly in Asia and becoming more international over time. Much of my work sits where people, governance, and community meet.\nI care especially about the people doing the quiet work that keeps open source communities alive. They may not always be on the main stage, but the community would not exist without them.\nWhat would you bring to the PSF Board of Directors?\nThree years on the Board have taught me where the PSF is strong, where it is fragile, and where good intentions are not becoming results. \nAs a former Treasurer, I raised concerns about the lack of a clear financial runway and pushed for stronger budgeting and regular financial planning. Through the Executive Committee, I have also participated in staff discussions, document reviews, difficult organisational decisions, and helped finalize the PSF’s long-delayed strategic planning process with the board.\nMy perspective is also strongly shaped by communities around the world. The work began from Asia and now includes…",
-        "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgrpX5v7vO-OUtX-lzQ81sfxw7Qk-CMsLtK4xlsWQW2mYJj5Z63jISDCOtzpx644pbtXdDNCpr9FRcMIdBUN0Q6xP8lka5tIG7qfrunaBHQDqYFXATpX8FYPXJg8qZOA38aiG-j7ib_ZJA538DG6YEAH5EO6sURsSWGzUvKPAOAokUYZH-_IQ/s72-c/GeorgiKer_2026PSFBoardElection.jpg",
-        "source": "Python Software Foundation News",
-        "published": "2026-08-25T12:50:41.036Z",
-        "isNew": false
       }
     ],
     "go": [
+      {
+        "title": "Goroutine Leak Profiles",
+        "link": "https://go.dev/blog/goroutine-leak-profiles",
+        "summary": "The Go Blog\nGoroutine Leak Profiles\nGo’s concurrency features are powerful and easy to use, but\nthat same ease can sometimes lead even seasoned developers to make\nmistakes.\nFortunately, the Go ecosystem comes equipped with useful tools for\ndebugging, e.g., the race detector,\nbut even existing tools may miss some concurrency bugs,\nsuch as the topic of this article, the goroutine leak.\nGoroutines synchronize or exchange information\nvia shared concurrency primitives, e.g., channels, locks, and wait groups.\nWhile communicating, goroutines often block on these primitives,\nas in, wait until some condition is met;\nubiquitous examples include waiting to acquire a held mutex,\nor receive a message over a channel.\nGoroutines can also block on operating system operations, like reading from a network socket or a file.\nWe may consider a goroutine leaked if it is blocked,\nbut the conditions needed to unblock it can never be met.\nOver time, an accumulation of leaked goroutines degrades\nperformance through excessive memory usage (by the leaked\ngoroutines themselves or the memory they reference), as well as\nCPU usage from the garbage collector, especially\nif GOMEMLIMIT is in use.\nGoroutine leaks can be notoriously difficult to detect.\nIn unit testing, the most significant breakthroughs include\nthe open-source library goleak,\nwhich can instrument individual tests to signal any\nun-terminated goroutines after the test wraps up as suspicious.\nSimilarly, Go 1.25 introduced the synctest package to…",
+        "image": null,
+        "source": "The Go Blog",
+        "published": "2026-09-02T00:00:00.000Z",
+        "isNew": false
+      },
       {
         "title": "Generic Methods",
         "link": "https://go.dev/blog/generic-methods",
@@ -536,18 +545,27 @@
         "source": "The Go Blog",
         "published": "2026-02-17T00:00:00.000Z",
         "isNew": false
-      },
-      {
-        "title": "Go 1.26 is released",
-        "link": "https://go.dev/blog/go1.26",
-        "summary": "The Go Blog\nGo 1.26 is released\nToday the Go team is pleased to release Go 1.26.\nYou can find its binary archives and installers on the download page.\nLanguage changes\nGo 1.26 introduces two significant refinements to the language\nsyntax and type system.\nFirst, the built-in new function, which creates a new variable, now allows its operand to be an\nexpression, specifying the initial value of the variable.\nA simple example of this change means that code such as this:\nx := int64(300)\nptr := &x\n\nCan be simplified to:\nptr := new(int64(300))\n\nSecond, generic types may now refer to themselves in their own type parameter list. This change\nsimplifies the implementation of complex data structures and interfaces.\nPerformance improvements\nThe previously experimental Green Tea garbage collector\nis now enabled by default.\nThe baseline cgo overhead has been reduced\nby approximately 30%.\nThe compiler can now allocate the backing store for\nslices on the stack in more situations, which improves performance.\nTool improvements\nThe go fix command has been completely rewritten to use the\nGo analysis framework, and now includes a\ncouple dozen “modernizers”, analyzers\nthat suggest safe fixes to help your code take advantage of newer features of the language\nand standard library. It also includes the\ninline analyzer, which\nattempts to inline all calls to each function annotated with a //go:fix inline directive.\nTwo upcoming blog posts will address these features in more detail.\nMore improvements…",
-        "image": null,
-        "source": "The Go Blog",
-        "published": "2026-02-10T00:00:00.000Z",
-        "isNew": false
       }
     ],
     "rust": [
+      {
+        "title": "Announcing Rust 1.98.1",
+        "link": "https://blog.rust-lang.org/2026/09/03/Rust-1.98.1/",
+        "summary": "The Rust team has published a new point release of Rust, 1.98.1. Rust is a programming language that is empowering everyone to build reliable and efficient software.\nIf you have a previous version of Rust installed via rustup, getting Rust 1.98.1 is as easy as:\nrustup update stable\nIf you don't have it already, you can get rustup from the appropriate page on our website.\n\nWhat's in 1.98.1\nRust 1.98.1 fixes a miscompilation in vtable generation.\nIn Rust 1.98.0, in some circumstances, rustc would incorrectly generate a trait object vtable with a null pointer\nwhere a function pointer should be. This leads to undefined behavior in the\nemitted code. In some cases this may 'just' cause segfaults due to the null\npointer being loaded, but it is possible for it to be justification for\narbitrary effects (as is typical for UB).\nIf you'd like to help us out by testing future releases, you might consider\nusing the beta (rustup default beta) and nightly (rustup default nightly) channels locally and in your CI. Please\nreport any bugs you\nmight come across!\n\nContributors to 1.98.1\nMany people came together to create Rust 1.98.1. We couldn't have done it without all of you. Thanks!",
+        "image": null,
+        "source": "Rust Blog",
+        "published": "2026-09-03T00:00:00.000Z",
+        "isNew": false
+      },
+      {
+        "title": "Announcing rustup 1.29.1",
+        "link": "https://blog.rust-lang.org/2026/09/01/Rustup-1.29.1/",
+        "summary": "The rustup team is happy to announce the release of rustup version 1.29.1.\nRustup is the recommended tool to install Rust, a\nprogramming language that empowers everyone to build reliable and efficient\nsoftware.\n\nWhat's new in rustup 1.29.1\nThe headlines of this release are:\nConcurrency in certain rustup operations has been improved:\nWhen running rustup update, rustup will first check for possible updates in parallel. pr#4752\nWhen running rustup component add with multiple components, they will be installed concurrently. pr#4790\nImplicit installation of the active toolchain in rustup-init and rustup invocations has\nbeen deprecated where deemed unnecessary and will now produce a warning. pr#4840\nPlease see our\nblog post\nfor more details regarding this change.\nrustup doc now supports the --serve flag which allows serving the docs over local HTTP.\nThis should help users with containerized browser and/or rustup setups. pr#4986\nInstalling i686-pc-windows-* host toolchains on 64-bit Windows now requires --force-non-host.\npr#4935\nrustup-init will no longer leave unexpected files on disk after cancelled installations. pr#4996\nA bug has been fixed which might cause Windows installation to fail when using rustup-init.sh.\npr#4756\n\"Target triple\" has been renamed to \"target tuple\" across the project to reflect the\nnew terminology.\npr#4743 pr#4827 pr#4834\nPlease note that this is not a breaking change in the CLI since the existing\noptions such as --target are not using this terminology.…",
+        "image": null,
+        "source": "Rust Blog",
+        "published": "2026-09-01T00:00:00.000Z",
+        "isNew": false
+      },
       {
         "title": "Announcing our first Maintainers in Residence",
         "link": "https://blog.rust-lang.org/2026/08/26/announcing-our-first-maintainers-in-residence/",
@@ -600,24 +618,6 @@
         "image": null,
         "source": "Rust Blog",
         "published": "2026-07-16T00:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "crates.io: development update",
-        "link": "https://blog.rust-lang.org/2026/07/13/crates-io-development-update/",
-        "summary": "Another six months have passed since our last development update, and the crates.io team has been busy. Here's a summary of the most notable changes and improvements made to crates.io since then.\n\nSource Code Viewer\nCrate pages now have a \"Code\" tab that lets you browse the contents of published crate versions directly on crates.io. This shows you the exact files that cargo downloads when you add a crate as a dependency, which might differ from the linked repository. This makes it much easier to audit your dependencies, including files that never appear in the repository, like the normalized Cargo.toml files that cargo generates.\n\nThe viewer comes with a file tree sidebar with search functionality, syntax highlighting, and GitHub-style line selection, where clicking or dragging line numbers produces shareable #L10-L20 URLs.\nUnder the hood, the server now builds a zip file for every published version. Since the .crate files that cargo consumes are gzipped tarballs without random access support, a background job re-packs each of them into a seekable zip archive plus a JSON manifest describing the contained files. Both are served from our static CDN. The frontend then fetches only the manifest and loads each file on demand with an HTTP range request. Because of this architecture, browsing crate sources essentially adds no load on the crates.io API servers. Existing crate versions have been backfilled, so this works for old releases too.\nThe rendering library behind the code…",
-        "image": "https://blog.rust-lang.org/2026/07/13/crates-io-development-update/code-tab.png",
-        "source": "Rust Blog",
-        "published": "2026-07-13T00:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "Announcing Rust 1.97.0",
-        "link": "https://blog.rust-lang.org/2026/07/09/Rust-1.97.0/",
-        "summary": "The Rust team is happy to announce a new version of Rust, 1.97.0. Rust is a programming language empowering everyone to build reliable and efficient software.\nIf you have a previous version of Rust installed via rustup, you can get 1.97.0 with:\n$ rustup update stable\nIf you don't have it already, you can get rustup from the appropriate page on our website, and check out the detailed release notes for 1.97.0.\nIf you'd like to help us out by testing future releases, you might consider updating locally to use the beta channel (rustup default beta) or the nightly channel (rustup default nightly). Please report any bugs you might come across!\n\nWhat's in 1.97.0 stable\n\nSymbol mangling v0 enabled by default\nWhen Rust is compiled into object files and binaries, each item (functions,\nstatics, etc) must have a globally unique \"symbol\" identifying it. To avoid\nconflicts when linking together different Rust programs, Rust mangles the\noriginal name of items to include additional context such as the module path,\ndefining crate, generics, and more. Historically, this mangling was based on\nthe Itanium ABI,\nalso (sometimes) used by C++.\nThe new mangling scheme resolves a number of drawbacks from the previous one:\nGeneric parameter instantiations preserve their values, rather than being tracked solely behind a hash\nInconsistencies: not all parts used the Itanium ABI, meaning that custom demangling was still necessary\nSince Rust 1.59, the compiler has supported opting into a Rust-specific…",
-        "image": null,
-        "source": "Rust Blog",
-        "published": "2026-07-09T00:00:00.000Z",
         "isNew": false
       }
     ],
