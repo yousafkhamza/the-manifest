@@ -1,6 +1,6 @@
 {
   "date": "2026-09-06",
-  "generatedAt": "2026-09-06T09:26:24.233Z",
+  "generatedAt": "2026-09-06T14:12:48.911Z",
   "totalArticles": 72,
   "ticker": [
     {
@@ -111,7 +111,7 @@
         "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/09/Figure1-scaled.webp",
         "source": "Microsoft Azure Blog",
         "published": "2026-09-03T19:00:00.000Z",
-        "isNew": true
+        "isNew": false
       },
       {
         "title": "GPT-6 Astra: Frontier intelligence for work, now generally available in Microsoft Foundry",
@@ -120,7 +120,7 @@
         "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/06/Azure-DevTools-Dark-1-scaled.jpg",
         "source": "Microsoft Azure Blog",
         "published": "2026-09-03T18:15:00.000Z",
-        "isNew": true
+        "isNew": false
       },
       {
         "title": "How Microsoft’s Physical Security Engineering Team scaled hybrid operations with Azure Arc and Azure Virtual Desktop",
@@ -129,7 +129,7 @@
         "image": null,
         "source": "Microsoft Azure Blog",
         "published": "2026-09-03T15:00:00.000Z",
-        "isNew": true
+        "isNew": false
       },
       {
         "title": "The Economics of Agent Optimization: Context engineering for enterprise AI agents",
@@ -178,6 +178,24 @@
       }
     ],
     "gcp": [
+      {
+        "title": "September 06, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#September_06_2026",
+        "summary": "Google SecOps SOAR\nFeature\nCase playbooks\nThis feature is in preview. Google SecOps now supports case playbooks. You can\nrun playbooks or execute manual actions across an entire case container rather\nthan individual alerts, consolidating response tasks and reducing redundant\noperations during investigations.\nFor more information, see Case playbooks overview.",
+        "image": null,
+        "source": "Google Cloud Platform (GCP) - Release notes",
+        "published": "2026-09-06T07:00:00.000Z",
+        "isNew": false
+      },
+      {
+        "title": "September 05, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#September_05_2026",
+        "summary": "Google SecOps SOAR\nAnnouncement\nRelease 6.3.99 is now\navailable for all regions.",
+        "image": null,
+        "source": "Google Cloud Platform (GCP) - Release notes",
+        "published": "2026-09-05T07:00:00.000Z",
+        "isNew": false
+      },
       {
         "title": "September 04, 2026",
         "link": "https://docs.cloud.google.com/release-notes#September_04_2026",
@@ -230,24 +248,6 @@
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-08-30T07:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "August 29, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#August_29_2026",
-        "summary": "Google SecOps SOAR\nAnnouncement\nRelease 6.3.98 is now\navailable for all regions.",
-        "image": null,
-        "source": "Google Cloud Platform (GCP) - Release notes",
-        "published": "2026-08-29T07:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "August 28, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#August_28_2026",
-        "summary": "Application Integration\nAnnouncement\nUpcoming authorization changes for integration runs\nApplication Integration is updating how identities are handled for integration runs. Every run will act as either the person who triggered it or a run-as service account that you configure, and running an integration will require permission to act as that service account. Integrations that run without a person, such as those started by a schedule or an event, will need an explicitly configured run-as service account.\nAction might be required before the change takes effect. For guidance on identifying affected integrations and updating them, see Prepare for upcoming authorization changes.\nCloud Build\nFeature\nYou can now update access tokens from the Connection details page for\nyour 2nd generation Bitbucket and 2nd generation Gitlab host connections.\nFor more information, see the following:\nRotate old or expired Bitbucket Cloud access tokens\nRotate old or expired Bitbucket Data Center access tokens\nRotate old or expired Bitbucket Server access tokens\nRotate old or expired GitLab Enterprise Edition access tokens\nRotate old or expired GitLab access tokens\nGemini Enterprise\nFeature\nGemini Enterprise: New data stores and support for new actions (Preview)\nThe following data stores are available in Public Preview in Gemini Enterprise:\nCampfire\nClay\nCourtListener\nDaloopa\nMSCI\nYou can search and read data from these data stores using natural language.\nAdditionally, the following data stores…",
-        "image": null,
-        "source": "Google Cloud Platform (GCP) - Release notes",
-        "published": "2026-08-28T07:00:00.000Z",
         "isNew": false
       }
     ],
