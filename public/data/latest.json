@@ -1,6 +1,6 @@
 {
-  "date": "2026-09-06",
-  "generatedAt": "2026-09-06T19:10:25.532Z",
+  "date": "2026-09-07",
+  "generatedAt": "2026-09-07T10:17:31.860Z",
   "totalArticles": 72,
   "ticker": [
     {
@@ -181,7 +181,7 @@
       {
         "title": "September 06, 2026",
         "link": "https://docs.cloud.google.com/release-notes#September_06_2026",
-        "summary": "Google SecOps SOAR\nFeature\nCase playbooks\nThis feature is in preview. Google SecOps now supports case playbooks. You can\nrun playbooks or execute manual actions across an entire case container rather\nthan individual alerts, consolidating response tasks and reducing redundant\noperations during investigations.\nFor more information, see Case playbooks overview.",
+        "summary": "Google SecOps\nFeature\n[Spotlight Feature] Case playbooks\nThis feature is in preview. Google SecOps now supports case playbooks. You can \nrun playbooks or execute manual actions across an entire case container rather \nthan individual alerts, consolidating response tasks and reducing redundant \noperations during investigations.\nFor more information, see Case playbooks overview.\nFeature\n[Spotlight Feature] Reaction triggers\nThis feature is in preview. Google SecOps now supports reaction triggers. As\npost-ingestion triggers, they allow playbooks to automatically fire in response\nto real-time case or alert updates during active investigations, such as changes\nto the case assignee, case tags, alert priority, or newly added entities.\nFor more information, see Use reaction triggers in playbooks.\nGoogle SecOps SOAR\nAnnouncement\nRelease 6.3.100 is being rolled out to the first phase of regions as listed\nhere.\nThis release contains internal and customer bug fixes.\nFeature\nReaction triggers\nThis feature is in preview. Google SecOps now supports reaction triggers. As \npost-ingestion triggers, they allow playbooks to automatically fire in response \nto real-time case or alert updates during active investigations, such as changes \nto the case assignee, case tags, alert priority, or newly added entities.\nFor more information, see Use reaction triggers in playbooks.\nFeature\nCase playbooks\nThis feature is in preview. Google SecOps now supports case playbooks. You can\nrun playbooks or execute…",
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-09-06T07:00:00.000Z",
