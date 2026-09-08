@@ -1,6 +1,6 @@
 {
   "date": "2026-09-08",
-  "generatedAt": "2026-09-08T15:09:10.987Z",
+  "generatedAt": "2026-09-08T19:54:46.830Z",
   "totalArticles": 72,
   "ticker": [
     {
@@ -181,7 +181,7 @@
       {
         "title": "September 08, 2026",
         "link": "https://docs.cloud.google.com/release-notes#September_08_2026",
-        "summary": "Compute Engine\nFeature\nGenerally available: You can convert a single-project reservation into a\nshared reservation, or a shared reservation into a single-project reservation.\nModify the share type for a reservation to share your reserved resources with\nother projects in your Google Cloud organization, or to restrict access to only\nthe reservation's owner project. For more information, see\nModify the share type for a reservation.",
+        "summary": "Cloud SQL for MySQL\nFeature\nRegional endpoints (REP)\nare now generally available\n(GA)\nfor the Cloud SQL for MySQL Admin API.\nRegional endpoints let you interact with Cloud SQL for MySQL instances\nusing regionalized URLs (such as\nsqladmin.{region}.rep.googleapis.com)\nrather than through a single global endpoint.\nRegional endpoints provide regional frontend and load balancing infrastructure\nthat improves data residency by keeping network traffic within the same\nregion as the instance. This reduces the instance's dependency on global\nfrontend infrastructure.\nRegional endpoints have strong regional isolation, so the failure of a load\nbalancer or frontend in one region doesn't affect any other\nregion. Regional service load balancers have a separate, regionally\nisolated control plane.\nRegional endpoints are designed to meet stringent data residency and\nsovereignty standards, such as ITAR and Assured Workloads Regions, ensuring\ndata in transit remains within the committed region.\nCertificate management and TLS termination occurs within each region, on the\nregional load balancer, so data remains encrypted until it reaches its\ndestination region and stays within that region while being processed there.\nCloud SQL for SQL Server\nFeature\nRegional endpoints (REP)\nare now generally available\n(GA)\nfor the Cloud SQL for SQL Server Admin API.\nRegional endpoints let you interact with Cloud SQL for SQL Server instances\nusing regionalized URLs (such as\nsqladmin.{region}.rep.googleapis.com)…",
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-09-08T07:00:00.000Z",
@@ -190,7 +190,7 @@
       {
         "title": "September 07, 2026",
         "link": "https://docs.cloud.google.com/release-notes#September_07_2026",
-        "summary": "AI Hypercomputer\nSecurity\nGoogle addressed a security vulnerability (CVE-2026-65107) that affects Slurm\nclusters. Based on the Google Cloud product that you used to create your Slurm\ncluster, see one of the following to mitigate the vulnerability:\nSecurity bulletin for Cluster Director\n\n\nSecurity bulletin for Cluster Toolkit\n\n\nAccess Approval\nFeature\nPrivileged Access Manager is generally available\n(GA).\nAccess Transparency\nFeature\nPrivileged Access Manager is generally available\n(GA).\nCluster Toolkit\nSecurity\nGoogle addressed a security vulnerability (CVE-2026-65107) in the Slurm sbcast\ntool that affects Cluster Toolkit. For more information, see the\nsecurity bulletin.",
+        "summary": "AI Hypercomputer\nSecurity\nGoogle addressed a security vulnerability (CVE-2026-65107) that affects Slurm\nclusters. Based on the Google Cloud product that you used to create your Slurm\ncluster, see one of the following to mitigate the vulnerability:\nSecurity bulletin for Cluster Director\n\n\nSecurity bulletin for Cluster Toolkit\n\n\nAccess Approval\nFeature\nPrivileged Access Manager is generally available\n(GA).\nAccess Transparency\nFeature\nPrivileged Access Manager is generally available\n(GA).\nCluster Toolkit\nSecurity\nGoogle addressed a security vulnerability (CVE-2026-65107) in the Slurm sbcast\ntool that affects Cluster Toolkit. For more information, see the\nsecurity bulletin.\nKnowledge Catalog\nFeature\nData domains in Knowledge Catalog allow you to logically organize the resources within the enterprise to discover and curate your data at scale.\nThis feature is available in Preview.\nFor more information, see About data domains.",
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-09-07T07:00:00.000Z",
