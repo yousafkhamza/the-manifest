@@ -1,6 +1,6 @@
 {
-  "date": "2026-09-07",
-  "generatedAt": "2026-09-07T20:34:04.918Z",
+  "date": "2026-09-08",
+  "generatedAt": "2026-09-08T09:40:30.884Z",
   "totalArticles": 72,
   "ticker": [
     {
@@ -115,12 +115,12 @@
       },
       {
         "title": "GPT-6 Astra: Frontier intelligence for work, now generally available in Microsoft Foundry",
-        "link": "https://azure.microsoft.com/en-us/blog/gpt-6-astra-frontier-intelligence-for-work-now-available-in-microsoft-foundry/",
+        "link": "https://azure.microsoft.com/en-us/blog/gpt-6-astra-frontier-intelligence-for-work-now-generally-available-in-microsoft-foundry/",
         "summary": "GPT-6 Astra, OpenAI's newest frontier model, begins rolling out today through the Microsoft Foundry Limited Access Program, with availability expanding to participating customers over the coming days.\nThe post GPT-6 Astra: Frontier intelligence for work, now generally available in Microsoft Foundry appeared first on Microsoft Azure Blog.",
         "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/06/Azure-DevTools-Dark-1-scaled.jpg",
         "source": "Microsoft Azure Blog",
         "published": "2026-09-03T18:15:00.000Z",
-        "isNew": false
+        "isNew": true
       },
       {
         "title": "How Microsoft’s Physical Security Engineering Team scaled hybrid operations with Azure Arc and Azure Virtual Desktop",
@@ -181,7 +181,7 @@
       {
         "title": "September 07, 2026",
         "link": "https://docs.cloud.google.com/release-notes#September_07_2026",
-        "summary": "Access Approval\nFeature\nPrivileged Access Manager is generally available\n(GA).\nAccess Transparency\nFeature\nPrivileged Access Manager is generally available\n(GA).\nCluster Toolkit\nSecurity\nGoogle addressed a security vulnerability (CVE-2026-65107) in the Slurm sbcast\ntool that affects Cluster Toolkit. For more information, see the\nsecurity bulletin.",
+        "summary": "AI Hypercomputer\nSecurity\nGoogle addressed a security vulnerability (CVE-2026-65107) that affects Slurm\nclusters. Based on the Google Cloud product that you used to create your Slurm\ncluster, see one of the following to mitigate the vulnerability:\nSecurity bulletin for Cluster Director\n\n\nSecurity bulletin for Cluster Toolkit\n\n\nAccess Approval\nFeature\nPrivileged Access Manager is generally available\n(GA).\nAccess Transparency\nFeature\nPrivileged Access Manager is generally available\n(GA).\nCluster Toolkit\nSecurity\nGoogle addressed a security vulnerability (CVE-2026-65107) in the Slurm sbcast\ntool that affects Cluster Toolkit. For more information, see the\nsecurity bulletin.",
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-09-07T07:00:00.000Z",
