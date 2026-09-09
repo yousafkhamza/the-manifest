@@ -1,6 +1,6 @@
 {
   "date": "2026-09-09",
-  "generatedAt": "2026-09-09T15:08:32.081Z",
+  "generatedAt": "2026-09-09T19:45:55.464Z",
   "totalArticles": 72,
   "ticker": [
     {
@@ -25,7 +25,7 @@
     },
     {
       "label": "Node.js",
-      "version": "v26.8.1"
+      "version": "v26.8.2"
     }
   ],
   "topics": {
@@ -179,6 +179,15 @@
     ],
     "gcp": [
       {
+        "title": "September 09, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#September_09_2026",
+        "summary": "Gemini Enterprise Agent Platform\nFeature\nAgent Gateway supports VPC Service Controls\nAgent Gateway now enforces VPC Service Controls perimeter rules for agent\ncommunications. When you configure Agent Gateway with VPC\nconnectivity,\nagent traffic is routed through your private VPC network, ensuring that your\norganization's VPC-SC perimeter rules are applied to all agent traffic as well.\nNote that setting up VPC connectivity is required to enable VPC Service Controls\nperimeter enforcement for Agent Gateway deployments. The connectivity template\nmust be configured in ALL_TRAFFIC egress mode.\nImportant: VPC Service Controls is only supported for Agent Gateway deployments\ncreated after September 8, 2026 that use the agent connectivity\ntemplate\nto configure VPC connectivity.\nNetApp Volumes\nAnnouncement\nGoogle Cloud NetApp Volumes now supports the Flex Unified service level in the\nfollowing regions:\nasia-east1 (Taiwan)\n\n\naustralia-southeast2 (Melbourne)\n\n\neurope-southwest1 (Madrid)\n\n\nFor more information about available regions, see Supported regions.",
+        "image": null,
+        "source": "Google Cloud Platform (GCP) - Release notes",
+        "published": "2026-09-09T07:00:00.000Z",
+        "isNew": false
+      },
+      {
         "title": "September 08, 2026",
         "link": "https://docs.cloud.google.com/release-notes#September_08_2026",
         "summary": "BigQuery\nFeature\nConversational analytics now supports predictive modeling questions using the\nAI.PREDICT function.\nThis feature is in\nPreview.\nCloud Run\nFeature\nTo take advantage of reduced pricing\nfor Cloud Run jobs, you can delay job execution to\ndefer non-urgent tasks for up to 12 hours (Preview).\nCloud SQL for MySQL\nFeature\nRegional endpoints (REP)\nare now generally available\n(GA)\nfor the Cloud SQL for MySQL Admin API.\nRegional endpoints let you interact with Cloud SQL for MySQL instances\nusing regionalized URLs (such as\nsqladmin.{region}.rep.googleapis.com)\nrather than through a single global endpoint.\nRegional endpoints provide regional frontend and load balancing infrastructure\nthat improves data residency by keeping network traffic within the same\nregion as the instance. This reduces the instance's dependency on global\nfrontend infrastructure.\nRegional endpoints have strong regional isolation, so the failure of a load\nbalancer or frontend in one region doesn't affect any other\nregion. Regional service load balancers have a separate, regionally\nisolated control plane.\nRegional endpoints are designed to meet stringent data residency and\nsovereignty standards, such as ITAR and Assured Workloads Regions, ensuring\ndata in transit remains within the committed region.\nCertificate management and TLS termination occurs within each region, on the\nregional load balancer, so data remains encrypted until it reaches its\ndestination region and stays within that region while being…",
@@ -239,15 +248,6 @@
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-09-02T07:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "September 01, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#September_01_2026",
-        "summary": "Apigee UI\nAnnouncement\nOn September 1, 2026, we released an updated version of the Apigee UI.\nFixed\nBug ID\nDescription\n\n\n\n\n547582067\n\n\nRevisions can now be imported for API proxies and shared flows in a space\n\n\n          Importing a revision in the Apigee UI now works for an API proxy or\n          shared flow that is associated with a\n          space.\n        \nApp Engine flexible environment Go\nFeature\nSupport for the Go 1.27 runtime is in\nGeneral Availability (GA).\nApp Engine standard environment Go\nFeature\nSupport for the Go 1.27 runtime is in\nGeneral Availability (GA).\nBackup and DR\nFeature\nBackup vault support for AlloyDB for PostgreSQL instances encrypted with customer-managed encryption keys (CMEK) is generally available (GA), providing immutable and indelible storage with enforced retention. For more information, see Encrypt AlloyDB for PostgreSQL cluster backups.\nAnnouncing the general availability (GA) of cross-region backups for AlloyDB for PostgreSQL clusters. You can now protect AlloyDB for PostgreSQL clusters against regional outages by storing backups in a distinct secondary region of your choice. To learn more, see Backup vaults for immutable and indelible backups.\nBigQuery\nFeature\nThe Rust SDK for BigQuery is now in\nPreview.\nBigtable\nFeature\nYou can use the Google Cloud console to create and manage aggregate column families\nfor your Bigtable tables. You can also view and query aggregate column families in Bigtable Studio. This feature is generally available…",
-        "image": null,
-        "source": "Google Cloud Platform (GCP) - Release notes",
-        "published": "2026-09-01T07:00:00.000Z",
         "isNew": false
       }
     ],
@@ -327,6 +327,15 @@
     ],
     "terraform": [
       {
+        "title": "v1.17.0-beta1",
+        "link": "https://github.com/hashicorp/terraform/releases/tag/v1.17.0-beta1",
+        "summary": "1.17.0-beta1 (September 09, 2026)\nNEW FEATURES:\nTerraform now supports variables and locals in provider requirements (#39153)\nA new -minimal-refresh planning option has been added, which will only refresh resources that have proposed changes. (#35290)\npolicy: Terraform Policy is now generally available. The -policies flag for plan, apply, and init no longer requires the -allow-experimental-features flag. See https://developer.hashicorp.com/terraform/policy for more information. (#38970)\nENHANCEMENTS:\ncommand/init: Enrich log messages with provider versions (#38918)\ntest: Add mock_provider support for ephemeral resources (#38928)\ncommand/login: display warning after successful login if user is subject to an organization's TTL policy\nBUG FIXES:\nfuncs: pow and log no longer panic when result is not a number (#38912)\nephemeral: Terraform will now use and display diagnostics raised when renewing an ephemeral resource. This may cause warnings to appear that previously were lost. We expect that any error diagnostics that were previously lost would have caused confusing downstream errors, so we do not anticipate this change to be breaking. (#38989)\ntest: Deterministic dependency ordering in cleanup graph (#38247)\nquery: report Unknown and N/A results for policy evaluations of discovered resources (#39058)\nNOTES:\nversion: JSON output now includes a new format_version field, which will enable safer future changes of the command's JSON output format. It is assumed existing tooling…",
+        "image": "https://avatars.githubusercontent.com/u/82989873?s=60&v=4",
+        "source": "Release notes from terraform",
+        "published": "2026-09-09T17:13:24.000Z",
+        "isNew": false
+      },
+      {
         "title": "v1.16.2",
         "link": "https://github.com/hashicorp/terraform/releases/tag/v1.16.2",
         "summary": "1.16.2 (September 9, 2026)\nBUG FIXES:\nFix panic in module installation when encoutering invalid module calls (#39129)",
@@ -387,15 +396,6 @@
         "image": "https://avatars.githubusercontent.com/u/82989873?s=60&v=4",
         "source": "Release notes from terraform",
         "published": "2026-08-12T15:22:32.000Z",
-        "isNew": false
-      },
-      {
-        "title": "v1.17.0-alpha20260812",
-        "link": "https://github.com/hashicorp/terraform/releases/tag/v1.17.0-alpha20260812",
-        "summary": "1.17.0-alpha20260812 (August 12, 2026)\nENHANCEMENTS:\ncommand/init: Enrich log messages with provider versions (#38918)\nBUG FIXES:\nfuncs: pow and log no longer panic when result is not a number (#38912)\nephemeral: Terraform will now use and display diagnostics raised when renewing an ephemeral resource. This may cause warnings to appear that previously were lost. We expect that any error diagnostics that were previously lost would have caused confusing downstream errors, so we do not anticipate this change to be breaking. (#38989)\nNOTES:\nversion: JSON output now includes a new format_version field, which will enable safer future changes of the command's JSON output format. It is assumed existing tooling ignores unknown fields and therefore this change should not be breaking in itself but we advice consumers to pay attention to format_version in future releases and/or use latest version of hashicorp/terraform-json & hashicorp/terraform-exec which does. (#38930)\nEXPERIMENTS:\nExperiments are only enabled in alpha releases of Terraform CLI. The following features are not yet available in stable releases.\nThe experimental \"deferred actions\" feature, enabled by passing the -allow-deferral option to terraform plan, permits count and for_each arguments in module, resource, and data blocks to have unknown values and allows providers to react more flexibly to unknown values.\nterraform test cleanup: The experimental test cleanup command. In experimental builds of Terraform, a manifest…",
-        "image": "https://avatars.githubusercontent.com/u/82989873?s=60&v=4",
-        "source": "Release notes from terraform",
-        "published": "2026-08-12T12:01:24.000Z",
         "isNew": false
       }
     ],
@@ -623,6 +623,24 @@
     ],
     "javascript": [
       {
+        "title": "Node.js 26.8.2 (Current)",
+        "link": "https://nodejs.org/en/blog/release/v26.8.2",
+        "summary": "",
+        "image": null,
+        "source": "Node.js Blog",
+        "published": "2026-09-09T16:09:17.000Z",
+        "isNew": false
+      },
+      {
+        "title": "Node.js 24.21.0 (LTS)",
+        "link": "https://nodejs.org/en/blog/release/v24.21.0",
+        "summary": "",
+        "image": null,
+        "source": "Node.js Blog",
+        "published": "2026-09-09T11:55:20.000Z",
+        "isNew": false
+      },
+      {
         "title": "Node.js 26.8.1 (Current)",
         "link": "https://nodejs.org/en/blog/release/v26.8.1",
         "summary": "",
@@ -674,24 +692,6 @@
         "image": null,
         "source": "Node.js Blog",
         "published": "2026-08-03T13:51:29.000Z",
-        "isNew": false
-      },
-      {
-        "title": "Node.js 24.19.0 (LTS)",
-        "link": "https://nodejs.org/en/blog/release/v24.19.0",
-        "summary": "",
-        "image": null,
-        "source": "Node.js Blog",
-        "published": "2026-08-03T13:49:39.000Z",
-        "isNew": false
-      },
-      {
-        "title": "Node.js 24.18.1 (LTS)",
-        "link": "https://nodejs.org/en/blog/release/v24.18.1",
-        "summary": "",
-        "image": null,
-        "source": "Node.js Blog",
-        "published": "2026-07-29T16:19:07.000Z",
         "isNew": false
       }
     ]
