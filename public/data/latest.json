@@ -1,6 +1,6 @@
 {
-  "date": "2026-09-08",
-  "generatedAt": "2026-09-08T19:54:46.830Z",
+  "date": "2026-09-09",
+  "generatedAt": "2026-09-09T09:44:59.059Z",
   "totalArticles": 72,
   "ticker": [
     {
@@ -181,7 +181,7 @@
       {
         "title": "September 08, 2026",
         "link": "https://docs.cloud.google.com/release-notes#September_08_2026",
-        "summary": "Cloud SQL for MySQL\nFeature\nRegional endpoints (REP)\nare now generally available\n(GA)\nfor the Cloud SQL for MySQL Admin API.\nRegional endpoints let you interact with Cloud SQL for MySQL instances\nusing regionalized URLs (such as\nsqladmin.{region}.rep.googleapis.com)\nrather than through a single global endpoint.\nRegional endpoints provide regional frontend and load balancing infrastructure\nthat improves data residency by keeping network traffic within the same\nregion as the instance. This reduces the instance's dependency on global\nfrontend infrastructure.\nRegional endpoints have strong regional isolation, so the failure of a load\nbalancer or frontend in one region doesn't affect any other\nregion. Regional service load balancers have a separate, regionally\nisolated control plane.\nRegional endpoints are designed to meet stringent data residency and\nsovereignty standards, such as ITAR and Assured Workloads Regions, ensuring\ndata in transit remains within the committed region.\nCertificate management and TLS termination occurs within each region, on the\nregional load balancer, so data remains encrypted until it reaches its\ndestination region and stays within that region while being processed there.\nCloud SQL for SQL Server\nFeature\nRegional endpoints (REP)\nare now generally available\n(GA)\nfor the Cloud SQL for SQL Server Admin API.\nRegional endpoints let you interact with Cloud SQL for SQL Server instances\nusing regionalized URLs (such as\nsqladmin.{region}.rep.googleapis.com)…",
+        "summary": "BigQuery\nFeature\nConversational analytics now supports predictive modeling questions using the\nAI.PREDICT function.\nThis feature is in\nPreview.\nCloud Run\nFeature\nTo take advantage of reduced pricing\nfor Cloud Run jobs, you can delay job execution to\ndefer non-urgent tasks for up to 12 hours (Preview).\nCloud SQL for MySQL\nFeature\nRegional endpoints (REP)\nare now generally available\n(GA)\nfor the Cloud SQL for MySQL Admin API.\nRegional endpoints let you interact with Cloud SQL for MySQL instances\nusing regionalized URLs (such as\nsqladmin.{region}.rep.googleapis.com)\nrather than through a single global endpoint.\nRegional endpoints provide regional frontend and load balancing infrastructure\nthat improves data residency by keeping network traffic within the same\nregion as the instance. This reduces the instance's dependency on global\nfrontend infrastructure.\nRegional endpoints have strong regional isolation, so the failure of a load\nbalancer or frontend in one region doesn't affect any other\nregion. Regional service load balancers have a separate, regionally\nisolated control plane.\nRegional endpoints are designed to meet stringent data residency and\nsovereignty standards, such as ITAR and Assured Workloads Regions, ensuring\ndata in transit remains within the committed region.\nCertificate management and TLS termination occurs within each region, on the\nregional load balancer, so data remains encrypted until it reaches its\ndestination region and stays within that region while being…",
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-09-08T07:00:00.000Z",
@@ -253,6 +253,15 @@
     ],
     "kubernetes": [
       {
+        "title": "Kubernetes v1.37: Advancing Workload-Aware Scheduling",
+        "link": "https://kubernetes.io/blog/2026/09/08/kubernetes-v1-37-advancing-workload-aware-scheduling/",
+        "summary": "AI/ML and complex batch workloads continue to push the boundaries of Kubernetes scheduling. Following the foundational workload-centric enhancements introduced in previous releases, Kubernetes v1.37 delivers the next major milestone in the Workload-Aware Scheduling (WAS) journey. In this release, the core Workload and PodGroup APIs—enabling gang scheduling—along with Workload-Aware Preemption (WAP) and shared DRA ResourceClaims for PodGroups, all graduate to Beta, solidifying their role in the Kubernetes ecosystem.\nTo address the hierarchical scheduling requirements of modern high-performance distributed workloads, v1.37 introduces the new CompositePodGroup API.\nThis new API allows expressing multi-level topology constraints, gang scheduling, and preemption policies for complex, heterogeneous groups of Pods. Crucially, this architectural expansion unlocks native scheduling support for advanced workload structures commonly managed by higher-order extension APIs such as JobSet and LeaderWorkerSet (LWS).\nAlongside these API additions, v1.37 focuses on streamlining adoption by introducing a new set of controller integration APIs and the workloadbuilder Go library. These provide standardized building blocks that significantly simplify how out-of-tree controllers can integrate with WAS capabilities.\nUtilizing these new tools, the native Job controller integration has been upgraded to fully consume the expanded WAS APIs—enabling advanced scheduling policies, flexible disruption…",
+        "image": null,
+        "source": "Kubernetes Blog",
+        "published": "2026-09-08T18:30:00.000Z",
+        "isNew": true
+      },
+      {
         "title": "Kubernetes v1.37: KubeletInUserNamespace (aka Rootless mode) Graduates to Beta",
         "link": "https://kubernetes.io/blog/2026/09/04/kubernetes-v1-37-rootless-beta/",
         "summary": "Kubernetes v1.37 promotes the KubeletInUserNamespace feature gate to beta.\nWith this feature enabled, all of the node components (kubelet, CRI and OCI runtimes,\nCNI plugins, and kube-proxy) can run as a non-root user on the host, using a\nLinux user namespace.\nThis technique is also known as rootless mode.\nThe work started as an experiment in 2018, and was merged into Kubernetes v1.22 (2021)\nas an alpha feature (Kubernetes Enhancement Proposal KEP-2033).\nThis feature should not be confused with user namespaces for pods\n(hostUsers: false with the UserNamespacesSupport feature gate, GA since v1.36),\nwhich puts pods in user namespaces but still runs the node components as root.\nThese two features do not conflict.\nMoreover, they can be combined to nest Kubernetes inside Kubernetes without resorting to\nthe full privileged: true.\nWhy run the node components in a user namespace?\nBecause the node components have historically had container-breakout vulnerabilities\nthat could compromise full root privileges on the host.\nExamples of such vulnerabilities include:\nCVE-2022-0811\n(\"cr8escape\"): CRI-O could be tricked into setting arbitrary sysctls, such as\nkernel.core_pattern, resulting in arbitrary code execution as root on the host\nCVE-2023-27561:\nrunc could be tricked into bypassing the masked paths of a container via a volume\nmount race, exposing the host's procfs files (a regression of CVE-2019-19921)\nCVE-2024-10220:\nthe kubelet could be made to execute arbitrary commands as root via…",
@@ -313,15 +322,6 @@
         "image": null,
         "source": "Kubernetes Blog",
         "published": "2026-08-27T18:30:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "Kubernetes v1.37: Garhwal",
-        "link": "https://kubernetes.io/blog/2026/08/26/kubernetes-v1-37-release/",
-        "summary": "Editors: Arsh Sharma, Christopher Tineo, Kirti Goyal, Sophia Ugochukwu, Swathi Rao, Troy Connor\nSimilar to previous releases, the release of Kubernetes v1.37 introduces new Stable, Beta, and Alpha features. The consistent delivery of high-quality releases underscores the strength of our development cycle and the vibrant support from our community.\nThis release consists of 67 enhancements.\nOf those enhancements, 16 have graduated to Stable, 23 have graduated to Beta,\n27 are entering Alpha, and 1 is a deprecation/removal.\nRelease theme and logo\nThe theme for Kubernetes v1.37 is Garhwal (गढ़वाल, pronounced gaṛhvāl), a Himalayan region of Uttarakhand, India. The snow-capped peaks of the Garhwal Himalaya, deodar forests, terraced fields, rivers and streams, and mountain paths shape both the region and the logo. Together, these elements reflect a community in which every layer, route, and contribution is connected.\nThe logo is imagined as a window into Garhwal's landscape.1 Inside, terraced fields climb towards the snowy peaks, each level supported by the one below, much as every Kubernetes release depends on work carried forward. A river winds through the valley and gathers mountain streams, reflecting contributions from many SIGs and communities flowing into one project.\nThe deodar forest represents the wider Kubernetes ecosystem, where distinct projects share common ground and grow side by side. Stonework and woodcraft shape the path and mountain house, placing people at the…",
-        "image": "https://kubernetes.io/blog/2026/08/26/kubernetes-v1-37-release/k8s-v1.37.svg",
-        "source": "Kubernetes Blog",
-        "published": "2026-08-26T00:00:00.000Z",
         "isNew": false
       }
     ],
