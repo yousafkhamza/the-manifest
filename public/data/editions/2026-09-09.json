@@ -1,6 +1,6 @@
 {
   "date": "2026-09-09",
-  "generatedAt": "2026-09-09T09:44:59.059Z",
+  "generatedAt": "2026-09-09T15:08:32.081Z",
   "totalArticles": 72,
   "ticker": [
     {
@@ -9,7 +9,7 @@
     },
     {
       "label": "Terraform",
-      "version": "v1.16.1"
+      "version": "v1.16.2"
     },
     {
       "label": "Python",
@@ -259,7 +259,7 @@
         "image": null,
         "source": "Kubernetes Blog",
         "published": "2026-09-08T18:30:00.000Z",
-        "isNew": true
+        "isNew": false
       },
       {
         "title": "Kubernetes v1.37: KubeletInUserNamespace (aka Rootless mode) Graduates to Beta",
@@ -327,6 +327,15 @@
     ],
     "terraform": [
       {
+        "title": "v1.16.2",
+        "link": "https://github.com/hashicorp/terraform/releases/tag/v1.16.2",
+        "summary": "1.16.2 (September 9, 2026)\nBUG FIXES:\nFix panic in module installation when encoutering invalid module calls (#39129)",
+        "image": "https://avatars.githubusercontent.com/u/82989873?s=60&v=4",
+        "source": "Release notes from terraform",
+        "published": "2026-09-09T13:22:31.000Z",
+        "isNew": false
+      },
+      {
         "title": "v1.16.1",
         "link": "https://github.com/hashicorp/terraform/releases/tag/v1.16.1",
         "summary": "1.16.1 (September 2, 2026)\nBUG FIXES:\ncloud: Fixed a bug causing the CLI to pause indefinitely after a run task failure with pending policy evaluations (#38751)\nSupport referencing modules containing dynamic sources in Terraform Test (#38950)\nstacks: Fixed validation to ensure the provider versions in the lock file and configuration are compatible. (#38829)\nFix panic when import identity references sensitive value (#39013)\nimport: Fixed a bug where import blocks would be ignored when multiple imports targeted different instances of a resource config using for_each or count. (#39068)\nstate show: Fix a panic when given an attribute path instead of a resource instance address (#39087)\nFix create_before_destroy ordering in some combinations of changes (#39091)",
@@ -387,15 +396,6 @@
         "image": "https://avatars.githubusercontent.com/u/82989873?s=60&v=4",
         "source": "Release notes from terraform",
         "published": "2026-08-12T12:01:24.000Z",
-        "isNew": false
-      },
-      {
-        "title": "v1.16.0-beta2",
-        "link": "https://github.com/hashicorp/terraform/releases/tag/v1.16.0-beta2",
-        "summary": "1.16.0-beta2 (August 05, 2026)\nNEW FEATURES:\nTerraform now stores planned private data for providers, allowing provider-specific state to be preserved across plan and apply. (#37986)\nterraform_data: The new store block can hold ephemeral and sensitive values across plan and apply. (#38298)\nProviders can now use nested blocks as computed values (#38305)\nimport: import blocks inside modules are now supported. (#38352)\nTerraform is now available as a pre-built binary for Linux s390x (zLinux). (#38384)\nResource action triggers can now use on_failure modes of halt, taint, or continue. (#38722)\nENHANCEMENTS:\nstate show: The state show command can now produce machine-readable output when supplied with the -json flag (#23940)\nworkspace: The workspace list command can now produce machine-readable output when supplied with the -json flag (#38397)\ntest: Terraform now reports which resources were left behind when skip_cleanup is set. (#38449)\nstacks: Action configurations now have access to a caller symbol containing the object value of the calling resource. (#38668)\nActions can now use before_destroy and after_destroy events. (#38668)\ncloud: Terraform now displays a summary of policy evaluation outcomes for plan and apply runs against HCP Terraform. (#38715)\npolicy: Terraform now resolves policy plugin credentials from the configured cloud or remote backend during init, plan, and apply, rather than requiring the plugin to read credentials itself. (#38716)\ngraph: The terraform graph…",
-        "image": "https://avatars.githubusercontent.com/u/82989873?s=60&v=4",
-        "source": "Release notes from terraform",
-        "published": "2026-08-05T18:07:50.000Z",
         "isNew": false
       }
     ],
