@@ -1,6 +1,6 @@
 {
   "date": "2026-09-10",
-  "generatedAt": "2026-09-10T15:00:07.880Z",
+  "generatedAt": "2026-09-10T19:41:15.207Z",
   "totalArticles": 72,
   "ticker": [
     {
@@ -30,6 +30,15 @@
   ],
   "topics": {
     "aws": [
+      {
+        "title": "Introducing Amazon EBS Volume Clones across AWS accounts",
+        "link": "https://aws.amazon.com/blogs/aws/introducing-amazon-ebs-volume-clones-across-aws-accounts/",
+        "summary": "AWS introduces Amazon EBS Volume Clones with cross-account copy, so you can create copies of your EBS volumes into other AWS accounts and optionally re-encrypt them with an AWS Key Management Service (AWS KMS) key in the target account.",
+        "image": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2026/09/08/2026-ebs-clone-accounts-1.jpg",
+        "source": "AWS News Blog",
+        "published": "2026-09-09T22:01:47.000Z",
+        "isNew": false
+      },
       {
         "title": "AWS Weekly Roundup: Claude Fable 5.1 on AWS, Amazon Linux 2027 preview, AWS Certified AI Business Strategist, and more (September 7, 2026)",
         "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-claude-fable-5-1-on-aws-amazon-linux-2027-preview-aws-certified-ai-business-strategist-and-more-september-7-2026/",
@@ -92,18 +101,18 @@
         "source": "AWS News Blog",
         "published": "2026-08-18T13:58:41.000Z",
         "isNew": false
-      },
-      {
-        "title": "AWS Weekly Roundup: EC2 application status checks, IAM role manager, OpenAI Daybreak on Bedrock, and more (August 17, 2026)",
-        "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-ec2-application-status-checks-iam-role-manager-openai-daybreak-on-bedrock-and-more-august-17-2026/",
-        "summary": "Last week, AWS contributors joined the OpenSearch and Valkey communities at Open Source Summit Korea 2026 and MCP DevSummit Seoul 2026 to meet open source developers and contributors. At the four-day event, community leaders and users of these Linux Foundation open source projects gathered to share knowledge, collaborate on solutions, and push the projects forward. […]",
-        "image": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2026/08/15/2026-osss-korea-opensearch-valkey.jpg",
-        "source": "AWS News Blog",
-        "published": "2026-08-17T16:02:36.000Z",
-        "isNew": false
       }
     ],
     "azure": [
+      {
+        "title": "Two zones or three? A design framework for zone-resilient Azure workloads",
+        "link": "https://azure.microsoft.com/en-us/blog/two-zones-or-three-a-design-framework-for-zone-resilient-azure-workloads/",
+        "summary": "Zone resiliency isn't a single number you apply to a whole workload. The useful question isn't “how many zones?” but “how many zones does each component need to survive the loss of one?” Decide zone patterns component by component, use service-managed zone redundancy wherever it fits, and reserve three-zone designs for the components that genuinely require a third failure domain.\nThe post Two zones or three? A design framework for zone-resilient Azure workloads appeared first on Microsoft Azure Blog.",
+        "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/09/Azure-DataPlatform-Dark-scaled.jpg",
+        "source": "Microsoft Azure Blog",
+        "published": "2026-09-09T18:00:00.000Z",
+        "isNew": false
+      },
       {
         "title": "Beyond the benchmark: How an adaptive approach drives scientific discovery",
         "link": "https://azure.microsoft.com/en-us/blog/beyond-the-benchmark-how-an-adaptive-approach-drives-scientific-discovery/",
@@ -166,18 +175,18 @@
         "source": "Microsoft Azure Blog",
         "published": "2026-08-31T16:00:00.000Z",
         "isNew": false
-      },
-      {
-        "title": "Managed PostgreSQL vs. self-hosted PostgreSQL: Key benefits and trade-offs",
-        "link": "https://azure.microsoft.com/en-us/blog/managed-postgresql-vs-self-hosted-postgresql-key-benefits-and-trade-offs/",
-        "summary": "Compare managed PostgreSQL vs. self-hosted PostgreSQL across cost, control, security, resilience, scalability, and operational effort.\nThe post Managed PostgreSQL vs. self-hosted PostgreSQL: Key benefits and trade-offs appeared first on Microsoft Azure Blog.",
-        "image": "https://opensource.microsoft.com/blog/wp-content/uploads/2126/03/word-image-98353-1-1.png",
-        "source": "Microsoft Azure Blog",
-        "published": "2026-08-27T17:00:00.000Z",
-        "isNew": false
       }
     ],
     "gcp": [
+      {
+        "title": "September 10, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#September_10_2026",
+        "summary": "Cloud Storage\nFeature\nStorage Intelligence advisor\nis now generally available.\nStorage Intelligence advisor lets you monitor and manage your\nCloud Storage environment at scale across organizations, folders, and\nprojects.\nFor more information, see About Storage Intelligence advisor.\nGemini Enterprise\nFeature\nGemini Enterprise: Support for channel mentions and multi-turn conversations in the Gemini Enterprise app for Slack\nThe Gemini Enterprise app for Slack has the following new capabilities:\nChannel mentions: You can @mention the Gemini Enterprise app directly in Slack channels and conversational threads. The app returns responses privately so you can review them before choosing to share.\nMulti-turn conversations: The Gemini Enterprise app remembers the context of your current session in direct messages. You can ask follow-up questions and refine previous responses. You can clear the context and start over by clicking New chat.\nTo enable these features, your Slack administrator must reinstall the Gemini Enterprise app. For more information, see Install the Gemini Enterprise app for Slack in your Slack workspace. After the administrator reinstalls the app, end users must authorize the Slack connector. For more information, see User authorization. If you don't reinstall and re-authorize the Gemini Enterprise app, your Slack workspace retains the legacy experience.\nThese features are generally available (GA). For more information, see Configure the Gemini Enterprise app for…",
+        "image": null,
+        "source": "Google Cloud Platform (GCP) - Release notes",
+        "published": "2026-09-10T07:00:00.000Z",
+        "isNew": false
+      },
       {
         "title": "September 09, 2026",
         "link": "https://docs.cloud.google.com/release-notes#September_09_2026",
@@ -239,15 +248,6 @@
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-09-03T07:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "September 02, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#September_02_2026",
-        "summary": "AlloyDB for PostgreSQL\nFeature\nAlloyDB real-time data access to BigQuery (in Preview) now offers limit pushdown and runtime projects:\nLimit pushdown: when you query foreign tables, some LIMIT and OFFSET clauses are automatically pushed down to BigQuery, reducing network transfer and improving query response times. For more information, see Access to real-time data in BigQuery overview.\nRuntime projects: you can specify an optional runtime project at either the foreign server or foreign table level to execute queries and manage compute costs independently of the project that stores your data. For more information, see Configure access to real-time data in BigQuery.\nConsider using least-privilege security controls to restrict foreign server usage.\nFor more information, see Secure BigQuery data access using the foreign data wrapper.\nApigee Edge for Private Cloud\nAnnouncement\nApigee Edge for Private Cloud release notes are now published on this page.\nRelease notes and patch announcements for Apigee Edge for Private Cloud are\npublished here from September 2026 onward. You can subscribe to this\npage with a feed reader to be notified when a new release or patch is\npublished.\nRelease notes published before September 2026 remain available in the\nApigee Edge release notes archive.\nApigee Edge for Public Cloud\nAnnouncement\nApigee Edge for Public Cloud release notes are now published on this page.\nRelease notes for Apigee Edge for Public Cloud, including its Edge UI, SSO,\nMessage…",
-        "image": null,
-        "source": "Google Cloud Platform (GCP) - Release notes",
-        "published": "2026-09-02T07:00:00.000Z",
         "isNew": false
       }
     ],
