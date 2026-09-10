@@ -1,6 +1,6 @@
 {
-  "date": "2026-09-09",
-  "generatedAt": "2026-09-09T19:45:55.464Z",
+  "date": "2026-09-10",
+  "generatedAt": "2026-09-10T09:43:58.688Z",
   "totalArticles": 72,
   "ticker": [
     {
@@ -105,6 +105,15 @@
     ],
     "azure": [
       {
+        "title": "Beyond the benchmark: How an adaptive approach drives scientific discovery",
+        "link": "https://azure.microsoft.com/en-us/blog/beyond-the-benchmark-how-an-adaptive-approach-drives-scientific-discovery/",
+        "summary": "For research and development (R&D) organizations, the promise of agentic AI is not a better one-time answer. It is a new way to explore complex scientific and engineering problems: pursuing multiple hypotheses, validating them against evidence, learning from what does not work, and adapting their approach as new information becomes available.\nThe post Beyond the benchmark: How an adaptive approach drives scientific discovery appeared first on Microsoft Azure Blog.",
+        "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/09/CLO24-Azure-Healthcare-015-scaled.jpg",
+        "source": "Microsoft Azure Blog",
+        "published": "2026-09-08T20:00:00.000Z",
+        "isNew": true
+      },
+      {
         "title": "Enterprise AI transformation relies on the end-to-end platform: Azure was built for this moment",
         "link": "https://azure.microsoft.com/en-us/blog/enterprise-ai-transformation-relies-on-the-end-to-end-platform-azure-was-built-for-this-moment/",
         "summary": "The recognition for Microsoft over the past couple of weeks comes down to models, infrastructure, data, applications, and developer tools working as one system when AI moves into production.\nThe post Enterprise AI transformation relies on the end-to-end platform: Azure was built for this moment appeared first on Microsoft Azure Blog.",
@@ -166,22 +175,13 @@
         "source": "Microsoft Azure Blog",
         "published": "2026-08-27T17:00:00.000Z",
         "isNew": false
-      },
-      {
-        "title": "The Economics of Agent Optimization: Four ways to lower the cost",
-        "link": "https://azure.microsoft.com/en-us/blog/the-economics-of-agent-optimization-four-ways-to-lower-the-cost/",
-        "summary": "Microsoft Foundry gives you four levers that act on every request, before a single line of agent logic changes.\nThe post The Economics of Agent Optimization: Four ways to lower the cost appeared first on Microsoft Azure Blog.",
-        "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/06/CLO23_WorkAnywhere_025.jpg",
-        "source": "Microsoft Azure Blog",
-        "published": "2026-08-26T16:00:00.000Z",
-        "isNew": false
       }
     ],
     "gcp": [
       {
         "title": "September 09, 2026",
         "link": "https://docs.cloud.google.com/release-notes#September_09_2026",
-        "summary": "Gemini Enterprise Agent Platform\nFeature\nAgent Gateway supports VPC Service Controls\nAgent Gateway now enforces VPC Service Controls perimeter rules for agent\ncommunications. When you configure Agent Gateway with VPC\nconnectivity,\nagent traffic is routed through your private VPC network, ensuring that your\norganization's VPC-SC perimeter rules are applied to all agent traffic as well.\nNote that setting up VPC connectivity is required to enable VPC Service Controls\nperimeter enforcement for Agent Gateway deployments. The connectivity template\nmust be configured in ALL_TRAFFIC egress mode.\nImportant: VPC Service Controls is only supported for Agent Gateway deployments\ncreated after September 8, 2026 that use the agent connectivity\ntemplate\nto configure VPC connectivity.\nNetApp Volumes\nAnnouncement\nGoogle Cloud NetApp Volumes now supports the Flex Unified service level in the\nfollowing regions:\nasia-east1 (Taiwan)\n\n\naustralia-southeast2 (Melbourne)\n\n\neurope-southwest1 (Madrid)\n\n\nFor more information about available regions, see Supported regions.",
+        "summary": "Apigee X\nFeature\nSemanticCacheLookup policy supports non-default Vector Search distance measures\nAvailable in Apigee 1-18-0-apigee-4 and later. A new optional\n<DistanceMeasureType> element accepts DOT_PRODUCT_DISTANCE (the\ndefault, and the existing behavior), COSINE_DISTANCE,\nSQUARED_L2_DISTANCE and L1_DISTANCE. The policy now compares\n<Threshold> in the direction the declared measure implies, so declaring a\nnon-default measure requires re-tuning the threshold in the same edit. The 0-to-1 restriction on\n<Threshold> is also removed.\nBigQuery\nFeature\nBigQuery generative AI functions\nnow support the following Gemini models:\ngemini-3.5-flash-lite\ngemini-3.6-flash\ngemini-3.7-flash\nCloud Monitoring\nFeature\nA chart on a dashboard can override the dashboard's time-range setting. This\nfeature lets you view trends over a long period or metric data with low\nsampling rates alongside charts that show only recent data, and is\nGenerally Available (GA).\nFor more information, see the following documents:\nGoogle Cloud console: Set a time-range override for a chart or group\nAPI: Dashboard with an XyChart widget that sets a time-range override\nCloud SDK\nBreaking\n584.0.0 (2026-09-09)\nBreaking Changes\n(Cloud Storage) Deprecated gcloud storage buckets anywhere-caches pause command.\nGoogle Cloud CLI\nDeprecated minikube component in Google Cloud CLI. The component will be removed after January 31, 2027. Existing local configurations and clusters in ~/.minikube will be preserved. Minikube is an…",
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-09-09T07:00:00.000Z",
@@ -190,7 +190,7 @@
       {
         "title": "September 08, 2026",
         "link": "https://docs.cloud.google.com/release-notes#September_08_2026",
-        "summary": "BigQuery\nFeature\nConversational analytics now supports predictive modeling questions using the\nAI.PREDICT function.\nThis feature is in\nPreview.\nCloud Run\nFeature\nTo take advantage of reduced pricing\nfor Cloud Run jobs, you can delay job execution to\ndefer non-urgent tasks for up to 12 hours (Preview).\nCloud SQL for MySQL\nFeature\nRegional endpoints (REP)\nare now generally available\n(GA)\nfor the Cloud SQL for MySQL Admin API.\nRegional endpoints let you interact with Cloud SQL for MySQL instances\nusing regionalized URLs (such as\nsqladmin.{region}.rep.googleapis.com)\nrather than through a single global endpoint.\nRegional endpoints provide regional frontend and load balancing infrastructure\nthat improves data residency by keeping network traffic within the same\nregion as the instance. This reduces the instance's dependency on global\nfrontend infrastructure.\nRegional endpoints have strong regional isolation, so the failure of a load\nbalancer or frontend in one region doesn't affect any other\nregion. Regional service load balancers have a separate, regionally\nisolated control plane.\nRegional endpoints are designed to meet stringent data residency and\nsovereignty standards, such as ITAR and Assured Workloads Regions, ensuring\ndata in transit remains within the committed region.\nCertificate management and TLS termination occurs within each region, on the\nregional load balancer, so data remains encrypted until it reaches its\ndestination region and stays within that region while being…",
+        "summary": "Agent Platform Workbench\nFixed\nScheduled upgrade metadata is validated\nThe value of the notebook-upgrade-schedule metadata key is now validated when\nyou create or update an Agent Platform Workbench instance. The value must be a\nsingle-line unix-cron\nformat schedule. For more\ninformation, see Manage features through\nmetadata.\nBigQuery\nFeature\nConversational analytics now supports predictive modeling questions using the\nAI.PREDICT function.\nThis feature is in\nPreview.\nCloud Run\nFeature\nTo take advantage of reduced pricing\nfor Cloud Run jobs, you can delay job execution to\ndefer non-urgent tasks for up to 12 hours (Preview).\nCloud SQL for MySQL\nFeature\nRegional endpoints (REP)\nare now generally available\n(GA)\nfor the Cloud SQL for MySQL Admin API.\nRegional endpoints let you interact with Cloud SQL for MySQL instances\nusing regionalized URLs (such as\nsqladmin.{region}.rep.googleapis.com)\nrather than through a single global endpoint.\nRegional endpoints provide regional frontend and load balancing infrastructure\nthat improves data residency by keeping network traffic within the same\nregion as the instance. This reduces the instance's dependency on global\nfrontend infrastructure.\nRegional endpoints have strong regional isolation, so the failure of a load\nbalancer or frontend in one region doesn't affect any other\nregion. Regional service load balancers have a separate, regionally\nisolated control plane.\nRegional endpoints are designed to meet stringent data residency and…",
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-09-08T07:00:00.000Z",
@@ -244,7 +244,7 @@
       {
         "title": "September 02, 2026",
         "link": "https://docs.cloud.google.com/release-notes#September_02_2026",
-        "summary": "AlloyDB for PostgreSQL\nFeature\nAlloyDB real-time data access to BigQuery (in Preview) now offers limit pushdown and runtime projects:\nLimit pushdown: when you query foreign tables, some LIMIT and OFFSET clauses are automatically pushed down to BigQuery, reducing network transfer and improving query response times. For more information, see Access to real-time data in BigQuery overview.\nRuntime projects: you can specify an optional runtime project at either the foreign server or foreign table level to execute queries and manage compute costs independently of the project that stores your data. For more information, see Configure access to real-time data in BigQuery.\nConsider using least-privilege security controls to restrict foreign server usage.\nFor more information, see Secure BigQuery data access using the foreign data wrapper.\nApplication Design Center\nFeature\nApplication Design Center supports the following components in General Availability:\nFirebase AI Logic\nFirebase AI Logic Prompt Template\nFirebase App Check\nFirebase Authentication\nFirebase Multi-Platform App\nFirestore Security Rules\nBigQuery\nChange\nAn updated version of the\nSimba JDBC driver for BigQuery\nis now available.\nCloud SQL for MySQL\nFeature\nCloud SQL supports Workforce Identity Federation authentication. This lets you\nauthenticate to your Cloud SQL instance using identities from an external\nidentity provider such as Microsoft Active Directory or Okta. For more\ninformation, see Workforce Identity Federation…",
+        "summary": "AlloyDB for PostgreSQL\nFeature\nAlloyDB real-time data access to BigQuery (in Preview) now offers limit pushdown and runtime projects:\nLimit pushdown: when you query foreign tables, some LIMIT and OFFSET clauses are automatically pushed down to BigQuery, reducing network transfer and improving query response times. For more information, see Access to real-time data in BigQuery overview.\nRuntime projects: you can specify an optional runtime project at either the foreign server or foreign table level to execute queries and manage compute costs independently of the project that stores your data. For more information, see Configure access to real-time data in BigQuery.\nConsider using least-privilege security controls to restrict foreign server usage.\nFor more information, see Secure BigQuery data access using the foreign data wrapper.\nApigee Edge for Private Cloud\nAnnouncement\nApigee Edge for Private Cloud release notes are now published on this page.\nRelease notes and patch announcements for Apigee Edge for Private Cloud are\npublished here from September 2026 onward. You can subscribe to this\npage with a feed reader to be notified when a new release or patch is\npublished.\nRelease notes published before September 2026 remain available in the\nApigee Edge release notes archive.\nApigee Edge for Public Cloud\nAnnouncement\nApigee Edge for Public Cloud release notes are now published on this page.\nRelease notes for Apigee Edge for Public Cloud, including its Edge UI, SSO,\nMessage…",
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-09-02T07:00:00.000Z",
@@ -252,6 +252,15 @@
       }
     ],
     "kubernetes": [
+      {
+        "title": "Kubernetes v1.37: Introducing Node Lifecycle Conditions",
+        "link": "https://kubernetes.io/blog/2026/09/09/kubernetes-v1-37-node-lifecycle-conditions/",
+        "summary": "Kubernetes has many ways to describe what is happening on a Node. Readiness,\ntaints, Pod state, labels, annotations, and provider-specific APIs each expose\npart of the picture. What has been missing is a shared, Kubernetes-owned way to\nsay that a Node is draining,\nundergoing maintenance, or undergoing Graceful Node Shutdown.\nKubernetes v1.37 introduces five well-known Node conditions\nthat provide that description:\nDrainInProgress\nDrained\nMaintenancePlanned\nMaintenanceInProgress\nGracefulNodeShutdownInProgress\nThe new Node lifecycle conditions\n\n\n\nCondition\nWhat it reports\n\n\n\n\nDrainInProgress\nThe Node is actively being drained according to the administrator's chosen drain criteria.\n\n\nDrained\nThe Node has reached the drain criteria selected by the administrator.\n\n\nMaintenancePlanned\nThe Node is expected to undergo a change in the future.\n\n\nMaintenanceInProgress\nThe Node is actively undergoing maintenance.\n\n\nGracefulNodeShutdownInProgress\nGraceful Node Shutdown is determined to be in progress on the Node.\n\n\n\nMaintenance can include hardware or software rollout, remediation,\ndecommissioning, or debugging. Whether maintenance requires a drain depends on\nits impact. A Kubernetes upgrade usually should follow a drain, while a kernel\nlive patch might not need one.\nLike other Node conditions, each lifecycle condition uses status to report\nwhether the observation is active:\nTrue: the lifecycle state is currently observed.\nFalse: the lifecycle state is not currently observed.\nUnknown:…",
+        "image": null,
+        "source": "Kubernetes Blog",
+        "published": "2026-09-09T18:30:00.000Z",
+        "isNew": true
+      },
       {
         "title": "Kubernetes v1.37: Advancing Workload-Aware Scheduling",
         "link": "https://kubernetes.io/blog/2026/09/08/kubernetes-v1-37-advancing-workload-aware-scheduling/",
@@ -313,15 +322,6 @@
         "image": "https://kubernetes.io/blog/2026/08/28/kubernetes-v1-37-pod-certificates-and-cluster-trust-bundles/pod-certificates-architecture.svg",
         "source": "Kubernetes Blog",
         "published": "2026-08-28T18:30:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "Kubernetes v1.37: Metrics API graduates to stable",
-        "link": "https://kubernetes.io/blog/2026/08/27/kubernetes-v1-37-metrics-api-ga/",
-        "summary": "Kubernetes v1.37 promotes the metrics.k8s.io API to stable (v1). This\nAPI provides CPU and memory usage for nodes and Pods, and is the API behind\ncommands such as kubectl top and resource-metrics-based autoscaling.\nFor cluster operators and application developers, this graduation means that\nthe API now has the stability guarantees associated with a Kubernetes stable\nAPI. The v1 API has the same resource types and fields as v1beta1; this is\nan API-version graduation, not a change to the metrics that are collected or\nreturned.\nA long-lived API reaches stable\nThe resource Metrics API was introduced as alpha in Kubernetes v1.6 and became\nbeta in v1.8. It has remained unchanged and has been used in production for\nyears by clients including the HorizontalPodAutoscaler (HPA) and kubectl top.\nKubernetes v1.37 formally graduates that proven API to metrics.k8s.io/v1.\nThe API exposes two resource types:\nNodeMetrics, for CPU and memory usage for a node.\nPodMetrics, for CPU and memory usage for a Pod, with a per-container\nbreakdown in its containers field.\nThe API remains intentionally small. It provides the resource metrics needed\nfor autoscaling and basic inspection; it is not a replacement for a full\nmonitoring pipeline or the custom metrics (custom.metrics.k8s.io) API.\nWhat changed with the v1.37 release?\nThe v1 API surface is identical to v1beta1, except for the API version.\nThere are no renamed fields, new fields, or changes to the meaning of the\nreturned CPU and memory values.\nFor…",
-        "image": null,
-        "source": "Kubernetes Blog",
-        "published": "2026-08-27T18:30:00.000Z",
         "isNew": false
       }
     ],
