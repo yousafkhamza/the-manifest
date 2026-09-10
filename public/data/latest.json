@@ -1,6 +1,6 @@
 {
   "date": "2026-09-10",
-  "generatedAt": "2026-09-10T09:43:58.688Z",
+  "generatedAt": "2026-09-10T15:00:07.880Z",
   "totalArticles": 72,
   "ticker": [
     {
@@ -111,7 +111,7 @@
         "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/09/CLO24-Azure-Healthcare-015-scaled.jpg",
         "source": "Microsoft Azure Blog",
         "published": "2026-09-08T20:00:00.000Z",
-        "isNew": true
+        "isNew": false
       },
       {
         "title": "Enterprise AI transformation relies on the end-to-end platform: Azure was built for this moment",
@@ -259,7 +259,7 @@
         "image": null,
         "source": "Kubernetes Blog",
         "published": "2026-09-09T18:30:00.000Z",
-        "isNew": true
+        "isNew": false
       },
       {
         "title": "Kubernetes v1.37: Advancing Workload-Aware Scheduling",
