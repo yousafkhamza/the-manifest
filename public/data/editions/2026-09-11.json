@@ -1,6 +1,6 @@
 {
   "date": "2026-09-11",
-  "generatedAt": "2026-09-11T09:40:52.482Z",
+  "generatedAt": "2026-09-11T15:03:23.360Z",
   "totalArticles": 72,
   "ticker": [
     {
@@ -105,6 +105,15 @@
     ],
     "azure": [
       {
+        "title": "Two zones or three? A design framework for zone-resilient Azure workloads",
+        "link": "https://azure.microsoft.com/en-us/blog/two-zones-or-three-a-design-framework-for-zone-resilient-azure-workloads/",
+        "summary": "Zone resiliency isn't a single number you apply to a whole workload. The useful question isn't “how many zones?” but “how many zones does each component need to survive the loss of one?” Decide zone patterns component by component, use service-managed zone redundancy wherever it fits, and reserve three-zone designs for the components that genuinely require a third failure domain.\nThe post Two zones or three? A design framework for zone-resilient Azure workloads appeared first on Microsoft Azure Blog.",
+        "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/09/Azure-DataPlatform-Dark-scaled.jpg",
+        "source": "Microsoft Azure Blog",
+        "published": "2026-09-09T18:00:00.000Z",
+        "isNew": false
+      },
+      {
         "title": "Beyond the benchmark: How an adaptive approach drives scientific discovery",
         "link": "https://azure.microsoft.com/en-us/blog/beyond-the-benchmark-how-an-adaptive-approach-drives-scientific-discovery/",
         "summary": "For research and development (R&D) organizations, the promise of agentic AI is not a better one-time answer. It is a new way to explore complex scientific and engineering problems: pursuing multiple hypotheses, validating them against evidence, learning from what does not work, and adapting their approach as new information becomes available.\nThe post Beyond the benchmark: How an adaptive approach drives scientific discovery appeared first on Microsoft Azure Blog.",
@@ -166,15 +175,6 @@
         "source": "Microsoft Azure Blog",
         "published": "2026-08-31T16:00:00.000Z",
         "isNew": false
-      },
-      {
-        "title": "Managed PostgreSQL vs. self-hosted PostgreSQL: Key benefits and trade-offs",
-        "link": "https://azure.microsoft.com/en-us/blog/managed-postgresql-vs-self-hosted-postgresql-key-benefits-and-trade-offs/",
-        "summary": "Compare managed PostgreSQL vs. self-hosted PostgreSQL across cost, control, security, resilience, scalability, and operational effort.\nThe post Managed PostgreSQL vs. self-hosted PostgreSQL: Key benefits and trade-offs appeared first on Microsoft Azure Blog.",
-        "image": "https://opensource.microsoft.com/blog/wp-content/uploads/2126/03/word-image-98353-1-1.png",
-        "source": "Microsoft Azure Blog",
-        "published": "2026-08-27T17:00:00.000Z",
-        "isNew": true
       }
     ],
     "gcp": [
@@ -190,7 +190,7 @@
       {
         "title": "September 09, 2026",
         "link": "https://docs.cloud.google.com/release-notes#September_09_2026",
-        "summary": "Apigee X\nFeature\nSemanticCacheLookup policy supports non-default Vector Search distance measures\nAvailable in Apigee 1-18-0-apigee-4 and later. A new optional\n<DistanceMeasureType> element accepts DOT_PRODUCT_DISTANCE (the\ndefault, and the existing behavior), COSINE_DISTANCE,\nSQUARED_L2_DISTANCE and L1_DISTANCE. The policy now compares\n<Threshold> in the direction the declared measure implies, so declaring a\nnon-default measure requires re-tuning the threshold in the same edit. The 0-to-1 restriction on\n<Threshold> is also removed.\nBigQuery\nFeature\nBigQuery generative AI functions\nnow support the following Gemini models:\ngemini-3.5-flash-lite\ngemini-3.6-flash\ngemini-3.7-flash\nCloud Monitoring\nFeature\nA chart on a dashboard can override the dashboard's time-range setting. This\nfeature lets you view trends over a long period or metric data with low\nsampling rates alongside charts that show only recent data, and is\nGenerally Available (GA).\nFor more information, see the following documents:\nGoogle Cloud console: Set a time-range override for a chart or group\nAPI: Dashboard with an XyChart widget that sets a time-range override\nCloud SDK\nBreaking\n584.0.0 (2026-09-09)\nBreaking Changes\n(Cloud Storage) Deprecated gcloud storage buckets anywhere-caches pause command.\nGoogle Cloud CLI\nDeprecated minikube component in Google Cloud CLI. The component will be removed after January 31, 2027. Existing local configurations and clusters in ~/.minikube will be preserved. Minikube is an…",
+        "summary": "Apigee X\nFeature\nSemanticCacheLookup policy supports non-default Vector Search distance measures\nAvailable in Apigee 1-18-0-apigee-4 and later. A new optional\n<DistanceMeasureType> element accepts DOT_PRODUCT_DISTANCE (the\ndefault, and the existing behavior), COSINE_DISTANCE,\nSQUARED_L2_DISTANCE and L1_DISTANCE. The policy now compares\n<Threshold> in the direction the declared measure implies, so declaring a\nnon-default measure requires re-tuning the threshold in the same edit. The 0-to-1 restriction on\n<Threshold> is also removed.\nBigQuery\nFeature\nBigQuery generative AI functions\nnow support the following Gemini models:\ngemini-3.5-flash-lite\ngemini-3.6-flash\ngemini-3.7-flash\nCloud Monitoring\nFeature\nA chart on a dashboard can override the dashboard's time-range setting. This\nfeature lets you view trends over a long period or metric data with low\nsampling rates alongside charts that show only recent data, and is\nGenerally Available (GA).\nFor more information, see the following documents:\nGoogle Cloud console: Set a time-range override for a chart or group\nAPI: Dashboard with an XyChart widget that sets a time-range override\nGemini Enterprise\nBreaking\nGemini Notebook Enterprise: Website URL ingestion blocked by VPC Service Controls\nProjects with VPC Service Controls enabled can't add website URLs as\nnotebook sources in Gemini Notebook Enterprise.\nThis is because direct website\ningestion performs a live web crawl, generating outbound traffic beyond Google\nnetworks, which would…",
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-09-09T07:00:00.000Z",
@@ -259,7 +259,7 @@
         "image": null,
         "source": "Kubernetes Blog",
         "published": "2026-09-10T18:30:00.000Z",
-        "isNew": true
+        "isNew": false
       },
       {
         "title": "Kubernetes v1.37: Introducing Node Lifecycle Conditions",
