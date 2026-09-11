@@ -1,6 +1,6 @@
 {
-  "date": "2026-09-10",
-  "generatedAt": "2026-09-10T19:41:15.207Z",
+  "date": "2026-09-11",
+  "generatedAt": "2026-09-11T09:40:52.482Z",
   "totalArticles": 72,
   "ticker": [
     {
@@ -105,15 +105,6 @@
     ],
     "azure": [
       {
-        "title": "Two zones or three? A design framework for zone-resilient Azure workloads",
-        "link": "https://azure.microsoft.com/en-us/blog/two-zones-or-three-a-design-framework-for-zone-resilient-azure-workloads/",
-        "summary": "Zone resiliency isn't a single number you apply to a whole workload. The useful question isn't “how many zones?” but “how many zones does each component need to survive the loss of one?” Decide zone patterns component by component, use service-managed zone redundancy wherever it fits, and reserve three-zone designs for the components that genuinely require a third failure domain.\nThe post Two zones or three? A design framework for zone-resilient Azure workloads appeared first on Microsoft Azure Blog.",
-        "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/09/Azure-DataPlatform-Dark-scaled.jpg",
-        "source": "Microsoft Azure Blog",
-        "published": "2026-09-09T18:00:00.000Z",
-        "isNew": false
-      },
-      {
         "title": "Beyond the benchmark: How an adaptive approach drives scientific discovery",
         "link": "https://azure.microsoft.com/en-us/blog/beyond-the-benchmark-how-an-adaptive-approach-drives-scientific-discovery/",
         "summary": "For research and development (R&D) organizations, the promise of agentic AI is not a better one-time answer. It is a new way to explore complex scientific and engineering problems: pursuing multiple hypotheses, validating them against evidence, learning from what does not work, and adapting their approach as new information becomes available.\nThe post Beyond the benchmark: How an adaptive approach drives scientific discovery appeared first on Microsoft Azure Blog.",
@@ -175,13 +166,22 @@
         "source": "Microsoft Azure Blog",
         "published": "2026-08-31T16:00:00.000Z",
         "isNew": false
+      },
+      {
+        "title": "Managed PostgreSQL vs. self-hosted PostgreSQL: Key benefits and trade-offs",
+        "link": "https://azure.microsoft.com/en-us/blog/managed-postgresql-vs-self-hosted-postgresql-key-benefits-and-trade-offs/",
+        "summary": "Compare managed PostgreSQL vs. self-hosted PostgreSQL across cost, control, security, resilience, scalability, and operational effort.\nThe post Managed PostgreSQL vs. self-hosted PostgreSQL: Key benefits and trade-offs appeared first on Microsoft Azure Blog.",
+        "image": "https://opensource.microsoft.com/blog/wp-content/uploads/2126/03/word-image-98353-1-1.png",
+        "source": "Microsoft Azure Blog",
+        "published": "2026-08-27T17:00:00.000Z",
+        "isNew": true
       }
     ],
     "gcp": [
       {
         "title": "September 10, 2026",
         "link": "https://docs.cloud.google.com/release-notes#September_10_2026",
-        "summary": "Cloud Storage\nFeature\nStorage Intelligence advisor\nis now generally available.\nStorage Intelligence advisor lets you monitor and manage your\nCloud Storage environment at scale across organizations, folders, and\nprojects.\nFor more information, see About Storage Intelligence advisor.\nGemini Enterprise\nFeature\nGemini Enterprise: Support for channel mentions and multi-turn conversations in the Gemini Enterprise app for Slack\nThe Gemini Enterprise app for Slack has the following new capabilities:\nChannel mentions: You can @mention the Gemini Enterprise app directly in Slack channels and conversational threads. The app returns responses privately so you can review them before choosing to share.\nMulti-turn conversations: The Gemini Enterprise app remembers the context of your current session in direct messages. You can ask follow-up questions and refine previous responses. You can clear the context and start over by clicking New chat.\nTo enable these features, your Slack administrator must reinstall the Gemini Enterprise app. For more information, see Install the Gemini Enterprise app for Slack in your Slack workspace. After the administrator reinstalls the app, end users must authorize the Slack connector. For more information, see User authorization. If you don't reinstall and re-authorize the Gemini Enterprise app, your Slack workspace retains the legacy experience.\nThese features are generally available (GA). For more information, see Configure the Gemini Enterprise app for…",
+        "summary": "BigQuery\nFeature\nConversational analytics in BigQuery now supports the ML.CORRELATION\nfunction to calculate statistical correlations between a target column and one\nor more metric columns in a table. This feature is in Preview.\nFeature\nYou can now use the ML.METRICS function\nto compute evaluation metrics for machine learning\nclassification or regression tasks on any table or query that contains actual\nand predicted values. This function lets you evaluate predictions without\nneeding to create or reference a stored model. This feature is in\nPreview.\nFeature\nYou can use the AI.CAUSAL_EFFECT\nfunction to quantify the impact of specific interventions on time series data.\nThis feature is in Preview.\nCloud SQL for MySQL\nBreaking\nAppending sqlcommenter tags using the sql_commenter_enabled parameter when\nexecuting SQL queries on a Cloud SQL remote MCP server is temporarily disabled.\nFor more information, see sqlcommenter tags.\nCloud SQL for PostgreSQL\nBreaking\nAppending sqlcommenter tags using the sql_commenter_enabled parameter when\nexecuting SQL queries on a Cloud SQL remote MCP server is temporarily disabled.\nFor more information, see sqlcommenter tags.\nCloud Storage\nFeature\nStorage Intelligence advisor\nis now generally available.\nStorage Intelligence advisor lets you monitor and manage your\nCloud Storage environment at scale across organizations, folders, and\nprojects.\nFor more information, see About Storage Intelligence advisor.\nGemini Enterprise\nFeature\nGemini Enterprise:…",
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-09-10T07:00:00.000Z",
@@ -199,7 +199,7 @@
       {
         "title": "September 08, 2026",
         "link": "https://docs.cloud.google.com/release-notes#September_08_2026",
-        "summary": "Agent Platform Workbench\nFixed\nScheduled upgrade metadata is validated\nThe value of the notebook-upgrade-schedule metadata key is now validated when\nyou create or update an Agent Platform Workbench instance. The value must be a\nsingle-line unix-cron\nformat schedule. For more\ninformation, see Manage features through\nmetadata.\nBigQuery\nFeature\nConversational analytics now supports predictive modeling questions using the\nAI.PREDICT function.\nThis feature is in\nPreview.\nCloud Run\nFeature\nTo take advantage of reduced pricing\nfor Cloud Run jobs, you can delay job execution to\ndefer non-urgent tasks for up to 12 hours (Preview).\nCloud SQL for MySQL\nFeature\nRegional endpoints (REP)\nare now generally available\n(GA)\nfor the Cloud SQL for MySQL Admin API.\nRegional endpoints let you interact with Cloud SQL for MySQL instances\nusing regionalized URLs (such as\nsqladmin.{region}.rep.googleapis.com)\nrather than through a single global endpoint.\nRegional endpoints provide regional frontend and load balancing infrastructure\nthat improves data residency by keeping network traffic within the same\nregion as the instance. This reduces the instance's dependency on global\nfrontend infrastructure.\nRegional endpoints have strong regional isolation, so the failure of a load\nbalancer or frontend in one region doesn't affect any other\nregion. Regional service load balancers have a separate, regionally\nisolated control plane.\nRegional endpoints are designed to meet stringent data residency and…",
+        "summary": "Agent Platform Workbench\nFixed\nScheduled upgrade metadata is validated\nThe value of the notebook-upgrade-schedule metadata key is now validated when\nyou create or update an Agent Platform Workbench instance. The value must be a\nsingle-line unix-cron\nformat schedule. For more\ninformation, see Manage features through\nmetadata.\nAssured Workloads\nFeature\nThe EU Data Boundary with Access Justifications\nsupports the following products:\nAlloyDB for PostgreSQL\nApigee\nEventarc\nBigQuery\nFeature\nConversational analytics now supports predictive modeling questions using the\nAI.PREDICT function.\nThis feature is in\nPreview.\nCloud Run\nFeature\nTo take advantage of reduced pricing\nfor Cloud Run jobs, you can delay job execution to\ndefer non-urgent tasks for up to 12 hours (Preview).\nCloud SQL for MySQL\nFeature\nRegional endpoints (REP)\nare now generally available\n(GA)\nfor the Cloud SQL for MySQL Admin API.\nRegional endpoints let you interact with Cloud SQL for MySQL instances\nusing regionalized URLs (such as\nsqladmin.{region}.rep.googleapis.com)\nrather than through a single global endpoint.\nRegional endpoints provide regional frontend and load balancing infrastructure\nthat improves data residency by keeping network traffic within the same\nregion as the instance. This reduces the instance's dependency on global\nfrontend infrastructure.\nRegional endpoints have strong regional isolation, so the failure of a load\nbalancer or frontend in one region doesn't affect any other\nregion. Regional service…",
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-09-08T07:00:00.000Z",
@@ -252,6 +252,15 @@
       }
     ],
     "kubernetes": [
+      {
+        "title": "Kubernetes v1.37: Scheduler Preemption for In-Place Pod Resize (Alpha)",
+        "link": "https://kubernetes.io/blog/2026/09/10/kubernetes-v1-37-scheduler-preemption-for-in-place-pod-resize-alpha/",
+        "summary": "In Kubernetes, resource allocation has historically been a static decision made during a Pod's initial scheduling and placement. With the graduation of the core in-Place Pod resize feature to General Availability in v1.35, application developers and cluster operators gained the powerful ability to dynamically adjust CPU and memory allocations of running containers without incurring disruptive restarts or application downtime.\nHowever, in-place resizing introduced a unique resource scheduling gap: if a running Pod requested a resource scale-up that exceeded the host node's allocatable headroom, the Kubelet was forced to mark the request as Deferred. The Pod would remain parked in this state indefinitely, waiting for resources on the node to naturally free up.\nTo bridge this scheduling gap, Kubernetes v1.37 introduces scheduler preemption for in-place Pod resize (Alpha), behind the InPlacePodVerticalScalingSchedulerPreemption feature gate.\nThis feature allows the Kubernetes scheduler to actively free up capacity on a fully-utilized node by preempting lower-priority workloads, enabling the pending in-place resizes of critical, higher-priority applications to succeed.\nThe \"deferred\" resize challenge\nTo understand why this preemption mechanism is needed, it is helpful to look at how Kubernetes handles running Pod resizing. When a user or controller (such as the Vertical Pod Autoscaler) updates the resource requests of an active container, the Kubelet evaluates whether the…",
+        "image": null,
+        "source": "Kubernetes Blog",
+        "published": "2026-09-10T18:30:00.000Z",
+        "isNew": true
+      },
       {
         "title": "Kubernetes v1.37: Introducing Node Lifecycle Conditions",
         "link": "https://kubernetes.io/blog/2026/09/09/kubernetes-v1-37-node-lifecycle-conditions/",
@@ -313,15 +322,6 @@
         "image": null,
         "source": "Kubernetes Blog",
         "published": "2026-08-31T18:30:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "Kubernetes v1.37: Pod Certificates and Cluster Trust Bundles",
-        "link": "https://kubernetes.io/blog/2026/08/28/kubernetes-v1-37-pod-certificates-and-cluster-trust-bundles/",
-        "summary": "Pod Certificate / Cluster Trust Bundles Blog Post\nKubernetes brings a wealth of features that make it easy to run your production\nworkloads securely and reliably. While aspects like scheduling, health checks\nand resource limits are probably at the front of your mind, one other important\nfeature of Kubernetes is production identity — how your workload can\nauthenticate to other systems in order to do its job.\nUp until now, the primary production identity mechanism built into Kubernetes\nhas been service account JWTs (JSON Web Tokens). These are\ncryptographically-signed tokens, issued by the control plane of your cluster,\nthat let anyone in the world understand who is calling when your workload uses\nthem.\nIn Kubernetes 1.37, the foundations of a new built-in production identity\ntechnology have gone GA. Pod Certificates (and the closely-associated Cluster\nTrust Bundles) build X.509 certificate issuance for TLS and mTLS directly into\ncore Kubernetes.\nWhy?\nService account JWTs have a lot going for them:\nThey are built directly into Kubelet, and work pretty magically. They are\nwritten to your workload container’s filesystem before your workload starts\nup, and automatically kept up to date.\nThe issuance system follows least-privilege principles; the node restriction\nadmission plugin ensures that tokens can only be requested by the Kubelet that\nis actually currently running your pod.\nThey can be federated, allowing you to use them to authenticate to other\nsystems outside of…",
-        "image": "https://kubernetes.io/blog/2026/08/28/kubernetes-v1-37-pod-certificates-and-cluster-trust-bundles/pod-certificates-architecture.svg",
-        "source": "Kubernetes Blog",
-        "published": "2026-08-28T18:30:00.000Z",
         "isNew": false
       }
     ],
