@@ -1,6 +1,6 @@
 {
-  "date": "2026-09-11",
-  "generatedAt": "2026-09-11T19:42:35.697Z",
+  "date": "2026-09-12",
+  "generatedAt": "2026-09-12T09:21:44.172Z",
   "totalArticles": 72,
   "ticker": [
     {
@@ -179,9 +179,18 @@
     ],
     "gcp": [
       {
+        "title": "September 11, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#September_11_2026",
+        "summary": "API Gateway\nFeature\nEnable Model Context Protocol (MCP)\nYou can now configure API Gateway to act as a remote Model Context Protocol (MCP) server. This Public Preview feature allows you to expose your existing REST APIs to AI agents as tools, without requiring changes to your backend services. You can enable MCP by annotating your OpenAPI 3.x specification using custom Google extensions.\nFor more information, see Model Context Protocol overview and Configure Model Context Protocol.\nAlloyDB for PostgreSQL\nFeature\nYou can now monitor the status, throughput, and backlog of the audit logging\npipeline for your AlloyDB for PostgreSQL instances and nodes using\nCloud Monitoring.\nFor more information, see\nMonitor audit log pipeline status.\nCluster Toolkit\nSecurity\nGoogle addressed multiple security vulnerabilities in Slurm that affect\nCluster Toolkit. For more information, see the\nsecurity bulletin.\nGoogle Cloud Contact Center as a Service\nFeature\nHubspot: Configure Do Not Call by phone number\nIn HubSpot integrations, you can now configure Do Not Call for specific phone\nnumbers instead of for an entire contact or company record. Opt-out matching is\nno longer case-sensitive.\nAdministrators: There's a new Do Not Call Configuration section in the\n  CRM pane, located at Settings > Developer Settings (with\n  HubSpot selected).\nFor more information, see Configure Do Not Call for\nHubSpot.\nFeature\nAgent desktop: New network diagnostics tool\nThe agent desktop has a new network diagnostics tool…",
+        "image": null,
+        "source": "Google Cloud Platform (GCP) - Release notes",
+        "published": "2026-09-11T07:00:00.000Z",
+        "isNew": true
+      },
+      {
         "title": "September 10, 2026",
         "link": "https://docs.cloud.google.com/release-notes#September_10_2026",
-        "summary": "BigQuery\nFeature\nConversational analytics in BigQuery now supports the ML.CORRELATION\nfunction to calculate statistical correlations between a target column and one\nor more metric columns in a table. This feature is in Preview.\nFeature\nYou can now use the ML.METRICS function\nto compute evaluation metrics for machine learning\nclassification or regression tasks on any table or query that contains actual\nand predicted values. This function lets you evaluate predictions without\nneeding to create or reference a stored model. This feature is in\nPreview.\nFeature\nYou can use the AI.CAUSAL_EFFECT\nfunction to quantify the impact of specific interventions on time series data.\nThis feature is in Preview.\nCloud SQL for MySQL\nBreaking\nAppending sqlcommenter tags using the sql_commenter_enabled parameter when\nexecuting SQL queries on a Cloud SQL remote MCP server is temporarily disabled.\nFor more information, see sqlcommenter tags.\nCloud SQL for PostgreSQL\nBreaking\nAppending sqlcommenter tags using the sql_commenter_enabled parameter when\nexecuting SQL queries on a Cloud SQL remote MCP server is temporarily disabled.\nFor more information, see sqlcommenter tags.\nCloud Storage\nFeature\nStorage Intelligence advisor\nis now generally available.\nStorage Intelligence advisor lets you monitor and manage your\nCloud Storage environment at scale across organizations, folders, and\nprojects.\nFor more information, see About Storage Intelligence advisor.\nGemini Enterprise\nFeature\nGemini Enterprise:…",
+        "summary": "Apigee X\nFixed\nAddendum to Apigee release notes dated August 27, 2026 (1-18-0-apigee-4).\nBug ID\nDescription\n\n\n\n\n502540992\nFixed an issue where the SemanticCacheLookup policy was incompatible with Vertex AI Vector Search Private Service Connect (PSC) endpoints.\n\n\n\nBigQuery\nFeature\nConversational analytics in BigQuery now supports the ML.CORRELATION\nfunction to calculate statistical correlations between a target column and one\nor more metric columns in a table. This feature is in Preview.\nFeature\nYou can now use the ML.METRICS function\nto compute evaluation metrics for machine learning\nclassification or regression tasks on any table or query that contains actual\nand predicted values. This function lets you evaluate predictions without\nneeding to create or reference a stored model. This feature is in\nPreview.\nFeature\nYou can use the AI.CAUSAL_EFFECT\nfunction to quantify the impact of specific interventions on time series data.\nThis feature is in Preview.\nCloud SQL for MySQL\nBreaking\nAppending sqlcommenter tags using the sql_commenter_enabled parameter when\nexecuting SQL queries on a Cloud SQL remote MCP server is temporarily disabled.\nFor more information, see sqlcommenter tags.\nCloud SQL for PostgreSQL\nBreaking\nAppending sqlcommenter tags using the sql_commenter_enabled parameter when\nexecuting SQL queries on a Cloud SQL remote MCP server is temporarily disabled.\nFor more information, see sqlcommenter tags.\nCloud Storage\nFeature\nStorage Intelligence advisor\nis now generally…",
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-09-10T07:00:00.000Z",
@@ -208,7 +217,7 @@
       {
         "title": "September 07, 2026",
         "link": "https://docs.cloud.google.com/release-notes#September_07_2026",
-        "summary": "AI Hypercomputer\nSecurity\nGoogle addressed a security vulnerability (CVE-2026-65107) that affects Slurm\nclusters. Based on the Google Cloud product that you used to create your Slurm\ncluster, see one of the following to mitigate the vulnerability:\nSecurity bulletin for Cluster Director\n\n\nSecurity bulletin for Cluster Toolkit\n\n\nAccess Approval\nFeature\nPrivileged Access Manager is generally available\n(GA).\nAccess Transparency\nFeature\nPrivileged Access Manager is generally available\n(GA).\nCluster Toolkit\nSecurity\nGoogle addressed a security vulnerability (CVE-2026-65107) in the Slurm sbcast\ntool that affects Cluster Toolkit. For more information, see the\nsecurity bulletin.\nKnowledge Catalog\nFeature\nData domains in Knowledge Catalog allow you to logically organize the resources within the enterprise to discover and curate your data at scale.\nThis feature is available in Preview.\nFor more information, see About data domains.",
+        "summary": "AI Hypercomputer\nSecurity\nGoogle addressed a security vulnerability (CVE-2026-65107) that affects Slurm\nclusters. Based on the Google Cloud product that you used to create your Slurm\ncluster, see one of the following to mitigate the vulnerability:\nSecurity bulletin for Cluster Director\n\n\nSecurity bulletin for Cluster Toolkit\n\n\nAccess Approval\nFeature\nPrivileged Access Manager is generally available\n(GA).\nAccess Transparency\nFeature\nPrivileged Access Manager is generally available\n(GA).\nCluster Toolkit\nFeature\nCluster Toolkit version v1.103.0 is available. This release simplifies\nthe gcluster job configuration workflow, adds dynamic catalog fallback for\nsystem node pools, increases the maximum system node pool limit to 150 nodes,\nand replaces deprecated e2 instances with n2d across daily tests and\nconfigurations. This release also upgrades Slurm to version 25.11.8 to address\nmultiple security vulnerabilities. For more information about the vulnerabilities, see the\nsecurity bulletin and\nthe release announcement on\nGitHub.\nSecurity\nGoogle addressed a security vulnerability (CVE-2026-65107) in the Slurm sbcast\ntool that affects Cluster Toolkit. For more information, see the\nsecurity bulletin.\nKnowledge Catalog\nFeature\nData domains in Knowledge Catalog allow you to logically organize the resources within the enterprise to discover and curate your data at scale.\nThis feature is available in Preview.\nFor more information, see About data domains.",
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-09-07T07:00:00.000Z",
@@ -240,18 +249,18 @@
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-09-04T07:00:00.000Z",
         "isNew": false
-      },
-      {
-        "title": "September 03, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#September_03_2026",
-        "summary": "API Gateway\nChange\nNew model routing gateways might use a gateway.dev default hostname\nIf you create a gateway that uses model routing on or after September 3, 2026, it\nmight receive a gateway.dev default hostname instead of a run.app one, in the\nform https://GATEWAY_ID-PROJECT_NUMBER.REGION.gateway.dev — for example, https://my-gateway-123456789012.us-central1.gateway.dev. This is a second gateway.dev format; other gateways keep the existing one.\nTo get a gateway's URL, read its defaultHostname property.\nFor more information, see Deploy an API to a gateway.\nBigQuery\nFeature\nConversational analytics now supports questions about\nmarket basket analysis.\nThis feature is\ngenerally available\n(GA).\nCloud Healthcare API\nFeature\nGeneral availability: Filtered export of DICOM data using filterConfig is now\ngenerally available (GA) in Cloud Healthcare API v1. You can supply a Cloud Storage\nURI (resourcePathsGcsUri) containing a newline-delimited list of DICOMweb resource\npaths (studies/<studyUID>[/series/<seriesUID>[/instances/<instanceUID>]]) in\nprojects.locations.datasets.dicomStores.export\nto export targeted subsets of DICOM data rather than the entire DICOM store.\nFor more information, see\nExporting DICOM instances using filters.\nCloud Storage\nFeature\nYou can use Storage batch operations to do the following:\nSelect objects dynamically across a project by using Common Expression\nLanguage (CEL) filters\nbased on metadata in your Storage Insights datasets,\nwithout manual CSV manifests…",
-        "image": null,
-        "source": "Google Cloud Platform (GCP) - Release notes",
-        "published": "2026-09-03T07:00:00.000Z",
-        "isNew": false
       }
     ],
     "kubernetes": [
+      {
+        "title": "Kubernetes v1.37: Native Histograms Graduates to Beta",
+        "link": "https://kubernetes.io/blog/2026/09/11/kubernetes-v1-37-native-histograms-beta/",
+        "summary": "I'm excited to announce that native histogram support for Kubernetes metrics is graduating to Beta and is enabled by default in Kubernetes v1.37!\nNative histograms (previously introduced as Alpha in Kubernetes v1.36 under KEP-5808)\nbring high-resolution, low-cardinality observability to Kubernetes metrics.\nBy adopting Prometheus Native Histograms, Kubernetes components now expose latency and duration metrics with far greater accuracy while significantly reducing telemetry storage and scraping overhead.\nWhy move beyond classic histograms?\nSince the early days of Kubernetes observability, duration and latency metrics (such as API server request latencies or scheduling durations) have relied on classic Prometheus histograms.\nClassic histograms require metric authors to define a static list of cumulative bucket boundaries (le labels), such as 0.005, 0.01, 0.025, 0.05, 0.1, 0.25, 0.5, 1, 2.5, 5, 10. While familiar, this approach introduces three major challenges:\nThe Bucket Guessing Game: If a workload's latency profile changes, for example, shifting into microsecond ranges or experiencing long-tail tail latencies beyond the highest bucket, the histogram loses visibility. Specifying bucket boundaries upfront requires knowing the distribution before observing it\nHigh Cardinality & Storage Cost: With classic histograms, each bucket boundary is exported as a separate time series (_bucket{le=\"...\"}). A histogram with 10 buckets across multiple labels multiplies the number of time…",
+        "image": "https://kubernetes.io/images/blog/2026-kubernetes-1-37-native-histograms-beta/native-histograms-flow.svg",
+        "source": "Kubernetes Blog",
+        "published": "2026-09-11T18:30:00.000Z",
+        "isNew": true
+      },
       {
         "title": "Kubernetes v1.37: Scheduler Preemption for In-Place Pod Resize (Alpha)",
         "link": "https://kubernetes.io/blog/2026/09/10/kubernetes-v1-37-scheduler-preemption-for-in-place-pod-resize-alpha/",
@@ -313,15 +322,6 @@
         "image": null,
         "source": "Kubernetes Blog",
         "published": "2026-09-01T18:30:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "Kubernetes v1.37: Storage Version Migration Enabled by Default",
-        "link": "https://kubernetes.io/blog/2026/08/31/kubernetes-v1-37-storage-version-migration-ga/",
-        "summary": "I am excited that storage version migration (SVM) has graduated to General Availability (GA) in Kubernetes v1.37!\nAfter a number of releases of work and testing, the built-in StorageVersionMigration API (storagemigration.k8s.io/v1)\nand control plane controller are now fully stable and enabled by default across all v1.37 Kubernetes clusters.\nThe problem with stale storage versions\nIn Kubernetes, stored API resources are written using a specific storage version (schema representation). The way Kubernetes interacts with object storage fundamentally requires mutation of a resource in order to ensure that the latest storage version is used for all resources. This creates problems when you want to change the storage version of a resource.\nOne example of a scenario where you may want to change the storage version of a resource is when you are promoting a CRD to drop an older API version (such as v1alpha1) to a newer version (leaving just v1beta1 and v1). It's a problem to drop the older API version whilst there are still resources stored with the old alpha version.\nTo avoid problems, you designate v1 as the new storage version; but, on it's own, that's not enough. While new writes are stored as v1, any existing resource could remain stored as v1alpha1 or v1beta1 in storage. You cannot safely remove v1alpha1 from the CRD's .status.storedVersions or drop serving support until every single resource in storage has been re-written to not be serialized and stored with the alpha version.…",
-        "image": null,
-        "source": "Kubernetes Blog",
-        "published": "2026-08-31T18:30:00.000Z",
         "isNew": false
       }
     ],

@@ -1,6 +1,6 @@
 {
-  "date": "2026-09-05",
-  "generatedAt": "2026-09-05T19:02:02.926Z",
+  "date": "2026-09-12",
+  "generatedAt": "2026-09-12T09:21:44.172Z",
   "totalArticles": 72,
   "ticker": [
     {
@@ -9,7 +9,7 @@
     },
     {
       "label": "Terraform",
-      "version": "v1.16.1"
+      "version": "v1.16.2"
     },
     {
       "label": "Python",
@@ -25,11 +25,29 @@
     },
     {
       "label": "Node.js",
-      "version": "v26.8.1"
+      "version": "v26.8.2"
     }
   ],
   "topics": {
     "aws": [
+      {
+        "title": "Introducing Amazon EBS Volume Clones across AWS accounts",
+        "link": "https://aws.amazon.com/blogs/aws/introducing-amazon-ebs-volume-clones-across-aws-accounts/",
+        "summary": "AWS introduces Amazon EBS Volume Clones with cross-account copy, so you can create copies of your EBS volumes into other AWS accounts and optionally re-encrypt them with an AWS Key Management Service (AWS KMS) key in the target account.",
+        "image": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2026/09/08/2026-ebs-clone-accounts-1.jpg",
+        "source": "AWS News Blog",
+        "published": "2026-09-09T22:01:47.000Z",
+        "isNew": false
+      },
+      {
+        "title": "AWS Weekly Roundup: Claude Fable 5.1 on AWS, Amazon Linux 2027 preview, AWS Certified AI Business Strategist, and more (September 7, 2026)",
+        "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-claude-fable-5-1-on-aws-amazon-linux-2027-preview-aws-certified-ai-business-strategist-and-more-september-7-2026/",
+        "summary": "Last week, Claude Fable 5.1 became available on AWS. According to Anthropic, Claude Fable 5.1 delivers frontier intelligence for ambitious tasks across coding, scientific research, and enterprise workflows. Claude Fable 5.1 is built for long-running, high-stakes work that runs for hours and spans many applications. It can own more of a software project on its […]",
+        "image": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2026/09/07/2026-claude-fable-5-1-onaws.png",
+        "source": "AWS News Blog",
+        "published": "2026-09-07T14:24:08.000Z",
+        "isNew": false
+      },
       {
         "title": "Amazon EC2 R9g and R9gd instances powered by AWS Graviton5 processors are now generally available",
         "link": "https://aws.amazon.com/blogs/aws/amazon-ec2-r9g-and-r9gd-instances-powered-by-aws-graviton5-processors-are-now-generally-available/",
@@ -83,27 +101,54 @@
         "source": "AWS News Blog",
         "published": "2026-08-18T13:58:41.000Z",
         "isNew": false
-      },
-      {
-        "title": "AWS Weekly Roundup: EC2 application status checks, IAM role manager, OpenAI Daybreak on Bedrock, and more (August 17, 2026)",
-        "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-ec2-application-status-checks-iam-role-manager-openai-daybreak-on-bedrock-and-more-august-17-2026/",
-        "summary": "Last week, AWS contributors joined the OpenSearch and Valkey communities at Open Source Summit Korea 2026 and MCP DevSummit Seoul 2026 to meet open source developers and contributors. At the four-day event, community leaders and users of these Linux Foundation open source projects gathered to share knowledge, collaborate on solutions, and push the projects forward. […]",
-        "image": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2026/08/15/2026-osss-korea-opensearch-valkey.jpg",
-        "source": "AWS News Blog",
-        "published": "2026-08-17T16:02:36.000Z",
-        "isNew": false
-      },
-      {
-        "title": "AWS Weekly Roundup: AWS Heroes Summit, Web Search on Amazon Bedrock, Dogwood, Kiro Crew, and more (August 10, 2026)",
-        "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-aws-heroes-summit-web-search-on-amazon-bedrock-dogwood-kiro-crew-and-more-august-10-2026/",
-        "summary": "Last week, we brought together AWS Heroes from around the world to connect, collaborate, and celebrate the builders who go above and beyond for the AWS community. The AWS Heroes Summit, an invite-only annual gathering, brings global experts specializing in fields like AI, serverless, and containers together for direct collaboration, technical deep-dives, and feedback sessions […]",
-        "image": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2026/08/07/1785879027542.jpg",
-        "source": "AWS News Blog",
-        "published": "2026-08-10T15:45:03.000Z",
-        "isNew": false
       }
     ],
     "azure": [
+      {
+        "title": "Two zones or three? A design framework for zone-resilient Azure workloads",
+        "link": "https://azure.microsoft.com/en-us/blog/two-zones-or-three-a-design-framework-for-zone-resilient-azure-workloads/",
+        "summary": "Zone resiliency isn't a single number you apply to a whole workload. The useful question isn't “how many zones?” but “how many zones does each component need to survive the loss of one?” Decide zone patterns component by component, use service-managed zone redundancy wherever it fits, and reserve three-zone designs for the components that genuinely require a third failure domain.\nThe post Two zones or three? A design framework for zone-resilient Azure workloads appeared first on Microsoft Azure Blog.",
+        "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/09/Azure-DataPlatform-Dark-scaled.jpg",
+        "source": "Microsoft Azure Blog",
+        "published": "2026-09-09T18:00:00.000Z",
+        "isNew": false
+      },
+      {
+        "title": "Beyond the benchmark: How an adaptive approach drives scientific discovery",
+        "link": "https://azure.microsoft.com/en-us/blog/beyond-the-benchmark-how-an-adaptive-approach-drives-scientific-discovery/",
+        "summary": "For research and development (R&D) organizations, the promise of agentic AI is not a better one-time answer. It is a new way to explore complex scientific and engineering problems: pursuing multiple hypotheses, validating them against evidence, learning from what does not work, and adapting their approach as new information becomes available.\nThe post Beyond the benchmark: How an adaptive approach drives scientific discovery appeared first on Microsoft Azure Blog.",
+        "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/09/CLO24-Azure-Healthcare-015-scaled.jpg",
+        "source": "Microsoft Azure Blog",
+        "published": "2026-09-08T20:00:00.000Z",
+        "isNew": false
+      },
+      {
+        "title": "Enterprise AI transformation relies on the end-to-end platform: Azure was built for this moment",
+        "link": "https://azure.microsoft.com/en-us/blog/enterprise-ai-transformation-relies-on-the-end-to-end-platform-azure-was-built-for-this-moment/",
+        "summary": "The recognition for Microsoft over the past couple of weeks comes down to models, infrastructure, data, applications, and developer tools working as one system when AI moves into production.\nThe post Enterprise AI transformation relies on the end-to-end platform: Azure was built for this moment appeared first on Microsoft Azure Blog.",
+        "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/09/Figure1-scaled.webp",
+        "source": "Microsoft Azure Blog",
+        "published": "2026-09-03T19:00:00.000Z",
+        "isNew": false
+      },
+      {
+        "title": "GPT-6 Astra: Frontier intelligence for work, now generally available in Microsoft Foundry",
+        "link": "https://azure.microsoft.com/en-us/blog/gpt-6-astra-frontier-intelligence-for-work-now-generally-available-in-microsoft-foundry/",
+        "summary": "GPT-6 Astra, OpenAI's newest frontier model, begins rolling out today through the Microsoft Foundry Limited Access Program, with availability expanding to participating customers over the coming days.\nThe post GPT-6 Astra: Frontier intelligence for work, now generally available in Microsoft Foundry appeared first on Microsoft Azure Blog.",
+        "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/06/Azure-DevTools-Dark-1-scaled.jpg",
+        "source": "Microsoft Azure Blog",
+        "published": "2026-09-03T18:15:00.000Z",
+        "isNew": false
+      },
+      {
+        "title": "How Microsoft’s Physical Security Engineering Team scaled hybrid operations with Azure Arc and Azure Virtual Desktop",
+        "link": "https://azure.microsoft.com/en-us/blog/how-microsofts-physical-security-engineering-team-scaled-hybrid-operations-with-azure-arc-and-azure-virtual-desktop/",
+        "summary": "Learn how Microsoft used Azure Arc and Azure Virtual Desktop to simplify hybrid security operations, improve visibility, and scale globally.\nThe post How Microsoft’s Physical Security Engineering Team scaled hybrid operations with Azure Arc and Azure Virtual Desktop appeared first on Microsoft Azure Blog.",
+        "image": null,
+        "source": "Microsoft Azure Blog",
+        "published": "2026-09-03T15:00:00.000Z",
+        "isNew": false
+      },
       {
         "title": "The Economics of Agent Optimization: Context engineering for enterprise AI agents",
         "link": "https://azure.microsoft.com/en-us/blog/the-economics-of-agent-optimization-context-engineering-for-enterprise-ai-agents/",
@@ -130,128 +175,119 @@
         "source": "Microsoft Azure Blog",
         "published": "2026-08-31T16:00:00.000Z",
         "isNew": false
-      },
-      {
-        "title": "Managed PostgreSQL vs. self-hosted PostgreSQL: Key benefits and trade-offs",
-        "link": "https://azure.microsoft.com/en-us/blog/managed-postgresql-vs-self-hosted-postgresql-key-benefits-and-trade-offs/",
-        "summary": "Compare managed PostgreSQL vs. self-hosted PostgreSQL across cost, control, security, resilience, scalability, and operational effort.\nThe post Managed PostgreSQL vs. self-hosted PostgreSQL: Key benefits and trade-offs appeared first on Microsoft Azure Blog.",
-        "image": "https://opensource.microsoft.com/blog/wp-content/uploads/2126/03/word-image-98353-1-1.png",
-        "source": "Microsoft Azure Blog",
-        "published": "2026-08-27T17:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "The Economics of Agent Optimization: Four ways to lower the cost",
-        "link": "https://azure.microsoft.com/en-us/blog/the-economics-of-agent-optimization-four-ways-to-lower-the-cost/",
-        "summary": "Microsoft Foundry gives you four levers that act on every request, before a single line of agent logic changes.\nThe post The Economics of Agent Optimization: Four ways to lower the cost appeared first on Microsoft Azure Blog.",
-        "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/06/CLO23_WorkAnywhere_025.jpg",
-        "source": "Microsoft Azure Blog",
-        "published": "2026-08-26T16:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "The patch window is collapsing: Why security needs a new control plane",
-        "link": "https://azure.microsoft.com/en-us/blog/the-patch-window-is-collapsing-why-security-needs-a-new-control-plane/",
-        "summary": "Organizations need protection that operates in the gap between discovery and remediation.\nThe post The patch window is collapsing: Why security needs a new control plane appeared first on Microsoft Azure Blog.",
-        "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/08/1121922_In-blog-3-1024x576.jpg",
-        "source": "Microsoft Azure Blog",
-        "published": "2026-08-25T16:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "Microsoft named a Leader in the 2026 Gartner® Magic Quadrant™ for Cloud-Native Application Platforms",
-        "link": "https://azure.microsoft.com/en-us/blog/microsoft-named-a-leader-in-the-2026-gartner-magic-quadrant-for-cloud-native-application-platforms/",
-        "summary": "Cloud-native platforms are becoming the foundation for AI transformation. Discover how Microsoft's Azure application platform helps organizations modernize, innovate, and operate AI-powered applications at scale.\nThe post Microsoft named a Leader in the 2026 Gartner® Magic Quadrant™ for Cloud-Native Application Platforms  appeared first on Microsoft Azure Blog.",
-        "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/08/MQ-Cloud-Native-App-Platform-Blog-Thumbnail-2-1024x1024.webp",
-        "source": "Microsoft Azure Blog",
-        "published": "2026-08-17T15:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "The Economics of Agent Optimization: From pilots to measurable returns",
-        "link": "https://azure.microsoft.com/en-us/blog/the-economics-of-agent-optimization-from-pilots-to-measurable-returns/",
-        "summary": "Learn how AI cost management helps organizations move from AI pilots to measurable ROI through greater visibility, governance, and optimization.\nThe post The Economics of Agent Optimization: From pilots to measurable returns appeared first on Microsoft Azure Blog.",
-        "image": null,
-        "source": "Microsoft Azure Blog",
-        "published": "2026-08-12T16:00:00.000Z",
-        "isNew": false
       }
     ],
     "gcp": [
       {
+        "title": "September 11, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#September_11_2026",
+        "summary": "API Gateway\nFeature\nEnable Model Context Protocol (MCP)\nYou can now configure API Gateway to act as a remote Model Context Protocol (MCP) server. This Public Preview feature allows you to expose your existing REST APIs to AI agents as tools, without requiring changes to your backend services. You can enable MCP by annotating your OpenAPI 3.x specification using custom Google extensions.\nFor more information, see Model Context Protocol overview and Configure Model Context Protocol.\nAlloyDB for PostgreSQL\nFeature\nYou can now monitor the status, throughput, and backlog of the audit logging\npipeline for your AlloyDB for PostgreSQL instances and nodes using\nCloud Monitoring.\nFor more information, see\nMonitor audit log pipeline status.\nCluster Toolkit\nSecurity\nGoogle addressed multiple security vulnerabilities in Slurm that affect\nCluster Toolkit. For more information, see the\nsecurity bulletin.\nGoogle Cloud Contact Center as a Service\nFeature\nHubspot: Configure Do Not Call by phone number\nIn HubSpot integrations, you can now configure Do Not Call for specific phone\nnumbers instead of for an entire contact or company record. Opt-out matching is\nno longer case-sensitive.\nAdministrators: There's a new Do Not Call Configuration section in the\n  CRM pane, located at Settings > Developer Settings (with\n  HubSpot selected).\nFor more information, see Configure Do Not Call for\nHubSpot.\nFeature\nAgent desktop: New network diagnostics tool\nThe agent desktop has a new network diagnostics tool…",
+        "image": null,
+        "source": "Google Cloud Platform (GCP) - Release notes",
+        "published": "2026-09-11T07:00:00.000Z",
+        "isNew": true
+      },
+      {
+        "title": "September 10, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#September_10_2026",
+        "summary": "Apigee X\nFixed\nAddendum to Apigee release notes dated August 27, 2026 (1-18-0-apigee-4).\nBug ID\nDescription\n\n\n\n\n502540992\nFixed an issue where the SemanticCacheLookup policy was incompatible with Vertex AI Vector Search Private Service Connect (PSC) endpoints.\n\n\n\nBigQuery\nFeature\nConversational analytics in BigQuery now supports the ML.CORRELATION\nfunction to calculate statistical correlations between a target column and one\nor more metric columns in a table. This feature is in Preview.\nFeature\nYou can now use the ML.METRICS function\nto compute evaluation metrics for machine learning\nclassification or regression tasks on any table or query that contains actual\nand predicted values. This function lets you evaluate predictions without\nneeding to create or reference a stored model. This feature is in\nPreview.\nFeature\nYou can use the AI.CAUSAL_EFFECT\nfunction to quantify the impact of specific interventions on time series data.\nThis feature is in Preview.\nCloud SQL for MySQL\nBreaking\nAppending sqlcommenter tags using the sql_commenter_enabled parameter when\nexecuting SQL queries on a Cloud SQL remote MCP server is temporarily disabled.\nFor more information, see sqlcommenter tags.\nCloud SQL for PostgreSQL\nBreaking\nAppending sqlcommenter tags using the sql_commenter_enabled parameter when\nexecuting SQL queries on a Cloud SQL remote MCP server is temporarily disabled.\nFor more information, see sqlcommenter tags.\nCloud Storage\nFeature\nStorage Intelligence advisor\nis now generally…",
+        "image": null,
+        "source": "Google Cloud Platform (GCP) - Release notes",
+        "published": "2026-09-10T07:00:00.000Z",
+        "isNew": false
+      },
+      {
+        "title": "September 09, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#September_09_2026",
+        "summary": "Apigee X\nFeature\nSemanticCacheLookup policy supports non-default Vector Search distance measures\nAvailable in Apigee 1-18-0-apigee-4 and later. A new optional\n<DistanceMeasureType> element accepts DOT_PRODUCT_DISTANCE (the\ndefault, and the existing behavior), COSINE_DISTANCE,\nSQUARED_L2_DISTANCE and L1_DISTANCE. The policy now compares\n<Threshold> in the direction the declared measure implies, so declaring a\nnon-default measure requires re-tuning the threshold in the same edit. The 0-to-1 restriction on\n<Threshold> is also removed.\nBigQuery\nFeature\nBigQuery generative AI functions\nnow support the following Gemini models:\ngemini-3.5-flash-lite\ngemini-3.6-flash\ngemini-3.7-flash\nCloud Monitoring\nFeature\nA chart on a dashboard can override the dashboard's time-range setting. This\nfeature lets you view trends over a long period or metric data with low\nsampling rates alongside charts that show only recent data, and is\nGenerally Available (GA).\nFor more information, see the following documents:\nGoogle Cloud console: Set a time-range override for a chart or group\nAPI: Dashboard with an XyChart widget that sets a time-range override\nGemini Enterprise\nBreaking\nGemini Notebook Enterprise: Website URL ingestion blocked by VPC Service Controls\nProjects with VPC Service Controls enabled can't add website URLs as\nnotebook sources in Gemini Notebook Enterprise.\nThis is because direct website\ningestion performs a live web crawl, generating outbound traffic beyond Google\nnetworks, which would…",
+        "image": null,
+        "source": "Google Cloud Platform (GCP) - Release notes",
+        "published": "2026-09-09T07:00:00.000Z",
+        "isNew": false
+      },
+      {
+        "title": "September 08, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#September_08_2026",
+        "summary": "Agent Platform Workbench\nFixed\nScheduled upgrade metadata is validated\nThe value of the notebook-upgrade-schedule metadata key is now validated when\nyou create or update an Agent Platform Workbench instance. The value must be a\nsingle-line unix-cron\nformat schedule. For more\ninformation, see Manage features through\nmetadata.\nAssured Workloads\nFeature\nThe EU Data Boundary with Access Justifications\nsupports the following products:\nAlloyDB for PostgreSQL\nApigee\nEventarc\nBigQuery\nFeature\nConversational analytics now supports predictive modeling questions using the\nAI.PREDICT function.\nThis feature is in\nPreview.\nCloud Run\nFeature\nTo take advantage of reduced pricing\nfor Cloud Run jobs, you can delay job execution to\ndefer non-urgent tasks for up to 12 hours (Preview).\nCloud SQL for MySQL\nFeature\nRegional endpoints (REP)\nare now generally available\n(GA)\nfor the Cloud SQL for MySQL Admin API.\nRegional endpoints let you interact with Cloud SQL for MySQL instances\nusing regionalized URLs (such as\nsqladmin.{region}.rep.googleapis.com)\nrather than through a single global endpoint.\nRegional endpoints provide regional frontend and load balancing infrastructure\nthat improves data residency by keeping network traffic within the same\nregion as the instance. This reduces the instance's dependency on global\nfrontend infrastructure.\nRegional endpoints have strong regional isolation, so the failure of a load\nbalancer or frontend in one region doesn't affect any other\nregion. Regional service…",
+        "image": null,
+        "source": "Google Cloud Platform (GCP) - Release notes",
+        "published": "2026-09-08T07:00:00.000Z",
+        "isNew": false
+      },
+      {
+        "title": "September 07, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#September_07_2026",
+        "summary": "AI Hypercomputer\nSecurity\nGoogle addressed a security vulnerability (CVE-2026-65107) that affects Slurm\nclusters. Based on the Google Cloud product that you used to create your Slurm\ncluster, see one of the following to mitigate the vulnerability:\nSecurity bulletin for Cluster Director\n\n\nSecurity bulletin for Cluster Toolkit\n\n\nAccess Approval\nFeature\nPrivileged Access Manager is generally available\n(GA).\nAccess Transparency\nFeature\nPrivileged Access Manager is generally available\n(GA).\nCluster Toolkit\nFeature\nCluster Toolkit version v1.103.0 is available. This release simplifies\nthe gcluster job configuration workflow, adds dynamic catalog fallback for\nsystem node pools, increases the maximum system node pool limit to 150 nodes,\nand replaces deprecated e2 instances with n2d across daily tests and\nconfigurations. This release also upgrades Slurm to version 25.11.8 to address\nmultiple security vulnerabilities. For more information about the vulnerabilities, see the\nsecurity bulletin and\nthe release announcement on\nGitHub.\nSecurity\nGoogle addressed a security vulnerability (CVE-2026-65107) in the Slurm sbcast\ntool that affects Cluster Toolkit. For more information, see the\nsecurity bulletin.\nKnowledge Catalog\nFeature\nData domains in Knowledge Catalog allow you to logically organize the resources within the enterprise to discover and curate your data at scale.\nThis feature is available in Preview.\nFor more information, see About data domains.",
+        "image": null,
+        "source": "Google Cloud Platform (GCP) - Release notes",
+        "published": "2026-09-07T07:00:00.000Z",
+        "isNew": false
+      },
+      {
+        "title": "September 06, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#September_06_2026",
+        "summary": "Google SecOps\nFeature\n[Spotlight Feature] Case playbooks\nThis feature is in preview. Google SecOps now supports case playbooks. You can \nrun playbooks or execute manual actions across an entire case container rather \nthan individual alerts, consolidating response tasks and reducing redundant \noperations during investigations.\nFor more information, see Case playbooks overview.\nFeature\n[Spotlight Feature] Reaction triggers\nThis feature is in preview. Google SecOps now supports reaction triggers. As\npost-ingestion triggers, they allow playbooks to automatically fire in response\nto real-time case or alert updates during active investigations, such as changes\nto the case assignee, case tags, alert priority, or newly added entities.\nFor more information, see Use reaction triggers in playbooks.\nGoogle SecOps SOAR\nAnnouncement\nRelease 6.3.100 is being rolled out to the first phase of regions as listed\nhere.\nThis release contains internal and customer bug fixes.\nFeature\nReaction triggers\nThis feature is in preview. Google SecOps now supports reaction triggers. As \npost-ingestion triggers, they allow playbooks to automatically fire in response \nto real-time case or alert updates during active investigations, such as changes \nto the case assignee, case tags, alert priority, or newly added entities.\nFor more information, see Use reaction triggers in playbooks.\nFeature\nCase playbooks\nThis feature is in preview. Google SecOps now supports case playbooks. You can\nrun playbooks or execute…",
+        "image": null,
+        "source": "Google Cloud Platform (GCP) - Release notes",
+        "published": "2026-09-06T07:00:00.000Z",
+        "isNew": false
+      },
+      {
+        "title": "September 05, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#September_05_2026",
+        "summary": "Google SecOps SOAR\nAnnouncement\nRelease 6.3.99 is now\navailable for all regions.",
+        "image": null,
+        "source": "Google Cloud Platform (GCP) - Release notes",
+        "published": "2026-09-05T07:00:00.000Z",
+        "isNew": false
+      },
+      {
         "title": "September 04, 2026",
         "link": "https://docs.cloud.google.com/release-notes#September_04_2026",
-        "summary": "Cloud Billing\nChange\nIntroducing the Incentives page, for tracking spend-based milestone credits,\nRaMP, and other conditional incentives\nIf you have a custom pricing contract, you might be enrolled in conditional\nincentives, where you earn credits or discounts for spending specific amounts\non Google Cloud.\nThe Incentives page\nreplaces the\nSpend-based Milestones tab\nthat was located in the Credits page. The Incentives page provides a\nconsolidated and enhanced experience for tracking your progress towards\nconditional incentives, including spend-based milestone credits and Rapid\nMigration & Modernization Program (RaMP) credits and discounts.\nLearn more about\ntracking conditional incentives.\nCloud SQL for MySQL\nFeature\nThe C4 machine series\nis now available for Cloud SQL for MySQL Enterprise Plus instances in the\nfollowing regions:\nafrica-south1 — Johannesburg\nasia-northeast3 — Seoul\nasia-south2 — Delhi\neurope-west6 — Zürich\nsouthamerica-west1 — Santiago\nus-west3 — Salt Lake City\nThe C4 machine series provides the following benefits:\nSupports fifth and sixth generation Intel Xeon Scalable processors.\nOffers a price-performance balance that makes it suitable for\nhigh-demand workloads.\nFeature\nCloud SQL supports in-place upgrades and downgrades to your instance's\ninfrastructure. You can change all of the following in place:\nThe edition that your Cloud SQL instance uses.\nThe machine type.\nThe storage type.\nThe database version.\nMaking in-place changes is the most direct and least…",
+        "summary": "Audit Manager\nFeature\nThe remote Model Context Protocol (MCP)\nserver for Audit Manager is\ngenerally available\n(GA).\nCloud Billing\nChange\nIntroducing the Incentives page, for tracking spend-based milestone credits,\nRaMP, and other conditional incentives\nIf you have a custom pricing contract, you might be enrolled in conditional\nincentives, where you earn credits or discounts for spending specific amounts\non Google Cloud.\nThe Incentives page\nreplaces the\nSpend-based Milestones tab\nthat was located in the Credits page. The Incentives page provides a\nconsolidated and enhanced experience for tracking your progress towards\nconditional incentives, including spend-based milestone credits and Rapid\nMigration & Modernization Program (RaMP) credits and discounts.\nLearn more about\ntracking conditional incentives.\nCloud SQL for MySQL\nFeature\nThe C4 machine series\nis now available for Cloud SQL for MySQL Enterprise Plus instances in the\nfollowing regions:\nafrica-south1 — Johannesburg\nasia-northeast3 — Seoul\nasia-south2 — Delhi\neurope-west6 — Zürich\nsouthamerica-west1 — Santiago\nus-west3 — Salt Lake City\nThe C4 machine series provides the following benefits:\nSupports fifth and sixth generation Intel Xeon Scalable processors.\nOffers a price-performance balance that makes it suitable for\nhigh-demand workloads.\nFeature\nCloud SQL supports in-place upgrades and downgrades to your instance's\ninfrastructure. You can change all of the following in place:\nThe edition that your Cloud SQL instance…",
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-09-04T07:00:00.000Z",
         "isNew": false
-      },
-      {
-        "title": "September 03, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#September_03_2026",
-        "summary": "API Gateway\nChange\nNew model routing gateways might use a gateway.dev default hostname\nIf you create a gateway that uses model routing on or after September 3, 2026, it\nmight receive a gateway.dev default hostname instead of a run.app one, in the\nform https://GATEWAY_ID-PROJECT_NUMBER.REGION.gateway.dev — for example, https://my-gateway-123456789012.us-central1.gateway.dev. This is a second gateway.dev format; other gateways keep the existing one.\nTo get a gateway's URL, read its defaultHostname property.\nFor more information, see Deploy an API to a gateway.\nBigQuery\nFeature\nConversational analytics now supports questions about\nmarket basket analysis.\nThis feature is\ngenerally available\n(GA).\nCloud Storage\nFeature\nYou can use Storage batch operations to do the following:\nSelect objects dynamically across a project by using Common Expression\nLanguage (CEL) filters\nbased on metadata in your Storage Insights datasets,\nwithout manual CSV manifests or BigQuery export queries.\nTarget objects across up to 1,000 buckets in a single batch job.\nTransition objects in bulk to different storage classes.\nPatch object access control lists (ACLs) in bulk to update or remove\npermissions.\nUse dry run to validate job configurations across multiple buckets, and\ncreate jobs directly from a dry run to process the same validated\nobjects.\nFor more information, see Storage batch operations overview\nand Create and manage batch operations jobs.\nGemini Enterprise\nFeature\nGemini Enterprise: Latency and…",
-        "image": null,
-        "source": "Google Cloud Platform (GCP) - Release notes",
-        "published": "2026-09-03T07:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "September 02, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#September_02_2026",
-        "summary": "AlloyDB for PostgreSQL\nFeature\nAlloyDB real-time data access to BigQuery (in Preview) now offers limit pushdown and runtime projects:\nLimit pushdown: when you query foreign tables, some LIMIT and OFFSET clauses are automatically pushed down to BigQuery, reducing network transfer and improving query response times. For more information, see Access to real-time data in BigQuery overview.\nRuntime projects: you can specify an optional runtime project at either the foreign server or foreign table level to execute queries and manage compute costs independently of the project that stores your data. For more information, see Configure access to real-time data in BigQuery.\nConsider using least-privilege security controls to restrict foreign server usage.\nFor more information, see Secure BigQuery data access using the foreign data wrapper.\nApplication Design Center\nFeature\nApplication Design Center supports the following components in General Availability:\nFirebase AI Logic\nFirebase AI Logic Prompt Template\nFirebase App Check\nFirebase Authentication\nFirebase Multi-Platform App\nFirestore Security Rules\nBigQuery\nChange\nAn updated version of the\nSimba JDBC driver for BigQuery\nis now available.\nCloud SQL for MySQL\nFeature\nCloud SQL supports Workforce Identity Federation authentication. This lets you\nauthenticate to your Cloud SQL instance using identities from an external\nidentity provider such as Microsoft Active Directory or Okta. For more\ninformation, see Workforce Identity Federation…",
-        "image": null,
-        "source": "Google Cloud Platform (GCP) - Release notes",
-        "published": "2026-09-02T07:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "September 01, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#September_01_2026",
-        "summary": "Apigee UI\nAnnouncement\nOn September 1, 2026, we released an updated version of the Apigee UI.\nFixed\nBug ID\nDescription\n\n\n\n\n547582067\n\n\nRevisions can now be imported for API proxies and shared flows in a space\n\n\n          Importing a revision in the Apigee UI now works for an API proxy or\n          shared flow that is associated with a\n          space.\n        \nApp Engine flexible environment Go\nFeature\nSupport for the Go 1.27 runtime is in\nGeneral Availability (GA).\nApp Engine standard environment Go\nFeature\nSupport for the Go 1.27 runtime is in\nGeneral Availability (GA).\nBackup and DR\nFeature\nBackup vault support for AlloyDB for PostgreSQL instances encrypted with customer-managed encryption keys (CMEK) is generally available (GA), providing immutable and indelible storage with enforced retention. For more information, see Encrypt AlloyDB for PostgreSQL cluster backups.\nAnnouncing the general availability (GA) of cross-region backups for AlloyDB for PostgreSQL clusters. You can now protect AlloyDB for PostgreSQL clusters against regional outages by storing backups in a distinct secondary region of your choice. To learn more, see Backup vaults for immutable and indelible backups.\nBigQuery\nFeature\nThe Rust SDK for BigQuery is now in\nPreview.\nBigtable\nFeature\nYou can use the Google Cloud console to create and manage aggregate column families\nfor your Bigtable tables. You can also view and query aggregate column families in Bigtable Studio. This feature is generally available…",
-        "image": null,
-        "source": "Google Cloud Platform (GCP) - Release notes",
-        "published": "2026-09-01T07:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "August 31, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#August_31_2026",
-        "summary": "BigQuery\nFeature\nYou can now create, store, and\nmanage pipelines in Git folders.\nThis feature is in\nPreview.\nFeature\nBigQuery now supports TabFM,\nGoogle's pre-trained foundation model for tabular data. TabFM enables zero-shot\nregression and classification through in-context learning. It delivers\nhigh-accuracy predictions on structured data without requiring model training\nor hyperparameter tuning.\nYou can use TabFM directly through the\nAI.PREDICT function\nand evaluate model performance by using the\nAI.EVALUATE function.\nThis feature is in\nPreview.\nFixed\nSupport for configuring daily token quotas\nfor BigQuery generative AI functions has been restored.\nFeature\nUsing folders to\ncreate, store, and manage pipelines is\ngenerally available.\nFeature\nYou can now create an\nidentity column, sometimes\nreferred to as an auto-incrementing column, on a table. You can use identity\ncolumns to create and\nmaintain primary keys on your tables. When you insert a row into a table\nthat has an identity column, BigQuery generates a unique integer\nvalue for that column. This feature is in\nPreview.\nFeature\nBigQuery Graph\nis generally available\n(GA).\nBigQuery Graph now includes support for the CALL\ngraph query statement,\nand the following path inspection\nGQL functions:\nIS_ACYCLIC\nIS_SIMPLE\nIS_TRAIL.\nCloud SQL for PostgreSQL\nFeature\nYou can use the pgAudit extension to prevent string literals that might indicate\nsensitive information, such as passwords and secrets, from appearing in your log\nquery…",
-        "image": null,
-        "source": "Google Cloud Platform (GCP) - Release notes",
-        "published": "2026-08-31T07:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "August 30, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#August_30_2026",
-        "summary": "Agent Platform Workbench\nChange\n20260830-2330-rc0 Release\nChange\n20260831.01_p0 Release\nChange\nInstalled latest packages from upstream dependencies.\nChange\nInstalled latest packages from upstream dependencies.\nFixed\nThe terminal and file browser are now more responsive when working in a Cloud Storage bucket that is mounted through the file browser. Frequent background checks for non-existent files are now cached instead of repeatedly querying Cloud Storage, which previously could make actions such as listing files or running terminal commands take several seconds.\nFixed\nCloud Storage buckets that you mount through the file browser are now automatically re-mounted after the instance is restarted or is stopped and started. Previously the mounted folder could be left behind as an empty, unusable directory that had to be manually removed and re-mounted.\nChange\nThe obsolete\ngoogle-cloud-sdk transitional package is no longer installed. The Google Cloud\nCLI itself is unchanged; it was already provided by the google-cloud-cli\npackage.\nChange\n20260830-2230-rc0 Release\nChange\n20260830-2230-rc0 Release\nChange\nInstalled latest packages from upstream dependencies.\nChange\nInstalled latest packages from upstream dependencies.\nFixed\nCloud Storage buckets that you mount through the file browser are now automatically re-mounted after the instance is restarted or is stopped and started. Previously the mounted folder could be left behind as an empty, unusable directory that had to be manually…",
-        "image": null,
-        "source": "Google Cloud Platform (GCP) - Release notes",
-        "published": "2026-08-30T07:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "August 29, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#August_29_2026",
-        "summary": "Google SecOps SOAR\nAnnouncement\nRelease 6.3.98 is now\navailable for all regions.",
-        "image": null,
-        "source": "Google Cloud Platform (GCP) - Release notes",
-        "published": "2026-08-29T07:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "August 28, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#August_28_2026",
-        "summary": "Application Integration\nAnnouncement\nUpcoming authorization changes for integration runs\nApplication Integration is updating how identities are handled for integration runs. Every run will act as either the person who triggered it or a run-as service account that you configure, and running an integration will require permission to act as that service account. Integrations that run without a person, such as those started by a schedule or an event, will need an explicitly configured run-as service account.\nAction might be required before the change takes effect. For guidance on identifying affected integrations and updating them, see Prepare for upcoming authorization changes.\nCloud Build\nFeature\nYou can now update access tokens from the Connection details page for\nyour 2nd generation Bitbucket and 2nd generation Gitlab host connections.\nFor more information, see the following:\nRotate old or expired Bitbucket Cloud access tokens\nRotate old or expired Bitbucket Data Center access tokens\nRotate old or expired Bitbucket Server access tokens\nRotate old or expired GitLab Enterprise Edition access tokens\nRotate old or expired GitLab access tokens\nGemini Enterprise\nFeature\nGemini Enterprise: New data stores and support for new actions (Preview)\nThe following data stores are available in Public Preview in Gemini Enterprise:\nCampfire\nClay\nCourtListener\nDaloopa\nMSCI\nYou can search and read data from these data stores using natural language.\nAdditionally, the following data stores…",
-        "image": null,
-        "source": "Google Cloud Platform (GCP) - Release notes",
-        "published": "2026-08-28T07:00:00.000Z",
-        "isNew": false
       }
     ],
     "kubernetes": [
+      {
+        "title": "Kubernetes v1.37: Native Histograms Graduates to Beta",
+        "link": "https://kubernetes.io/blog/2026/09/11/kubernetes-v1-37-native-histograms-beta/",
+        "summary": "I'm excited to announce that native histogram support for Kubernetes metrics is graduating to Beta and is enabled by default in Kubernetes v1.37!\nNative histograms (previously introduced as Alpha in Kubernetes v1.36 under KEP-5808)\nbring high-resolution, low-cardinality observability to Kubernetes metrics.\nBy adopting Prometheus Native Histograms, Kubernetes components now expose latency and duration metrics with far greater accuracy while significantly reducing telemetry storage and scraping overhead.\nWhy move beyond classic histograms?\nSince the early days of Kubernetes observability, duration and latency metrics (such as API server request latencies or scheduling durations) have relied on classic Prometheus histograms.\nClassic histograms require metric authors to define a static list of cumulative bucket boundaries (le labels), such as 0.005, 0.01, 0.025, 0.05, 0.1, 0.25, 0.5, 1, 2.5, 5, 10. While familiar, this approach introduces three major challenges:\nThe Bucket Guessing Game: If a workload's latency profile changes, for example, shifting into microsecond ranges or experiencing long-tail tail latencies beyond the highest bucket, the histogram loses visibility. Specifying bucket boundaries upfront requires knowing the distribution before observing it\nHigh Cardinality & Storage Cost: With classic histograms, each bucket boundary is exported as a separate time series (_bucket{le=\"...\"}). A histogram with 10 buckets across multiple labels multiplies the number of time…",
+        "image": "https://kubernetes.io/images/blog/2026-kubernetes-1-37-native-histograms-beta/native-histograms-flow.svg",
+        "source": "Kubernetes Blog",
+        "published": "2026-09-11T18:30:00.000Z",
+        "isNew": true
+      },
+      {
+        "title": "Kubernetes v1.37: Scheduler Preemption for In-Place Pod Resize (Alpha)",
+        "link": "https://kubernetes.io/blog/2026/09/10/kubernetes-v1-37-scheduler-preemption-for-in-place-pod-resize-alpha/",
+        "summary": "In Kubernetes, resource allocation has historically been a static decision made during a Pod's initial scheduling and placement. With the graduation of the core in-Place Pod resize feature to General Availability in v1.35, application developers and cluster operators gained the powerful ability to dynamically adjust CPU and memory allocations of running containers without incurring disruptive restarts or application downtime.\nHowever, in-place resizing introduced a unique resource scheduling gap: if a running Pod requested a resource scale-up that exceeded the host node's allocatable headroom, the Kubelet was forced to mark the request as Deferred. The Pod would remain parked in this state indefinitely, waiting for resources on the node to naturally free up.\nTo bridge this scheduling gap, Kubernetes v1.37 introduces scheduler preemption for in-place Pod resize (Alpha), behind the InPlacePodVerticalScalingSchedulerPreemption feature gate.\nThis feature allows the Kubernetes scheduler to actively free up capacity on a fully-utilized node by preempting lower-priority workloads, enabling the pending in-place resizes of critical, higher-priority applications to succeed.\nThe \"deferred\" resize challenge\nTo understand why this preemption mechanism is needed, it is helpful to look at how Kubernetes handles running Pod resizing. When a user or controller (such as the Vertical Pod Autoscaler) updates the resource requests of an active container, the Kubelet evaluates whether the…",
+        "image": null,
+        "source": "Kubernetes Blog",
+        "published": "2026-09-10T18:30:00.000Z",
+        "isNew": false
+      },
+      {
+        "title": "Kubernetes v1.37: Introducing Node Lifecycle Conditions",
+        "link": "https://kubernetes.io/blog/2026/09/09/kubernetes-v1-37-node-lifecycle-conditions/",
+        "summary": "Kubernetes has many ways to describe what is happening on a Node. Readiness,\ntaints, Pod state, labels, annotations, and provider-specific APIs each expose\npart of the picture. What has been missing is a shared, Kubernetes-owned way to\nsay that a Node is draining,\nundergoing maintenance, or undergoing Graceful Node Shutdown.\nKubernetes v1.37 introduces five well-known Node conditions\nthat provide that description:\nDrainInProgress\nDrained\nMaintenancePlanned\nMaintenanceInProgress\nGracefulNodeShutdownInProgress\nThe new Node lifecycle conditions\n\n\n\nCondition\nWhat it reports\n\n\n\n\nDrainInProgress\nThe Node is actively being drained according to the administrator's chosen drain criteria.\n\n\nDrained\nThe Node has reached the drain criteria selected by the administrator.\n\n\nMaintenancePlanned\nThe Node is expected to undergo a change in the future.\n\n\nMaintenanceInProgress\nThe Node is actively undergoing maintenance.\n\n\nGracefulNodeShutdownInProgress\nGraceful Node Shutdown is determined to be in progress on the Node.\n\n\n\nMaintenance can include hardware or software rollout, remediation,\ndecommissioning, or debugging. Whether maintenance requires a drain depends on\nits impact. A Kubernetes upgrade usually should follow a drain, while a kernel\nlive patch might not need one.\nLike other Node conditions, each lifecycle condition uses status to report\nwhether the observation is active:\nTrue: the lifecycle state is currently observed.\nFalse: the lifecycle state is not currently observed.\nUnknown:…",
+        "image": null,
+        "source": "Kubernetes Blog",
+        "published": "2026-09-09T18:30:00.000Z",
+        "isNew": false
+      },
+      {
+        "title": "Kubernetes v1.37: Advancing Workload-Aware Scheduling",
+        "link": "https://kubernetes.io/blog/2026/09/08/kubernetes-v1-37-advancing-workload-aware-scheduling/",
+        "summary": "AI/ML and complex batch workloads continue to push the boundaries of Kubernetes scheduling. Following the foundational workload-centric enhancements introduced in previous releases, Kubernetes v1.37 delivers the next major milestone in the Workload-Aware Scheduling (WAS) journey. In this release, the core Workload and PodGroup APIs—enabling gang scheduling—along with Workload-Aware Preemption (WAP) and shared DRA ResourceClaims for PodGroups, all graduate to Beta, solidifying their role in the Kubernetes ecosystem.\nTo address the hierarchical scheduling requirements of modern high-performance distributed workloads, v1.37 introduces the new CompositePodGroup API.\nThis new API allows expressing multi-level topology constraints, gang scheduling, and preemption policies for complex, heterogeneous groups of Pods. Crucially, this architectural expansion unlocks native scheduling support for advanced workload structures commonly managed by higher-order extension APIs such as JobSet and LeaderWorkerSet (LWS).\nAlongside these API additions, v1.37 focuses on streamlining adoption by introducing a new set of controller integration APIs and the workloadbuilder Go library. These provide standardized building blocks that significantly simplify how out-of-tree controllers can integrate with WAS capabilities.\nUtilizing these new tools, the native Job controller integration has been upgraded to fully consume the expanded WAS APIs—enabling advanced scheduling policies, flexible disruption…",
+        "image": null,
+        "source": "Kubernetes Blog",
+        "published": "2026-09-08T18:30:00.000Z",
+        "isNew": false
+      },
       {
         "title": "Kubernetes v1.37: KubeletInUserNamespace (aka Rootless mode) Graduates to Beta",
         "link": "https://kubernetes.io/blog/2026/09/04/kubernetes-v1-37-rootless-beta/",
@@ -287,45 +323,27 @@
         "source": "Kubernetes Blog",
         "published": "2026-09-01T18:30:00.000Z",
         "isNew": false
-      },
-      {
-        "title": "Kubernetes v1.37: Storage Version Migration Enabled by Default",
-        "link": "https://kubernetes.io/blog/2026/08/31/kubernetes-v1-37-storage-version-migration-ga/",
-        "summary": "I am excited that storage version migration (SVM) has graduated to General Availability (GA) in Kubernetes v1.37!\nAfter a number of releases of work and testing, the built-in StorageVersionMigration API (storagemigration.k8s.io/v1)\nand control plane controller are now fully stable and enabled by default across all v1.37 Kubernetes clusters.\nThe problem with stale storage versions\nIn Kubernetes, stored API resources are written using a specific storage version (schema representation). The way Kubernetes interacts with object storage fundamentally requires mutation of a resource in order to ensure that the latest storage version is used for all resources. This creates problems when you want to change the storage version of a resource.\nOne example of a scenario where you may want to change the storage version of a resource is when you are promoting a CRD to drop an older API version (such as v1alpha1) to a newer version (leaving just v1beta1 and v1). It's a problem to drop the older API version whilst there are still resources stored with the old alpha version.\nTo avoid problems, you designate v1 as the new storage version; but, on it's own, that's not enough. While new writes are stored as v1, any existing resource could remain stored as v1alpha1 or v1beta1 in storage. You cannot safely remove v1alpha1 from the CRD's .status.storedVersions or drop serving support until every single resource in storage has been re-written to not be serialized and stored with the alpha version.…",
-        "image": null,
-        "source": "Kubernetes Blog",
-        "published": "2026-08-31T18:30:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "Kubernetes v1.37: Pod Certificates and Cluster Trust Bundles",
-        "link": "https://kubernetes.io/blog/2026/08/28/kubernetes-v1-37-pod-certificates-and-cluster-trust-bundles/",
-        "summary": "Pod Certificate / Cluster Trust Bundles Blog Post\nKubernetes brings a wealth of features that make it easy to run your production\nworkloads securely and reliably. While aspects like scheduling, health checks\nand resource limits are probably at the front of your mind, one other important\nfeature of Kubernetes is production identity — how your workload can\nauthenticate to other systems in order to do its job.\nUp until now, the primary production identity mechanism built into Kubernetes\nhas been service account JWTs (JSON Web Tokens). These are\ncryptographically-signed tokens, issued by the control plane of your cluster,\nthat let anyone in the world understand who is calling when your workload uses\nthem.\nIn Kubernetes 1.37, the foundations of a new built-in production identity\ntechnology have gone GA. Pod Certificates (and the closely-associated Cluster\nTrust Bundles) build X.509 certificate issuance for TLS and mTLS directly into\ncore Kubernetes.\nWhy?\nService account JWTs have a lot going for them:\nThey are built directly into Kubelet, and work pretty magically. They are\nwritten to your workload container’s filesystem before your workload starts\nup, and automatically kept up to date.\nThe issuance system follows least-privilege principles; the node restriction\nadmission plugin ensures that tokens can only be requested by the Kubelet that\nis actually currently running your pod.\nThey can be federated, allowing you to use them to authenticate to other\nsystems outside of…",
-        "image": "https://kubernetes.io/blog/2026/08/28/kubernetes-v1-37-pod-certificates-and-cluster-trust-bundles/pod-certificates-architecture.svg",
-        "source": "Kubernetes Blog",
-        "published": "2026-08-28T18:30:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "Kubernetes v1.37: Metrics API graduates to stable",
-        "link": "https://kubernetes.io/blog/2026/08/27/kubernetes-v1-37-metrics-api-ga/",
-        "summary": "Kubernetes v1.37 promotes the metrics.k8s.io API to stable (v1). This\nAPI provides CPU and memory usage for nodes and Pods, and is the API behind\ncommands such as kubectl top and resource-metrics-based autoscaling.\nFor cluster operators and application developers, this graduation means that\nthe API now has the stability guarantees associated with a Kubernetes stable\nAPI. The v1 API has the same resource types and fields as v1beta1; this is\nan API-version graduation, not a change to the metrics that are collected or\nreturned.\nA long-lived API reaches stable\nThe resource Metrics API was introduced as alpha in Kubernetes v1.6 and became\nbeta in v1.8. It has remained unchanged and has been used in production for\nyears by clients including the HorizontalPodAutoscaler (HPA) and kubectl top.\nKubernetes v1.37 formally graduates that proven API to metrics.k8s.io/v1.\nThe API exposes two resource types:\nNodeMetrics, for CPU and memory usage for a node.\nPodMetrics, for CPU and memory usage for a Pod, with a per-container\nbreakdown in its containers field.\nThe API remains intentionally small. It provides the resource metrics needed\nfor autoscaling and basic inspection; it is not a replacement for a full\nmonitoring pipeline or the custom metrics (custom.metrics.k8s.io) API.\nWhat changed with the v1.37 release?\nThe v1 API surface is identical to v1beta1, except for the API version.\nThere are no renamed fields, new fields, or changes to the meaning of the\nreturned CPU and memory values.\nFor…",
-        "image": null,
-        "source": "Kubernetes Blog",
-        "published": "2026-08-27T18:30:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "Kubernetes v1.37: Garhwal",
-        "link": "https://kubernetes.io/blog/2026/08/26/kubernetes-v1-37-release/",
-        "summary": "Editors: Arsh Sharma, Christopher Tineo, Kirti Goyal, Sophia Ugochukwu, Swathi Rao, Troy Connor\nSimilar to previous releases, the release of Kubernetes v1.37 introduces new Stable, Beta, and Alpha features. The consistent delivery of high-quality releases underscores the strength of our development cycle and the vibrant support from our community.\nThis release consists of 67 enhancements.\nOf those enhancements, 16 have graduated to Stable, 23 have graduated to Beta,\n27 are entering Alpha, and 1 is a deprecation/removal.\nRelease theme and logo\nThe theme for Kubernetes v1.37 is Garhwal (गढ़वाल, pronounced gaṛhvāl), a Himalayan region of Uttarakhand, India. The snow-capped peaks of the Garhwal Himalaya, deodar forests, terraced fields, rivers and streams, and mountain paths shape both the region and the logo. Together, these elements reflect a community in which every layer, route, and contribution is connected.\nThe logo is imagined as a window into Garhwal's landscape.1 Inside, terraced fields climb towards the snowy peaks, each level supported by the one below, much as every Kubernetes release depends on work carried forward. A river winds through the valley and gathers mountain streams, reflecting contributions from many SIGs and communities flowing into one project.\nThe deodar forest represents the wider Kubernetes ecosystem, where distinct projects share common ground and grow side by side. Stonework and woodcraft shape the path and mountain house, placing people at the…",
-        "image": "https://kubernetes.io/blog/2026/08/26/kubernetes-v1-37-release/k8s-v1.37.svg",
-        "source": "Kubernetes Blog",
-        "published": "2026-08-26T00:00:00.000Z",
-        "isNew": false
       }
     ],
     "terraform": [
+      {
+        "title": "v1.17.0-beta1",
+        "link": "https://github.com/hashicorp/terraform/releases/tag/v1.17.0-beta1",
+        "summary": "1.17.0-beta1 (September 09, 2026)\nNEW FEATURES:\nTerraform now supports variables and locals in provider requirements (#39153)\nA new -minimal-refresh planning option has been added, which will only refresh resources that have proposed changes. (#35290)\npolicy: Terraform Policy is now generally available. The -policies flag for plan, apply, and init no longer requires the -allow-experimental-features flag. See https://developer.hashicorp.com/terraform/policy for more information. (#38970)\nENHANCEMENTS:\ncommand/init: Enrich log messages with provider versions (#38918)\ntest: Add mock_provider support for ephemeral resources (#38928)\ncommand/login: display warning after successful login if user is subject to an organization's TTL policy\nBUG FIXES:\nfuncs: pow and log no longer panic when result is not a number (#38912)\nephemeral: Terraform will now use and display diagnostics raised when renewing an ephemeral resource. This may cause warnings to appear that previously were lost. We expect that any error diagnostics that were previously lost would have caused confusing downstream errors, so we do not anticipate this change to be breaking. (#38989)\ntest: Deterministic dependency ordering in cleanup graph (#38247)\nquery: report Unknown and N/A results for policy evaluations of discovered resources (#39058)\nNOTES:\nversion: JSON output now includes a new format_version field, which will enable safer future changes of the command's JSON output format. It is assumed existing tooling…",
+        "image": "https://avatars.githubusercontent.com/u/82989873?s=60&v=4",
+        "source": "Release notes from terraform",
+        "published": "2026-09-09T17:13:24.000Z",
+        "isNew": false
+      },
+      {
+        "title": "v1.16.2",
+        "link": "https://github.com/hashicorp/terraform/releases/tag/v1.16.2",
+        "summary": "1.16.2 (September 9, 2026)\nBUG FIXES:\nFix panic in module installation when encoutering invalid module calls (#39129)",
+        "image": "https://avatars.githubusercontent.com/u/82989873?s=60&v=4",
+        "source": "Release notes from terraform",
+        "published": "2026-09-09T13:22:31.000Z",
+        "isNew": false
+      },
       {
         "title": "v1.16.1",
         "link": "https://github.com/hashicorp/terraform/releases/tag/v1.16.1",
@@ -378,24 +396,6 @@
         "image": "https://avatars.githubusercontent.com/u/82989873?s=60&v=4",
         "source": "Release notes from terraform",
         "published": "2026-08-12T15:22:32.000Z",
-        "isNew": false
-      },
-      {
-        "title": "v1.17.0-alpha20260812",
-        "link": "https://github.com/hashicorp/terraform/releases/tag/v1.17.0-alpha20260812",
-        "summary": "1.17.0-alpha20260812 (August 12, 2026)\nENHANCEMENTS:\ncommand/init: Enrich log messages with provider versions (#38918)\nBUG FIXES:\nfuncs: pow and log no longer panic when result is not a number (#38912)\nephemeral: Terraform will now use and display diagnostics raised when renewing an ephemeral resource. This may cause warnings to appear that previously were lost. We expect that any error diagnostics that were previously lost would have caused confusing downstream errors, so we do not anticipate this change to be breaking. (#38989)\nNOTES:\nversion: JSON output now includes a new format_version field, which will enable safer future changes of the command's JSON output format. It is assumed existing tooling ignores unknown fields and therefore this change should not be breaking in itself but we advice consumers to pay attention to format_version in future releases and/or use latest version of hashicorp/terraform-json & hashicorp/terraform-exec which does. (#38930)\nEXPERIMENTS:\nExperiments are only enabled in alpha releases of Terraform CLI. The following features are not yet available in stable releases.\nThe experimental \"deferred actions\" feature, enabled by passing the -allow-deferral option to terraform plan, permits count and for_each arguments in module, resource, and data blocks to have unknown values and allows providers to react more flexibly to unknown values.\nterraform test cleanup: The experimental test cleanup command. In experimental builds of Terraform, a manifest…",
-        "image": "https://avatars.githubusercontent.com/u/82989873?s=60&v=4",
-        "source": "Release notes from terraform",
-        "published": "2026-08-12T12:01:24.000Z",
-        "isNew": false
-      },
-      {
-        "title": "v1.16.0-beta2",
-        "link": "https://github.com/hashicorp/terraform/releases/tag/v1.16.0-beta2",
-        "summary": "1.16.0-beta2 (August 05, 2026)\nNEW FEATURES:\nTerraform now stores planned private data for providers, allowing provider-specific state to be preserved across plan and apply. (#37986)\nterraform_data: The new store block can hold ephemeral and sensitive values across plan and apply. (#38298)\nProviders can now use nested blocks as computed values (#38305)\nimport: import blocks inside modules are now supported. (#38352)\nTerraform is now available as a pre-built binary for Linux s390x (zLinux). (#38384)\nResource action triggers can now use on_failure modes of halt, taint, or continue. (#38722)\nENHANCEMENTS:\nstate show: The state show command can now produce machine-readable output when supplied with the -json flag (#23940)\nworkspace: The workspace list command can now produce machine-readable output when supplied with the -json flag (#38397)\ntest: Terraform now reports which resources were left behind when skip_cleanup is set. (#38449)\nstacks: Action configurations now have access to a caller symbol containing the object value of the calling resource. (#38668)\nActions can now use before_destroy and after_destroy events. (#38668)\ncloud: Terraform now displays a summary of policy evaluation outcomes for plan and apply runs against HCP Terraform. (#38715)\npolicy: Terraform now resolves policy plugin credentials from the configured cloud or remote backend during init, plan, and apply, rather than requiring the plugin to read credentials itself. (#38716)\ngraph: The terraform graph…",
-        "image": "https://avatars.githubusercontent.com/u/82989873?s=60&v=4",
-        "source": "Release notes from terraform",
-        "published": "2026-08-05T18:07:50.000Z",
         "isNew": false
       }
     ],
@@ -549,6 +549,15 @@
     ],
     "rust": [
       {
+        "title": "Rust debugging survey 2026 results",
+        "link": "https://blog.rust-lang.org/2026/09/07/rust-debugging-survey-2026-results/",
+        "summary": "One of the biggest challenges Rust developers report in our\nannual surveys is a subpar debugging experience. So, back\nin February, we ran our first Rust Debugging Survey,\nin the hopes of identifying how Rust developers are using debuggers and what\nproblems they are facing when doing so. We received over 2,300 responses, and\nwe'd like to thank everyone who took the time to participate in the survey!\nIn this report, we'll go over some of the results of the survey. If you'd like,\nyou can also check out the complete results of the survey.\nIf you'd like to skip ahead to any particular section, you can do so with this\nindex:\nWho Uses Debuggers?\nHow Are Debuggers Used?\nChallenges\nDebugger Visualizers\nClosing Remarks\n\nWho Uses Debuggers?\nThe first step to making sense of the survey results is understanding who took\nthe survey. We asked respondents to rate their Rust expertise, from \"Never used\nit\" to \"Advanced\". Over 80% reported themselves as \"Advanced\" or \"Intermediate\",\nsplit roughly evenly between the two:\n\n\n\n[PNG] [SVG]\n    \nWe also asked respondents if they currently use or have used debuggers in Rust.\nOver 46% said they currently do, with the remaining responses split between\n\"have in the past\" and \"never have\". That means that over half of respondents do\nnot currently use a debugger for Rust!\n\n\n\n[PNG] [SVG]\n    \nCategorized by expertise, the responses reveal that roughly half of \"beginners\"\nhave never used debuggers in Rust! On the other hand, nearly half of \"advanced\nusers\"…",
+        "image": "how-would-you-rate-your-rust-expertise.png",
+        "source": "Rust Blog",
+        "published": "2026-09-07T00:00:00.000Z",
+        "isNew": false
+      },
+      {
         "title": "Announcing Rust 1.98.1",
         "link": "https://blog.rust-lang.org/2026/09/03/Rust-1.98.1/",
         "summary": "The Rust team has published a new point release of Rust, 1.98.1. Rust is a programming language that is empowering everyone to build reliable and efficient software.\nIf you have a previous version of Rust installed via rustup, getting Rust 1.98.1 is as easy as:\nrustup update stable\nIf you don't have it already, you can get rustup from the appropriate page on our website.\n\nWhat's in 1.98.1\nRust 1.98.1 fixes a miscompilation in vtable generation.\nIn Rust 1.98.0, in some circumstances, rustc would incorrectly generate a trait object vtable with a null pointer\nwhere a function pointer should be. This leads to undefined behavior in the\nemitted code. In some cases this may 'just' cause segfaults due to the null\npointer being loaded, but it is possible for it to be justification for\narbitrary effects (as is typical for UB).\nIf you'd like to help us out by testing future releases, you might consider\nusing the beta (rustup default beta) and nightly (rustup default nightly) channels locally and in your CI. Please\nreport any bugs you\nmight come across!\n\nContributors to 1.98.1\nMany people came together to create Rust 1.98.1. We couldn't have done it without all of you. Thanks!",
@@ -610,18 +619,27 @@
         "source": "Rust Blog",
         "published": "2026-08-04T00:00:00.000Z",
         "isNew": false
-      },
-      {
-        "title": "Announcing Rust 1.97.1",
-        "link": "https://blog.rust-lang.org/2026/07/16/Rust-1.97.1/",
-        "summary": "The Rust team has published a new point release of Rust, 1.97.1. Rust is a programming language that is empowering everyone to build reliable and efficient software.\nIf you have a previous version of Rust installed via rustup, getting Rust 1.97.1 is as easy as:\nrustup update stable\nIf you don't have it already, you can get rustup from the appropriate page on our website.\n\nWhat's in 1.97.1\nRust 1.97.1 fixes a miscompilation in an LLVM optimization.\nWe have backported both an LLVM fix and a disable of the underlying change in Rust 1.97.0 of\nRust's generated IR that increased the likelihood of this happening. However,\nnote that the underlying miscompilation has been present since at least Rust\n1.87.\nIf you'd like to help us out by testing future releases, you might consider\nrunning your code's CI or locally using the beta channel (rustup default beta) or the nightly\nchannel (rustup default nightly). Please\nreport any bugs you\nmight come across!\n\nContributors to 1.97.1\nMany people came together to create Rust 1.97.1. We couldn't have done it without all of you. Thanks!",
-        "image": null,
-        "source": "Rust Blog",
-        "published": "2026-07-16T00:00:00.000Z",
-        "isNew": false
       }
     ],
     "javascript": [
+      {
+        "title": "Node.js 26.8.2 (Current)",
+        "link": "https://nodejs.org/en/blog/release/v26.8.2",
+        "summary": "",
+        "image": null,
+        "source": "Node.js Blog",
+        "published": "2026-09-09T16:09:17.000Z",
+        "isNew": false
+      },
+      {
+        "title": "Node.js 24.21.0 (LTS)",
+        "link": "https://nodejs.org/en/blog/release/v24.21.0",
+        "summary": "",
+        "image": null,
+        "source": "Node.js Blog",
+        "published": "2026-09-09T11:55:20.000Z",
+        "isNew": false
+      },
       {
         "title": "Node.js 26.8.1 (Current)",
         "link": "https://nodejs.org/en/blog/release/v26.8.1",
@@ -674,24 +692,6 @@
         "image": null,
         "source": "Node.js Blog",
         "published": "2026-08-03T13:51:29.000Z",
-        "isNew": false
-      },
-      {
-        "title": "Node.js 24.19.0 (LTS)",
-        "link": "https://nodejs.org/en/blog/release/v24.19.0",
-        "summary": "",
-        "image": null,
-        "source": "Node.js Blog",
-        "published": "2026-08-03T13:49:39.000Z",
-        "isNew": false
-      },
-      {
-        "title": "Node.js 24.18.1 (LTS)",
-        "link": "https://nodejs.org/en/blog/release/v24.18.1",
-        "summary": "",
-        "image": null,
-        "source": "Node.js Blog",
-        "published": "2026-07-29T16:19:07.000Z",
         "isNew": false
       }
     ]
