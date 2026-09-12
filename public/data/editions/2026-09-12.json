@@ -1,6 +1,6 @@
 {
   "date": "2026-09-12",
-  "generatedAt": "2026-09-12T09:21:44.172Z",
+  "generatedAt": "2026-09-12T14:10:47.524Z",
   "totalArticles": 72,
   "ticker": [
     {
@@ -105,24 +105,6 @@
     ],
     "azure": [
       {
-        "title": "Two zones or three? A design framework for zone-resilient Azure workloads",
-        "link": "https://azure.microsoft.com/en-us/blog/two-zones-or-three-a-design-framework-for-zone-resilient-azure-workloads/",
-        "summary": "Zone resiliency isn't a single number you apply to a whole workload. The useful question isn't “how many zones?” but “how many zones does each component need to survive the loss of one?” Decide zone patterns component by component, use service-managed zone redundancy wherever it fits, and reserve three-zone designs for the components that genuinely require a third failure domain.\nThe post Two zones or three? A design framework for zone-resilient Azure workloads appeared first on Microsoft Azure Blog.",
-        "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/09/Azure-DataPlatform-Dark-scaled.jpg",
-        "source": "Microsoft Azure Blog",
-        "published": "2026-09-09T18:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "Beyond the benchmark: How an adaptive approach drives scientific discovery",
-        "link": "https://azure.microsoft.com/en-us/blog/beyond-the-benchmark-how-an-adaptive-approach-drives-scientific-discovery/",
-        "summary": "For research and development (R&D) organizations, the promise of agentic AI is not a better one-time answer. It is a new way to explore complex scientific and engineering problems: pursuing multiple hypotheses, validating them against evidence, learning from what does not work, and adapting their approach as new information becomes available.\nThe post Beyond the benchmark: How an adaptive approach drives scientific discovery appeared first on Microsoft Azure Blog.",
-        "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/09/CLO24-Azure-Healthcare-015-scaled.jpg",
-        "source": "Microsoft Azure Blog",
-        "published": "2026-09-08T20:00:00.000Z",
-        "isNew": false
-      },
-      {
         "title": "Enterprise AI transformation relies on the end-to-end platform: Azure was built for this moment",
         "link": "https://azure.microsoft.com/en-us/blog/enterprise-ai-transformation-relies-on-the-end-to-end-platform-azure-was-built-for-this-moment/",
         "summary": "The recognition for Microsoft over the past couple of weeks comes down to models, infrastructure, data, applications, and developer tools working as one system when AI moves into production.\nThe post Enterprise AI transformation relies on the end-to-end platform: Azure was built for this moment appeared first on Microsoft Azure Blog.",
@@ -175,17 +157,35 @@
         "source": "Microsoft Azure Blog",
         "published": "2026-08-31T16:00:00.000Z",
         "isNew": false
+      },
+      {
+        "title": "Managed PostgreSQL vs. self-hosted PostgreSQL: Key benefits and trade-offs",
+        "link": "https://azure.microsoft.com/en-us/blog/managed-postgresql-vs-self-hosted-postgresql-key-benefits-and-trade-offs/",
+        "summary": "Compare managed PostgreSQL vs. self-hosted PostgreSQL across cost, control, security, resilience, scalability, and operational effort.\nThe post Managed PostgreSQL vs. self-hosted PostgreSQL: Key benefits and trade-offs appeared first on Microsoft Azure Blog.",
+        "image": "https://opensource.microsoft.com/blog/wp-content/uploads/2126/03/word-image-98353-1-1.png",
+        "source": "Microsoft Azure Blog",
+        "published": "2026-08-27T17:00:00.000Z",
+        "isNew": false
+      },
+      {
+        "title": "The Economics of Agent Optimization: Four ways to lower the cost",
+        "link": "https://azure.microsoft.com/en-us/blog/the-economics-of-agent-optimization-four-ways-to-lower-the-cost/",
+        "summary": "Microsoft Foundry gives you four levers that act on every request, before a single line of agent logic changes.\nThe post The Economics of Agent Optimization: Four ways to lower the cost appeared first on Microsoft Azure Blog.",
+        "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/06/CLO23_WorkAnywhere_025.jpg",
+        "source": "Microsoft Azure Blog",
+        "published": "2026-08-26T16:00:00.000Z",
+        "isNew": false
       }
     ],
     "gcp": [
       {
         "title": "September 11, 2026",
         "link": "https://docs.cloud.google.com/release-notes#September_11_2026",
-        "summary": "API Gateway\nFeature\nEnable Model Context Protocol (MCP)\nYou can now configure API Gateway to act as a remote Model Context Protocol (MCP) server. This Public Preview feature allows you to expose your existing REST APIs to AI agents as tools, without requiring changes to your backend services. You can enable MCP by annotating your OpenAPI 3.x specification using custom Google extensions.\nFor more information, see Model Context Protocol overview and Configure Model Context Protocol.\nAlloyDB for PostgreSQL\nFeature\nYou can now monitor the status, throughput, and backlog of the audit logging\npipeline for your AlloyDB for PostgreSQL instances and nodes using\nCloud Monitoring.\nFor more information, see\nMonitor audit log pipeline status.\nCluster Toolkit\nSecurity\nGoogle addressed multiple security vulnerabilities in Slurm that affect\nCluster Toolkit. For more information, see the\nsecurity bulletin.\nGoogle Cloud Contact Center as a Service\nFeature\nHubspot: Configure Do Not Call by phone number\nIn HubSpot integrations, you can now configure Do Not Call for specific phone\nnumbers instead of for an entire contact or company record. Opt-out matching is\nno longer case-sensitive.\nAdministrators: There's a new Do Not Call Configuration section in the\n  CRM pane, located at Settings > Developer Settings (with\n  HubSpot selected).\nFor more information, see Configure Do Not Call for\nHubSpot.\nFeature\nAgent desktop: New network diagnostics tool\nThe agent desktop has a new network diagnostics tool…",
+        "summary": "API Gateway\nFeature\nEnable Model Context Protocol (MCP)\nYou can now configure API Gateway to act as a remote Model Context Protocol (MCP) server. This Public Preview feature allows you to expose your existing REST APIs to AI agents as tools, without requiring changes to your backend services. You can enable MCP by annotating your OpenAPI 3.x specification using custom Google extensions.\nFor more information, see Model Context Protocol overview and Configure Model Context Protocol.\nAlloyDB for PostgreSQL\nFeature\nYou can now monitor the status, throughput, and backlog of the audit logging\npipeline for your AlloyDB for PostgreSQL instances and nodes using\nCloud Monitoring.\nFor more information, see\nMonitor audit log pipeline status.\nCluster Toolkit\nSecurity\nGoogle addressed multiple security vulnerabilities in Slurm that affect\nCluster Toolkit. For more information, see the\nsecurity bulletin.\nGoogle Cloud Contact Center as a Service\nAnnouncement\nGoogle Cloud CCaaS 6.12\nWe've released version 6.12 of Google Cloud CCaaS.\nThe timing of the update to your instance depends on the deployment schedule\nthat you have chosen. For more information, see Deployment\nschedules.\nFeature\nCold transfers auto-resume\nWhen an agent performs a cold transfer, the call now resumes at the moment the\nreceiving agent answers the call. The receiving agent no longer needs to\nmanually take the caller off hold. This eliminates the silence that previously\noccurred between an agent answering a call and taking…",
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-09-11T07:00:00.000Z",
-        "isNew": true
+        "isNew": false
       },
       {
         "title": "September 10, 2026",
@@ -259,7 +259,7 @@
         "image": "https://kubernetes.io/images/blog/2026-kubernetes-1-37-native-histograms-beta/native-histograms-flow.svg",
         "source": "Kubernetes Blog",
         "published": "2026-09-11T18:30:00.000Z",
-        "isNew": true
+        "isNew": false
       },
       {
         "title": "Kubernetes v1.37: Scheduler Preemption for In-Place Pod Resize (Alpha)",
