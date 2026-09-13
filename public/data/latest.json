@@ -1,6 +1,6 @@
 {
   "date": "2026-09-13",
-  "generatedAt": "2026-09-13T10:16:55.031Z",
+  "generatedAt": "2026-09-13T14:55:51.662Z",
   "totalArticles": 72,
   "ticker": [
     {
@@ -111,7 +111,7 @@
         "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/09/Container-Management-quadrant-927x1024.webp",
         "source": "Microsoft Azure Blog",
         "published": "2026-09-10T21:00:00.000Z",
-        "isNew": true
+        "isNew": false
       },
       {
         "title": "The Economics of Agent Optimization: How AI agent governance controls cost and proves ROI",
@@ -120,7 +120,7 @@
         "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/09/Effective-cost-governance-screenshot.webp",
         "source": "Microsoft Azure Blog",
         "published": "2026-09-10T17:00:00.000Z",
-        "isNew": true
+        "isNew": false
       },
       {
         "title": "The future of infrastructure resiliency starts with modernization",
@@ -129,7 +129,7 @@
         "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/09/Azure-DataPlatform-Dark-scaled.jpg",
         "source": "Microsoft Azure Blog",
         "published": "2026-09-10T16:00:00.000Z",
-        "isNew": true
+        "isNew": false
       },
       {
         "title": "Two zones or three? A design framework for zone-resilient Azure workloads",
