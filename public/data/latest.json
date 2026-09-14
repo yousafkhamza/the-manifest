@@ -1,6 +1,6 @@
 {
   "date": "2026-09-14",
-  "generatedAt": "2026-09-14T10:38:10.600Z",
+  "generatedAt": "2026-09-14T16:58:28.015Z",
   "totalArticles": 72,
   "ticker": [
     {
@@ -30,6 +30,15 @@
   ],
   "topics": {
     "aws": [
+      {
+        "title": "AWS Weekly Roundup: OpenAI GPT-6 Astra on Amazon Bedrock, Amazon Quick desktop GA, Kiro for students, and more (September 14, 2026)",
+        "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-openai-gpt-6-astra-on-amazon-bedrock-amazon-quick-desktop-ga-kiro-for-students-and-more-september-14-2026/",
+        "summary": "There’s a particular energy to mid-September in New York. Pumpkin spice lattes are flowing, temperatures are dropping, and it’s nearly sweater weather. The city is back at full speed, and so is the AWS launch calendar. This week that energy showed up in a new frontier model on Amazon Bedrock, a desktop app for Amazon […]",
+        "image": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2026/09/14/2025-gpt-6-astra-on-bedrack.png",
+        "source": "AWS News Blog",
+        "published": "2026-09-14T15:56:33.000Z",
+        "isNew": false
+      },
       {
         "title": "Introducing Amazon EBS Volume Clones across AWS accounts",
         "link": "https://aws.amazon.com/blogs/aws/introducing-amazon-ebs-volume-clones-across-aws-accounts/",
@@ -91,15 +100,6 @@
         "image": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2026/07/21/2026-aws-glue-6.0-console.png",
         "source": "AWS News Blog",
         "published": "2026-08-21T18:53:26.000Z",
-        "isNew": false
-      },
-      {
-        "title": "In the works: AWS Builder Lofts in Berlin, Hyderabad, and São Paulo",
-        "link": "https://aws.amazon.com/blogs/aws/in-the-works-aws-builder-lofts-in-berlin-hyderabad-and-sao-paulo/",
-        "summary": "Each location will be a permanent community space to offer free workshops, networking events, pitch nights, content creation spaces, collaboration/co-working areas, and event hosting for developers, students, or tech professionals who want to walk through the doors.",
-        "image": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2026/08/15/2026-builder-loft-sf-1-year.jpg",
-        "source": "AWS News Blog",
-        "published": "2026-08-18T13:58:41.000Z",
         "isNew": false
       }
     ],
@@ -179,6 +179,15 @@
     ],
     "gcp": [
       {
+        "title": "September 14, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#September_14_2026",
+        "summary": "Backup and DR\nFeature\nYou can now monitor restore jobs for Filestore instances directly\nfrom the Backup and DR Jobs page in the Google Cloud console. When you\ntrigger a restore on a Filestore instance, Backup and DR\nautomatically tracks the job progress and status.\nFor more information, see\nRestore a Filestore instance from a backup vault\nand\nMonitor backup and restore jobs in Google Cloud console.",
+        "image": null,
+        "source": "Google Cloud Platform (GCP) - Release notes",
+        "published": "2026-09-14T07:00:00.000Z",
+        "isNew": false
+      },
+      {
         "title": "September 11, 2026",
         "link": "https://docs.cloud.google.com/release-notes#September_11_2026",
         "summary": "API Gateway\nFeature\nEnable Model Context Protocol (MCP)\nYou can now configure API Gateway to act as a remote Model Context Protocol (MCP) server. This Public Preview feature allows you to expose your existing REST APIs to AI agents as tools, without requiring changes to your backend services. You can enable MCP by annotating your OpenAPI 3.x specification using custom Google extensions.\nFor more information, see Model Context Protocol overview and Configure Model Context Protocol.\nAlloyDB for PostgreSQL\nFeature\nYou can now monitor the status, throughput, and backlog of the audit logging\npipeline for your AlloyDB for PostgreSQL instances and nodes using\nCloud Monitoring.\nFor more information, see\nMonitor audit log pipeline status.\nCluster Toolkit\nSecurity\nGoogle addressed multiple security vulnerabilities in Slurm that affect\nCluster Toolkit. For more information, see the\nsecurity bulletin.\nGoogle Cloud Contact Center as a Service\nAnnouncement\nGoogle Cloud CCaaS 6.12\nWe've released version 6.12 of Google Cloud CCaaS.\nThe timing of the update to your instance depends on the deployment schedule\nthat you have chosen. For more information, see Deployment\nschedules.\nFeature\nCold transfers auto-resume\nWhen an agent performs a cold transfer, the call now resumes at the moment the\nreceiving agent answers the call. The receiving agent no longer needs to\nmanually take the caller off hold. This eliminates the silence that previously\noccurred between an agent answering a call and taking…",
@@ -239,15 +248,6 @@
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-09-05T07:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "September 04, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#September_04_2026",
-        "summary": "Audit Manager\nFeature\nThe remote Model Context Protocol (MCP)\nserver for Audit Manager is\ngenerally available\n(GA).\nCloud Billing\nChange\nIntroducing the Incentives page, for tracking spend-based milestone credits,\nRaMP, and other conditional incentives\nIf you have a custom pricing contract, you might be enrolled in conditional\nincentives, where you earn credits or discounts for spending specific amounts\non Google Cloud.\nThe Incentives page\nreplaces the\nSpend-based Milestones tab\nthat was located in the Credits page. The Incentives page provides a\nconsolidated and enhanced experience for tracking your progress towards\nconditional incentives, including spend-based milestone credits and Rapid\nMigration & Modernization Program (RaMP) credits and discounts.\nLearn more about\ntracking conditional incentives.\nCloud SQL for MySQL\nFeature\nThe C4 machine series\nis now available for Cloud SQL for MySQL Enterprise Plus instances in the\nfollowing regions:\nafrica-south1 — Johannesburg\nasia-northeast3 — Seoul\nasia-south2 — Delhi\neurope-west6 — Zürich\nsouthamerica-west1 — Santiago\nus-west3 — Salt Lake City\nThe C4 machine series provides the following benefits:\nSupports fifth and sixth generation Intel Xeon Scalable processors.\nOffers a price-performance balance that makes it suitable for\nhigh-demand workloads.\nFeature\nCloud SQL supports in-place upgrades and downgrades to your instance's\ninfrastructure. You can change all of the following in place:\nThe edition that your Cloud SQL instance…",
-        "image": null,
-        "source": "Google Cloud Platform (GCP) - Release notes",
-        "published": "2026-09-04T07:00:00.000Z",
         "isNew": false
       }
     ],
