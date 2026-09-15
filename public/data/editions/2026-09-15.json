@@ -1,6 +1,6 @@
 {
   "date": "2026-09-15",
-  "generatedAt": "2026-09-15T15:34:59.821Z",
+  "generatedAt": "2026-09-15T20:15:07.116Z",
   "totalArticles": 72,
   "ticker": [
     {
@@ -179,6 +179,15 @@
     ],
     "gcp": [
       {
+        "title": "September 15, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#September_15_2026",
+        "summary": "Batch\nIssue\nA workaround has been added for the known issue that\njobs might fail when specifying Compute Engine (or custom) VM OS images with outdated kernels.\nGemini Enterprise Agent Platform\nFeature\nReinforcement learning fine-tuning in the Google Cloud console (Preview)\nYou can create, monitor, and test reinforcement learning fine-tuning jobs\nfor Gemini models in the Google Cloud console\n(Preview). From the\nModels > Tuning page, you can configure Python code or model-based reward\nfunctions, test reward logic against sample prompts before launching a job,\ntrack training and evaluation metrics in real time, and test tuned checkpoints\nin Agent Studio.\nFor more information, see\nQuick start: Reinforcement learning fine-tuning using the console.\nPolicy Intelligence\nFeature\nPolicy Troubleshooter now supports troubleshooting access for agent identities. You can troubleshoot IAM allow policies, deny policies, and principal access boundary policies for agents acting under their own authority by entering the agent's principal identifier or by troubleshooting with an error ID from an access\ndenial event. To learn more, see Troubleshooting access.",
+        "image": null,
+        "source": "Google Cloud Platform (GCP) - Release notes",
+        "published": "2026-09-15T07:00:00.000Z",
+        "isNew": false
+      },
+      {
         "title": "September 14, 2026",
         "link": "https://docs.cloud.google.com/release-notes#September_14_2026",
         "summary": "Apigee hybrid\nAnnouncement\nhybrid v1.17.0\nOn September 14, 2026 we released an updated version of the Apigee hybrid software, 1.17.0.\nFor information on upgrading, see Upgrading Apigee hybrid to version v1.17.\nFor information on new installations, see The big picture.\nNote: This is a minor release: The container images used in minor releases are integrated with the Apigee hybrid Helm charts. Upgrading to a minor via the Helm chart automatically updates the images. No manual image changes are typically needed. For information on container image support in Apigee hybrid releases, see Apigee release process.\nFeature\nModel Context Protocol (MCP) support\nApigee hybrid now supports Model Context Protocol (MCP), an open protocol that lets agentic AI applications use your APIs as tools through managed MCP endpoints. Apigee hybrid routes, authorizes, and secures these MCP tool calls the same way it manages your other APIs, so you don't need to run or maintain your own MCP servers.\nMCP support is an optional feature that is not enabled by default. You must explicitly enable it in your Apigee hybrid configuration.\nFor more information, see Model Context Protocol (MCP) overview, Enable MCP for Apigee hybrid, and the MCP quickstart.\nFeature\nRoot CA certificate rotation\nApigee hybrid v1.17.0 lets you rotate the root certificate authority (CA) certificate that anchors trust for TLS communication between your runtime components. You can now replace the root CA before it expires, without…",
@@ -239,15 +248,6 @@
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-09-06T07:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "September 05, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#September_05_2026",
-        "summary": "Google SecOps SOAR\nAnnouncement\nRelease 6.3.99 is now\navailable for all regions.",
-        "image": null,
-        "source": "Google Cloud Platform (GCP) - Release notes",
-        "published": "2026-09-05T07:00:00.000Z",
         "isNew": false
       }
     ],
@@ -401,6 +401,15 @@
     ],
     "python": [
       {
+        "title": "Announcing the PSF Strategic Plan 2026",
+        "link": "https://pyfound.blogspot.com/2026/09/announcing-psf-strategic-plan-2026.html",
+        "summary": "In May, the Python Software Foundation (PSF) shared the high-level goals of  our Strategic Plan. In June, we published the full draft and opened it for community feedback. Today we are sharing the outcome: at its July 8 meeting, the PSF Board adopted the PSF Strategic Plan 2026, covering 2026 to 2031.\nOur new PSF Strategy page is the permanent home for the plan, with information about how the board sets priorities and how you can share feedback. We’ll publish annual review findings and future updates there so the community can follow our progress and any changes to the plan.\n\nWhat the feedback changed\nFeedback from PSF Staff and the Python community shaped real changes to the draft we published in June.\nStaff feedback added a Security Baseline objective for all PSF projects and services and a Vulnerability Management objective in response to the rapid growth in security reports, and it sharpened wording across the organizational goals. Community feedback shaped the plan, too: translation and localization are now part of the accessibility work, companies that want to fund specific work get clearer pathways, and the ideas under financial sustainability now include growing the value of PSF membership.\nThe plan's \"How This Plan Was Shaped\" section documents the process, and we are grateful to everyone who took the time to share their perspectives.\nThe annual review\nA five-year plan is only useful if it stays current. Alongside adoption, the board established an annual review of…",
+        "image": null,
+        "source": "Python Software Foundation News",
+        "published": "2026-09-15T17:15:25.104Z",
+        "isNew": false
+      },
+      {
         "title": "The 2026 PSF Board Election is Open!",
         "link": "https://pyfound.blogspot.com/2026/09/the-2026-psf-board-election-is-open.html",
         "summary": "It’s time to cast your vote! Voting for the 2026 PSF Board Election is open starting today Tuesday, September 1st, 2:00 pm UTC, through Tuesday, September 15th, 2:00 pm UTC. \n\nHow to Vote\nIf you are a voting member of the PSF who affirmed your intention to participate in this year’s election or you voted in last year’s election, you will receive an email today from “OpaVote Voting Link <noreply@opavote.com>” with a link to your ballot. The subject line will read “Python Software Foundation Board of Directors Election 2026”. If you haven’t seen your ballot by Wednesday, please first check your spam folder for a message from “noreply@opavote.com”. If you can’t find the ballot email from OpaVote please get in touch by emailing psf-elections@pyfound.org so we can look into your account and make sure we have the most up-to-date email for you.\nFour seats on the board are open, but you can vote to approve as many of the 17 candidates as you like. We’re delighted by how many of you are willing to contribute to the Python community by serving on the PSF Board! Make sure you take some time to look at all the nominee statements and choose your candidates carefully. \nATTN: Choose carefully before you press the big green vote button. Once your vote is cast, it cannot be changed.\n\nAn Informed Vote is a Great Vote\nNomination and supporting statements are the clearest way to see how each candidate actually thinks: their priorities, experience, and vision for the PSF. Rather than just voting…",
@@ -461,15 +470,6 @@
         "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj7kgtFVKRtd8ybJZ6wYD7k4wF0TwHe1MUlele4YBYQ8TyfyTwMJhRTnAb3l4sUxsF2RSxQyLy2ir__WFXVrSG_KDdy7t-trkgh4c_59cv4GfPlrdKVefrNEFDX4DUOd0t3LeXEiiF7mDyiGRGc3HlFTwk7aa9UR6hItEP4Gx3JpMv60xHhVg/s72-c/NinaZakharenko_2026PSFBoardElection.jpg",
         "source": "Python Software Foundation News",
         "published": "2026-08-25T12:52:00.184Z",
-        "isNew": false
-      },
-      {
-        "title": "Keith Murray: 2026 PSF Board Election Candidate Interview",
-        "link": "https://pyfound.blogspot.com/2026/08/keith-murray-2026-psf-board-election.html",
-        "summary": "Who are you?\nI’m Keith Murray.\nI engage with a lot of Python Communities, often with the handle KeithTheEE, and I find that my favorite parts of the many communities are seeing the hobbies people have, and if/how Python intersects them. Hobbies and passion projects (including silly, fun passions) are one of the ways to make code matter, and are one of the things I’ve been falling back to of late to help balance against burnout: particularly when I feel overwhelmed by code ‘engagement’ that feels overly extractive. Discovering hobbies of other Python community members has made engaging feel like a collaborative and supportive experience, even if the code isn’t tied to the hobby at all.\nI love (trying) to grow orchids, birding, and making pasta, and while I don’t involve Python in every aspect of it, hearing about how it resonates with others (constructive or destructively), like how some prefer begonias over orchids, never got birding but love their dogs, or the many foods from their home I now need to try--helps me look forward to reading comments on the item at hand. So I’m Keith, I like many things and I love how so many people make the code around me joyful.\nWhat would you bring to the PSF Board of Directors?\nMy experience would help drive outreach to communities and direct small changes to help navigate the Python ecosystem and communities with an increased awareness of engagement opportunities. A particular interest is tied to PSF membership, and using it as a pathway…",
-        "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgHNH2FD_Y4H9LpT2IpuFRi7pGsKuAexjQwp3YV05wFlxgF2BTGhMhAqoRPLV33DaGp_LZYPlsOLWI7gG07gB19S-fD0LkWYSFENHEkcad0dSiRk4zcThiy7wWhunJn9SUj-NKb1oJ7IgeW10svF0NRVfzC0cQO6tvvTeZfRrImz451YtsOpg/s72-c/KeithMurray_2026PSFBoardElection.jpg",
-        "source": "Python Software Foundation News",
-        "published": "2026-08-25T12:51:41.133Z",
         "isNew": false
       }
     ],
