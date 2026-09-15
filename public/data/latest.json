@@ -1,6 +1,6 @@
 {
   "date": "2026-09-15",
-  "generatedAt": "2026-09-15T10:04:30.207Z",
+  "generatedAt": "2026-09-15T15:34:59.821Z",
   "totalArticles": 72,
   "ticker": [
     {
@@ -259,7 +259,7 @@
         "image": null,
         "source": "Kubernetes Blog",
         "published": "2026-09-14T18:30:00.000Z",
-        "isNew": true
+        "isNew": false
       },
       {
         "title": "Kubernetes v1.37: Memory QoS Graduates to Beta",
@@ -268,7 +268,7 @@
         "image": null,
         "source": "Kubernetes Blog",
         "published": "2026-09-14T18:30:00.000Z",
-        "isNew": true
+        "isNew": false
       },
       {
         "title": "Kubernetes v1.37: Native Histograms Graduates to Beta",
