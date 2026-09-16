@@ -1,6 +1,6 @@
 {
-  "date": "2026-09-15",
-  "generatedAt": "2026-09-15T20:15:07.116Z",
+  "date": "2026-09-16",
+  "generatedAt": "2026-09-16T09:56:34.912Z",
   "totalArticles": 72,
   "ticker": [
     {
@@ -181,7 +181,7 @@
       {
         "title": "September 15, 2026",
         "link": "https://docs.cloud.google.com/release-notes#September_15_2026",
-        "summary": "Batch\nIssue\nA workaround has been added for the known issue that\njobs might fail when specifying Compute Engine (or custom) VM OS images with outdated kernels.\nGemini Enterprise Agent Platform\nFeature\nReinforcement learning fine-tuning in the Google Cloud console (Preview)\nYou can create, monitor, and test reinforcement learning fine-tuning jobs\nfor Gemini models in the Google Cloud console\n(Preview). From the\nModels > Tuning page, you can configure Python code or model-based reward\nfunctions, test reward logic against sample prompts before launching a job,\ntrack training and evaluation metrics in real time, and test tuned checkpoints\nin Agent Studio.\nFor more information, see\nQuick start: Reinforcement learning fine-tuning using the console.\nPolicy Intelligence\nFeature\nPolicy Troubleshooter now supports troubleshooting access for agent identities. You can troubleshoot IAM allow policies, deny policies, and principal access boundary policies for agents acting under their own authority by entering the agent's principal identifier or by troubleshooting with an error ID from an access\ndenial event. To learn more, see Troubleshooting access.",
+        "summary": "Artifact Registry\nFeature\nArtifact Registry support for managing Conda packages with Artifact Registry\nrepositories is in Preview.\nFor more information, see Get started with Conda packages.\nBatch\nIssue\nA workaround has been added for the known issue that\njobs might fail when specifying Compute Engine (or custom) VM OS images with outdated kernels.\nCarbon Footprint\nChange\nFor the July 2026 data release (published mid-September 2026), we have upgraded the carbon model to version 17 and implemented the following updates:\nUpdating Scope 1 & 3 Emissions from Google's Corporate Footprint\nAllocation factor refresh: Updated Scope 1 and Scope 3 allocation factors using company-wide data from the 2026 Google Environmental Report.\nMethodology application: For details on how corporate Scope 1 and Scope 3 emissions are distributed across cloud products and services, refer to the non-electricity emission sources section of the methodology documentation.\nUpdating Inputs for Scope 2 Market-Based Emissions Calculations\nUpdated annual renewable electricity allocation percentages in accordance with the 2026 Google Environmental Report.\nRefreshed background annual emissions factors using updated government data sources across Scope 1, Scope 2, and Scope 3. Note that Scope 2 location-based emissions continue to be calculated using hourly greenhouse gas emission factors. Learn more in the Scope 2 market-based allocation documentation.\nIncorporated marketplace purchases of Granular Certificates…",
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-09-15T07:00:00.000Z",
@@ -195,6 +195,15 @@
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-09-14T07:00:00.000Z",
         "isNew": false
+      },
+      {
+        "title": "September 13, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#September_13_2026",
+        "summary": "Agent Platform Workbench\nChange\n20260911.00_p0 Release\nChange\n20260913.00_p0 Release\nChange\nInstalled latest packages from upstream dependencies.\nChange\nInstalled latest packages from upstream dependencies.\nFixed\nFixed the %%bigquery notebook cell magic, which returned an error instead of query results in JupyterLab 4.\nFixed\nFixed the %%bigquery notebook cell magic, which returned an error instead of query results in JupyterLab 4.\nChange\n20260913-2230-rc0 Release\nChange\n20260913-2230-rc0 Release\nChange\nInstalled latest packages from upstream dependencies.\nChange\nInstalled latest packages from upstream dependencies.\nFixed\nFixed an issue where the notebook-disable-nbconvert metadata flag was ignored in custom containers.\nChange\nThe obsolete\ngoogle-cloud-sdk transitional package is no longer installed. The Google Cloud\nCLI itself is unchanged; it was already provided by the google-cloud-cli\npackage.\nFixed\nFixed the %%bigquery notebook cell magic, which returned an error instead of query results in JupyterLab 4.\nFixed\nFixed an issue where the notebook-disable-nbconvert metadata flag was ignored in custom containers.\nFixed\nFixed the %%bigquery notebook cell magic, which returned an error instead of query results in JupyterLab 4.\nChange\n20260913-2130-rc0 Release\nChange\nInstalled latest packages from upstream dependencies.\nFixed\nFixed the %%bigquery notebook cell magic, which returned an error instead of query results in JupyterLab 4.\nChange\nM149 Release\nChange\nInstalled latest…",
+        "image": null,
+        "source": "Google Cloud Platform (GCP) - Release notes",
+        "published": "2026-09-13T07:00:00.000Z",
+        "isNew": true
       },
       {
         "title": "September 11, 2026",
@@ -240,18 +249,18 @@
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-09-07T07:00:00.000Z",
         "isNew": false
-      },
-      {
-        "title": "September 06, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#September_06_2026",
-        "summary": "Google SecOps\nFeature\n[Spotlight Feature] Case playbooks\nThis feature is in preview. Google SecOps now supports case playbooks. You can \nrun playbooks or execute manual actions across an entire case container rather \nthan individual alerts, consolidating response tasks and reducing redundant \noperations during investigations.\nFor more information, see Case playbooks overview.\nFeature\n[Spotlight Feature] Reaction triggers\nThis feature is in preview. Google SecOps now supports reaction triggers. As\npost-ingestion triggers, they allow playbooks to automatically fire in response\nto real-time case or alert updates during active investigations, such as changes\nto the case assignee, case tags, alert priority, or newly added entities.\nFor more information, see Use reaction triggers in playbooks.\nGoogle SecOps SOAR\nAnnouncement\nRelease 6.3.100 is being rolled out to the first phase of regions as listed\nhere.\nThis release contains internal and customer bug fixes.\nFeature\nReaction triggers\nThis feature is in preview. Google SecOps now supports reaction triggers. As \npost-ingestion triggers, they allow playbooks to automatically fire in response \nto real-time case or alert updates during active investigations, such as changes \nto the case assignee, case tags, alert priority, or newly added entities.\nFor more information, see Use reaction triggers in playbooks.\nFeature\nCase playbooks\nThis feature is in preview. Google SecOps now supports case playbooks. You can\nrun playbooks or execute…",
-        "image": null,
-        "source": "Google Cloud Platform (GCP) - Release notes",
-        "published": "2026-09-06T07:00:00.000Z",
-        "isNew": false
       }
     ],
     "kubernetes": [
+      {
+        "title": "Kubernetes v1.37: Pod-Level Resource Managers graduated to Beta",
+        "link": "https://kubernetes.io/blog/2026/09/15/kubernetes-v1-37-pod-level-resource-managers-beta/",
+        "summary": "With the release of Kubernetes v1.37, the Pod-Level Resource Managers\nfeature has graduated to Beta status (disabled by default)!\nFirst introduced as an Alpha feature in\nKubernetes v1.36,\nthis enhancement builds on\nPod-Level Resources by\nequipping Kubelet's Topology Manager, CPU Manager, and Memory Manager to use\nPod-level resource declarations (.spec.resources) directly when making\nhardware placement decisions.\nBringing pod-level resources to node managers\nBefore this feature, obtaining exclusive NUMA-aligned CPU cores or memory for\nlatency-critical applications forced cluster operators into an all-or-nothing\nchoice: assign integer resource requests to every container in the Pod, or\nforfeit exclusive NUMA alignment entirely. For modern workloads running\nlightweight sidecars (such as logging agents or telemetry exporters), allocating\ndedicated physical cores to auxiliary containers was wasteful.\nPod-Level Resource Managers solves this challenge by enabling hybrid allocation\nmodels. The Kubelet can reserve exclusive NUMA-aligned resources for primary\napplication containers while placing non-Guaranteed sidecars into a pod-isolated\nshared pool. This ensures primary workloads get unthrottled, NUMA-local\nperformance while sidecars benefit from running in a pod-isolated shared pool,\nenjoying local NUMA alignment and protection from external node interference\nwithout consuming dedicated physical cores.\nWhat's new in Beta\nGraduating to Beta brings key operational and API…",
+        "image": null,
+        "source": "Kubernetes Blog",
+        "published": "2026-09-15T18:30:00.000Z",
+        "isNew": true
+      },
       {
         "title": "Kubernetes Changed Block Tracking API - Beta Differences",
         "link": "https://kubernetes.io/blog/2026/09/14/csi-changed-block-tracking-beta/",
@@ -313,15 +322,6 @@
         "image": null,
         "source": "Kubernetes Blog",
         "published": "2026-09-04T18:30:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "Kubernetes v1.37: DRA Updates",
-        "link": "https://kubernetes.io/blog/2026/09/03/kubernetes-v1-37-dra-updates/",
-        "summary": "Kubernetes 1.37 is here and Dynamic Resource Allocation (DRA) keeps pushing past where it started! This release brings DRA Extended Resource support to GA, a milestone the team has been building toward for three straight releases. Several more features graduate to Beta or GA. A fresh batch of alpha features rounds out the release.\nI'll dive into what's new for DRA in Kubernetes 1.37!\nWhat's stable in 1.37\nDRA Extended Resource support has graduated to GA. This is the mechanism that lets DRA drivers satisfy requests made through the traditional extended resource API, think example.com/gpu in a Pod spec, without requiring a separate device plugin alongside the DRA driver. An extended resource name can be set directly on a DeviceClass, and Pods requesting it get matched to a device through DRA with no ResourceClaim needed on the workload's part.\nIt's been on a steady path since KEP acceptance in 1.34. Alpha landed in 1.35, Beta in 1.36, and now it's Stable. For cluster operators, this is what makes DRA adoption gradual. Existing workloads written against extended resources keep working unmodified while the backend allocation logic moves over to DRA.\nResourceClaims status with possible standardized network interface data adds a devices field to ResourceClaim .status, letting DRA drivers report per-device status, including, for network devices, the interface name, MAC address, and IP addresses. This gives users and controllers visibility into device state that was previously…",
-        "image": null,
-        "source": "Kubernetes Blog",
-        "published": "2026-09-03T18:30:00.000Z",
         "isNew": false
       }
     ],
