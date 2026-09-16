@@ -1,6 +1,6 @@
 {
   "date": "2026-09-16",
-  "generatedAt": "2026-09-16T15:25:57.837Z",
+  "generatedAt": "2026-09-16T20:07:44.219Z",
   "totalArticles": 72,
   "ticker": [
     {
@@ -25,11 +25,20 @@
     },
     {
       "label": "Node.js",
-      "version": "v26.8.2"
+      "version": "v26.9.0"
     }
   ],
   "topics": {
     "aws": [
+      {
+        "title": "AWS reimagines the getting started experience",
+        "link": "https://aws.amazon.com/blogs/aws/aws-reimagines-the-getting-started-experience/",
+        "summary": "AWS has reimagined the getting started experience with smart and sensible defaults to help developers get started fast so that they can focus on building. New customers can sign up and get started right away with $100 in Free Tier credits, managed project environments, and simplified team and resource permissions. If their workload evolves, customers can activate advanced features to access the full breadth and depth of AWS in one step, with no migration required.",
+        "image": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2026/08/19/image-01-1024x648.png",
+        "source": "AWS News Blog",
+        "published": "2026-09-16T17:50:14.000Z",
+        "isNew": false
+      },
       {
         "title": "AWS Weekly Roundup: OpenAI GPT-6 Astra on Amazon Bedrock, Amazon Quick desktop GA, Kiro for students, and more (September 14, 2026)",
         "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-openai-gpt-6-astra-on-amazon-bedrock-amazon-quick-desktop-ga-kiro-for-students-and-more-september-14-2026/",
@@ -91,15 +100,6 @@
         "image": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2026/08/23/2026-08-24-WIR.png",
         "source": "AWS News Blog",
         "published": "2026-08-24T16:20:15.000Z",
-        "isNew": false
-      },
-      {
-        "title": "AWS Glue 6.0 now available with 30% lower price and full Apache Iceberg v3 support",
-        "link": "https://aws.amazon.com/blogs/aws/aws-glue-6-0-now-available-with-30-lower-price-and-full-apache-iceberg-v3-support/",
-        "summary": "AWS Glue 6.0 is built on a fully modernized runtime, Apache Spark 4.1, Python 3.13, and Scala 2.13, delivering 30% lower pricing than previous AWS Glue versions.",
-        "image": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2026/07/21/2026-aws-glue-6.0-console.png",
-        "source": "AWS News Blog",
-        "published": "2026-08-21T18:53:26.000Z",
         "isNew": false
       }
     ],
@@ -179,6 +179,15 @@
     ],
     "gcp": [
       {
+        "title": "September 16, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#September_16_2026",
+        "summary": "BigQuery\nFeature\nYou can use the migration lineage service to\nvisualize the data flow and connections in your source database and\nhelp you plan a BigQuery data warehouse migration. This feature is in\nPreview.\nDatastream\nFeature\nDatastream now supports MongoDB extended JSON canonical mode as the\ndefault format for new streams from MongoDB sources to BigQuery\ndestinations.\nCanonical mode provides higher data fidelity by explicitly labeling every\nBSON type to prevent precision loss during data exchange.\nFor more information, see the following:\nStream data from MongoDB databases\nMongoDB data types in\nBigQuery\nFilestore\nFeature\nSmall capacity Filestore instances for the Regional service tier are generally available (GA). Small capacity instances start at 100 GiB and scale in 1 GiB increments, providing an option for development, testing, and applications with low traffic or basic storage needs.\nFor more information, see Small capacity instances.",
+        "image": null,
+        "source": "Google Cloud Platform (GCP) - Release notes",
+        "published": "2026-09-16T07:00:00.000Z",
+        "isNew": false
+      },
+      {
         "title": "September 15, 2026",
         "link": "https://docs.cloud.google.com/release-notes#September_15_2026",
         "summary": "Artifact Registry\nFeature\nArtifact Registry support for managing Conda packages with Artifact Registry\nrepositories is in Preview.\nFor more information, see Get started with Conda packages.\nBatch\nIssue\nA workaround has been added for the known issue that\njobs might fail when specifying Compute Engine (or custom) VM OS images with outdated kernels.\nCarbon Footprint\nChange\nFor the July 2026 data release (published mid-September 2026), we have upgraded the carbon model to version 17 and implemented the following updates:\nUpdating Scope 1 & 3 Emissions from Google's Corporate Footprint\nAllocation factor refresh: Updated Scope 1 and Scope 3 allocation factors using company-wide data from the 2026 Google Environmental Report.\nMethodology application: For details on how corporate Scope 1 and Scope 3 emissions are distributed across cloud products and services, refer to the non-electricity emission sources section of the methodology documentation.\nUpdating Inputs for Scope 2 Market-Based Emissions Calculations\nUpdated annual renewable electricity allocation percentages in accordance with the 2026 Google Environmental Report.\nRefreshed background annual emissions factors using updated government data sources across Scope 1, Scope 2, and Scope 3. Note that Scope 2 location-based emissions continue to be calculated using hourly greenhouse gas emission factors. Learn more in the Scope 2 market-based allocation documentation.\nIncorporated marketplace purchases of Granular Certificates…",
@@ -239,15 +248,6 @@
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-09-08T07:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "September 07, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#September_07_2026",
-        "summary": "AI Hypercomputer\nSecurity\nGoogle addressed a security vulnerability (CVE-2026-65107) that affects Slurm\nclusters. Based on the Google Cloud product that you used to create your Slurm\ncluster, see one of the following to mitigate the vulnerability:\nSecurity bulletin for Cluster Director\n\n\nSecurity bulletin for Cluster Toolkit\n\n\nAccess Approval\nFeature\nPrivileged Access Manager is generally available\n(GA).\nAccess Transparency\nFeature\nPrivileged Access Manager is generally available\n(GA).\nCluster Toolkit\nFeature\nCluster Toolkit version v1.103.0 is available. This release simplifies\nthe gcluster job configuration workflow, adds dynamic catalog fallback for\nsystem node pools, increases the maximum system node pool limit to 150 nodes,\nand replaces deprecated e2 instances with n2d across daily tests and\nconfigurations. This release also upgrades Slurm to version 25.11.8 to address\nmultiple security vulnerabilities. For more information about the vulnerabilities, see the\nsecurity bulletin and\nthe release announcement on\nGitHub.\nSecurity\nGoogle addressed a security vulnerability (CVE-2026-65107) in the Slurm sbcast\ntool that affects Cluster Toolkit. For more information, see the\nsecurity bulletin.\nKnowledge Catalog\nFeature\nData domains in Knowledge Catalog allow you to logically organize the resources within the enterprise to discover and curate your data at scale.\nThis feature is available in Preview.\nFor more information, see About data domains.",
-        "image": null,
-        "source": "Google Cloud Platform (GCP) - Release notes",
-        "published": "2026-09-07T07:00:00.000Z",
         "isNew": false
       }
     ],
@@ -623,6 +623,15 @@
     ],
     "javascript": [
       {
+        "title": "Node.js 26.9.0 (Current)",
+        "link": "https://nodejs.org/en/blog/release/v26.9.0",
+        "summary": "",
+        "image": null,
+        "source": "Node.js Blog",
+        "published": "2026-09-16T18:17:42.000Z",
+        "isNew": false
+      },
+      {
         "title": "Node.js 26.8.2 (Current)",
         "link": "https://nodejs.org/en/blog/release/v26.8.2",
         "summary": "",
@@ -683,15 +692,6 @@
         "image": null,
         "source": "Node.js Blog",
         "published": "2026-08-05T16:25:55.000Z",
-        "isNew": false
-      },
-      {
-        "title": "Node.js 26.6.0 (Current)",
-        "link": "https://nodejs.org/en/blog/release/v26.6.0",
-        "summary": "",
-        "image": null,
-        "source": "Node.js Blog",
-        "published": "2026-08-03T13:51:29.000Z",
         "isNew": false
       }
     ]
