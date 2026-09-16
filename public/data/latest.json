@@ -1,6 +1,6 @@
 {
   "date": "2026-09-16",
-  "generatedAt": "2026-09-16T09:56:34.912Z",
+  "generatedAt": "2026-09-16T15:25:57.837Z",
   "totalArticles": 72,
   "ticker": [
     {
@@ -9,7 +9,7 @@
     },
     {
       "label": "Terraform",
-      "version": "v1.16.2"
+      "version": "v1.16.3"
     },
     {
       "label": "Python",
@@ -203,7 +203,7 @@
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-09-13T07:00:00.000Z",
-        "isNew": true
+        "isNew": false
       },
       {
         "title": "September 11, 2026",
@@ -259,7 +259,7 @@
         "image": null,
         "source": "Kubernetes Blog",
         "published": "2026-09-15T18:30:00.000Z",
-        "isNew": true
+        "isNew": false
       },
       {
         "title": "Kubernetes Changed Block Tracking API - Beta Differences",
@@ -327,6 +327,15 @@
     ],
     "terraform": [
       {
+        "title": "v1.16.3",
+        "link": "https://github.com/hashicorp/terraform/releases/tag/v1.16.3",
+        "summary": "1.16.3 (September 16, 2026)\nBUG FIXES:\nFix handling of destroy=false around create_before_destroy instances (#39169)\nFix function result comparison when there are multiple marks (#39170)\nFilter logic for marks could cause values with multiple marks to erroneously fail validations (#39171)\nFix issue with import provider resolution (#39185)",
+        "image": "https://avatars.githubusercontent.com/u/82989873?s=60&v=4",
+        "source": "Release notes from terraform",
+        "published": "2026-09-16T14:33:39.000Z",
+        "isNew": false
+      },
+      {
         "title": "v1.17.0-beta1",
         "link": "https://github.com/hashicorp/terraform/releases/tag/v1.17.0-beta1",
         "summary": "1.17.0-beta1 (September 09, 2026)\nNEW FEATURES:\nTerraform now supports variables and locals in provider requirements (#39153)\nA new -minimal-refresh planning option has been added, which will only refresh resources that have proposed changes. (#35290)\npolicy: Terraform Policy is now generally available. The -policies flag for plan, apply, and init no longer requires the -allow-experimental-features flag. See https://developer.hashicorp.com/terraform/policy for more information. (#38970)\nENHANCEMENTS:\ncommand/init: Enrich log messages with provider versions (#38918)\ntest: Add mock_provider support for ephemeral resources (#38928)\ncommand/login: display warning after successful login if user is subject to an organization's TTL policy\nBUG FIXES:\nfuncs: pow and log no longer panic when result is not a number (#38912)\nephemeral: Terraform will now use and display diagnostics raised when renewing an ephemeral resource. This may cause warnings to appear that previously were lost. We expect that any error diagnostics that were previously lost would have caused confusing downstream errors, so we do not anticipate this change to be breaking. (#38989)\ntest: Deterministic dependency ordering in cleanup graph (#38247)\nquery: report Unknown and N/A results for policy evaluations of discovered resources (#39058)\nNOTES:\nversion: JSON output now includes a new format_version field, which will enable safer future changes of the command's JSON output format. It is assumed existing tooling…",
@@ -387,15 +396,6 @@
         "image": "https://avatars.githubusercontent.com/u/82989873?s=60&v=4",
         "source": "Release notes from terraform",
         "published": "2026-08-19T12:08:45.000Z",
-        "isNew": false
-      },
-      {
-        "title": "v1.16.0-rc1",
-        "link": "https://github.com/hashicorp/terraform/releases/tag/v1.16.0-rc1",
-        "summary": "1.16.0-rc1 (August 12, 2026)\nNEW FEATURES:\nTerraform now stores planned private data for providers, allowing provider-specific state to be preserved across plan and apply. (#37986)\nterraform_data: The new store block can hold ephemeral and sensitive values across plan and apply. (#38298)\nProviders can now use nested blocks as computed values (#38305)\nimport: import blocks inside modules are now supported. (#38352)\nTerraform is now available as a pre-built binary for Linux s390x (zLinux). (#38384)\nResource action triggers can now use on_failure modes of halt, taint, or continue. (#38722)\nENHANCEMENTS:\nstate show: The state show command can now produce machine-readable output when supplied with the -json flag (#23940)\nworkspace: The workspace list command can now produce machine-readable output when supplied with the -json flag (#38397)\ntest: Terraform now reports which resources were left behind when skip_cleanup is set. (#38449)\nstacks: Action configurations now have access to a caller symbol containing the object value of the calling resource. (#38668)\nActions can now use before_destroy and after_destroy events. (#38668)\ncloud: Terraform now displays a summary of policy evaluation outcomes for plan and apply runs against HCP Terraform. (#38715)\npolicy: Terraform now resolves policy plugin credentials from the configured cloud or remote backend during init, plan, and apply, rather than requiring the plugin to read credentials itself. (#38716)\ngraph: The terraform graph…",
-        "image": "https://avatars.githubusercontent.com/u/82989873?s=60&v=4",
-        "source": "Release notes from terraform",
-        "published": "2026-08-12T15:22:32.000Z",
         "isNew": false
       }
     ],
@@ -475,6 +475,15 @@
     ],
     "go": [
       {
+        "title": "Size-Specialized Memory Allocation",
+        "link": "https://go.dev/blog/size-specialized-allocations",
+        "summary": "The Go Blog\nSize-Specialized Memory Allocation\nGo 1.27 includes faster memory allocation for allocations of fewer than 80 bytes.\nAllocations can be up to 20-30% faster, making allocation-heavy programs up to 1% faster.\nThe Go runtime improves the performance of those allocations by adding specialized\nfunctions that are used to allocate certain sizes. These specialized functions\ncan then make certain assumptions that make them faster and easier to optimize.\nThis blog post will explain how this works and how it makes your programs faster.\nHeap allocations are created by the runtime’s mallocgc function, which requires the size\nof the allocation and whether it contains pointers. When the compiler determines that an\nobject escapes to the heap or otherwise needs to be dynamically\nallocated, it inserts a call to newobject, which is a simple wrapper function that extracts\nthe size of the object and whether it contains pointers and passes those to mallocgc.\nThese two pieces of information determine\nmost of the work that the allocator needs to do. The size is important because the allocator\ndefines ranges of sizes called “size classes”. For most allocations that are not too large\nand not too small, it will return a block of memory from a list of free objects\nthat are all sized to the maximum size of the size class. So, for instance, size class 3\nis 17-24 bytes. So whether you allocate 17 bytes or 24 bytes, the allocator will give\nyou the next free 24 byte object available in its list…",
+        "image": null,
+        "source": "The Go Blog",
+        "published": "2026-09-16T00:00:00.000Z",
+        "isNew": false
+      },
+      {
         "title": "Goroutine Leak Profiles",
         "link": "https://go.dev/blog/goroutine-leak-profiles",
         "summary": "The Go Blog\nGoroutine Leak Profiles\nGo’s concurrency features are powerful and easy to use, but\nthat same ease can sometimes lead even seasoned developers to make\nmistakes.\nFortunately, the Go ecosystem comes equipped with useful tools for\ndebugging, e.g., the race detector,\nbut even existing tools may miss some concurrency bugs,\nsuch as the topic of this article, the goroutine leak.\nGoroutines synchronize or exchange information\nvia shared concurrency primitives, e.g., channels, locks, and wait groups.\nWhile communicating, goroutines often block on these primitives,\nas in, wait until some condition is met;\nubiquitous examples include waiting to acquire a held mutex,\nor receive a message over a channel.\nGoroutines can also block on operating system operations, like reading from a network socket or a file.\nWe may consider a goroutine leaked if it is blocked,\nbut the conditions needed to unblock it can never be met.\nOver time, an accumulation of leaked goroutines degrades\nperformance through excessive memory usage (by the leaked\ngoroutines themselves or the memory they reference), as well as\nCPU usage from the garbage collector, especially\nif GOMEMLIMIT is in use.\nGoroutine leaks can be notoriously difficult to detect.\nIn unit testing, the most significant breakthroughs include\nthe open-source library goleak,\nwhich can instrument individual tests to signal any\nun-terminated goroutines after the test wraps up as suspicious.\nSimilarly, Go 1.25 introduced the synctest package to…",
@@ -535,15 +544,6 @@
         "image": null,
         "source": "The Go Blog",
         "published": "2026-02-27T00:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "Using go fix to modernize Go code",
-        "link": "https://go.dev/blog/gofix",
-        "summary": "The Go Blog\nUsing go fix to modernize Go code\nThe 1.26 release of Go this month includes a completely rewritten go fix subcommand. Go fix uses a suite of algorithms to identify opportunities to improve your code, often by taking advantage of more modern features of the language and library. In this post, we’ll first show you how to use go fix to modernize your Go codebase. Then in the second section we’ll dive into the infrastructure behind it and how it is evolving. Finally, we’ll present the theme of “self-service” analysis tools to help module maintainers and organizations encode their own guidelines and best practices.\nRunning go fix\nThe go fix command, like go build and go vet, accepts a set of patterns that denote packages. This command fixes all packages beneath the current directory:\n$ go fix ./...\n\nOn success, it silently updates your source files. It discards any fix that touches generated files since the appropriate fix in that case is to the logic of the generator itself. We recommend running go fix over your project each time you update your build to a newer Go toolchain release. Since the command may fix hundreds of files, start from a clean git state so that the change consists only of edits from go fix; your code reviewers will thank you.\nTo preview the changes the above command would have made, use the -diff flag:\n$ go fix -diff ./...\n--- dir/file.go (old)\n+++ dir/file.go (new)\n-                       eq := strings.IndexByte(pair, '=')\n-…",
-        "image": null,
-        "source": "The Go Blog",
-        "published": "2026-02-17T00:00:00.000Z",
         "isNew": false
       }
     ],
