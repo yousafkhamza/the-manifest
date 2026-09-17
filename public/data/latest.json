@@ -1,6 +1,6 @@
 {
-  "date": "2026-09-16",
-  "generatedAt": "2026-09-16T20:07:44.219Z",
+  "date": "2026-09-17",
+  "generatedAt": "2026-09-17T09:59:00.062Z",
   "totalArticles": 72,
   "ticker": [
     {
@@ -181,7 +181,7 @@
       {
         "title": "September 16, 2026",
         "link": "https://docs.cloud.google.com/release-notes#September_16_2026",
-        "summary": "BigQuery\nFeature\nYou can use the migration lineage service to\nvisualize the data flow and connections in your source database and\nhelp you plan a BigQuery data warehouse migration. This feature is in\nPreview.\nDatastream\nFeature\nDatastream now supports MongoDB extended JSON canonical mode as the\ndefault format for new streams from MongoDB sources to BigQuery\ndestinations.\nCanonical mode provides higher data fidelity by explicitly labeling every\nBSON type to prevent precision loss during data exchange.\nFor more information, see the following:\nStream data from MongoDB databases\nMongoDB data types in\nBigQuery\nFilestore\nFeature\nSmall capacity Filestore instances for the Regional service tier are generally available (GA). Small capacity instances start at 100 GiB and scale in 1 GiB increments, providing an option for development, testing, and applications with low traffic or basic storage needs.\nFor more information, see Small capacity instances.",
+        "summary": "Backup and DR\nFeature\nYou can now use auto-protection policies and resource labels to automatically protect Compute Engine instances and Persistent Disks at scale in Backup and DR. This feature allows you to automatically assign a backup plan to qualifying resources across projects based on user-defined labels. This feature is in Preview. For more information, see Automate resource protection.\nBigQuery\nFeature\nYou can use the migration lineage service to\nvisualize the data flow and connections in your source database and\nhelp you plan a BigQuery data warehouse migration. This feature is in\nPreview.\nCloud Number Registry\nBreaking\nYou must designate a project to manage\nCloud Number Registry\nbefore you can set up\nCloud Number Registry\nfor an organization.\nDatastream\nFeature\nDatastream now supports MongoDB extended JSON canonical mode as the\ndefault format for new streams from MongoDB sources to BigQuery\ndestinations.\nCanonical mode provides higher data fidelity by explicitly labeling every\nBSON type to prevent precision loss during data exchange.\nFor more information, see the following:\nStream data from MongoDB databases\nMongoDB data types in\nBigQuery\nFilestore\nFeature\nSmall capacity Filestore instances for the Regional service tier are generally available (GA). Small capacity instances start at 100 GiB and scale in 1 GiB increments, providing an option for development, testing, and applications with low traffic or basic storage needs.\nFor more information, see Small capacity…",
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-09-16T07:00:00.000Z",
@@ -253,6 +253,15 @@
     ],
     "kubernetes": [
       {
+        "title": "Kubernetes v1.37: Hardening Container Storage with Bind Mount Options and EmptyDir Permissions",
+        "link": "https://kubernetes.io/blog/2026/09/16/kubernetes-v1-37-hardening-container-storage/",
+        "summary": "Kubernetes v1.37 brings important storage security features: emptyDir permission modes and bind mount options. They help application programmers and security professionals implement rigorous security policies, for example, prohibiting deletion of files across containers or execution of arbitrary binaries from writable volumes, directly in Kubernetes without any complicated circumvention.\nLinux storage and permission fundamentals\nBefore diving into the new Kubernetes features, let us briefly review the low-level Linux security mechanisms that make them possible.\nBind mount flags\nWhen Linux mounts or remounts a directory, Virtual File System (VFS) flags control what actions are permitted on that filesystem:\nnoexec: Do not permit direct execution of any binaries on the mounted filesystem.\nnosuid: Do not allow set-user-identifier or set-group-identifier bits to take effect.\nnodev: Do not interpret character or block special devices on the file system.\nDirectory permissions and the sticky bit\nStandard Unix permissions regulate access across three scopes: Owner, Group, and Others (e.g., 0755 or 0777).\nBeyond standard read, write, and execute bits, Linux supports the sticky bit (as in mode 01777).\nWhen applied to a directory, the sticky bit ensures that a file inside that directory can only be deleted or renamed by the file's owner or root. This is essential for shared writable directories like /tmp.\nMotivation for the improvements\nWhy does Kubernetes need bind mount options and…",
+        "image": null,
+        "source": "Kubernetes Blog",
+        "published": "2026-09-16T18:30:00.000Z",
+        "isNew": true
+      },
+      {
         "title": "Kubernetes v1.37: Pod-Level Resource Managers graduated to Beta",
         "link": "https://kubernetes.io/blog/2026/09/15/kubernetes-v1-37-pod-level-resource-managers-beta/",
         "summary": "With the release of Kubernetes v1.37, the Pod-Level Resource Managers\nfeature has graduated to Beta status (disabled by default)!\nFirst introduced as an Alpha feature in\nKubernetes v1.36,\nthis enhancement builds on\nPod-Level Resources by\nequipping Kubelet's Topology Manager, CPU Manager, and Memory Manager to use\nPod-level resource declarations (.spec.resources) directly when making\nhardware placement decisions.\nBringing pod-level resources to node managers\nBefore this feature, obtaining exclusive NUMA-aligned CPU cores or memory for\nlatency-critical applications forced cluster operators into an all-or-nothing\nchoice: assign integer resource requests to every container in the Pod, or\nforfeit exclusive NUMA alignment entirely. For modern workloads running\nlightweight sidecars (such as logging agents or telemetry exporters), allocating\ndedicated physical cores to auxiliary containers was wasteful.\nPod-Level Resource Managers solves this challenge by enabling hybrid allocation\nmodels. The Kubelet can reserve exclusive NUMA-aligned resources for primary\napplication containers while placing non-Guaranteed sidecars into a pod-isolated\nshared pool. This ensures primary workloads get unthrottled, NUMA-local\nperformance while sidecars benefit from running in a pod-isolated shared pool,\nenjoying local NUMA alignment and protection from external node interference\nwithout consuming dedicated physical cores.\nWhat's new in Beta\nGraduating to Beta brings key operational and API…",
@@ -313,15 +322,6 @@
         "image": null,
         "source": "Kubernetes Blog",
         "published": "2026-09-08T18:30:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "Kubernetes v1.37: KubeletInUserNamespace (aka Rootless mode) Graduates to Beta",
-        "link": "https://kubernetes.io/blog/2026/09/04/kubernetes-v1-37-rootless-beta/",
-        "summary": "Kubernetes v1.37 promotes the KubeletInUserNamespace feature gate to beta.\nWith this feature enabled, all of the node components (kubelet, CRI and OCI runtimes,\nCNI plugins, and kube-proxy) can run as a non-root user on the host, using a\nLinux user namespace.\nThis technique is also known as rootless mode.\nThe work started as an experiment in 2018, and was merged into Kubernetes v1.22 (2021)\nas an alpha feature (Kubernetes Enhancement Proposal KEP-2033).\nThis feature should not be confused with user namespaces for pods\n(hostUsers: false with the UserNamespacesSupport feature gate, GA since v1.36),\nwhich puts pods in user namespaces but still runs the node components as root.\nThese two features do not conflict.\nMoreover, they can be combined to nest Kubernetes inside Kubernetes without resorting to\nthe full privileged: true.\nWhy run the node components in a user namespace?\nBecause the node components have historically had container-breakout vulnerabilities\nthat could compromise full root privileges on the host.\nExamples of such vulnerabilities include:\nCVE-2022-0811\n(\"cr8escape\"): CRI-O could be tricked into setting arbitrary sysctls, such as\nkernel.core_pattern, resulting in arbitrary code execution as root on the host\nCVE-2023-27561:\nrunc could be tricked into bypassing the masked paths of a container via a volume\nmount race, exposing the host's procfs files (a regression of CVE-2019-19921)\nCVE-2024-10220:\nthe kubelet could be made to execute arbitrary commands as root via…",
-        "image": null,
-        "source": "Kubernetes Blog",
-        "published": "2026-09-04T18:30:00.000Z",
         "isNew": false
       }
     ],
