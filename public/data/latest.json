@@ -1,6 +1,6 @@
 {
   "date": "2026-09-17",
-  "generatedAt": "2026-09-17T15:33:43.735Z",
+  "generatedAt": "2026-09-17T20:20:04.513Z",
   "totalArticles": 72,
   "ticker": [
     {
@@ -30,6 +30,15 @@
   ],
   "topics": {
     "aws": [
+      {
+        "title": "AWS Elastic Beanstalk introduces Cluster Mode",
+        "link": "https://aws.amazon.com/blogs/aws/aws-elastic-beanstalk-introduces-cluster-mode/",
+        "summary": "Run an application on AWS Elastic Beanstalk Cluster Mode without provisioning or operating the compute underneath it. You provide a container image or source code; Elastic Beanstalk with service-operated compute creates and operates the environment that runs it.",
+        "image": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2026/09/11/2026-eb-eks-1-1.jpg",
+        "source": "AWS News Blog",
+        "published": "2026-09-17T19:20:21.000Z",
+        "isNew": false
+      },
       {
         "title": "AWS reimagines the getting started experience",
         "link": "https://aws.amazon.com/blogs/aws/aws-reimagines-the-getting-started-experience/",
@@ -91,15 +100,6 @@
         "image": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2026/08/19/2026-amazon-ec2-20th-thumbx250.jpg",
         "source": "AWS News Blog",
         "published": "2026-08-25T16:11:02.000Z",
-        "isNew": false
-      },
-      {
-        "title": "AWS Weekly Roundup: Student Rewards on AWS Builder Center, Local Zone in Las Vegas, and more (August 24, 2026)",
-        "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-student-rewards-on-aws-builder-center-local-zone-in-las-vegas-and-more-august-24-2026/",
-        "summary": "During my time at AWS, I have always looked for opportunities to work with students. I have delivered over 50 talks at universities across the region, and watching the potential in the room is always a strong motivator. It reminds me of why I do this work, and that the students I meet today may […]",
-        "image": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2026/08/23/2026-08-24-WIR.png",
-        "source": "AWS News Blog",
-        "published": "2026-08-24T16:20:15.000Z",
         "isNew": false
       }
     ],
@@ -181,7 +181,7 @@
       {
         "title": "September 17, 2026",
         "link": "https://docs.cloud.google.com/release-notes#September_17_2026",
-        "summary": "Oracle Database@Google Cloud\nFeature\nFor Exadata Database Service, Oracle Database@Google Cloud is available in europe-west12 (Turin, Italy) region.\nFor a list of supported locations, see Supported regions and zones.",
+        "summary": "Cloud SQL for MySQL\nChange\nCloud SQL for MySQL now automatically enables point-in-time recovery (PITR) in\na separate, asynchronous operation after disaster recovery (DR) switchover and\nreplica failover operations complete. Because PITR enablement no longer blocks\nswitchover and replica failover, these operations complete faster, helping you\nreduce your recovery time.\nFor more information, see Use advanced disaster recovery (DR).\nCloud SQL for PostgreSQL\nChange\nCloud SQL for PostgreSQL now automatically enables point-in-time recovery\n(PITR) in a separate, asynchronous operation after disaster recovery (DR)\nswitchover and replica failover operations complete. Because PITR enablement no\nlonger blocks switchover and replica failover, these operations complete faster,\nhelping you reduce your recovery time.\nFor more information, see Use advanced disaster recovery (DR).\nCompute Engine\nFeature\nGenerally available: The storage-optimized Z4D machine series is generally available for Compute Engine. Powered by AMD EPYC Turin processors and Titanium offload processors, Z4D instances are purpose-built for low core usage and high storage density workloads such as:\nSQL, NoSQL, and vector databases\nData analytics and data warehouses\nSearch\nParallel file systems for AI/ML\nThe Z4D machine series delivers up to 3 TB of memory and 42,000 GiB of local Titanium SSD capacity. Z4D also supports up to 400 Gbps of network bandwidth using two physical NICs. Z4D instances are available in predefined…",
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-09-17T07:00:00.000Z",
@@ -549,6 +549,15 @@
     ],
     "rust": [
       {
+        "title": "Be alert: targeted attacks on prominent Rustaceans",
+        "link": "https://blog.rust-lang.org/2026/09/17/targeted-attacks/",
+        "summary": "We believe that there is an ongoing campaign targeting rust-lang members and\nowners of popular crates that is attempting to compromise devices and accounts\nin order to use them to publish malware.\n\nWhat we've seen\nA video call is set up for something positive — maybe for a job, maybe for a\nproject, maybe for a contract opportunity — and then that's used as a vector to\neither get the target to install something on their computer (such as a\npurportedly missing audio codec) or execute another command (for example, via\nputting a command on the clipboard).\nThese attackers are setting up new but legitimate seeming company profiles,\nincluding plausible LinkedIn presences, in order to pass cursory inspection.\n\nWhat you can do\nPlease take extra care in the near term. Be appropriately suspicious of cold\noutreaches, and ensure that any calls you have with new people are on platforms\nyou trust — ideally, try to be the one who sets up the call on a platform you\nalready use.\nPlease also re-check that your accounts look normal: MFA enabled,\nno unexpected logins on platforms that can track that, and so on.\nIf you have any concerns about your accounts, please reach out to\nhelp@crates.io (for crates.io account concerns) and/or\nsecurity@rust-lang.org (for any other\nconcerns). We're very happy to help.",
+        "image": null,
+        "source": "Rust Blog",
+        "published": "2026-09-17T00:00:00.000Z",
+        "isNew": false
+      },
+      {
         "title": "Rust debugging survey 2026 results",
         "link": "https://blog.rust-lang.org/2026/09/07/rust-debugging-survey-2026-results/",
         "summary": "One of the biggest challenges Rust developers report in our\nannual surveys is a subpar debugging experience. So, back\nin February, we ran our first Rust Debugging Survey,\nin the hopes of identifying how Rust developers are using debuggers and what\nproblems they are facing when doing so. We received over 2,300 responses, and\nwe'd like to thank everyone who took the time to participate in the survey!\nIn this report, we'll go over some of the results of the survey. If you'd like,\nyou can also check out the complete results of the survey.\nIf you'd like to skip ahead to any particular section, you can do so with this\nindex:\nWho Uses Debuggers?\nHow Are Debuggers Used?\nChallenges\nDebugger Visualizers\nClosing Remarks\n\nWho Uses Debuggers?\nThe first step to making sense of the survey results is understanding who took\nthe survey. We asked respondents to rate their Rust expertise, from \"Never used\nit\" to \"Advanced\". Over 80% reported themselves as \"Advanced\" or \"Intermediate\",\nsplit roughly evenly between the two:\n\n\n\n[PNG] [SVG]\n    \nWe also asked respondents if they currently use or have used debuggers in Rust.\nOver 46% said they currently do, with the remaining responses split between\n\"have in the past\" and \"never have\". That means that over half of respondents do\nnot currently use a debugger for Rust!\n\n\n\n[PNG] [SVG]\n    \nCategorized by expertise, the responses reveal that roughly half of \"beginners\"\nhave never used debuggers in Rust! On the other hand, nearly half of \"advanced\nusers\"…",
@@ -609,15 +618,6 @@
         "image": null,
         "source": "Rust Blog",
         "published": "2026-08-20T00:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "Enabling the next iteration of the borrow checker on nightly",
-        "link": "https://blog.rust-lang.org/2026/08/04/enabling-polonius-alpha-on-nightly/",
-        "summary": "TL;DR We are enabling the next iteration of the borrow checker (coined Polonius Alpha)\non nightly in preparation for stabilization in the next few months.\n\nWhaaaaaat?\nYes! You heard it right! The next iteration of the Rust borrow checker is coming! Rust's first borrow checker (\"AST borrowck\") was very limited and was phased out in 2019 in favor of NLL, other than a \"migrate mode\" that was used to provide nice error messages. That migrate mode was finally removed in 2022.\nThe Polonius borrow checker spun out of the NLL effort in 2018. The initial formulation passed the NLL test suite and accepted (sound) code that NLL did not. However, performance was a critically-limiting factor; generally borrow check was slower than NLL, but certain programs were considerably slower than NLL to the extent that using that implementation/formulation of Polonius was a non-starter. Attempts were made over the years to implement the Polonius formulation in a performant manner, without much luck in addressing the core issues.\nIn 2023, a new formulation of a Polonius-style borrow checker was imagined that required minimal rearchitecture of the existing NLL implementation and could be extended to allow more code to compile. We had hoped, to try to stabilize this new formulation in 2024; but, various things popped up that delayed this.\nBut! We're nearly there now! At this point, there are no known remaining issues with the subset coined Polonius Alpha that we intend to stabilize. And, performance…",
-        "image": "https://blog.rust-lang.org/2026/08/04/enabling-polonius-alpha-on-nightly/polonius_top10k_leaf.png",
-        "source": "Rust Blog",
-        "published": "2026-08-04T00:00:00.000Z",
         "isNew": false
       }
     ],
