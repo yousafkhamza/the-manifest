@@ -1,6 +1,6 @@
 {
   "date": "2026-09-17",
-  "generatedAt": "2026-09-17T09:59:00.062Z",
+  "generatedAt": "2026-09-17T15:33:43.735Z",
   "totalArticles": 72,
   "ticker": [
     {
@@ -179,6 +179,15 @@
     ],
     "gcp": [
       {
+        "title": "September 17, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#September_17_2026",
+        "summary": "Oracle Database@Google Cloud\nFeature\nFor Exadata Database Service, Oracle Database@Google Cloud is available in europe-west12 (Turin, Italy) region.\nFor a list of supported locations, see Supported regions and zones.",
+        "image": null,
+        "source": "Google Cloud Platform (GCP) - Release notes",
+        "published": "2026-09-17T07:00:00.000Z",
+        "isNew": false
+      },
+      {
         "title": "September 16, 2026",
         "link": "https://docs.cloud.google.com/release-notes#September_16_2026",
         "summary": "Backup and DR\nFeature\nYou can now use auto-protection policies and resource labels to automatically protect Compute Engine instances and Persistent Disks at scale in Backup and DR. This feature allows you to automatically assign a backup plan to qualifying resources across projects based on user-defined labels. This feature is in Preview. For more information, see Automate resource protection.\nBigQuery\nFeature\nYou can use the migration lineage service to\nvisualize the data flow and connections in your source database and\nhelp you plan a BigQuery data warehouse migration. This feature is in\nPreview.\nCloud Number Registry\nBreaking\nYou must designate a project to manage\nCloud Number Registry\nbefore you can set up\nCloud Number Registry\nfor an organization.\nDatastream\nFeature\nDatastream now supports MongoDB extended JSON canonical mode as the\ndefault format for new streams from MongoDB sources to BigQuery\ndestinations.\nCanonical mode provides higher data fidelity by explicitly labeling every\nBSON type to prevent precision loss during data exchange.\nFor more information, see the following:\nStream data from MongoDB databases\nMongoDB data types in\nBigQuery\nFilestore\nFeature\nSmall capacity Filestore instances for the Regional service tier are generally available (GA). Small capacity instances start at 100 GiB and scale in 1 GiB increments, providing an option for development, testing, and applications with low traffic or basic storage needs.\nFor more information, see Small capacity…",
@@ -240,15 +249,6 @@
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-09-09T07:00:00.000Z",
         "isNew": false
-      },
-      {
-        "title": "September 08, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#September_08_2026",
-        "summary": "Agent Platform Workbench\nFixed\nScheduled upgrade metadata is validated\nThe value of the notebook-upgrade-schedule metadata key is now validated when\nyou create or update an Agent Platform Workbench instance. The value must be a\nsingle-line unix-cron\nformat schedule. For more\ninformation, see Manage features through\nmetadata.\nAssured Workloads\nFeature\nThe EU Data Boundary with Access Justifications\nsupports the following products:\nAlloyDB for PostgreSQL\nApigee\nEventarc\nBigQuery\nFeature\nConversational analytics now supports predictive modeling questions using the\nAI.PREDICT function.\nThis feature is in\nPreview.\nCloud Run\nFeature\nTo take advantage of reduced pricing\nfor Cloud Run jobs, you can delay job execution to\ndefer non-urgent tasks for up to 12 hours (Preview).\nCloud SQL for MySQL\nFeature\nRegional endpoints (REP)\nare now generally available\n(GA)\nfor the Cloud SQL for MySQL Admin API.\nRegional endpoints let you interact with Cloud SQL for MySQL instances\nusing regionalized URLs (such as\nsqladmin.{region}.rep.googleapis.com)\nrather than through a single global endpoint.\nRegional endpoints provide regional frontend and load balancing infrastructure\nthat improves data residency by keeping network traffic within the same\nregion as the instance. This reduces the instance's dependency on global\nfrontend infrastructure.\nRegional endpoints have strong regional isolation, so the failure of a load\nbalancer or frontend in one region doesn't affect any other\nregion. Regional service…",
-        "image": null,
-        "source": "Google Cloud Platform (GCP) - Release notes",
-        "published": "2026-09-08T07:00:00.000Z",
-        "isNew": false
       }
     ],
     "kubernetes": [
@@ -259,7 +259,7 @@
         "image": null,
         "source": "Kubernetes Blog",
         "published": "2026-09-16T18:30:00.000Z",
-        "isNew": true
+        "isNew": false
       },
       {
         "title": "Kubernetes v1.37: Pod-Level Resource Managers graduated to Beta",
@@ -401,6 +401,24 @@
     ],
     "python": [
       {
+        "title": "Announcing the 2026 PSF Board Election Results!",
+        "link": "https://pyfound.blogspot.com/2026/09/announcing-2026-psf-board-election.html",
+        "summary": "The 2026 election for the PSF Board created an opportunity for conversations about the PSF's work to serve the global Python community. We appreciate community members' perspectives, passion, and engagement in the election process this year. \nWe want to send a big thanks to everyone who ran and was willing to serve on the PSF Board. Even if you were not elected, we appreciate all the time and effort you put into thinking about how to improve the PSF and represent the parts of the community you participate in. We hope that you will continue to think about these issues, share your ideas, and join a PSF Work Group or PSF initiative if you feel called to do so.\n\nBoard Members Elect \n\n\nCongratulations to our three new and one returning Board members who have been elected! \n\n\nElaine Wong\nLaís Carvalho\nEe Durbin\nGeorgi Ker\n\nWe’ll be in touch with all the elected candidates shortly to schedule onboarding. Newly elected PSF Board members are provided orientation for their service and will be joining the upcoming board meeting in October. \n\nThank you!\nWe’d like to take this opportunity to thank our outgoing board members. Cheuk Ting Ho has been a super engaged PSF Board member, participating in many committees, and helping out on many PSF Programs and projects during her time on the PSF Board. Chris Neugebauer has been a longtime board member and in particular has been the watch guard of our bylaws conversations and has always been ready to share institutional knowledge. Denny Perez…",
+        "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjwa029mAK-VzIrvSzCbyYd6Ns0C2gefTG30Zjizu9A4UywuwEimTNiZuURqrcN6QiLAqUq4H7AjytpgKT0dXXgAhF9Bcr1_CaIIPCYIr6N9MasdJ1q1HXJwBWwfj2Y61KtjmjoGAOGt77rGSL_fr2d3cNLWotjwn7bZWb1g_69KhLb_XfIbg/s72-w400-h400-c/election%20announcement(1).png",
+        "source": "Python Software Foundation News",
+        "published": "2026-09-17T12:48:08.906Z",
+        "isNew": false
+      },
+      {
+        "title": "Announcing the 2026 Python Packaging Council Election Results!",
+        "link": "https://pyfound.blogspot.com/2026/09/announcing-2026-python-packaging.html",
+        "summary": "The inaugural Python Packaging Council (PPC) election has concluded. With 17 candidates and plenty of lively AMA discussions on DPO, we are pleased to see the level of engagement with this first PPC election.\nWe want to send a big thanks to everyone who ran and was willing to serve on the council. Even if you were not elected, we appreciate all the time and effort you put into thinking about how to improve Python’s packaging ecosystem and represent the parts of the community you participate in.\n\nCouncil Members Elect \n\n\n\nCongratulations to our five inaugural Python Packaging Council members who have been elected! \n\nBrett Cannon – for a 2 year term (Cohort A)\nPradyun Gedam – for a 2 year term (Cohort A)\nDonald Stufft – for a 1 year term (Cohort B)\nHenry Schreiner – for a 1 year term (Cohort B)\nRalf Gommers – for a 1 year term (Cohort B)\n\nOur heartfelt thanks go out to each of you who took the time to review the candidates and submit your votes. We received 541 total ballots.\nWe also want to thank everyone who participated in the PEP 772 discussions to establish this council as well as those who helped with this year’s election–especially Barry Warsaw and Pradyun Gedam as community liaisons for this inaugural election. We also want to highlight the PSF staff members and PSF Board members who put in tons of effort each year as we work to continually improve our elections.\n\nHow do the terms/cohorts work?\nThis inaugural election fills all five seats on the PPC. The two candidates…",
+        "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhj9wYH-WHmTOlLSkOjJY-cmRVETQ6RQ1MEDCZqpBidppUys6fqGN5ovjq40tjJAgvO8qrHbbdNjupiLd4gySvBV5bsOE2aqX5O_bptbGGqHLWOiCspHxJk4KZ1IqTCWla3XwtuTp2jogwyYYRyB0msO9i3ISVxr1ENbunYuxSOu2pMk9whTw/s72-w400-h400-c/packaging%20council%20(5).png",
+        "source": "Python Software Foundation News",
+        "published": "2026-09-17T12:36:38.222Z",
+        "isNew": false
+      },
+      {
         "title": "Announcing the PSF Strategic Plan 2026",
         "link": "https://pyfound.blogspot.com/2026/09/announcing-psf-strategic-plan-2026.html",
         "summary": "In May, the Python Software Foundation (PSF) shared the high-level goals of  our Strategic Plan. In June, we published the full draft and opened it for community feedback. Today we are sharing the outcome: at its July 8 meeting, the PSF Board adopted the PSF Strategic Plan 2026, covering 2026 to 2031.\nOur new PSF Strategy page is the permanent home for the plan, with information about how the board sets priorities and how you can share feedback. We’ll publish annual review findings and future updates there so the community can follow our progress and any changes to the plan.\n\nWhat the feedback changed\nFeedback from PSF Staff and the Python community shaped real changes to the draft we published in June.\nStaff feedback added a Security Baseline objective for all PSF projects and services and a Vulnerability Management objective in response to the rapid growth in security reports, and it sharpened wording across the organizational goals. Community feedback shaped the plan, too: translation and localization are now part of the accessibility work, companies that want to fund specific work get clearer pathways, and the ideas under financial sustainability now include growing the value of PSF membership.\nThe plan's \"How This Plan Was Shaped\" section documents the process, and we are grateful to everyone who took the time to share their perspectives.\nThe annual review\nA five-year plan is only useful if it stays current. Alongside adoption, the board established an annual review of…",
@@ -452,24 +470,6 @@
         "image": null,
         "source": "Python Software Foundation News",
         "published": "2026-08-25T12:52:26.929Z",
-        "isNew": false
-      },
-      {
-        "title": "Petr Andreev: 2026 PSF Board Election Candidate Interview",
-        "link": "https://pyfound.blogspot.com/2026/08/petr-andreev-2026-psf-board-election.html",
-        "summary": "Who are you?\nI am a Python educator, CPython-internals specialist, community organizer, and international Python speaker.\nI teach Advanced Python and CPython internals, from memory management and interpreter architecture to free-threading and performance. My work increasingly focuses on turning technical education into real-world participation: research, open-source contribution, conference speaking, and leadership.\nBefore focusing on Python, I helped build an educational community of roughly 2,500 participants. I assembled an organizing team, secured external funding, and developed partnerships with companies, an endowment, and other organizations to support courses, competitions, speakers, and community programs.\nThese experiences shaped the model behind much of my work:\ndevelop developers → develop contributors → develop community leaders.\n\nWhat would you bring to the PSF Board of Directors?\nI would bring experience building organizations and systems around technical communities.\nI have worked on both sides of community development: developing individuals through education and mentorship, and building the infrastructure around them through organizing teams, institutional partnerships, external funding, events, and opportunities to lead.\nI also bring an unusual combination of technical depth and community-building experience. I can communicate with CPython contributors about implementation-level problems, with educators about developing new talent, and with institutions…",
-        "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiUD8bPnCnC6SEryAPFvdHv0KLYU2lJhpRDgXldKPjYjbT4oyn40HEVRBdjEL2cNU-CUKM_bKJjP6lID5fGc1tPsahfLFRHqLdiMjA9yVY6Drcsj_56XkOXwyhlW5VyvxpWyQrpJv0lDLvGFXaHSnU6esIbiyE9dUHGtGDxYof1O4PXe_SiOw/s72-c/PetrAndreev_2026PSFBoardElection.jpg",
-        "source": "Python Software Foundation News",
-        "published": "2026-08-25T12:52:15.851Z",
-        "isNew": false
-      },
-      {
-        "title": "Nina Zakharenko: 2026 PSF Board Election Candidate Interview",
-        "link": "https://pyfound.blogspot.com/2026/08/nina-zakharenko-2026-psf-board-election.html",
-        "summary": "Who are you?\nI'm Nina Zakharenko. I went to my first PyCon US in Santa Clara in 2013, and fell in love with the Python community. Since then, I've co-chaired PyCascades, taught Python to hundreds of students, and given talks, workshops, and keynotes at Python events around the world, including the closing keynote at PyCon US 2019. Professionally, I've held roles at Microsoft and Google focused on Python, open source, developer communities, and supply chain security. These days I work for myself, and I'm running as an independent candidate.\nI served on the PSF Board of Directors from 2020 to 2023, including as Communications Co-Chair and Co-Vice Chair. After spending time recharging, I'm running again because I believe the Python community is entering a period of significant change, and I'd like to contribute my relevant experience to a community that has been central to my life and career for over a decade. Outside of work, I love to be creative with hobbies like 3D printing, ceramics, and stained glass artwork.\nWhat would you bring to the PSF Board of Directors?\nThree years of board experience, along with perspective from working across industry and community. During my previous term, I worked on initiatives around grants and helped introduce a more accessible membership tier. I also learned the less visible side of board work: fundraising, executive oversight, and recruiting new directors. That means I can start contributing quickly, and invest time in helping new…",
-        "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj7kgtFVKRtd8ybJZ6wYD7k4wF0TwHe1MUlele4YBYQ8TyfyTwMJhRTnAb3l4sUxsF2RSxQyLy2ir__WFXVrSG_KDdy7t-trkgh4c_59cv4GfPlrdKVefrNEFDX4DUOd0t3LeXEiiF7mDyiGRGc3HlFTwk7aa9UR6hItEP4Gx3JpMv60xHhVg/s72-c/NinaZakharenko_2026PSFBoardElection.jpg",
-        "source": "Python Software Foundation News",
-        "published": "2026-08-25T12:52:00.184Z",
         "isNew": false
       }
     ],
