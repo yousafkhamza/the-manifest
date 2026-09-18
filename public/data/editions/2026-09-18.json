@@ -1,6 +1,6 @@
 {
   "date": "2026-09-18",
-  "generatedAt": "2026-09-18T09:45:54.465Z",
+  "generatedAt": "2026-09-18T15:00:25.702Z",
   "totalArticles": 72,
   "ticker": [
     {
@@ -37,7 +37,7 @@
         "image": null,
         "source": "AWS News Blog",
         "published": "2026-09-17T21:11:48.000Z",
-        "isNew": true
+        "isNew": false
       },
       {
         "title": "AWS Elastic Beanstalk introduces Cluster Mode",
@@ -179,6 +179,15 @@
     ],
     "gcp": [
       {
+        "title": "September 18, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#September_18_2026",
+        "summary": "Cloud Load Balancing\nFeature\nManaged workload identity for backend mTLS is generally available for the\nfollowing Application Load Balancers:\nGlobal external Application Load Balancers\nRegional external Application Load Balancers\nCross-region internal Application Load Balancers\nRegional internal Application Load Balancers\nThe key benefits are as follows:\nStreamline certificate management: Automated certificate and trust\nmanagement for backend mTLS through seamless\nintegration with Certificate Authority Service and Certificate Manager.\n\n\nEliminate operational toil: Certificates are automatically rotated based\non the workload identity pool's configuration, removing the complexity and\nmanual bottleneck of private key provisioning and maintenance.\n\n\nImprove visibility and governance: Gain visibility into communication\nbetween distributed services and proactively apply governance to workloads\nacross environments.\n\n\nFor more information, see\nBackend mTLS with managed workload identity overview\nModel Armor\nFeature\nFilter version v4 is available and set as the default for the Latest alias.\nFilter version v3 is promoted to the Stable alias in all supported regions\nexcept the following:\nIn asia-northeast3, v1 remains the Stable version.\nIn australia-southeast2, v3 becomes the Stable version on\nSeptember 25, 2026.\nIf your templates use the Stable alias, they automatically upgrade to v3\nwhen v3 becomes Stable in that region.\nFilter versions v1 (except in asia-northeast3, and starting…",
+        "image": null,
+        "source": "Google Cloud Platform (GCP) - Release notes",
+        "published": "2026-09-18T07:00:00.000Z",
+        "isNew": false
+      },
+      {
         "title": "September 17, 2026",
         "link": "https://docs.cloud.google.com/release-notes#September_17_2026",
         "summary": "BigQuery\nFeature\nYou can add unit tests to pipelines\nto validate your SQL transformation logic against mock datasets. Unit tests for\npipelines are generally available (GA).\nCloud SQL for MySQL\nChange\nCloud SQL for MySQL now automatically enables point-in-time recovery (PITR) in\na separate, asynchronous operation after disaster recovery (DR) switchover and\nreplica failover operations complete. Because PITR enablement no longer blocks\nswitchover and replica failover, these operations complete faster, helping you\nreduce your recovery time.\nFor more information, see Use advanced disaster recovery (DR).\nCloud SQL for PostgreSQL\nChange\nCloud SQL for PostgreSQL now automatically enables point-in-time recovery\n(PITR) in a separate, asynchronous operation after disaster recovery (DR)\nswitchover and replica failover operations complete. Because PITR enablement no\nlonger blocks switchover and replica failover, these operations complete faster,\nhelping you reduce your recovery time.\nFor more information, see Use advanced disaster recovery (DR).\nCompute Engine\nFeature\nGenerally available: The storage-optimized Z4D machine series is generally available for Compute Engine. Powered by AMD EPYC Turin processors and Titanium offload processors, Z4D instances are purpose-built for low core usage and high storage density workloads such as:\nSQL, NoSQL, and vector databases\nData analytics and data warehouses\nSearch\nParallel file systems for AI/ML\nThe Z4D machine series delivers up to 3 TB of…",
@@ -239,15 +248,6 @@
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-09-10T07:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "September 09, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#September_09_2026",
-        "summary": "Apigee X\nFeature\nSemanticCacheLookup policy supports non-default Vector Search distance measures\nAvailable in Apigee 1-18-0-apigee-4 and later. A new optional\n<DistanceMeasureType> element accepts DOT_PRODUCT_DISTANCE (the\ndefault, and the existing behavior), COSINE_DISTANCE,\nSQUARED_L2_DISTANCE and L1_DISTANCE. The policy now compares\n<Threshold> in the direction the declared measure implies, so declaring a\nnon-default measure requires re-tuning the threshold in the same edit. The 0-to-1 restriction on\n<Threshold> is also removed.\nBigQuery\nFeature\nBigQuery generative AI functions\nnow support the following Gemini models:\ngemini-3.5-flash-lite\ngemini-3.6-flash\ngemini-3.7-flash\nCloud Monitoring\nFeature\nA chart on a dashboard can override the dashboard's time-range setting. This\nfeature lets you view trends over a long period or metric data with low\nsampling rates alongside charts that show only recent data, and is\nGenerally Available (GA).\nFor more information, see the following documents:\nGoogle Cloud console: Set a time-range override for a chart or group\nAPI: Dashboard with an XyChart widget that sets a time-range override\nGemini Enterprise\nBreaking\nGemini Notebook Enterprise: Website URL ingestion blocked by VPC Service Controls\nProjects with VPC Service Controls enabled can't add website URLs as\nnotebook sources in Gemini Notebook Enterprise.\nThis is because direct website\ningestion performs a live web crawl, generating outbound traffic beyond Google\nnetworks, which would…",
-        "image": null,
-        "source": "Google Cloud Platform (GCP) - Release notes",
-        "published": "2026-09-09T07:00:00.000Z",
         "isNew": false
       }
     ],
