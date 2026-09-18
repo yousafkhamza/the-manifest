@@ -1,6 +1,6 @@
 {
-  "date": "2026-09-11",
-  "generatedAt": "2026-09-11T19:42:35.697Z",
+  "date": "2026-09-18",
+  "generatedAt": "2026-09-18T09:45:54.465Z",
   "totalArticles": 72,
   "ticker": [
     {
@@ -9,7 +9,7 @@
     },
     {
       "label": "Terraform",
-      "version": "v1.16.2"
+      "version": "v1.16.3"
     },
     {
       "label": "Python",
@@ -25,11 +25,47 @@
     },
     {
       "label": "Node.js",
-      "version": "v26.8.2"
+      "version": "v26.9.0"
     }
   ],
   "topics": {
     "aws": [
+      {
+        "title": "New low-cost burstable Amazon EC2 T8i instances are generally available",
+        "link": "https://aws.amazon.com/blogs/aws/new-low-cost-burstable-amazon-ec2-t8i-instances-are-generally-available/",
+        "summary": "AWS introduces new low-cost burstable Amazon EC2 T8i instances powered by custom sixth generation Intel Xeon Scalable Processors (Granite Rapids), available only on AWS. T8i instances are among the lowest-cost EC2 instances and deliver up to 30% better price performance over previous generation T3 instances.",
+        "image": null,
+        "source": "AWS News Blog",
+        "published": "2026-09-17T21:11:48.000Z",
+        "isNew": true
+      },
+      {
+        "title": "AWS Elastic Beanstalk introduces Cluster Mode",
+        "link": "https://aws.amazon.com/blogs/aws/aws-elastic-beanstalk-introduces-cluster-mode/",
+        "summary": "Run an application on AWS Elastic Beanstalk Cluster Mode without provisioning or operating the compute underneath it. You provide a container image or source code; Elastic Beanstalk with service-operated compute creates and operates the environment that runs it.",
+        "image": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2026/09/11/2026-eb-eks-1-1.jpg",
+        "source": "AWS News Blog",
+        "published": "2026-09-17T19:20:21.000Z",
+        "isNew": false
+      },
+      {
+        "title": "AWS reimagines the getting started experience",
+        "link": "https://aws.amazon.com/blogs/aws/aws-reimagines-the-getting-started-experience/",
+        "summary": "AWS has reimagined the getting started experience with smart and sensible defaults to help developers get started fast so that they can focus on building. New customers can sign up and get started right away with $100 in Free Tier credits, managed project environments, and simplified team and resource permissions. If their workload evolves, customers can activate advanced features to access the full breadth and depth of AWS in one step, with no migration required.",
+        "image": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2026/08/19/image-01-1024x648.png",
+        "source": "AWS News Blog",
+        "published": "2026-09-16T17:50:14.000Z",
+        "isNew": false
+      },
+      {
+        "title": "AWS Weekly Roundup: OpenAI GPT-6 Astra on Amazon Bedrock, Amazon Quick desktop GA, Kiro for students, and more (September 14, 2026)",
+        "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-openai-gpt-6-astra-on-amazon-bedrock-amazon-quick-desktop-ga-kiro-for-students-and-more-september-14-2026/",
+        "summary": "There’s a particular energy to mid-September in New York. Pumpkin spice lattes are flowing, temperatures are dropping, and it’s nearly sweater weather. The city is back at full speed, and so is the AWS launch calendar. This week that energy showed up in a new frontier model on Amazon Bedrock, a desktop app for Amazon […]",
+        "image": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2026/09/14/2025-gpt-6-astra-on-bedrack.png",
+        "source": "AWS News Blog",
+        "published": "2026-09-14T15:56:33.000Z",
+        "isNew": false
+      },
       {
         "title": "Introducing Amazon EBS Volume Clones across AWS accounts",
         "link": "https://aws.amazon.com/blogs/aws/introducing-amazon-ebs-volume-clones-across-aws-accounts/",
@@ -65,45 +101,36 @@
         "source": "AWS News Blog",
         "published": "2026-08-31T14:45:25.000Z",
         "isNew": false
-      },
-      {
-        "title": "Happy 20th Birthday, Amazon EC2",
-        "link": "https://aws.amazon.com/blogs/aws/happy-20th-birthday-amazon-ec2/",
-        "summary": "On the 20th Anniversary, we recognize how AWS has continued to push the boundaries of what cloud computing can deliver, building custom silicon for general-purpose and AI workloads and expanding EC2 into new form factors and deployment models that our customers in 2006 could not have imagined.",
-        "image": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2026/08/19/2026-amazon-ec2-20th-thumbx250.jpg",
-        "source": "AWS News Blog",
-        "published": "2026-08-25T16:11:02.000Z",
-        "isNew": false
-      },
-      {
-        "title": "AWS Weekly Roundup: Student Rewards on AWS Builder Center, Local Zone in Las Vegas, and more (August 24, 2026)",
-        "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-student-rewards-on-aws-builder-center-local-zone-in-las-vegas-and-more-august-24-2026/",
-        "summary": "During my time at AWS, I have always looked for opportunities to work with students. I have delivered over 50 talks at universities across the region, and watching the potential in the room is always a strong motivator. It reminds me of why I do this work, and that the students I meet today may […]",
-        "image": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2026/08/23/2026-08-24-WIR.png",
-        "source": "AWS News Blog",
-        "published": "2026-08-24T16:20:15.000Z",
-        "isNew": false
-      },
-      {
-        "title": "AWS Glue 6.0 now available with 30% lower price and full Apache Iceberg v3 support",
-        "link": "https://aws.amazon.com/blogs/aws/aws-glue-6-0-now-available-with-30-lower-price-and-full-apache-iceberg-v3-support/",
-        "summary": "AWS Glue 6.0 is built on a fully modernized runtime, Apache Spark 4.1, Python 3.13, and Scala 2.13, delivering 30% lower pricing than previous AWS Glue versions.",
-        "image": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2026/07/21/2026-aws-glue-6.0-console.png",
-        "source": "AWS News Blog",
-        "published": "2026-08-21T18:53:26.000Z",
-        "isNew": false
-      },
-      {
-        "title": "In the works: AWS Builder Lofts in Berlin, Hyderabad, and São Paulo",
-        "link": "https://aws.amazon.com/blogs/aws/in-the-works-aws-builder-lofts-in-berlin-hyderabad-and-sao-paulo/",
-        "summary": "Each location will be a permanent community space to offer free workshops, networking events, pitch nights, content creation spaces, collaboration/co-working areas, and event hosting for developers, students, or tech professionals who want to walk through the doors.",
-        "image": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2026/08/15/2026-builder-loft-sf-1-year.jpg",
-        "source": "AWS News Blog",
-        "published": "2026-08-18T13:58:41.000Z",
-        "isNew": false
       }
     ],
     "azure": [
+      {
+        "title": "Microsoft named a Leader in the 2026 Gartner® Magic Quadrant™ for Container Management",
+        "link": "https://azure.microsoft.com/en-us/blog/microsoft-named-a-leader-in-the-2026-gartner-magic-quadrant-for-container-management/",
+        "summary": "Microsoft was named a Leader in the 2026 Gartner® Magic Quadrant™ for Container Management. Discover how AKS, Azure Arc, and Azure Container Apps help organizations run AI and hybrid workloads at scale.\nThe post Microsoft named a Leader in the 2026 Gartner® Magic Quadrant™ for Container Management appeared first on Microsoft Azure Blog.",
+        "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/09/Container-Management-quadrant-927x1024.webp",
+        "source": "Microsoft Azure Blog",
+        "published": "2026-09-10T21:00:00.000Z",
+        "isNew": false
+      },
+      {
+        "title": "The Economics of Agent Optimization: How AI agent governance controls cost and proves ROI",
+        "link": "https://azure.microsoft.com/en-us/blog/the-economics-of-agent-optimization-how-ai-agent-governance-controls-cost-and-proves-roi/",
+        "summary": "This blog post is the fourth and final installment of The Economics of Agent Optimization, which shares the strategies, capabilities, and proof points that can help you optimize agent costs and run AI as a managed investment system on Microsoft Foundry.\nThe post The Economics of Agent Optimization: How AI agent governance controls cost and proves ROI appeared first on Microsoft Azure Blog.",
+        "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/09/Effective-cost-governance-screenshot.webp",
+        "source": "Microsoft Azure Blog",
+        "published": "2026-09-10T17:00:00.000Z",
+        "isNew": false
+      },
+      {
+        "title": "The future of infrastructure resiliency starts with modernization",
+        "link": "https://azure.microsoft.com/en-us/blog/the-future-of-infrastructure-resiliency-starts-with-modernization/",
+        "summary": "Modernization only succeeds when organizations have confidence that their infrastructure can withstand disruption and continue supporting critical operations.\nThe post The future of infrastructure resiliency starts with modernization appeared first on Microsoft Azure Blog.",
+        "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/09/Azure-DataPlatform-Dark-scaled.jpg",
+        "source": "Microsoft Azure Blog",
+        "published": "2026-09-10T16:00:00.000Z",
+        "isNew": false
+      },
       {
         "title": "Two zones or three? A design framework for zone-resilient Azure workloads",
         "link": "https://azure.microsoft.com/en-us/blog/two-zones-or-three-a-design-framework-for-zone-resilient-azure-workloads/",
@@ -148,40 +175,67 @@
         "source": "Microsoft Azure Blog",
         "published": "2026-09-03T15:00:00.000Z",
         "isNew": false
-      },
-      {
-        "title": "The Economics of Agent Optimization: Context engineering for enterprise AI agents",
-        "link": "https://azure.microsoft.com/en-us/blog/the-economics-of-agent-optimization-context-engineering-for-enterprise-ai-agents/",
-        "summary": "AI cost optimization goes beyond model selection. Discover how context engineering in Microsoft Foundry helps lower AI costs by improving knowledge retrieval, tool selection, memory, and agent performance at scale.\nThe post The Economics of Agent Optimization: Context engineering for enterprise AI agents appeared first on Microsoft Azure Blog.",
-        "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/09/image-2.webp",
-        "source": "Microsoft Azure Blog",
-        "published": "2026-09-02T16:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "Introducing Azure Multicloud Interconnect for AWS",
-        "link": "https://azure.microsoft.com/en-us/blog/introducing-azure-multicloud-interconnect-for-aws/",
-        "summary": "Azure Multicloud Interconnect helps simplify private connectivity between Microsoft Azure and AWS, enabling organizations to support multicloud and AI workloads with a more streamlined, cloud-native networking experience. Built on open interoperability standards, it helps reduce operational complexity while providing high-performance connectivity across cloud environments.\nThe post Introducing Azure Multicloud Interconnect for AWS appeared first on Microsoft Azure Blog.",
-        "image": null,
-        "source": "Microsoft Azure Blog",
-        "published": "2026-08-31T18:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "Inside Microsoft’s marketing team: Scaling expertise with AI",
-        "link": "https://azure.microsoft.com/en-us/blog/inside-microsofts-marketing-team-scaling-expertise-with-ai/",
-        "summary": "AI is helping organizations meet high expectations as markets change quickly and technology advances at a rapid pace.\nThe post Inside Microsoft’s marketing team: Scaling expertise with AI appeared first on Microsoft Azure Blog.",
-        "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/06/CLO20b_Evan_office_001-scaled.jpg",
-        "source": "Microsoft Azure Blog",
-        "published": "2026-08-31T16:00:00.000Z",
-        "isNew": false
       }
     ],
     "gcp": [
       {
+        "title": "September 17, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#September_17_2026",
+        "summary": "BigQuery\nFeature\nYou can add unit tests to pipelines\nto validate your SQL transformation logic against mock datasets. Unit tests for\npipelines are generally available (GA).\nCloud SQL for MySQL\nChange\nCloud SQL for MySQL now automatically enables point-in-time recovery (PITR) in\na separate, asynchronous operation after disaster recovery (DR) switchover and\nreplica failover operations complete. Because PITR enablement no longer blocks\nswitchover and replica failover, these operations complete faster, helping you\nreduce your recovery time.\nFor more information, see Use advanced disaster recovery (DR).\nCloud SQL for PostgreSQL\nChange\nCloud SQL for PostgreSQL now automatically enables point-in-time recovery\n(PITR) in a separate, asynchronous operation after disaster recovery (DR)\nswitchover and replica failover operations complete. Because PITR enablement no\nlonger blocks switchover and replica failover, these operations complete faster,\nhelping you reduce your recovery time.\nFor more information, see Use advanced disaster recovery (DR).\nCompute Engine\nFeature\nGenerally available: The storage-optimized Z4D machine series is generally available for Compute Engine. Powered by AMD EPYC Turin processors and Titanium offload processors, Z4D instances are purpose-built for low core usage and high storage density workloads such as:\nSQL, NoSQL, and vector databases\nData analytics and data warehouses\nSearch\nParallel file systems for AI/ML\nThe Z4D machine series delivers up to 3 TB of…",
+        "image": null,
+        "source": "Google Cloud Platform (GCP) - Release notes",
+        "published": "2026-09-17T07:00:00.000Z",
+        "isNew": false
+      },
+      {
+        "title": "September 16, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#September_16_2026",
+        "summary": "Backup and DR\nFeature\nYou can now use auto-protection policies and resource labels to automatically protect Compute Engine instances and Persistent Disks at scale in Backup and DR. This feature allows you to automatically assign a backup plan to qualifying resources across projects based on user-defined labels. This feature is in Preview. For more information, see Automate resource protection.\nBigQuery\nFeature\nYou can use the migration lineage service to\nvisualize the data flow and connections in your source database and\nhelp you plan a BigQuery data warehouse migration. This feature is in\nPreview.\nCloud Number Registry\nBreaking\nYou must designate a project to manage\nCloud Number Registry\nbefore you can set up\nCloud Number Registry\nfor an organization.\nDatastream\nFeature\nDatastream now supports MongoDB extended JSON canonical mode as the\ndefault format for new streams from MongoDB sources to BigQuery\ndestinations.\nCanonical mode provides higher data fidelity by explicitly labeling every\nBSON type to prevent precision loss during data exchange.\nFor more information, see the following:\nStream data from MongoDB databases\nMongoDB data types in\nBigQuery\nFilestore\nFeature\nSmall capacity Filestore instances for the Regional service tier are generally available (GA). Small capacity instances start at 100 GiB and scale in 1 GiB increments, providing an option for development, testing, and applications with low traffic or basic storage needs.\nFor more information, see Small capacity…",
+        "image": null,
+        "source": "Google Cloud Platform (GCP) - Release notes",
+        "published": "2026-09-16T07:00:00.000Z",
+        "isNew": false
+      },
+      {
+        "title": "September 15, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#September_15_2026",
+        "summary": "Artifact Registry\nFeature\nArtifact Registry support for managing Conda packages with Artifact Registry\nrepositories is in Preview.\nFor more information, see Get started with Conda packages.\nBatch\nIssue\nA workaround has been added for the known issue that\njobs might fail when specifying Compute Engine (or custom) VM OS images with outdated kernels.\nCarbon Footprint\nChange\nFor the July 2026 data release (published mid-September 2026), we have upgraded the carbon model to version 17 and implemented the following updates:\nUpdating Scope 1 & 3 Emissions from Google's Corporate Footprint\nAllocation factor refresh: Updated Scope 1 and Scope 3 allocation factors using company-wide data from the 2026 Google Environmental Report.\nMethodology application: For details on how corporate Scope 1 and Scope 3 emissions are distributed across cloud products and services, refer to the non-electricity emission sources section of the methodology documentation.\nUpdating Inputs for Scope 2 Market-Based Emissions Calculations\nUpdated annual renewable electricity allocation percentages in accordance with the 2026 Google Environmental Report.\nRefreshed background annual emissions factors using updated government data sources across Scope 1, Scope 2, and Scope 3. Note that Scope 2 location-based emissions continue to be calculated using hourly greenhouse gas emission factors. Learn more in the Scope 2 market-based allocation documentation.\nIncorporated marketplace purchases of Granular Certificates…",
+        "image": null,
+        "source": "Google Cloud Platform (GCP) - Release notes",
+        "published": "2026-09-15T07:00:00.000Z",
+        "isNew": false
+      },
+      {
+        "title": "September 14, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#September_14_2026",
+        "summary": "Apigee hybrid\nAnnouncement\nhybrid v1.17.0\nOn September 14, 2026 we released an updated version of the Apigee hybrid software, 1.17.0.\nFor information on upgrading, see Upgrading Apigee hybrid to version v1.17.\nFor information on new installations, see The big picture.\nNote: This is a minor release: The container images used in minor releases are integrated with the Apigee hybrid Helm charts. Upgrading to a minor via the Helm chart automatically updates the images. No manual image changes are typically needed. For information on container image support in Apigee hybrid releases, see Apigee release process.\nFeature\nModel Context Protocol (MCP) support\nApigee hybrid now supports Model Context Protocol (MCP), an open protocol that lets agentic AI applications use your APIs as tools through managed MCP endpoints. Apigee hybrid routes, authorizes, and secures these MCP tool calls the same way it manages your other APIs, so you don't need to run or maintain your own MCP servers.\nMCP support is an optional feature that is not enabled by default. You must explicitly enable it in your Apigee hybrid configuration.\nFor more information, see Model Context Protocol (MCP) overview, Enable MCP for Apigee hybrid, and the MCP quickstart.\nFeature\nRoot CA certificate rotation\nApigee hybrid v1.17.0 lets you rotate the root certificate authority (CA) certificate that anchors trust for TLS communication between your runtime components. You can now replace the root CA before it expires, without…",
+        "image": null,
+        "source": "Google Cloud Platform (GCP) - Release notes",
+        "published": "2026-09-14T07:00:00.000Z",
+        "isNew": false
+      },
+      {
+        "title": "September 13, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#September_13_2026",
+        "summary": "Agent Platform Workbench\nChange\n20260911.00_p0 Release\nChange\n20260913.00_p0 Release\nChange\nInstalled latest packages from upstream dependencies.\nChange\nInstalled latest packages from upstream dependencies.\nFixed\nFixed the %%bigquery notebook cell magic, which returned an error instead of query results in JupyterLab 4.\nFixed\nFixed the %%bigquery notebook cell magic, which returned an error instead of query results in JupyterLab 4.\nChange\n20260913-2230-rc0 Release\nChange\n20260913-2230-rc0 Release\nChange\nInstalled latest packages from upstream dependencies.\nChange\nInstalled latest packages from upstream dependencies.\nFixed\nFixed an issue where the notebook-disable-nbconvert metadata flag was ignored in custom containers.\nChange\nThe obsolete\ngoogle-cloud-sdk transitional package is no longer installed. The Google Cloud\nCLI itself is unchanged; it was already provided by the google-cloud-cli\npackage.\nFixed\nFixed the %%bigquery notebook cell magic, which returned an error instead of query results in JupyterLab 4.\nFixed\nFixed an issue where the notebook-disable-nbconvert metadata flag was ignored in custom containers.\nFixed\nFixed the %%bigquery notebook cell magic, which returned an error instead of query results in JupyterLab 4.\nChange\n20260913-2130-rc0 Release\nChange\nInstalled latest packages from upstream dependencies.\nFixed\nFixed the %%bigquery notebook cell magic, which returned an error instead of query results in JupyterLab 4.\nChange\nM149 Release\nChange\nInstalled latest…",
+        "image": null,
+        "source": "Google Cloud Platform (GCP) - Release notes",
+        "published": "2026-09-13T07:00:00.000Z",
+        "isNew": false
+      },
+      {
+        "title": "September 11, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#September_11_2026",
+        "summary": "API Gateway\nFeature\nEnable Model Context Protocol (MCP)\nYou can now configure API Gateway to act as a remote Model Context Protocol (MCP) server. This Public Preview feature allows you to expose your existing REST APIs to AI agents as tools, without requiring changes to your backend services. You can enable MCP by annotating your OpenAPI 3.x specification using custom Google extensions.\nFor more information, see Model Context Protocol overview and Configure Model Context Protocol.\nAlloyDB for PostgreSQL\nFeature\nYou can now monitor the status, throughput, and backlog of the audit logging\npipeline for your AlloyDB for PostgreSQL instances and nodes using\nCloud Monitoring.\nFor more information, see\nMonitor audit log pipeline status.\nCluster Toolkit\nSecurity\nGoogle addressed multiple security vulnerabilities in Slurm that affect\nCluster Toolkit. For more information, see the\nsecurity bulletin.\nCompute Engine\nFeature\nPreview: You can view Workload Manager rule findings directly on the Compute\nEngine Overview page in the Google Cloud console. The Workload Manager\nfindings tile lets you identify configuration risks for your compute instances\nand resources against best practices for reliability and security.\nFor more information, see View Workload Manager rule findings in Compute Engine.\nGoogle Cloud Contact Center as a Service\nAnnouncement\nGoogle Cloud CCaaS 6.12\nWe've released version 6.12 of Google Cloud CCaaS.\nThe timing of the update to your instance depends on the deployment…",
+        "image": null,
+        "source": "Google Cloud Platform (GCP) - Release notes",
+        "published": "2026-09-11T07:00:00.000Z",
+        "isNew": false
+      },
+      {
         "title": "September 10, 2026",
         "link": "https://docs.cloud.google.com/release-notes#September_10_2026",
-        "summary": "BigQuery\nFeature\nConversational analytics in BigQuery now supports the ML.CORRELATION\nfunction to calculate statistical correlations between a target column and one\nor more metric columns in a table. This feature is in Preview.\nFeature\nYou can now use the ML.METRICS function\nto compute evaluation metrics for machine learning\nclassification or regression tasks on any table or query that contains actual\nand predicted values. This function lets you evaluate predictions without\nneeding to create or reference a stored model. This feature is in\nPreview.\nFeature\nYou can use the AI.CAUSAL_EFFECT\nfunction to quantify the impact of specific interventions on time series data.\nThis feature is in Preview.\nCloud SQL for MySQL\nBreaking\nAppending sqlcommenter tags using the sql_commenter_enabled parameter when\nexecuting SQL queries on a Cloud SQL remote MCP server is temporarily disabled.\nFor more information, see sqlcommenter tags.\nCloud SQL for PostgreSQL\nBreaking\nAppending sqlcommenter tags using the sql_commenter_enabled parameter when\nexecuting SQL queries on a Cloud SQL remote MCP server is temporarily disabled.\nFor more information, see sqlcommenter tags.\nCloud Storage\nFeature\nStorage Intelligence advisor\nis now generally available.\nStorage Intelligence advisor lets you monitor and manage your\nCloud Storage environment at scale across organizations, folders, and\nprojects.\nFor more information, see About Storage Intelligence advisor.\nGemini Enterprise\nFeature\nGemini Enterprise:…",
+        "summary": "Apigee X\nFixed\nAddendum to Apigee release notes dated August 27, 2026 (1-18-0-apigee-4).\nBug ID\nDescription\n\n\n\n\n502540992\nFixed an issue where the SemanticCacheLookup policy was incompatible with Vertex AI Vector Search Private Service Connect (PSC) endpoints.\n\n\n\nBigQuery\nFeature\nConversational analytics in BigQuery now supports the ML.CORRELATION\nfunction to calculate statistical correlations between a target column and one\nor more metric columns in a table. This feature is in Preview.\nFeature\nYou can now use the ML.METRICS function\nto compute evaluation metrics for machine learning\nclassification or regression tasks on any table or query that contains actual\nand predicted values. This function lets you evaluate predictions without\nneeding to create or reference a stored model. This feature is in\nPreview.\nFeature\nYou can use the AI.CAUSAL_EFFECT\nfunction to quantify the impact of specific interventions on time series data.\nThis feature is in Preview.\nFeature\nThe Data Engineering Agent now integrates with BigQuery Graph\nto provide additional context between your data source and destination schema,\nand improves schema mapping accuracy for your data engineering pipelines.\nThis feature is generally available\n(GA).\nCloud SQL for MySQL\nBreaking\nAppending sqlcommenter tags using the sql_commenter_enabled parameter when\nexecuting SQL queries on a Cloud SQL remote MCP server is temporarily disabled.\nFor more information, see sqlcommenter tags.\nCloud SQL for PostgreSQL\nBreaking…",
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-09-10T07:00:00.000Z",
@@ -195,63 +249,54 @@
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-09-09T07:00:00.000Z",
         "isNew": false
-      },
-      {
-        "title": "September 08, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#September_08_2026",
-        "summary": "Agent Platform Workbench\nFixed\nScheduled upgrade metadata is validated\nThe value of the notebook-upgrade-schedule metadata key is now validated when\nyou create or update an Agent Platform Workbench instance. The value must be a\nsingle-line unix-cron\nformat schedule. For more\ninformation, see Manage features through\nmetadata.\nAssured Workloads\nFeature\nThe EU Data Boundary with Access Justifications\nsupports the following products:\nAlloyDB for PostgreSQL\nApigee\nEventarc\nBigQuery\nFeature\nConversational analytics now supports predictive modeling questions using the\nAI.PREDICT function.\nThis feature is in\nPreview.\nCloud Run\nFeature\nTo take advantage of reduced pricing\nfor Cloud Run jobs, you can delay job execution to\ndefer non-urgent tasks for up to 12 hours (Preview).\nCloud SQL for MySQL\nFeature\nRegional endpoints (REP)\nare now generally available\n(GA)\nfor the Cloud SQL for MySQL Admin API.\nRegional endpoints let you interact with Cloud SQL for MySQL instances\nusing regionalized URLs (such as\nsqladmin.{region}.rep.googleapis.com)\nrather than through a single global endpoint.\nRegional endpoints provide regional frontend and load balancing infrastructure\nthat improves data residency by keeping network traffic within the same\nregion as the instance. This reduces the instance's dependency on global\nfrontend infrastructure.\nRegional endpoints have strong regional isolation, so the failure of a load\nbalancer or frontend in one region doesn't affect any other\nregion. Regional service…",
-        "image": null,
-        "source": "Google Cloud Platform (GCP) - Release notes",
-        "published": "2026-09-08T07:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "September 07, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#September_07_2026",
-        "summary": "AI Hypercomputer\nSecurity\nGoogle addressed a security vulnerability (CVE-2026-65107) that affects Slurm\nclusters. Based on the Google Cloud product that you used to create your Slurm\ncluster, see one of the following to mitigate the vulnerability:\nSecurity bulletin for Cluster Director\n\n\nSecurity bulletin for Cluster Toolkit\n\n\nAccess Approval\nFeature\nPrivileged Access Manager is generally available\n(GA).\nAccess Transparency\nFeature\nPrivileged Access Manager is generally available\n(GA).\nCluster Toolkit\nSecurity\nGoogle addressed a security vulnerability (CVE-2026-65107) in the Slurm sbcast\ntool that affects Cluster Toolkit. For more information, see the\nsecurity bulletin.\nKnowledge Catalog\nFeature\nData domains in Knowledge Catalog allow you to logically organize the resources within the enterprise to discover and curate your data at scale.\nThis feature is available in Preview.\nFor more information, see About data domains.",
-        "image": null,
-        "source": "Google Cloud Platform (GCP) - Release notes",
-        "published": "2026-09-07T07:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "September 06, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#September_06_2026",
-        "summary": "Google SecOps\nFeature\n[Spotlight Feature] Case playbooks\nThis feature is in preview. Google SecOps now supports case playbooks. You can \nrun playbooks or execute manual actions across an entire case container rather \nthan individual alerts, consolidating response tasks and reducing redundant \noperations during investigations.\nFor more information, see Case playbooks overview.\nFeature\n[Spotlight Feature] Reaction triggers\nThis feature is in preview. Google SecOps now supports reaction triggers. As\npost-ingestion triggers, they allow playbooks to automatically fire in response\nto real-time case or alert updates during active investigations, such as changes\nto the case assignee, case tags, alert priority, or newly added entities.\nFor more information, see Use reaction triggers in playbooks.\nGoogle SecOps SOAR\nAnnouncement\nRelease 6.3.100 is being rolled out to the first phase of regions as listed\nhere.\nThis release contains internal and customer bug fixes.\nFeature\nReaction triggers\nThis feature is in preview. Google SecOps now supports reaction triggers. As \npost-ingestion triggers, they allow playbooks to automatically fire in response \nto real-time case or alert updates during active investigations, such as changes \nto the case assignee, case tags, alert priority, or newly added entities.\nFor more information, see Use reaction triggers in playbooks.\nFeature\nCase playbooks\nThis feature is in preview. Google SecOps now supports case playbooks. You can\nrun playbooks or execute…",
-        "image": null,
-        "source": "Google Cloud Platform (GCP) - Release notes",
-        "published": "2026-09-06T07:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "September 05, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#September_05_2026",
-        "summary": "Google SecOps SOAR\nAnnouncement\nRelease 6.3.99 is now\navailable for all regions.",
-        "image": null,
-        "source": "Google Cloud Platform (GCP) - Release notes",
-        "published": "2026-09-05T07:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "September 04, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#September_04_2026",
-        "summary": "Audit Manager\nFeature\nThe remote Model Context Protocol (MCP)\nserver for Audit Manager is\ngenerally available\n(GA).\nCloud Billing\nChange\nIntroducing the Incentives page, for tracking spend-based milestone credits,\nRaMP, and other conditional incentives\nIf you have a custom pricing contract, you might be enrolled in conditional\nincentives, where you earn credits or discounts for spending specific amounts\non Google Cloud.\nThe Incentives page\nreplaces the\nSpend-based Milestones tab\nthat was located in the Credits page. The Incentives page provides a\nconsolidated and enhanced experience for tracking your progress towards\nconditional incentives, including spend-based milestone credits and Rapid\nMigration & Modernization Program (RaMP) credits and discounts.\nLearn more about\ntracking conditional incentives.\nCloud SQL for MySQL\nFeature\nThe C4 machine series\nis now available for Cloud SQL for MySQL Enterprise Plus instances in the\nfollowing regions:\nafrica-south1 — Johannesburg\nasia-northeast3 — Seoul\nasia-south2 — Delhi\neurope-west6 — Zürich\nsouthamerica-west1 — Santiago\nus-west3 — Salt Lake City\nThe C4 machine series provides the following benefits:\nSupports fifth and sixth generation Intel Xeon Scalable processors.\nOffers a price-performance balance that makes it suitable for\nhigh-demand workloads.\nFeature\nCloud SQL supports in-place upgrades and downgrades to your instance's\ninfrastructure. You can change all of the following in place:\nThe edition that your Cloud SQL instance…",
-        "image": null,
-        "source": "Google Cloud Platform (GCP) - Release notes",
-        "published": "2026-09-04T07:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "September 03, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#September_03_2026",
-        "summary": "API Gateway\nChange\nNew model routing gateways might use a gateway.dev default hostname\nIf you create a gateway that uses model routing on or after September 3, 2026, it\nmight receive a gateway.dev default hostname instead of a run.app one, in the\nform https://GATEWAY_ID-PROJECT_NUMBER.REGION.gateway.dev — for example, https://my-gateway-123456789012.us-central1.gateway.dev. This is a second gateway.dev format; other gateways keep the existing one.\nTo get a gateway's URL, read its defaultHostname property.\nFor more information, see Deploy an API to a gateway.\nBigQuery\nFeature\nConversational analytics now supports questions about\nmarket basket analysis.\nThis feature is\ngenerally available\n(GA).\nCloud Healthcare API\nFeature\nGeneral availability: Filtered export of DICOM data using filterConfig is now\ngenerally available (GA) in Cloud Healthcare API v1. You can supply a Cloud Storage\nURI (resourcePathsGcsUri) containing a newline-delimited list of DICOMweb resource\npaths (studies/<studyUID>[/series/<seriesUID>[/instances/<instanceUID>]]) in\nprojects.locations.datasets.dicomStores.export\nto export targeted subsets of DICOM data rather than the entire DICOM store.\nFor more information, see\nExporting DICOM instances using filters.\nCloud Storage\nFeature\nYou can use Storage batch operations to do the following:\nSelect objects dynamically across a project by using Common Expression\nLanguage (CEL) filters\nbased on metadata in your Storage Insights datasets,\nwithout manual CSV manifests…",
-        "image": null,
-        "source": "Google Cloud Platform (GCP) - Release notes",
-        "published": "2026-09-03T07:00:00.000Z",
-        "isNew": false
       }
     ],
     "kubernetes": [
+      {
+        "title": "Kubernetes v1.37: Hardening Container Storage with Bind Mount Options and EmptyDir Permissions",
+        "link": "https://kubernetes.io/blog/2026/09/16/kubernetes-v1-37-hardening-container-storage/",
+        "summary": "Kubernetes v1.37 brings important storage security features: emptyDir permission modes and bind mount options. They help application programmers and security professionals implement rigorous security policies, for example, prohibiting deletion of files across containers or execution of arbitrary binaries from writable volumes, directly in Kubernetes without any complicated circumvention.\nLinux storage and permission fundamentals\nBefore diving into the new Kubernetes features, let us briefly review the low-level Linux security mechanisms that make them possible.\nBind mount flags\nWhen Linux mounts or remounts a directory, Virtual File System (VFS) flags control what actions are permitted on that filesystem:\nnoexec: Do not permit direct execution of any binaries on the mounted filesystem.\nnosuid: Do not allow set-user-identifier or set-group-identifier bits to take effect.\nnodev: Do not interpret character or block special devices on the file system.\nDirectory permissions and the sticky bit\nStandard Unix permissions regulate access across three scopes: Owner, Group, and Others (e.g., 0755 or 0777).\nBeyond standard read, write, and execute bits, Linux supports the sticky bit (as in mode 01777).\nWhen applied to a directory, the sticky bit ensures that a file inside that directory can only be deleted or renamed by the file's owner or root. This is essential for shared writable directories like /tmp.\nMotivation for the improvements\nWhy does Kubernetes need bind mount options and…",
+        "image": null,
+        "source": "Kubernetes Blog",
+        "published": "2026-09-16T18:30:00.000Z",
+        "isNew": false
+      },
+      {
+        "title": "Kubernetes v1.37: Pod-Level Resource Managers graduated to Beta",
+        "link": "https://kubernetes.io/blog/2026/09/15/kubernetes-v1-37-pod-level-resource-managers-beta/",
+        "summary": "With the release of Kubernetes v1.37, the Pod-Level Resource Managers\nfeature has graduated to Beta status (disabled by default)!\nFirst introduced as an Alpha feature in\nKubernetes v1.36,\nthis enhancement builds on\nPod-Level Resources by\nequipping Kubelet's Topology Manager, CPU Manager, and Memory Manager to use\nPod-level resource declarations (.spec.resources) directly when making\nhardware placement decisions.\nBringing pod-level resources to node managers\nBefore this feature, obtaining exclusive NUMA-aligned CPU cores or memory for\nlatency-critical applications forced cluster operators into an all-or-nothing\nchoice: assign integer resource requests to every container in the Pod, or\nforfeit exclusive NUMA alignment entirely. For modern workloads running\nlightweight sidecars (such as logging agents or telemetry exporters), allocating\ndedicated physical cores to auxiliary containers was wasteful.\nPod-Level Resource Managers solves this challenge by enabling hybrid allocation\nmodels. The Kubelet can reserve exclusive NUMA-aligned resources for primary\napplication containers while placing non-Guaranteed sidecars into a pod-isolated\nshared pool. This ensures primary workloads get unthrottled, NUMA-local\nperformance while sidecars benefit from running in a pod-isolated shared pool,\nenjoying local NUMA alignment and protection from external node interference\nwithout consuming dedicated physical cores.\nWhat's new in Beta\nGraduating to Beta brings key operational and API…",
+        "image": null,
+        "source": "Kubernetes Blog",
+        "published": "2026-09-15T18:30:00.000Z",
+        "isNew": false
+      },
+      {
+        "title": "Kubernetes Changed Block Tracking API - Beta Differences",
+        "link": "https://kubernetes.io/blog/2026/09/14/csi-changed-block-tracking-beta/",
+        "summary": "Changed Block Tracking (CBT) support for CSI drivers\nshipped as Alpha in\nSeptember 2025. With the March 2026 v1.0.0 release of the\nexternal-snapshot-metadata\nproject, the feature moved to Beta.\nIf you aren't yet familiar with changed block tracking for storage in\nKubernetes, the\nAlpha announcement covers\nthe motivation, the three primary components (the CSI SnapshotMetadata\ngRPC service, the SnapshotMetadataService CRD, and the\nexternal-snapshot-metadata sidecar), and a walkthrough of how to use the\nAPI. CBT currently applies to block volumes; file-volume and network\nfile-share changed-list tracking is not covered by this feature. This post\nfocuses on what is different in Beta.\nWhat's new in Beta\nThe main change in that release was the promotion of the\nSnapshotMetadataService CRD from v1alpha1 to v1beta1. The CRD used to\nadvertise a driver's metadata service now serves\ncbt.storage.k8s.io/v1beta1. The schema itself is unchanged, but this\nrelease removed v1alpha1 (rather than serving it alongside the new version).\nIf you are upgrading from Alpha, you need to:\nRe-apply the CRD definition shipped with v1.0.0.\nUpdate SnapshotMetadataService manifests to use\napiVersion: cbt.storage.k8s.io/v1beta1.\nUpdate any client or controller code that talks to the CRD.\nThis is a one-time change. There is no automatic conversion between the two\nversions.\nCompatibility\n\nMinimum Kubernetes version: 1.33\nCSI spec: 1.10 or newer\nContainer image:…",
+        "image": null,
+        "source": "Kubernetes Blog",
+        "published": "2026-09-14T18:30:00.000Z",
+        "isNew": false
+      },
+      {
+        "title": "Kubernetes v1.37: Memory QoS Graduates to Beta",
+        "link": "https://kubernetes.io/blog/2026/09/14/kubernetes-v1-37-memory-qos-graduates-to-beta/",
+        "summary": "Memory QoS has graduated to Beta in Kubernetes v1.37 and is now enabled by\ndefault. On Linux nodes running cgroup v2, the feature uses the memory controller\nto give the kernel better guidance on how to treat container memory. It was first introduced as\nAlpha in v1.22, and expanded in v1.36 with tiered memory reservation.\nThis post covers what changed in v1.37, what the Beta promotion means for\ncluster operators, and how to configure the feature.\nWhat changed in v1.37\nMemory QoS is Beta and enabled by default\nThe MemoryQoS feature gate is now Beta in v1.37.\nThis means every v1.37 kubelet has the feature gate turned on without any\nconfiguration change. Turning on the feature by default is safe because the\ndefault kubelet configuration does not enable memory throttling or memory\nreservation. No memory.high, memory.min, or memory.low values are\nwritten to cgroups unless you explicitly configure them.\nYou can opt into specific behaviors through kubelet configuration fields:\nSet memoryThrottlingFactor (for example, 0.9) to enable memory.high throttling on Burstable and BestEffort containers. The default is null, which means no throttling.\nSet memoryReservationPolicy to TieredReservation to enable tiered memory protection via memory.min and memory.low. The default is None, which means no memory reservation.\nDefault memoryThrottlingFactor changed to null\nIn earlier Alpha releases, memoryThrottlingFactor defaulted to 0.9, which\nmeant enabling the feature gate caused the kubelet to…",
+        "image": null,
+        "source": "Kubernetes Blog",
+        "published": "2026-09-14T18:30:00.000Z",
+        "isNew": false
+      },
+      {
+        "title": "Kubernetes v1.37: Native Histograms Graduates to Beta",
+        "link": "https://kubernetes.io/blog/2026/09/11/kubernetes-v1-37-native-histograms-beta/",
+        "summary": "I'm excited to announce that native histogram support for Kubernetes metrics is graduating to Beta and is enabled by default in Kubernetes v1.37!\nNative histograms (previously introduced as Alpha in Kubernetes v1.36 under KEP-5808)\nbring high-resolution, low-cardinality observability to Kubernetes metrics.\nBy adopting Prometheus Native Histograms, Kubernetes components now expose latency and duration metrics with far greater accuracy while significantly reducing telemetry storage and scraping overhead.\nWhy move beyond classic histograms?\nSince the early days of Kubernetes observability, duration and latency metrics (such as API server request latencies or scheduling durations) have relied on classic Prometheus histograms.\nClassic histograms require metric authors to define a static list of cumulative bucket boundaries (le labels), such as 0.005, 0.01, 0.025, 0.05, 0.1, 0.25, 0.5, 1, 2.5, 5, 10. While familiar, this approach introduces three major challenges:\nThe Bucket Guessing Game: If a workload's latency profile changes, for example, shifting into microsecond ranges or experiencing long-tail tail latencies beyond the highest bucket, the histogram loses visibility. Specifying bucket boundaries upfront requires knowing the distribution before observing it\nHigh Cardinality & Storage Cost: With classic histograms, each bucket boundary is exported as a separate time series (_bucket{le=\"...\"}). A histogram with 10 buckets across multiple labels multiplies the number of time…",
+        "image": "https://kubernetes.io/images/blog/2026-kubernetes-1-37-native-histograms-beta/native-histograms-flow.svg",
+        "source": "Kubernetes Blog",
+        "published": "2026-09-11T18:30:00.000Z",
+        "isNew": false
+      },
       {
         "title": "Kubernetes v1.37: Scheduler Preemption for In-Place Pod Resize (Alpha)",
         "link": "https://kubernetes.io/blog/2026/09/10/kubernetes-v1-37-scheduler-preemption-for-in-place-pod-resize-alpha/",
@@ -278,54 +323,18 @@
         "source": "Kubernetes Blog",
         "published": "2026-09-08T18:30:00.000Z",
         "isNew": false
-      },
-      {
-        "title": "Kubernetes v1.37: KubeletInUserNamespace (aka Rootless mode) Graduates to Beta",
-        "link": "https://kubernetes.io/blog/2026/09/04/kubernetes-v1-37-rootless-beta/",
-        "summary": "Kubernetes v1.37 promotes the KubeletInUserNamespace feature gate to beta.\nWith this feature enabled, all of the node components (kubelet, CRI and OCI runtimes,\nCNI plugins, and kube-proxy) can run as a non-root user on the host, using a\nLinux user namespace.\nThis technique is also known as rootless mode.\nThe work started as an experiment in 2018, and was merged into Kubernetes v1.22 (2021)\nas an alpha feature (Kubernetes Enhancement Proposal KEP-2033).\nThis feature should not be confused with user namespaces for pods\n(hostUsers: false with the UserNamespacesSupport feature gate, GA since v1.36),\nwhich puts pods in user namespaces but still runs the node components as root.\nThese two features do not conflict.\nMoreover, they can be combined to nest Kubernetes inside Kubernetes without resorting to\nthe full privileged: true.\nWhy run the node components in a user namespace?\nBecause the node components have historically had container-breakout vulnerabilities\nthat could compromise full root privileges on the host.\nExamples of such vulnerabilities include:\nCVE-2022-0811\n(\"cr8escape\"): CRI-O could be tricked into setting arbitrary sysctls, such as\nkernel.core_pattern, resulting in arbitrary code execution as root on the host\nCVE-2023-27561:\nrunc could be tricked into bypassing the masked paths of a container via a volume\nmount race, exposing the host's procfs files (a regression of CVE-2019-19921)\nCVE-2024-10220:\nthe kubelet could be made to execute arbitrary commands as root via…",
-        "image": null,
-        "source": "Kubernetes Blog",
-        "published": "2026-09-04T18:30:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "Kubernetes v1.37: DRA Updates",
-        "link": "https://kubernetes.io/blog/2026/09/03/kubernetes-v1-37-dra-updates/",
-        "summary": "Kubernetes 1.37 is here and Dynamic Resource Allocation (DRA) keeps pushing past where it started! This release brings DRA Extended Resource support to GA, a milestone the team has been building toward for three straight releases. Several more features graduate to Beta or GA. A fresh batch of alpha features rounds out the release.\nI'll dive into what's new for DRA in Kubernetes 1.37!\nWhat's stable in 1.37\nDRA Extended Resource support has graduated to GA. This is the mechanism that lets DRA drivers satisfy requests made through the traditional extended resource API, think example.com/gpu in a Pod spec, without requiring a separate device plugin alongside the DRA driver. An extended resource name can be set directly on a DeviceClass, and Pods requesting it get matched to a device through DRA with no ResourceClaim needed on the workload's part.\nIt's been on a steady path since KEP acceptance in 1.34. Alpha landed in 1.35, Beta in 1.36, and now it's Stable. For cluster operators, this is what makes DRA adoption gradual. Existing workloads written against extended resources keep working unmodified while the backend allocation logic moves over to DRA.\nResourceClaims status with possible standardized network interface data adds a devices field to ResourceClaim .status, letting DRA drivers report per-device status, including, for network devices, the interface name, MAC address, and IP addresses. This gives users and controllers visibility into device state that was previously…",
-        "image": null,
-        "source": "Kubernetes Blog",
-        "published": "2026-09-03T18:30:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "Kubernetes v1.37: Scale Workloads to Zero with HorizontalPodAutoscaler",
-        "link": "https://kubernetes.io/blog/2026/09/02/kubernetes-v1-37-hpa-scale-to-zero-beta/",
-        "summary": "Kubernetes v1.37 includes API support for horizontal autoscaling of workloads down\nto zero replicas. This feature is now Beta and enabled by default. A\nHorizontalPodAutoscaler\n(HPA) that uses a suitable object metric or external metric can now scale a\nworkload to zero replicas, then bring it back when the metric changes.\nBefore v1.37, you needed an add-on or external component, or you had to enable the\nAlpha feature gate, to scale from zero. It is now part of core Kubernetes.\nScaling to zero removes the last idle Pod from workloads such as queue consumers and\nbatch processors. The savings are largest when each Pod reserves expensive resources,\nincluding dedicated CPUs or GPUs.\nThe trade-off is cold-start time: the HPA must observe the metric, schedule a Pod, and\nstart the application. This works well when work can wait in a durable queue.\nKubernetes Services do not buffer requests while no Pods are ready, so HTTP and other\nrequest-driven workloads need a separate buffering layer.\nWhy scaling from zero needs a different metric\nThe HPA commonly scales on CPU or memory usage. Both metrics come from running Pods.\nOnce the replica count reaches zero, there are no Pods left to measure and no signal\nthat can tell the HPA to scale back up.\nObject and external metrics do not have that limitation. A queue length, for example,\nexists independently of the workers that consume it. The HPA can continue reading the\nqueue length while no workers are running.\nThe following example scales a…",
-        "image": null,
-        "source": "Kubernetes Blog",
-        "published": "2026-09-02T18:30:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "Kubernetes v1.37: etcd RangeStream Cuts Memory Use on Large List Reads",
-        "link": "https://kubernetes.io/blog/2026/09/01/kubernetes-v1-37-etcd-range-stream/",
-        "summary": "I am excited to announce that etcd RangeStream is graduating to beta in\nKubernetes v1.37. Paired with etcd v3.7, it reduces the memory the API server and\netcd need to read a large collection, and makes peak usage more predictable.\nThe cost of large reads\nThe API server serves most list and watch requests from its in-memory watch cache.\nPopulating that cache requires reading a resource's full state from etcd, at\nstartup and on every re-initialization. For a resource with many objects, or large\nones, such as Pods, that read is expensive.\nThe API server already paginated these reads, asking etcd for a fixed number of\nkeys at a time rather than the whole collection at once. But a page bounded by key\ncount has no awareness of object size, so a page of large objects can still be\nvery large. That makes memory usage hard to predict, and a bad combination of\nobject size and concurrent reads can be enough to trigger an OOM. etcd's unary\nRange assembles each page in full before sending it, and the API server holds it\nwhile decoding, so the same payload sits in memory on both sides at once. Most of\nthat cost lands on etcd, which is also where streaming helps most.\nStreaming reads with RangeStream\netcd v3.7 adds a streaming version of that read, the RangeStream RPC. It takes\nthe same RangeRequest as Range and returns the same result set, but instead of\nbuilding the whole response up front, etcd splits it into chunks and streams them.\nChunk size is tuned adaptively to the values being…",
-        "image": null,
-        "source": "Kubernetes Blog",
-        "published": "2026-09-01T18:30:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "Kubernetes v1.37: Storage Version Migration Enabled by Default",
-        "link": "https://kubernetes.io/blog/2026/08/31/kubernetes-v1-37-storage-version-migration-ga/",
-        "summary": "I am excited that storage version migration (SVM) has graduated to General Availability (GA) in Kubernetes v1.37!\nAfter a number of releases of work and testing, the built-in StorageVersionMigration API (storagemigration.k8s.io/v1)\nand control plane controller are now fully stable and enabled by default across all v1.37 Kubernetes clusters.\nThe problem with stale storage versions\nIn Kubernetes, stored API resources are written using a specific storage version (schema representation). The way Kubernetes interacts with object storage fundamentally requires mutation of a resource in order to ensure that the latest storage version is used for all resources. This creates problems when you want to change the storage version of a resource.\nOne example of a scenario where you may want to change the storage version of a resource is when you are promoting a CRD to drop an older API version (such as v1alpha1) to a newer version (leaving just v1beta1 and v1). It's a problem to drop the older API version whilst there are still resources stored with the old alpha version.\nTo avoid problems, you designate v1 as the new storage version; but, on it's own, that's not enough. While new writes are stored as v1, any existing resource could remain stored as v1alpha1 or v1beta1 in storage. You cannot safely remove v1alpha1 from the CRD's .status.storedVersions or drop serving support until every single resource in storage has been re-written to not be serialized and stored with the alpha version.…",
-        "image": null,
-        "source": "Kubernetes Blog",
-        "published": "2026-08-31T18:30:00.000Z",
-        "isNew": false
       }
     ],
     "terraform": [
+      {
+        "title": "v1.16.3",
+        "link": "https://github.com/hashicorp/terraform/releases/tag/v1.16.3",
+        "summary": "1.16.3 (September 16, 2026)\nBUG FIXES:\nFix handling of destroy=false around create_before_destroy instances (#39169)\nFix function result comparison when there are multiple marks (#39170)\nFilter logic for marks could cause values with multiple marks to erroneously fail validations (#39171)\nFix issue with import provider resolution (#39185)",
+        "image": "https://avatars.githubusercontent.com/u/82989873?s=60&v=4",
+        "source": "Release notes from terraform",
+        "published": "2026-09-16T14:33:39.000Z",
+        "isNew": false
+      },
       {
         "title": "v1.17.0-beta1",
         "link": "https://github.com/hashicorp/terraform/releases/tag/v1.17.0-beta1",
@@ -388,18 +397,36 @@
         "source": "Release notes from terraform",
         "published": "2026-08-19T12:08:45.000Z",
         "isNew": false
-      },
-      {
-        "title": "v1.16.0-rc1",
-        "link": "https://github.com/hashicorp/terraform/releases/tag/v1.16.0-rc1",
-        "summary": "1.16.0-rc1 (August 12, 2026)\nNEW FEATURES:\nTerraform now stores planned private data for providers, allowing provider-specific state to be preserved across plan and apply. (#37986)\nterraform_data: The new store block can hold ephemeral and sensitive values across plan and apply. (#38298)\nProviders can now use nested blocks as computed values (#38305)\nimport: import blocks inside modules are now supported. (#38352)\nTerraform is now available as a pre-built binary for Linux s390x (zLinux). (#38384)\nResource action triggers can now use on_failure modes of halt, taint, or continue. (#38722)\nENHANCEMENTS:\nstate show: The state show command can now produce machine-readable output when supplied with the -json flag (#23940)\nworkspace: The workspace list command can now produce machine-readable output when supplied with the -json flag (#38397)\ntest: Terraform now reports which resources were left behind when skip_cleanup is set. (#38449)\nstacks: Action configurations now have access to a caller symbol containing the object value of the calling resource. (#38668)\nActions can now use before_destroy and after_destroy events. (#38668)\ncloud: Terraform now displays a summary of policy evaluation outcomes for plan and apply runs against HCP Terraform. (#38715)\npolicy: Terraform now resolves policy plugin credentials from the configured cloud or remote backend during init, plan, and apply, rather than requiring the plugin to read credentials itself. (#38716)\ngraph: The terraform graph…",
-        "image": "https://avatars.githubusercontent.com/u/82989873?s=60&v=4",
-        "source": "Release notes from terraform",
-        "published": "2026-08-12T15:22:32.000Z",
-        "isNew": false
       }
     ],
     "python": [
+      {
+        "title": "Announcing the 2026 PSF Board Election Results!",
+        "link": "https://pyfound.blogspot.com/2026/09/announcing-2026-psf-board-election.html",
+        "summary": "The 2026 election for the PSF Board created an opportunity for conversations about the PSF's work to serve the global Python community. We appreciate community members' perspectives, passion, and engagement in the election process this year. \nWe want to send a big thanks to everyone who ran and was willing to serve on the PSF Board. Even if you were not elected, we appreciate all the time and effort you put into thinking about how to improve the PSF and represent the parts of the community you participate in. We hope that you will continue to think about these issues, share your ideas, and join a PSF Work Group or PSF initiative if you feel called to do so.\n\nBoard Members Elect \n\n\nCongratulations to our three new and one returning Board members who have been elected! \n\n\nElaine Wong\nLaís Carvalho\nEe Durbin\nGeorgi Ker\n\nWe’ll be in touch with all the elected candidates shortly to schedule onboarding. Newly elected PSF Board members are provided orientation for their service and will be joining the upcoming board meeting in October. \n\nThank you!\nWe’d like to take this opportunity to thank our outgoing board members. Cheuk Ting Ho has been a super engaged PSF Board member, participating in many committees, and helping out on many PSF Programs and projects during her time on the PSF Board. Chris Neugebauer has been a longtime board member and in particular has been the watch guard of our bylaws conversations and has always been ready to share institutional knowledge. Denny Perez…",
+        "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjwa029mAK-VzIrvSzCbyYd6Ns0C2gefTG30Zjizu9A4UywuwEimTNiZuURqrcN6QiLAqUq4H7AjytpgKT0dXXgAhF9Bcr1_CaIIPCYIr6N9MasdJ1q1HXJwBWwfj2Y61KtjmjoGAOGt77rGSL_fr2d3cNLWotjwn7bZWb1g_69KhLb_XfIbg/s72-w400-h400-c/election%20announcement(1).png",
+        "source": "Python Software Foundation News",
+        "published": "2026-09-17T12:48:08.906Z",
+        "isNew": false
+      },
+      {
+        "title": "Announcing the 2026 Python Packaging Council Election Results!",
+        "link": "https://pyfound.blogspot.com/2026/09/announcing-2026-python-packaging.html",
+        "summary": "The inaugural Python Packaging Council (PPC) election has concluded. With 17 candidates and plenty of lively AMA discussions on DPO, we are pleased to see the level of engagement with this first PPC election.\nWe want to send a big thanks to everyone who ran and was willing to serve on the council. Even if you were not elected, we appreciate all the time and effort you put into thinking about how to improve Python’s packaging ecosystem and represent the parts of the community you participate in.\n\nCouncil Members Elect \n\n\n\nCongratulations to our five inaugural Python Packaging Council members who have been elected! \n\nBrett Cannon – for a 2 year term (Cohort A)\nPradyun Gedam – for a 2 year term (Cohort A)\nDonald Stufft – for a 1 year term (Cohort B)\nHenry Schreiner – for a 1 year term (Cohort B)\nRalf Gommers – for a 1 year term (Cohort B)\n\nOur heartfelt thanks go out to each of you who took the time to review the candidates and submit your votes. We received 541 total ballots.\nWe also want to thank everyone who participated in the PEP 772 discussions to establish this council as well as those who helped with this year’s election–especially Barry Warsaw and Pradyun Gedam as community liaisons for this inaugural election. We also want to highlight the PSF staff members and PSF Board members who put in tons of effort each year as we work to continually improve our elections.\n\nHow do the terms/cohorts work?\nThis inaugural election fills all five seats on the PPC. The two candidates…",
+        "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhj9wYH-WHmTOlLSkOjJY-cmRVETQ6RQ1MEDCZqpBidppUys6fqGN5ovjq40tjJAgvO8qrHbbdNjupiLd4gySvBV5bsOE2aqX5O_bptbGGqHLWOiCspHxJk4KZ1IqTCWla3XwtuTp2jogwyYYRyB0msO9i3ISVxr1ENbunYuxSOu2pMk9whTw/s72-w400-h400-c/packaging%20council%20(5).png",
+        "source": "Python Software Foundation News",
+        "published": "2026-09-17T12:36:38.222Z",
+        "isNew": false
+      },
+      {
+        "title": "Announcing the PSF Strategic Plan 2026",
+        "link": "https://pyfound.blogspot.com/2026/09/announcing-psf-strategic-plan-2026.html",
+        "summary": "In May, the Python Software Foundation (PSF) shared the high-level goals of  our Strategic Plan. In June, we published the full draft and opened it for community feedback. Today we are sharing the outcome: at its July 8 meeting, the PSF Board adopted the PSF Strategic Plan 2026, covering 2026 to 2031.\nOur new PSF Strategy page is the permanent home for the plan, with information about how the board sets priorities and how you can share feedback. We’ll publish annual review findings and future updates there so the community can follow our progress and any changes to the plan.\n\nWhat the feedback changed\nFeedback from PSF Staff and the Python community shaped real changes to the draft we published in June.\nStaff feedback added a Security Baseline objective for all PSF projects and services and a Vulnerability Management objective in response to the rapid growth in security reports, and it sharpened wording across the organizational goals. Community feedback shaped the plan, too: translation and localization are now part of the accessibility work, companies that want to fund specific work get clearer pathways, and the ideas under financial sustainability now include growing the value of PSF membership.\nThe plan's \"How This Plan Was Shaped\" section documents the process, and we are grateful to everyone who took the time to share their perspectives.\nThe annual review\nA five-year plan is only useful if it stays current. Alongside adoption, the board established an annual review of…",
+        "image": null,
+        "source": "Python Software Foundation News",
+        "published": "2026-09-15T17:15:25.104Z",
+        "isNew": false
+      },
       {
         "title": "The 2026 PSF Board Election is Open!",
         "link": "https://pyfound.blogspot.com/2026/09/the-2026-psf-board-election-is-open.html",
@@ -444,36 +471,18 @@
         "source": "Python Software Foundation News",
         "published": "2026-08-25T12:52:26.929Z",
         "isNew": false
-      },
-      {
-        "title": "Petr Andreev: 2026 PSF Board Election Candidate Interview",
-        "link": "https://pyfound.blogspot.com/2026/08/petr-andreev-2026-psf-board-election.html",
-        "summary": "Who are you?\nI am a Python educator, CPython-internals specialist, community organizer, and international Python speaker.\nI teach Advanced Python and CPython internals, from memory management and interpreter architecture to free-threading and performance. My work increasingly focuses on turning technical education into real-world participation: research, open-source contribution, conference speaking, and leadership.\nBefore focusing on Python, I helped build an educational community of roughly 2,500 participants. I assembled an organizing team, secured external funding, and developed partnerships with companies, an endowment, and other organizations to support courses, competitions, speakers, and community programs.\nThese experiences shaped the model behind much of my work:\ndevelop developers → develop contributors → develop community leaders.\n\nWhat would you bring to the PSF Board of Directors?\nI would bring experience building organizations and systems around technical communities.\nI have worked on both sides of community development: developing individuals through education and mentorship, and building the infrastructure around them through organizing teams, institutional partnerships, external funding, events, and opportunities to lead.\nI also bring an unusual combination of technical depth and community-building experience. I can communicate with CPython contributors about implementation-level problems, with educators about developing new talent, and with institutions…",
-        "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiUD8bPnCnC6SEryAPFvdHv0KLYU2lJhpRDgXldKPjYjbT4oyn40HEVRBdjEL2cNU-CUKM_bKJjP6lID5fGc1tPsahfLFRHqLdiMjA9yVY6Drcsj_56XkOXwyhlW5VyvxpWyQrpJv0lDLvGFXaHSnU6esIbiyE9dUHGtGDxYof1O4PXe_SiOw/s72-c/PetrAndreev_2026PSFBoardElection.jpg",
-        "source": "Python Software Foundation News",
-        "published": "2026-08-25T12:52:15.851Z",
-        "isNew": false
-      },
-      {
-        "title": "Nina Zakharenko: 2026 PSF Board Election Candidate Interview",
-        "link": "https://pyfound.blogspot.com/2026/08/nina-zakharenko-2026-psf-board-election.html",
-        "summary": "Who are you?\nI'm Nina Zakharenko. I went to my first PyCon US in Santa Clara in 2013, and fell in love with the Python community. Since then, I've co-chaired PyCascades, taught Python to hundreds of students, and given talks, workshops, and keynotes at Python events around the world, including the closing keynote at PyCon US 2019. Professionally, I've held roles at Microsoft and Google focused on Python, open source, developer communities, and supply chain security. These days I work for myself, and I'm running as an independent candidate.\nI served on the PSF Board of Directors from 2020 to 2023, including as Communications Co-Chair and Co-Vice Chair. After spending time recharging, I'm running again because I believe the Python community is entering a period of significant change, and I'd like to contribute my relevant experience to a community that has been central to my life and career for over a decade. Outside of work, I love to be creative with hobbies like 3D printing, ceramics, and stained glass artwork.\nWhat would you bring to the PSF Board of Directors?\nThree years of board experience, along with perspective from working across industry and community. During my previous term, I worked on initiatives around grants and helped introduce a more accessible membership tier. I also learned the less visible side of board work: fundraising, executive oversight, and recruiting new directors. That means I can start contributing quickly, and invest time in helping new…",
-        "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj7kgtFVKRtd8ybJZ6wYD7k4wF0TwHe1MUlele4YBYQ8TyfyTwMJhRTnAb3l4sUxsF2RSxQyLy2ir__WFXVrSG_KDdy7t-trkgh4c_59cv4GfPlrdKVefrNEFDX4DUOd0t3LeXEiiF7mDyiGRGc3HlFTwk7aa9UR6hItEP4Gx3JpMv60xHhVg/s72-c/NinaZakharenko_2026PSFBoardElection.jpg",
-        "source": "Python Software Foundation News",
-        "published": "2026-08-25T12:52:00.184Z",
-        "isNew": false
-      },
-      {
-        "title": "Keith Murray: 2026 PSF Board Election Candidate Interview",
-        "link": "https://pyfound.blogspot.com/2026/08/keith-murray-2026-psf-board-election.html",
-        "summary": "Who are you?\nI’m Keith Murray.\nI engage with a lot of Python Communities, often with the handle KeithTheEE, and I find that my favorite parts of the many communities are seeing the hobbies people have, and if/how Python intersects them. Hobbies and passion projects (including silly, fun passions) are one of the ways to make code matter, and are one of the things I’ve been falling back to of late to help balance against burnout: particularly when I feel overwhelmed by code ‘engagement’ that feels overly extractive. Discovering hobbies of other Python community members has made engaging feel like a collaborative and supportive experience, even if the code isn’t tied to the hobby at all.\nI love (trying) to grow orchids, birding, and making pasta, and while I don’t involve Python in every aspect of it, hearing about how it resonates with others (constructive or destructively), like how some prefer begonias over orchids, never got birding but love their dogs, or the many foods from their home I now need to try--helps me look forward to reading comments on the item at hand. So I’m Keith, I like many things and I love how so many people make the code around me joyful.\nWhat would you bring to the PSF Board of Directors?\nMy experience would help drive outreach to communities and direct small changes to help navigate the Python ecosystem and communities with an increased awareness of engagement opportunities. A particular interest is tied to PSF membership, and using it as a pathway…",
-        "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgHNH2FD_Y4H9LpT2IpuFRi7pGsKuAexjQwp3YV05wFlxgF2BTGhMhAqoRPLV33DaGp_LZYPlsOLWI7gG07gB19S-fD0LkWYSFENHEkcad0dSiRk4zcThiy7wWhunJn9SUj-NKb1oJ7IgeW10svF0NRVfzC0cQO6tvvTeZfRrImz451YtsOpg/s72-c/KeithMurray_2026PSFBoardElection.jpg",
-        "source": "Python Software Foundation News",
-        "published": "2026-08-25T12:51:41.133Z",
-        "isNew": false
       }
     ],
     "go": [
+      {
+        "title": "Size-Specialized Memory Allocation",
+        "link": "https://go.dev/blog/size-specialized-allocations",
+        "summary": "The Go Blog\nSize-Specialized Memory Allocation\nGo 1.27 includes faster memory allocation for allocations of fewer than 80 bytes.\nAllocations can be up to 20-30% faster, making allocation-heavy programs up to 1% faster.\nThe Go runtime improves the performance of those allocations by adding specialized\nfunctions that are used to allocate certain sizes. These specialized functions\ncan then make certain assumptions that make them faster and easier to optimize.\nThis blog post will explain how this works and how it makes your programs faster.\nHeap allocations are created by the runtime’s mallocgc function, which requires the size\nof the allocation and whether it contains pointers. When the compiler determines that an\nobject escapes to the heap or otherwise needs to be dynamically\nallocated, it inserts a call to newobject, which is a simple wrapper function that extracts\nthe size of the object and whether it contains pointers and passes those to mallocgc.\nThese two pieces of information determine\nmost of the work that the allocator needs to do. The size is important because the allocator\ndefines ranges of sizes called “size classes”. For most allocations that are not too large\nand not too small, it will return a block of memory from a list of free objects\nthat are all sized to the maximum size of the size class. So, for instance, size class 3\nis 17-24 bytes. So whether you allocate 17 bytes or 24 bytes, the allocator will give\nyou the next free 24 byte object available in its list…",
+        "image": null,
+        "source": "The Go Blog",
+        "published": "2026-09-16T00:00:00.000Z",
+        "isNew": false
+      },
       {
         "title": "Goroutine Leak Profiles",
         "link": "https://go.dev/blog/goroutine-leak-profiles",
@@ -536,18 +545,18 @@
         "source": "The Go Blog",
         "published": "2026-02-27T00:00:00.000Z",
         "isNew": false
-      },
-      {
-        "title": "Using go fix to modernize Go code",
-        "link": "https://go.dev/blog/gofix",
-        "summary": "The Go Blog\nUsing go fix to modernize Go code\nThe 1.26 release of Go this month includes a completely rewritten go fix subcommand. Go fix uses a suite of algorithms to identify opportunities to improve your code, often by taking advantage of more modern features of the language and library. In this post, we’ll first show you how to use go fix to modernize your Go codebase. Then in the second section we’ll dive into the infrastructure behind it and how it is evolving. Finally, we’ll present the theme of “self-service” analysis tools to help module maintainers and organizations encode their own guidelines and best practices.\nRunning go fix\nThe go fix command, like go build and go vet, accepts a set of patterns that denote packages. This command fixes all packages beneath the current directory:\n$ go fix ./...\n\nOn success, it silently updates your source files. It discards any fix that touches generated files since the appropriate fix in that case is to the logic of the generator itself. We recommend running go fix over your project each time you update your build to a newer Go toolchain release. Since the command may fix hundreds of files, start from a clean git state so that the change consists only of edits from go fix; your code reviewers will thank you.\nTo preview the changes the above command would have made, use the -diff flag:\n$ go fix -diff ./...\n--- dir/file.go (old)\n+++ dir/file.go (new)\n-                       eq := strings.IndexByte(pair, '=')\n-…",
-        "image": null,
-        "source": "The Go Blog",
-        "published": "2026-02-17T00:00:00.000Z",
-        "isNew": false
       }
     ],
     "rust": [
+      {
+        "title": "Be alert: targeted attacks on prominent Rustaceans",
+        "link": "https://blog.rust-lang.org/2026/09/17/targeted-attacks/",
+        "summary": "We believe that there is an ongoing campaign targeting rust-lang members and\nowners of popular crates that is attempting to compromise devices and accounts\nin order to use them to publish malware.\n\nWhat we've seen\nA video call is set up for something positive — maybe for a job, maybe for a\nproject, maybe for a contract opportunity — and then that's used as a vector to\neither get the target to install something on their computer (such as a\npurportedly missing audio codec) or execute another command (for example, via\nputting a command on the clipboard).\nThese attackers are setting up new but legitimate seeming company profiles,\nincluding plausible LinkedIn presences, in order to pass cursory inspection.\nA previous attack of this form targeted many prominent Rust developers in\nJune, and, last month, the arrayref crate was briefly compromised through similar\nattacks. At this moment we do not know if these are all a part of the same\ncampaign.\nThis attack style is known to be used by the DPRK, and has been seen outside of the Rust community as well.\n\nWhat you can do\nPlease take extra care in the near term. Be appropriately suspicious of cold\noutreaches, and ensure that any calls you have with new people are on platforms\nyou trust — ideally, try to be the one who sets up the call on a platform you\nalready use.\nPlease also re-check that your accounts look normal: MFA enabled,\nno unexpected logins on platforms that can track that, and so on.\nIf you have any concerns about your…",
+        "image": null,
+        "source": "Rust Blog",
+        "published": "2026-09-17T00:00:00.000Z",
+        "isNew": false
+      },
       {
         "title": "Rust debugging survey 2026 results",
         "link": "https://blog.rust-lang.org/2026/09/07/rust-debugging-survey-2026-results/",
@@ -610,18 +619,18 @@
         "source": "Rust Blog",
         "published": "2026-08-20T00:00:00.000Z",
         "isNew": false
-      },
-      {
-        "title": "Enabling the next iteration of the borrow checker on nightly",
-        "link": "https://blog.rust-lang.org/2026/08/04/enabling-polonius-alpha-on-nightly/",
-        "summary": "TL;DR We are enabling the next iteration of the borrow checker (coined Polonius Alpha)\non nightly in preparation for stabilization in the next few months.\n\nWhaaaaaat?\nYes! You heard it right! The next iteration of the Rust borrow checker is coming! Rust's first borrow checker (\"AST borrowck\") was very limited and was phased out in 2019 in favor of NLL, other than a \"migrate mode\" that was used to provide nice error messages. That migrate mode was finally removed in 2022.\nThe Polonius borrow checker spun out of the NLL effort in 2018. The initial formulation passed the NLL test suite and accepted (sound) code that NLL did not. However, performance was a critically-limiting factor; generally borrow check was slower than NLL, but certain programs were considerably slower than NLL to the extent that using that implementation/formulation of Polonius was a non-starter. Attempts were made over the years to implement the Polonius formulation in a performant manner, without much luck in addressing the core issues.\nIn 2023, a new formulation of a Polonius-style borrow checker was imagined that required minimal rearchitecture of the existing NLL implementation and could be extended to allow more code to compile. We had hoped, to try to stabilize this new formulation in 2024; but, various things popped up that delayed this.\nBut! We're nearly there now! At this point, there are no known remaining issues with the subset coined Polonius Alpha that we intend to stabilize. And, performance…",
-        "image": "https://blog.rust-lang.org/2026/08/04/enabling-polonius-alpha-on-nightly/polonius_top10k_leaf.png",
-        "source": "Rust Blog",
-        "published": "2026-08-04T00:00:00.000Z",
-        "isNew": false
       }
     ],
     "javascript": [
+      {
+        "title": "Node.js 26.9.0 (Current)",
+        "link": "https://nodejs.org/en/blog/release/v26.9.0",
+        "summary": "",
+        "image": null,
+        "source": "Node.js Blog",
+        "published": "2026-09-16T18:17:42.000Z",
+        "isNew": false
+      },
       {
         "title": "Node.js 26.8.2 (Current)",
         "link": "https://nodejs.org/en/blog/release/v26.8.2",
@@ -683,15 +692,6 @@
         "image": null,
         "source": "Node.js Blog",
         "published": "2026-08-05T16:25:55.000Z",
-        "isNew": false
-      },
-      {
-        "title": "Node.js 26.6.0 (Current)",
-        "link": "https://nodejs.org/en/blog/release/v26.6.0",
-        "summary": "",
-        "image": null,
-        "source": "Node.js Blog",
-        "published": "2026-08-03T13:51:29.000Z",
         "isNew": false
       }
     ]

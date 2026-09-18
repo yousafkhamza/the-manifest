@@ -1,6 +1,6 @@
 {
-  "date": "2026-09-17",
-  "generatedAt": "2026-09-17T20:20:04.513Z",
+  "date": "2026-09-18",
+  "generatedAt": "2026-09-18T09:45:54.465Z",
   "totalArticles": 72,
   "ticker": [
     {
@@ -30,6 +30,15 @@
   ],
   "topics": {
     "aws": [
+      {
+        "title": "New low-cost burstable Amazon EC2 T8i instances are generally available",
+        "link": "https://aws.amazon.com/blogs/aws/new-low-cost-burstable-amazon-ec2-t8i-instances-are-generally-available/",
+        "summary": "AWS introduces new low-cost burstable Amazon EC2 T8i instances powered by custom sixth generation Intel Xeon Scalable Processors (Granite Rapids), available only on AWS. T8i instances are among the lowest-cost EC2 instances and deliver up to 30% better price performance over previous generation T3 instances.",
+        "image": null,
+        "source": "AWS News Blog",
+        "published": "2026-09-17T21:11:48.000Z",
+        "isNew": true
+      },
       {
         "title": "AWS Elastic Beanstalk introduces Cluster Mode",
         "link": "https://aws.amazon.com/blogs/aws/aws-elastic-beanstalk-introduces-cluster-mode/",
@@ -91,15 +100,6 @@
         "image": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2026/08/28/AWS_Ducklabs_white_logo_800x400.png",
         "source": "AWS News Blog",
         "published": "2026-08-31T14:45:25.000Z",
-        "isNew": false
-      },
-      {
-        "title": "Happy 20th Birthday, Amazon EC2",
-        "link": "https://aws.amazon.com/blogs/aws/happy-20th-birthday-amazon-ec2/",
-        "summary": "On the 20th Anniversary, we recognize how AWS has continued to push the boundaries of what cloud computing can deliver, building custom silicon for general-purpose and AI workloads and expanding EC2 into new form factors and deployment models that our customers in 2006 could not have imagined.",
-        "image": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2026/08/19/2026-amazon-ec2-20th-thumbx250.jpg",
-        "source": "AWS News Blog",
-        "published": "2026-08-25T16:11:02.000Z",
         "isNew": false
       }
     ],
@@ -181,7 +181,7 @@
       {
         "title": "September 17, 2026",
         "link": "https://docs.cloud.google.com/release-notes#September_17_2026",
-        "summary": "Cloud SQL for MySQL\nChange\nCloud SQL for MySQL now automatically enables point-in-time recovery (PITR) in\na separate, asynchronous operation after disaster recovery (DR) switchover and\nreplica failover operations complete. Because PITR enablement no longer blocks\nswitchover and replica failover, these operations complete faster, helping you\nreduce your recovery time.\nFor more information, see Use advanced disaster recovery (DR).\nCloud SQL for PostgreSQL\nChange\nCloud SQL for PostgreSQL now automatically enables point-in-time recovery\n(PITR) in a separate, asynchronous operation after disaster recovery (DR)\nswitchover and replica failover operations complete. Because PITR enablement no\nlonger blocks switchover and replica failover, these operations complete faster,\nhelping you reduce your recovery time.\nFor more information, see Use advanced disaster recovery (DR).\nCompute Engine\nFeature\nGenerally available: The storage-optimized Z4D machine series is generally available for Compute Engine. Powered by AMD EPYC Turin processors and Titanium offload processors, Z4D instances are purpose-built for low core usage and high storage density workloads such as:\nSQL, NoSQL, and vector databases\nData analytics and data warehouses\nSearch\nParallel file systems for AI/ML\nThe Z4D machine series delivers up to 3 TB of memory and 42,000 GiB of local Titanium SSD capacity. Z4D also supports up to 400 Gbps of network bandwidth using two physical NICs. Z4D instances are available in predefined…",
+        "summary": "BigQuery\nFeature\nYou can add unit tests to pipelines\nto validate your SQL transformation logic against mock datasets. Unit tests for\npipelines are generally available (GA).\nCloud SQL for MySQL\nChange\nCloud SQL for MySQL now automatically enables point-in-time recovery (PITR) in\na separate, asynchronous operation after disaster recovery (DR) switchover and\nreplica failover operations complete. Because PITR enablement no longer blocks\nswitchover and replica failover, these operations complete faster, helping you\nreduce your recovery time.\nFor more information, see Use advanced disaster recovery (DR).\nCloud SQL for PostgreSQL\nChange\nCloud SQL for PostgreSQL now automatically enables point-in-time recovery\n(PITR) in a separate, asynchronous operation after disaster recovery (DR)\nswitchover and replica failover operations complete. Because PITR enablement no\nlonger blocks switchover and replica failover, these operations complete faster,\nhelping you reduce your recovery time.\nFor more information, see Use advanced disaster recovery (DR).\nCompute Engine\nFeature\nGenerally available: The storage-optimized Z4D machine series is generally available for Compute Engine. Powered by AMD EPYC Turin processors and Titanium offload processors, Z4D instances are purpose-built for low core usage and high storage density workloads such as:\nSQL, NoSQL, and vector databases\nData analytics and data warehouses\nSearch\nParallel file systems for AI/ML\nThe Z4D machine series delivers up to 3 TB of…",
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-09-17T07:00:00.000Z",
@@ -551,7 +551,7 @@
       {
         "title": "Be alert: targeted attacks on prominent Rustaceans",
         "link": "https://blog.rust-lang.org/2026/09/17/targeted-attacks/",
-        "summary": "We believe that there is an ongoing campaign targeting rust-lang members and\nowners of popular crates that is attempting to compromise devices and accounts\nin order to use them to publish malware.\n\nWhat we've seen\nA video call is set up for something positive — maybe for a job, maybe for a\nproject, maybe for a contract opportunity — and then that's used as a vector to\neither get the target to install something on their computer (such as a\npurportedly missing audio codec) or execute another command (for example, via\nputting a command on the clipboard).\nThese attackers are setting up new but legitimate seeming company profiles,\nincluding plausible LinkedIn presences, in order to pass cursory inspection.\n\nWhat you can do\nPlease take extra care in the near term. Be appropriately suspicious of cold\noutreaches, and ensure that any calls you have with new people are on platforms\nyou trust — ideally, try to be the one who sets up the call on a platform you\nalready use.\nPlease also re-check that your accounts look normal: MFA enabled,\nno unexpected logins on platforms that can track that, and so on.\nIf you have any concerns about your accounts, please reach out to\nhelp@crates.io (for crates.io account concerns) and/or\nsecurity@rust-lang.org (for any other\nconcerns). We're very happy to help.",
+        "summary": "We believe that there is an ongoing campaign targeting rust-lang members and\nowners of popular crates that is attempting to compromise devices and accounts\nin order to use them to publish malware.\n\nWhat we've seen\nA video call is set up for something positive — maybe for a job, maybe for a\nproject, maybe for a contract opportunity — and then that's used as a vector to\neither get the target to install something on their computer (such as a\npurportedly missing audio codec) or execute another command (for example, via\nputting a command on the clipboard).\nThese attackers are setting up new but legitimate seeming company profiles,\nincluding plausible LinkedIn presences, in order to pass cursory inspection.\nA previous attack of this form targeted many prominent Rust developers in\nJune, and, last month, the arrayref crate was briefly compromised through similar\nattacks. At this moment we do not know if these are all a part of the same\ncampaign.\nThis attack style is known to be used by the DPRK, and has been seen outside of the Rust community as well.\n\nWhat you can do\nPlease take extra care in the near term. Be appropriately suspicious of cold\noutreaches, and ensure that any calls you have with new people are on platforms\nyou trust — ideally, try to be the one who sets up the call on a platform you\nalready use.\nPlease also re-check that your accounts look normal: MFA enabled,\nno unexpected logins on platforms that can track that, and so on.\nIf you have any concerns about your…",
         "image": null,
         "source": "Rust Blog",
         "published": "2026-09-17T00:00:00.000Z",
