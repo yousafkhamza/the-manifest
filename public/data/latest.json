@@ -1,6 +1,6 @@
 {
-  "date": "2026-09-18",
-  "generatedAt": "2026-09-18T19:35:42.854Z",
+  "date": "2026-09-19",
+  "generatedAt": "2026-09-19T09:30:18.811Z",
   "totalArticles": 72,
   "ticker": [
     {
@@ -105,6 +105,15 @@
     ],
     "azure": [
       {
+        "title": "Microsoft recognized as a Leader in the 2026 Gartner® Magic Quadrant™ for Distributed Hybrid Infrastructure",
+        "link": "https://azure.microsoft.com/en-us/blog/microsoft-recognized-as-a-leader-in-the-2026-gartner-magic-quadrant-for-distributed-hybrid-infrastructure/",
+        "summary": "Gartner highlighted Microsoft’s unified single-product architecture, flexibility across hyperconverged and disaggregated architectures, and more.\nThe post Microsoft recognized as a Leader in the 2026 Gartner® Magic Quadrant™ for Distributed Hybrid Infrastructure appeared first on Microsoft Azure Blog.",
+        "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/09/image-3.webp",
+        "source": "Microsoft Azure Blog",
+        "published": "2026-09-16T16:00:00.000Z",
+        "isNew": true
+      },
+      {
         "title": "Microsoft named a Leader in the 2026 Gartner® Magic Quadrant™ for Container Management",
         "link": "https://azure.microsoft.com/en-us/blog/microsoft-named-a-leader-in-the-2026-gartner-magic-quadrant-for-container-management/",
         "summary": "Microsoft was named a Leader in the 2026 Gartner® Magic Quadrant™ for Container Management. Discover how AKS, Azure Arc, and Azure Container Apps help organizations run AI and hybrid workloads at scale.\nThe post Microsoft named a Leader in the 2026 Gartner® Magic Quadrant™ for Container Management appeared first on Microsoft Azure Blog.",
@@ -166,22 +175,13 @@
         "source": "Microsoft Azure Blog",
         "published": "2026-09-03T18:15:00.000Z",
         "isNew": false
-      },
-      {
-        "title": "How Microsoft’s Physical Security Engineering Team scaled hybrid operations with Azure Arc and Azure Virtual Desktop",
-        "link": "https://azure.microsoft.com/en-us/blog/how-microsofts-physical-security-engineering-team-scaled-hybrid-operations-with-azure-arc-and-azure-virtual-desktop/",
-        "summary": "Learn how Microsoft used Azure Arc and Azure Virtual Desktop to simplify hybrid security operations, improve visibility, and scale globally.\nThe post How Microsoft’s Physical Security Engineering Team scaled hybrid operations with Azure Arc and Azure Virtual Desktop appeared first on Microsoft Azure Blog.",
-        "image": null,
-        "source": "Microsoft Azure Blog",
-        "published": "2026-09-03T15:00:00.000Z",
-        "isNew": false
       }
     ],
     "gcp": [
       {
         "title": "September 18, 2026",
         "link": "https://docs.cloud.google.com/release-notes#September_18_2026",
-        "summary": "Cloud Load Balancing\nFeature\nManaged workload identity for backend mTLS is generally available for the\nfollowing Application Load Balancers:\nGlobal external Application Load Balancers\nRegional external Application Load Balancers\nCross-region internal Application Load Balancers\nRegional internal Application Load Balancers\nThe key benefits are as follows:\nStreamline certificate management: Automated certificate and trust\nmanagement for backend mTLS through seamless\nintegration with Certificate Authority Service and Certificate Manager.\n\n\nEliminate operational toil: Certificates are automatically rotated based\non the workload identity pool's configuration, removing the complexity and\nmanual bottleneck of private key provisioning and maintenance.\n\n\nImprove visibility and governance: Gain visibility into communication\nbetween distributed services and proactively apply governance to workloads\nacross environments.\n\n\nFor more information, see\nBackend mTLS with managed workload identity overview\nCloud Scheduler\nChange\nCloud Scheduler is available in the following location:\nasia-southeast3 (Bangkok, Thailand)\nGemini Enterprise Agent Platform\nFeature\nxAI's Grok 4.6 is generally available\nGrok 4.6\nis now generally available\n(GA) and available for\nproduction use on the global endpoint and the US multi-region endpoint.\nGoogle Cloud Contact Center as a Service\nFixed\nThis release addresses the following issues:\nFixed an issue where session metadata and data feed files were missing from…",
+        "summary": "Cloud Load Balancing\nFeature\nManaged workload identity for backend mTLS is generally available for the\nfollowing Application Load Balancers:\nGlobal external Application Load Balancers\nRegional external Application Load Balancers\nCross-region internal Application Load Balancers\nRegional internal Application Load Balancers\nThe key benefits are as follows:\nStreamline certificate management: Automated certificate and trust\nmanagement for backend mTLS through seamless\nintegration with Certificate Authority Service and Certificate Manager.\n\n\nEliminate operational toil: Certificates are automatically rotated based\non the workload identity pool's configuration, removing the complexity and\nmanual bottleneck of private key provisioning and maintenance.\n\n\nImprove visibility and governance: Gain visibility into communication\nbetween distributed services and proactively apply governance to workloads\nacross environments.\n\n\nFor more information, see\nBackend mTLS with managed workload identity overview\nCloud Scheduler\nChange\nCloud Scheduler is available in the following location:\nasia-southeast3 (Bangkok, Thailand)\nGemini Enterprise\nFeature\nGemini Enterprise: Support for new actions (Public Preview)\nSupport for new actions is available in Public Preview for the following data stores:\nMicrosoft OneDrive: Copy folder, move file, move folder, rename file, rename folder, share file or folder, and update file properties.\nMicrosoft Outlook: Create calendar, RSVP to event, and update calendar.…",
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-09-18T07:00:00.000Z",
