@@ -1,6 +1,6 @@
 {
   "date": "2026-09-21",
-  "generatedAt": "2026-09-21T10:43:08.345Z",
+  "generatedAt": "2026-09-21T17:05:08.154Z",
   "totalArticles": 72,
   "ticker": [
     {
@@ -30,6 +30,15 @@
   ],
   "topics": {
     "aws": [
+      {
+        "title": "AWS Weekly Roundup: AWS Builder Center mobile apps, Amazon Connect Talent GA, Amazon Corretto 27, and more (September 21, 2026)",
+        "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-aws-builder-center-mobile-apps-amazon-connect-talent-ga-amazon-corretto-27-and-more-september-14-2026/",
+        "summary": "Living in the Netherlands, I spend a fair amount of time on trains, and that is usually where I catch up on what the builder community is writing. Until now, that meant opening a laptop or squinting at a browser tab on my phone. This week I found myself scrolling through trending articles and checking […]",
+        "image": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2026/09/20/2026-09-21-WIR.png",
+        "source": "AWS News Blog",
+        "published": "2026-09-21T16:11:24.000Z",
+        "isNew": false
+      },
       {
         "title": "New low-cost burstable Amazon EC2 T8i instances are generally available",
         "link": "https://aws.amazon.com/blogs/aws/new-low-cost-burstable-amazon-ec2-t8i-instances-are-generally-available/",
@@ -91,15 +100,6 @@
         "image": null,
         "source": "AWS News Blog",
         "published": "2026-08-31T19:53:34.000Z",
-        "isNew": false
-      },
-      {
-        "title": "AWS Weekly Roundup: Welcome DuckLabs to the team, Agentic Resource Discovery (ARD), and more (August 31, 2026)",
-        "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-welcome-ducklabs-to-the-team-agentic-resource-discovery-ard-and-more-august-31-2026/",
-        "summary": "The news that interested me the most last week was the DuckLabs acquisition. AWS has signed a definitive agreement to acquire DuckLabs, the Amsterdam-based company behind DuckDB, the popular open source analytical database that runs in-process and executes SQL directly against files like Parquet, CSV, and JSON. DuckDB stays open source under its independent foundation […]",
-        "image": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2026/08/28/AWS_Ducklabs_white_logo_800x400.png",
-        "source": "AWS News Blog",
-        "published": "2026-08-31T14:45:25.000Z",
         "isNew": false
       }
     ],
@@ -179,6 +179,15 @@
     ],
     "gcp": [
       {
+        "title": "September 21, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#September_21_2026",
+        "summary": "Apigee X\nAnnouncement\nOn September 21st, 2026, we began maintenance updates of Apigee instances configured for maintenance windows.\nIf you set a preferred window for maintenance for your instance, and your instance version is\nbelow 1-18-0-apigee-4, your instance will be updated to 1-18-0-apigee-4 within the\nnext seven to 21 days. A notification containing the expected date of upgrade will be sent within the next two business days.\nNote: Instances that meet either of the following two criteria will not be updated:\n\nYour instance has a DNS misconfiguration, as described in Known Issue 445936920.\nYour instance uses an Apigee Java Library that has been removed, as described in Apigee release notes dated October 16, 2025.\n\nFor more information on participating in scheduled maintenance windows, see Maintenance overview and Manage Apigee instance maintenance windows.\nDataform\nFeature\nThe Dataform remote Model Context Protocol (MCP) server now supports pipeline\nauthoring in development workspaces and Git repository operations. AI agents can\ncreate and list workspaces, search and edit files, commit changes and push\ncommits to remote Git providers, update repository settings, and organize\nrepositories in folders. For more information, see\nUse the Dataform remote MCP server\nand the\nDataform MCP reference.\nThis feature is\ngenerally available\n(GA).",
+        "image": null,
+        "source": "Google Cloud Platform (GCP) - Release notes",
+        "published": "2026-09-21T07:00:00.000Z",
+        "isNew": false
+      },
+      {
         "title": "September 18, 2026",
         "link": "https://docs.cloud.google.com/release-notes#September_18_2026",
         "summary": "Cloud Load Balancing\nFeature\nManaged workload identity for backend mTLS is generally available for the\nfollowing Application Load Balancers:\nGlobal external Application Load Balancers\nRegional external Application Load Balancers\nCross-region internal Application Load Balancers\nRegional internal Application Load Balancers\nThe key benefits are as follows:\nStreamline certificate management: Automated certificate and trust\nmanagement for backend mTLS through seamless\nintegration with Certificate Authority Service and Certificate Manager.\n\n\nEliminate operational toil: Certificates are automatically rotated based\non the workload identity pool's configuration, removing the complexity and\nmanual bottleneck of private key provisioning and maintenance.\n\n\nImprove visibility and governance: Gain visibility into communication\nbetween distributed services and proactively apply governance to workloads\nacross environments.\n\n\nFor more information, see\nBackend mTLS with managed workload identity overview\nCloud Scheduler\nChange\nCloud Scheduler is available in the following location:\nasia-southeast3 (Bangkok, Thailand)\nGemini Enterprise\nFeature\nGemini Enterprise: Support for new actions (Public Preview)\nSupport for new actions is available in Public Preview for the following data stores:\nMicrosoft OneDrive: Copy folder, move file, move folder, rename file, rename folder, share file or folder, and update file properties.\nMicrosoft Outlook: Create calendar, RSVP to event, and update calendar.…",
@@ -239,15 +248,6 @@
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-09-11T07:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "September 10, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#September_10_2026",
-        "summary": "Apigee X\nFixed\nAddendum to Apigee release notes dated August 27, 2026 (1-18-0-apigee-4).\nBug ID\nDescription\n\n\n\n\n502540992\nFixed an issue where the SemanticCacheLookup policy was incompatible with Vertex AI Vector Search Private Service Connect (PSC) endpoints.\n\n\n\nBigQuery\nFeature\nConversational analytics in BigQuery now supports the ML.CORRELATION\nfunction to calculate statistical correlations between a target column and one\nor more metric columns in a table. This feature is in Preview.\nFeature\nYou can now use the ML.METRICS function\nto compute evaluation metrics for machine learning\nclassification or regression tasks on any table or query that contains actual\nand predicted values. This function lets you evaluate predictions without\nneeding to create or reference a stored model. This feature is in\nPreview.\nFeature\nYou can use the AI.CAUSAL_EFFECT\nfunction to quantify the impact of specific interventions on time series data.\nThis feature is in Preview.\nFeature\nThe Data Engineering Agent now integrates with BigQuery Graph\nto provide additional context between your data source and destination schema,\nand improves schema mapping accuracy for your data engineering pipelines.\nThis feature is generally available\n(GA).\nCloud SQL for MySQL\nBreaking\nAppending sqlcommenter tags using the sql_commenter_enabled parameter when\nexecuting SQL queries on a Cloud SQL remote MCP server is temporarily disabled.\nFor more information, see sqlcommenter tags.\nCloud SQL for PostgreSQL\nBreaking…",
-        "image": null,
-        "source": "Google Cloud Platform (GCP) - Release notes",
-        "published": "2026-09-10T07:00:00.000Z",
         "isNew": false
       }
     ],
