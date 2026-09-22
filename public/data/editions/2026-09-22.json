@@ -1,6 +1,6 @@
 {
   "date": "2026-09-22",
-  "generatedAt": "2026-09-22T15:32:01.033Z",
+  "generatedAt": "2026-09-22T20:11:43.135Z",
   "totalArticles": 72,
   "ticker": [
     {
@@ -105,15 +105,6 @@
     ],
     "azure": [
       {
-        "title": "Microsoft recognized as a Leader in the 2026 Gartner® Magic Quadrant™ for Distributed Hybrid Infrastructure",
-        "link": "https://azure.microsoft.com/en-us/blog/microsoft-recognized-as-a-leader-in-the-2026-gartner-magic-quadrant-for-distributed-hybrid-infrastructure/",
-        "summary": "Gartner highlighted Microsoft’s unified single-product architecture, flexibility across hyperconverged and disaggregated architectures, and more.\nThe post Microsoft recognized as a Leader in the 2026 Gartner® Magic Quadrant™ for Distributed Hybrid Infrastructure appeared first on Microsoft Azure Blog.",
-        "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/09/image-3.webp",
-        "source": "Microsoft Azure Blog",
-        "published": "2026-09-16T16:00:00.000Z",
-        "isNew": false
-      },
-      {
         "title": "Microsoft named a Leader in the 2026 Gartner® Magic Quadrant™ for Container Management",
         "link": "https://azure.microsoft.com/en-us/blog/microsoft-named-a-leader-in-the-2026-gartner-magic-quadrant-for-container-management/",
         "summary": "Microsoft was named a Leader in the 2026 Gartner® Magic Quadrant™ for Container Management. Discover how AKS, Azure Arc, and Azure Container Apps help organizations run AI and hybrid workloads at scale.\nThe post Microsoft named a Leader in the 2026 Gartner® Magic Quadrant™ for Container Management appeared first on Microsoft Azure Blog.",
@@ -175,13 +166,22 @@
         "source": "Microsoft Azure Blog",
         "published": "2026-09-03T18:15:00.000Z",
         "isNew": false
+      },
+      {
+        "title": "How Microsoft’s Physical Security Engineering Team scaled hybrid operations with Azure Arc and Azure Virtual Desktop",
+        "link": "https://azure.microsoft.com/en-us/blog/how-microsofts-physical-security-engineering-team-scaled-hybrid-operations-with-azure-arc-and-azure-virtual-desktop/",
+        "summary": "Learn how Microsoft used Azure Arc and Azure Virtual Desktop to simplify hybrid security operations, improve visibility, and scale globally.\nThe post How Microsoft’s Physical Security Engineering Team scaled hybrid operations with Azure Arc and Azure Virtual Desktop appeared first on Microsoft Azure Blog.",
+        "image": null,
+        "source": "Microsoft Azure Blog",
+        "published": "2026-09-03T15:00:00.000Z",
+        "isNew": false
       }
     ],
     "gcp": [
       {
         "title": "September 22, 2026",
         "link": "https://docs.cloud.google.com/release-notes#September_22_2026",
-        "summary": "Compute Engine\nDeprecated\nAs of September 15, 2026, NVIDIA P100 (nvidia-tesla-p100 and\nnvidia-tesla-p100-vws) GPUs have reached end of support (EOS) and are shut\ndown. You can no longer create, launch, or access Compute Engine\ninstances or other Google Cloud resources that use NVIDIA P100 GPUs.\nFor information about migrating your workloads to supported GPU alternatives\nsuch as the G2 (NVIDIA L4) or G4 (NVIDIA RTX PRO 6000) machine series, see\nNVIDIA P100 end of support.\nDeprecated\nNVIDIA T4 (nvidia-tesla-t4 and nvidia-tesla-t4-vws) and NVIDIA P4\n(nvidia-tesla-p4 and nvidia-tesla-p4-vws) GPUs are deprecated and will reach\nend of support (EOS) on August 1, 2027. After August 1, 2027, you won't be able\nto create, launch, or access Compute Engine instances or other\nGoogle Cloud resources that run NVIDIA T4 or P4 GPUs. In addition, you can no\nlonger purchase or renew 3-year committed use discounts (CUDs) for NVIDIA T4 or\nP4 GPUs.\nTo transition your workloads to supported GPU models such as the G2 (NVIDIA L4)\nor G4 (NVIDIA RTX PRO 6000) machine series before the EOS date, see\nNVIDIA T4 end of support and\nNVIDIA P4 end of support.",
+        "summary": "Cloud Trace\nFeature\nThe following remote Google Cloud MCP servers automatically generate a trace span for\ntools/call operations.\nIdentity and Access Management\nOrganization Policy Service\nPolicy Analyzer\nSecurity Command Center\nSpanner\nUnified Maintenance\nThese spans can help you understand the behavior of\nyour agentic applications. For more information, see\nInvestigate MCP calls using Trace.\nFeature\nYou can use Terraform to configure resources managed by the Observability API.\nFor example, you can use Terraform to create and update observability buckets,\ncreate links on datasets, and configure default settings.\nFor more information, see the following documents:\nSet defaults for observability buckets\nCreate observability buckets\nUpdate observability buckets\nList buckets and manage datasets\nCompute Engine\nDeprecated\nAs of September 15, 2026, NVIDIA P100 (nvidia-tesla-p100 and\nnvidia-tesla-p100-vws) GPUs have reached end of support (EOS) and are shut\ndown. You can no longer create, launch, or access Compute Engine\ninstances or other Google Cloud resources that use NVIDIA P100 GPUs.\nFor information about migrating your workloads to supported GPU alternatives\nsuch as the G2 (NVIDIA L4) or G4 (NVIDIA RTX PRO 6000) machine series, see\nNVIDIA P100 end of support.\nDeprecated\nNVIDIA T4 (nvidia-tesla-t4 and nvidia-tesla-t4-vws) and NVIDIA P4\n(nvidia-tesla-p4 and nvidia-tesla-p4-vws) GPUs are deprecated and will reach\nend of support (EOS) on August 1, 2027. After August 1, 2027, you…",
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-09-22T07:00:00.000Z",
