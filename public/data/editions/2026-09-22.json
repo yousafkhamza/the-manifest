@@ -1,6 +1,6 @@
 {
   "date": "2026-09-22",
-  "generatedAt": "2026-09-22T09:57:09.785Z",
+  "generatedAt": "2026-09-22T15:32:01.033Z",
   "totalArticles": 72,
   "ticker": [
     {
@@ -179,6 +179,15 @@
     ],
     "gcp": [
       {
+        "title": "September 22, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#September_22_2026",
+        "summary": "Compute Engine\nDeprecated\nAs of September 15, 2026, NVIDIA P100 (nvidia-tesla-p100 and\nnvidia-tesla-p100-vws) GPUs have reached end of support (EOS) and are shut\ndown. You can no longer create, launch, or access Compute Engine\ninstances or other Google Cloud resources that use NVIDIA P100 GPUs.\nFor information about migrating your workloads to supported GPU alternatives\nsuch as the G2 (NVIDIA L4) or G4 (NVIDIA RTX PRO 6000) machine series, see\nNVIDIA P100 end of support.\nDeprecated\nNVIDIA T4 (nvidia-tesla-t4 and nvidia-tesla-t4-vws) and NVIDIA P4\n(nvidia-tesla-p4 and nvidia-tesla-p4-vws) GPUs are deprecated and will reach\nend of support (EOS) on August 1, 2027. After August 1, 2027, you won't be able\nto create, launch, or access Compute Engine instances or other\nGoogle Cloud resources that run NVIDIA T4 or P4 GPUs. In addition, you can no\nlonger purchase or renew 3-year committed use discounts (CUDs) for NVIDIA T4 or\nP4 GPUs.\nTo transition your workloads to supported GPU models such as the G2 (NVIDIA L4)\nor G4 (NVIDIA RTX PRO 6000) machine series before the EOS date, see\nNVIDIA T4 end of support and\nNVIDIA P4 end of support.",
+        "image": null,
+        "source": "Google Cloud Platform (GCP) - Release notes",
+        "published": "2026-09-22T07:00:00.000Z",
+        "isNew": false
+      },
+      {
         "title": "September 21, 2026",
         "link": "https://docs.cloud.google.com/release-notes#September_21_2026",
         "summary": "Access Context Manager\nFeature\nAccess Context Manager supports extended session length for Workforce Identity\nFederation. This feature is in\nPreview for Looker\n(Google Cloud core) customers. For more information, see\nConfigure extended session length for Workforce Identity Federation.\nAgent Platform Workbench\nChange\n20260920.00_p0 Release\nChange\nInstalled latest packages from upstream dependencies.\nFeature\nJupyterLab now forwards client-side logs (console errors, uncaught exceptions, unhandled promise rejections, and failed network requests) to the instance backend, where they surface in Cloud Logging for easier debugging.\nChange\n20260920.00_p0 Release\nChange\nInstalled latest packages from upstream dependencies.\nFeature\nJupyterLab now forwards client-side logs (console errors, uncaught exceptions, unhandled promise rejections, and failed network requests) to the instance backend, where they surface in Cloud Logging for easier debugging.\nAlloyDB for PostgreSQL\nFeature\nYou can now use the AlloyDB Columnar Engine as a read-optimized, in-memory\ncache for HNSW vector indexes. This feature is generally available\n(GA). It accelerates vector search\nperformance and increases queries per second (QPS) for vector workloads.\nFor more information, see\nAccelerate queries with the Columnar Engine.\nApigee X\nAnnouncement\nOn September 21st, 2026, we began maintenance updates of Apigee instances configured for maintenance windows.\nIf you set a preferred window for maintenance for your instance,…",
@@ -240,15 +249,6 @@
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-09-13T07:00:00.000Z",
         "isNew": false
-      },
-      {
-        "title": "September 11, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#September_11_2026",
-        "summary": "API Gateway\nFeature\nEnable Model Context Protocol (MCP)\nYou can now configure API Gateway to act as a remote Model Context Protocol (MCP) server. This Public Preview feature allows you to expose your existing REST APIs to AI agents as tools, without requiring changes to your backend services. You can enable MCP by annotating your OpenAPI 3.x specification using custom Google extensions.\nFor more information, see Model Context Protocol overview and Configure Model Context Protocol.\nAlloyDB for PostgreSQL\nFeature\nYou can now monitor the status, throughput, and backlog of the audit logging\npipeline for your AlloyDB for PostgreSQL instances and nodes using\nCloud Monitoring.\nFor more information, see\nMonitor audit log pipeline status.\nCluster Toolkit\nSecurity\nGoogle addressed multiple security vulnerabilities in Slurm that affect\nCluster Toolkit. For more information, see the\nsecurity bulletin.\nCompute Engine\nFeature\nPreview: You can view Workload Manager rule findings directly on the Compute\nEngine Overview page in the Google Cloud console. The Workload Manager\nfindings tile lets you identify configuration risks for your compute instances\nand resources against best practices for reliability and security.\nFor more information, see View Workload Manager rule findings in Compute Engine.\nGoogle Cloud Contact Center as a Service\nAnnouncement\nGoogle Cloud CCaaS 6.12\nWe've released version 6.12 of Google Cloud CCaaS.\nThe timing of the update to your instance depends on the deployment…",
-        "image": null,
-        "source": "Google Cloud Platform (GCP) - Release notes",
-        "published": "2026-09-11T07:00:00.000Z",
-        "isNew": false
       }
     ],
     "kubernetes": [
@@ -259,7 +259,7 @@
         "image": null,
         "source": "Kubernetes Blog",
         "published": "2026-09-21T18:30:00.000Z",
-        "isNew": true
+        "isNew": false
       },
       {
         "title": "Kubernetes v1.37: Hardening Container Storage with Bind Mount Options and EmptyDir Permissions",
@@ -549,6 +549,15 @@
     ],
     "rust": [
       {
+        "title": "Announcing a Maintainer in Residence: Scott Schafer for the Cargo team",
+        "link": "https://blog.rust-lang.org/2026/09/22/announcing-a-maintainer-in-residence-scott-schafer-for-the-cargo-team/",
+        "summary": "At the end of August, we announced our first Maintainers in Residence, Rust Project contributors who are funded for their upstream contributions and maintenance work from the Rust Foundation Maintainers Fund (RFMF). Since then, the Rust Leadership Council has dedicated more funds from its Project Priorities budget to RFMF, and together with AWS also providing additional funds, this allowed us to open a new full-time Maintainer in Residence (MiR) position to support the Cargo team. We would like to thank the Rust Leadership Council, AWS, and also the Rust Foundation for providing us with this opportunity! If you would like to help us hire more maintainers to improve Rust, consider donating to RFMF.\nThis post explains why we chose to support the Cargo team specifically, and introduces Scott Schafer, the new Cargo Maintainer in Residence.\n\nWhy Cargo?\nThe new MiR full-time position is dedicated to helping with the maintenance of Cargo, our build system and package manager. The Cargo project is deeply involved in many new Rust features, improvements, and Project Goals. Combined with its cross-cutting nature, where it has to support many different use-cases and integrate with several other tools, it takes a lot of work just to keep up with its maintenance needs, let alone support so many feature requests and proposed changes.\nBecause of that, the Cargo team has sometimes struggled with meeting its maintenance demands. You might remember that for several years, it actually held a…",
+        "image": null,
+        "source": "Rust Blog",
+        "published": "2026-09-22T00:00:00.000Z",
+        "isNew": false
+      },
+      {
         "title": "GitHub Actions leaking secrets when Miri output is cached",
         "link": "https://blog.rust-lang.org/2026/09/21/github-actions-leaking-secrets-when-miri-output-is-cached/",
         "summary": "The Rust Security Response Team was notified that Miri stores all environment variables to target/, allowing secrets to persist in caches.\nWhile not necessary a vulnerability in and of itself, when paired with GitHub Actions caching behavior, it is possible for this to expose secrets to PRs.\n\nOverview\nGitHub Actions makes it possible to cache directories between runs. Typical setups allow CI runs on main (and other branches) to write to cache, and PRs can only read from cache (preventing cache poisoning). Rust projects tend to speed up CI by caching binaries built by cargo install and sometimes the contents of target/.\nPR CI can be triggered by anyone who can open PRs on your repository. GitHub requires maintainer approval for the first PR, but future PRs will rerun CI on every push. Anyone who has previously landed a change can trigger a CI run extracting information from cached target/ and then cover their tracks by pushing a second commit to the PR.\nGitHub sometimes hides overwritten commits in its UI, making this kind of attack harder to detect. CI run logs and overwritten commits are also deleted after a few months.\nWhen cargo miri is invoked, Miri needs to retain build-relevant environment variables between runs1. The current code to do so achieves this by storing all environment variables to target/. This, of course, persists when target/ is cached.\nIf your environment contained secrets, these can now be accessed by PRs via the cache.\n\nOur fix\nOur short term fix for…",
@@ -610,15 +619,6 @@
         "source": "Rust Blog",
         "published": "2026-08-21T00:00:00.000Z",
         "isNew": false
-      },
-      {
-        "title": "Supply chain attack on arrayref",
-        "link": "https://blog.rust-lang.org/2026/08/20/supply-chain-attack-on-arrayref/",
-        "summary": "What happened\nOn 2026-08-20 at 7:15 UTC we got a report that the proc-macro1 crate was malicious.\nThe Rust Security Response Team verified this to be the case: the crate had a build script that was downloading a malicious payload.\nThis crate proc-macro1 and others like it (proc-macro-en, aovine, arone, aronenao, tinymember) have been deleted.\nFurthermore, we discovered that the popular arrayref crate had recently been republished and made to depend on this crate, with the most recent versions yanked. We have removed the malicious version and unyanked the maliciously-yanked versions. Other crates by that author (internment, append-only-vec) were also affected so we have done the same for those, and locked the account as a precaution. We do not believe the author of arrayref to be acting maliciously, but their computer or credentials are likely compromised, and we are attempting to contact them.\n\nWhat you need to do\nWe recommend you check your local dependencies to ensure these crates were not pulled in.\nHere are the malicious versions that we deleted from crates.io:\nappend-only-vec@0.1.9: published at 2026-08-20T07:37:49Z, deleted at 2026-08-20T09:25:24Z. Online for 107 minutes.\narrayref@0.3.10: published at 2026-08-20T07:15:00Z, deleted at 2026-08-20T08:41:40Z. Online for 86 minutes.\ninternment@0.8.7: published at 2026-08-20T07:34:07Z, deleted at 2026-08-20T09:04:11Z. Online for 90 minutes.\nproc-macro1, proc-macro-en, aovine, arone, aronenao, tinymember (any versions).\nYou…",
-        "image": null,
-        "source": "Rust Blog",
-        "published": "2026-08-20T00:00:00.000Z",
-        "isNew": false
       }
     ],
     "javascript": [
@@ -629,7 +629,7 @@
         "image": null,
         "source": "Node.js Blog",
         "published": "2026-09-22T09:03:49.000Z",
-        "isNew": true
+        "isNew": false
       },
       {
         "title": "Node.js 26.9.0 (Current)",
