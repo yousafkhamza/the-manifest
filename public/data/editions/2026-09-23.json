@@ -1,6 +1,6 @@
 {
   "date": "2026-09-23",
-  "generatedAt": "2026-09-23T09:58:57.239Z",
+  "generatedAt": "2026-09-23T15:27:48.883Z",
   "totalArticles": 72,
   "ticker": [
     {
@@ -9,7 +9,7 @@
     },
     {
       "label": "Terraform",
-      "version": "v1.16.3"
+      "version": "v1.16.4"
     },
     {
       "label": "Python",
@@ -37,7 +37,7 @@
         "image": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2026/09/21/cloudwatch-omni-console-1800.png",
         "source": "AWS News Blog",
         "published": "2026-09-22T22:23:14.000Z",
-        "isNew": true
+        "isNew": false
       },
       {
         "title": "Introducing Amazon CloudWatch Omni: AI-powered observability for generative AI and agentic workloads",
@@ -46,7 +46,7 @@
         "image": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2026/09/11/Triton-Figure-1-Welcome-Screen.png",
         "source": "AWS News Blog",
         "published": "2026-09-22T22:21:13.000Z",
-        "isNew": true
+        "isNew": false
       },
       {
         "title": "AWS Weekly Roundup: AWS Builder Center mobile apps, Amazon Connect Talent GA, Amazon Corretto 27, and more (September 21, 2026)",
@@ -111,7 +111,7 @@
         "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/09/image-3.webp",
         "source": "Microsoft Azure Blog",
         "published": "2026-09-16T16:00:00.000Z",
-        "isNew": true
+        "isNew": false
       },
       {
         "title": "Microsoft named a Leader in the 2026 Gartner® Magic Quadrant™ for Container Management",
@@ -259,7 +259,7 @@
         "image": null,
         "source": "Kubernetes Blog",
         "published": "2026-09-22T18:00:00.000Z",
-        "isNew": true
+        "isNew": false
       },
       {
         "title": "Kubernetes v1.37: Tracking When a PersistentVolumeClaim Was Last Used (Beta)",
@@ -327,6 +327,15 @@
     ],
     "terraform": [
       {
+        "title": "v1.16.4",
+        "link": "https://github.com/hashicorp/terraform/releases/tag/v1.16.4",
+        "summary": "1.16.4 (September 23, 2026)\nBUG FIXES:\nFixed an issue where Terraform fails when rendering policy evaluation outcomes for older versions of Terraform Enterprise (#39095)\nstacks: Fix invalid deferred error triggered by provider returning a deferral when a resource also has an unknown count/for_each. (#39237)",
+        "image": "https://avatars.githubusercontent.com/u/82989873?s=60&v=4",
+        "source": "Release notes from terraform",
+        "published": "2026-09-23T12:44:16.000Z",
+        "isNew": false
+      },
+      {
         "title": "v1.16.3",
         "link": "https://github.com/hashicorp/terraform/releases/tag/v1.16.3",
         "summary": "1.16.3 (September 16, 2026)\nBUG FIXES:\nFix handling of destroy=false around create_before_destroy instances (#39169)\nFix function result comparison when there are multiple marks (#39170)\nFilter logic for marks could cause values with multiple marks to erroneously fail validations (#39171)\nFix issue with import provider resolution (#39185)",
@@ -387,15 +396,6 @@
         "image": "https://avatars.githubusercontent.com/u/82989873?s=60&v=4",
         "source": "Release notes from terraform",
         "published": "2026-08-19T14:29:32.000Z",
-        "isNew": false
-      },
-      {
-        "title": "v1.16.0-rc2",
-        "link": "https://github.com/hashicorp/terraform/releases/tag/v1.16.0-rc2",
-        "summary": "1.16.0-rc2 (August 19, 2026)\nNEW FEATURES:\nTerraform now stores planned private data for providers, allowing provider-specific state to be preserved across plan and apply. (#37986)\nterraform_data: The new store block can hold ephemeral and sensitive values across plan and apply. (#38298)\nProviders can now use nested blocks as computed values (#38305)\nimport: import blocks inside modules are now supported. (#38352)\nTerraform is now available as a pre-built binary for Linux s390x (zLinux). (#38384)\nResource action triggers can now use on_failure modes of halt, taint, or continue. (#38722)\nENHANCEMENTS:\nstate show: The state show command can now produce machine-readable output when supplied with the -json flag (#23940)\nworkspace: The workspace list command can now produce machine-readable output when supplied with the -json flag (#38397)\ntest: Terraform now reports which resources were left behind when skip_cleanup is set. (#38449)\nstacks: Action configurations now have access to a caller symbol containing the object value of the calling resource. (#38668)\nActions can now use before_destroy and after_destroy events. (#38668)\ncloud: Terraform now displays a summary of policy evaluation outcomes for plan and apply runs against HCP Terraform. (#38715)\npolicy: Terraform now resolves policy plugin credentials from the configured cloud or remote backend during init, plan, and apply, rather than requiring the plugin to read credentials itself. (#38716)\ngraph: The terraform graph…",
-        "image": "https://avatars.githubusercontent.com/u/82989873?s=60&v=4",
-        "source": "Release notes from terraform",
-        "published": "2026-08-19T12:08:45.000Z",
         "isNew": false
       }
     ],
