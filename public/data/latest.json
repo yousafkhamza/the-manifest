@@ -1,6 +1,6 @@
 {
-  "date": "2026-09-22",
-  "generatedAt": "2026-09-22T20:11:43.135Z",
+  "date": "2026-09-23",
+  "generatedAt": "2026-09-23T09:58:57.239Z",
   "totalArticles": 72,
   "ticker": [
     {
@@ -30,6 +30,24 @@
   ],
   "topics": {
     "aws": [
+      {
+        "title": "Introducing Amazon CloudWatch Omni: collaborative AI-powered observability for your applications",
+        "link": "https://aws.amazon.com/blogs/aws/introducing-amazon-cloudwatch-omni-collaborative-ai-powered-observability-for-your-applications/",
+        "summary": "Amazon CloudWatch Omni is the next evolution of CloudWatch — unified observability that brings your applications and AI agents into one reimagined experience, with auto-discovered topology, natural language queries, and AI-guided investigation powered by AWS DevOps Agent.",
+        "image": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2026/09/21/cloudwatch-omni-console-1800.png",
+        "source": "AWS News Blog",
+        "published": "2026-09-22T22:23:14.000Z",
+        "isNew": true
+      },
+      {
+        "title": "Introducing Amazon CloudWatch Omni: AI-powered observability for generative AI and agentic workloads",
+        "link": "https://aws.amazon.com/blogs/aws/introducing-amazon-cloudwatch-omni-ai-powered-observability-for-generative-ai-and-agentic-workloads/",
+        "summary": "Learn how Amazon CloudWatch Omni delivers AI-powered observability purpose-built for generative AI and agentic workloads. Trace, evaluate, and experiment with AI agents across any framework—directly from your IDE or a standalone web experience—using open standards and built-in evaluators for quality, correctness, and coherence.",
+        "image": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2026/09/11/Triton-Figure-1-Welcome-Screen.png",
+        "source": "AWS News Blog",
+        "published": "2026-09-22T22:21:13.000Z",
+        "isNew": true
+      },
       {
         "title": "AWS Weekly Roundup: AWS Builder Center mobile apps, Amazon Connect Talent GA, Amazon Corretto 27, and more (September 21, 2026)",
         "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-aws-builder-center-mobile-apps-amazon-connect-talent-ga-amazon-corretto-27-and-more-september-14-2026/",
@@ -83,27 +101,18 @@
         "source": "AWS News Blog",
         "published": "2026-09-09T22:01:47.000Z",
         "isNew": false
-      },
-      {
-        "title": "AWS Weekly Roundup: Claude Fable 5.1 on AWS, Amazon Linux 2027 preview, AWS Certified AI Business Strategist, and more (September 7, 2026)",
-        "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-claude-fable-5-1-on-aws-amazon-linux-2027-preview-aws-certified-ai-business-strategist-and-more-september-7-2026/",
-        "summary": "Last week, Claude Fable 5.1 became available on AWS. According to Anthropic, Claude Fable 5.1 delivers frontier intelligence for ambitious tasks across coding, scientific research, and enterprise workflows. Claude Fable 5.1 is built for long-running, high-stakes work that runs for hours and spans many applications. It can own more of a software project on its […]",
-        "image": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2026/09/07/2026-claude-fable-5-1-onaws.png",
-        "source": "AWS News Blog",
-        "published": "2026-09-07T14:24:08.000Z",
-        "isNew": false
-      },
-      {
-        "title": "Amazon EC2 R9g and R9gd instances powered by AWS Graviton5 processors are now generally available",
-        "link": "https://aws.amazon.com/blogs/aws/amazon-ec2-r9g-and-r9gd-instances-powered-by-aws-graviton5-processors-are-now-generally-available/",
-        "summary": "Amazon EC2 R9g and R9gd instances powered by AWS Graviton5 are now generally available, delivering up to 25% better compute performance than R8g, ideal for databases, in-memory caches, and real-time analytics.",
-        "image": null,
-        "source": "AWS News Blog",
-        "published": "2026-08-31T19:53:34.000Z",
-        "isNew": false
       }
     ],
     "azure": [
+      {
+        "title": "Microsoft recognized as a Leader in the 2026 Gartner® Magic Quadrant™ for Distributed Hybrid Infrastructure",
+        "link": "https://azure.microsoft.com/en-us/blog/microsoft-recognized-as-a-leader-in-the-2026-gartner-magic-quadrant-for-distributed-hybrid-infrastructure/",
+        "summary": "Gartner highlighted Microsoft’s unified single-product architecture, flexibility across hyperconverged and disaggregated architectures, and more.\nThe post Microsoft recognized as a Leader in the 2026 Gartner® Magic Quadrant™ for Distributed Hybrid Infrastructure appeared first on Microsoft Azure Blog.",
+        "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/09/image-3.webp",
+        "source": "Microsoft Azure Blog",
+        "published": "2026-09-16T16:00:00.000Z",
+        "isNew": true
+      },
       {
         "title": "Microsoft named a Leader in the 2026 Gartner® Magic Quadrant™ for Container Management",
         "link": "https://azure.microsoft.com/en-us/blog/microsoft-named-a-leader-in-the-2026-gartner-magic-quadrant-for-container-management/",
@@ -166,22 +175,13 @@
         "source": "Microsoft Azure Blog",
         "published": "2026-09-03T18:15:00.000Z",
         "isNew": false
-      },
-      {
-        "title": "How Microsoft’s Physical Security Engineering Team scaled hybrid operations with Azure Arc and Azure Virtual Desktop",
-        "link": "https://azure.microsoft.com/en-us/blog/how-microsofts-physical-security-engineering-team-scaled-hybrid-operations-with-azure-arc-and-azure-virtual-desktop/",
-        "summary": "Learn how Microsoft used Azure Arc and Azure Virtual Desktop to simplify hybrid security operations, improve visibility, and scale globally.\nThe post How Microsoft’s Physical Security Engineering Team scaled hybrid operations with Azure Arc and Azure Virtual Desktop appeared first on Microsoft Azure Blog.",
-        "image": null,
-        "source": "Microsoft Azure Blog",
-        "published": "2026-09-03T15:00:00.000Z",
-        "isNew": false
       }
     ],
     "gcp": [
       {
         "title": "September 22, 2026",
         "link": "https://docs.cloud.google.com/release-notes#September_22_2026",
-        "summary": "Cloud Trace\nFeature\nThe following remote Google Cloud MCP servers automatically generate a trace span for\ntools/call operations.\nIdentity and Access Management\nOrganization Policy Service\nPolicy Analyzer\nSecurity Command Center\nSpanner\nUnified Maintenance\nThese spans can help you understand the behavior of\nyour agentic applications. For more information, see\nInvestigate MCP calls using Trace.\nFeature\nYou can use Terraform to configure resources managed by the Observability API.\nFor example, you can use Terraform to create and update observability buckets,\ncreate links on datasets, and configure default settings.\nFor more information, see the following documents:\nSet defaults for observability buckets\nCreate observability buckets\nUpdate observability buckets\nList buckets and manage datasets\nCompute Engine\nDeprecated\nAs of September 15, 2026, NVIDIA P100 (nvidia-tesla-p100 and\nnvidia-tesla-p100-vws) GPUs have reached end of support (EOS) and are shut\ndown. You can no longer create, launch, or access Compute Engine\ninstances or other Google Cloud resources that use NVIDIA P100 GPUs.\nFor information about migrating your workloads to supported GPU alternatives\nsuch as the G2 (NVIDIA L4) or G4 (NVIDIA RTX PRO 6000) machine series, see\nNVIDIA P100 end of support.\nDeprecated\nNVIDIA T4 (nvidia-tesla-t4 and nvidia-tesla-t4-vws) and NVIDIA P4\n(nvidia-tesla-p4 and nvidia-tesla-p4-vws) GPUs are deprecated and will reach\nend of support (EOS) on August 1, 2027. After August 1, 2027, you…",
+        "summary": "BigQuery\nFeature\nYou can now publish a BigQuery data agent in\nGemini Enterprise\nby registering the agent with Agent Registry and importing it using\ndefault Google-managed credentials. When\nBigQuery and Gemini Enterprise are in the same\nGoogle Cloud project and configured with a matching\nAgent Gateway\nregion, you don't need to manually copy the Agent-to-Agent (A2A) JSON card or\nconfigure OAuth client credentials.\nThese features are in\nPreview.\nBigtable\nFeature\nYou can use the Google Cloud console to create and manage protobuf schemas\n(schema bundles) for your Bigtable tables. You can also view schema bundle\ndefinitions in Bigtable Studio. This feature is generally available\n(GA).\nFor more information, see Create and manage protobuf\nschemas.\nCloud SDK\nBreaking\n586.0.0 (2026-09-22)\nBreaking Changes\n(Google Cloud CLI) The google-cloud-sdk Snap package will be deprecated and removed on September 29th, 2026. Please migrate to the google-cloud-cli package. For more information, see https://docs.cloud.google.com/sdk/docs/downloads-snap.\n(Google Cloud CLI) Deprecated and removed the bundled Kustomize component ('kustomize') from the Google Cloud CLI. Kustomize is an open-source project and continues to be maintained.\n\nTo avoid disruptions, please migrate to standard OSS kustomize installation: https://kubectl.docs.kubernetes.io/installation/kustomize/ or use the built-in 'kubectl kustomize ...'.\n\n(Google Cloud CLI) The gcloud CLI man pages component (gcloud-man-pages) is deprecated…",
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-09-22T07:00:00.000Z",
@@ -253,6 +253,15 @@
     ],
     "kubernetes": [
       {
+        "title": "Spotlight on SIG Apps",
+        "link": "https://kubernetes.io/blog/2026/09/22/sig-apps-spotlight/",
+        "summary": "As Kubernetes adoption has grown, the conversation has shifted beyond running containers to managing increasingly complex application lifecycles. Modern platforms support stateless web services, stateful databases, batch processing, AI workloads, and platform services. At the same time, they must remain reliable during upgrades, scaling events, and infrastructure failures.\nEvery Kubernetes user relies on SIG Apps, whether they realize it or not. Deployments, StatefulSets, DaemonSets, Jobs, and CronJobs form the foundation of how applications are deployed, updated, scaled, and operated across the Kubernetes ecosystem.\nSIG Apps is focused on improving workload resilience, refining application lifecycle management, and addressing the operational challenges that emerge when applications encounter node failures, rollout disruptions, and increasingly complex infrastructure environments.\nIn this spotlight, we sit down with two of the three SIG Apps chairs Janet Kuo and Maciej Szulik to discuss the evolution of Kubernetes workload management, the challenges of balancing application reliability with operational simplicity, and the future of application lifecycle management within one of Kubernetes’ most influential Special Interest Groups.\nIntroducing SIG Apps\nNatalie Fisher: Can you introduce yourself, your role, and how you got involved in SIG Apps?\nJanet Kuo: I'm a Senior Staff Software Engineer at Google and have been a Kubernetes maintainer since 2015, joining the community just…",
+        "image": null,
+        "source": "Kubernetes Blog",
+        "published": "2026-09-22T18:00:00.000Z",
+        "isNew": true
+      },
+      {
         "title": "Kubernetes v1.37: Tracking When a PersistentVolumeClaim Was Last Used (Beta)",
         "link": "https://kubernetes.io/blog/2026/09/21/kubernetes-v1-37-pvc-last-used-time/",
         "summary": "Kubernetes v1.37 promotes the PersistentVolumeClaimUnusedSinceTime feature gate to Beta (enabled by\ndefault). With this feature, the PersistentVolumeClaim (PVC) protection controller adds an Unused\ncondition to each PVC, telling you whether any running pod currently references it — no custom\ntooling or cross-referencing required.\nFor the API definition of PVC conditions, see the\nPersistentVolumeClaim API reference.\nRead on to learn how the Unused condition works and how to use it.\nWhy track PVC usage?\nIn large-scale Kubernetes clusters, it is common for users to create PVCs and then delete the\nassociated pods without cleaning up the storage, because Kubernetes does not automatically delete\nPVCs when their pods are removed (to protect against accidental data loss). Over time, these\norphaned PVCs may accumulate, silently consuming storage capacity and driving up cloud costs.\nBefore Kubernetes v1.37, it was easy to identify an unused PersistentVolume, but much harder to\ndetermine whether a PVC was still being used. Doing so required cross-referencing pods,\nPersistentVolumes, and PVCs over a potentially large window of time. Administrators often resorted\nto custom monitoring pipelines or scripts to answer a seemingly simple question:\n\"Is anything actually using this volume?\"\nThe PersistentVolumeClaimUnusedSinceTime feature solves this by making the answer available\nnatively in the PVC status. Once the feature is enabled, every PVC gets an Unused condition managed\nby the PVC…",
@@ -313,15 +322,6 @@
         "image": null,
         "source": "Kubernetes Blog",
         "published": "2026-09-10T18:30:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "Kubernetes v1.37: Introducing Node Lifecycle Conditions",
-        "link": "https://kubernetes.io/blog/2026/09/09/kubernetes-v1-37-node-lifecycle-conditions/",
-        "summary": "Kubernetes has many ways to describe what is happening on a Node. Readiness,\ntaints, Pod state, labels, annotations, and provider-specific APIs each expose\npart of the picture. What has been missing is a shared, Kubernetes-owned way to\nsay that a Node is draining,\nundergoing maintenance, or undergoing Graceful Node Shutdown.\nKubernetes v1.37 introduces five well-known Node conditions\nthat provide that description:\nDrainInProgress\nDrained\nMaintenancePlanned\nMaintenanceInProgress\nGracefulNodeShutdownInProgress\nThe new Node lifecycle conditions\n\n\n\nCondition\nWhat it reports\n\n\n\n\nDrainInProgress\nThe Node is actively being drained according to the administrator's chosen drain criteria.\n\n\nDrained\nThe Node has reached the drain criteria selected by the administrator.\n\n\nMaintenancePlanned\nThe Node is expected to undergo a change in the future.\n\n\nMaintenanceInProgress\nThe Node is actively undergoing maintenance.\n\n\nGracefulNodeShutdownInProgress\nGraceful Node Shutdown is determined to be in progress on the Node.\n\n\n\nMaintenance can include hardware or software rollout, remediation,\ndecommissioning, or debugging. Whether maintenance requires a drain depends on\nits impact. A Kubernetes upgrade usually should follow a drain, while a kernel\nlive patch might not need one.\nLike other Node conditions, each lifecycle condition uses status to report\nwhether the observation is active:\nTrue: the lifecycle state is currently observed.\nFalse: the lifecycle state is not currently observed.\nUnknown:…",
-        "image": null,
-        "source": "Kubernetes Blog",
-        "published": "2026-09-09T18:30:00.000Z",
         "isNew": false
       }
     ],
