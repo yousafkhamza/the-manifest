@@ -1,11 +1,11 @@
 {
   "date": "2026-09-23",
-  "generatedAt": "2026-09-23T15:27:48.883Z",
+  "generatedAt": "2026-09-23T20:21:46.144Z",
   "totalArticles": 72,
   "ticker": [
     {
       "label": "Kubernetes",
-      "version": "v1.37.0"
+      "version": "v1.37.1"
     },
     {
       "label": "Terraform",
@@ -179,6 +179,15 @@
     ],
     "gcp": [
       {
+        "title": "September 23, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#September_23_2026",
+        "summary": "Apigee API hub\nFeature\nPreview launch of AWS API Gateway and Azure API Management plugins\nAPI hub now includes two new built-in plugins for ingesting API metadata from third-party gateways: AWS API Gateway and Azure API Management. Both plugins are in Public Preview, extending API hub's multi-cloud governance to give you a single pane of glass across your Google Cloud, AWS, and Azure APIs.\nWhat's new\nAutomated discovery and onboarding: Connect your AWS account or Azure API Management (APIM) service and API hub automatically discovers your existing deployed APIs and related metadata.\nScheduled pull sync: A full metadata sync runs every 6 hours by default, with reconciliation (upserts and orphan deletes) to keep your catalog in sync with the source gateway.\nOptional near-real-time push sync: Deploy a customer-managed AWS Lambda function (for AWS API Gateway) or Azure Function (for Azure API Management) to relay control-plane change events to API hub in near real time. For sample deployment code, see the apigee-samples repository.\nFor more information, see About plugins, Manage third-party plugins, and Create a plugin instance.\nFeature\nSpec-to-deployment linkage and gateway revision tracking in API hub (GA)\nAPI hub now provides a first-class, bidirectional link between API specifications, operations, and the deployments that serve them, together with native tracking of the underlying gateway revision.\nWhat's new\nDirect visibility between specs and deployments: See exactly which…",
+        "image": null,
+        "source": "Google Cloud Platform (GCP) - Release notes",
+        "published": "2026-09-23T07:00:00.000Z",
+        "isNew": false
+      },
+      {
         "title": "September 22, 2026",
         "link": "https://docs.cloud.google.com/release-notes#September_22_2026",
         "summary": "BigQuery\nFeature\nYou can now publish a BigQuery data agent in\nGemini Enterprise\nby registering the agent with Agent Registry and importing it using\ndefault Google-managed credentials. When\nBigQuery and Gemini Enterprise are in the same\nGoogle Cloud project and configured with a matching\nAgent Gateway\nregion, you don't need to manually copy the Agent-to-Agent (A2A) JSON card or\nconfigure OAuth client credentials.\nThese features are in\nPreview.\nBigtable\nFeature\nYou can use the Google Cloud console to create and manage protobuf schemas\n(schema bundles) for your Bigtable tables. You can also view schema bundle\ndefinitions in Bigtable Studio. This feature is generally available\n(GA).\nFor more information, see Create and manage protobuf\nschemas.\nCloud SDK\nBreaking\n586.0.0 (2026-09-22)\nBreaking Changes\n(Google Cloud CLI) The google-cloud-sdk Snap package will be deprecated and removed on September 29th, 2026. Please migrate to the google-cloud-cli package. For more information, see https://docs.cloud.google.com/sdk/docs/downloads-snap.\n(Google Cloud CLI) Deprecated and removed the bundled Kustomize component ('kustomize') from the Google Cloud CLI. Kustomize is an open-source project and continues to be maintained.\n\nTo avoid disruptions, please migrate to standard OSS kustomize installation: https://kubectl.docs.kubernetes.io/installation/kustomize/ or use the built-in 'kubectl kustomize ...'.\n\n(Google Cloud CLI) The gcloud CLI man pages component (gcloud-man-pages) is deprecated…",
@@ -239,15 +248,6 @@
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-09-14T07:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "September 13, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#September_13_2026",
-        "summary": "Agent Platform Workbench\nChange\n20260911.00_p0 Release\nChange\n20260913.00_p0 Release\nChange\nInstalled latest packages from upstream dependencies.\nChange\nInstalled latest packages from upstream dependencies.\nFixed\nFixed the %%bigquery notebook cell magic, which returned an error instead of query results in JupyterLab 4.\nFixed\nFixed the %%bigquery notebook cell magic, which returned an error instead of query results in JupyterLab 4.\nChange\n20260913-2230-rc0 Release\nChange\n20260913-2230-rc0 Release\nChange\nInstalled latest packages from upstream dependencies.\nChange\nInstalled latest packages from upstream dependencies.\nFixed\nFixed an issue where the notebook-disable-nbconvert metadata flag was ignored in custom containers.\nChange\nThe obsolete\ngoogle-cloud-sdk transitional package is no longer installed. The Google Cloud\nCLI itself is unchanged; it was already provided by the google-cloud-cli\npackage.\nFixed\nFixed the %%bigquery notebook cell magic, which returned an error instead of query results in JupyterLab 4.\nFixed\nFixed an issue where the notebook-disable-nbconvert metadata flag was ignored in custom containers.\nFixed\nFixed the %%bigquery notebook cell magic, which returned an error instead of query results in JupyterLab 4.\nChange\n20260913-2130-rc0 Release\nChange\nInstalled latest packages from upstream dependencies.\nFixed\nFixed the %%bigquery notebook cell magic, which returned an error instead of query results in JupyterLab 4.\nChange\nM149 Release\nChange\nInstalled latest…",
-        "image": null,
-        "source": "Google Cloud Platform (GCP) - Release notes",
-        "published": "2026-09-13T07:00:00.000Z",
         "isNew": false
       }
     ],
@@ -327,6 +327,15 @@
     ],
     "terraform": [
       {
+        "title": "v1.17.0-beta2",
+        "link": "https://github.com/hashicorp/terraform/releases/tag/v1.17.0-beta2",
+        "summary": "1.17.0-beta2 (September 23, 2026)\nNEW FEATURES:\nTerraform now supports variables and locals in provider requirements (#39153)\nA new -minimal-refresh planning option has been added, which will only refresh resources that have proposed changes. (#35290)\npolicy: Terraform Policy is now generally available. The -policies flag for plan, apply, and query no longer requires an experimental build or the -allow-experimental-features flag. Query policies evaluate resources discovered by list blocks and report human-readable or JSON results. See https://developer.hashicorp.com/terraform/policy for more information. (#38970)\nENHANCEMENTS:\ncommand/init: Enrich log messages with provider versions (#38918)\ntest: Add mock_provider support for ephemeral resources (#38928)\ncommand/login: display warning after successful login if user is subject to an organization's TTL policy\nBUG FIXES:\nfuncs: pow and log no longer panic when result is not a number (#38912)\nephemeral: Terraform will now use and display diagnostics raised when renewing an ephemeral resource. This may cause warnings to appear that previously were lost. We expect that any error diagnostics that were previously lost would have caused confusing downstream errors, so we do not anticipate this change to be breaking. (#38989)\ntest: Deterministic dependency ordering in cleanup graph (#38247)\nquery: report Unknown and N/A results for policy evaluations of discovered resources (#39058)\nquery: terraform query -policies now rejects a path…",
+        "image": "https://avatars.githubusercontent.com/u/82989873?s=60&v=4",
+        "source": "Release notes from terraform",
+        "published": "2026-09-23T15:48:24.000Z",
+        "isNew": false
+      },
+      {
         "title": "v1.16.4",
         "link": "https://github.com/hashicorp/terraform/releases/tag/v1.16.4",
         "summary": "1.16.4 (September 23, 2026)\nBUG FIXES:\nFixed an issue where Terraform fails when rendering policy evaluation outcomes for older versions of Terraform Enterprise (#39095)\nstacks: Fix invalid deferred error triggered by provider returning a deferral when a resource also has an unknown count/for_each. (#39237)",
@@ -388,18 +397,18 @@
         "source": "Release notes from terraform",
         "published": "2026-08-26T13:05:28.000Z",
         "isNew": false
-      },
-      {
-        "title": "v1.15.9",
-        "link": "https://github.com/hashicorp/terraform/releases/tag/v1.15.9",
-        "summary": "1.15.9 (August 19, 2026)\nBUG FIXES:\nvalidate: Child module validation has been fixed and will now raise errors or warning diagnostics for invalid blocks. (list, import, backend, and cloud) (#38994)\nNOTES:\nUpdate go-slug to v0.18.3 to mitigate CVE-2026-14978, which is a Unicode normalization issue that could lead to files not being correctly excluded via .terraformignore from upload to a Terraform Enterprise or HCP Terraform during a run (#39036)",
-        "image": "https://avatars.githubusercontent.com/u/82989873?s=60&v=4",
-        "source": "Release notes from terraform",
-        "published": "2026-08-19T14:29:32.000Z",
-        "isNew": false
       }
     ],
     "python": [
+      {
+        "title": "The Python documentation is now available in Persian",
+        "link": "https://blog.python.org/2026/09/the-python-documentation-is-now-available-in-persian/",
+        "summary": "",
+        "image": null,
+        "source": "Python Insider",
+        "published": "2026-09-23T00:00:00.000Z",
+        "isNew": false
+      },
       {
         "title": "Announcing the 2026 PSF Board Election Results!",
         "link": "https://pyfound.blogspot.com/2026/09/announcing-2026-psf-board-election.html",
@@ -461,15 +470,6 @@
         "image": null,
         "source": "Python Software Foundation News",
         "published": "2026-08-31T14:45:44.984Z",
-        "isNew": false
-      },
-      {
-        "title": "Ramya Ravi: 2026 PSF Board Election Candidate Interview",
-        "link": "https://pyfound.blogspot.com/2026/08/ramya-ravi-2026-psf-board-election.html",
-        "summary": "Who are you?\nI'm Ramya Ravi, a Developer Advocate for AI and Open Source at NetApp Instaclustr, based in Connecticut. My day to day is teaching developers how to actually build with open source technology, not just read about it. I write technical tutorials, record videos, and speak at conferences, about things like vector search, retrieval augmented generation, and open source AI infrastructure. Python sits underneath almost everything I work on. The PyTorch and OpenSearch tooling I write about every week both run on it, so in a very real sense I've been a daily Python user for my entire career, even before I thought of myself as part of the Python community in the traditional sense.\nOutside of work, I care a lot about lowering the barrier to entry for newer developers. Earlier in my career I built a developer community from zero to over 6,000 members, and watching someone go from lurker to confident contributor is honestly what keeps me doing this kind of work.\nWhat would you bring to the PSF Board of Directors?\nI'd bring three things: a track record of building community from nothing, a habit of teaching at scale, and a genuinely outside perspective. I grew a developer community from zero to 6,000+ members earlier in my career, so I know what it actually takes to onboard someone new, keep them engaged, and turn them into someone who helps the next person. I've applied that same instinct to technical education, writing tutorials and producing videos across multiple open…",
-        "image": null,
-        "source": "Python Software Foundation News",
-        "published": "2026-08-25T12:52:26.929Z",
         "isNew": false
       }
     ],
@@ -623,6 +623,15 @@
     ],
     "javascript": [
       {
+        "title": "Node.js 22.23.3 (LTS)",
+        "link": "https://nodejs.org/en/blog/release/v22.23.3",
+        "summary": "",
+        "image": null,
+        "source": "Node.js Blog",
+        "published": "2026-09-23T18:22:40.000Z",
+        "isNew": false
+      },
+      {
         "title": "Node.js 26.10.0 (Current)",
         "link": "https://nodejs.org/en/blog/release/v26.10.0",
         "summary": "",
@@ -683,15 +692,6 @@
         "image": null,
         "source": "Node.js Blog",
         "published": "2026-08-26T14:29:42.000Z",
-        "isNew": false
-      },
-      {
-        "title": "Node.js Interactive 2026: A Recap",
-        "link": "https://nodejs.org/en/blog/events/nodejs-interactive-2026",
-        "summary": "",
-        "image": null,
-        "source": "Node.js Blog",
-        "published": "2026-08-14T00:00:00.000Z",
         "isNew": false
       }
     ]
