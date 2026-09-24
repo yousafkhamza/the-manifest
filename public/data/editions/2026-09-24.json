@@ -1,7 +1,7 @@
 {
   "date": "2026-09-24",
-  "generatedAt": "2026-09-24T10:00:29.537Z",
-  "totalArticles": 72,
+  "generatedAt": "2026-09-24T15:49:58.986Z",
+  "totalArticles": 64,
   "ticker": [
     {
       "label": "Kubernetes",
@@ -29,81 +29,44 @@
     }
   ],
   "topics": {
-    "aws": [
-      {
-        "title": "Introducing Amazon CloudWatch Omni: collaborative AI-powered observability for your applications",
-        "link": "https://aws.amazon.com/blogs/aws/introducing-amazon-cloudwatch-omni-collaborative-ai-powered-observability-for-your-applications/",
-        "summary": "Amazon CloudWatch Omni is the next evolution of CloudWatch — unified observability that brings your applications and AI agents into one reimagined experience, with auto-discovered topology, natural language queries, and AI-guided investigation powered by AWS DevOps Agent.",
-        "image": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2026/09/21/cloudwatch-omni-console-1800.png",
-        "source": "AWS News Blog",
-        "published": "2026-09-22T22:23:14.000Z",
-        "isNew": false
-      },
-      {
-        "title": "Introducing Amazon CloudWatch Omni: AI-powered observability for generative AI and agentic workloads",
-        "link": "https://aws.amazon.com/blogs/aws/introducing-amazon-cloudwatch-omni-ai-powered-observability-for-generative-ai-and-agentic-workloads/",
-        "summary": "Learn how Amazon CloudWatch Omni delivers AI-powered observability purpose-built for generative AI and agentic workloads. Trace, evaluate, and experiment with AI agents across any framework—directly from your IDE or a standalone web experience—using open standards and built-in evaluators for quality, correctness, and coherence.",
-        "image": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2026/09/11/Triton-Figure-1-Welcome-Screen.png",
-        "source": "AWS News Blog",
-        "published": "2026-09-22T22:21:13.000Z",
-        "isNew": false
-      },
-      {
-        "title": "AWS Weekly Roundup: AWS Builder Center mobile apps, Amazon Connect Talent GA, Amazon Corretto 27, and more (September 21, 2026)",
-        "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-aws-builder-center-mobile-apps-amazon-connect-talent-ga-amazon-corretto-27-and-more-september-14-2026/",
-        "summary": "Living in the Netherlands, I spend a fair amount of time on trains, and that is usually where I catch up on what the builder community is writing. Until now, that meant opening a laptop or squinting at a browser tab on my phone. This week I found myself scrolling through trending articles and checking […]",
-        "image": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2026/09/20/2026-09-21-WIR.png",
-        "source": "AWS News Blog",
-        "published": "2026-09-21T16:11:24.000Z",
-        "isNew": false
-      },
-      {
-        "title": "New low-cost burstable Amazon EC2 T8i instances are generally available",
-        "link": "https://aws.amazon.com/blogs/aws/new-low-cost-burstable-amazon-ec2-t8i-instances-are-generally-available/",
-        "summary": "AWS introduces new low-cost burstable Amazon EC2 T8i instances powered by custom sixth generation Intel Xeon Scalable Processors (Granite Rapids), available only on AWS. T8i instances are among the lowest-cost EC2 instances and deliver up to 30% better price performance over previous generation T3 instances.",
-        "image": null,
-        "source": "AWS News Blog",
-        "published": "2026-09-17T21:11:48.000Z",
-        "isNew": false
-      },
-      {
-        "title": "AWS Elastic Beanstalk introduces Cluster Mode",
-        "link": "https://aws.amazon.com/blogs/aws/aws-elastic-beanstalk-introduces-cluster-mode/",
-        "summary": "Run an application on AWS Elastic Beanstalk Cluster Mode without provisioning or operating the compute underneath it. You provide a container image or source code; Elastic Beanstalk with service-operated compute creates and operates the environment that runs it.",
-        "image": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2026/09/11/2026-eb-eks-1-1.jpg",
-        "source": "AWS News Blog",
-        "published": "2026-09-17T19:20:21.000Z",
-        "isNew": false
-      },
-      {
-        "title": "AWS reimagines the getting started experience",
-        "link": "https://aws.amazon.com/blogs/aws/aws-reimagines-the-getting-started-experience/",
-        "summary": "AWS has reimagined the getting started experience with smart and sensible defaults to help developers get started fast so that they can focus on building. New customers can sign up and get started right away with $100 in Free Tier credits, managed project environments, and simplified team and resource permissions. If their workload evolves, customers can activate advanced features to access the full breadth and depth of AWS in one step, with no migration required.",
-        "image": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2026/08/19/image-01-1024x648.png",
-        "source": "AWS News Blog",
-        "published": "2026-09-16T17:50:14.000Z",
-        "isNew": false
-      },
-      {
-        "title": "AWS Weekly Roundup: OpenAI GPT-6 Astra on Amazon Bedrock, Amazon Quick desktop GA, Kiro for students, and more (September 14, 2026)",
-        "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-openai-gpt-6-astra-on-amazon-bedrock-amazon-quick-desktop-ga-kiro-for-students-and-more-september-14-2026/",
-        "summary": "There’s a particular energy to mid-September in New York. Pumpkin spice lattes are flowing, temperatures are dropping, and it’s nearly sweater weather. The city is back at full speed, and so is the AWS launch calendar. This week that energy showed up in a new frontier model on Amazon Bedrock, a desktop app for Amazon […]",
-        "image": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2026/09/14/2025-gpt-6-astra-on-bedrack.png",
-        "source": "AWS News Blog",
-        "published": "2026-09-14T15:56:33.000Z",
-        "isNew": false
-      },
-      {
-        "title": "Introducing Amazon EBS Volume Clones across AWS accounts",
-        "link": "https://aws.amazon.com/blogs/aws/introducing-amazon-ebs-volume-clones-across-aws-accounts/",
-        "summary": "AWS introduces Amazon EBS Volume Clones with cross-account copy, so you can create copies of your EBS volumes into other AWS accounts and optionally re-encrypt them with an AWS Key Management Service (AWS KMS) key in the target account.",
-        "image": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2026/09/08/2026-ebs-clone-accounts-1.jpg",
-        "source": "AWS News Blog",
-        "published": "2026-09-09T22:01:47.000Z",
-        "isNew": false
-      }
-    ],
+    "aws": [],
     "azure": [
+      {
+        "title": "Your architecture diagram is not your resilience",
+        "link": "https://azure.microsoft.com/en-us/blog/your-architecture-diagram-is-not-your-resilience/",
+        "summary": "For years, resilience was something you set up once. That kept the lights on, but it treated resilience as a project with an end date rather than a property you maintain.\nThe post Your architecture diagram is not your resilience appeared first on Microsoft Azure Blog.",
+        "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/06/CLO20b_team_at_work_office_001-scaled.jpg",
+        "source": "Microsoft Azure Blog",
+        "published": "2026-09-23T16:00:00.000Z",
+        "isNew": false
+      },
+      {
+        "title": "Designing agent-first platforms: What changes when agents do the work",
+        "link": "https://azure.microsoft.com/en-us/blog/designing-agent-first-platforms-what-changes-when-agents-do-the-work/",
+        "summary": "The organizations pulling ahead are not simply adding AI to what they already have. They are designing for a different kind of software.\nThe post Designing agent-first platforms: What changes when agents do the work appeared first on Microsoft Azure Blog.",
+        "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/06/CLO24-Azure-Fintech-022-scaled.jpg",
+        "source": "Microsoft Azure Blog",
+        "published": "2026-09-23T15:00:00.000Z",
+        "isNew": false
+      },
+      {
+        "title": "GPT-6 Astra, Sol, and Luna: For production agents in Microsoft Foundry",
+        "link": "https://azure.microsoft.com/en-us/blog/gpt-6-astra-sol-and-luna-for-production-agents-in-microsoft-foundry/",
+        "summary": "Explore GPT-6 Astra, Sol, and GPT-6 Luna in Microsoft Foundry, with scalable model options for production AI agents, complex workflows, and high-volume tasks.\nThe post GPT-6 Astra, Sol, and Luna: For production agents in Microsoft Foundry appeared first on Microsoft Azure Blog.",
+        "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/09/updated_chart-1024x768.webp",
+        "source": "Microsoft Azure Blog",
+        "published": "2026-09-22T18:30:00.000Z",
+        "isNew": false
+      },
+      {
+        "title": "Claude Opus 5.5 comes to Microsoft Foundry for long-running coding and knowledge work",
+        "link": "https://techcommunity.microsoft.com/blog/azure-ai-foundry-blog/claude-opus-5-5-comes-to-microsoft-foundry-for-long-running-coding-and-knowledge/4558051",
+        "summary": "AI models are increasingly taking on work that extends far beyond a single prompt: building a feature across a codebase, investigating a complex issue, synthesizing hundreds of pages of information, or working through a multi-step business process.\nThe post Claude Opus 5.5 comes to Microsoft Foundry for long-running coding and knowledge work appeared first on Microsoft Azure Blog.",
+        "image": null,
+        "source": "Microsoft Azure Blog",
+        "published": "2026-09-22T17:00:25.000Z",
+        "isNew": false
+      },
       {
         "title": "Microsoft recognized as a Leader in the 2026 Gartner® Magic Quadrant™ for Distributed Hybrid Infrastructure",
         "link": "https://azure.microsoft.com/en-us/blog/microsoft-recognized-as-a-leader-in-the-2026-gartner-magic-quadrant-for-distributed-hybrid-infrastructure/",
@@ -139,45 +102,18 @@
         "source": "Microsoft Azure Blog",
         "published": "2026-09-10T16:00:00.000Z",
         "isNew": false
-      },
-      {
-        "title": "Two zones or three? A design framework for zone-resilient Azure workloads",
-        "link": "https://azure.microsoft.com/en-us/blog/two-zones-or-three-a-design-framework-for-zone-resilient-azure-workloads/",
-        "summary": "Zone resiliency isn't a single number you apply to a whole workload. The useful question isn't “how many zones?” but “how many zones does each component need to survive the loss of one?” Decide zone patterns component by component, use service-managed zone redundancy wherever it fits, and reserve three-zone designs for the components that genuinely require a third failure domain.\nThe post Two zones or three? A design framework for zone-resilient Azure workloads appeared first on Microsoft Azure Blog.",
-        "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/09/Azure-DataPlatform-Dark-scaled.jpg",
-        "source": "Microsoft Azure Blog",
-        "published": "2026-09-09T18:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "Beyond the benchmark: How an adaptive approach drives scientific discovery",
-        "link": "https://azure.microsoft.com/en-us/blog/beyond-the-benchmark-how-an-adaptive-approach-drives-scientific-discovery/",
-        "summary": "For research and development (R&D) organizations, the promise of agentic AI is not a better one-time answer. It is a new way to explore complex scientific and engineering problems: pursuing multiple hypotheses, validating them against evidence, learning from what does not work, and adapting their approach as new information becomes available.\nThe post Beyond the benchmark: How an adaptive approach drives scientific discovery appeared first on Microsoft Azure Blog.",
-        "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/09/CLO24-Azure-Healthcare-015-scaled.jpg",
-        "source": "Microsoft Azure Blog",
-        "published": "2026-09-08T20:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "Enterprise AI transformation relies on the end-to-end platform: Azure was built for this moment",
-        "link": "https://azure.microsoft.com/en-us/blog/enterprise-ai-transformation-relies-on-the-end-to-end-platform-azure-was-built-for-this-moment/",
-        "summary": "The recognition for Microsoft over the past couple of weeks comes down to models, infrastructure, data, applications, and developer tools working as one system when AI moves into production.\nThe post Enterprise AI transformation relies on the end-to-end platform: Azure was built for this moment appeared first on Microsoft Azure Blog.",
-        "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/09/Figure1-scaled.webp",
-        "source": "Microsoft Azure Blog",
-        "published": "2026-09-03T19:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "GPT-6 Astra: Frontier intelligence for work, now generally available in Microsoft Foundry",
-        "link": "https://azure.microsoft.com/en-us/blog/gpt-6-astra-frontier-intelligence-for-work-now-generally-available-in-microsoft-foundry/",
-        "summary": "GPT-6 Astra, OpenAI's newest frontier model, begins rolling out today through the Microsoft Foundry Limited Access Program, with availability expanding to participating customers over the coming days.\nThe post GPT-6 Astra: Frontier intelligence for work, now generally available in Microsoft Foundry appeared first on Microsoft Azure Blog.",
-        "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/06/Azure-DevTools-Dark-1-scaled.jpg",
-        "source": "Microsoft Azure Blog",
-        "published": "2026-09-03T18:15:00.000Z",
-        "isNew": false
       }
     ],
     "gcp": [
+      {
+        "title": "September 24, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#September_24_2026",
+        "summary": "Model Armor\nFeature\nYou can use the following filters in Melbourne (australia-southeast2)\nwith data residency enforcement enabled:\nPrompt injection and jailbreak detection\nResponsible AI\nFor information about available Model Armor features for each\nregion, see Supported features by\nregion.",
+        "image": null,
+        "source": "Google Cloud Platform (GCP) - Release notes",
+        "published": "2026-09-24T07:00:00.000Z",
+        "isNew": false
+      },
       {
         "title": "September 23, 2026",
         "link": "https://docs.cloud.google.com/release-notes#September_23_2026",
@@ -190,7 +126,7 @@
       {
         "title": "September 22, 2026",
         "link": "https://docs.cloud.google.com/release-notes#September_22_2026",
-        "summary": "BigQuery\nFeature\nYou can now publish a BigQuery data agent in\nGemini Enterprise\nby registering the agent with Agent Registry and importing it using\ndefault Google-managed credentials. When\nBigQuery and Gemini Enterprise are in the same\nGoogle Cloud project and configured with a matching\nAgent Gateway\nregion, you don't need to manually copy the Agent-to-Agent (A2A) JSON card or\nconfigure OAuth client credentials.\nThese features are in\nPreview.\nBigtable\nFeature\nYou can use the Google Cloud console to create and manage protobuf schemas\n(schema bundles) for your Bigtable tables. You can also view schema bundle\ndefinitions in Bigtable Studio. This feature is generally available\n(GA).\nFor more information, see Create and manage protobuf\nschemas.\nCloud SDK\nBreaking\n586.0.0 (2026-09-22)\nBreaking Changes\n(Google Cloud CLI) The google-cloud-sdk Snap package will be deprecated and removed on September 29th, 2026. Please migrate to the google-cloud-cli package. For more information, see https://docs.cloud.google.com/sdk/docs/downloads-snap.\n(Google Cloud CLI) Deprecated and removed the bundled Kustomize component ('kustomize') from the Google Cloud CLI. Kustomize is an open-source project and continues to be maintained.\n\nTo avoid disruptions, please migrate to standard OSS kustomize installation: https://kubectl.docs.kubernetes.io/installation/kustomize/ or use the built-in 'kubectl kustomize ...'.\n\n(Google Cloud CLI) The gcloud CLI man pages component (gcloud-man-pages) is deprecated…",
+        "summary": "BigQuery\nFeature\nYou can now publish a BigQuery data agent in\nGemini Enterprise\nby registering the agent with Agent Registry and importing it using\ndefault Google-managed credentials. When\nBigQuery and Gemini Enterprise are in the same\nGoogle Cloud project and configured with a matching\nAgent Gateway\nregion, you don't need to manually copy the Agent-to-Agent (A2A) JSON card or\nconfigure OAuth client credentials.\nThese features are in\nPreview.\nBigtable\nFeature\nYou can use the Google Cloud console to create and manage protobuf schemas\n(schema bundles) for your Bigtable tables. You can also view schema bundle\ndefinitions in Bigtable Studio. This feature is generally available\n(GA).\nFor more information, see Create and manage protobuf\nschemas.\nCloud NGFW\nFeature\nYou can now use Cloud NGFW Enterprise advanced threat prevention with\ncross-region internal Application Load Balancers\n(Preview).\nYou can configure global network firewall policies with security profile groups\nto inspect incoming traffic targeting load balancer forwarding rules. This\nintegration supports intrusion detection and prevention service and Advanced\nmalware sandbox (WildFire) to protect workloads and backends.\nFor more information, see Supported load\nbalancers. This feature is\navailable in Preview.\nCloud SDK\nBreaking\n586.0.0 (2026-09-22)\nBreaking Changes\n(Google Cloud CLI) The google-cloud-sdk Snap package will be deprecated and removed on September 29th, 2026. Please migrate to the google-cloud-cli package.…",
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-09-22T07:00:00.000Z",
@@ -217,7 +153,7 @@
       {
         "title": "September 17, 2026",
         "link": "https://docs.cloud.google.com/release-notes#September_17_2026",
-        "summary": "Apigee hybrid\nAnnouncement\nv1.16.10\nOn September 17, 2026 we released an updated version of the Apigee hybrid software, v1.16.10.\nFor information on upgrading, see Upgrading Apigee hybrid to version v1.16.10.\nFor information on new installations, see The big picture.\nNote: This is a patch release: The container images used in patch releases are integrated with the Apigee hybrid Helm charts. Upgrading to a patch via the Helm chart automatically updates the images. No manual image changes are typically needed. For information on container image support in Apigee hybrid releases, see Apigee release process.\nFixed\nFixed in this release\nBug ID\nDescription\n\n\n\n\n556750755\nFixed an issue where EventFlow (Server-Sent Events) dropped or truncated events following a large (>16 KB) event under load on the http-adaptor datapath.\n\n\n547712217\nFixed an issue where EventFlow (Server-Sent Events) responses larger than 16 KB could be truncated or corrupted across socket reads.\n\n\n519729209\nFixed a SAML XML Signature Wrapping (XSW) vulnerability in the ValidateSAMLAssertion policy.\n\n\n514384893\nHardened the Script policy to block server-side request forgery (SSRF) to link-local addresses.\n\n\n505645076\nFixed a security issue in the OAuthV2 policy to prevent unauthorized token injection via HTTP form parameters.\n\n\n505543289\nFixed thread-safety issues in the Netty client connection pool and channel lifecycle.\n\n\n503817773\nImproved security in the OAuthV2 policy implicit grant redirect_uri validation.…",
+        "summary": "Anti Money Laundering AI\nAnnouncement\nNew minor engine versions released for the retail line of business within the v004.005, v004.009, and v004.010 version lines (aml-retail.default.v004.005.202608-000, aml-retail.default.v004.009.202608-000, and aml-retail.default.v004.010.202608-000). These versions extend support for the major engine version and include no significant changes compared to the previous minor versions.\nApigee hybrid\nAnnouncement\nv1.16.10\nOn September 17, 2026 we released an updated version of the Apigee hybrid software, v1.16.10.\nFor information on upgrading, see Upgrading Apigee hybrid to version v1.16.10.\nFor information on new installations, see The big picture.\nNote: This is a patch release: The container images used in patch releases are integrated with the Apigee hybrid Helm charts. Upgrading to a patch via the Helm chart automatically updates the images. No manual image changes are typically needed. For information on container image support in Apigee hybrid releases, see Apigee release process.\nFixed\nFixed in this release\nBug ID\nDescription\n\n\n\n\n556750755\nFixed an issue where EventFlow (Server-Sent Events) dropped or truncated events following a large (>16 KB) event under load on the http-adaptor datapath.\n\n\n547712217\nFixed an issue where EventFlow (Server-Sent Events) responses larger than 16 KB could be truncated or corrupted across socket reads.\n\n\n519729209\nFixed a SAML XML Signature Wrapping (XSW) vulnerability in the ValidateSAMLAssertion…",
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-09-17T07:00:00.000Z",
@@ -239,15 +175,6 @@
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-09-15T07:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "September 14, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#September_14_2026",
-        "summary": "Agent Platform Workbench\nChange\nM150 Release\nChange\nInstalled latest packages from upstream dependencies.\nApigee hybrid\nAnnouncement\nhybrid v1.17.0\nOn September 14, 2026 we released an updated version of the Apigee hybrid software, 1.17.0.\nFor information on upgrading, see Upgrading Apigee hybrid to version v1.17.\nFor information on new installations, see The big picture.\nNote: This is a minor release: The container images used in minor releases are integrated with the Apigee hybrid Helm charts. Upgrading to a minor via the Helm chart automatically updates the images. No manual image changes are typically needed. For information on container image support in Apigee hybrid releases, see Apigee release process.\nFeature\nModel Context Protocol (MCP) support\nApigee hybrid now supports Model Context Protocol (MCP), an open protocol that lets agentic AI applications use your APIs as tools through managed MCP endpoints. Apigee hybrid routes, authorizes, and secures these MCP tool calls the same way it manages your other APIs, so you don't need to run or maintain your own MCP servers.\nMCP support is an optional feature that is not enabled by default. You must explicitly enable it in your Apigee hybrid configuration.\nFor more information, see Model Context Protocol (MCP) overview, Enable MCP for Apigee hybrid, and the MCP quickstart.\nFeature\nRoot CA certificate rotation\nApigee hybrid v1.17.0 lets you rotate the root certificate authority (CA) certificate that anchors trust for TLS…",
-        "image": null,
-        "source": "Google Cloud Platform (GCP) - Release notes",
-        "published": "2026-09-14T07:00:00.000Z",
         "isNew": false
       }
     ],
