@@ -1,7 +1,7 @@
 {
   "date": "2026-09-24",
-  "generatedAt": "2026-09-24T15:49:58.986Z",
-  "totalArticles": 64,
+  "generatedAt": "2026-09-24T20:30:15.179Z",
+  "totalArticles": 72,
   "ticker": [
     {
       "label": "Kubernetes",
@@ -29,7 +29,80 @@
     }
   ],
   "topics": {
-    "aws": [],
+    "aws": [
+      {
+        "title": "Introducing Amazon CloudWatch Omni: collaborative AI-powered observability for your applications",
+        "link": "https://aws.amazon.com/blogs/aws/introducing-amazon-cloudwatch-omni-collaborative-ai-powered-observability-for-your-applications/",
+        "summary": "Amazon CloudWatch Omni is the next evolution of CloudWatch — unified observability that brings your applications and AI agents into one reimagined experience, with auto-discovered topology, natural language queries, and AI-guided investigation powered by AWS DevOps Agent.",
+        "image": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2026/09/21/cloudwatch-omni-console-1800.png",
+        "source": "AWS News Blog",
+        "published": "2026-09-22T22:23:14.000Z",
+        "isNew": false
+      },
+      {
+        "title": "Introducing Amazon CloudWatch Omni: AI-powered observability for generative AI and agentic workloads",
+        "link": "https://aws.amazon.com/blogs/aws/introducing-amazon-cloudwatch-omni-ai-powered-observability-for-generative-ai-and-agentic-workloads/",
+        "summary": "Learn how Amazon CloudWatch Omni delivers AI-powered observability purpose-built for generative AI and agentic workloads. Trace, evaluate, and experiment with AI agents across any framework—directly from your IDE or a standalone web experience—using open standards and built-in evaluators for quality, correctness, and coherence.",
+        "image": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2026/09/11/Triton-Figure-1-Welcome-Screen.png",
+        "source": "AWS News Blog",
+        "published": "2026-09-22T22:21:13.000Z",
+        "isNew": false
+      },
+      {
+        "title": "AWS Weekly Roundup: AWS Builder Center mobile apps, Amazon Connect Talent GA, Amazon Corretto 27, and more (September 21, 2026)",
+        "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-aws-builder-center-mobile-apps-amazon-connect-talent-ga-amazon-corretto-27-and-more-september-14-2026/",
+        "summary": "Living in the Netherlands, I spend a fair amount of time on trains, and that is usually where I catch up on what the builder community is writing. Until now, that meant opening a laptop or squinting at a browser tab on my phone. This week I found myself scrolling through trending articles and checking […]",
+        "image": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2026/09/20/2026-09-21-WIR.png",
+        "source": "AWS News Blog",
+        "published": "2026-09-21T16:11:24.000Z",
+        "isNew": false
+      },
+      {
+        "title": "New low-cost burstable Amazon EC2 T8i instances are generally available",
+        "link": "https://aws.amazon.com/blogs/aws/new-low-cost-burstable-amazon-ec2-t8i-instances-are-generally-available/",
+        "summary": "AWS introduces new low-cost burstable Amazon EC2 T8i instances powered by custom sixth generation Intel Xeon Scalable Processors (Granite Rapids), available only on AWS. T8i instances are among the lowest-cost EC2 instances and deliver up to 30% better price performance over previous generation T3 instances.",
+        "image": null,
+        "source": "AWS News Blog",
+        "published": "2026-09-17T21:11:48.000Z",
+        "isNew": false
+      },
+      {
+        "title": "AWS Elastic Beanstalk introduces Cluster Mode",
+        "link": "https://aws.amazon.com/blogs/aws/aws-elastic-beanstalk-introduces-cluster-mode/",
+        "summary": "Run an application on AWS Elastic Beanstalk Cluster Mode without provisioning or operating the compute underneath it. You provide a container image or source code; Elastic Beanstalk with service-operated compute creates and operates the environment that runs it.",
+        "image": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2026/09/11/2026-eb-eks-1-1.jpg",
+        "source": "AWS News Blog",
+        "published": "2026-09-17T19:20:21.000Z",
+        "isNew": false
+      },
+      {
+        "title": "AWS reimagines the getting started experience",
+        "link": "https://aws.amazon.com/blogs/aws/aws-reimagines-the-getting-started-experience/",
+        "summary": "AWS has reimagined the getting started experience with smart and sensible defaults to help developers get started fast so that they can focus on building. New customers can sign up and get started right away with $100 in Free Tier credits, managed project environments, and simplified team and resource permissions. If their workload evolves, customers can activate advanced features to access the full breadth and depth of AWS in one step, with no migration required.",
+        "image": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2026/08/19/image-01-1024x648.png",
+        "source": "AWS News Blog",
+        "published": "2026-09-16T17:50:14.000Z",
+        "isNew": false
+      },
+      {
+        "title": "AWS Weekly Roundup: OpenAI GPT-6 Astra on Amazon Bedrock, Amazon Quick desktop GA, Kiro for students, and more (September 14, 2026)",
+        "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-openai-gpt-6-astra-on-amazon-bedrock-amazon-quick-desktop-ga-kiro-for-students-and-more-september-14-2026/",
+        "summary": "There’s a particular energy to mid-September in New York. Pumpkin spice lattes are flowing, temperatures are dropping, and it’s nearly sweater weather. The city is back at full speed, and so is the AWS launch calendar. This week that energy showed up in a new frontier model on Amazon Bedrock, a desktop app for Amazon […]",
+        "image": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2026/09/14/2025-gpt-6-astra-on-bedrack.png",
+        "source": "AWS News Blog",
+        "published": "2026-09-14T15:56:33.000Z",
+        "isNew": false
+      },
+      {
+        "title": "Introducing Amazon EBS Volume Clones across AWS accounts",
+        "link": "https://aws.amazon.com/blogs/aws/introducing-amazon-ebs-volume-clones-across-aws-accounts/",
+        "summary": "AWS introduces Amazon EBS Volume Clones with cross-account copy, so you can create copies of your EBS volumes into other AWS accounts and optionally re-encrypt them with an AWS Key Management Service (AWS KMS) key in the target account.",
+        "image": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2026/09/08/2026-ebs-clone-accounts-1.jpg",
+        "source": "AWS News Blog",
+        "published": "2026-09-09T22:01:47.000Z",
+        "isNew": false
+      }
+    ],
     "azure": [
       {
         "title": "Your architecture diagram is not your resilience",
@@ -108,7 +181,7 @@
       {
         "title": "September 24, 2026",
         "link": "https://docs.cloud.google.com/release-notes#September_24_2026",
-        "summary": "Model Armor\nFeature\nYou can use the following filters in Melbourne (australia-southeast2)\nwith data residency enforcement enabled:\nPrompt injection and jailbreak detection\nResponsible AI\nFor information about available Model Armor features for each\nregion, see Supported features by\nregion.",
+        "summary": "Apigee hybrid\nAnnouncement\nv1.15.8\nOn September 24, 2026 we released an updated version of the Apigee hybrid software, v1.15.8.\nFor information on upgrading, see Upgrading Apigee hybrid to version v1.15.8.\nFor information on new installations, see The big picture.\nNote: This is a patch release: The container images used in patch releases are integrated with the Apigee hybrid Helm charts. Upgrading to a patch via the Helm chart automatically updates the images. No manual image changes are typically needed. For information on container image support in Apigee hybrid releases, see Apigee release process.\nFixed\nFixed in this release\nBug ID\nDescription\n\n\n\n\n535928300\nFixed a security issue in JWT refresh token revocation handling.\n\n\n535683286\nFixed a security issue in HTTP target interim-response (103 Early Hints) handling to prevent response desynchronization.\n\n\n534852923\nFixed a security issue in the JavaCallout policy.\n\n\n534420582\nThe JSONThreatProtection policy now supports an optional <RejectDuplicateKeys> child element that rejects JSON payloads containing duplicate keys within the same object.\n\n\n531773665\nFixed an issue where the VerifyAPIKey policy could fail with a NullPointerException when reading developer attributes.\n\n\n469642464\nImproved input validation in AI protection policies to prevent server-side request forgery (SSRF).\n\n\n449228485\nApigee hybrid now supports configuring custom Kubernetes PodDisruptionBudget (minAvailable or maxUnavailable) values for Apigee…",
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-09-24T07:00:00.000Z",
