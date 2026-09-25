@@ -1,6 +1,6 @@
 {
   "date": "2026-09-25",
-  "generatedAt": "2026-09-25T10:11:45.287Z",
+  "generatedAt": "2026-09-25T15:50:26.288Z",
   "totalArticles": 72,
   "ticker": [
     {
@@ -37,7 +37,7 @@
         "image": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2026/09/01/image-01-1024x806.png",
         "source": "AWS News Blog",
         "published": "2026-09-24T20:58:46.000Z",
-        "isNew": true
+        "isNew": false
       },
       {
         "title": "Introducing Amazon CloudWatch Omni: collaborative AI-powered observability for your applications",
@@ -105,51 +105,6 @@
     ],
     "azure": [
       {
-        "title": "Ship agents faster with expanded model choice, voice agents, and continuous optimization",
-        "link": "https://azure.microsoft.com/en-us/blog/ship-agents-faster-with-expanded-model-choice-voice-agents-and-continuous-optimization/",
-        "summary": "The best model for your business will keep changing. Adopting it should move your business forward, not send your team back to rebuild the architecture around it.\nThe post Ship agents faster with expanded model choice, voice agents, and continuous optimization appeared first on Microsoft Azure Blog.",
-        "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/09/foundry-agent-loop-v2.webp",
-        "source": "Microsoft Azure Blog",
-        "published": "2026-09-24T18:00:00.000Z",
-        "isNew": true
-      },
-      {
-        "title": "Your architecture diagram is not your resilience",
-        "link": "https://azure.microsoft.com/en-us/blog/your-architecture-diagram-is-not-your-resilience/",
-        "summary": "For years, resilience was something you set up once. That kept the lights on, but it treated resilience as a project with an end date rather than a property you maintain.\nThe post Your architecture diagram is not your resilience appeared first on Microsoft Azure Blog.",
-        "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/06/CLO20b_team_at_work_office_001-scaled.jpg",
-        "source": "Microsoft Azure Blog",
-        "published": "2026-09-23T16:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "Designing agent-first platforms: What changes when agents do the work",
-        "link": "https://azure.microsoft.com/en-us/blog/designing-agent-first-platforms-what-changes-when-agents-do-the-work/",
-        "summary": "The organizations pulling ahead are not simply adding AI to what they already have. They are designing for a different kind of software.\nThe post Designing agent-first platforms: What changes when agents do the work appeared first on Microsoft Azure Blog.",
-        "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/06/CLO24-Azure-Fintech-022-scaled.jpg",
-        "source": "Microsoft Azure Blog",
-        "published": "2026-09-23T15:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "GPT-6 Astra, Sol, and Luna: For production agents in Microsoft Foundry",
-        "link": "https://azure.microsoft.com/en-us/blog/gpt-6-astra-sol-and-luna-for-production-agents-in-microsoft-foundry/",
-        "summary": "Explore GPT-6 Astra, Sol, and GPT-6 Luna in Microsoft Foundry, with scalable model options for production AI agents, complex workflows, and high-volume tasks.\nThe post GPT-6 Astra, Sol, and Luna: For production agents in Microsoft Foundry appeared first on Microsoft Azure Blog.",
-        "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/09/updated_chart-1024x768.webp",
-        "source": "Microsoft Azure Blog",
-        "published": "2026-09-22T18:30:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "Claude Opus 5.5 comes to Microsoft Foundry for long-running coding and knowledge work",
-        "link": "https://techcommunity.microsoft.com/blog/azure-ai-foundry-blog/claude-opus-5-5-comes-to-microsoft-foundry-for-long-running-coding-and-knowledge/4558051",
-        "summary": "AI models are increasingly taking on work that extends far beyond a single prompt: building a feature across a codebase, investigating a complex issue, synthesizing hundreds of pages of information, or working through a multi-step business process.\nThe post Claude Opus 5.5 comes to Microsoft Foundry for long-running coding and knowledge work appeared first on Microsoft Azure Blog.",
-        "image": null,
-        "source": "Microsoft Azure Blog",
-        "published": "2026-09-22T17:00:25.000Z",
-        "isNew": false
-      },
-      {
         "title": "Microsoft recognized as a Leader in the 2026 Gartner® Magic Quadrant™ for Distributed Hybrid Infrastructure",
         "link": "https://azure.microsoft.com/en-us/blog/microsoft-recognized-as-a-leader-in-the-2026-gartner-magic-quadrant-for-distributed-hybrid-infrastructure/",
         "summary": "Gartner highlighted Microsoft’s unified single-product architecture, flexibility across hyperconverged and disaggregated architectures, and more.\nThe post Microsoft recognized as a Leader in the 2026 Gartner® Magic Quadrant™ for Distributed Hybrid Infrastructure appeared first on Microsoft Azure Blog.",
@@ -175,6 +130,51 @@
         "source": "Microsoft Azure Blog",
         "published": "2026-09-10T17:00:00.000Z",
         "isNew": false
+      },
+      {
+        "title": "The future of infrastructure resiliency starts with modernization",
+        "link": "https://azure.microsoft.com/en-us/blog/the-future-of-infrastructure-resiliency-starts-with-modernization/",
+        "summary": "Modernization only succeeds when organizations have confidence that their infrastructure can withstand disruption and continue supporting critical operations.\nThe post The future of infrastructure resiliency starts with modernization appeared first on Microsoft Azure Blog.",
+        "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/09/Azure-DataPlatform-Dark-scaled.jpg",
+        "source": "Microsoft Azure Blog",
+        "published": "2026-09-10T16:00:00.000Z",
+        "isNew": false
+      },
+      {
+        "title": "Two zones or three? A design framework for zone-resilient Azure workloads",
+        "link": "https://azure.microsoft.com/en-us/blog/two-zones-or-three-a-design-framework-for-zone-resilient-azure-workloads/",
+        "summary": "Zone resiliency isn't a single number you apply to a whole workload. The useful question isn't “how many zones?” but “how many zones does each component need to survive the loss of one?” Decide zone patterns component by component, use service-managed zone redundancy wherever it fits, and reserve three-zone designs for the components that genuinely require a third failure domain.\nThe post Two zones or three? A design framework for zone-resilient Azure workloads appeared first on Microsoft Azure Blog.",
+        "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/09/Azure-DataPlatform-Dark-scaled.jpg",
+        "source": "Microsoft Azure Blog",
+        "published": "2026-09-09T18:00:00.000Z",
+        "isNew": false
+      },
+      {
+        "title": "Beyond the benchmark: How an adaptive approach drives scientific discovery",
+        "link": "https://azure.microsoft.com/en-us/blog/beyond-the-benchmark-how-an-adaptive-approach-drives-scientific-discovery/",
+        "summary": "For research and development (R&D) organizations, the promise of agentic AI is not a better one-time answer. It is a new way to explore complex scientific and engineering problems: pursuing multiple hypotheses, validating them against evidence, learning from what does not work, and adapting their approach as new information becomes available.\nThe post Beyond the benchmark: How an adaptive approach drives scientific discovery appeared first on Microsoft Azure Blog.",
+        "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/09/CLO24-Azure-Healthcare-015-scaled.jpg",
+        "source": "Microsoft Azure Blog",
+        "published": "2026-09-08T20:00:00.000Z",
+        "isNew": false
+      },
+      {
+        "title": "Enterprise AI transformation relies on the end-to-end platform: Azure was built for this moment",
+        "link": "https://azure.microsoft.com/en-us/blog/enterprise-ai-transformation-relies-on-the-end-to-end-platform-azure-was-built-for-this-moment/",
+        "summary": "The recognition for Microsoft over the past couple of weeks comes down to models, infrastructure, data, applications, and developer tools working as one system when AI moves into production.\nThe post Enterprise AI transformation relies on the end-to-end platform: Azure was built for this moment appeared first on Microsoft Azure Blog.",
+        "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/09/Figure1-scaled.webp",
+        "source": "Microsoft Azure Blog",
+        "published": "2026-09-03T19:00:00.000Z",
+        "isNew": false
+      },
+      {
+        "title": "GPT-6 Astra: Frontier intelligence for work, now generally available in Microsoft Foundry",
+        "link": "https://azure.microsoft.com/en-us/blog/gpt-6-astra-frontier-intelligence-for-work-now-generally-available-in-microsoft-foundry/",
+        "summary": "GPT-6 Astra, OpenAI's newest frontier model, begins rolling out today through the Microsoft Foundry Limited Access Program, with availability expanding to participating customers over the coming days.\nThe post GPT-6 Astra: Frontier intelligence for work, now generally available in Microsoft Foundry appeared first on Microsoft Azure Blog.",
+        "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/06/Azure-DevTools-Dark-1-scaled.jpg",
+        "source": "Microsoft Azure Blog",
+        "published": "2026-09-03T18:15:00.000Z",
+        "isNew": false
       }
     ],
     "gcp": [
@@ -199,7 +199,7 @@
       {
         "title": "September 22, 2026",
         "link": "https://docs.cloud.google.com/release-notes#September_22_2026",
-        "summary": "BigQuery\nFeature\nYou can now publish a BigQuery data agent in\nGemini Enterprise\nby registering the agent with Agent Registry and importing it using\ndefault Google-managed credentials. When\nBigQuery and Gemini Enterprise are in the same\nGoogle Cloud project and configured with a matching\nAgent Gateway\nregion, you don't need to manually copy the Agent-to-Agent (A2A) JSON card or\nconfigure OAuth client credentials.\nThese features are in\nPreview.\nBigtable\nFeature\nYou can use the Google Cloud console to create and manage protobuf schemas\n(schema bundles) for your Bigtable tables. You can also view schema bundle\ndefinitions in Bigtable Studio. This feature is generally available\n(GA).\nFor more information, see Create and manage protobuf\nschemas.\nCloud NGFW\nFeature\nYou can now use Cloud NGFW Enterprise advanced threat prevention with\ncross-region internal Application Load Balancers\n(Preview).\nYou can configure global network firewall policies with security profile groups\nto inspect incoming traffic targeting load balancer forwarding rules. This\nintegration supports intrusion detection and prevention service and Advanced\nmalware sandbox (WildFire) to protect workloads and backends.\nFor more information, see Supported load\nbalancers. This feature is\navailable in Preview.\nCloud SDK\nBreaking\n586.0.0 (2026-09-22)\nBreaking Changes\n(Google Cloud CLI) The google-cloud-sdk Snap package will be deprecated and removed on September 29th, 2026. Please migrate to the google-cloud-cli package.…",
+        "summary": "BigQuery\nFeature\nYou can now publish a BigQuery data agent in\nGemini Enterprise\nby registering the agent with Agent Registry and importing it using\ndefault Google-managed credentials. When\nBigQuery and Gemini Enterprise are in the same\nGoogle Cloud project and configured with a matching\nAgent Gateway\nregion, you don't need to manually copy the Agent-to-Agent (A2A) JSON card or\nconfigure OAuth client credentials.\nThese features are in\nPreview.\nBigtable\nFeature\nYou can use the Google Cloud console to create and manage protobuf schemas\n(schema bundles) for your Bigtable tables. You can also view schema bundle\ndefinitions in Bigtable Studio. This feature is generally available\n(GA).\nFor more information, see Create and manage protobuf\nschemas.\nCloud NGFW\nFeature\nYou can now use Cloud NGFW Enterprise advanced threat prevention with\ncross-region internal Application Load Balancers\n(Preview).\nYou can configure global network firewall policies with security profile groups\nto inspect incoming traffic targeting load balancer forwarding rules. This\nintegration supports intrusion detection and prevention service and Advanced\nmalware sandbox (WildFire) to protect workloads and backends.\nFor more information, see Supported load\nbalancers. This feature is\navailable in Preview.\nCloud Trace\nFeature\nThe following remote Google Cloud MCP servers automatically generate a trace span for\ntools/call operations.\nIdentity and Access Management\nOrganization Policy Service\nPolicy Analyzer\nSecurity…",
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-09-22T07:00:00.000Z",
@@ -481,7 +481,7 @@
         "image": null,
         "source": "The Go Blog",
         "published": "2026-09-24T00:00:00.000Z",
-        "isNew": true
+        "isNew": false
       },
       {
         "title": "Size-Specialized Memory Allocation",
