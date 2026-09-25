@@ -1,6 +1,6 @@
 {
-  "date": "2026-09-24",
-  "generatedAt": "2026-09-24T20:30:15.179Z",
+  "date": "2026-09-25",
+  "generatedAt": "2026-09-25T10:11:45.287Z",
   "totalArticles": 72,
   "ticker": [
     {
@@ -30,6 +30,15 @@
   ],
   "topics": {
     "aws": [
+      {
+        "title": "Introducing enhanced custom event buses in Amazon EventBridge for enterprise-scale event-driven applications",
+        "link": "https://aws.amazon.com/blogs/aws/introducing-enhanced-custom-event-buses-in-amazon-eventbridge-for-enterprise-scale-event-driven-applications/",
+        "summary": "Amazon EventBridge announces an enhanced custom event bus for organizations scaling event-driven applications across teams and accounts. Deploy a single event bus shared across all AWS accounts in your organization, with ordering guarantees, a simplified Subscriber resource, and improved economics at scale.",
+        "image": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2026/09/01/image-01-1024x806.png",
+        "source": "AWS News Blog",
+        "published": "2026-09-24T20:58:46.000Z",
+        "isNew": true
+      },
       {
         "title": "Introducing Amazon CloudWatch Omni: collaborative AI-powered observability for your applications",
         "link": "https://aws.amazon.com/blogs/aws/introducing-amazon-cloudwatch-omni-collaborative-ai-powered-observability-for-your-applications/",
@@ -92,18 +101,18 @@
         "source": "AWS News Blog",
         "published": "2026-09-14T15:56:33.000Z",
         "isNew": false
-      },
-      {
-        "title": "Introducing Amazon EBS Volume Clones across AWS accounts",
-        "link": "https://aws.amazon.com/blogs/aws/introducing-amazon-ebs-volume-clones-across-aws-accounts/",
-        "summary": "AWS introduces Amazon EBS Volume Clones with cross-account copy, so you can create copies of your EBS volumes into other AWS accounts and optionally re-encrypt them with an AWS Key Management Service (AWS KMS) key in the target account.",
-        "image": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2026/09/08/2026-ebs-clone-accounts-1.jpg",
-        "source": "AWS News Blog",
-        "published": "2026-09-09T22:01:47.000Z",
-        "isNew": false
       }
     ],
     "azure": [
+      {
+        "title": "Ship agents faster with expanded model choice, voice agents, and continuous optimization",
+        "link": "https://azure.microsoft.com/en-us/blog/ship-agents-faster-with-expanded-model-choice-voice-agents-and-continuous-optimization/",
+        "summary": "The best model for your business will keep changing. Adopting it should move your business forward, not send your team back to rebuild the architecture around it.\nThe post Ship agents faster with expanded model choice, voice agents, and continuous optimization appeared first on Microsoft Azure Blog.",
+        "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/09/foundry-agent-loop-v2.webp",
+        "source": "Microsoft Azure Blog",
+        "published": "2026-09-24T18:00:00.000Z",
+        "isNew": true
+      },
       {
         "title": "Your architecture diagram is not your resilience",
         "link": "https://azure.microsoft.com/en-us/blog/your-architecture-diagram-is-not-your-resilience/",
@@ -165,15 +174,6 @@
         "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/09/Effective-cost-governance-screenshot.webp",
         "source": "Microsoft Azure Blog",
         "published": "2026-09-10T17:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "The future of infrastructure resiliency starts with modernization",
-        "link": "https://azure.microsoft.com/en-us/blog/the-future-of-infrastructure-resiliency-starts-with-modernization/",
-        "summary": "Modernization only succeeds when organizations have confidence that their infrastructure can withstand disruption and continue supporting critical operations.\nThe post The future of infrastructure resiliency starts with modernization appeared first on Microsoft Azure Blog.",
-        "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/09/Azure-DataPlatform-Dark-scaled.jpg",
-        "source": "Microsoft Azure Blog",
-        "published": "2026-09-10T16:00:00.000Z",
         "isNew": false
       }
     ],
@@ -475,6 +475,15 @@
     ],
     "go": [
       {
+        "title": "Platform-independent SIMD in Go",
+        "link": "https://go.dev/blog/simd-experiment",
+        "summary": "The Go Blog\nPlatform-independent SIMD in Go\nGo 1.26 and 1.27 include experimental APIs for Single Instruction Multiple Data (SIMD) operations. SIMD is a native feature of many modern CPUs that allows software to perform uniform operations across vectors of data very quickly, such as adding 8 pairs of float64 values in a single instruction. It can significantly speed up many computationally-intensive tasks, ranging from cryptography to data processing to AI. In fact, Go’s Green Tea garbage collector even makes use of SIMD to accelerate scanning memory for live objects.\nPrior to these new experimental APIs, the only way to access this functionality from Go was by writing Go assembly. This was only worth it for truly performance-critical compute kernels, which meant plenty of software that could benefit from SIMD simply left a lot of the CPU unused.\nGo 1.26 introduced a SIMD API for amd64, and Go 1.27 added APIs for arm64 (specifically NEON) and wasm. However, a basic challenge for a SIMD API is the enormous variation between platforms, not simply in what operations they support, but even in how vectors are represented. Some platforms provide fixed-size vectors, typically between 128 bits and 512 bits, while on others the vector size isn’t known at build time and must be queried when the program starts. To provide full access to the breadth of these platforms, these APIs live in an architecture-dependent archsimd package.\nBut Go 1.27 goes beyond these architecture-dependent…",
+        "image": null,
+        "source": "The Go Blog",
+        "published": "2026-09-24T00:00:00.000Z",
+        "isNew": true
+      },
+      {
         "title": "Size-Specialized Memory Allocation",
         "link": "https://go.dev/blog/size-specialized-allocations",
         "summary": "The Go Blog\nSize-Specialized Memory Allocation\nGo 1.27 includes faster memory allocation for allocations of 80 bytes or fewer.\nAllocations can be up to 20-30% faster, making allocation-heavy programs up to 1% faster.\nThe Go runtime improves the performance of those allocations by adding specialized\nfunctions that are used to allocate certain sizes. These specialized functions\ncan then make certain assumptions that make them faster and easier to optimize.\nThis blog post will explain how this works and how it makes your programs faster.\nHeap allocations are created by the runtime’s mallocgc function, which requires the size\nof the allocation and whether it contains pointers. When the compiler determines that an\nobject escapes to the heap or otherwise needs to be dynamically\nallocated, it inserts a call to newobject, which is a simple wrapper function that extracts\nthe size of the object and whether it contains pointers and passes those to mallocgc.\nThese two pieces of information determine\nmost of the work that the allocator needs to do. The size is important because the allocator\ndefines ranges of sizes called “size classes”. For most allocations that are not too large\nand not too small, it will return a block of memory from a list of free objects\nthat are all sized to the maximum size of the size class. So, for instance, size class 3\nis 17-24 bytes. So whether you allocate 17 bytes or 24 bytes, the allocator will give\nyou the next free 24 byte object available in its list of…",
@@ -535,15 +544,6 @@
         "image": null,
         "source": "The Go Blog",
         "published": "2026-03-10T00:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "Allocating on the Stack",
-        "link": "https://go.dev/blog/allocation-optimizations",
-        "summary": "The Go Blog\nAllocating on the Stack\nWe’re always looking for ways to make Go programs faster. In the last\n2 releases, we have concentrated on mitigating a particular source of\nslowness, heap allocations. Each time a Go program allocates memory\nfrom the heap, there’s a fairly large chunk of code that needs to run\nto satisfy that allocation. In addition, heap allocations present\nadditional load on the garbage collector.  Even with recent\nenhancements like Green Tea, the garbage collector\nstill incurs substantial overhead.\nSo we’ve been working on ways to do more allocations on the stack\ninstead of the heap.  Stack allocations are considerably cheaper to\nperform (sometimes completely free).  Moreover, they present no load\nto the garbage collector, as stack allocations can be collected\nautomatically together with the stack frame itself. Stack allocations\nalso enable prompt reuse, which is very cache friendly.\nStack allocation of constant-sized slices\nConsider the task of building a slice of tasks to process:\nfunc process(c chan task) {\n    var tasks []task\n    for t := range c {\n        tasks = append(tasks, t)\n    }\n    processAll(tasks)\n}\n\nLet’s walk through what happens at runtime when pulling tasks from the\nchannel c and adding them to the slice tasks.\nOn the first loop iteration, there is no backing store for tasks, so\nappend has to allocate one. Because it doesn’t know how big the\nslice will eventually be, it can’t be too aggressive. Currently, it\nallocates a backing store…",
-        "image": null,
-        "source": "The Go Blog",
-        "published": "2026-02-27T00:00:00.000Z",
         "isNew": false
       }
     ],
