@@ -1,6 +1,6 @@
 {
-  "date": "2026-09-25",
-  "generatedAt": "2026-09-25T20:29:19.052Z",
+  "date": "2026-09-26",
+  "generatedAt": "2026-09-26T09:51:55.887Z",
   "totalArticles": 72,
   "ticker": [
     {
@@ -181,7 +181,7 @@
       {
         "title": "September 25, 2026",
         "link": "https://docs.cloud.google.com/release-notes#September_25_2026",
-        "summary": "API Keys API\nFeature\nThe API Keys remote Model Context Protocol (MCP) server is available in\nPreview. You can\nconnect to the API Keys remote MCP server from AI applications to\ncreate, inspect, restrict, and manage the lifecycle of API keys in your\nGoogle Cloud projects.\nFor more information, see the\nAPI Keys MCP reference.\nGoogle Kubernetes Engine\nFeature\nGKE Standard clusters now support up to 512 maximum Pods per node, an increase\nfrom the previous limit of 256. Nodes configured for 257 to 512 Pods will now\nbe allocated a /22 Pod CIDR block (1,024 IP addresses).",
+        "summary": "API Keys API\nFeature\nThe API Keys remote Model Context Protocol (MCP) server is available in\nPreview. You can\nconnect to the API Keys remote MCP server from AI applications to\ncreate, inspect, restrict, and manage the lifecycle of API keys in your\nGoogle Cloud projects.\nFor more information, see the\nAPI Keys MCP reference.\nCompute Engine\nFeature\nGenerally available: New X5 series with 50% larger memory instances:\nBreaking the previous 32TB memory limit of the X4\nmemory-optimized machine type,\na new X5 series introduces massive 48TB configurations. This empowers the\nlargest SAP HANA and RISE with SAP customers to easily scale up their\nmission-critical databases on a single node.\nGoogle Kubernetes Engine\nFeature\nGKE Standard clusters now support up to 512 maximum Pods per node, an increase\nfrom the previous limit of 256. Nodes configured for 257 to 512 Pods will now\nbe allocated a /22 Pod CIDR block (1,024 IP addresses).",
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-09-25T07:00:00.000Z",
