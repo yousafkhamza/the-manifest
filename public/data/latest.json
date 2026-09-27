@@ -1,6 +1,6 @@
 {
   "date": "2026-09-27",
-  "generatedAt": "2026-09-27T15:40:41.032Z",
+  "generatedAt": "2026-09-27T20:08:54.765Z",
   "totalArticles": 72,
   "ticker": [
     {
@@ -179,6 +179,15 @@
     ],
     "gcp": [
       {
+        "title": "September 27, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#September_27_2026",
+        "summary": "Google SecOps SOAR\nAnnouncement\nRelease 6.3.101 is being rolled out to the first phase of regions as listed\nhere.\nThis release contains internal and customer bug fixes.",
+        "image": null,
+        "source": "Google Cloud Platform (GCP) - Release notes",
+        "published": "2026-09-27T07:00:00.000Z",
+        "isNew": false
+      },
+      {
         "title": "September 26, 2026",
         "link": "https://docs.cloud.google.com/release-notes#September_26_2026",
         "summary": "Google SecOps SOAR\nAnnouncement\nRelease 6.3.100 is now\navailable for all regions.",
@@ -239,15 +248,6 @@
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-09-18T07:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "September 17, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#September_17_2026",
-        "summary": "Anti Money Laundering AI\nAnnouncement\nNew minor engine versions released for the retail line of business within the v004.005, v004.009, and v004.010 version lines (aml-retail.default.v004.005.202608-000, aml-retail.default.v004.009.202608-000, and aml-retail.default.v004.010.202608-000). These versions extend support for the major engine version and include no significant changes compared to the previous minor versions.\nApigee hybrid\nAnnouncement\nv1.16.10\nOn September 17, 2026 we released an updated version of the Apigee hybrid software, v1.16.10.\nFor information on upgrading, see Upgrading Apigee hybrid to version v1.16.10.\nFor information on new installations, see The big picture.\nNote: This is a patch release: The container images used in patch releases are integrated with the Apigee hybrid Helm charts. Upgrading to a patch via the Helm chart automatically updates the images. No manual image changes are typically needed. For information on container image support in Apigee hybrid releases, see Apigee release process.\nFixed\nFixed in this release\nBug ID\nDescription\n\n\n\n\n556750755\nFixed an issue where EventFlow (Server-Sent Events) dropped or truncated events following a large (>16 KB) event under load on the http-adaptor datapath.\n\n\n547712217\nFixed an issue where EventFlow (Server-Sent Events) responses larger than 16 KB could be truncated or corrupted across socket reads.\n\n\n519729209\nFixed a SAML XML Signature Wrapping (XSW) vulnerability in the ValidateSAMLAssertion…",
-        "image": null,
-        "source": "Google Cloud Platform (GCP) - Release notes",
-        "published": "2026-09-17T07:00:00.000Z",
         "isNew": false
       }
     ],
