@@ -1,6 +1,6 @@
 {
   "date": "2026-09-27",
-  "generatedAt": "2026-09-27T10:33:20.697Z",
+  "generatedAt": "2026-09-27T15:40:41.032Z",
   "totalArticles": 72,
   "ticker": [
     {
@@ -179,6 +179,15 @@
     ],
     "gcp": [
       {
+        "title": "September 26, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#September_26_2026",
+        "summary": "Google SecOps SOAR\nAnnouncement\nRelease 6.3.100 is now\navailable for all regions.",
+        "image": null,
+        "source": "Google Cloud Platform (GCP) - Release notes",
+        "published": "2026-09-26T07:00:00.000Z",
+        "isNew": false
+      },
+      {
         "title": "September 25, 2026",
         "link": "https://docs.cloud.google.com/release-notes#September_25_2026",
         "summary": "API Keys API\nFeature\nThe API Keys remote Model Context Protocol (MCP) server is available in\nPreview. You can\nconnect to the API Keys remote MCP server from AI applications to\ncreate, inspect, restrict, and manage the lifecycle of API keys in your\nGoogle Cloud projects.\nFor more information, see the\nAPI Keys MCP reference.\nCompute Engine\nFeature\nGenerally available: New X5 series with 50% larger memory instances:\nBreaking the previous 32TB memory limit of the X4\nmemory-optimized machine type,\na new X5 series introduces massive 48TB configurations. This empowers the\nlargest SAP HANA and RISE with SAP customers to easily scale up their\nmission-critical databases on a single node.\nGoogle Kubernetes Engine\nFeature\nGKE Standard clusters now support up to 512 maximum Pods per node, an increase\nfrom the previous limit of 256. Nodes configured for 257 to 512 Pods will now\nbe allocated a /22 Pod CIDR block (1,024 IP addresses).",
@@ -239,15 +248,6 @@
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-09-17T07:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "September 16, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#September_16_2026",
-        "summary": "Backup and DR\nFeature\nYou can now use auto-protection policies and resource labels to automatically protect Compute Engine instances and Persistent Disks at scale in Backup and DR. This feature allows you to automatically assign a backup plan to qualifying resources across projects based on user-defined labels. This feature is in Preview. For more information, see Automate resource protection.\nBigQuery\nFeature\nYou can use the migration lineage service to\nvisualize the data flow and connections in your source database and\nhelp you plan a BigQuery data warehouse migration. This feature is in\nPreview.\nCloud Number Registry\nBreaking\nYou must designate a project to manage\nCloud Number Registry\nbefore you can set up\nCloud Number Registry\nfor an organization.\nDatastream\nFeature\nDatastream now supports MongoDB extended JSON canonical mode as the\ndefault format for new streams from MongoDB sources to BigQuery\ndestinations.\nCanonical mode provides higher data fidelity by explicitly labeling every\nBSON type to prevent precision loss during data exchange.\nFor more information, see the following:\nStream data from MongoDB databases\nMongoDB data types in\nBigQuery\nFilestore\nFeature\nSmall capacity Filestore instances for the Regional service tier are generally available (GA). Small capacity instances start at 100 GiB and scale in 1 GiB increments, providing an option for development, testing, and applications with low traffic or basic storage needs.\nFor more information, see Small capacity…",
-        "image": null,
-        "source": "Google Cloud Platform (GCP) - Release notes",
-        "published": "2026-09-16T07:00:00.000Z",
         "isNew": false
       }
     ],
