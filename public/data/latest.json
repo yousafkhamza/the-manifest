@@ -1,6 +1,6 @@
 {
   "date": "2026-09-28",
-  "generatedAt": "2026-09-28T18:37:04.058Z",
+  "generatedAt": "2026-09-28T22:32:49.997Z",
   "totalArticles": 72,
   "ticker": [
     {
@@ -49,7 +49,7 @@
         "isNew": false
       },
       {
-        "title": "Introducing Amazon CloudWatch Omni: collaborative AI-powered observability for your applications",
+        "title": "Now on Amazon CloudWatch Omni: collaborative AI-powered observability for your applications",
         "link": "https://aws.amazon.com/blogs/aws/introducing-amazon-cloudwatch-omni-collaborative-ai-powered-observability-for-your-applications/",
         "summary": "Amazon CloudWatch Omni is the next evolution of CloudWatch — unified observability that brings your applications and AI agents into one reimagined experience, with auto-discovered topology, natural language queries, and AI-guided investigation powered by AWS DevOps Agent.",
         "image": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2026/09/21/cloudwatch-omni-console-1800.png",
@@ -181,7 +181,7 @@
       {
         "title": "September 28, 2026",
         "link": "https://docs.cloud.google.com/release-notes#September_28_2026",
-        "summary": "Application Integration\nSecurity\nA Confused Deputy vulnerability was discovered in the Email Task component in \nApplication Integration versions prior to June 30, 2026.\nFor more information, see the\nGCP-2026-066\nsecurity bulletin.\nSecurity\nA Deserialization of Untrusted Data vulnerability was discovered in\nthe JavaScript Task in Application Integration versions prior\nto June 28, 2026. For more information, see the\nGCP-2026-065\nsecurity bulletin.\nSecurity\nAn Incorrect Authorization vulnerability was discovered in the task\nconfiguration in Application Integration versions prior to June 17, 2026.\nFor more information, see the\nGCP-2026-064\nsecurity bulletin.\nCloud Load Balancing\nFeature\nZonal network endpoint groups (NEGs) with GCE_VM_IP and GCE_VM_IP_PORT\nendpoints support IPv6-only endpoints that reference IPv6-only or dual-stack\nCompute Engine VM network interfaces.\nThis feature is available in Preview.\nFor more information, see Zonal network endpoint groups overview.\nCloud Logging\nBreaking\nOnly platform services can write log entries to billing accounts.\nThese logs have names with the format\nbillingAccounts/[BILLING_ACCOUNT_ID]/logs/[LOG_ID].\nFor more information, see\nentries.write.\nCloud Monitoring\nDeprecated\nThe legacy Monitoring agent has officially reached its end of support. All\nstandard maintenance and regular bug fixes for the agent have ceased. We\nrecommend migrating to one of the supported\nalternatives. For more information about this\ndeprecation, see Legacy…",
+        "summary": "Application Integration\nSecurity\nA Confused Deputy vulnerability was discovered in the Email Task component in \nApplication Integration versions prior to June 30, 2026.\nFor more information, see the\nGCP-2026-066\nsecurity bulletin.\nSecurity\nA Deserialization of Untrusted Data vulnerability was discovered in\nthe JavaScript Task in Application Integration versions prior\nto June 28, 2026. For more information, see the\nGCP-2026-065\nsecurity bulletin.\nSecurity\nAn Incorrect Authorization vulnerability was discovered in the task\nconfiguration in Application Integration versions prior to June 17, 2026.\nFor more information, see the\nGCP-2026-064\nsecurity bulletin.\nCloud Load Balancing\nFeature\nZonal network endpoint groups (NEGs) with GCE_VM_IP and GCE_VM_IP_PORT\nendpoints support IPv6-only endpoints that reference IPv6-only or dual-stack\nCompute Engine VM network interfaces.\nThis feature is available in Preview.\nFor more information, see Zonal network endpoint groups overview.\nCloud Logging\nDeprecated\nThe legacy Logging agent has officially reached its end of support. All standard\nmaintenance and regular bug fixes for the agent have ceased. We recommend\nmigrating to one of the supported alternatives. For\nmore information about this deprecation, see Legacy Monitoring and Logging\nagents end of support.\nBreaking\nOnly platform services can write log entries to billing accounts.\nThese logs have names with the format\nbillingAccounts/[BILLING_ACCOUNT_ID]/logs/[LOG_ID].\nFor more information,…",
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-09-28T07:00:00.000Z",
