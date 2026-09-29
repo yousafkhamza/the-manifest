@@ -1,6 +1,6 @@
 {
   "date": "2026-09-29",
-  "generatedAt": "2026-09-29T11:22:02.774Z",
+  "generatedAt": "2026-09-29T16:54:20.280Z",
   "totalArticles": 72,
   "ticker": [
     {
@@ -111,7 +111,7 @@
         "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/06/CLO20b_Evan_office_001-1-scaled.jpg",
         "source": "Microsoft Azure Blog",
         "published": "2026-09-28T15:00:00.000Z",
-        "isNew": true
+        "isNew": false
       },
       {
         "title": "Ship agents faster with expanded model choice, voice agents, and continuous optimization",
