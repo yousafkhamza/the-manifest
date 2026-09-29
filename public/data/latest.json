@@ -1,6 +1,6 @@
 {
-  "date": "2026-09-28",
-  "generatedAt": "2026-09-28T22:32:49.997Z",
+  "date": "2026-09-29",
+  "generatedAt": "2026-09-29T11:22:02.774Z",
   "totalArticles": 72,
   "ticker": [
     {
@@ -105,6 +105,15 @@
     ],
     "azure": [
       {
+        "title": "Enhancing Microsoft Azure Virtual Machine lifecycle",
+        "link": "https://azure.microsoft.com/en-us/blog/enhancing-microsoft-azure-virtual-machine-lifecycle/",
+        "summary": "Our Virtual Machine Lifecycle policy guides how we manage these transitions, giving Azure customers transparency, predictability, and guidance.\nThe post Enhancing Microsoft Azure Virtual Machine lifecycle appeared first on Microsoft Azure Blog.",
+        "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/06/CLO20b_Evan_office_001-1-scaled.jpg",
+        "source": "Microsoft Azure Blog",
+        "published": "2026-09-28T15:00:00.000Z",
+        "isNew": true
+      },
+      {
         "title": "Ship agents faster with expanded model choice, voice agents, and continuous optimization",
         "link": "https://azure.microsoft.com/en-us/blog/ship-agents-faster-with-expanded-model-choice-voice-agents-and-continuous-optimization/",
         "summary": "The best model for your business will keep changing. Adopting it should move your business forward, not send your team back to rebuild the architecture around it.\nThe post Ship agents faster with expanded model choice, voice agents, and continuous optimization appeared first on Microsoft Azure Blog.",
@@ -166,22 +175,13 @@
         "source": "Microsoft Azure Blog",
         "published": "2026-09-10T21:00:00.000Z",
         "isNew": false
-      },
-      {
-        "title": "The Economics of Agent Optimization: How AI agent governance controls cost and proves ROI",
-        "link": "https://azure.microsoft.com/en-us/blog/the-economics-of-agent-optimization-how-ai-agent-governance-controls-cost-and-proves-roi/",
-        "summary": "This blog post is the fourth and final installment of The Economics of Agent Optimization, which shares the strategies, capabilities, and proof points that can help you optimize agent costs and run AI as a managed investment system on Microsoft Foundry.\nThe post The Economics of Agent Optimization: How AI agent governance controls cost and proves ROI appeared first on Microsoft Azure Blog.",
-        "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/09/Effective-cost-governance-screenshot.webp",
-        "source": "Microsoft Azure Blog",
-        "published": "2026-09-10T17:00:00.000Z",
-        "isNew": false
       }
     ],
     "gcp": [
       {
         "title": "September 28, 2026",
         "link": "https://docs.cloud.google.com/release-notes#September_28_2026",
-        "summary": "Application Integration\nSecurity\nA Confused Deputy vulnerability was discovered in the Email Task component in \nApplication Integration versions prior to June 30, 2026.\nFor more information, see the\nGCP-2026-066\nsecurity bulletin.\nSecurity\nA Deserialization of Untrusted Data vulnerability was discovered in\nthe JavaScript Task in Application Integration versions prior\nto June 28, 2026. For more information, see the\nGCP-2026-065\nsecurity bulletin.\nSecurity\nAn Incorrect Authorization vulnerability was discovered in the task\nconfiguration in Application Integration versions prior to June 17, 2026.\nFor more information, see the\nGCP-2026-064\nsecurity bulletin.\nCloud Load Balancing\nFeature\nZonal network endpoint groups (NEGs) with GCE_VM_IP and GCE_VM_IP_PORT\nendpoints support IPv6-only endpoints that reference IPv6-only or dual-stack\nCompute Engine VM network interfaces.\nThis feature is available in Preview.\nFor more information, see Zonal network endpoint groups overview.\nCloud Logging\nDeprecated\nThe legacy Logging agent has officially reached its end of support. All standard\nmaintenance and regular bug fixes for the agent have ceased. We recommend\nmigrating to one of the supported alternatives. For\nmore information about this deprecation, see Legacy Monitoring and Logging\nagents end of support.\nBreaking\nOnly platform services can write log entries to billing accounts.\nThese logs have names with the format\nbillingAccounts/[BILLING_ACCOUNT_ID]/logs/[LOG_ID].\nFor more information,…",
+        "summary": "Agent Platform Workbench\nChange\n20260927.00_p0 Release\nChange\nInstalled latest packages from upstream dependencies.\nSecurity\nBulk security patch remediating Critical and High-severity CVEs in the Workbench custom container images.\nChange\n20260927.00_p0 Release\nChange\nInstalled latest packages from upstream dependencies.\nSecurity\nBulk security patch remediating Critical and High-severity CVEs in the Workbench custom container images.\nApplication Integration\nSecurity\nA Confused Deputy vulnerability was discovered in the Email Task component in \nApplication Integration versions prior to June 30, 2026.\nFor more information, see the\nGCP-2026-066\nsecurity bulletin.\nSecurity\nA Deserialization of Untrusted Data vulnerability was discovered in\nthe JavaScript Task in Application Integration versions prior\nto June 28, 2026. For more information, see the\nGCP-2026-065\nsecurity bulletin.\nSecurity\nAn Incorrect Authorization vulnerability was discovered in the task\nconfiguration in Application Integration versions prior to June 17, 2026.\nFor more information, see the\nGCP-2026-064\nsecurity bulletin.\nBigQuery\nFeature\nThe BigQuery Data Transfer Service MCP server\nis now Generally Available\n(GA).\nFeature\nYou can now write the output rows produced by\nBigQuery continuous queries\ndirectly into Apache Iceberg managed\ntables. This lets you\ncontinuously process streaming data from BigQuery and write it into your\nopen-format lakehouse by using an\nINSERT DML statement.\nCloud Asset Inventory\nFeature\nThe…",
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-09-28T07:00:00.000Z",
@@ -190,7 +190,7 @@
       {
         "title": "September 27, 2026",
         "link": "https://docs.cloud.google.com/release-notes#September_27_2026",
-        "summary": "Google SecOps SOAR\nAnnouncement\nRelease 6.3.101 is being rolled out to the first phase of regions as listed\nhere.\nThis release contains internal and customer bug fixes.",
+        "summary": "Agent Platform Workbench\nChange\n20260927-2130-rc0 Release\nChange\nInstalled latest packages from upstream dependencies.\nChange\nM151 Release\nChange\nInstalled latest packages from upstream dependencies.\nFeature\nJupyterLab now forwards client-side logs (console errors, uncaught exceptions, unhandled promise rejections, and failed network requests) to the instance backend, where they surface in Cloud Logging for easier debugging.\nChange\n20260927-1408-rc0 Release\nChange\n20260927-1408-rc0 Release\nChange\nInstalled latest packages from upstream dependencies.\nChange\nInstalled latest packages from upstream dependencies.\nGoogle SecOps SOAR\nAnnouncement\nRelease 6.3.101 is being rolled out to the first phase of regions as listed\nhere.\nThis release contains internal and customer bug fixes.",
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-09-27T07:00:00.000Z",
@@ -208,7 +208,7 @@
       {
         "title": "September 25, 2026",
         "link": "https://docs.cloud.google.com/release-notes#September_25_2026",
-        "summary": "API Keys API\nFeature\nThe API Keys remote Model Context Protocol (MCP) server is available in\nPreview. You can\nconnect to the API Keys remote MCP server from AI applications to\ncreate, inspect, restrict, and manage the lifecycle of API keys in your\nGoogle Cloud projects.\nFor more information, see the\nAPI Keys MCP reference.\nCompute Engine\nFeature\nGenerally available: New X5 series with 50% larger memory instances:\nBreaking the previous 32TB memory limit of the X4\nmemory-optimized machine type,\na new X5 series introduces massive 48TB configurations. This empowers the\nlargest SAP HANA and RISE with SAP customers to easily scale up their\nmission-critical databases on a single node.\nGoogle Kubernetes Engine\nFeature\nGKE Standard clusters now support up to 512 maximum Pods per node, an increase\nfrom the previous limit of 256. Nodes configured for 257 to 512 Pods will now\nbe allocated a /22 Pod CIDR block (1,024 IP addresses).",
+        "summary": "API Keys API\nFeature\nThe API Keys remote Model Context Protocol (MCP) server is available in\nPreview. You can\nconnect to the API Keys remote MCP server from AI applications to\ncreate, inspect, restrict, and manage the lifecycle of API keys in your\nGoogle Cloud projects.\nFor more information, see the\nAPI Keys MCP reference.\nCompute Engine\nFeature\nGenerally available: New X5 series with 50% larger memory instances:\nBreaking the previous 32TB memory limit of the X4\nmemory-optimized machine type,\na new X5 series introduces massive 48TB configurations. This empowers the\nlargest SAP HANA and RISE with SAP customers to easily scale up their\nmission-critical databases on a single node.\nGemini Enterprise Agent Platform\nFeature\nSemantic governance policies support VPC Service Controls (Preview)\nSemantic governance policy and the Semantic governance policy engine support\nVPC Service Controls in\nPreview. You can\ninclude Semantic governance policy and the policy engine in your service\nperimeter to help mitigate the risk of data exfiltration when governing agent\ntool calls.\nFor more information, see VPC Service Controls with Gemini Enterprise Agent\nPlatform\nand Semantic governance policies\noverview.\nGoogle Kubernetes Engine\nFeature\nGKE Standard clusters now support up to 512 maximum Pods per node, an increase\nfrom the previous limit of 256. Nodes configured for 257 to 512 Pods will now\nbe allocated a /22 Pod CIDR block (1,024 IP addresses).",
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-09-25T07:00:00.000Z",
