@@ -1,6 +1,6 @@
 {
-  "date": "2026-09-29",
-  "generatedAt": "2026-09-29T21:24:38.598Z",
+  "date": "2026-09-30",
+  "generatedAt": "2026-09-30T11:10:25.473Z",
   "totalArticles": 72,
   "ticker": [
     {
@@ -105,6 +105,15 @@
     ],
     "azure": [
       {
+        "title": "FabCon and SQLCon 2026 in Barcelona: Building the data foundation for Microsoft Copilot and agents",
+        "link": "https://azure.microsoft.com/en-us/blog/fabcon-and-sqlcon-2026-in-barcelona-building-the-data-foundation-for-microsoft-copilot-and-agents/",
+        "summary": "Microsoft Fabric and SQL innovations announced at FabCon and SQLCon Barcelona 2026 help organizations build trusted data foundations for AI.\nThe post FabCon and SQLCon 2026 in Barcelona: Building the data foundation for Microsoft Copilot and agents appeared first on Microsoft Azure Blog.",
+        "image": null,
+        "source": "Microsoft Azure Blog",
+        "published": "2026-09-29T06:30:00.000Z",
+        "isNew": true
+      },
+      {
         "title": "Enhancing Microsoft Azure Virtual Machine lifecycle",
         "link": "https://azure.microsoft.com/en-us/blog/enhancing-microsoft-azure-virtual-machine-lifecycle/",
         "summary": "Our Virtual Machine Lifecycle policy guides how we manage these transitions, giving Azure customers transparency, predictability, and guidance.\nThe post Enhancing Microsoft Azure Virtual Machine lifecycle appeared first on Microsoft Azure Blog.",
@@ -166,22 +175,22 @@
         "source": "Microsoft Azure Blog",
         "published": "2026-09-16T16:00:00.000Z",
         "isNew": false
-      },
-      {
-        "title": "Microsoft named a Leader in the 2026 Gartner® Magic Quadrant™ for Container Management",
-        "link": "https://azure.microsoft.com/en-us/blog/microsoft-named-a-leader-in-the-2026-gartner-magic-quadrant-for-container-management/",
-        "summary": "Microsoft was named a Leader in the 2026 Gartner® Magic Quadrant™ for Container Management. Discover how AKS, Azure Arc, and Azure Container Apps help organizations run AI and hybrid workloads at scale.\nThe post Microsoft named a Leader in the 2026 Gartner® Magic Quadrant™ for Container Management appeared first on Microsoft Azure Blog.",
-        "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/09/Container-Management-quadrant-927x1024.webp",
-        "source": "Microsoft Azure Blog",
-        "published": "2026-09-10T21:00:00.000Z",
-        "isNew": false
       }
     ],
     "gcp": [
       {
+        "title": "September 30, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#September_30_2026",
+        "summary": "VPC Service Controls\nFeature\nPreview stage support for the following integration:\nUniversal Ledger",
+        "image": null,
+        "source": "Google Cloud Platform (GCP) - Release notes",
+        "published": "2026-09-30T07:00:00.000Z",
+        "isNew": true
+      },
+      {
         "title": "September 29, 2026",
         "link": "https://docs.cloud.google.com/release-notes#September_29_2026",
-        "summary": "API Gateway\nFeature\nConfigure streaming for LLM responses and other traffic\nYou can now create API Gateway gateways that stream requests and responses instead of buffering them. This Public Preview feature supports incremental response delivery over HTTP/2 or HTTP/1.1 chunked transfer encoding, Server-Sent Events (SSE), WebSockets, and gRPC bidirectional streaming. A common use is streaming token-by-token responses from a large language model (LLM).\nTo enable streaming, create a gateway with the --enable-streaming flag. The streaming mode is fixed when you create the gateway and can't be changed later.\nFor more information, see Configure streaming for LLM responses and other traffic.\nBigQuery\nFeature\nThe\nAI.KEY_DRIVERS function\nis now\ngenerally available\n(GA). You can use the AI.KEY_DRIVERS function to identify segments of data\nthat cause statistically significant changes to a summable metric.\nFeature\nYou can query the INFORMATION_SCHEMA.FAILOVER_HISTORY\nview to retrieve a near\nreal-time list of failover events for reservations within an administration\nproject that use managed disaster\nrecovery.\nThis feature is now in\n(Preview).\nCloud Run\nFeature\nSupport for specifying custom target CPU or concurrency utilization using\nscaling controls is in\nGeneral Availability (GA).\nCloud SDK\nBreaking\n587.0.0 (2026-09-29)\nBreaking Changes\n(Cloud Storage) Removed gcloud storage buckets anywhere-caches pause command.\n(Distributed Cloud Edge) Removed deprecated gcloud edge-cloud container…",
+        "summary": "API Gateway\nFeature\nConfigure streaming for LLM responses and other traffic\nYou can now create API Gateway gateways that stream requests and responses instead of buffering them. This Public Preview feature supports incremental response delivery over HTTP/2 or HTTP/1.1 chunked transfer encoding, Server-Sent Events (SSE), WebSockets, and gRPC bidirectional streaming. A common use is streaming token-by-token responses from a large language model (LLM).\nTo enable streaming, create a gateway with the --enable-streaming flag. The streaming mode is fixed when you create the gateway and can't be changed later.\nFor more information, see Configure streaming for LLM responses and other traffic.\nApp Engine flexible environment .NET\nFeature\nApp Engine permanently blocks insecure traffic with TLS version 1.1 and earlier.\nFor appspot.com domains, this block occurs at the connection level. For custom\ndomains, the connection might succeed, but the requests are blocked. For more\ninformation, see\nSecure minimum TLS.\nApp Engine flexible environment Go\nFeature\nApp Engine permanently blocks insecure traffic with TLS version 1.1 and earlier.\nFor appspot.com domains, this block occurs at the connection level. For custom\ndomains, the connection might succeed, but the requests are blocked. For more\ninformation, see\nSecure minimum TLS.\nApp Engine flexible environment Java\nFeature\nApp Engine permanently blocks insecure traffic with TLS version 1.1 and earlier.\nFor appspot.com domains, this block occurs…",
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-09-29T07:00:00.000Z",
@@ -239,15 +248,6 @@
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-09-23T07:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "September 22, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#September_22_2026",
-        "summary": "BigQuery\nFeature\nYou can now publish a BigQuery data agent in\nGemini Enterprise\nby registering the agent with Agent Registry and importing it using\ndefault Google-managed credentials. When\nBigQuery and Gemini Enterprise are in the same\nGoogle Cloud project and configured with a matching\nAgent Gateway\nregion, you don't need to manually copy the Agent-to-Agent (A2A) JSON card or\nconfigure OAuth client credentials.\nThese features are in\nPreview.\nBigtable\nFeature\nYou can use the Google Cloud console to create and manage protobuf schemas\n(schema bundles) for your Bigtable tables. You can also view schema bundle\ndefinitions in Bigtable Studio. This feature is generally available\n(GA).\nFor more information, see Create and manage protobuf\nschemas.\nCloud NGFW\nFeature\nYou can now use Cloud NGFW Enterprise advanced threat prevention with\ncross-region internal Application Load Balancers\n(Preview).\nYou can configure global network firewall policies with security profile groups\nto inspect incoming traffic targeting load balancer forwarding rules. This\nintegration supports intrusion detection and prevention service and Advanced\nmalware sandbox (WildFire) to protect workloads and backends.\nFor more information, see Supported load\nbalancers. This feature is\navailable in Preview.\nCloud Trace\nFeature\nThe following remote Google Cloud MCP servers automatically generate a trace span for\ntools/call operations.\nIdentity and Access Management\nOrganization Policy Service\nPolicy Analyzer\nSecurity…",
-        "image": null,
-        "source": "Google Cloud Platform (GCP) - Release notes",
-        "published": "2026-09-22T07:00:00.000Z",
         "isNew": false
       }
     ],
