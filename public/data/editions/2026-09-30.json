@@ -1,6 +1,6 @@
 {
   "date": "2026-09-30",
-  "generatedAt": "2026-09-30T11:10:25.473Z",
+  "generatedAt": "2026-09-30T16:50:16.280Z",
   "totalArticles": 72,
   "ticker": [
     {
@@ -105,15 +105,6 @@
     ],
     "azure": [
       {
-        "title": "FabCon and SQLCon 2026 in Barcelona: Building the data foundation for Microsoft Copilot and agents",
-        "link": "https://azure.microsoft.com/en-us/blog/fabcon-and-sqlcon-2026-in-barcelona-building-the-data-foundation-for-microsoft-copilot-and-agents/",
-        "summary": "Microsoft Fabric and SQL innovations announced at FabCon and SQLCon Barcelona 2026 help organizations build trusted data foundations for AI.\nThe post FabCon and SQLCon 2026 in Barcelona: Building the data foundation for Microsoft Copilot and agents appeared first on Microsoft Azure Blog.",
-        "image": null,
-        "source": "Microsoft Azure Blog",
-        "published": "2026-09-29T06:30:00.000Z",
-        "isNew": true
-      },
-      {
         "title": "Enhancing Microsoft Azure Virtual Machine lifecycle",
         "link": "https://azure.microsoft.com/en-us/blog/enhancing-microsoft-azure-virtual-machine-lifecycle/",
         "summary": "Our Virtual Machine Lifecycle policy guides how we manage these transitions, giving Azure customers transparency, predictability, and guidance.\nThe post Enhancing Microsoft Azure Virtual Machine lifecycle appeared first on Microsoft Azure Blog.",
@@ -175,17 +166,26 @@
         "source": "Microsoft Azure Blog",
         "published": "2026-09-16T16:00:00.000Z",
         "isNew": false
+      },
+      {
+        "title": "Microsoft named a Leader in the 2026 Gartner® Magic Quadrant™ for Container Management",
+        "link": "https://azure.microsoft.com/en-us/blog/microsoft-named-a-leader-in-the-2026-gartner-magic-quadrant-for-container-management/",
+        "summary": "Microsoft was named a Leader in the 2026 Gartner® Magic Quadrant™ for Container Management. Discover how AKS, Azure Arc, and Azure Container Apps help organizations run AI and hybrid workloads at scale.\nThe post Microsoft named a Leader in the 2026 Gartner® Magic Quadrant™ for Container Management appeared first on Microsoft Azure Blog.",
+        "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/09/Container-Management-quadrant-927x1024.webp",
+        "source": "Microsoft Azure Blog",
+        "published": "2026-09-10T21:00:00.000Z",
+        "isNew": false
       }
     ],
     "gcp": [
       {
         "title": "September 30, 2026",
         "link": "https://docs.cloud.google.com/release-notes#September_30_2026",
-        "summary": "VPC Service Controls\nFeature\nPreview stage support for the following integration:\nUniversal Ledger",
+        "summary": "Apigee API hub\nFeature\nAI performance and Tool performance dashboards in API insights\nAPI insights in API hub now includes two dashboards for AI and agent traffic:\nAI performance reports token usage and model latency for the large language models called through your gateways, with filters for model and provider.\nTool performance reports traffic, throughput, payload sizes, and latency for your Model Context Protocol (MCP) tools, with filters for MCP server, deployment, and tool name.\nFor more information, see API insights dashboards.\nBackup and DR\nDeprecated\nSupport for backing up and restoring workloads managed via the legacy appliance management console is deprecated.\nKey milestones for this deprecation include the following:\nEnd of Support for New Backups: After September 30, 2027, you will no longer be able to run new backups using the legacy stack.\nEnd of Standard Restores: Support for standard restores, exports, and migrations using the legacy appliance management console continues till March 31, 2028.\nFor more information, see Deprecations.\nCloud Load Balancing\nFeature\nA new quota system governing the configuration size of Application Load Balancers\nis now generally available. This update increases the individual URL map\nsize limit from 64 KB and 128 KB to 1 MB. For more information,\nsee URL map size and quota units.\nKey aspects of this feature include:\nComplexity-based quota: Quota units reflect URL map complexity (number of\nrules, hostnames, and path matchers).…",
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-09-30T07:00:00.000Z",
-        "isNew": true
+        "isNew": false
       },
       {
         "title": "September 29, 2026",
@@ -401,75 +401,75 @@
     ],
     "python": [
       {
-        "title": "The Python documentation is now available in German",
-        "link": "https://blog.python.org/2026/09/python-docs-in-german/",
-        "summary": "You can now read the Python documentation online in German!",
+        "title": "Python Language Summit 2026 blog posts are now available",
+        "link": "https://pyfound.blogspot.com/2026/09/python-language-summit-2026.html",
+        "summary": "On July 14th, 2026, 47 Python core developers and special guests sat down\nat the Python Language Summit, this year\nheld in Kraków, Poland at EuroPython 2026, to discuss many topics about the future\nof the Python programming language, including free-threading, Rust, garbage collectors,\ntype annotations, and namespacing.\n\nThis marked the first time the Python Language\nSummit had been hosted in Europe in 15 years, when the event was\nheld in Florence on June 19th, 2011.\nGoing forward, the Python Language Summit will alternate between\nPyCon US and EuroPython on a yearly basis.\nThe summit was organized by Emily Morehouse, Hugo van Kemenade, Lysandros Nikolaou,\nand Łukasz Langa, and blog posts were written by Seth Larson.\nBelow are summaries of the 10 full-length\ntalks and 5 lightning talks that were presented at the 2026 Python Language Summit.\nI hope you enjoy them, and thank you for your patience.\n“One namespace to namespace them all” by Pablo Galindo Salgado\n“macOS and Python” by Ned Deily\n“Garbage Collection: Generational? Incremental? Both!” by Mark Shannon\n“Memory Buffer Protocol” by Nathan Goldbaum\n“Memory Snapshots for CPython” by Hood Chatham\n“Rust for CPython” by David Hewitt\n“Spicycrab” by Kushal Das\n“Developer-in-Residence Update & Future” by Petr Viktorin\n“Free-Threaded Python Post-Era” by Donghee Na, Tobias Wrigstad, and Fridtjof Stoldt\n“PEP 827: Type Manipulation” by Michael J. Sullivan\n“Lightning Talks”\n\n“One-time ABI breakage” by Mark Shannon\n“Safer and Generic…",
+        "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh9b7Xn98N0VpTwRN2Pu2Jk0q7sfPY_jBway6IkdspPV4vtGpWu4xp8H7Ef2L2K73jc0IC03AYWSP1sJAuKqdOBpKREuvNiYCG0oIM8MZLMeP1p0wLlHUYU1XpnApUMKy26u12RdSIa84wjTThbxk-6hxHA3y1gjy7pfHW6YZd_BfNBgytl_w/s72-w400-h266-c/_image.png",
+        "source": "Python Software Foundation News",
+        "published": "2026-09-30T13:22:49.579Z",
+        "isNew": false
+      },
+      {
+        "title": "Python Language Summit 2026",
+        "link": "https://blog.python.org/2026/09/language-summit-2026/",
+        "summary": "The 2026 Python Language Summit was hosted in Kraków, Poland as part of EuroPython 2026. There were 15 talks covering free-threading, Rust, garbage collection, type annotations, and more.",
         "image": null,
         "source": "Python Insider",
-        "published": "2026-09-26T00:00:00.000Z",
+        "published": "2026-09-30T12:00:11.000Z",
         "isNew": false
       },
       {
-        "title": "The Python documentation is now available in Persian",
-        "link": "https://blog.python.org/2026/09/the-python-documentation-is-now-available-in-persian/",
-        "summary": "",
+        "title": "Lightning Talks (Python Language Summit 2026)",
+        "link": "https://blog.python.org/2026/09/language-summit-2026-lightning-talks/",
+        "summary": "Lightning talks on a one-time ABI break, safer interruptions, EktuPy (Scratch but Python), an AGENTS.md file for CPython, and a call to read PEP 836.",
         "image": null,
         "source": "Python Insider",
-        "published": "2026-09-23T00:00:00.000Z",
+        "published": "2026-09-30T12:00:10.000Z",
         "isNew": false
       },
       {
-        "title": "Announcing the 2026 PSF Board Election Results!",
-        "link": "https://pyfound.blogspot.com/2026/09/announcing-2026-psf-board-election.html",
-        "summary": "The 2026 election for the PSF Board created an opportunity for conversations about the PSF's work to serve the global Python community. We appreciate community members' perspectives, passion, and engagement in the election process this year. \nWe want to send a big thanks to everyone who ran and was willing to serve on the PSF Board. Even if you were not elected, we appreciate all the time and effort you put into thinking about how to improve the PSF and represent the parts of the community you participate in. We hope that you will continue to think about these issues, share your ideas, and join a PSF Work Group or PSF initiative if you feel called to do so.\n\nBoard Members Elect \n\n\nCongratulations to our three new and one returning Board members who have been elected! \n\n\nElaine Wong\nLaís Carvalho\nEe Durbin\nGeorgi Ker\n\nWe’ll be in touch with all the elected candidates shortly to schedule onboarding. Newly elected PSF Board members are provided orientation for their service and will be joining the upcoming board meeting in October. \n\nThank you!\nWe’d like to take this opportunity to thank our outgoing board members. Cheuk Ting Ho has been a super engaged PSF Board member, participating in many committees, and helping out on many PSF Programs and projects during her time on the PSF Board. Chris Neugebauer has been a longtime board member and in particular has been the watch guard of our bylaws conversations and has always been ready to share institutional knowledge. Denny Perez…",
-        "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjwa029mAK-VzIrvSzCbyYd6Ns0C2gefTG30Zjizu9A4UywuwEimTNiZuURqrcN6QiLAqUq4H7AjytpgKT0dXXgAhF9Bcr1_CaIIPCYIr6N9MasdJ1q1HXJwBWwfj2Y61KtjmjoGAOGt77rGSL_fr2d3cNLWotjwn7bZWb1g_69KhLb_XfIbg/s72-w400-h400-c/election%20announcement(1).png",
-        "source": "Python Software Foundation News",
-        "published": "2026-09-17T12:48:08.906Z",
-        "isNew": false
-      },
-      {
-        "title": "Announcing the 2026 Python Packaging Council Election Results!",
-        "link": "https://pyfound.blogspot.com/2026/09/announcing-2026-python-packaging.html",
-        "summary": "The inaugural Python Packaging Council (PPC) election has concluded. With 17 candidates and plenty of lively AMA discussions on DPO, we are pleased to see the level of engagement with this first PPC election.\nWe want to send a big thanks to everyone who ran and was willing to serve on the council. Even if you were not elected, we appreciate all the time and effort you put into thinking about how to improve Python’s packaging ecosystem and represent the parts of the community you participate in.\n\nCouncil Members Elect \n\n\n\nCongratulations to our five inaugural Python Packaging Council members who have been elected! \n\nBrett Cannon – for a 2 year term (Cohort A)\nPradyun Gedam – for a 2 year term (Cohort A)\nDonald Stufft – for a 1 year term (Cohort B)\nHenry Schreiner – for a 1 year term (Cohort B)\nRalf Gommers – for a 1 year term (Cohort B)\n\nOur heartfelt thanks go out to each of you who took the time to review the candidates and submit your votes. We received 541 total ballots.\nWe also want to thank everyone who participated in the PEP 772 discussions to establish this council as well as those who helped with this year’s election–especially Barry Warsaw and Pradyun Gedam as community liaisons for this inaugural election. We also want to highlight the PSF staff members and PSF Board members who put in tons of effort each year as we work to continually improve our elections.\n\nHow do the terms/cohorts work?\nThis inaugural election fills all five seats on the PPC. The two candidates…",
-        "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhj9wYH-WHmTOlLSkOjJY-cmRVETQ6RQ1MEDCZqpBidppUys6fqGN5ovjq40tjJAgvO8qrHbbdNjupiLd4gySvBV5bsOE2aqX5O_bptbGGqHLWOiCspHxJk4KZ1IqTCWla3XwtuTp2jogwyYYRyB0msO9i3ISVxr1ENbunYuxSOu2pMk9whTw/s72-w400-h400-c/packaging%20council%20(5).png",
-        "source": "Python Software Foundation News",
-        "published": "2026-09-17T12:36:38.222Z",
-        "isNew": false
-      },
-      {
-        "title": "Announcing the PSF Strategic Plan 2026",
-        "link": "https://pyfound.blogspot.com/2026/09/announcing-psf-strategic-plan-2026.html",
-        "summary": "In May, the Python Software Foundation (PSF) shared the high-level goals of  our Strategic Plan. In June, we published the full draft and opened it for community feedback. Today we are sharing the outcome: at its July 8 meeting, the PSF Board adopted the PSF Strategic Plan 2026, covering 2026 to 2031.\nOur new PSF Strategy page is the permanent home for the plan, with information about how the board sets priorities and how you can share feedback. We’ll publish annual review findings and future updates there so the community can follow our progress and any changes to the plan.\n\nWhat the feedback changed\nFeedback from PSF Staff and the Python community shaped real changes to the draft we published in June.\nStaff feedback added a Security Baseline objective for all PSF projects and services and a Vulnerability Management objective in response to the rapid growth in security reports, and it sharpened wording across the organizational goals. Community feedback shaped the plan, too: translation and localization are now part of the accessibility work, companies that want to fund specific work get clearer pathways, and the ideas under financial sustainability now include growing the value of PSF membership.\nThe plan's \"How This Plan Was Shaped\" section documents the process, and we are grateful to everyone who took the time to share their perspectives.\nThe annual review\nA five-year plan is only useful if it stays current. Alongside adoption, the board established an annual review of…",
-        "image": null,
-        "source": "Python Software Foundation News",
-        "published": "2026-09-15T17:15:25.104Z",
-        "isNew": false
-      },
-      {
-        "title": "The 2026 PSF Board Election is Open!",
-        "link": "https://pyfound.blogspot.com/2026/09/the-2026-psf-board-election-is-open.html",
-        "summary": "It’s time to cast your vote! Voting for the 2026 PSF Board Election is open starting today Tuesday, September 1st, 2:00 pm UTC, through Tuesday, September 15th, 2:00 pm UTC. \n\nHow to Vote\nIf you are a voting member of the PSF who affirmed your intention to participate in this year’s election or you voted in last year’s election, you will receive an email today from “OpaVote Voting Link <noreply@opavote.com>” with a link to your ballot. The subject line will read “Python Software Foundation Board of Directors Election 2026”. If you haven’t seen your ballot by Wednesday, please first check your spam folder for a message from “noreply@opavote.com”. If you can’t find the ballot email from OpaVote please get in touch by emailing psf-elections@pyfound.org so we can look into your account and make sure we have the most up-to-date email for you.\nFour seats on the board are open, but you can vote to approve as many of the 17 candidates as you like. We’re delighted by how many of you are willing to contribute to the Python community by serving on the PSF Board! Make sure you take some time to look at all the nominee statements and choose your candidates carefully. \nATTN: Choose carefully before you press the big green vote button. Once your vote is cast, it cannot be changed.\n\nAn Informed Vote is a Great Vote\nNomination and supporting statements are the clearest way to see how each candidate actually thinks: their priorities, experience, and vision for the PSF. Rather than just voting…",
-        "image": null,
-        "source": "Python Software Foundation News",
-        "published": "2026-09-01T14:02:12.153Z",
-        "isNew": false
-      },
-      {
-        "title": "Inaugural Python Packaging Council Election: Voting is now open!",
-        "link": "https://pyfound.blogspot.com/2026/09/inaugural-python-packaging-council.html",
-        "summary": "It’s time to cast your vote! Voting for the inaugural 2026 Python Packaging Council (PPC) Election is open now through September 15 at 2:00 pm UTC.\n\nFind Your Ballot\nIf you are a voting member of the PSF who affirmed your intention to participate in this year’s election, you will receive an email today from “OpaVote Voting Link <noreply@opavote.com>” containing a link to your ballot. The subject line will be “Python Packaging Council Election 2026”.\nIf you haven’t received your ballot by September 2, first check your spam folder for a message from noreply@opavote.com. If you still can’t find the OpaVote email, please contact pc-elections@python.org. We can look into your account and confirm that we have the most up-to-date email address for you.\n\nReview the Nominees\nPlease take some time to read all of the nominee statements before casting your ballot. Consider what each nominee brings to the Council, the priorities and perspectives they describe, and how you would like to see Python packaging evolve. You can also ask candidates questions directly in the PPC Nominations AMA threads on discuss.python.org.\nImportant: Review your selections carefully before pressing the big green vote button. Once your ballot has been cast, your vote cannot be changed.\n\nWho Can Vote?\nTo vote in this election, you must be a Contributing, Supporting, or Fellow member of the PSF and have affirmed your intention to vote by August 25 at 2:00 pm UTC.\nIf you’d like to learn more about PSF membership…",
-        "image": null,
-        "source": "Python Software Foundation News",
-        "published": "2026-09-01T13:59:58.882Z",
-        "isNew": false
-      },
-      {
-        "title": "Python 3.15.0 candidate 2 is here!",
-        "link": "https://blog.python.org/2026/09/python-3150-rc2/",
-        "summary": "Last chance to test before the big day!",
+        "title": "PEP 827: Type Manipulation (Python Language Summit 2026)",
+        "link": "https://blog.python.org/2026/09/language-summit-2026-pep-827-type-manipulation/",
+        "summary": "Michael J. Sullivan presents PEP 827 and discusses a key design decision: how to store type annotations?",
         "image": null,
         "source": "Python Insider",
-        "published": "2026-09-01T00:00:00.000Z",
+        "published": "2026-09-30T12:00:09.000Z",
+        "isNew": false
+      },
+      {
+        "title": "Free-Threaded Python Post-Era (Python Language Summit 2026)",
+        "link": "https://blog.python.org/2026/09/language-summit-2026-free-threading-post-era/",
+        "summary": "Tobias Wrigstad, Fridtjof Stoldt, and Donghee Na propose a safe and performant, high-level concurrency model for free-threaded Python",
+        "image": null,
+        "source": "Python Insider",
+        "published": "2026-09-30T12:00:08.000Z",
+        "isNew": false
+      },
+      {
+        "title": "Developer-in-Residence Update & Future (Python Language Summit 2026)",
+        "link": "https://blog.python.org/2026/09/language-summit-2026-developer-in-residence-update-and-future/",
+        "summary": "Petr Viktorin gives an update on the Developer-in-Residence role and asks Python core developers for projects to prioritize",
+        "image": null,
+        "source": "Python Insider",
+        "published": "2026-09-30T12:00:07.000Z",
+        "isNew": false
+      },
+      {
+        "title": "Spicycrab (Python Language Summit 2026)",
+        "link": "https://blog.python.org/2026/09/language-summit-2026-spicycrab/",
+        "summary": "Kushal Das shows off Spicycrab, a Python-to-Rust transpiler for Python users who need performance without learning Rust or leaving Python",
+        "image": null,
+        "source": "Python Insider",
+        "published": "2026-09-30T12:00:06.000Z",
+        "isNew": false
+      },
+      {
+        "title": "Rust for CPython (Python Language Summit 2026)",
+        "link": "https://blog.python.org/2026/09/language-summit-2026-rust-for-cpython/",
+        "summary": "David Hewitt shares a status update, first module, and potential acceptance criteria for the Rust for CPython project",
+        "image": null,
+        "source": "Python Insider",
+        "published": "2026-09-30T12:00:05.000Z",
         "isNew": false
       }
     ],
