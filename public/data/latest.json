@@ -1,6 +1,6 @@
 {
   "date": "2026-09-30",
-  "generatedAt": "2026-09-30T16:50:16.280Z",
+  "generatedAt": "2026-09-30T21:25:20.509Z",
   "totalArticles": 72,
   "ticker": [
     {
@@ -30,6 +30,33 @@
   ],
   "topics": {
     "aws": [
+      {
+        "title": "Amazon S3 Vectors now supports metadata pre-filtering for higher recall on filtered searches",
+        "link": "https://aws.amazon.com/blogs/aws/amazon-s3-vectors-now-supports-metadata-pre-filtering-for-higher-recall-on-filtered-searches/",
+        "summary": "Amazon S3 Vectors now supports metadata pre filtering, delivering up to 5x higher recall on filtered searches. Filters evaluate before similarity search so scoped queries return more relevant results. Ideal for RAG, agentic apps, and document search.",
+        "image": null,
+        "source": "AWS News Blog",
+        "published": "2026-09-30T20:03:34.000Z",
+        "isNew": false
+      },
+      {
+        "title": "Amazon Aurora PostgreSQL now supports direct querying of Apache Iceberg and Parquet data in your data lake",
+        "link": "https://aws.amazon.com/blogs/aws/amazon-aurora-postgresql-now-supports-direct-querying-of-apache-iceberg-and-parquet-data-in-your-data-lake/",
+        "summary": "Amazon Aurora PostgreSQL now lets you directly query Apache Iceberg and Parquet data stored in your data lake alongside live operational data—no ETL pipelines required. Powered by DuckDB embedded within Aurora, this capability enables single queries that join transactional and historical data using familiar PostgreSQL syntax. It supports AWS Glue Data Catalog, S3, and S3 Tables, with optimizations like predicate pushdown and caching for efficient performance.",
+        "image": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2026/09/24/1218110723436617-0c.png",
+        "source": "AWS News Blog",
+        "published": "2026-09-30T17:22:31.000Z",
+        "isNew": false
+      },
+      {
+        "title": "Celebrating Our Newest AWS Heroes – September 2026",
+        "link": "https://aws.amazon.com/blogs/aws/celebrating-our-newest-aws-heroes-september-2026/",
+        "summary": "Today, we’re excited to introduce the newest members of the AWS Heroes program. AWS Heroes are a vibrant, worldwide group of AWS experts who go above and beyond to share knowledge, mentor others, and build thriving communities. These individuals make a real difference in helping developers and organizations succeed with AWS. This month, we welcome […]",
+        "image": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2026/08/17/Avinash-Shashikant-Dalvi_175x263.jpg",
+        "source": "AWS News Blog",
+        "published": "2026-09-30T17:04:05.000Z",
+        "isNew": false
+      },
       {
         "title": "AWS Weekly Roundup: GPT-6 Sol and Luna, Claude Opus 5.5 on Amazon Bedrock, Strands harness, and more (September 28, 2026)",
         "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-gpt-6-sol-and-luna-claude-opus-5-5-on-amazon-bedrock-strands-harness-and-more-september-28-2026/",
@@ -73,33 +100,6 @@
         "image": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2026/09/20/2026-09-21-WIR.png",
         "source": "AWS News Blog",
         "published": "2026-09-21T16:11:24.000Z",
-        "isNew": false
-      },
-      {
-        "title": "New low-cost burstable Amazon EC2 T8i instances are generally available",
-        "link": "https://aws.amazon.com/blogs/aws/new-low-cost-burstable-amazon-ec2-t8i-instances-are-generally-available/",
-        "summary": "AWS introduces new low-cost burstable Amazon EC2 T8i instances powered by custom sixth generation Intel Xeon Scalable Processors (Granite Rapids), available only on AWS. T8i instances are among the lowest-cost EC2 instances and deliver up to 30% better price performance over previous generation T3 instances.",
-        "image": null,
-        "source": "AWS News Blog",
-        "published": "2026-09-17T21:11:48.000Z",
-        "isNew": false
-      },
-      {
-        "title": "AWS Elastic Beanstalk introduces Cluster Mode",
-        "link": "https://aws.amazon.com/blogs/aws/aws-elastic-beanstalk-introduces-cluster-mode/",
-        "summary": "Run an application on AWS Elastic Beanstalk Cluster Mode without provisioning or operating the compute underneath it. You provide a container image or source code; Elastic Beanstalk with service-operated compute creates and operates the environment that runs it.",
-        "image": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2026/09/11/2026-eb-eks-1-1.jpg",
-        "source": "AWS News Blog",
-        "published": "2026-09-17T19:20:21.000Z",
-        "isNew": false
-      },
-      {
-        "title": "AWS reimagines the getting started experience",
-        "link": "https://aws.amazon.com/blogs/aws/aws-reimagines-the-getting-started-experience/",
-        "summary": "AWS has reimagined the getting started experience with smart and sensible defaults to help developers get started fast so that they can focus on building. New customers can sign up and get started right away with $100 in Free Tier credits, managed project environments, and simplified team and resource permissions. If their workload evolves, customers can activate advanced features to access the full breadth and depth of AWS in one step, with no migration required.",
-        "image": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2026/08/19/image-01-1024x648.png",
-        "source": "AWS News Blog",
-        "published": "2026-09-16T17:50:14.000Z",
         "isNew": false
       }
     ],
@@ -181,7 +181,7 @@
       {
         "title": "September 30, 2026",
         "link": "https://docs.cloud.google.com/release-notes#September_30_2026",
-        "summary": "Apigee API hub\nFeature\nAI performance and Tool performance dashboards in API insights\nAPI insights in API hub now includes two dashboards for AI and agent traffic:\nAI performance reports token usage and model latency for the large language models called through your gateways, with filters for model and provider.\nTool performance reports traffic, throughput, payload sizes, and latency for your Model Context Protocol (MCP) tools, with filters for MCP server, deployment, and tool name.\nFor more information, see API insights dashboards.\nBackup and DR\nDeprecated\nSupport for backing up and restoring workloads managed via the legacy appliance management console is deprecated.\nKey milestones for this deprecation include the following:\nEnd of Support for New Backups: After September 30, 2027, you will no longer be able to run new backups using the legacy stack.\nEnd of Standard Restores: Support for standard restores, exports, and migrations using the legacy appliance management console continues till March 31, 2028.\nFor more information, see Deprecations.\nCloud Load Balancing\nFeature\nA new quota system governing the configuration size of Application Load Balancers\nis now generally available. This update increases the individual URL map\nsize limit from 64 KB and 128 KB to 1 MB. For more information,\nsee URL map size and quota units.\nKey aspects of this feature include:\nComplexity-based quota: Quota units reflect URL map complexity (number of\nrules, hostnames, and path matchers).…",
+        "summary": "Apigee API hub\nFeature\nAI performance and Tool performance dashboards in API insights\nAPI insights in API hub now includes two dashboards for AI and agent traffic:\nAI performance reports token usage and model latency for the large language models called through your gateways, with filters for model and provider.\nTool performance reports traffic, throughput, payload sizes, and latency for your Model Context Protocol (MCP) tools, with filters for MCP server, deployment, and tool name.\nFor more information, see API insights dashboards.\nApigee hybrid\nAnnouncement\nv1.17.1\nOn September 30, 2026 we released an updated version of the Apigee hybrid software, v1.17.1.\nFor information on upgrading, see Upgrading Apigee hybrid to version v1.17.1.\nFor information on new installations, see The big picture.\nNote: This is a patch release: The container images used in patch releases are integrated with the Apigee hybrid Helm charts. Upgrading to a patch via the Helm chart automatically updates the images. No manual image changes are typically needed. For information on container image support in Apigee hybrid releases, see Apigee release process.\nFeature\nExternal Cassandra datastore support\nApigee hybrid v1.17.1 adds support for connecting an Apigee hybrid runtime to a Cassandra datastore that runs in a separate Kubernetes cluster (external datastore mode). In external datastore mode, the runtime cluster runs with cassandra.replicaCount: 0 (no local Cassandra pods) and connects to the remote…",
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-09-30T07:00:00.000Z",
