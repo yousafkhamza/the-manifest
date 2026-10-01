@@ -1,6 +1,6 @@
 {
-  "date": "2026-09-30",
-  "generatedAt": "2026-09-30T21:25:20.509Z",
+  "date": "2026-10-01",
+  "generatedAt": "2026-10-01T11:37:03.086Z",
   "totalArticles": 72,
   "ticker": [
     {
@@ -13,7 +13,7 @@
     },
     {
       "label": "Python",
-      "version": "v3.14.7"
+      "version": "v3.14.8"
     },
     {
       "label": "Go",
@@ -30,6 +30,15 @@
   ],
   "topics": {
     "aws": [
+      {
+        "title": "Amazon S3 Tables now support all Apache Iceberg V3 data types",
+        "link": "https://aws.amazon.com/blogs/aws/amazon-s3-tables-now-support-all-apache-iceberg-v3-data-types/",
+        "summary": "Amazon S3 Tables now support all data types in the Apache Iceberg V3 spec, along with column default values, deletion vectors, and row lineage. Upgrade existing V2 tables or create new V3 tables with built-in compaction, maintenance, and engine compatibility.",
+        "image": null,
+        "source": "AWS News Blog",
+        "published": "2026-09-30T22:10:00.000Z",
+        "isNew": true
+      },
       {
         "title": "Amazon S3 Vectors now supports metadata pre-filtering for higher recall on filtered searches",
         "link": "https://aws.amazon.com/blogs/aws/amazon-s3-vectors-now-supports-metadata-pre-filtering-for-higher-recall-on-filtered-searches/",
@@ -91,15 +100,6 @@
         "image": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2026/09/11/Triton-Figure-1-Welcome-Screen.png",
         "source": "AWS News Blog",
         "published": "2026-09-22T22:21:13.000Z",
-        "isNew": false
-      },
-      {
-        "title": "AWS Weekly Roundup: AWS Builder Center mobile apps, Amazon Connect Talent GA, Amazon Corretto 27, and more (September 21, 2026)",
-        "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-aws-builder-center-mobile-apps-amazon-connect-talent-ga-amazon-corretto-27-and-more-september-14-2026/",
-        "summary": "Living in the Netherlands, I spend a fair amount of time on trains, and that is usually where I catch up on what the builder community is writing. Until now, that meant opening a laptop or squinting at a browser tab on my phone. This week I found myself scrolling through trending articles and checking […]",
-        "image": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2026/09/20/2026-09-21-WIR.png",
-        "source": "AWS News Blog",
-        "published": "2026-09-21T16:11:24.000Z",
         "isNew": false
       }
     ],
@@ -181,7 +181,7 @@
       {
         "title": "September 30, 2026",
         "link": "https://docs.cloud.google.com/release-notes#September_30_2026",
-        "summary": "Apigee API hub\nFeature\nAI performance and Tool performance dashboards in API insights\nAPI insights in API hub now includes two dashboards for AI and agent traffic:\nAI performance reports token usage and model latency for the large language models called through your gateways, with filters for model and provider.\nTool performance reports traffic, throughput, payload sizes, and latency for your Model Context Protocol (MCP) tools, with filters for MCP server, deployment, and tool name.\nFor more information, see API insights dashboards.\nApigee hybrid\nAnnouncement\nv1.17.1\nOn September 30, 2026 we released an updated version of the Apigee hybrid software, v1.17.1.\nFor information on upgrading, see Upgrading Apigee hybrid to version v1.17.1.\nFor information on new installations, see The big picture.\nNote: This is a patch release: The container images used in patch releases are integrated with the Apigee hybrid Helm charts. Upgrading to a patch via the Helm chart automatically updates the images. No manual image changes are typically needed. For information on container image support in Apigee hybrid releases, see Apigee release process.\nFeature\nExternal Cassandra datastore support\nApigee hybrid v1.17.1 adds support for connecting an Apigee hybrid runtime to a Cassandra datastore that runs in a separate Kubernetes cluster (external datastore mode). In external datastore mode, the runtime cluster runs with cassandra.replicaCount: 0 (no local Cassandra pods) and connects to the remote…",
+        "summary": "API Gateway\nFeature\nAuthenticate MCP tool discovery with an API key\nAPI key authentication is now supported for the Model Context Protocol (MCP) tools/list method. You can name an API key security scheme in tools-list.security, in addition to a JWT security scheme.\nFor more information, see Configure Model Context Protocol.\nApigee API hub\nFeature\nAI performance and Tool performance dashboards in API insights\nAPI insights in API hub now includes two dashboards for AI and agent traffic:\nAI performance reports token usage and model latency for the large language models called through your gateways, with filters for model and provider.\nTool performance reports traffic, throughput, payload sizes, and latency for your Model Context Protocol (MCP) tools, with filters for MCP server, deployment, and tool name.\nFor more information, see API insights dashboards.\nApigee hybrid\nAnnouncement\nv1.17.1\nOn September 30, 2026 we released an updated version of the Apigee hybrid software, v1.17.1.\nFor information on upgrading, see Upgrading Apigee hybrid to version v1.17.1.\nFor information on new installations, see The big picture.\nNote: This is a patch release: The container images used in patch releases are integrated with the Apigee hybrid Helm charts. Upgrading to a patch via the Helm chart automatically updates the images. No manual image changes are typically needed. For information on container image support in Apigee hybrid releases, see Apigee release process.\nFeature\nExternal…",
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-09-30T07:00:00.000Z",
@@ -401,6 +401,15 @@
     ],
     "python": [
       {
+        "title": "Python 3.10.22, 3.11.17, 3.12.15, 3.13.16 and 3.14.8 are now available!",
+        "link": "https://blog.python.org/2026/10/python-31022-31117/",
+        "summary": "Security updates across Python 3.10–3.14, the final maintenance release of 3.13, and a farewell to Python 3.10.",
+        "image": null,
+        "source": "Python Insider",
+        "published": "2026-10-01T00:00:00.000Z",
+        "isNew": true
+      },
+      {
         "title": "Python Language Summit 2026 blog posts are now available",
         "link": "https://pyfound.blogspot.com/2026/09/python-language-summit-2026.html",
         "summary": "On July 14th, 2026, 47 Python core developers and special guests sat down\nat the Python Language Summit, this year\nheld in Kraków, Poland at EuroPython 2026, to discuss many topics about the future\nof the Python programming language, including free-threading, Rust, garbage collectors,\ntype annotations, and namespacing.\n\nThis marked the first time the Python Language\nSummit had been hosted in Europe in 15 years, when the event was\nheld in Florence on June 19th, 2011.\nGoing forward, the Python Language Summit will alternate between\nPyCon US and EuroPython on a yearly basis.\nThe summit was organized by Emily Morehouse, Hugo van Kemenade, Lysandros Nikolaou,\nand Łukasz Langa, and blog posts were written by Seth Larson.\nBelow are summaries of the 10 full-length\ntalks and 5 lightning talks that were presented at the 2026 Python Language Summit.\nI hope you enjoy them, and thank you for your patience.\n“One namespace to namespace them all” by Pablo Galindo Salgado\n“macOS and Python” by Ned Deily\n“Garbage Collection: Generational? Incremental? Both!” by Mark Shannon\n“Memory Buffer Protocol” by Nathan Goldbaum\n“Memory Snapshots for CPython” by Hood Chatham\n“Rust for CPython” by David Hewitt\n“Spicycrab” by Kushal Das\n“Developer-in-Residence Update & Future” by Petr Viktorin\n“Free-Threaded Python Post-Era” by Donghee Na, Tobias Wrigstad, and Fridtjof Stoldt\n“PEP 827: Type Manipulation” by Michael J. Sullivan\n“Lightning Talks”\n\n“One-time ABI breakage” by Mark Shannon\n“Safer and Generic…",
@@ -461,15 +470,6 @@
         "image": null,
         "source": "Python Insider",
         "published": "2026-09-30T12:00:06.000Z",
-        "isNew": false
-      },
-      {
-        "title": "Rust for CPython (Python Language Summit 2026)",
-        "link": "https://blog.python.org/2026/09/language-summit-2026-rust-for-cpython/",
-        "summary": "David Hewitt shares a status update, first module, and potential acceptance criteria for the Rust for CPython project",
-        "image": null,
-        "source": "Python Insider",
-        "published": "2026-09-30T12:00:05.000Z",
         "isNew": false
       }
     ],
