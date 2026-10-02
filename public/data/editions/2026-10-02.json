@@ -1,6 +1,6 @@
 {
   "date": "2026-10-02",
-  "generatedAt": "2026-10-02T16:40:02.413Z",
+  "generatedAt": "2026-10-02T21:19:40.750Z",
   "totalArticles": 72,
   "ticker": [
     {
@@ -105,33 +105,6 @@
     ],
     "azure": [
       {
-        "title": "Responsible infrastructure at hyperscale: Managing the full lifecycle of Azure hardware",
-        "link": "https://azure.microsoft.com/en-us/blog/responsible-infrastructure-at-hyperscale-managing-the-full-lifecycle-of-azure-hardware/",
-        "summary": "Microsoft is advancing Azure cloud infrastructure with more efficient systems and Circular Centers that extend the useful life of datacenter hardware.\nThe post Responsible infrastructure at hyperscale: Managing the full lifecycle of Azure hardware appeared first on Microsoft Azure Blog.",
-        "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/09/word-image-54217-2.webp",
-        "source": "Microsoft Azure Blog",
-        "published": "2026-09-30T15:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "SQL Server on Azure Local is now generally available",
-        "link": "https://www.microsoft.com/en-us/sql-server/blog/2026/09/28/sql-server-on-azure-local-is-now-generally-available/",
-        "summary": "With SQL Server on Azure Local, customers can modernize where their data resides while maintaining control over infrastructure, connectivity, and data placement.\nThe post SQL Server on Azure Local is now generally available appeared first on Microsoft Azure Blog.",
-        "image": null,
-        "source": "Microsoft Azure Blog",
-        "published": "2026-09-29T16:40:06.000Z",
-        "isNew": false
-      },
-      {
-        "title": "FabCon and SQLCon 2026 in Barcelona: Building the data foundation for Microsoft Copilot and agents",
-        "link": "https://azure.microsoft.com/en-us/blog/fabcon-and-sqlcon-2026-in-barcelona-building-the-data-foundation-for-microsoft-copilot-and-agents/",
-        "summary": "Microsoft Fabric and SQL innovations announced at FabCon and SQLCon Barcelona 2026 help organizations build trusted data foundations for AI.\nThe post FabCon and SQLCon 2026 in Barcelona: Building the data foundation for Microsoft Copilot and agents appeared first on Microsoft Azure Blog.",
-        "image": null,
-        "source": "Microsoft Azure Blog",
-        "published": "2026-09-29T06:30:00.000Z",
-        "isNew": false
-      },
-      {
         "title": "Enhancing Microsoft Azure Virtual Machine lifecycle",
         "link": "https://azure.microsoft.com/en-us/blog/enhancing-microsoft-azure-virtual-machine-lifecycle/",
         "summary": "Our Virtual Machine Lifecycle policy guides how we manage these transitions, giving Azure customers transparency, predictability, and guidance.\nThe post Enhancing Microsoft Azure Virtual Machine lifecycle appeared first on Microsoft Azure Blog.",
@@ -175,9 +148,45 @@
         "source": "Microsoft Azure Blog",
         "published": "2026-09-22T18:30:00.000Z",
         "isNew": false
+      },
+      {
+        "title": "Claude Opus 5.5 comes to Microsoft Foundry for long-running coding and knowledge work",
+        "link": "https://techcommunity.microsoft.com/blog/azure-ai-foundry-blog/claude-opus-5-5-comes-to-microsoft-foundry-for-long-running-coding-and-knowledge/4558051",
+        "summary": "AI models are increasingly taking on work that extends far beyond a single prompt: building a feature across a codebase, investigating a complex issue, synthesizing hundreds of pages of information, or working through a multi-step business process.\nThe post Claude Opus 5.5 comes to Microsoft Foundry for long-running coding and knowledge work appeared first on Microsoft Azure Blog.",
+        "image": null,
+        "source": "Microsoft Azure Blog",
+        "published": "2026-09-22T17:00:25.000Z",
+        "isNew": false
+      },
+      {
+        "title": "Microsoft recognized as a Leader in the 2026 Gartner® Magic Quadrant™ for Distributed Hybrid Infrastructure",
+        "link": "https://azure.microsoft.com/en-us/blog/microsoft-recognized-as-a-leader-in-the-2026-gartner-magic-quadrant-for-distributed-hybrid-infrastructure/",
+        "summary": "Gartner highlighted Microsoft’s unified single-product architecture, flexibility across hyperconverged and disaggregated architectures, and more.\nThe post Microsoft recognized as a Leader in the 2026 Gartner® Magic Quadrant™ for Distributed Hybrid Infrastructure appeared first on Microsoft Azure Blog.",
+        "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/09/image-3.webp",
+        "source": "Microsoft Azure Blog",
+        "published": "2026-09-16T16:00:00.000Z",
+        "isNew": false
+      },
+      {
+        "title": "Microsoft named a Leader in the 2026 Gartner® Magic Quadrant™ for Container Management",
+        "link": "https://azure.microsoft.com/en-us/blog/microsoft-named-a-leader-in-the-2026-gartner-magic-quadrant-for-container-management/",
+        "summary": "Microsoft was named a Leader in the 2026 Gartner® Magic Quadrant™ for Container Management. Discover how AKS, Azure Arc, and Azure Container Apps help organizations run AI and hybrid workloads at scale.\nThe post Microsoft named a Leader in the 2026 Gartner® Magic Quadrant™ for Container Management appeared first on Microsoft Azure Blog.",
+        "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/09/Container-Management-quadrant-927x1024.webp",
+        "source": "Microsoft Azure Blog",
+        "published": "2026-09-10T21:00:00.000Z",
+        "isNew": false
       }
     ],
     "gcp": [
+      {
+        "title": "October 02, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#October_02_2026",
+        "summary": "BigQuery\nFeature\nThe Rust SDK for BigQuery is now\ngenerally available\n(GA).\nFeature\nThe Data Engineering\nAgent now supports\nthe gemini-3.7-flash model for the us, eu, and global multi-regional\nendpoints.\nCloud NAT\nFeature\nGeneral Availability: Cloud NAT gateways for Private NAT support IPv6 to\nIPv4 network address translation. For more information, see\nNAT64 in Private NAT.\nGoogle Kubernetes Engine\nFeature\nYou can use Vertical Pod Autoscaler (VPA) with Horizontal Pod Autoscaler (HPA)\nto automatically optimize container CPU requests for workloads that scale\nreplicas based on CPU utilization. This feature is available in Public Preview\non clusters running GKE version 1.36.3-gke.1630000 or later. For more\ninformation, see\nRightsize HPA workloads with VPA.\nNetwork Connectivity Center\nFeature\nNetwork Connectivity Center supports site-to-site data transfer\nin the following country:\nPoland",
+        "image": null,
+        "source": "Google Cloud Platform (GCP) - Release notes",
+        "published": "2026-10-02T07:00:00.000Z",
+        "isNew": false
+      },
       {
         "title": "October 01, 2026",
         "link": "https://docs.cloud.google.com/release-notes#October_01_2026",
@@ -239,15 +248,6 @@
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-09-25T07:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "September 24, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#September_24_2026",
-        "summary": "Access Approval\nFeature\nFault Injection Testing is generally available\n(GA).\nAccess Transparency\nFeature\nFault Injection Testing is generally available\n(GA).\nApigee hybrid\nAnnouncement\nv1.15.8\nOn September 24, 2026 we released an updated version of the Apigee hybrid software, v1.15.8.\nFor information on upgrading, see Upgrading Apigee hybrid to version v1.15.8.\nFor information on new installations, see The big picture.\nNote: This is a patch release: The container images used in patch releases are integrated with the Apigee hybrid Helm charts. Upgrading to a patch via the Helm chart automatically updates the images. No manual image changes are typically needed. For information on container image support in Apigee hybrid releases, see Apigee release process.\nFixed\nFixed in this release\nBug ID\nDescription\n\n\n\n\n535928300\nFixed a security issue in JWT refresh token revocation handling.\n\n\n535683286\nFixed a security issue in HTTP target interim-response (103 Early Hints) handling to prevent response desynchronization.\n\n\n534852923\nFixed a security issue in the JavaCallout policy.\n\n\n534420582\nThe JSONThreatProtection policy now supports an optional <RejectDuplicateKeys> child element that rejects JSON payloads containing duplicate keys within the same object.\n\n\n531773665\nFixed an issue where the VerifyAPIKey policy could fail with a NullPointerException when reading developer attributes.\n\n\n469642464\nImproved input validation in AI protection policies to prevent server-side request…",
-        "image": null,
-        "source": "Google Cloud Platform (GCP) - Release notes",
-        "published": "2026-09-24T07:00:00.000Z",
         "isNew": false
       }
     ],
@@ -401,6 +401,15 @@
     ],
     "python": [
       {
+        "title": "Python 3.15.0 candidate 3 is here!",
+        "link": "https://blog.python.org/2026/10/python-3150-rc3/",
+        "summary": "Following tradition, a surprise rc3!",
+        "image": null,
+        "source": "Python Insider",
+        "published": "2026-10-02T00:00:00.000Z",
+        "isNew": false
+      },
+      {
         "title": "Python 3.10.22, 3.11.17, 3.12.15, 3.13.16 and 3.14.8 are now available!",
         "link": "https://blog.python.org/2026/10/python-31022-31117/",
         "summary": "Security updates across Python 3.10–3.14, the final maintenance release of 3.13, and a farewell to Python 3.10.",
@@ -462,18 +471,18 @@
         "source": "Python Insider",
         "published": "2026-09-30T12:00:07.000Z",
         "isNew": false
-      },
-      {
-        "title": "Spicycrab (Python Language Summit 2026)",
-        "link": "https://blog.python.org/2026/09/language-summit-2026-spicycrab/",
-        "summary": "Kushal Das shows off Spicycrab, a Python-to-Rust transpiler for Python users who need performance without learning Rust or leaving Python",
-        "image": null,
-        "source": "Python Insider",
-        "published": "2026-09-30T12:00:06.000Z",
-        "isNew": false
       }
     ],
     "go": [
+      {
+        "title": "Arch-specific SIMD in Go",
+        "link": "https://go.dev/blog/archsimd",
+        "summary": "The Go Blog\nArch-specific SIMD in Go\nSince Go 1.26, we have supported an experimental amd64 SIMD API. Now in Go 1.27, we support two more architectures: arm64 and wasm.\nThe new APIs can be accessed by setting GOEXPERIMENT=simd when building a program. They are defined in the simd/archsimd package.\narchsimd is the lower-level infrastructure that simd builds on, essentially the intrinsics layer in other languages. For exotic operations that only exist on a specific architecture, users can access them by transitioning from simd to archsimd (via ToArch and <Types>FromArch). For details, please refer to the simd blog post.\nFor readers with prior knowledge of SIMD intrinsics in other languages, you might find that our archsimd API does not directly mirror the underlying hardware instructions:\nWe give our APIs sensible names: e.g., instead of _mm512_slli_epi64, we just call it ShiftAllLeft.\nWe leave some architecture details to compiler optimizations rather than exposing them in the API: e.g., instead of _mm512_maskz_add_ps(m, x, y), we optimize x.Add(y).Masked(m) into the same instruction.\nThese design decisions make our APIs smaller and more accessible, and they also happily make the simd implementation much easier.\nFor readers without prior knowledge of SIMD intrinsics, we hope our low-level API is a natural and pleasant journey for you.\nPlease share your feedback and comments. Anything about usability, performance, etc., is appreciated. The parent issue for this project is…",
+        "image": null,
+        "source": "The Go Blog",
+        "published": "2026-10-02T00:00:00.000Z",
+        "isNew": false
+      },
       {
         "title": "Platform-independent SIMD in Go",
         "link": "https://go.dev/blog/simd-experiment",
@@ -535,15 +544,6 @@
         "image": null,
         "source": "The Go Blog",
         "published": "2026-03-24T00:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "//go:fix inline and the source-level inliner",
-        "link": "https://go.dev/blog/inliner",
-        "summary": "The Go Blog\n//go:fix inline and the source-level inliner\n pre:nth-of-type(1) { background: var(--color-diff-old); }\n#content .beforeafter > pre:nth-of-type(2) { background: var(--color-diff-new); }\n.beforeafter-arrow {\n  place-self: center;\n  /* Undo unnecessary grid gap. */\n  margin: -0.5em;\n}\n.beforeafter-arrow::before {\n  content: \"⟶\";\n  @media screen and (max-width: 57.7rem) {\n    content: \"⇓\";\n  }\n}\n\nGo 1.26 contains an all-new implementation of the go fix subcommand,\ndesigned to help you keep your Go code up-to-date and modern. For an\nintroduction, start by reading our recent post on the topic.\nIn this post, we’ll look at one particular feature, the source-level\ninliner.\nWhile go fix has several bespoke modernizers for specific new\nlanguage and library features,\nthe source-level inliner is the first fruit of our efforts to provide\n“self-service” modernizers and analyzers.\nIt enables any package author to express simple API migrations and\nupdates in a straightforward and safe way.\nWe’ll first explain what the source-level inliner is and how you can use it,\nthen we’ll dive into some aspects of the problem and the technology behind it.\nSource-level inlining\nIn 2023, we built an algorithm for source-level inlining of function calls in Go. To “inline” a call means to replace the call by a copy of the body of the called function, substituting arguments for parameters. We call it “source-level” inlining because it durably modifies the source code. By contrast, the inlining…",
-        "image": null,
-        "source": "The Go Blog",
-        "published": "2026-03-10T00:00:00.000Z",
         "isNew": false
       }
     ],
