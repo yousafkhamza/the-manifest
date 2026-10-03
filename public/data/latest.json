@@ -1,6 +1,6 @@
 {
-  "date": "2026-10-02",
-  "generatedAt": "2026-10-02T21:19:40.750Z",
+  "date": "2026-10-03",
+  "generatedAt": "2026-10-03T10:24:38.462Z",
   "totalArticles": 72,
   "ticker": [
     {
@@ -105,6 +105,33 @@
     ],
     "azure": [
       {
+        "title": "Responsible infrastructure at hyperscale: Managing the full lifecycle of Azure hardware",
+        "link": "https://azure.microsoft.com/en-us/blog/responsible-infrastructure-at-hyperscale-managing-the-full-lifecycle-of-azure-hardware/",
+        "summary": "Microsoft is advancing Azure cloud infrastructure with more efficient systems and Circular Centers that extend the useful life of datacenter hardware.\nThe post Responsible infrastructure at hyperscale: Managing the full lifecycle of Azure hardware appeared first on Microsoft Azure Blog.",
+        "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/09/word-image-54217-2.webp",
+        "source": "Microsoft Azure Blog",
+        "published": "2026-09-30T15:00:00.000Z",
+        "isNew": true
+      },
+      {
+        "title": "SQL Server on Azure Local is now generally available",
+        "link": "https://www.microsoft.com/en-us/sql-server/blog/2026/09/28/sql-server-on-azure-local-is-now-generally-available/",
+        "summary": "With SQL Server on Azure Local, customers can modernize where their data resides while maintaining control over infrastructure, connectivity, and data placement.\nThe post SQL Server on Azure Local is now generally available appeared first on Microsoft Azure Blog.",
+        "image": null,
+        "source": "Microsoft Azure Blog",
+        "published": "2026-09-29T16:40:06.000Z",
+        "isNew": true
+      },
+      {
+        "title": "FabCon and SQLCon 2026 in Barcelona: Building the data foundation for Microsoft Copilot and agents",
+        "link": "https://azure.microsoft.com/en-us/blog/fabcon-and-sqlcon-2026-in-barcelona-building-the-data-foundation-for-microsoft-copilot-and-agents/",
+        "summary": "Microsoft Fabric and SQL innovations announced at FabCon and SQLCon Barcelona 2026 help organizations build trusted data foundations for AI.\nThe post FabCon and SQLCon 2026 in Barcelona: Building the data foundation for Microsoft Copilot and agents appeared first on Microsoft Azure Blog.",
+        "image": null,
+        "source": "Microsoft Azure Blog",
+        "published": "2026-09-29T06:30:00.000Z",
+        "isNew": true
+      },
+      {
         "title": "Enhancing Microsoft Azure Virtual Machine lifecycle",
         "link": "https://azure.microsoft.com/en-us/blog/enhancing-microsoft-azure-virtual-machine-lifecycle/",
         "summary": "Our Virtual Machine Lifecycle policy guides how we manage these transitions, giving Azure customers transparency, predictability, and guidance.\nThe post Enhancing Microsoft Azure Virtual Machine lifecycle appeared first on Microsoft Azure Blog.",
@@ -148,40 +175,13 @@
         "source": "Microsoft Azure Blog",
         "published": "2026-09-22T18:30:00.000Z",
         "isNew": false
-      },
-      {
-        "title": "Claude Opus 5.5 comes to Microsoft Foundry for long-running coding and knowledge work",
-        "link": "https://techcommunity.microsoft.com/blog/azure-ai-foundry-blog/claude-opus-5-5-comes-to-microsoft-foundry-for-long-running-coding-and-knowledge/4558051",
-        "summary": "AI models are increasingly taking on work that extends far beyond a single prompt: building a feature across a codebase, investigating a complex issue, synthesizing hundreds of pages of information, or working through a multi-step business process.\nThe post Claude Opus 5.5 comes to Microsoft Foundry for long-running coding and knowledge work appeared first on Microsoft Azure Blog.",
-        "image": null,
-        "source": "Microsoft Azure Blog",
-        "published": "2026-09-22T17:00:25.000Z",
-        "isNew": false
-      },
-      {
-        "title": "Microsoft recognized as a Leader in the 2026 Gartner® Magic Quadrant™ for Distributed Hybrid Infrastructure",
-        "link": "https://azure.microsoft.com/en-us/blog/microsoft-recognized-as-a-leader-in-the-2026-gartner-magic-quadrant-for-distributed-hybrid-infrastructure/",
-        "summary": "Gartner highlighted Microsoft’s unified single-product architecture, flexibility across hyperconverged and disaggregated architectures, and more.\nThe post Microsoft recognized as a Leader in the 2026 Gartner® Magic Quadrant™ for Distributed Hybrid Infrastructure appeared first on Microsoft Azure Blog.",
-        "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/09/image-3.webp",
-        "source": "Microsoft Azure Blog",
-        "published": "2026-09-16T16:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "Microsoft named a Leader in the 2026 Gartner® Magic Quadrant™ for Container Management",
-        "link": "https://azure.microsoft.com/en-us/blog/microsoft-named-a-leader-in-the-2026-gartner-magic-quadrant-for-container-management/",
-        "summary": "Microsoft was named a Leader in the 2026 Gartner® Magic Quadrant™ for Container Management. Discover how AKS, Azure Arc, and Azure Container Apps help organizations run AI and hybrid workloads at scale.\nThe post Microsoft named a Leader in the 2026 Gartner® Magic Quadrant™ for Container Management appeared first on Microsoft Azure Blog.",
-        "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/09/Container-Management-quadrant-927x1024.webp",
-        "source": "Microsoft Azure Blog",
-        "published": "2026-09-10T21:00:00.000Z",
-        "isNew": false
       }
     ],
     "gcp": [
       {
         "title": "October 02, 2026",
         "link": "https://docs.cloud.google.com/release-notes#October_02_2026",
-        "summary": "BigQuery\nFeature\nThe Rust SDK for BigQuery is now\ngenerally available\n(GA).\nFeature\nThe Data Engineering\nAgent now supports\nthe gemini-3.7-flash model for the us, eu, and global multi-regional\nendpoints.\nCloud NAT\nFeature\nGeneral Availability: Cloud NAT gateways for Private NAT support IPv6 to\nIPv4 network address translation. For more information, see\nNAT64 in Private NAT.\nGoogle Kubernetes Engine\nFeature\nYou can use Vertical Pod Autoscaler (VPA) with Horizontal Pod Autoscaler (HPA)\nto automatically optimize container CPU requests for workloads that scale\nreplicas based on CPU utilization. This feature is available in Public Preview\non clusters running GKE version 1.36.3-gke.1630000 or later. For more\ninformation, see\nRightsize HPA workloads with VPA.\nNetwork Connectivity Center\nFeature\nNetwork Connectivity Center supports site-to-site data transfer\nin the following country:\nPoland",
+        "summary": "Apigee X\nAnnouncement\nOn October 2, 2026, we released an updated version of Apigee (1-18-0-apigee-6).\nNote: Rollouts of this release began today and can take four or more business\ndays to complete across all Google Cloud zones. Your instances might not have\nthe features and fixes available until the rollout is complete.\nSecurity\nBug ID\nDescription\n\n\n\n\n564386425\nSecurity fix for Apigee. Upgraded the Apigee ingress gateway (ASM) to patch security vulnerabilities.\n\n\n561666530\nSecurity fix for Apigee. Upgraded the Prometheus library to patch the following vulnerabilities: \n\nCVE-2026-42151\nCVE-2026-42154\nCVE-2026-44903\nCVE-2026-40179\n\n\n\n\nN/A\nSecurity fix for Apigee infrastructure.\n\n\n\nFixed\nBug ID\nDescription\n\n\n\n\n432315283\nFixed a multi-certificate truststore so that its trust anchors take effect without a Message Processor restart when features.truststore.multi_cert_bundle.enabled is toggled at runtime; the outbound SSL context is now rebuilt automatically on any trust-anchor change.\n\n\n565072374\nVerifyJWT policies that use a JWKS uriRef no longer return steps.jwt.NoMatchingPublicKey on the first request after the JWKS cache TTL expires when the identity provider has rotated to a new key ID. The cache now re-fetches synchronously when its entry expires.\n\n\n535395491\nExtension Processor (ext_proc) denials now return the status and body that the policy or FaultRule produced, instead of always returning HTTP 500.\n\n\n558421499\nApigee runtime runs on JRE 21.\n\n\n517953321\nThe…",
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-10-02T07:00:00.000Z",
