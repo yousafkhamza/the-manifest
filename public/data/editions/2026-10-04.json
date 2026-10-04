@@ -1,6 +1,6 @@
 {
   "date": "2026-10-04",
-  "generatedAt": "2026-10-04T11:06:24.852Z",
+  "generatedAt": "2026-10-04T15:49:26.016Z",
   "totalArticles": 72,
   "ticker": [
     {
@@ -111,7 +111,7 @@
         "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/09/word-image-54217-2.webp",
         "source": "Microsoft Azure Blog",
         "published": "2026-09-30T15:00:00.000Z",
-        "isNew": true
+        "isNew": false
       },
       {
         "title": "SQL Server on Azure Local is now generally available",
