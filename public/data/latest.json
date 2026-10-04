@@ -1,6 +1,6 @@
 {
   "date": "2026-10-04",
-  "generatedAt": "2026-10-04T15:49:26.016Z",
+  "generatedAt": "2026-10-04T20:10:58.590Z",
   "totalArticles": 72,
   "ticker": [
     {
@@ -179,6 +179,24 @@
     ],
     "gcp": [
       {
+        "title": "October 04, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#October_04_2026",
+        "summary": "Google SecOps SOAR\nAnnouncement\nRelease 6.3.102 is being rolled out to the first phase of regions as listed\nhere.\nThis release contains internal and customer bug fixes.",
+        "image": null,
+        "source": "Google Cloud Platform (GCP) - Release notes",
+        "published": "2026-10-04T07:00:00.000Z",
+        "isNew": false
+      },
+      {
+        "title": "October 03, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#October_03_2026",
+        "summary": "Google SecOps SOAR\nAnnouncement\nRelease 6.3.101 is now\navailable for all regions.",
+        "image": null,
+        "source": "Google Cloud Platform (GCP) - Release notes",
+        "published": "2026-10-03T07:00:00.000Z",
+        "isNew": false
+      },
+      {
         "title": "October 02, 2026",
         "link": "https://docs.cloud.google.com/release-notes#October_02_2026",
         "summary": "Apigee X\nAnnouncement\nOn October 2, 2026, we released an updated version of Apigee (1-18-0-apigee-6).\nNote: Rollouts of this release began today and can take four or more business\ndays to complete across all Google Cloud zones. Your instances might not have\nthe features and fixes available until the rollout is complete.\nSecurity\nBug ID\nDescription\n\n\n\n\n564386425\nSecurity fix for Apigee. Upgraded the Apigee ingress gateway (ASM) to patch security vulnerabilities.\n\n\n561666530\nSecurity fix for Apigee. Upgraded the Prometheus library to patch the following vulnerabilities: \n\nCVE-2026-42151\nCVE-2026-42154\nCVE-2026-44903\nCVE-2026-40179\n\n\n\n\nN/A\nSecurity fix for Apigee infrastructure.\n\n\n\nFixed\nBug ID\nDescription\n\n\n\n\n432315283\nFixed a multi-certificate truststore so that its trust anchors take effect without a Message Processor restart when features.truststore.multi_cert_bundle.enabled is toggled at runtime; the outbound SSL context is now rebuilt automatically on any trust-anchor change.\n\n\n565072374\nVerifyJWT policies that use a JWKS uriRef no longer return steps.jwt.NoMatchingPublicKey on the first request after the JWKS cache TTL expires when the identity provider has rotated to a new key ID. The cache now re-fetches synchronously when its entry expires.\n\n\n535395491\nExtension Processor (ext_proc) denials now return the status and body that the policy or FaultRule produced, instead of always returning HTTP 500.\n\n\n558421499\nApigee runtime runs on JRE 21.\n\n\n517953321\nThe…",
@@ -230,24 +248,6 @@
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-09-27T07:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "September 26, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#September_26_2026",
-        "summary": "Google SecOps SOAR\nAnnouncement\nRelease 6.3.100 is now\navailable for all regions.",
-        "image": null,
-        "source": "Google Cloud Platform (GCP) - Release notes",
-        "published": "2026-09-26T07:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "September 25, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#September_25_2026",
-        "summary": "API Keys API\nFeature\nThe API Keys remote Model Context Protocol (MCP) server is available in\nPreview. You can\nconnect to the API Keys remote MCP server from AI applications to\ncreate, inspect, restrict, and manage the lifecycle of API keys in your\nGoogle Cloud projects.\nFor more information, see the\nAPI Keys MCP reference.\nCompute Engine\nFeature\nGenerally available: New X5 series with 50% larger memory instances:\nBreaking the previous 32TB memory limit of the X4\nmemory-optimized machine type,\na new X5 series introduces massive 48TB configurations. This empowers the\nlargest SAP HANA and RISE with SAP customers to easily scale up their\nmission-critical databases on a single node.\nGemini Enterprise Agent Platform\nFeature\nSemantic governance policies support VPC Service Controls (Preview)\nSemantic governance policy and the Semantic governance policy engine support\nVPC Service Controls in\nPreview. You can\ninclude Semantic governance policy and the policy engine in your service\nperimeter to help mitigate the risk of data exfiltration when governing agent\ntool calls.\nFor more information, see VPC Service Controls with Gemini Enterprise Agent\nPlatform\nand Semantic governance policies\noverview.\nGoogle Cloud Contact Center as a Service\nAnnouncement\nAdvanced reporting dashboards 6.14\nWe've released version 6.14 of the advanced reporting dashboards.\nFeature\nTwo new tables in the Real-time Queue Monitoring - Calls dashboard: Today's\nScheduled Calls and Upcoming Scheduled Calls\nWe've…",
-        "image": null,
-        "source": "Google Cloud Platform (GCP) - Release notes",
-        "published": "2026-09-25T07:00:00.000Z",
         "isNew": false
       }
     ],
