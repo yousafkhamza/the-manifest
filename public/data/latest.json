@@ -1,6 +1,6 @@
 {
-  "date": "2026-10-03",
-  "generatedAt": "2026-10-03T19:50:21.511Z",
+  "date": "2026-10-04",
+  "generatedAt": "2026-10-04T11:06:24.852Z",
   "totalArticles": 72,
   "ticker": [
     {
@@ -105,6 +105,15 @@
     ],
     "azure": [
       {
+        "title": "Responsible infrastructure at hyperscale: Managing the full lifecycle of Azure hardware",
+        "link": "https://azure.microsoft.com/en-us/blog/responsible-infrastructure-at-hyperscale-managing-the-full-lifecycle-of-azure-hardware/",
+        "summary": "Microsoft is advancing Azure cloud infrastructure with more efficient systems and Circular Centers that extend the useful life of datacenter hardware.\nThe post Responsible infrastructure at hyperscale: Managing the full lifecycle of Azure hardware appeared first on Microsoft Azure Blog.",
+        "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/09/word-image-54217-2.webp",
+        "source": "Microsoft Azure Blog",
+        "published": "2026-09-30T15:00:00.000Z",
+        "isNew": true
+      },
+      {
         "title": "SQL Server on Azure Local is now generally available",
         "link": "https://www.microsoft.com/en-us/sql-server/blog/2026/09/28/sql-server-on-azure-local-is-now-generally-available/",
         "summary": "With SQL Server on Azure Local, customers can modernize where their data resides while maintaining control over infrastructure, connectivity, and data placement.\nThe post SQL Server on Azure Local is now generally available appeared first on Microsoft Azure Blog.",
@@ -165,15 +174,6 @@
         "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/09/updated_chart-1024x768.webp",
         "source": "Microsoft Azure Blog",
         "published": "2026-09-22T18:30:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "Claude Opus 5.5 comes to Microsoft Foundry for long-running coding and knowledge work",
-        "link": "https://techcommunity.microsoft.com/blog/azure-ai-foundry-blog/claude-opus-5-5-comes-to-microsoft-foundry-for-long-running-coding-and-knowledge/4558051",
-        "summary": "AI models are increasingly taking on work that extends far beyond a single prompt: building a feature across a codebase, investigating a complex issue, synthesizing hundreds of pages of information, or working through a multi-step business process.\nThe post Claude Opus 5.5 comes to Microsoft Foundry for long-running coding and knowledge work appeared first on Microsoft Azure Blog.",
-        "image": null,
-        "source": "Microsoft Azure Blog",
-        "published": "2026-09-22T17:00:25.000Z",
         "isNew": false
       }
     ],
