@@ -1,6 +1,6 @@
 {
   "date": "2026-10-05",
-  "generatedAt": "2026-10-05T19:38:13.055Z",
+  "generatedAt": "2026-10-05T23:10:28.212Z",
   "totalArticles": 72,
   "ticker": [
     {
@@ -181,7 +181,7 @@
       {
         "title": "October 05, 2026",
         "link": "https://docs.cloud.google.com/release-notes#October_05_2026",
-        "summary": "Cloud Load Balancing\nFeature\nExternal IPv6 addresses are now supported for\nStandard Tier. For more\ninformation,\nsee IPv6 subnet ranges.\nThis feature is in Preview.\nCompute Engine\nFeature\nPreview: External IPv6 addresses are now supported for\nStandard Tier. For more\ninformation,\nsee IPv6 subnet ranges.\nGoogle SecOps SIEM\nFeature\n[Spotlight Feature] Terraform and client libraries for multiple features using Chronicle API\nTerraform providers and Google Cloud client libraries are now available for several Google SecOps features using Chronicle API including Feeds, Parsers, Rules, Findings Refinements, Retrohunts, Dashboards, Data Tables, Watchlists, Custom Lists, Environments, Environment Groups, Data Export, SOAR Domains, and SOAR Networks. For more information, see Terraform reference and Client libraries. \nTerraform providers enable programmatic provisioning and management of Google SecOps resources as code, while Client Libraries enable developers to build custom integrations and automate Google SecOps workflows in their preferred programming languages.\nNetwork Service Tiers\nFeature\nExternal IPv6 addresses are now supported for\nStandard Tier in Preview.\nFor more information, see IPv6 subnet ranges.",
+        "summary": "BigQuery\nFeature\nIceberg external tables and\nIceberg managed tables now support\nflexible column names by default. This\nfeature is generally available (GA).\nFeature\nThe gemini-embedding-2 model works well for embedding long strings, including\nmultilingual and unstructured data. It supports a mix of text, images, audio,\nvideo, and PDF files. You can use this model in the\nAI.EMBED,\nAI.SIMILARITY,\nand\nAI.GENERATE_EMBEDDING\nfunctions. This model is\ngenerally available.\nCloud Load Balancing\nFeature\nExternal IPv6 addresses are now supported for\nStandard Tier. For more\ninformation,\nsee IPv6 subnet ranges.\nThis feature is in Preview.\nCompute Engine\nFeature\nPreview: External IPv6 addresses are now supported for\nStandard Tier. For more\ninformation,\nsee IPv6 subnet ranges.\nGoogle SecOps SIEM\nFeature\n[Spotlight Feature] Terraform and client libraries for multiple features using Chronicle API\nTerraform providers and Google Cloud client libraries are now available for several Google SecOps features using Chronicle API including Feeds, Parsers, Rules, Findings Refinements, Retrohunts, Dashboards, Data Tables, Watchlists, Custom Lists, Environments, Environment Groups, Data Export, SOAR Domains, and SOAR Networks. For more information, see Terraform reference and Client libraries. \nTerraform providers enable programmatic provisioning and management of Google SecOps resources as code, while Client Libraries enable developers to build custom integrations and automate Google SecOps workflows in…",
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-10-05T07:00:00.000Z",
