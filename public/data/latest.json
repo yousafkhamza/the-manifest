@@ -1,6 +1,6 @@
 {
-  "date": "2026-10-04",
-  "generatedAt": "2026-10-04T20:10:58.590Z",
+  "date": "2026-10-05",
+  "generatedAt": "2026-10-05T12:16:25.497Z",
   "totalArticles": 72,
   "ticker": [
     {
@@ -105,33 +105,6 @@
     ],
     "azure": [
       {
-        "title": "Responsible infrastructure at hyperscale: Managing the full lifecycle of Azure hardware",
-        "link": "https://azure.microsoft.com/en-us/blog/responsible-infrastructure-at-hyperscale-managing-the-full-lifecycle-of-azure-hardware/",
-        "summary": "Microsoft is advancing Azure cloud infrastructure with more efficient systems and Circular Centers that extend the useful life of datacenter hardware.\nThe post Responsible infrastructure at hyperscale: Managing the full lifecycle of Azure hardware appeared first on Microsoft Azure Blog.",
-        "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/09/word-image-54217-2.webp",
-        "source": "Microsoft Azure Blog",
-        "published": "2026-09-30T15:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "SQL Server on Azure Local is now generally available",
-        "link": "https://www.microsoft.com/en-us/sql-server/blog/2026/09/28/sql-server-on-azure-local-is-now-generally-available/",
-        "summary": "With SQL Server on Azure Local, customers can modernize where their data resides while maintaining control over infrastructure, connectivity, and data placement.\nThe post SQL Server on Azure Local is now generally available appeared first on Microsoft Azure Blog.",
-        "image": null,
-        "source": "Microsoft Azure Blog",
-        "published": "2026-09-29T16:40:06.000Z",
-        "isNew": false
-      },
-      {
-        "title": "FabCon and SQLCon 2026 in Barcelona: Building the data foundation for Microsoft Copilot and agents",
-        "link": "https://azure.microsoft.com/en-us/blog/fabcon-and-sqlcon-2026-in-barcelona-building-the-data-foundation-for-microsoft-copilot-and-agents/",
-        "summary": "Microsoft Fabric and SQL innovations announced at FabCon and SQLCon Barcelona 2026 help organizations build trusted data foundations for AI.\nThe post FabCon and SQLCon 2026 in Barcelona: Building the data foundation for Microsoft Copilot and agents appeared first on Microsoft Azure Blog.",
-        "image": null,
-        "source": "Microsoft Azure Blog",
-        "published": "2026-09-29T06:30:00.000Z",
-        "isNew": false
-      },
-      {
         "title": "Enhancing Microsoft Azure Virtual Machine lifecycle",
         "link": "https://azure.microsoft.com/en-us/blog/enhancing-microsoft-azure-virtual-machine-lifecycle/",
         "summary": "Our Virtual Machine Lifecycle policy guides how we manage these transitions, giving Azure customers transparency, predictability, and guidance.\nThe post Enhancing Microsoft Azure Virtual Machine lifecycle appeared first on Microsoft Azure Blog.",
@@ -175,9 +148,45 @@
         "source": "Microsoft Azure Blog",
         "published": "2026-09-22T18:30:00.000Z",
         "isNew": false
+      },
+      {
+        "title": "Claude Opus 5.5 comes to Microsoft Foundry for long-running coding and knowledge work",
+        "link": "https://techcommunity.microsoft.com/blog/azure-ai-foundry-blog/claude-opus-5-5-comes-to-microsoft-foundry-for-long-running-coding-and-knowledge/4558051",
+        "summary": "AI models are increasingly taking on work that extends far beyond a single prompt: building a feature across a codebase, investigating a complex issue, synthesizing hundreds of pages of information, or working through a multi-step business process.\nThe post Claude Opus 5.5 comes to Microsoft Foundry for long-running coding and knowledge work appeared first on Microsoft Azure Blog.",
+        "image": null,
+        "source": "Microsoft Azure Blog",
+        "published": "2026-09-22T17:00:25.000Z",
+        "isNew": true
+      },
+      {
+        "title": "Microsoft recognized as a Leader in the 2026 Gartner® Magic Quadrant™ for Distributed Hybrid Infrastructure",
+        "link": "https://azure.microsoft.com/en-us/blog/microsoft-recognized-as-a-leader-in-the-2026-gartner-magic-quadrant-for-distributed-hybrid-infrastructure/",
+        "summary": "Gartner highlighted Microsoft’s unified single-product architecture, flexibility across hyperconverged and disaggregated architectures, and more.\nThe post Microsoft recognized as a Leader in the 2026 Gartner® Magic Quadrant™ for Distributed Hybrid Infrastructure appeared first on Microsoft Azure Blog.",
+        "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/09/image-3.webp",
+        "source": "Microsoft Azure Blog",
+        "published": "2026-09-16T16:00:00.000Z",
+        "isNew": true
+      },
+      {
+        "title": "Microsoft named a Leader in the 2026 Gartner® Magic Quadrant™ for Container Management",
+        "link": "https://azure.microsoft.com/en-us/blog/microsoft-named-a-leader-in-the-2026-gartner-magic-quadrant-for-container-management/",
+        "summary": "Microsoft was named a Leader in the 2026 Gartner® Magic Quadrant™ for Container Management. Discover how AKS, Azure Arc, and Azure Container Apps help organizations run AI and hybrid workloads at scale.\nThe post Microsoft named a Leader in the 2026 Gartner® Magic Quadrant™ for Container Management appeared first on Microsoft Azure Blog.",
+        "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/09/Container-Management-quadrant-927x1024.webp",
+        "source": "Microsoft Azure Blog",
+        "published": "2026-09-10T21:00:00.000Z",
+        "isNew": true
       }
     ],
     "gcp": [
+      {
+        "title": "October 05, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#October_05_2026",
+        "summary": "Google SecOps SIEM\nFeature\n[Spotlight Feature] Terraform and client libraries for multiple features using Chronicle API\nTerraform providers and Google Cloud client libraries are now available for several Google SecOps features using Chronicle API including Feeds, Parsers, Rules, Findings Refinements, Retrohunts, Dashboards, Data Tables, Watchlists, Custom Lists, Environments, Environment Groups, Data Export, SOAR Domains, and SOAR Networks. For more information, see Terraform reference and Client libraries. \nTerraform providers enable programmatic provisioning and management of Google SecOps resources as code, while Client Libraries enable developers to build custom integrations and automate Google SecOps workflows in their preferred programming languages.",
+        "image": null,
+        "source": "Google Cloud Platform (GCP) - Release notes",
+        "published": "2026-10-05T07:00:00.000Z",
+        "isNew": true
+      },
       {
         "title": "October 04, 2026",
         "link": "https://docs.cloud.google.com/release-notes#October_04_2026",
@@ -190,7 +199,7 @@
       {
         "title": "October 03, 2026",
         "link": "https://docs.cloud.google.com/release-notes#October_03_2026",
-        "summary": "Google SecOps SOAR\nAnnouncement\nRelease 6.3.101 is now\navailable for all regions.",
+        "summary": "Google SecOps SOAR\nAnnouncement\nRelease 6.3.101 is now\navailable for all regions.\nSensitive Data Protection\nChange\nA new version with an updated name dictionary is available for the PERSON_NAME infoType detector. You can try it out by setting InfoType.version to latest when including the PERSON_NAME infoType in your InspectConfig.\nYou can still use the previous functionality by setting InfoType.version to stable or leaving it unset when using the PERSON_NAME infoType. In 30 days, the new version will be promoted to stable.",
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-10-03T07:00:00.000Z",
@@ -208,7 +217,7 @@
       {
         "title": "October 01, 2026",
         "link": "https://docs.cloud.google.com/release-notes#October_01_2026",
-        "summary": "BigQuery\nChange\nAn updated version of the\nSimba JDBC driver for BigQuery\nis now available.\nFeature\nChatting with graphs in\nconversational analytics\nis now\ngenerally available.\nYou can use a combination of multiple graphs, tables, views, and UDFs as data\nsources.\nFeature\nBigQuery pipelines provides support for automated metadata enrichment\nand Knowledge Catalog data quality scorecard integration. In addition, the\nData Engineering Agent can proactively generate semantic metadata for your\npipeline assets. For more information, see\nMetadata enrichment and data quality scorecard integration.\nThese features are\ngenerally available.\nBigtable\nFeature\nYou can use Google Cloud Data Agent Kit to browse\nBigtable instances and tables, design schemas, and run GoogleSQL queries from\nyour IDE or coding agent. This feature is\ngenerally available (GA).\nFor more information, see\nData Agent Kit is now GA: Bring Google Data Cloud to any coding agent.\nDataform\nFeature\nDataform provides support for automated metadata enrichment and Knowledge Catalog data quality scorecard integration for Dataform workflows and BigQuery pipelines. For more information, see\nAdd metadata for Knowledge Catalog.\nThis feature is\ngenerally available.\nGoogle Cloud VMware Engine\nFeature\nGenerally available: Bring Your Own License (BYOL) license management for\nGoogle Cloud VMware Engine is generally available (GA). BYOL license management lets you\nregister and manage portable VMware Cloud Foundation (VCF) license keys in…",
+        "summary": "BigQuery\nChange\nAn updated version of the\nSimba JDBC driver for BigQuery\nis now available.\nFeature\nChatting with graphs in\nconversational analytics\nis now\ngenerally available.\nYou can use a combination of multiple graphs, tables, views, and UDFs as data\nsources.\nFeature\nBigQuery pipelines provides support for automated metadata enrichment\nand Knowledge Catalog data quality scorecard integration. In addition, the\nData Engineering Agent can proactively generate semantic metadata for your\npipeline assets. For more information, see\nMetadata enrichment and data quality scorecard integration.\nThese features are\ngenerally available.\nBigtable\nFeature\nYou can use Google Cloud Data Agent Kit to browse\nBigtable instances and tables, design schemas, and run GoogleSQL queries from\nyour IDE or coding agent. This feature is\ngenerally available (GA).\nFor more information, see\nData Agent Kit is now GA: Bring Google Data Cloud to any coding agent.\nCloud Healthcare API\nFeature\nPreview: The FHIR bulk export Group POST feature is now available in\nPreview in Cloud Healthcare\nAPI v1beta1. You can invoke the $export operation on a FHIR Group by using the HTTP\nPOST method (projects.locations.datasets.fhirStores.bulk-export-group-post) to supply\nexport parameters in the request body rather than through URL query parameters.\nThe request body allows filtering by a list of up to 1,000 patient references by using\nthe patient parameter in addition to _since and _type. For more information about the…",
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-10-01T07:00:00.000Z",
@@ -217,7 +226,7 @@
       {
         "title": "September 30, 2026",
         "link": "https://docs.cloud.google.com/release-notes#September_30_2026",
-        "summary": "API Gateway\nFeature\nAuthenticate MCP tool discovery with an API key\nAPI key authentication is now supported for the Model Context Protocol (MCP) tools/list method. You can name an API key security scheme in tools-list.security, in addition to a JWT security scheme.\nFor more information, see Configure Model Context Protocol.\nApigee API hub\nFeature\nAI performance and Tool performance dashboards in API insights\nAPI insights in API hub now includes two dashboards for AI and agent traffic:\nAI performance reports token usage and model latency for the large language models called through your gateways, with filters for model and provider.\nTool performance reports traffic, throughput, payload sizes, and latency for your Model Context Protocol (MCP) tools, with filters for MCP server, deployment, and tool name.\nFor more information, see API insights dashboards.\nApigee hybrid\nAnnouncement\nv1.17.1\nOn September 30, 2026 we released an updated version of the Apigee hybrid software, v1.17.1.\nFor information on upgrading, see Upgrading Apigee hybrid to version v1.17.1.\nFor information on new installations, see The big picture.\nNote: This is a patch release: The container images used in patch releases are integrated with the Apigee hybrid Helm charts. Upgrading to a patch via the Helm chart automatically updates the images. No manual image changes are typically needed. For information on container image support in Apigee hybrid releases, see Apigee release process.\nFeature\nExternal…",
+        "summary": "API Gateway\nFeature\nAuthenticate MCP tool discovery with an API key\nAPI key authentication is now supported for the Model Context Protocol (MCP) tools/list method. You can name an API key security scheme in tools-list.security, in addition to a JWT security scheme.\nFor more information, see Configure Model Context Protocol.\nApigee API hub\nFeature\nService type system attribute (GA)\nAPI hub now includes Service type, a system attribute that classifies an API as Code, Model, Agent, or Skill. Service type describes what a service is. API style describes how you call it. Use Service type to find and govern your APIs, agents, models, and skills.\nSet Service type when you register or edit an API. To show only your agents, filter the API list by Service type, or select the new Agent chip. In the API, use the service_type field.\nThis feature is Generally Available (GA). For more information, see Supported system attributes.\nFeature\nAI performance and Tool performance dashboards in API insights\nAPI insights in API hub now includes two dashboards for AI and agent traffic:\nAI performance reports token usage and model latency for the large language models called through your gateways, with filters for model and provider.\nTool performance reports traffic, throughput, payload sizes, and latency for your Model Context Protocol (MCP) tools, with filters for MCP server, deployment, and tool name.\nFor more information, see API insights dashboards.\nApigee hybrid\nAnnouncement\nv1.17.1\nOn…",
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-09-30T07:00:00.000Z",
@@ -239,15 +248,6 @@
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-09-28T07:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "September 27, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#September_27_2026",
-        "summary": "Agent Platform Workbench\nChange\n20260927-2130-rc0 Release\nChange\nInstalled latest packages from upstream dependencies.\nChange\nM151 Release\nChange\nInstalled latest packages from upstream dependencies.\nFeature\nJupyterLab now forwards client-side logs (console errors, uncaught exceptions, unhandled promise rejections, and failed network requests) to the instance backend, where they surface in Cloud Logging for easier debugging.\nChange\n20260927-1408-rc0 Release\nChange\n20260927-1408-rc0 Release\nChange\nInstalled latest packages from upstream dependencies.\nChange\nInstalled latest packages from upstream dependencies.\nGoogle SecOps SOAR\nAnnouncement\nRelease 6.3.101 is being rolled out to the first phase of regions as listed\nhere.\nThis release contains internal and customer bug fixes.",
-        "image": null,
-        "source": "Google Cloud Platform (GCP) - Release notes",
-        "published": "2026-09-27T07:00:00.000Z",
         "isNew": false
       }
     ],
