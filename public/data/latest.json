@@ -1,6 +1,6 @@
 {
   "date": "2026-10-05",
-  "generatedAt": "2026-10-05T12:16:25.497Z",
+  "generatedAt": "2026-10-05T19:38:13.055Z",
   "totalArticles": 72,
   "ticker": [
     {
@@ -30,6 +30,15 @@
   ],
   "topics": {
     "aws": [
+      {
+        "title": "AWS Weekly Roundup: Amazon Bedrock Managed Agents powered by OpenAI, Q3 service availability updates, Kiro workflows, and more (October 5, 2026)",
+        "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-amazon-bedrock-managed-agents-powered-by-openai-q3-service-availability-updates-kiro-workflows-and-more-october-5-2026/",
+        "summary": "Last week, we announced a public preview of Amazon Bedrock Managed Agents powered by OpenAI, built on a customized version of OpenAI’s Agents API engineered to be AWS-native and integrated with AWS resources. You can now build agents optimized for OpenAI models that run entirely inside AWS with the identities, permissions, and governance controls you […]",
+        "image": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2026/04/28/2026-bedrock-managed-agents-openai.png",
+        "source": "AWS News Blog",
+        "published": "2026-10-05T15:41:19.000Z",
+        "isNew": false
+      },
       {
         "title": "Announcing AWS Well-Architected Agent, an AI-powered intelligence to optimize your cloud environment (preview)",
         "link": "https://aws.amazon.com/blogs/aws/announcing-aws-well-architected-agent-an-ai-powered-intelligence-to-optimize-your-cloud-environment-preview/",
@@ -92,18 +101,36 @@
         "source": "AWS News Blog",
         "published": "2026-09-24T20:58:46.000Z",
         "isNew": false
-      },
-      {
-        "title": "Now on Amazon CloudWatch Omni: collaborative AI-powered observability for your applications",
-        "link": "https://aws.amazon.com/blogs/aws/introducing-amazon-cloudwatch-omni-collaborative-ai-powered-observability-for-your-applications/",
-        "summary": "Amazon CloudWatch Omni is the next evolution of CloudWatch — unified observability that brings your applications and AI agents into one reimagined experience, with auto-discovered topology, natural language queries, and AI-guided investigation powered by AWS DevOps Agent.",
-        "image": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2026/09/21/cloudwatch-omni-console-1800.png",
-        "source": "AWS News Blog",
-        "published": "2026-09-22T22:23:14.000Z",
-        "isNew": false
       }
     ],
     "azure": [
+      {
+        "title": "Responsible infrastructure at hyperscale: Managing the full lifecycle of Azure hardware",
+        "link": "https://azure.microsoft.com/en-us/blog/responsible-infrastructure-at-hyperscale-managing-the-full-lifecycle-of-azure-hardware/",
+        "summary": "Microsoft is advancing Azure cloud infrastructure with more efficient systems and Circular Centers that extend the useful life of datacenter hardware.\nThe post Responsible infrastructure at hyperscale: Managing the full lifecycle of Azure hardware appeared first on Microsoft Azure Blog.",
+        "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/09/word-image-54217-2.webp",
+        "source": "Microsoft Azure Blog",
+        "published": "2026-09-30T15:00:00.000Z",
+        "isNew": false
+      },
+      {
+        "title": "SQL Server on Azure Local is now generally available",
+        "link": "https://www.microsoft.com/en-us/sql-server/blog/2026/09/28/sql-server-on-azure-local-is-now-generally-available/",
+        "summary": "With SQL Server on Azure Local, customers can modernize where their data resides while maintaining control over infrastructure, connectivity, and data placement.\nThe post SQL Server on Azure Local is now generally available appeared first on Microsoft Azure Blog.",
+        "image": null,
+        "source": "Microsoft Azure Blog",
+        "published": "2026-09-29T16:40:06.000Z",
+        "isNew": false
+      },
+      {
+        "title": "FabCon and SQLCon 2026 in Barcelona: Building the data foundation for Microsoft Copilot and agents",
+        "link": "https://azure.microsoft.com/en-us/blog/fabcon-and-sqlcon-2026-in-barcelona-building-the-data-foundation-for-microsoft-copilot-and-agents/",
+        "summary": "Microsoft Fabric and SQL innovations announced at FabCon and SQLCon Barcelona 2026 help organizations build trusted data foundations for AI.\nThe post FabCon and SQLCon 2026 in Barcelona: Building the data foundation for Microsoft Copilot and agents appeared first on Microsoft Azure Blog.",
+        "image": null,
+        "source": "Microsoft Azure Blog",
+        "published": "2026-09-29T06:30:00.000Z",
+        "isNew": false
+      },
       {
         "title": "Enhancing Microsoft Azure Virtual Machine lifecycle",
         "link": "https://azure.microsoft.com/en-us/blog/enhancing-microsoft-azure-virtual-machine-lifecycle/",
@@ -148,44 +175,17 @@
         "source": "Microsoft Azure Blog",
         "published": "2026-09-22T18:30:00.000Z",
         "isNew": false
-      },
-      {
-        "title": "Claude Opus 5.5 comes to Microsoft Foundry for long-running coding and knowledge work",
-        "link": "https://techcommunity.microsoft.com/blog/azure-ai-foundry-blog/claude-opus-5-5-comes-to-microsoft-foundry-for-long-running-coding-and-knowledge/4558051",
-        "summary": "AI models are increasingly taking on work that extends far beyond a single prompt: building a feature across a codebase, investigating a complex issue, synthesizing hundreds of pages of information, or working through a multi-step business process.\nThe post Claude Opus 5.5 comes to Microsoft Foundry for long-running coding and knowledge work appeared first on Microsoft Azure Blog.",
-        "image": null,
-        "source": "Microsoft Azure Blog",
-        "published": "2026-09-22T17:00:25.000Z",
-        "isNew": true
-      },
-      {
-        "title": "Microsoft recognized as a Leader in the 2026 Gartner® Magic Quadrant™ for Distributed Hybrid Infrastructure",
-        "link": "https://azure.microsoft.com/en-us/blog/microsoft-recognized-as-a-leader-in-the-2026-gartner-magic-quadrant-for-distributed-hybrid-infrastructure/",
-        "summary": "Gartner highlighted Microsoft’s unified single-product architecture, flexibility across hyperconverged and disaggregated architectures, and more.\nThe post Microsoft recognized as a Leader in the 2026 Gartner® Magic Quadrant™ for Distributed Hybrid Infrastructure appeared first on Microsoft Azure Blog.",
-        "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/09/image-3.webp",
-        "source": "Microsoft Azure Blog",
-        "published": "2026-09-16T16:00:00.000Z",
-        "isNew": true
-      },
-      {
-        "title": "Microsoft named a Leader in the 2026 Gartner® Magic Quadrant™ for Container Management",
-        "link": "https://azure.microsoft.com/en-us/blog/microsoft-named-a-leader-in-the-2026-gartner-magic-quadrant-for-container-management/",
-        "summary": "Microsoft was named a Leader in the 2026 Gartner® Magic Quadrant™ for Container Management. Discover how AKS, Azure Arc, and Azure Container Apps help organizations run AI and hybrid workloads at scale.\nThe post Microsoft named a Leader in the 2026 Gartner® Magic Quadrant™ for Container Management appeared first on Microsoft Azure Blog.",
-        "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/09/Container-Management-quadrant-927x1024.webp",
-        "source": "Microsoft Azure Blog",
-        "published": "2026-09-10T21:00:00.000Z",
-        "isNew": true
       }
     ],
     "gcp": [
       {
         "title": "October 05, 2026",
         "link": "https://docs.cloud.google.com/release-notes#October_05_2026",
-        "summary": "Google SecOps SIEM\nFeature\n[Spotlight Feature] Terraform and client libraries for multiple features using Chronicle API\nTerraform providers and Google Cloud client libraries are now available for several Google SecOps features using Chronicle API including Feeds, Parsers, Rules, Findings Refinements, Retrohunts, Dashboards, Data Tables, Watchlists, Custom Lists, Environments, Environment Groups, Data Export, SOAR Domains, and SOAR Networks. For more information, see Terraform reference and Client libraries. \nTerraform providers enable programmatic provisioning and management of Google SecOps resources as code, while Client Libraries enable developers to build custom integrations and automate Google SecOps workflows in their preferred programming languages.",
+        "summary": "Cloud Load Balancing\nFeature\nExternal IPv6 addresses are now supported for\nStandard Tier. For more\ninformation,\nsee IPv6 subnet ranges.\nThis feature is in Preview.\nCompute Engine\nFeature\nPreview: External IPv6 addresses are now supported for\nStandard Tier. For more\ninformation,\nsee IPv6 subnet ranges.\nGoogle SecOps SIEM\nFeature\n[Spotlight Feature] Terraform and client libraries for multiple features using Chronicle API\nTerraform providers and Google Cloud client libraries are now available for several Google SecOps features using Chronicle API including Feeds, Parsers, Rules, Findings Refinements, Retrohunts, Dashboards, Data Tables, Watchlists, Custom Lists, Environments, Environment Groups, Data Export, SOAR Domains, and SOAR Networks. For more information, see Terraform reference and Client libraries. \nTerraform providers enable programmatic provisioning and management of Google SecOps resources as code, while Client Libraries enable developers to build custom integrations and automate Google SecOps workflows in their preferred programming languages.\nNetwork Service Tiers\nFeature\nExternal IPv6 addresses are now supported for\nStandard Tier in Preview.\nFor more information, see IPv6 subnet ranges.",
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-10-05T07:00:00.000Z",
-        "isNew": true
+        "isNew": false
       },
       {
         "title": "October 04, 2026",
@@ -253,6 +253,15 @@
     ],
     "kubernetes": [
       {
+        "title": "Scaling Kubernetes Workloads with Node Swap",
+        "link": "https://kubernetes.io/blog/2026/10/05/scaling-kubernetes-workloads-with-node-swap/",
+        "summary": "Memory is often the first hard limit a Kubernetes cluster hits.\nNodes run out of RAM long before they run out of CPU, and the new wave of agentic AI workloads makes this worse.\nThese workloads demand large memory footprints to start up and run untrusted code, then sit idle waiting for the next prompt.\nThat idle but resident memory is expensive, and it caps how many pods a node can hold. This is where swap helps. Kubernetes support for running nodes with swap enabled reached General Availability in v1.34, and by backing that swap with fast NVMe solid state drives (SSDs), a node can page out dormant memory and pack in far more pods.\nThis post explains how we benchmarked that approach across three workloads, including CI/CD kernel builds, sandboxed headless browsers, and isolated Python runtimes; we found density gains of up to 3×, often with little or no latency cost.\nThe node density problem\nThe Kubernetes ecosystem has reached a fundamental physical resource constraint: the strict limits of hardware memory versus the growing demand for dynamic, bursty workloads in the new agentic era.\nHistorically, administrators provisioning memory-intensive workloads encountered a persistent dilemma: set memory limits too high and you waste expensive infrastructure on idle RAM; set them too low and you risk Out-Of-Memory (OOM) kills.\nThis conflict is amplified when deploying autonomous AI agents using secure execution environments like the agent-sandbox framework. These agentic pods…",
+        "image": "https://kubernetes.io/blog/2026/10/05/scaling-kubernetes-workloads-with-node-swap/node-swap-chart.svg",
+        "source": "Kubernetes Blog",
+        "published": "2026-10-05T18:00:00.000Z",
+        "isNew": false
+      },
+      {
         "title": "Spotlight on SIG Apps",
         "link": "https://kubernetes.io/blog/2026/09/22/sig-apps-spotlight/",
         "summary": "As Kubernetes adoption has grown, the conversation has shifted beyond running containers to managing increasingly complex application lifecycles. Modern platforms support stateless web services, stateful databases, batch processing, AI workloads, and platform services. At the same time, they must remain reliable during upgrades, scaling events, and infrastructure failures.\nEvery Kubernetes user relies on SIG Apps, whether they realize it or not. Deployments, StatefulSets, DaemonSets, Jobs, and CronJobs form the foundation of how applications are deployed, updated, scaled, and operated across the Kubernetes ecosystem.\nSIG Apps is focused on improving workload resilience, refining application lifecycle management, and addressing the operational challenges that emerge when applications encounter node failures, rollout disruptions, and increasingly complex infrastructure environments.\nIn this spotlight, we sit down with two of the three SIG Apps chairs Janet Kuo and Maciej Szulik to discuss the evolution of Kubernetes workload management, the challenges of balancing application reliability with operational simplicity, and the future of application lifecycle management within one of Kubernetes’ most influential Special Interest Groups.\nIntroducing SIG Apps\nNatalie Fisher: Can you introduce yourself, your role, and how you got involved in SIG Apps?\nJanet Kuo: I'm a Senior Staff Software Engineer at Google and have been a Kubernetes maintainer since 2015, joining the community just…",
@@ -313,15 +322,6 @@
         "image": "https://kubernetes.io/images/blog/2026-kubernetes-1-37-native-histograms-beta/native-histograms-flow.svg",
         "source": "Kubernetes Blog",
         "published": "2026-09-11T18:30:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "Kubernetes v1.37: Scheduler Preemption for In-Place Pod Resize (Alpha)",
-        "link": "https://kubernetes.io/blog/2026/09/10/kubernetes-v1-37-scheduler-preemption-for-in-place-pod-resize-alpha/",
-        "summary": "In Kubernetes, resource allocation has historically been a static decision made during a Pod's initial scheduling and placement. With the graduation of the core in-Place Pod resize feature to General Availability in v1.35, application developers and cluster operators gained the powerful ability to dynamically adjust CPU and memory allocations of running containers without incurring disruptive restarts or application downtime.\nHowever, in-place resizing introduced a unique resource scheduling gap: if a running Pod requested a resource scale-up that exceeded the host node's allocatable headroom, the Kubelet was forced to mark the request as Deferred. The Pod would remain parked in this state indefinitely, waiting for resources on the node to naturally free up.\nTo bridge this scheduling gap, Kubernetes v1.37 introduces scheduler preemption for in-place Pod resize (Alpha), behind the InPlacePodVerticalScalingSchedulerPreemption feature gate.\nThis feature allows the Kubernetes scheduler to actively free up capacity on a fully-utilized node by preempting lower-priority workloads, enabling the pending in-place resizes of critical, higher-priority applications to succeed.\nThe \"deferred\" resize challenge\nTo understand why this preemption mechanism is needed, it is helpful to look at how Kubernetes handles running Pod resizing. When a user or controller (such as the Vertical Pod Autoscaler) updates the resource requests of an active container, the Kubelet evaluates whether the…",
-        "image": null,
-        "source": "Kubernetes Blog",
-        "published": "2026-09-10T18:30:00.000Z",
         "isNew": false
       }
     ],
