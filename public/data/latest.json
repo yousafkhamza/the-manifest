@@ -1,6 +1,6 @@
 {
   "date": "2026-10-06",
-  "generatedAt": "2026-10-06T12:01:31.830Z",
+  "generatedAt": "2026-10-06T17:13:57.246Z",
   "totalArticles": 72,
   "ticker": [
     {
@@ -30,6 +30,15 @@
   ],
   "topics": {
     "aws": [
+      {
+        "title": "All the numbers: Amazon Prime Day 2026 powered by AWS",
+        "link": "https://aws.amazon.com/blogs/aws/all-the-numbers-amazon-prime-day-2026-powered-by-aws/",
+        "summary": "Amazon Prime Day 2026 was exclusively for Prime members and ran June 23–26, 2026 with millions of deals across more than 35 categories. As part of our annual tradition of sharing how AWS powered Prime Day (2016, 2017, 2019, 2020, 2021, 2022, 2023, 2024, and 2025), I want to share the services and chart-topping metrics […]",
+        "image": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2026/08/10/about-amazon-hero-pd-2026-tabletop-blue.jpg",
+        "source": "AWS News Blog",
+        "published": "2026-10-06T16:09:36.000Z",
+        "isNew": false
+      },
       {
         "title": "AWS Weekly Roundup: Amazon Bedrock Managed Agents powered by OpenAI, Q3 service availability updates, Kiro workflows, and more (October 5, 2026)",
         "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-amazon-bedrock-managed-agents-powered-by-openai-q3-service-availability-updates-kiro-workflows-and-more-october-5-2026/",
@@ -91,15 +100,6 @@
         "image": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2025/01/30/2025-deepseek-r1-on-aws-1-andy-keynote.png",
         "source": "AWS News Blog",
         "published": "2026-09-28T16:14:54.000Z",
-        "isNew": false
-      },
-      {
-        "title": "Introducing enhanced custom event buses in Amazon EventBridge for enterprise-scale event-driven applications",
-        "link": "https://aws.amazon.com/blogs/aws/introducing-enhanced-custom-event-buses-in-amazon-eventbridge-for-enterprise-scale-event-driven-applications/",
-        "summary": "Amazon EventBridge announces an enhanced custom event bus for organizations scaling event-driven applications across teams and accounts. Deploy a single event bus shared across all AWS accounts in your organization, with ordering guarantees, a simplified Subscriber resource, and improved economics at scale.",
-        "image": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2026/09/01/image-01-1024x806.png",
-        "source": "AWS News Blog",
-        "published": "2026-09-24T20:58:46.000Z",
         "isNew": false
       }
     ],
@@ -217,7 +217,7 @@
       {
         "title": "October 01, 2026",
         "link": "https://docs.cloud.google.com/release-notes#October_01_2026",
-        "summary": "BigQuery\nChange\nAn updated version of the\nSimba JDBC driver for BigQuery\nis now available.\nFeature\nChatting with graphs in\nconversational analytics\nis now\ngenerally available.\nYou can use a combination of multiple graphs, tables, views, and UDFs as data\nsources.\nFeature\nBigQuery pipelines provides support for automated metadata enrichment\nand Knowledge Catalog data quality scorecard integration. In addition, the\nData Engineering Agent can proactively generate semantic metadata for your\npipeline assets. For more information, see\nMetadata enrichment and data quality scorecard integration.\nThese features are\ngenerally available.\nCloud Healthcare API\nFeature\nPreview: The FHIR bulk export Group POST feature is now available in\nPreview in Cloud Healthcare\nAPI v1beta1. You can invoke the $export operation on a FHIR Group by using the HTTP\nPOST method (projects.locations.datasets.fhirStores.bulk-export-group-post) to supply\nexport parameters in the request body rather than through URL query parameters.\nThe request body allows filtering by a list of up to 1,000 patient references by using\nthe patient parameter in addition to _since and _type. For more information about the\nspecification, see the FHIR Bulk Data Access\nguide for $export group of patients.\nDataform\nFeature\nDataform provides support for automated metadata enrichment and Knowledge Catalog data quality scorecard integration for Dataform workflows and BigQuery pipelines. For more information, see\nAdd metadata for Knowledge…",
+        "summary": "BigQuery\nChange\nAn updated version of the\nSimba JDBC driver for BigQuery\nis now available.\nFeature\nChatting with graphs in\nconversational analytics\nis now\ngenerally available.\nYou can use a combination of multiple graphs, tables, views, and UDFs as data\nsources.\nFeature\nBigQuery pipelines provides support for automated metadata enrichment\nand Knowledge Catalog data quality scorecard integration. In addition, the\nData Engineering Agent can proactively generate semantic metadata for your\npipeline assets. For more information, see\nMetadata enrichment and data quality scorecard integration.\nThese features are\ngenerally available.\nBigtable\nFeature\nYou can use Google Cloud Data Agent Kit to browse\nBigtable instances and tables, design schemas, and run GoogleSQL queries from\nyour IDE or coding agent. This feature is\ngenerally available (GA).\nFor more information, see\nData Agent Kit is now GA: Bring Google Data Cloud to any coding agent.\nCloud Healthcare API\nFeature\nPreview: The FHIR bulk export Group POST feature is now available in\nPreview in Cloud Healthcare\nAPI v1beta1. You can invoke the $export operation on a FHIR Group by using the HTTP\nPOST method (projects.locations.datasets.fhirStores.bulk-export-group-post) to supply\nexport parameters in the request body rather than through URL query parameters.\nThe request body allows filtering by a list of up to 1,000 patient references by using\nthe patient parameter in addition to _since and _type. For more information about the…",
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-10-01T07:00:00.000Z",
