@@ -1,6 +1,6 @@
 {
   "date": "2026-10-06",
-  "generatedAt": "2026-10-06T17:13:57.246Z",
+  "generatedAt": "2026-10-06T21:37:21.740Z",
   "totalArticles": 72,
   "ticker": [
     {
@@ -179,6 +179,15 @@
     ],
     "gcp": [
       {
+        "title": "October 06, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#October_06_2026",
+        "summary": "Cloud Monitoring\nFeature\nBulk registration of discovered services and workloads to an App Hub\napplication is generally available (GA).\nFor more information, see\nRegister one or more discovered services or workloads.\nCloud SDK\nBreaking\n588.0.0 (2026-10-06)\nBreaking Changes\n(Cloud Managed Flink) Removed the Managed Flink Client component (managed-flink-client) from the Google Cloud CLI.\nAgent Identity\nAdded gcloud alpha|beta agent-identity auth-providers authorizations get-iam-policy|set-iam-policy|add-iam-policy-binding|remove-iam-policy-binding|test-iam-permissions commands.\nAnthos\nUpdated anthos-cli with newer go version and library dependencies.\nApigee\nPromoted gcloud apigee apis import to GA. The command imports an API proxy\nfrom a YAML template (--from-template) or from a proxy bundle ZIP\n(--from-bundle).\nFixed an issue where gcloud apigee apis import --from-template emitted an\nEventFlow inside the generic <Flows> container, where Apigee treats it as\nan ordinary conditional flow instead of running it on each streamed event.\nEventFlow is now emitted as a top-level element carrying a content-type\nattribute, which defaults to text/event-stream, and is preserved when\nimporting a bundle.\nFixed an issue where gcloud apigee apis import --from-template applied only\npart of a feature's defaultEndpoint. Its routes and faultRules were\ndropped, and a flow step contributed by two features was emitted twice, which\nmade Apigee run the policy twice. Contributions are now merged, so a…",
+        "image": null,
+        "source": "Google Cloud Platform (GCP) - Release notes",
+        "published": "2026-10-06T07:00:00.000Z",
+        "isNew": false
+      },
+      {
         "title": "October 05, 2026",
         "link": "https://docs.cloud.google.com/release-notes#October_05_2026",
         "summary": "Agent Platform Workbench\nChange\n20261004.00_p0 Release\nChange\nInstalled latest packages from upstream dependencies.\nChange\nThe BigQuery JupyterLab plugin is now enabled independently of the Dataproc plugin: it is enabled by default and can be turned off with the new disable-bigquery instance metadata key, while disable-mixer now controls only the Dataproc plugin.\nChange\n20261004.00_p0 Release\nChange\nInstalled latest packages from upstream dependencies.\nBigQuery\nFeature\nIceberg external tables and\nIceberg managed tables now support\nflexible column names by default. This\nfeature is generally available (GA).\nFeature\nThe gemini-embedding-2 model works well for embedding long strings, including\nmultilingual and unstructured data. It supports a mix of text, images, audio,\nvideo, and PDF files. You can use this model in the\nAI.EMBED,\nAI.SIMILARITY,\nand\nAI.GENERATE_EMBEDDING\nfunctions. This model is\ngenerally available.\nCloud Load Balancing\nFeature\nExternal IPv6 addresses are now supported for\nStandard Tier. For more\ninformation,\nsee IPv6 subnet ranges.\nThis feature is in Preview.\nCompute Engine\nFeature\nGenerally available: Z3 machine types that have 8 to 44 vCPUs can use\nHyperdisk Balanced High Availability volumes to synchronously replicate data across two zones.\nFor more information, see\nAbout Hyperdisk Balanced High Availability.\nFeature\nPreview: External IPv6 addresses are now supported for\nStandard Tier. For more\ninformation,\nsee IPv6 subnet ranges.\nConfidential Space…",
@@ -240,18 +249,18 @@
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-09-29T07:00:00.000Z",
         "isNew": false
-      },
-      {
-        "title": "September 28, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#September_28_2026",
-        "summary": "Agent Platform Workbench\nChange\n20260927.00_p0 Release\nChange\nInstalled latest packages from upstream dependencies.\nSecurity\nBulk security patch remediating Critical and High-severity CVEs in the Workbench custom container images.\nChange\n20260927.00_p0 Release\nChange\nInstalled latest packages from upstream dependencies.\nSecurity\nBulk security patch remediating Critical and High-severity CVEs in the Workbench custom container images.\nApplication Integration\nSecurity\nA Confused Deputy vulnerability was discovered in the Email Task component in \nApplication Integration versions prior to June 30, 2026.\nFor more information, see the\nGCP-2026-066\nsecurity bulletin.\nSecurity\nA Deserialization of Untrusted Data vulnerability was discovered in\nthe JavaScript Task in Application Integration versions prior\nto June 28, 2026. For more information, see the\nGCP-2026-065\nsecurity bulletin.\nSecurity\nAn Incorrect Authorization vulnerability was discovered in the task\nconfiguration in Application Integration versions prior to June 17, 2026.\nFor more information, see the\nGCP-2026-064\nsecurity bulletin.\nBigQuery\nFeature\nThe BigQuery Data Transfer Service MCP server\nis now Generally Available\n(GA).\nFeature\nYou can now write the output rows produced by\nBigQuery continuous queries\ndirectly into Apache Iceberg managed\ntables. This lets you\ncontinuously process streaming data from BigQuery and write it into your\nopen-format lakehouse by using an\nINSERT DML statement.\nCloud Asset Inventory\nFeature\nThe…",
-        "image": null,
-        "source": "Google Cloud Platform (GCP) - Release notes",
-        "published": "2026-09-28T07:00:00.000Z",
-        "isNew": false
       }
     ],
     "kubernetes": [
+      {
+        "title": "The Shift to cgroup v2 in Kubernetes: What You Need to Know",
+        "link": "https://kubernetes.io/blog/2026/10/06/kubernetes-cgroups-v2-shift/",
+        "summary": "In Linux, cgroups (control groups) are a kernel feature used for managing system resources.\nKubernetes uses cgroups to allocate resources like CPU and memory to containers,\nensuring that applications run smoothly without interfering with each other.\nWith the release of Kubernetes v1.31, support for v1 cgroup management moved into\nmaintenance mode.\nSupport for v2 cgroup management has been stable since Kubernetes v1.25.\nCompared with cgroup v1, cgroup v2 provides a single unified hierarchy,\na more consistent interface, and a stronger foundation for resource isolation\nand modern resource-management features.\nDeprecation of cgroup v1\nKubernetes has deprecated cgroup v1.\nStarting with Kubernetes v1.35, failCgroupV1 defaults to true, so the kubelet does not start\non a cgroup v1 node by default. Administrators can temporarily set failCgroupV1: false in the\nkubelet configuration file, but removal will\nfollow the Kubernetes deprecation policy.\nFurther removal work is tracked in KEP-5573: Remove cgroup v1 support.\nIf you are still on a release older than v1.35, migrate every Linux node to\ncgroup v2 before upgrading, or plan to set the temporary failCgroupV1: false\noverride. If you are already on v1.35 or later, confirm that every Linux node\nruns cgroup v2 (or that you intentionally keep the override). Under the default\nconfiguration, a remaining cgroup v1 node fails during kubelet startup.\nFor kubeadm-managed clusters, Kubernetes v1.35 also makes this an earlier, stricter check. The…",
+        "image": null,
+        "source": "Kubernetes Blog",
+        "published": "2026-10-06T18:00:00.000Z",
+        "isNew": false
+      },
       {
         "title": "Scaling Kubernetes Workloads with Node Swap",
         "link": "https://kubernetes.io/blog/2026/10/05/scaling-kubernetes-workloads-with-node-swap/",
@@ -313,15 +322,6 @@
         "image": null,
         "source": "Kubernetes Blog",
         "published": "2026-09-14T18:30:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "Kubernetes v1.37: Native Histograms Graduates to Beta",
-        "link": "https://kubernetes.io/blog/2026/09/11/kubernetes-v1-37-native-histograms-beta/",
-        "summary": "I'm excited to announce that native histogram support for Kubernetes metrics is graduating to Beta and is enabled by default in Kubernetes v1.37!\nNative histograms (previously introduced as Alpha in Kubernetes v1.36 under KEP-5808)\nbring high-resolution, low-cardinality observability to Kubernetes metrics.\nBy adopting Prometheus Native Histograms, Kubernetes components now expose latency and duration metrics with far greater accuracy while significantly reducing telemetry storage and scraping overhead.\nWhy move beyond classic histograms?\nSince the early days of Kubernetes observability, duration and latency metrics (such as API server request latencies or scheduling durations) have relied on classic Prometheus histograms.\nClassic histograms require metric authors to define a static list of cumulative bucket boundaries (le labels), such as 0.005, 0.01, 0.025, 0.05, 0.1, 0.25, 0.5, 1, 2.5, 5, 10. While familiar, this approach introduces three major challenges:\nThe Bucket Guessing Game: If a workload's latency profile changes, for example, shifting into microsecond ranges or experiencing long-tail tail latencies beyond the highest bucket, the histogram loses visibility. Specifying bucket boundaries upfront requires knowing the distribution before observing it\nHigh Cardinality & Storage Cost: With classic histograms, each bucket boundary is exported as a separate time series (_bucket{le=\"...\"}). A histogram with 10 buckets across multiple labels multiplies the number of time…",
-        "image": "https://kubernetes.io/images/blog/2026-kubernetes-1-37-native-histograms-beta/native-histograms-flow.svg",
-        "source": "Kubernetes Blog",
-        "published": "2026-09-11T18:30:00.000Z",
         "isNew": false
       }
     ],
