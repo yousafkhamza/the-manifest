@@ -1,6 +1,6 @@
 {
-  "date": "2026-10-06",
-  "generatedAt": "2026-10-06T21:37:21.740Z",
+  "date": "2026-10-07",
+  "generatedAt": "2026-10-07T11:47:03.968Z",
   "totalArticles": 72,
   "ticker": [
     {
@@ -181,7 +181,7 @@
       {
         "title": "October 06, 2026",
         "link": "https://docs.cloud.google.com/release-notes#October_06_2026",
-        "summary": "Cloud Monitoring\nFeature\nBulk registration of discovered services and workloads to an App Hub\napplication is generally available (GA).\nFor more information, see\nRegister one or more discovered services or workloads.\nCloud SDK\nBreaking\n588.0.0 (2026-10-06)\nBreaking Changes\n(Cloud Managed Flink) Removed the Managed Flink Client component (managed-flink-client) from the Google Cloud CLI.\nAgent Identity\nAdded gcloud alpha|beta agent-identity auth-providers authorizations get-iam-policy|set-iam-policy|add-iam-policy-binding|remove-iam-policy-binding|test-iam-permissions commands.\nAnthos\nUpdated anthos-cli with newer go version and library dependencies.\nApigee\nPromoted gcloud apigee apis import to GA. The command imports an API proxy\nfrom a YAML template (--from-template) or from a proxy bundle ZIP\n(--from-bundle).\nFixed an issue where gcloud apigee apis import --from-template emitted an\nEventFlow inside the generic <Flows> container, where Apigee treats it as\nan ordinary conditional flow instead of running it on each streamed event.\nEventFlow is now emitted as a top-level element carrying a content-type\nattribute, which defaults to text/event-stream, and is preserved when\nimporting a bundle.\nFixed an issue where gcloud apigee apis import --from-template applied only\npart of a feature's defaultEndpoint. Its routes and faultRules were\ndropped, and a flow step contributed by two features was emitted twice, which\nmade Apigee run the policy twice. Contributions are now merged, so a…",
+        "summary": "AI Hypercomputer\nFeature\nGenerally available: When you reserve compute resources for creating GPU\ninstances through your account team, you can include a Hyperdisk\npool in the same request or in a subsequent request. This option helps ensure\nthat your artificial intelligence (AI) and machine learning (ML) workloads have\nthe storage resources that they require close to your GPU instances. For more\ninformation, see\nReserve capacity through your account team.\nBigQuery\nFeature\nConversational analytics in BigQuery\nnow supports the\nAI.CAUSAL_EFFECT function\nto quantify the impact of specific interventions on time series data.\nThis feature is in\nPreview.\nCloud Monitoring\nFeature\nBulk registration of discovered services and workloads to an App Hub\napplication is generally available (GA).\nFor more information, see\nRegister one or more discovered services or workloads.\nCloud SDK\nBreaking\n588.0.0 (2026-10-06)\nBreaking Changes\n(Cloud Managed Flink) Removed the Managed Flink Client component (managed-flink-client) from the Google Cloud CLI.\nAgent Identity\nAdded gcloud alpha|beta agent-identity auth-providers authorizations get-iam-policy|set-iam-policy|add-iam-policy-binding|remove-iam-policy-binding|test-iam-permissions commands.\nAnthos\nUpdated anthos-cli with newer go version and library dependencies.\nApigee\nPromoted gcloud apigee apis import to GA. The command imports an API proxy\nfrom a YAML template (--from-template) or from a proxy bundle ZIP\n(--from-bundle).\nFixed an issue where…",
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-10-06T07:00:00.000Z",

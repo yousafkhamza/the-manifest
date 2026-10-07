@@ -1,6 +1,6 @@
 {
-  "date": "2026-09-30",
-  "generatedAt": "2026-09-30T21:25:20.509Z",
+  "date": "2026-10-07",
+  "generatedAt": "2026-10-07T11:47:03.968Z",
   "totalArticles": 72,
   "ticker": [
     {
@@ -9,11 +9,11 @@
     },
     {
       "label": "Terraform",
-      "version": "v1.16.4"
+      "version": "v1.16.5"
     },
     {
       "label": "Python",
-      "version": "v3.14.7"
+      "version": "v3.14.8"
     },
     {
       "label": "Go",
@@ -21,7 +21,7 @@
     },
     {
       "label": "Rust",
-      "version": "1.98.1"
+      "version": "1.99.0"
     },
     {
       "label": "Node.js",
@@ -30,6 +30,42 @@
   ],
   "topics": {
     "aws": [
+      {
+        "title": "All the numbers: Amazon Prime Day 2026 powered by AWS",
+        "link": "https://aws.amazon.com/blogs/aws/all-the-numbers-amazon-prime-day-2026-powered-by-aws/",
+        "summary": "Amazon Prime Day 2026 was exclusively for Prime members and ran June 23–26, 2026 with millions of deals across more than 35 categories. As part of our annual tradition of sharing how AWS powered Prime Day (2016, 2017, 2019, 2020, 2021, 2022, 2023, 2024, and 2025), I want to share the services and chart-topping metrics […]",
+        "image": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2026/08/10/about-amazon-hero-pd-2026-tabletop-blue.jpg",
+        "source": "AWS News Blog",
+        "published": "2026-10-06T16:09:36.000Z",
+        "isNew": false
+      },
+      {
+        "title": "AWS Weekly Roundup: Amazon Bedrock Managed Agents powered by OpenAI, Q3 service availability updates, Kiro workflows, and more (October 5, 2026)",
+        "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-amazon-bedrock-managed-agents-powered-by-openai-q3-service-availability-updates-kiro-workflows-and-more-october-5-2026/",
+        "summary": "Last week, we announced a public preview of Amazon Bedrock Managed Agents powered by OpenAI, built on a customized version of OpenAI’s Agents API engineered to be AWS-native and integrated with AWS resources. You can now build agents optimized for OpenAI models that run entirely inside AWS with the identities, permissions, and governance controls you […]",
+        "image": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2026/04/28/2026-bedrock-managed-agents-openai.png",
+        "source": "AWS News Blog",
+        "published": "2026-10-05T15:41:19.000Z",
+        "isNew": false
+      },
+      {
+        "title": "Announcing AWS Well-Architected Agent, an AI-powered intelligence to optimize your cloud environment (preview)",
+        "link": "https://aws.amazon.com/blogs/aws/announcing-aws-well-architected-agent-an-ai-powered-intelligence-to-optimize-your-cloud-environment-preview/",
+        "summary": "Introducing the public preview of AWS Well-Architected Agent, an AI-powered service that analyzes your AWS environment to deliver targeted, contextual recommendations for improving your applications' cost, security, performance, and resilience—with ready-to-implement fixes aligned to your business goals.",
+        "image": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2026/09/27/2026-well-architect-agent-1.jpg",
+        "source": "AWS News Blog",
+        "published": "2026-10-01T20:04:04.000Z",
+        "isNew": false
+      },
+      {
+        "title": "Amazon S3 Tables now support all Apache Iceberg V3 data types",
+        "link": "https://aws.amazon.com/blogs/aws/amazon-s3-tables-now-support-all-apache-iceberg-v3-data-types/",
+        "summary": "Amazon S3 Tables now support all data types in the Apache Iceberg V3 spec, along with column default values, deletion vectors, and row lineage. Upgrade existing V2 tables or create new V3 tables with built-in compaction, maintenance, and engine compatibility.",
+        "image": null,
+        "source": "AWS News Blog",
+        "published": "2026-09-30T22:10:00.000Z",
+        "isNew": false
+      },
       {
         "title": "Amazon S3 Vectors now supports metadata pre-filtering for higher recall on filtered searches",
         "link": "https://aws.amazon.com/blogs/aws/amazon-s3-vectors-now-supports-metadata-pre-filtering-for-higher-recall-on-filtered-searches/",
@@ -65,45 +101,36 @@
         "source": "AWS News Blog",
         "published": "2026-09-28T16:14:54.000Z",
         "isNew": false
-      },
-      {
-        "title": "Introducing enhanced custom event buses in Amazon EventBridge for enterprise-scale event-driven applications",
-        "link": "https://aws.amazon.com/blogs/aws/introducing-enhanced-custom-event-buses-in-amazon-eventbridge-for-enterprise-scale-event-driven-applications/",
-        "summary": "Amazon EventBridge announces an enhanced custom event bus for organizations scaling event-driven applications across teams and accounts. Deploy a single event bus shared across all AWS accounts in your organization, with ordering guarantees, a simplified Subscriber resource, and improved economics at scale.",
-        "image": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2026/09/01/image-01-1024x806.png",
-        "source": "AWS News Blog",
-        "published": "2026-09-24T20:58:46.000Z",
-        "isNew": false
-      },
-      {
-        "title": "Now on Amazon CloudWatch Omni: collaborative AI-powered observability for your applications",
-        "link": "https://aws.amazon.com/blogs/aws/introducing-amazon-cloudwatch-omni-collaborative-ai-powered-observability-for-your-applications/",
-        "summary": "Amazon CloudWatch Omni is the next evolution of CloudWatch — unified observability that brings your applications and AI agents into one reimagined experience, with auto-discovered topology, natural language queries, and AI-guided investigation powered by AWS DevOps Agent.",
-        "image": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2026/09/21/cloudwatch-omni-console-1800.png",
-        "source": "AWS News Blog",
-        "published": "2026-09-22T22:23:14.000Z",
-        "isNew": false
-      },
-      {
-        "title": "Introducing Amazon CloudWatch Omni: AI-powered observability for generative AI and agentic workloads",
-        "link": "https://aws.amazon.com/blogs/aws/introducing-amazon-cloudwatch-omni-ai-powered-observability-for-generative-ai-and-agentic-workloads/",
-        "summary": "Learn how Amazon CloudWatch Omni delivers AI-powered observability purpose-built for generative AI and agentic workloads. Trace, evaluate, and experiment with AI agents across any framework—directly from your IDE or a standalone web experience—using open standards and built-in evaluators for quality, correctness, and coherence.",
-        "image": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2026/09/11/Triton-Figure-1-Welcome-Screen.png",
-        "source": "AWS News Blog",
-        "published": "2026-09-22T22:21:13.000Z",
-        "isNew": false
-      },
-      {
-        "title": "AWS Weekly Roundup: AWS Builder Center mobile apps, Amazon Connect Talent GA, Amazon Corretto 27, and more (September 21, 2026)",
-        "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-aws-builder-center-mobile-apps-amazon-connect-talent-ga-amazon-corretto-27-and-more-september-14-2026/",
-        "summary": "Living in the Netherlands, I spend a fair amount of time on trains, and that is usually where I catch up on what the builder community is writing. Until now, that meant opening a laptop or squinting at a browser tab on my phone. This week I found myself scrolling through trending articles and checking […]",
-        "image": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2026/09/20/2026-09-21-WIR.png",
-        "source": "AWS News Blog",
-        "published": "2026-09-21T16:11:24.000Z",
-        "isNew": false
       }
     ],
     "azure": [
+      {
+        "title": "Responsible infrastructure at hyperscale: Managing the full lifecycle of Azure hardware",
+        "link": "https://azure.microsoft.com/en-us/blog/responsible-infrastructure-at-hyperscale-managing-the-full-lifecycle-of-azure-hardware/",
+        "summary": "Microsoft is advancing Azure cloud infrastructure with more efficient systems and Circular Centers that extend the useful life of datacenter hardware.\nThe post Responsible infrastructure at hyperscale: Managing the full lifecycle of Azure hardware appeared first on Microsoft Azure Blog.",
+        "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/09/word-image-54217-2.webp",
+        "source": "Microsoft Azure Blog",
+        "published": "2026-09-30T15:00:00.000Z",
+        "isNew": false
+      },
+      {
+        "title": "SQL Server on Azure Local is now generally available",
+        "link": "https://www.microsoft.com/en-us/sql-server/blog/2026/09/28/sql-server-on-azure-local-is-now-generally-available/",
+        "summary": "With SQL Server on Azure Local, customers can modernize where their data resides while maintaining control over infrastructure, connectivity, and data placement.\nThe post SQL Server on Azure Local is now generally available appeared first on Microsoft Azure Blog.",
+        "image": null,
+        "source": "Microsoft Azure Blog",
+        "published": "2026-09-29T16:40:06.000Z",
+        "isNew": false
+      },
+      {
+        "title": "FabCon and SQLCon 2026 in Barcelona: Building the data foundation for Microsoft Copilot and agents",
+        "link": "https://azure.microsoft.com/en-us/blog/fabcon-and-sqlcon-2026-in-barcelona-building-the-data-foundation-for-microsoft-copilot-and-agents/",
+        "summary": "Microsoft Fabric and SQL innovations announced at FabCon and SQLCon Barcelona 2026 help organizations build trusted data foundations for AI.\nThe post FabCon and SQLCon 2026 in Barcelona: Building the data foundation for Microsoft Copilot and agents appeared first on Microsoft Azure Blog.",
+        "image": null,
+        "source": "Microsoft Azure Blog",
+        "published": "2026-09-29T06:30:00.000Z",
+        "isNew": false
+      },
       {
         "title": "Enhancing Microsoft Azure Virtual Machine lifecycle",
         "link": "https://azure.microsoft.com/en-us/blog/enhancing-microsoft-azure-virtual-machine-lifecycle/",
@@ -148,40 +175,67 @@
         "source": "Microsoft Azure Blog",
         "published": "2026-09-22T18:30:00.000Z",
         "isNew": false
-      },
-      {
-        "title": "Claude Opus 5.5 comes to Microsoft Foundry for long-running coding and knowledge work",
-        "link": "https://techcommunity.microsoft.com/blog/azure-ai-foundry-blog/claude-opus-5-5-comes-to-microsoft-foundry-for-long-running-coding-and-knowledge/4558051",
-        "summary": "AI models are increasingly taking on work that extends far beyond a single prompt: building a feature across a codebase, investigating a complex issue, synthesizing hundreds of pages of information, or working through a multi-step business process.\nThe post Claude Opus 5.5 comes to Microsoft Foundry for long-running coding and knowledge work appeared first on Microsoft Azure Blog.",
-        "image": null,
-        "source": "Microsoft Azure Blog",
-        "published": "2026-09-22T17:00:25.000Z",
-        "isNew": false
-      },
-      {
-        "title": "Microsoft recognized as a Leader in the 2026 Gartner® Magic Quadrant™ for Distributed Hybrid Infrastructure",
-        "link": "https://azure.microsoft.com/en-us/blog/microsoft-recognized-as-a-leader-in-the-2026-gartner-magic-quadrant-for-distributed-hybrid-infrastructure/",
-        "summary": "Gartner highlighted Microsoft’s unified single-product architecture, flexibility across hyperconverged and disaggregated architectures, and more.\nThe post Microsoft recognized as a Leader in the 2026 Gartner® Magic Quadrant™ for Distributed Hybrid Infrastructure appeared first on Microsoft Azure Blog.",
-        "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/09/image-3.webp",
-        "source": "Microsoft Azure Blog",
-        "published": "2026-09-16T16:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "Microsoft named a Leader in the 2026 Gartner® Magic Quadrant™ for Container Management",
-        "link": "https://azure.microsoft.com/en-us/blog/microsoft-named-a-leader-in-the-2026-gartner-magic-quadrant-for-container-management/",
-        "summary": "Microsoft was named a Leader in the 2026 Gartner® Magic Quadrant™ for Container Management. Discover how AKS, Azure Arc, and Azure Container Apps help organizations run AI and hybrid workloads at scale.\nThe post Microsoft named a Leader in the 2026 Gartner® Magic Quadrant™ for Container Management appeared first on Microsoft Azure Blog.",
-        "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/09/Container-Management-quadrant-927x1024.webp",
-        "source": "Microsoft Azure Blog",
-        "published": "2026-09-10T21:00:00.000Z",
-        "isNew": false
       }
     ],
     "gcp": [
       {
+        "title": "October 06, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#October_06_2026",
+        "summary": "AI Hypercomputer\nFeature\nGenerally available: When you reserve compute resources for creating GPU\ninstances through your account team, you can include a Hyperdisk\npool in the same request or in a subsequent request. This option helps ensure\nthat your artificial intelligence (AI) and machine learning (ML) workloads have\nthe storage resources that they require close to your GPU instances. For more\ninformation, see\nReserve capacity through your account team.\nBigQuery\nFeature\nConversational analytics in BigQuery\nnow supports the\nAI.CAUSAL_EFFECT function\nto quantify the impact of specific interventions on time series data.\nThis feature is in\nPreview.\nCloud Monitoring\nFeature\nBulk registration of discovered services and workloads to an App Hub\napplication is generally available (GA).\nFor more information, see\nRegister one or more discovered services or workloads.\nCloud SDK\nBreaking\n588.0.0 (2026-10-06)\nBreaking Changes\n(Cloud Managed Flink) Removed the Managed Flink Client component (managed-flink-client) from the Google Cloud CLI.\nAgent Identity\nAdded gcloud alpha|beta agent-identity auth-providers authorizations get-iam-policy|set-iam-policy|add-iam-policy-binding|remove-iam-policy-binding|test-iam-permissions commands.\nAnthos\nUpdated anthos-cli with newer go version and library dependencies.\nApigee\nPromoted gcloud apigee apis import to GA. The command imports an API proxy\nfrom a YAML template (--from-template) or from a proxy bundle ZIP\n(--from-bundle).\nFixed an issue where…",
+        "image": null,
+        "source": "Google Cloud Platform (GCP) - Release notes",
+        "published": "2026-10-06T07:00:00.000Z",
+        "isNew": false
+      },
+      {
+        "title": "October 05, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#October_05_2026",
+        "summary": "Agent Platform Workbench\nChange\n20261004.00_p0 Release\nChange\nInstalled latest packages from upstream dependencies.\nChange\nThe BigQuery JupyterLab plugin is now enabled independently of the Dataproc plugin: it is enabled by default and can be turned off with the new disable-bigquery instance metadata key, while disable-mixer now controls only the Dataproc plugin.\nChange\n20261004.00_p0 Release\nChange\nInstalled latest packages from upstream dependencies.\nBigQuery\nFeature\nIceberg external tables and\nIceberg managed tables now support\nflexible column names by default. This\nfeature is generally available (GA).\nFeature\nThe gemini-embedding-2 model works well for embedding long strings, including\nmultilingual and unstructured data. It supports a mix of text, images, audio,\nvideo, and PDF files. You can use this model in the\nAI.EMBED,\nAI.SIMILARITY,\nand\nAI.GENERATE_EMBEDDING\nfunctions. This model is\ngenerally available.\nCloud Load Balancing\nFeature\nExternal IPv6 addresses are now supported for\nStandard Tier. For more\ninformation,\nsee IPv6 subnet ranges.\nThis feature is in Preview.\nCompute Engine\nFeature\nGenerally available: Z3 machine types that have 8 to 44 vCPUs can use\nHyperdisk Balanced High Availability volumes to synchronously replicate data across two zones.\nFor more information, see\nAbout Hyperdisk Balanced High Availability.\nFeature\nPreview: External IPv6 addresses are now supported for\nStandard Tier. For more\ninformation,\nsee IPv6 subnet ranges.\nConfidential Space…",
+        "image": null,
+        "source": "Google Cloud Platform (GCP) - Release notes",
+        "published": "2026-10-05T07:00:00.000Z",
+        "isNew": false
+      },
+      {
+        "title": "October 04, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#October_04_2026",
+        "summary": "Agent Platform Workbench\nChange\n20261004-2230-rc0 Release\nChange\n20261004-2230-rc0 Release\nChange\nInstalled latest packages from upstream dependencies.\nChange\nInstalled latest packages from upstream dependencies.\nChange\nThe BigQuery JupyterLab plugin is now enabled independently of the Dataproc plugin: it is enabled by default and can be turned off with the new disable-bigquery instance metadata key, while disable-mixer now controls only the Dataproc plugin.\nSecurity\nBulk security patch remediating Critical and High-severity CVEs in the Agent Platform Workbench custom container images.\nSecurity\nBulk security patch remediating Critical and High-severity CVEs in the Agent Platform Workbench custom container images.\nChange\n20261004-2157-rc0 Release\nChange\nInstalled latest packages from upstream dependencies.\nFixed\nPreinstall CUDA drivers for Pre-Turing GPUs such as V100s.\nChange\nThe BigQuery JupyterLab plugin is now enabled independently of the Dataproc plugin: it is enabled by default and can be turned off with the new disable-bigquery instance metadata key, while disable-mixer now controls only the Dataproc plugin.\nChange\nM152 Release\nChange\nInstalled latest packages from upstream dependencies.\nChange\nThe BigQuery JupyterLab plugin is now enabled independently of the Dataproc plugin: it is enabled by default and can be turned off with the new disable-bigquery instance metadata key, while disable-mixer now controls only the Dataproc plugin.\nGoogle SecOps SOAR\nAnnouncement…",
+        "image": null,
+        "source": "Google Cloud Platform (GCP) - Release notes",
+        "published": "2026-10-04T07:00:00.000Z",
+        "isNew": false
+      },
+      {
+        "title": "October 03, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#October_03_2026",
+        "summary": "Google SecOps SOAR\nAnnouncement\nRelease 6.3.101 is now\navailable for all regions.\nSensitive Data Protection\nChange\nA new version with an updated name dictionary is available for the PERSON_NAME infoType detector. You can try it out by setting InfoType.version to latest when including the PERSON_NAME infoType in your InspectConfig.\nYou can still use the previous functionality by setting InfoType.version to stable or leaving it unset when using the PERSON_NAME infoType. In 30 days, the new version will be promoted to stable.",
+        "image": null,
+        "source": "Google Cloud Platform (GCP) - Release notes",
+        "published": "2026-10-03T07:00:00.000Z",
+        "isNew": false
+      },
+      {
+        "title": "October 02, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#October_02_2026",
+        "summary": "Apigee X\nAnnouncement\nOn October 2, 2026, we released an updated version of Apigee (1-18-0-apigee-6).\nNote: Rollouts of this release began today and can take four or more business\ndays to complete across all Google Cloud zones. Your instances might not have\nthe features and fixes available until the rollout is complete.\nSecurity\nBug ID\nDescription\n\n\n\n\n564386425\nSecurity fix for Apigee. Upgraded the Apigee ingress gateway (ASM) to patch security vulnerabilities.\n\n\n561666530\nSecurity fix for Apigee. Upgraded the Prometheus library to patch the following vulnerabilities: \n\nCVE-2026-42151\nCVE-2026-42154\nCVE-2026-44903\nCVE-2026-40179\n\n\n\n\nN/A\nSecurity fix for Apigee infrastructure.\n\n\n\nFixed\nBug ID\nDescription\n\n\n\n\n432315283\nFixed a multi-certificate truststore so that its trust anchors take effect without a Message Processor restart when features.truststore.multi_cert_bundle.enabled is toggled at runtime; the outbound SSL context is now rebuilt automatically on any trust-anchor change.\n\n\n565072374\nVerifyJWT policies that use a JWKS uriRef no longer return steps.jwt.NoMatchingPublicKey on the first request after the JWKS cache TTL expires when the identity provider has rotated to a new key ID. The cache now re-fetches synchronously when its entry expires.\n\n\n535395491\nExtension Processor (ext_proc) denials now return the status and body that the policy or FaultRule produced, instead of always returning HTTP 500.\n\n\n558421499\nApigee runtime runs on JRE 21.\n\n\n517953321\nThe…",
+        "image": null,
+        "source": "Google Cloud Platform (GCP) - Release notes",
+        "published": "2026-10-02T07:00:00.000Z",
+        "isNew": false
+      },
+      {
+        "title": "October 01, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#October_01_2026",
+        "summary": "BigQuery\nChange\nAn updated version of the\nSimba JDBC driver for BigQuery\nis now available.\nFeature\nChatting with graphs in\nconversational analytics\nis now\ngenerally available.\nYou can use a combination of multiple graphs, tables, views, and UDFs as data\nsources.\nFeature\nBigQuery pipelines provides support for automated metadata enrichment\nand Knowledge Catalog data quality scorecard integration. In addition, the\nData Engineering Agent can proactively generate semantic metadata for your\npipeline assets. For more information, see\nMetadata enrichment and data quality scorecard integration.\nThese features are\ngenerally available.\nBigtable\nFeature\nYou can use Google Cloud Data Agent Kit to browse\nBigtable instances and tables, design schemas, and run GoogleSQL queries from\nyour IDE or coding agent. This feature is\ngenerally available (GA).\nFor more information, see\nData Agent Kit is now GA: Bring Google Data Cloud to any coding agent.\nCloud Healthcare API\nFeature\nPreview: The FHIR bulk export Group POST feature is now available in\nPreview in Cloud Healthcare\nAPI v1beta1. You can invoke the $export operation on a FHIR Group by using the HTTP\nPOST method (projects.locations.datasets.fhirStores.bulk-export-group-post) to supply\nexport parameters in the request body rather than through URL query parameters.\nThe request body allows filtering by a list of up to 1,000 patient references by using\nthe patient parameter in addition to _since and _type. For more information about the…",
+        "image": null,
+        "source": "Google Cloud Platform (GCP) - Release notes",
+        "published": "2026-10-01T07:00:00.000Z",
+        "isNew": false
+      },
+      {
         "title": "September 30, 2026",
         "link": "https://docs.cloud.google.com/release-notes#September_30_2026",
-        "summary": "Apigee API hub\nFeature\nAI performance and Tool performance dashboards in API insights\nAPI insights in API hub now includes two dashboards for AI and agent traffic:\nAI performance reports token usage and model latency for the large language models called through your gateways, with filters for model and provider.\nTool performance reports traffic, throughput, payload sizes, and latency for your Model Context Protocol (MCP) tools, with filters for MCP server, deployment, and tool name.\nFor more information, see API insights dashboards.\nApigee hybrid\nAnnouncement\nv1.17.1\nOn September 30, 2026 we released an updated version of the Apigee hybrid software, v1.17.1.\nFor information on upgrading, see Upgrading Apigee hybrid to version v1.17.1.\nFor information on new installations, see The big picture.\nNote: This is a patch release: The container images used in patch releases are integrated with the Apigee hybrid Helm charts. Upgrading to a patch via the Helm chart automatically updates the images. No manual image changes are typically needed. For information on container image support in Apigee hybrid releases, see Apigee release process.\nFeature\nExternal Cassandra datastore support\nApigee hybrid v1.17.1 adds support for connecting an Apigee hybrid runtime to a Cassandra datastore that runs in a separate Kubernetes cluster (external datastore mode). In external datastore mode, the runtime cluster runs with cassandra.replicaCount: 0 (no local Cassandra pods) and connects to the remote…",
+        "summary": "API Gateway\nFeature\nAuthenticate MCP tool discovery with an API key\nAPI key authentication is now supported for the Model Context Protocol (MCP) tools/list method. You can name an API key security scheme in tools-list.security, in addition to a JWT security scheme.\nFor more information, see Configure Model Context Protocol.\nApigee API hub\nFeature\nService type system attribute (GA)\nAPI hub now includes Service type, a system attribute that classifies an API as Code, Model, Agent, or Skill. Service type describes what a service is. API style describes how you call it. Use Service type to find and govern your APIs, agents, models, and skills.\nSet Service type when you register or edit an API. To show only your agents, filter the API list by Service type, or select the new Agent chip. In the API, use the service_type field.\nThis feature is Generally Available (GA). For more information, see Supported system attributes.\nFeature\nAI performance and Tool performance dashboards in API insights\nAPI insights in API hub now includes two dashboards for AI and agent traffic:\nAI performance reports token usage and model latency for the large language models called through your gateways, with filters for model and provider.\nTool performance reports traffic, throughput, payload sizes, and latency for your Model Context Protocol (MCP) tools, with filters for MCP server, deployment, and tool name.\nFor more information, see API insights dashboards.\nApigee hybrid\nAnnouncement\nv1.17.1\nOn…",
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-09-30T07:00:00.000Z",
@@ -195,63 +249,27 @@
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-09-29T07:00:00.000Z",
         "isNew": false
-      },
-      {
-        "title": "September 28, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#September_28_2026",
-        "summary": "Agent Platform Workbench\nChange\n20260927.00_p0 Release\nChange\nInstalled latest packages from upstream dependencies.\nSecurity\nBulk security patch remediating Critical and High-severity CVEs in the Workbench custom container images.\nChange\n20260927.00_p0 Release\nChange\nInstalled latest packages from upstream dependencies.\nSecurity\nBulk security patch remediating Critical and High-severity CVEs in the Workbench custom container images.\nApplication Integration\nSecurity\nA Confused Deputy vulnerability was discovered in the Email Task component in \nApplication Integration versions prior to June 30, 2026.\nFor more information, see the\nGCP-2026-066\nsecurity bulletin.\nSecurity\nA Deserialization of Untrusted Data vulnerability was discovered in\nthe JavaScript Task in Application Integration versions prior\nto June 28, 2026. For more information, see the\nGCP-2026-065\nsecurity bulletin.\nSecurity\nAn Incorrect Authorization vulnerability was discovered in the task\nconfiguration in Application Integration versions prior to June 17, 2026.\nFor more information, see the\nGCP-2026-064\nsecurity bulletin.\nBigQuery\nFeature\nThe BigQuery Data Transfer Service MCP server\nis now Generally Available\n(GA).\nFeature\nYou can now write the output rows produced by\nBigQuery continuous queries\ndirectly into Apache Iceberg managed\ntables. This lets you\ncontinuously process streaming data from BigQuery and write it into your\nopen-format lakehouse by using an\nINSERT DML statement.\nCloud Asset Inventory\nFeature\nThe…",
-        "image": null,
-        "source": "Google Cloud Platform (GCP) - Release notes",
-        "published": "2026-09-28T07:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "September 27, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#September_27_2026",
-        "summary": "Agent Platform Workbench\nChange\n20260927-2130-rc0 Release\nChange\nInstalled latest packages from upstream dependencies.\nChange\nM151 Release\nChange\nInstalled latest packages from upstream dependencies.\nFeature\nJupyterLab now forwards client-side logs (console errors, uncaught exceptions, unhandled promise rejections, and failed network requests) to the instance backend, where they surface in Cloud Logging for easier debugging.\nChange\n20260927-1408-rc0 Release\nChange\n20260927-1408-rc0 Release\nChange\nInstalled latest packages from upstream dependencies.\nChange\nInstalled latest packages from upstream dependencies.\nGoogle SecOps SOAR\nAnnouncement\nRelease 6.3.101 is being rolled out to the first phase of regions as listed\nhere.\nThis release contains internal and customer bug fixes.",
-        "image": null,
-        "source": "Google Cloud Platform (GCP) - Release notes",
-        "published": "2026-09-27T07:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "September 26, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#September_26_2026",
-        "summary": "Google SecOps SOAR\nAnnouncement\nRelease 6.3.100 is now\navailable for all regions.",
-        "image": null,
-        "source": "Google Cloud Platform (GCP) - Release notes",
-        "published": "2026-09-26T07:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "September 25, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#September_25_2026",
-        "summary": "API Keys API\nFeature\nThe API Keys remote Model Context Protocol (MCP) server is available in\nPreview. You can\nconnect to the API Keys remote MCP server from AI applications to\ncreate, inspect, restrict, and manage the lifecycle of API keys in your\nGoogle Cloud projects.\nFor more information, see the\nAPI Keys MCP reference.\nCompute Engine\nFeature\nGenerally available: New X5 series with 50% larger memory instances:\nBreaking the previous 32TB memory limit of the X4\nmemory-optimized machine type,\na new X5 series introduces massive 48TB configurations. This empowers the\nlargest SAP HANA and RISE with SAP customers to easily scale up their\nmission-critical databases on a single node.\nGemini Enterprise Agent Platform\nFeature\nSemantic governance policies support VPC Service Controls (Preview)\nSemantic governance policy and the Semantic governance policy engine support\nVPC Service Controls in\nPreview. You can\ninclude Semantic governance policy and the policy engine in your service\nperimeter to help mitigate the risk of data exfiltration when governing agent\ntool calls.\nFor more information, see VPC Service Controls with Gemini Enterprise Agent\nPlatform\nand Semantic governance policies\noverview.\nGoogle Cloud Contact Center as a Service\nAnnouncement\nAdvanced reporting dashboards 6.14\nWe've released version 6.14 of the advanced reporting dashboards.\nFeature\nTwo new tables in the Real-time Queue Monitoring - Calls dashboard: Today's\nScheduled Calls and Upcoming Scheduled Calls\nWe've…",
-        "image": null,
-        "source": "Google Cloud Platform (GCP) - Release notes",
-        "published": "2026-09-25T07:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "September 24, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#September_24_2026",
-        "summary": "Access Approval\nFeature\nFault Injection Testing is generally available\n(GA).\nAccess Transparency\nFeature\nFault Injection Testing is generally available\n(GA).\nApigee hybrid\nAnnouncement\nv1.15.8\nOn September 24, 2026 we released an updated version of the Apigee hybrid software, v1.15.8.\nFor information on upgrading, see Upgrading Apigee hybrid to version v1.15.8.\nFor information on new installations, see The big picture.\nNote: This is a patch release: The container images used in patch releases are integrated with the Apigee hybrid Helm charts. Upgrading to a patch via the Helm chart automatically updates the images. No manual image changes are typically needed. For information on container image support in Apigee hybrid releases, see Apigee release process.\nFixed\nFixed in this release\nBug ID\nDescription\n\n\n\n\n535928300\nFixed a security issue in JWT refresh token revocation handling.\n\n\n535683286\nFixed a security issue in HTTP target interim-response (103 Early Hints) handling to prevent response desynchronization.\n\n\n534852923\nFixed a security issue in the JavaCallout policy.\n\n\n534420582\nThe JSONThreatProtection policy now supports an optional <RejectDuplicateKeys> child element that rejects JSON payloads containing duplicate keys within the same object.\n\n\n531773665\nFixed an issue where the VerifyAPIKey policy could fail with a NullPointerException when reading developer attributes.\n\n\n469642464\nImproved input validation in AI protection policies to prevent server-side request…",
-        "image": null,
-        "source": "Google Cloud Platform (GCP) - Release notes",
-        "published": "2026-09-24T07:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "September 23, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#September_23_2026",
-        "summary": "Apigee API hub\nFeature\nPreview launch of AWS API Gateway and Azure API Management plugins\nAPI hub now includes two new built-in plugins for ingesting API metadata from third-party gateways: AWS API Gateway and Azure API Management. Both plugins are in Public Preview, extending API hub's multi-cloud governance to give you a single pane of glass across your Google Cloud, AWS, and Azure APIs.\nWhat's new\nAutomated discovery and onboarding: Connect your AWS account or Azure API Management (APIM) service and API hub automatically discovers your existing deployed APIs and related metadata.\nScheduled pull sync: A full metadata sync runs every 6 hours by default, with reconciliation (upserts and orphan deletes) to keep your catalog in sync with the source gateway.\nOptional near-real-time push sync: Deploy a customer-managed AWS Lambda function (for AWS API Gateway) or Azure Function (for Azure API Management) to relay control-plane change events to API hub in near real time. For sample deployment code, see the apigee-samples repository.\nFor more information, see About plugins, Manage third-party plugins, and Create a plugin instance.\nFeature\nSpec-to-deployment linkage and gateway revision tracking in API hub (GA)\nAPI hub now provides a first-class, bidirectional link between API specifications, operations, and the deployments that serve them, together with native tracking of the underlying gateway revision.\nWhat's new\nDirect visibility between specs and deployments: See exactly which…",
-        "image": null,
-        "source": "Google Cloud Platform (GCP) - Release notes",
-        "published": "2026-09-23T07:00:00.000Z",
-        "isNew": false
       }
     ],
     "kubernetes": [
+      {
+        "title": "The Shift to cgroup v2 in Kubernetes: What You Need to Know",
+        "link": "https://kubernetes.io/blog/2026/10/06/kubernetes-cgroups-v2-shift/",
+        "summary": "In Linux, cgroups (control groups) are a kernel feature used for managing system resources.\nKubernetes uses cgroups to allocate resources like CPU and memory to containers,\nensuring that applications run smoothly without interfering with each other.\nWith the release of Kubernetes v1.31, support for v1 cgroup management moved into\nmaintenance mode.\nSupport for v2 cgroup management has been stable since Kubernetes v1.25.\nCompared with cgroup v1, cgroup v2 provides a single unified hierarchy,\na more consistent interface, and a stronger foundation for resource isolation\nand modern resource-management features.\nDeprecation of cgroup v1\nKubernetes has deprecated cgroup v1.\nStarting with Kubernetes v1.35, failCgroupV1 defaults to true, so the kubelet does not start\non a cgroup v1 node by default. Administrators can temporarily set failCgroupV1: false in the\nkubelet configuration file, but removal will\nfollow the Kubernetes deprecation policy.\nFurther removal work is tracked in KEP-5573: Remove cgroup v1 support.\nIf you are still on a release older than v1.35, migrate every Linux node to\ncgroup v2 before upgrading, or plan to set the temporary failCgroupV1: false\noverride. If you are already on v1.35 or later, confirm that every Linux node\nruns cgroup v2 (or that you intentionally keep the override). Under the default\nconfiguration, a remaining cgroup v1 node fails during kubelet startup.\nFor kubeadm-managed clusters, Kubernetes v1.35 also makes this an earlier, stricter check. The…",
+        "image": null,
+        "source": "Kubernetes Blog",
+        "published": "2026-10-06T18:00:00.000Z",
+        "isNew": false
+      },
+      {
+        "title": "Scaling Kubernetes Workloads with Node Swap",
+        "link": "https://kubernetes.io/blog/2026/10/05/scaling-kubernetes-workloads-with-node-swap/",
+        "summary": "Memory is often the first hard limit a Kubernetes cluster hits.\nNodes run out of RAM long before they run out of CPU, and the new wave of agentic AI workloads makes this worse.\nThese workloads demand large memory footprints to start up and run untrusted code, then sit idle waiting for the next prompt.\nThat idle but resident memory is expensive, and it caps how many pods a node can hold. This is where swap helps. Kubernetes support for running nodes with swap enabled reached General Availability in v1.34, and by backing that swap with fast NVMe solid state drives (SSDs), a node can page out dormant memory and pack in far more pods.\nThis post explains how we benchmarked that approach across three workloads, including CI/CD kernel builds, sandboxed headless browsers, and isolated Python runtimes; we found density gains of up to 3×, often with little or no latency cost.\nThe node density problem\nThe Kubernetes ecosystem has reached a fundamental physical resource constraint: the strict limits of hardware memory versus the growing demand for dynamic, bursty workloads in the new agentic era.\nHistorically, administrators provisioning memory-intensive workloads encountered a persistent dilemma: set memory limits too high and you waste expensive infrastructure on idle RAM; set them too low and you risk Out-Of-Memory (OOM) kills.\nThis conflict is amplified when deploying autonomous AI agents using secure execution environments like the agent-sandbox framework. These agentic pods…",
+        "image": "https://kubernetes.io/blog/2026/10/05/scaling-kubernetes-workloads-with-node-swap/node-swap-chart.svg",
+        "source": "Kubernetes Blog",
+        "published": "2026-10-05T18:00:00.000Z",
+        "isNew": false
+      },
       {
         "title": "Spotlight on SIG Apps",
         "link": "https://kubernetes.io/blog/2026/09/22/sig-apps-spotlight/",
@@ -305,27 +323,18 @@
         "source": "Kubernetes Blog",
         "published": "2026-09-14T18:30:00.000Z",
         "isNew": false
-      },
-      {
-        "title": "Kubernetes v1.37: Native Histograms Graduates to Beta",
-        "link": "https://kubernetes.io/blog/2026/09/11/kubernetes-v1-37-native-histograms-beta/",
-        "summary": "I'm excited to announce that native histogram support for Kubernetes metrics is graduating to Beta and is enabled by default in Kubernetes v1.37!\nNative histograms (previously introduced as Alpha in Kubernetes v1.36 under KEP-5808)\nbring high-resolution, low-cardinality observability to Kubernetes metrics.\nBy adopting Prometheus Native Histograms, Kubernetes components now expose latency and duration metrics with far greater accuracy while significantly reducing telemetry storage and scraping overhead.\nWhy move beyond classic histograms?\nSince the early days of Kubernetes observability, duration and latency metrics (such as API server request latencies or scheduling durations) have relied on classic Prometheus histograms.\nClassic histograms require metric authors to define a static list of cumulative bucket boundaries (le labels), such as 0.005, 0.01, 0.025, 0.05, 0.1, 0.25, 0.5, 1, 2.5, 5, 10. While familiar, this approach introduces three major challenges:\nThe Bucket Guessing Game: If a workload's latency profile changes, for example, shifting into microsecond ranges or experiencing long-tail tail latencies beyond the highest bucket, the histogram loses visibility. Specifying bucket boundaries upfront requires knowing the distribution before observing it\nHigh Cardinality & Storage Cost: With classic histograms, each bucket boundary is exported as a separate time series (_bucket{le=\"...\"}). A histogram with 10 buckets across multiple labels multiplies the number of time…",
-        "image": "https://kubernetes.io/images/blog/2026-kubernetes-1-37-native-histograms-beta/native-histograms-flow.svg",
-        "source": "Kubernetes Blog",
-        "published": "2026-09-11T18:30:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "Kubernetes v1.37: Scheduler Preemption for In-Place Pod Resize (Alpha)",
-        "link": "https://kubernetes.io/blog/2026/09/10/kubernetes-v1-37-scheduler-preemption-for-in-place-pod-resize-alpha/",
-        "summary": "In Kubernetes, resource allocation has historically been a static decision made during a Pod's initial scheduling and placement. With the graduation of the core in-Place Pod resize feature to General Availability in v1.35, application developers and cluster operators gained the powerful ability to dynamically adjust CPU and memory allocations of running containers without incurring disruptive restarts or application downtime.\nHowever, in-place resizing introduced a unique resource scheduling gap: if a running Pod requested a resource scale-up that exceeded the host node's allocatable headroom, the Kubelet was forced to mark the request as Deferred. The Pod would remain parked in this state indefinitely, waiting for resources on the node to naturally free up.\nTo bridge this scheduling gap, Kubernetes v1.37 introduces scheduler preemption for in-place Pod resize (Alpha), behind the InPlacePodVerticalScalingSchedulerPreemption feature gate.\nThis feature allows the Kubernetes scheduler to actively free up capacity on a fully-utilized node by preempting lower-priority workloads, enabling the pending in-place resizes of critical, higher-priority applications to succeed.\nThe \"deferred\" resize challenge\nTo understand why this preemption mechanism is needed, it is helpful to look at how Kubernetes handles running Pod resizing. When a user or controller (such as the Vertical Pod Autoscaler) updates the resource requests of an active container, the Kubelet evaluates whether the…",
-        "image": null,
-        "source": "Kubernetes Blog",
-        "published": "2026-09-10T18:30:00.000Z",
-        "isNew": false
       }
     ],
     "terraform": [
+      {
+        "title": "v1.16.5",
+        "link": "https://github.com/hashicorp/terraform/releases/tag/v1.16.5",
+        "summary": "1.16.5 (September 30, 2026)\nBUG FIXES:\nFixed a crash that happens when a tainted instance state is seen without a valid status (#39287)\nresource-identity: fixed an issue where resource identity could be nil during delete (#39285)",
+        "image": "https://avatars.githubusercontent.com/u/82989873?s=60&v=4",
+        "source": "Release notes from terraform",
+        "published": "2026-10-02T13:04:00.000Z",
+        "isNew": false
+      },
       {
         "title": "v1.17.0-beta2",
         "link": "https://github.com/hashicorp/terraform/releases/tag/v1.17.0-beta2",
@@ -388,18 +397,27 @@
         "source": "Release notes from terraform",
         "published": "2026-08-27T10:30:11.000Z",
         "isNew": false
-      },
-      {
-        "title": "v1.16.0",
-        "link": "https://github.com/hashicorp/terraform/releases/tag/v1.16.0",
-        "summary": "1.16.0 (August 26, 2026)\nNEW FEATURES:\nTerraform now stores planned private data for providers, allowing provider-specific state to be preserved across plan and apply. (#37986)\nterraform_data: The new store block can hold ephemeral and sensitive values across plan and apply. (#38298)\nProviders can now use nested blocks as computed values (#38305)\nimport: import blocks inside modules are now supported. (#38352)\nTerraform is now available as a pre-built binary for Linux s390x (zLinux). (#38384)\nResource action triggers can now use on_failure modes of halt, taint, or continue. (#38722)\nENHANCEMENTS:\nstate show: The state show command can now produce machine-readable output when supplied with the -json flag (#23940)\nworkspace: The workspace list command can now produce machine-readable output when supplied with the -json flag (#38397)\ntest: Terraform now reports which resources were left behind when skip_cleanup is set. (#38449)\nstacks: Action configurations now have access to a caller symbol containing the object value of the calling resource. (#38668)\nActions can now use before_destroy and after_destroy events. (#38668)\ncloud: Terraform now displays a summary of policy evaluation outcomes for plan and apply runs against HCP Terraform. (#38715)\npolicy: Terraform now resolves policy plugin credentials from the configured cloud or remote backend during init, plan, and apply, rather than requiring the plugin to read credentials itself. (#38716)\ngraph: The terraform graph command…",
-        "image": "https://avatars.githubusercontent.com/u/82989873?s=60&v=4",
-        "source": "Release notes from terraform",
-        "published": "2026-08-26T13:05:28.000Z",
-        "isNew": false
       }
     ],
     "python": [
+      {
+        "title": "Python 3.15.0 candidate 3 is here!",
+        "link": "https://blog.python.org/2026/10/python-3150-rc3/",
+        "summary": "Following tradition, a surprise rc3!",
+        "image": null,
+        "source": "Python Insider",
+        "published": "2026-10-02T00:00:00.000Z",
+        "isNew": false
+      },
+      {
+        "title": "Python 3.10.22, 3.11.17, 3.12.15, 3.13.16 and 3.14.8 are now available!",
+        "link": "https://blog.python.org/2026/10/python-31022-31117/",
+        "summary": "Security updates across Python 3.10–3.14, the final maintenance release of 3.13, and a farewell to Python 3.10.",
+        "image": null,
+        "source": "Python Insider",
+        "published": "2026-10-01T00:00:00.000Z",
+        "isNew": false
+      },
       {
         "title": "Python Language Summit 2026 blog posts are now available",
         "link": "https://pyfound.blogspot.com/2026/09/python-language-summit-2026.html",
@@ -453,27 +471,18 @@
         "source": "Python Insider",
         "published": "2026-09-30T12:00:07.000Z",
         "isNew": false
-      },
-      {
-        "title": "Spicycrab (Python Language Summit 2026)",
-        "link": "https://blog.python.org/2026/09/language-summit-2026-spicycrab/",
-        "summary": "Kushal Das shows off Spicycrab, a Python-to-Rust transpiler for Python users who need performance without learning Rust or leaving Python",
-        "image": null,
-        "source": "Python Insider",
-        "published": "2026-09-30T12:00:06.000Z",
-        "isNew": false
-      },
-      {
-        "title": "Rust for CPython (Python Language Summit 2026)",
-        "link": "https://blog.python.org/2026/09/language-summit-2026-rust-for-cpython/",
-        "summary": "David Hewitt shares a status update, first module, and potential acceptance criteria for the Rust for CPython project",
-        "image": null,
-        "source": "Python Insider",
-        "published": "2026-09-30T12:00:05.000Z",
-        "isNew": false
       }
     ],
     "go": [
+      {
+        "title": "Arch-specific SIMD in Go",
+        "link": "https://go.dev/blog/archsimd",
+        "summary": "The Go Blog\nArch-specific SIMD in Go\nSince Go 1.26, we have supported an experimental amd64 SIMD API. Now in Go 1.27, we support two more architectures: arm64 and wasm.\nThe new APIs can be accessed by setting GOEXPERIMENT=simd when building a program. They are defined in the simd/archsimd package.\narchsimd is the lower-level infrastructure that simd builds on, essentially the intrinsics layer in other languages. For exotic operations that only exist on a specific architecture, users can access them by transitioning from simd to archsimd (via ToArch and <Types>FromArch). For details, please refer to the simd blog post.\nFor readers with prior knowledge of SIMD intrinsics in other languages, you might find that our archsimd API does not directly mirror the underlying hardware instructions:\nWe give our APIs sensible names: e.g., instead of _mm512_slli_epi64, we just call it ShiftAllLeft.\nWe leave some architecture details to compiler optimizations rather than exposing them in the API: e.g., instead of _mm512_maskz_add_ps(m, x, y), we optimize x.Add(y).Masked(m) into the same instruction.\nThese design decisions make our APIs smaller and more accessible, and they also happily make the simd implementation much easier.\nFor readers without prior knowledge of SIMD intrinsics, we hope our low-level API is a natural and pleasant journey for you.\nPlease share your feedback and comments. Anything about usability, performance, etc., is appreciated. The parent issue for this project is…",
+        "image": null,
+        "source": "The Go Blog",
+        "published": "2026-10-02T00:00:00.000Z",
+        "isNew": false
+      },
       {
         "title": "Platform-independent SIMD in Go",
         "link": "https://go.dev/blog/simd-experiment",
@@ -536,18 +545,27 @@
         "source": "The Go Blog",
         "published": "2026-03-24T00:00:00.000Z",
         "isNew": false
-      },
-      {
-        "title": "//go:fix inline and the source-level inliner",
-        "link": "https://go.dev/blog/inliner",
-        "summary": "The Go Blog\n//go:fix inline and the source-level inliner\n pre:nth-of-type(1) { background: var(--color-diff-old); }\n#content .beforeafter > pre:nth-of-type(2) { background: var(--color-diff-new); }\n.beforeafter-arrow {\n  place-self: center;\n  /* Undo unnecessary grid gap. */\n  margin: -0.5em;\n}\n.beforeafter-arrow::before {\n  content: \"⟶\";\n  @media screen and (max-width: 57.7rem) {\n    content: \"⇓\";\n  }\n}\n\nGo 1.26 contains an all-new implementation of the go fix subcommand,\ndesigned to help you keep your Go code up-to-date and modern. For an\nintroduction, start by reading our recent post on the topic.\nIn this post, we’ll look at one particular feature, the source-level\ninliner.\nWhile go fix has several bespoke modernizers for specific new\nlanguage and library features,\nthe source-level inliner is the first fruit of our efforts to provide\n“self-service” modernizers and analyzers.\nIt enables any package author to express simple API migrations and\nupdates in a straightforward and safe way.\nWe’ll first explain what the source-level inliner is and how you can use it,\nthen we’ll dive into some aspects of the problem and the technology behind it.\nSource-level inlining\nIn 2023, we built an algorithm for source-level inlining of function calls in Go. To “inline” a call means to replace the call by a copy of the body of the called function, substituting arguments for parameters. We call it “source-level” inlining because it durably modifies the source code. By contrast, the inlining…",
-        "image": null,
-        "source": "The Go Blog",
-        "published": "2026-03-10T00:00:00.000Z",
-        "isNew": false
       }
     ],
     "rust": [
+      {
+        "title": "Demoting i686 Windows targets to std-only",
+        "link": "https://blog.rust-lang.org/2026/10/02/demoting-i686-windows-targets-to-std-only/",
+        "summary": "With Rust 1.100.0, the following changes to 32-bit Windows targets will happen:\ni686-pc-windows-msvc Tier 1 with host tools target will be demoted to Tier 1 without host tools.\ni686-pc-windows-gnu Tier 2 with host tools target will be demoted to Tier 2 without host tools.\nBuilds of the standard library will continue to be distributed, but host tools such as the compiler will be no longer available. i686-pc-windows-msvc as a Tier 1 target still undergoes CI testing.\nTo build 32-bit Windows binaries, cross-compiling from a still-supported host toolchain (such as a 64-bit Windows ones) will be required from now on.\n\nBackground\nDesktop and Server 32-bit only x86 CPUs are no longer sold for over 15 years, and general 32-bit Windows support has ended in October 2025. This means that the development platforms these targets are meant for hardly exist these days, and even if they do exist they typically aren't capable enough for development.\nEven on the modern x86_64 hardware, building i686 Windows toolchains has proven to be problematic. We have encountered compiler binaries crashing when built with the i686 MSVC target, and the GNU C++ toolchain failing with OOMs during LLVM build.\nConsidering all these things, cross-compiling these targets from a better supported one is what we have found to be the best solution forward. As part of that, we stopped producing host tools for these targets. For the time being, the prebuilt standard library is still available, and in case of…",
+        "image": null,
+        "source": "Rust Blog",
+        "published": "2026-10-02T00:00:00.000Z",
+        "isNew": false
+      },
+      {
+        "title": "Announcing Rust 1.99.0",
+        "link": "https://blog.rust-lang.org/2026/10/01/Rust-1.99.0/",
+        "summary": "The Rust team is happy to announce a new version of Rust, 1.99.0. Rust is a programming language empowering everyone to build reliable and efficient software.\nIf you have a previous version of Rust installed via rustup, you can get 1.99.0 with:\n$ rustup update stable\nIf you don't have it already, you can get rustup from the appropriate page on our website, and check out the detailed release notes for 1.99.0.\nIf you'd like to help us out by testing future releases, you might consider updating locally to use the beta channel (rustup default beta) or the nightly channel (rustup default nightly). Please report any bugs you might come across!\n\nWhat's in 1.99.0 stable\n\nextern \"C\" variadics\nRust 1.99.0 stabilizes defining C-ABI variadic functions with \"C\" and\n\"C-unwind\" ABIs. Variadic functions defined this way use a variable argument\nlist (...) and accept an arbitrary number of arguments. Rust could already\ncall externally-defined variadic functions (e.g., libc::printf). With Rust\n1.99, these functions can now be written in Rust itself:\n/// SAFETY: must be called with (at least) 2 i32 arguments.\nunsafe extern \"C\" fn sum(mut args: ...) -> i32 {\n    // SAFETY: guaranteed by the caller.\n    let a = unsafe { args.next_arg::<i32>() };\n    let b = unsafe { args.next_arg::<i32>() };\n    a + b\n}\n\nfn foo() -> i32 {\n    unsafe { sum(0i32, 2i32) }\n}\nThe type of ... is VaList,\nwhich is ABI-compatible with the C va_list type across targets. What types can be read from a VaList is guarded by…",
+        "image": null,
+        "source": "Rust Blog",
+        "published": "2026-10-01T00:00:00.000Z",
+        "isNew": false
+      },
       {
         "title": "Announcing a Maintainer in Residence: Scott Schafer for the Cargo team",
         "link": "https://blog.rust-lang.org/2026/09/22/announcing-a-maintainer-in-residence-scott-schafer-for-the-cargo-team/",
@@ -600,24 +618,6 @@
         "image": null,
         "source": "Rust Blog",
         "published": "2026-09-01T00:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "Announcing our first Maintainers in Residence",
-        "link": "https://blog.rust-lang.org/2026/08/26/announcing-our-first-maintainers-in-residence/",
-        "summary": "We are very happy to announce the Rust Project's first round of Maintainers in Residence:\nGen Li (@rami3l), Chris Denton (@ChrisDenton), Alejandra González (@blyxyas), León Liehr (@fmease), and Maintainer Grant recipients: Jason Newcomb (@Jarcho) and Jonas Böttiger (@joboet). These contributors will be funded for their rust-lang maintenance activities for (at least) the following 12 months!\nThe funding of the Maintainer in Residence (MiR) and Maintainer Grantee roles is possible thanks to generous donations to the Rust Foundation Maintainers Fund (RFMF) from Google, AWS, OpenAI, the Rust Project Leadership Council and also individual sponsors. We also want to thank the people who advocated for maintainer funding within their companies; Tyler Mandry from Google, Niko Matsakis and Jess Izen from AWS and Predrag Gruevski from OpenAI, and also the whole Rust Leadership Council and our funding advisors. If you would like to help us support even more Rust contributors, consider donating to RFMF.\nThe Rust Foundation has published a press release and a blog post, where you can learn more about the sponsors and the supported contributors.\nRead more below to learn about the MiR program, how we chose the funded contributors, and of course who they are!\n\nBackground\nThe Maintainer in Residence program, established in RFC 3931, is designed to provide stable financial support for Rust contributors, so that they can truly focus on crucial maintenance activities. Currently, there are three…",
-        "image": null,
-        "source": "Rust Blog",
-        "published": "2026-08-26T00:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "Enabling the next-generation trait solver on nightly",
-        "link": "https://blog.rust-lang.org/2026/08/21/enabling-next-solver-on-nightly/",
-        "summary": "After nearly 4 years of active development, the next-generation trait solver is close to stabilization. We are enabling it by default on nightly to surface any remaining issues and plan to stabilize it in the next months. This is the largest single change to the Rust compiler since its initial release. It completely replaces how we prove where-clauses, normalize associated types, and much more. Please try out the latest nightly and open an issue if you encounter any bugs or regressions.\nThis is an internal component of the compiler. The main benefits of this rework will come in the future. The removal of the old implementation will unblock features such as Type Alias Impl Trait and Return Type Notation, allow us to add new implicit default trait bounds (e.g., Move and Forget), and enable us to fix the remaining type system unsoundnesses.\nEven so, this already fixes a huge number of issues. As an underapproximation, we currently know of more than 200 issues on GitHub fixed by this change. This also has a significant impact on compile times; more on that later. When developing on nightly, you may accidentally rely on behavior only supported by the new trait solver.\nThis is an incredibly big change which results in a non-trivial amount of breakage. Most of these changes are intended improvements to type inference or the removal of undesirable behavior. We are tracking the known issues and breakage in a pinned GitHub issue.\n\nWhat can I do?\nPlease update to the latest nightly…",
-        "image": "https://blog.rust-lang.org/2026/08/21/enabling-next-solver-on-nightly/visualization.png",
-        "source": "Rust Blog",
-        "published": "2026-08-21T00:00:00.000Z",
         "isNew": false
       }
     ],
