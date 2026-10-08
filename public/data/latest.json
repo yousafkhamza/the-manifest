@@ -1,6 +1,6 @@
 {
-  "date": "2026-10-07",
-  "generatedAt": "2026-10-07T21:58:40.473Z",
+  "date": "2026-10-08",
+  "generatedAt": "2026-10-08T12:01:38.471Z",
   "totalArticles": 72,
   "ticker": [
     {
@@ -25,7 +25,7 @@
     },
     {
       "label": "Node.js",
-      "version": "v26.11.0"
+      "version": "v26.11.1"
     }
   ],
   "topics": {
@@ -623,6 +623,15 @@
     ],
     "javascript": [
       {
+        "title": "Node.js 26.11.1 (Current)",
+        "link": "https://nodejs.org/en/blog/release/v26.11.1",
+        "summary": "",
+        "image": null,
+        "source": "Node.js Blog",
+        "published": "2026-10-07T23:56:26.000Z",
+        "isNew": true
+      },
+      {
         "title": "Node.js 26.11.0 (Current)",
         "link": "https://nodejs.org/en/blog/release/v26.11.0",
         "summary": "",
@@ -683,15 +692,6 @@
         "image": null,
         "source": "Node.js Blog",
         "published": "2026-08-26T22:11:36.000Z",
-        "isNew": false
-      },
-      {
-        "title": "Node.js 26.8.0 (Current)",
-        "link": "https://nodejs.org/en/blog/release/v26.8.0",
-        "summary": "",
-        "image": null,
-        "source": "Node.js Blog",
-        "published": "2026-08-26T14:29:48.000Z",
         "isNew": false
       }
     ]
