@@ -1,7 +1,7 @@
 {
   "date": "2026-10-08",
-  "generatedAt": "2026-10-08T12:01:38.471Z",
-  "totalArticles": 72,
+  "generatedAt": "2026-10-08T17:53:49.727Z",
+  "totalArticles": 64,
   "ticker": [
     {
       "label": "Kubernetes",
@@ -17,7 +17,7 @@
     },
     {
       "label": "Go",
-      "version": "go1.27.1"
+      "version": "go1.27.2"
     },
     {
       "label": "Rust",
@@ -103,85 +103,21 @@
         "isNew": false
       }
     ],
-    "azure": [
-      {
-        "title": "Responsible infrastructure at hyperscale: Managing the full lifecycle of Azure hardware",
-        "link": "https://azure.microsoft.com/en-us/blog/responsible-infrastructure-at-hyperscale-managing-the-full-lifecycle-of-azure-hardware/",
-        "summary": "Microsoft is advancing Azure cloud infrastructure with more efficient systems and Circular Centers that extend the useful life of datacenter hardware.\nThe post Responsible infrastructure at hyperscale: Managing the full lifecycle of Azure hardware appeared first on Microsoft Azure Blog.",
-        "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/09/word-image-54217-2.webp",
-        "source": "Microsoft Azure Blog",
-        "published": "2026-09-30T15:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "SQL Server on Azure Local is now generally available",
-        "link": "https://www.microsoft.com/en-us/sql-server/blog/2026/09/28/sql-server-on-azure-local-is-now-generally-available/",
-        "summary": "With SQL Server on Azure Local, customers can modernize where their data resides while maintaining control over infrastructure, connectivity, and data placement.\nThe post SQL Server on Azure Local is now generally available appeared first on Microsoft Azure Blog.",
-        "image": null,
-        "source": "Microsoft Azure Blog",
-        "published": "2026-09-29T16:40:06.000Z",
-        "isNew": false
-      },
-      {
-        "title": "FabCon and SQLCon 2026 in Barcelona: Building the data foundation for Microsoft Copilot and agents",
-        "link": "https://azure.microsoft.com/en-us/blog/fabcon-and-sqlcon-2026-in-barcelona-building-the-data-foundation-for-microsoft-copilot-and-agents/",
-        "summary": "Microsoft Fabric and SQL innovations announced at FabCon and SQLCon Barcelona 2026 help organizations build trusted data foundations for AI.\nThe post FabCon and SQLCon 2026 in Barcelona: Building the data foundation for Microsoft Copilot and agents appeared first on Microsoft Azure Blog.",
-        "image": null,
-        "source": "Microsoft Azure Blog",
-        "published": "2026-09-29T06:30:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "Enhancing Microsoft Azure Virtual Machine lifecycle",
-        "link": "https://azure.microsoft.com/en-us/blog/enhancing-microsoft-azure-virtual-machine-lifecycle/",
-        "summary": "Our Virtual Machine Lifecycle policy guides how we manage these transitions, giving Azure customers transparency, predictability, and guidance.\nThe post Enhancing Microsoft Azure Virtual Machine lifecycle appeared first on Microsoft Azure Blog.",
-        "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/06/CLO20b_Evan_office_001-1-scaled.jpg",
-        "source": "Microsoft Azure Blog",
-        "published": "2026-09-28T15:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "Ship agents faster with expanded model choice, voice agents, and continuous optimization",
-        "link": "https://azure.microsoft.com/en-us/blog/ship-agents-faster-with-expanded-model-choice-voice-agents-and-continuous-optimization/",
-        "summary": "The best model for your business will keep changing. Adopting it should move your business forward, not send your team back to rebuild the architecture around it.\nThe post Ship agents faster with expanded model choice, voice agents, and continuous optimization appeared first on Microsoft Azure Blog.",
-        "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/09/foundry-agent-loop-v2.webp",
-        "source": "Microsoft Azure Blog",
-        "published": "2026-09-24T18:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "Your architecture diagram is not your resilience",
-        "link": "https://azure.microsoft.com/en-us/blog/your-architecture-diagram-is-not-your-resilience/",
-        "summary": "For years, resilience was something you set up once. That kept the lights on, but it treated resilience as a project with an end date rather than a property you maintain.\nThe post Your architecture diagram is not your resilience appeared first on Microsoft Azure Blog.",
-        "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/06/CLO20b_team_at_work_office_001-scaled.jpg",
-        "source": "Microsoft Azure Blog",
-        "published": "2026-09-23T16:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "Designing agent-first platforms: What changes when agents do the work",
-        "link": "https://azure.microsoft.com/en-us/blog/designing-agent-first-platforms-what-changes-when-agents-do-the-work/",
-        "summary": "The organizations pulling ahead are not simply adding AI to what they already have. They are designing for a different kind of software.\nThe post Designing agent-first platforms: What changes when agents do the work appeared first on Microsoft Azure Blog.",
-        "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/06/CLO24-Azure-Fintech-022-scaled.jpg",
-        "source": "Microsoft Azure Blog",
-        "published": "2026-09-23T15:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "GPT-6 Astra, Sol, and Luna: For production agents in Microsoft Foundry",
-        "link": "https://azure.microsoft.com/en-us/blog/gpt-6-astra-sol-and-luna-for-production-agents-in-microsoft-foundry/",
-        "summary": "Explore GPT-6 Astra, Sol, and GPT-6 Luna in Microsoft Foundry, with scalable model options for production AI agents, complex workflows, and high-volume tasks.\nThe post GPT-6 Astra, Sol, and Luna: For production agents in Microsoft Foundry appeared first on Microsoft Azure Blog.",
-        "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/09/updated_chart-1024x768.webp",
-        "source": "Microsoft Azure Blog",
-        "published": "2026-09-22T18:30:00.000Z",
-        "isNew": false
-      }
-    ],
+    "azure": [],
     "gcp": [
+      {
+        "title": "October 08, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#October_08_2026",
+        "summary": "Cloud SQL for MySQL\nFeature\nCloud SQL for MySQL supports blue-green deployments\n(Preview).\nBlue-green deployments let you update databases—such as performing major\nversion upgrades from MySQL 8.0 to 8.4 and staging hardware or configuration\nmodifications—while minimizing downtime. During a blue-green deployment,\nCloud SQL creates a separate staging environment (green) that mirrors your\nexisting production environment (blue) and maintains continuous logical\nreplication from blue to green. You can test application compatibility and\nperformance on the green environment without affecting production traffic, and\nthen trigger a switchover to the green environment with minimal application\ndowntime.\nFor more information, see About blue-green deployments in\nCloud SQL.",
+        "image": null,
+        "source": "Google Cloud Platform (GCP) - Release notes",
+        "published": "2026-10-08T07:00:00.000Z",
+        "isNew": false
+      },
       {
         "title": "October 07, 2026",
         "link": "https://docs.cloud.google.com/release-notes#October_07_2026",
-        "summary": "Apigee hybrid\nAnnouncement\nv1.14.9\nOn October 7, 2026 we released an updated version of the Apigee hybrid software, v1.14.9.\nFor information on upgrading, see Upgrading Apigee hybrid to version v1.14.9.\nFor information on new installations, see The big picture.\nNote: This is a patch release: The container images used in patch releases are integrated with the Apigee hybrid Helm charts. Upgrading to a patch via the Helm chart automatically updates the images. No manual image changes are typically needed. For information on container image support in Apigee hybrid releases, see Apigee release process.\nFixed\nFixed in this release\nBug ID\nDescription\n\n\n\n\n565072374\nFixed an issue where VerifyJWT policies using a JWKS uriRef could return steps.jwt.NoMatchingPublicKey on the first request after the 5-minute JWKS cache TTL expired when the identity provider rotated keys. The cache now refreshes synchronously upon expiration.\n\n\n564969400\nFixed an issue where variables initialized from an empty <Value/> element in AssignMessage (AssignVariable) were not treated as empty strings when referenced in message template functions such as replaceAll.\n\n\n558888960\nFixed an issue in distributed tracing where the target URL was omitted from outbound target request span attributes after a request-flow policy step executed.\n\n\n554114419\nApigee hybrid now allows policies to modify HTTP/2 request pseudo-headers (:path and :authority) when communicating over HTTP/2.\n\n\n548763108\nHardened Message Processor…",
+        "summary": "Anti Money Laundering AI\nAnnouncement\nNew minor engine version released for the commercial line of business within the v004.005 version line (aml-commercial.default.v004.005.202609-000). This version extends support for the major engine version and includes no significant changes compared to the previous minor version.\nApigee hybrid\nAnnouncement\nv1.14.9\nOn October 7, 2026 we released an updated version of the Apigee hybrid software, v1.14.9.\nFor information on upgrading, see Upgrading Apigee hybrid to version v1.14.9.\nFor information on new installations, see The big picture.\nNote: This is a patch release: The container images used in patch releases are integrated with the Apigee hybrid Helm charts. Upgrading to a patch via the Helm chart automatically updates the images. No manual image changes are typically needed. For information on container image support in Apigee hybrid releases, see Apigee release process.\nFixed\nFixed in this release\nBug ID\nDescription\n\n\n\n\n565072374\nFixed an issue where VerifyJWT policies using a JWKS uriRef could return steps.jwt.NoMatchingPublicKey on the first request after the 5-minute JWKS cache TTL expired when the identity provider rotated keys. The cache now refreshes synchronously upon expiration.\n\n\n564969400\nFixed an issue where variables initialized from an empty <Value/> element in AssignMessage (AssignVariable) were not treated as empty strings when referenced in message template functions such as replaceAll.\n\n\n558888960\nFixed an issue in…",
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-10-07T07:00:00.000Z",
@@ -199,7 +135,7 @@
       {
         "title": "October 05, 2026",
         "link": "https://docs.cloud.google.com/release-notes#October_05_2026",
-        "summary": "Agent Platform Workbench\nChange\n20261004.00_p0 Release\nChange\nInstalled latest packages from upstream dependencies.\nChange\nThe BigQuery JupyterLab plugin is now enabled independently of the Dataproc plugin: it is enabled by default and can be turned off with the new disable-bigquery instance metadata key, while disable-mixer now controls only the Dataproc plugin.\nChange\n20261004.00_p0 Release\nChange\nInstalled latest packages from upstream dependencies.\nBigQuery\nFeature\nIceberg external tables and\nIceberg managed tables now support\nflexible column names by default. This\nfeature is generally available (GA).\nFeature\nThe gemini-embedding-2 model works well for embedding long strings, including\nmultilingual and unstructured data. It supports a mix of text, images, audio,\nvideo, and PDF files. You can use this model in the\nAI.EMBED,\nAI.SIMILARITY,\nand\nAI.GENERATE_EMBEDDING\nfunctions. This model is\ngenerally available.\nCloud Load Balancing\nFeature\nExternal IPv6 addresses are now supported for\nStandard Tier. For more\ninformation,\nsee IPv6 subnet ranges.\nThis feature is in Preview.\nCompute Engine\nFeature\nGenerally available: Z3 machine types that have 8 to 44 vCPUs can use\nHyperdisk Balanced High Availability volumes to synchronously replicate data across two zones.\nFor more information, see\nAbout Hyperdisk Balanced High Availability.\nFeature\nPreview: External IPv6 addresses are now supported for\nStandard Tier. For more\ninformation,\nsee IPv6 subnet ranges.\nConfidential Space…",
+        "summary": "Agent Platform Workbench\nChange\n20261004.00_p0 Release\nChange\nInstalled latest packages from upstream dependencies.\nChange\nThe BigQuery JupyterLab plugin is now enabled independently of the Dataproc plugin: it is enabled by default and can be turned off with the new disable-bigquery instance metadata key, while disable-mixer now controls only the Dataproc plugin.\nChange\n20261004.00_p0 Release\nChange\nInstalled latest packages from upstream dependencies.\nBigQuery\nFeature\nIceberg external tables and\nIceberg managed tables now support\nflexible column names by default. This\nfeature is generally available (GA).\nFeature\nThe gemini-embedding-2 model works well for embedding long strings, including\nmultilingual and unstructured data. It supports a mix of text, images, audio,\nvideo, and PDF files. You can use this model in the\nAI.EMBED,\nAI.SIMILARITY,\nand\nAI.GENERATE_EMBEDDING\nfunctions. This model is\ngenerally available.\nCloud Load Balancing\nFeature\nExternal IPv6 addresses are now supported for\nStandard Tier. For more\ninformation, see IPv6 subnet ranges.\nThis feature is in Preview.\nCompute Engine\nFeature\nGenerally available: Z3 machine types that have 8 to 44 vCPUs can use\nHyperdisk Balanced High Availability volumes to synchronously replicate data across two zones.\nFor more information, see\nAbout Hyperdisk Balanced High Availability.\nFeature\nPreview: External IPv6 addresses are now supported for\nStandard Tier. For more\ninformation,\nsee IPv6 subnet ranges.\nConfidential Space…",
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-10-05T07:00:00.000Z",
@@ -239,15 +175,6 @@
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-10-01T07:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "September 30, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#September_30_2026",
-        "summary": "API Gateway\nFeature\nAuthenticate MCP tool discovery with an API key\nAPI key authentication is now supported for the Model Context Protocol (MCP) tools/list method. You can name an API key security scheme in tools-list.security, in addition to a JWT security scheme.\nFor more information, see Configure Model Context Protocol.\nApigee API hub\nFeature\nService type system attribute (GA)\nAPI hub now includes Service type, a system attribute that classifies an API as Code, Model, Agent, or Skill. Service type describes what a service is. API style describes how you call it. Use Service type to find and govern your APIs, agents, models, and skills.\nSet Service type when you register or edit an API. To show only your agents, filter the API list by Service type, or select the new Agent chip. In the API, use the service_type field.\nThis feature is Generally Available (GA). For more information, see Supported system attributes.\nFeature\nAI performance and Tool performance dashboards in API insights\nAPI insights in API hub now includes two dashboards for AI and agent traffic:\nAI performance reports token usage and model latency for the large language models called through your gateways, with filters for model and provider.\nTool performance reports traffic, throughput, payload sizes, and latency for your Model Context Protocol (MCP) tools, with filters for MCP server, deployment, and tool name.\nFor more information, see API insights dashboards.\nApigee hybrid\nAnnouncement\nv1.17.1\nOn…",
-        "image": null,
-        "source": "Google Cloud Platform (GCP) - Release notes",
-        "published": "2026-09-30T07:00:00.000Z",
         "isNew": false
       }
     ],
@@ -629,7 +556,7 @@
         "image": null,
         "source": "Node.js Blog",
         "published": "2026-10-07T23:56:26.000Z",
-        "isNew": true
+        "isNew": false
       },
       {
         "title": "Node.js 26.11.0 (Current)",
