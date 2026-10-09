@@ -1,7 +1,7 @@
 {
-  "date": "2026-10-02",
-  "generatedAt": "2026-10-02T21:19:40.750Z",
-  "totalArticles": 72,
+  "date": "2026-10-09",
+  "generatedAt": "2026-10-09T11:53:58.557Z",
+  "totalArticles": 64,
   "ticker": [
     {
       "label": "Kubernetes",
@@ -17,7 +17,7 @@
     },
     {
       "label": "Go",
-      "version": "go1.27.1"
+      "version": "go1.27.2"
     },
     {
       "label": "Rust",
@@ -25,11 +25,29 @@
     },
     {
       "label": "Node.js",
-      "version": "v26.10.0"
+      "version": "v26.11.1"
     }
   ],
   "topics": {
     "aws": [
+      {
+        "title": "All the numbers: Amazon Prime Day 2026 powered by AWS",
+        "link": "https://aws.amazon.com/blogs/aws/all-the-numbers-amazon-prime-day-2026-powered-by-aws/",
+        "summary": "Amazon Prime Day 2026 was exclusively for Prime members and ran June 23–26, 2026 with millions of deals across more than 35 categories. As part of our annual tradition of sharing how AWS powered Prime Day (2016, 2017, 2019, 2020, 2021, 2022, 2023, 2024, and 2025), I want to share the services and chart-topping metrics […]",
+        "image": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2026/08/10/about-amazon-hero-pd-2026-tabletop-blue.jpg",
+        "source": "AWS News Blog",
+        "published": "2026-10-06T16:09:36.000Z",
+        "isNew": false
+      },
+      {
+        "title": "AWS Weekly Roundup: Amazon Bedrock Managed Agents powered by OpenAI, Q3 service availability updates, Kiro workflows, and more (October 5, 2026)",
+        "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-amazon-bedrock-managed-agents-powered-by-openai-q3-service-availability-updates-kiro-workflows-and-more-october-5-2026/",
+        "summary": "Last week, we announced a public preview of Amazon Bedrock Managed Agents powered by OpenAI, built on a customized version of OpenAI’s Agents API engineered to be AWS-native and integrated with AWS resources. You can now build agents optimized for OpenAI models that run entirely inside AWS with the identities, permissions, and governance controls you […]",
+        "image": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2026/04/28/2026-bedrock-managed-agents-openai.png",
+        "source": "AWS News Blog",
+        "published": "2026-10-05T15:41:19.000Z",
+        "isNew": false
+      },
       {
         "title": "Announcing AWS Well-Architected Agent, an AI-powered intelligence to optimize your cloud environment (preview)",
         "link": "https://aws.amazon.com/blogs/aws/announcing-aws-well-architected-agent-an-ai-powered-intelligence-to-optimize-your-cloud-environment-preview/",
@@ -83,105 +101,68 @@
         "source": "AWS News Blog",
         "published": "2026-09-28T16:14:54.000Z",
         "isNew": false
-      },
-      {
-        "title": "Introducing enhanced custom event buses in Amazon EventBridge for enterprise-scale event-driven applications",
-        "link": "https://aws.amazon.com/blogs/aws/introducing-enhanced-custom-event-buses-in-amazon-eventbridge-for-enterprise-scale-event-driven-applications/",
-        "summary": "Amazon EventBridge announces an enhanced custom event bus for organizations scaling event-driven applications across teams and accounts. Deploy a single event bus shared across all AWS accounts in your organization, with ordering guarantees, a simplified Subscriber resource, and improved economics at scale.",
-        "image": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2026/09/01/image-01-1024x806.png",
-        "source": "AWS News Blog",
-        "published": "2026-09-24T20:58:46.000Z",
-        "isNew": false
-      },
-      {
-        "title": "Now on Amazon CloudWatch Omni: collaborative AI-powered observability for your applications",
-        "link": "https://aws.amazon.com/blogs/aws/introducing-amazon-cloudwatch-omni-collaborative-ai-powered-observability-for-your-applications/",
-        "summary": "Amazon CloudWatch Omni is the next evolution of CloudWatch — unified observability that brings your applications and AI agents into one reimagined experience, with auto-discovered topology, natural language queries, and AI-guided investigation powered by AWS DevOps Agent.",
-        "image": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2026/09/21/cloudwatch-omni-console-1800.png",
-        "source": "AWS News Blog",
-        "published": "2026-09-22T22:23:14.000Z",
-        "isNew": false
       }
     ],
-    "azure": [
-      {
-        "title": "Enhancing Microsoft Azure Virtual Machine lifecycle",
-        "link": "https://azure.microsoft.com/en-us/blog/enhancing-microsoft-azure-virtual-machine-lifecycle/",
-        "summary": "Our Virtual Machine Lifecycle policy guides how we manage these transitions, giving Azure customers transparency, predictability, and guidance.\nThe post Enhancing Microsoft Azure Virtual Machine lifecycle appeared first on Microsoft Azure Blog.",
-        "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/06/CLO20b_Evan_office_001-1-scaled.jpg",
-        "source": "Microsoft Azure Blog",
-        "published": "2026-09-28T15:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "Ship agents faster with expanded model choice, voice agents, and continuous optimization",
-        "link": "https://azure.microsoft.com/en-us/blog/ship-agents-faster-with-expanded-model-choice-voice-agents-and-continuous-optimization/",
-        "summary": "The best model for your business will keep changing. Adopting it should move your business forward, not send your team back to rebuild the architecture around it.\nThe post Ship agents faster with expanded model choice, voice agents, and continuous optimization appeared first on Microsoft Azure Blog.",
-        "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/09/foundry-agent-loop-v2.webp",
-        "source": "Microsoft Azure Blog",
-        "published": "2026-09-24T18:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "Your architecture diagram is not your resilience",
-        "link": "https://azure.microsoft.com/en-us/blog/your-architecture-diagram-is-not-your-resilience/",
-        "summary": "For years, resilience was something you set up once. That kept the lights on, but it treated resilience as a project with an end date rather than a property you maintain.\nThe post Your architecture diagram is not your resilience appeared first on Microsoft Azure Blog.",
-        "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/06/CLO20b_team_at_work_office_001-scaled.jpg",
-        "source": "Microsoft Azure Blog",
-        "published": "2026-09-23T16:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "Designing agent-first platforms: What changes when agents do the work",
-        "link": "https://azure.microsoft.com/en-us/blog/designing-agent-first-platforms-what-changes-when-agents-do-the-work/",
-        "summary": "The organizations pulling ahead are not simply adding AI to what they already have. They are designing for a different kind of software.\nThe post Designing agent-first platforms: What changes when agents do the work appeared first on Microsoft Azure Blog.",
-        "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/06/CLO24-Azure-Fintech-022-scaled.jpg",
-        "source": "Microsoft Azure Blog",
-        "published": "2026-09-23T15:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "GPT-6 Astra, Sol, and Luna: For production agents in Microsoft Foundry",
-        "link": "https://azure.microsoft.com/en-us/blog/gpt-6-astra-sol-and-luna-for-production-agents-in-microsoft-foundry/",
-        "summary": "Explore GPT-6 Astra, Sol, and GPT-6 Luna in Microsoft Foundry, with scalable model options for production AI agents, complex workflows, and high-volume tasks.\nThe post GPT-6 Astra, Sol, and Luna: For production agents in Microsoft Foundry appeared first on Microsoft Azure Blog.",
-        "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/09/updated_chart-1024x768.webp",
-        "source": "Microsoft Azure Blog",
-        "published": "2026-09-22T18:30:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "Claude Opus 5.5 comes to Microsoft Foundry for long-running coding and knowledge work",
-        "link": "https://techcommunity.microsoft.com/blog/azure-ai-foundry-blog/claude-opus-5-5-comes-to-microsoft-foundry-for-long-running-coding-and-knowledge/4558051",
-        "summary": "AI models are increasingly taking on work that extends far beyond a single prompt: building a feature across a codebase, investigating a complex issue, synthesizing hundreds of pages of information, or working through a multi-step business process.\nThe post Claude Opus 5.5 comes to Microsoft Foundry for long-running coding and knowledge work appeared first on Microsoft Azure Blog.",
-        "image": null,
-        "source": "Microsoft Azure Blog",
-        "published": "2026-09-22T17:00:25.000Z",
-        "isNew": false
-      },
-      {
-        "title": "Microsoft recognized as a Leader in the 2026 Gartner® Magic Quadrant™ for Distributed Hybrid Infrastructure",
-        "link": "https://azure.microsoft.com/en-us/blog/microsoft-recognized-as-a-leader-in-the-2026-gartner-magic-quadrant-for-distributed-hybrid-infrastructure/",
-        "summary": "Gartner highlighted Microsoft’s unified single-product architecture, flexibility across hyperconverged and disaggregated architectures, and more.\nThe post Microsoft recognized as a Leader in the 2026 Gartner® Magic Quadrant™ for Distributed Hybrid Infrastructure appeared first on Microsoft Azure Blog.",
-        "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/09/image-3.webp",
-        "source": "Microsoft Azure Blog",
-        "published": "2026-09-16T16:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "Microsoft named a Leader in the 2026 Gartner® Magic Quadrant™ for Container Management",
-        "link": "https://azure.microsoft.com/en-us/blog/microsoft-named-a-leader-in-the-2026-gartner-magic-quadrant-for-container-management/",
-        "summary": "Microsoft was named a Leader in the 2026 Gartner® Magic Quadrant™ for Container Management. Discover how AKS, Azure Arc, and Azure Container Apps help organizations run AI and hybrid workloads at scale.\nThe post Microsoft named a Leader in the 2026 Gartner® Magic Quadrant™ for Container Management appeared first on Microsoft Azure Blog.",
-        "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/09/Container-Management-quadrant-927x1024.webp",
-        "source": "Microsoft Azure Blog",
-        "published": "2026-09-10T21:00:00.000Z",
-        "isNew": false
-      }
-    ],
+    "azure": [],
     "gcp": [
+      {
+        "title": "October 08, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#October_08_2026",
+        "summary": "BigQuery\nFeature\nThe following table types now support\nflexible column names by default:\nIceberg external tables\nand Iceberg managed tables in\nBigQuery\nApache Iceberg tables managed by the Lakehouse runtime catalog\nThis feature is generally available (GA).\nFeature\nYou can use Gemini assistance in the BigQuery Studio SQL editor through an\ninline action button when you select text. For more information, see\nWrite SQL with Gemini assistance.\nThis feature is generally available (GA).\nCloud SQL for MySQL\nFeature\nCloud SQL for MySQL now supports the\ninnodb_cloudsql_managed_buffer_pool_tuneup_pct database flag.\nManaged buffer pool automatically adjusts the InnoDB buffer pool size to reduce\nout-of-memory events. When instance memory usage remains at or below 70% for 10\nminutes or longer after prior reductions, Cloud SQL increases the buffer pool\nsize. You can now use the innodb_cloudsql_managed_buffer_pool_tuneup_pct flag\nto change this 70% threshold to a different percentage. Increase the threshold\nto restore the InnoDB buffer pool size when baseline usage exceeds 70%, or\ndecrease it to preserve additional RAM allocation for memory spikes.\nThis flag requires the Cloud SQL maintenance version\nMYSQL_VERSION.R20260726.00_05\nor later. For more information, see Enable managed buffer\npool.\nFeature\nCloud SQL for MySQL supports blue-green deployments\n(Preview).\nBlue-green deployments let you update databases—such as performing major\nversion upgrades from MySQL 8.0 to 8.4 and staging…",
+        "image": null,
+        "source": "Google Cloud Platform (GCP) - Release notes",
+        "published": "2026-10-08T07:00:00.000Z",
+        "isNew": false
+      },
+      {
+        "title": "October 07, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#October_07_2026",
+        "summary": "Anti Money Laundering AI\nAnnouncement\nNew minor engine version released for the commercial line of business within the v004.005 version line (aml-commercial.default.v004.005.202609-000). This version extends support for the major engine version and includes no significant changes compared to the previous minor version.\nApigee hybrid\nAnnouncement\nv1.14.9\nOn October 7, 2026 we released an updated version of the Apigee hybrid software, v1.14.9.\nFor information on upgrading, see Upgrading Apigee hybrid to version v1.14.9.\nFor information on new installations, see The big picture.\nNote: This is a patch release: The container images used in patch releases are integrated with the Apigee hybrid Helm charts. Upgrading to a patch via the Helm chart automatically updates the images. No manual image changes are typically needed. For information on container image support in Apigee hybrid releases, see Apigee release process.\nFixed\nFixed in this release\nBug ID\nDescription\n\n\n\n\n565072374\nFixed an issue where VerifyJWT policies using a JWKS uriRef could return steps.jwt.NoMatchingPublicKey on the first request after the 5-minute JWKS cache TTL expired when the identity provider rotated keys. The cache now refreshes synchronously upon expiration.\n\n\n564969400\nFixed an issue where variables initialized from an empty <Value/> element in AssignMessage (AssignVariable) were not treated as empty strings when referenced in message template functions such as replaceAll.\n\n\n558888960\nFixed an issue in…",
+        "image": null,
+        "source": "Google Cloud Platform (GCP) - Release notes",
+        "published": "2026-10-07T07:00:00.000Z",
+        "isNew": false
+      },
+      {
+        "title": "October 06, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#October_06_2026",
+        "summary": "AI Hypercomputer\nFeature\nGenerally available: When you reserve compute resources for creating GPU\ninstances through your account team, you can include a Hyperdisk\npool in the same request or in a subsequent request. This option helps ensure\nthat your artificial intelligence (AI) and machine learning (ML) workloads have\nthe storage resources that they require close to your GPU instances. For more\ninformation, see\nReserve capacity through your account team.\nBigQuery\nFeature\nConversational analytics in BigQuery\nnow supports the\nAI.CAUSAL_EFFECT function\nto quantify the impact of specific interventions on time series data.\nThis feature is in\nPreview.\nCloud Monitoring\nFeature\nBulk registration of discovered services and workloads to an App Hub\napplication is generally available (GA).\nFor more information, see\nRegister one or more discovered services or workloads.\nCloud SDK\nBreaking\n588.0.0 (2026-10-06)\nBreaking Changes\n(Cloud Managed Flink) Removed the Managed Flink Client component (managed-flink-client) from the Google Cloud CLI.\nAgent Identity\nAdded gcloud alpha|beta agent-identity auth-providers authorizations get-iam-policy|set-iam-policy|add-iam-policy-binding|remove-iam-policy-binding|test-iam-permissions commands.\nAnthos\nUpdated anthos-cli with newer go version and library dependencies.\nApigee\nPromoted gcloud apigee apis import to GA. The command imports an API proxy\nfrom a YAML template (--from-template) or from a proxy bundle ZIP\n(--from-bundle).\nFixed an issue where…",
+        "image": null,
+        "source": "Google Cloud Platform (GCP) - Release notes",
+        "published": "2026-10-06T07:00:00.000Z",
+        "isNew": false
+      },
+      {
+        "title": "October 05, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#October_05_2026",
+        "summary": "Agent Platform Workbench\nChange\n20261004.00_p0 Release\nChange\nInstalled latest packages from upstream dependencies.\nChange\nThe BigQuery JupyterLab plugin is now enabled independently of the Dataproc plugin: it is enabled by default and can be turned off with the new disable-bigquery instance metadata key, while disable-mixer now controls only the Dataproc plugin.\nChange\n20261004.00_p0 Release\nChange\nInstalled latest packages from upstream dependencies.\nBigQuery\nFeature\nThe gemini-embedding-2 model works well for embedding long strings, including\nmultilingual and unstructured data. It supports a mix of text, images, audio,\nvideo, and PDF files. You can use this model in the\nAI.EMBED,\nAI.SIMILARITY,\nand\nAI.GENERATE_EMBEDDING\nfunctions. This model is\ngenerally available.\nCloud Load Balancing\nFeature\nExternal IPv6 addresses are now supported for\nStandard Tier. For more\ninformation, see IPv6 subnet ranges.\nThis feature is in Preview.\nCompute Engine\nFeature\nGenerally available: Z3 machine types that have 8 to 44 vCPUs can use\nHyperdisk Balanced High Availability volumes to synchronously replicate data across two zones.\nFor more information, see\nAbout Hyperdisk Balanced High Availability.\nFeature\nPreview: External IPv6 addresses are now supported for\nStandard Tier. For more\ninformation,\nsee IPv6 subnet ranges.\nConfidential Space\nAnnouncement\nA new Confidential Space image (260900) is available.\nGemini Enterprise Agent Platform\nFixed\nCodeMender updates (v0.12.0)\nThis release…",
+        "image": null,
+        "source": "Google Cloud Platform (GCP) - Release notes",
+        "published": "2026-10-05T07:00:00.000Z",
+        "isNew": false
+      },
+      {
+        "title": "October 04, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#October_04_2026",
+        "summary": "Agent Platform Workbench\nChange\n20261004-2230-rc0 Release\nChange\n20261004-2230-rc0 Release\nChange\nInstalled latest packages from upstream dependencies.\nChange\nInstalled latest packages from upstream dependencies.\nChange\nThe BigQuery JupyterLab plugin is now enabled independently of the Dataproc plugin: it is enabled by default and can be turned off with the new disable-bigquery instance metadata key, while disable-mixer now controls only the Dataproc plugin.\nSecurity\nBulk security patch remediating Critical and High-severity CVEs in the Agent Platform Workbench custom container images.\nSecurity\nBulk security patch remediating Critical and High-severity CVEs in the Agent Platform Workbench custom container images.\nChange\n20261004-2157-rc0 Release\nChange\nInstalled latest packages from upstream dependencies.\nFixed\nPreinstall CUDA drivers for Pre-Turing GPUs such as V100s.\nChange\nThe BigQuery JupyterLab plugin is now enabled independently of the Dataproc plugin: it is enabled by default and can be turned off with the new disable-bigquery instance metadata key, while disable-mixer now controls only the Dataproc plugin.\nChange\nM152 Release\nChange\nInstalled latest packages from upstream dependencies.\nChange\nThe BigQuery JupyterLab plugin is now enabled independently of the Dataproc plugin: it is enabled by default and can be turned off with the new disable-bigquery instance metadata key, while disable-mixer now controls only the Dataproc plugin.\nGoogle SecOps SOAR\nAnnouncement…",
+        "image": null,
+        "source": "Google Cloud Platform (GCP) - Release notes",
+        "published": "2026-10-04T07:00:00.000Z",
+        "isNew": false
+      },
+      {
+        "title": "October 03, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#October_03_2026",
+        "summary": "Google SecOps SOAR\nAnnouncement\nRelease 6.3.101 is now\navailable for all regions.\nSensitive Data Protection\nChange\nA new version with an updated name dictionary is available for the PERSON_NAME infoType detector. You can try it out by setting InfoType.version to latest when including the PERSON_NAME infoType in your InspectConfig.\nYou can still use the previous functionality by setting InfoType.version to stable or leaving it unset when using the PERSON_NAME infoType. In 30 days, the new version will be promoted to stable.",
+        "image": null,
+        "source": "Google Cloud Platform (GCP) - Release notes",
+        "published": "2026-10-03T07:00:00.000Z",
+        "isNew": false
+      },
       {
         "title": "October 02, 2026",
         "link": "https://docs.cloud.google.com/release-notes#October_02_2026",
-        "summary": "BigQuery\nFeature\nThe Rust SDK for BigQuery is now\ngenerally available\n(GA).\nFeature\nThe Data Engineering\nAgent now supports\nthe gemini-3.7-flash model for the us, eu, and global multi-regional\nendpoints.\nCloud NAT\nFeature\nGeneral Availability: Cloud NAT gateways for Private NAT support IPv6 to\nIPv4 network address translation. For more information, see\nNAT64 in Private NAT.\nGoogle Kubernetes Engine\nFeature\nYou can use Vertical Pod Autoscaler (VPA) with Horizontal Pod Autoscaler (HPA)\nto automatically optimize container CPU requests for workloads that scale\nreplicas based on CPU utilization. This feature is available in Public Preview\non clusters running GKE version 1.36.3-gke.1630000 or later. For more\ninformation, see\nRightsize HPA workloads with VPA.\nNetwork Connectivity Center\nFeature\nNetwork Connectivity Center supports site-to-site data transfer\nin the following country:\nPoland",
+        "summary": "Apigee X\nAnnouncement\nOn October 2, 2026, we released an updated version of Apigee (1-18-0-apigee-6).\nNote: Rollouts of this release began today and can take four or more business\ndays to complete across all Google Cloud zones. Your instances might not have\nthe features and fixes available until the rollout is complete.\nSecurity\nBug ID\nDescription\n\n\n\n\n564386425\nSecurity fix for Apigee. Upgraded the Apigee ingress gateway (ASM) to patch security vulnerabilities.\n\n\n561666530\nSecurity fix for Apigee. Upgraded the Prometheus library to patch the following vulnerabilities: \n\nCVE-2026-42151\nCVE-2026-42154\nCVE-2026-44903\nCVE-2026-40179\n\n\n\n\nN/A\nSecurity fix for Apigee infrastructure.\n\n\n\nFixed\nBug ID\nDescription\n\n\n\n\n432315283\nFixed a multi-certificate truststore so that its trust anchors take effect without a Message Processor restart when features.truststore.multi_cert_bundle.enabled is toggled at runtime; the outbound SSL context is now rebuilt automatically on any trust-anchor change.\n\n\n565072374\nVerifyJWT policies that use a JWKS uriRef no longer return steps.jwt.NoMatchingPublicKey on the first request after the JWKS cache TTL expires when the identity provider has rotated to a new key ID. The cache now re-fetches synchronously when its entry expires.\n\n\n535395491\nExtension Processor (ext_proc) denials now return the status and body that the policy or FaultRule produced, instead of always returning HTTP 500.\n\n\n558421499\nApigee runtime runs on JRE 21.\n\n\n517953321\nThe…",
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-10-02T07:00:00.000Z",
@@ -190,68 +171,32 @@
       {
         "title": "October 01, 2026",
         "link": "https://docs.cloud.google.com/release-notes#October_01_2026",
-        "summary": "BigQuery\nChange\nAn updated version of the\nSimba JDBC driver for BigQuery\nis now available.\nFeature\nChatting with graphs in\nconversational analytics\nis now\ngenerally available.\nYou can use a combination of multiple graphs, tables, views, and UDFs as data\nsources.\nFeature\nBigQuery pipelines provides support for automated metadata enrichment\nand Knowledge Catalog data quality scorecard integration. In addition, the\nData Engineering Agent can proactively generate semantic metadata for your\npipeline assets. For more information, see\nMetadata enrichment and data quality scorecard integration.\nThese features are\ngenerally available.\nBigtable\nFeature\nYou can use Google Cloud Data Agent Kit to browse\nBigtable instances and tables, design schemas, and run GoogleSQL queries from\nyour IDE or coding agent. This feature is\ngenerally available (GA).\nFor more information, see\nData Agent Kit is now GA: Bring Google Data Cloud to any coding agent.\nDataform\nFeature\nDataform provides support for automated metadata enrichment and Knowledge Catalog data quality scorecard integration for Dataform workflows and BigQuery pipelines. For more information, see\nAdd metadata for Knowledge Catalog.\nThis feature is\ngenerally available.\nGoogle Cloud VMware Engine\nFeature\nGenerally available: Bring Your Own License (BYOL) license management for\nGoogle Cloud VMware Engine is generally available (GA). BYOL license management lets you\nregister and manage portable VMware Cloud Foundation (VCF) license keys in…",
+        "summary": "BigQuery\nChange\nAn updated version of the\nSimba JDBC driver for BigQuery\nis now available.\nFeature\nChatting with graphs in\nconversational analytics\nis now\ngenerally available.\nYou can use a combination of multiple graphs, tables, views, and UDFs as data\nsources.\nFeature\nBigQuery pipelines provides support for automated metadata enrichment\nand Knowledge Catalog data quality scorecard integration. In addition, the\nData Engineering Agent can proactively generate semantic metadata for your\npipeline assets. For more information, see\nMetadata enrichment and data quality scorecard integration.\nThese features are\ngenerally available.\nBigtable\nFeature\nYou can use Google Cloud Data Agent Kit to browse\nBigtable instances and tables, design schemas, and run GoogleSQL queries from\nyour IDE or coding agent. This feature is\ngenerally available (GA).\nFor more information, see\nData Agent Kit is now GA: Bring Google Data Cloud to any coding agent.\nCloud Healthcare API\nFeature\nPreview: The FHIR bulk export Group POST feature is now available in\nPreview in Cloud Healthcare\nAPI v1beta1. You can invoke the $export operation on a FHIR Group by using the HTTP\nPOST method (projects.locations.datasets.fhirStores.bulk-export-group-post) to supply\nexport parameters in the request body rather than through URL query parameters.\nThe request body allows filtering by a list of up to 1,000 patient references by using\nthe patient parameter in addition to _since and _type. For more information about the…",
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-10-01T07:00:00.000Z",
         "isNew": false
-      },
-      {
-        "title": "September 30, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#September_30_2026",
-        "summary": "API Gateway\nFeature\nAuthenticate MCP tool discovery with an API key\nAPI key authentication is now supported for the Model Context Protocol (MCP) tools/list method. You can name an API key security scheme in tools-list.security, in addition to a JWT security scheme.\nFor more information, see Configure Model Context Protocol.\nApigee API hub\nFeature\nAI performance and Tool performance dashboards in API insights\nAPI insights in API hub now includes two dashboards for AI and agent traffic:\nAI performance reports token usage and model latency for the large language models called through your gateways, with filters for model and provider.\nTool performance reports traffic, throughput, payload sizes, and latency for your Model Context Protocol (MCP) tools, with filters for MCP server, deployment, and tool name.\nFor more information, see API insights dashboards.\nApigee hybrid\nAnnouncement\nv1.17.1\nOn September 30, 2026 we released an updated version of the Apigee hybrid software, v1.17.1.\nFor information on upgrading, see Upgrading Apigee hybrid to version v1.17.1.\nFor information on new installations, see The big picture.\nNote: This is a patch release: The container images used in patch releases are integrated with the Apigee hybrid Helm charts. Upgrading to a patch via the Helm chart automatically updates the images. No manual image changes are typically needed. For information on container image support in Apigee hybrid releases, see Apigee release process.\nFeature\nExternal…",
-        "image": null,
-        "source": "Google Cloud Platform (GCP) - Release notes",
-        "published": "2026-09-30T07:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "September 29, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#September_29_2026",
-        "summary": "API Gateway\nFeature\nConfigure streaming for LLM responses and other traffic\nYou can now create API Gateway gateways that stream requests and responses instead of buffering them. This Public Preview feature supports incremental response delivery over HTTP/2 or HTTP/1.1 chunked transfer encoding, Server-Sent Events (SSE), WebSockets, and gRPC bidirectional streaming. A common use is streaming token-by-token responses from a large language model (LLM).\nTo enable streaming, create a gateway with the --enable-streaming flag. The streaming mode is fixed when you create the gateway and can't be changed later.\nFor more information, see Configure streaming for LLM responses and other traffic.\nApp Engine flexible environment .NET\nFeature\nApp Engine permanently blocks insecure traffic with TLS version 1.1 and earlier.\nFor appspot.com domains, this block occurs at the connection level. For custom\ndomains, the connection might succeed, but the requests are blocked. For more\ninformation, see\nSecure minimum TLS.\nApp Engine flexible environment Go\nFeature\nApp Engine permanently blocks insecure traffic with TLS version 1.1 and earlier.\nFor appspot.com domains, this block occurs at the connection level. For custom\ndomains, the connection might succeed, but the requests are blocked. For more\ninformation, see\nSecure minimum TLS.\nApp Engine flexible environment Java\nFeature\nApp Engine permanently blocks insecure traffic with TLS version 1.1 and earlier.\nFor appspot.com domains, this block occurs…",
-        "image": null,
-        "source": "Google Cloud Platform (GCP) - Release notes",
-        "published": "2026-09-29T07:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "September 28, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#September_28_2026",
-        "summary": "Agent Platform Workbench\nChange\n20260927.00_p0 Release\nChange\nInstalled latest packages from upstream dependencies.\nSecurity\nBulk security patch remediating Critical and High-severity CVEs in the Workbench custom container images.\nChange\n20260927.00_p0 Release\nChange\nInstalled latest packages from upstream dependencies.\nSecurity\nBulk security patch remediating Critical and High-severity CVEs in the Workbench custom container images.\nApplication Integration\nSecurity\nA Confused Deputy vulnerability was discovered in the Email Task component in \nApplication Integration versions prior to June 30, 2026.\nFor more information, see the\nGCP-2026-066\nsecurity bulletin.\nSecurity\nA Deserialization of Untrusted Data vulnerability was discovered in\nthe JavaScript Task in Application Integration versions prior\nto June 28, 2026. For more information, see the\nGCP-2026-065\nsecurity bulletin.\nSecurity\nAn Incorrect Authorization vulnerability was discovered in the task\nconfiguration in Application Integration versions prior to June 17, 2026.\nFor more information, see the\nGCP-2026-064\nsecurity bulletin.\nBigQuery\nFeature\nThe BigQuery Data Transfer Service MCP server\nis now Generally Available\n(GA).\nFeature\nYou can now write the output rows produced by\nBigQuery continuous queries\ndirectly into Apache Iceberg managed\ntables. This lets you\ncontinuously process streaming data from BigQuery and write it into your\nopen-format lakehouse by using an\nINSERT DML statement.\nCloud Asset Inventory\nFeature\nThe…",
-        "image": null,
-        "source": "Google Cloud Platform (GCP) - Release notes",
-        "published": "2026-09-28T07:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "September 27, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#September_27_2026",
-        "summary": "Agent Platform Workbench\nChange\n20260927-2130-rc0 Release\nChange\nInstalled latest packages from upstream dependencies.\nChange\nM151 Release\nChange\nInstalled latest packages from upstream dependencies.\nFeature\nJupyterLab now forwards client-side logs (console errors, uncaught exceptions, unhandled promise rejections, and failed network requests) to the instance backend, where they surface in Cloud Logging for easier debugging.\nChange\n20260927-1408-rc0 Release\nChange\n20260927-1408-rc0 Release\nChange\nInstalled latest packages from upstream dependencies.\nChange\nInstalled latest packages from upstream dependencies.\nGoogle SecOps SOAR\nAnnouncement\nRelease 6.3.101 is being rolled out to the first phase of regions as listed\nhere.\nThis release contains internal and customer bug fixes.",
-        "image": null,
-        "source": "Google Cloud Platform (GCP) - Release notes",
-        "published": "2026-09-27T07:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "September 26, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#September_26_2026",
-        "summary": "Google SecOps SOAR\nAnnouncement\nRelease 6.3.100 is now\navailable for all regions.",
-        "image": null,
-        "source": "Google Cloud Platform (GCP) - Release notes",
-        "published": "2026-09-26T07:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "September 25, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#September_25_2026",
-        "summary": "API Keys API\nFeature\nThe API Keys remote Model Context Protocol (MCP) server is available in\nPreview. You can\nconnect to the API Keys remote MCP server from AI applications to\ncreate, inspect, restrict, and manage the lifecycle of API keys in your\nGoogle Cloud projects.\nFor more information, see the\nAPI Keys MCP reference.\nCompute Engine\nFeature\nGenerally available: New X5 series with 50% larger memory instances:\nBreaking the previous 32TB memory limit of the X4\nmemory-optimized machine type,\na new X5 series introduces massive 48TB configurations. This empowers the\nlargest SAP HANA and RISE with SAP customers to easily scale up their\nmission-critical databases on a single node.\nGemini Enterprise Agent Platform\nFeature\nSemantic governance policies support VPC Service Controls (Preview)\nSemantic governance policy and the Semantic governance policy engine support\nVPC Service Controls in\nPreview. You can\ninclude Semantic governance policy and the policy engine in your service\nperimeter to help mitigate the risk of data exfiltration when governing agent\ntool calls.\nFor more information, see VPC Service Controls with Gemini Enterprise Agent\nPlatform\nand Semantic governance policies\noverview.\nGoogle Cloud Contact Center as a Service\nAnnouncement\nAdvanced reporting dashboards 6.14\nWe've released version 6.14 of the advanced reporting dashboards.\nFeature\nTwo new tables in the Real-time Queue Monitoring - Calls dashboard: Today's\nScheduled Calls and Upcoming Scheduled Calls\nWe've…",
-        "image": null,
-        "source": "Google Cloud Platform (GCP) - Release notes",
-        "published": "2026-09-25T07:00:00.000Z",
-        "isNew": false
       }
     ],
     "kubernetes": [
+      {
+        "title": "The Shift to cgroup v2 in Kubernetes: What You Need to Know",
+        "link": "https://kubernetes.io/blog/2026/10/06/kubernetes-cgroups-v2-shift/",
+        "summary": "In Linux, cgroups (control groups) are a kernel feature used for managing system resources.\nKubernetes uses cgroups to allocate resources like CPU and memory to containers,\nensuring that applications run smoothly without interfering with each other.\nWith the release of Kubernetes v1.31, support for v1 cgroup management moved into\nmaintenance mode.\nSupport for v2 cgroup management has been stable since Kubernetes v1.25.\nCompared with cgroup v1, cgroup v2 provides a single unified hierarchy,\na more consistent interface, and a stronger foundation for resource isolation\nand modern resource-management features.\nDeprecation of cgroup v1\nKubernetes has deprecated cgroup v1.\nStarting with Kubernetes v1.35, failCgroupV1 defaults to true, so the kubelet does not start\non a cgroup v1 node by default. Administrators can temporarily set failCgroupV1: false in the\nkubelet configuration file, but removal will\nfollow the Kubernetes deprecation policy.\nFurther removal work is tracked in KEP-5573: Remove cgroup v1 support.\nIf you are still on a release older than v1.35, migrate every Linux node to\ncgroup v2 before upgrading, or plan to set the temporary failCgroupV1: false\noverride. If you are already on v1.35 or later, confirm that every Linux node\nruns cgroup v2 (or that you intentionally keep the override). Under the default\nconfiguration, a remaining cgroup v1 node fails during kubelet startup.\nFor kubeadm-managed clusters, Kubernetes v1.35 also makes this an earlier, stricter check. The…",
+        "image": null,
+        "source": "Kubernetes Blog",
+        "published": "2026-10-06T18:00:00.000Z",
+        "isNew": false
+      },
+      {
+        "title": "Scaling Kubernetes Workloads with Node Swap",
+        "link": "https://kubernetes.io/blog/2026/10/05/scaling-kubernetes-workloads-with-node-swap/",
+        "summary": "Memory is often the first hard limit a Kubernetes cluster hits.\nNodes run out of RAM long before they run out of CPU, and the new wave of agentic AI workloads makes this worse.\nThese workloads demand large memory footprints to start up and run untrusted code, then sit idle waiting for the next prompt.\nThat idle but resident memory is expensive, and it caps how many pods a node can hold. This is where swap helps. Kubernetes support for running nodes with swap enabled reached General Availability in v1.34, and by backing that swap with fast NVMe solid state drives (SSDs), a node can page out dormant memory and pack in far more pods.\nThis post explains how we benchmarked that approach across three workloads, including CI/CD kernel builds, sandboxed headless browsers, and isolated Python runtimes; we found density gains of up to 3×, often with little or no latency cost.\nThe node density problem\nThe Kubernetes ecosystem has reached a fundamental physical resource constraint: the strict limits of hardware memory versus the growing demand for dynamic, bursty workloads in the new agentic era.\nHistorically, administrators provisioning memory-intensive workloads encountered a persistent dilemma: set memory limits too high and you waste expensive infrastructure on idle RAM; set them too low and you risk Out-Of-Memory (OOM) kills.\nThis conflict is amplified when deploying autonomous AI agents using secure execution environments like the agent-sandbox framework. These agentic pods…",
+        "image": "https://kubernetes.io/blog/2026/10/05/scaling-kubernetes-workloads-with-node-swap/node-swap-chart.svg",
+        "source": "Kubernetes Blog",
+        "published": "2026-10-05T18:00:00.000Z",
+        "isNew": false
+      },
       {
         "title": "Spotlight on SIG Apps",
         "link": "https://kubernetes.io/blog/2026/09/22/sig-apps-spotlight/",
@@ -305,27 +250,18 @@
         "source": "Kubernetes Blog",
         "published": "2026-09-14T18:30:00.000Z",
         "isNew": false
-      },
-      {
-        "title": "Kubernetes v1.37: Native Histograms Graduates to Beta",
-        "link": "https://kubernetes.io/blog/2026/09/11/kubernetes-v1-37-native-histograms-beta/",
-        "summary": "I'm excited to announce that native histogram support for Kubernetes metrics is graduating to Beta and is enabled by default in Kubernetes v1.37!\nNative histograms (previously introduced as Alpha in Kubernetes v1.36 under KEP-5808)\nbring high-resolution, low-cardinality observability to Kubernetes metrics.\nBy adopting Prometheus Native Histograms, Kubernetes components now expose latency and duration metrics with far greater accuracy while significantly reducing telemetry storage and scraping overhead.\nWhy move beyond classic histograms?\nSince the early days of Kubernetes observability, duration and latency metrics (such as API server request latencies or scheduling durations) have relied on classic Prometheus histograms.\nClassic histograms require metric authors to define a static list of cumulative bucket boundaries (le labels), such as 0.005, 0.01, 0.025, 0.05, 0.1, 0.25, 0.5, 1, 2.5, 5, 10. While familiar, this approach introduces three major challenges:\nThe Bucket Guessing Game: If a workload's latency profile changes, for example, shifting into microsecond ranges or experiencing long-tail tail latencies beyond the highest bucket, the histogram loses visibility. Specifying bucket boundaries upfront requires knowing the distribution before observing it\nHigh Cardinality & Storage Cost: With classic histograms, each bucket boundary is exported as a separate time series (_bucket{le=\"...\"}). A histogram with 10 buckets across multiple labels multiplies the number of time…",
-        "image": "https://kubernetes.io/images/blog/2026-kubernetes-1-37-native-histograms-beta/native-histograms-flow.svg",
-        "source": "Kubernetes Blog",
-        "published": "2026-09-11T18:30:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "Kubernetes v1.37: Scheduler Preemption for In-Place Pod Resize (Alpha)",
-        "link": "https://kubernetes.io/blog/2026/09/10/kubernetes-v1-37-scheduler-preemption-for-in-place-pod-resize-alpha/",
-        "summary": "In Kubernetes, resource allocation has historically been a static decision made during a Pod's initial scheduling and placement. With the graduation of the core in-Place Pod resize feature to General Availability in v1.35, application developers and cluster operators gained the powerful ability to dynamically adjust CPU and memory allocations of running containers without incurring disruptive restarts or application downtime.\nHowever, in-place resizing introduced a unique resource scheduling gap: if a running Pod requested a resource scale-up that exceeded the host node's allocatable headroom, the Kubelet was forced to mark the request as Deferred. The Pod would remain parked in this state indefinitely, waiting for resources on the node to naturally free up.\nTo bridge this scheduling gap, Kubernetes v1.37 introduces scheduler preemption for in-place Pod resize (Alpha), behind the InPlacePodVerticalScalingSchedulerPreemption feature gate.\nThis feature allows the Kubernetes scheduler to actively free up capacity on a fully-utilized node by preempting lower-priority workloads, enabling the pending in-place resizes of critical, higher-priority applications to succeed.\nThe \"deferred\" resize challenge\nTo understand why this preemption mechanism is needed, it is helpful to look at how Kubernetes handles running Pod resizing. When a user or controller (such as the Vertical Pod Autoscaler) updates the resource requests of an active container, the Kubelet evaluates whether the…",
-        "image": null,
-        "source": "Kubernetes Blog",
-        "published": "2026-09-10T18:30:00.000Z",
-        "isNew": false
       }
     ],
     "terraform": [
+      {
+        "title": "v1.17.0-rc1",
+        "link": "https://github.com/hashicorp/terraform/releases/tag/v1.17.0-rc1",
+        "summary": "1.17.0-rc1 (October 07, 2026)\nNEW FEATURES:\nTerraform now supports variables and locals in provider requirements (#39153)\nA new -minimal-refresh planning option has been added, which will only refresh resources that have proposed changes. (#35290)\npolicy: Terraform Policy is now generally available. The -policies flag for plan, apply, and query no longer requires an experimental build or the -allow-experimental-features flag. Query policies evaluate resources discovered by list blocks and report human-readable or JSON results. See https://developer.hashicorp.com/terraform/policy for more information. (#38970)\nENHANCEMENTS:\ncommand/init: Enrich log messages with provider versions (#38918)\ntest: Add mock_provider support for ephemeral resources (#38928)\ncommand/login: display warning after successful login if user is subject to an organization's TTL policy\nBUG FIXES:\nfuncs: pow and log no longer panic when result is not a number (#38912)\nephemeral: Terraform will now use and display diagnostics raised when renewing an ephemeral resource. This may cause warnings to appear that previously were lost. We expect that any error diagnostics that were previously lost would have caused confusing downstream errors, so we do not anticipate this change to be breaking. (#38989)\ntest: Deterministic dependency ordering in cleanup graph (#38247)\nquery: report Unknown and N/A results for policy evaluations of discovered resources (#39058)\nquery: terraform query -policies now rejects a path…",
+        "image": "https://avatars.githubusercontent.com/u/82989873?s=60&v=4",
+        "source": "Release notes from terraform",
+        "published": "2026-10-07T19:46:06.000Z",
+        "isNew": false
+      },
       {
         "title": "v1.16.5",
         "link": "https://github.com/hashicorp/terraform/releases/tag/v1.16.5",
@@ -387,15 +323,6 @@
         "image": "https://avatars.githubusercontent.com/u/82989873?s=60&v=4",
         "source": "Release notes from terraform",
         "published": "2026-09-02T14:49:32.000Z",
-        "isNew": false
-      },
-      {
-        "title": "v1.17.0-alpha20260827",
-        "link": "https://github.com/hashicorp/terraform/releases/tag/v1.17.0-alpha20260827",
-        "summary": "1.17.0-alpha20260827 (August 27, 2026)\nNEW FEATURES:\nA new -minimal-refresh planning option has been added, which will only refresh resources that have proposed changes. (#35290)\nENHANCEMENTS:\ncommand/init: Enrich log messages with provider versions (#38918)\ncommand/login: display warning after successful login if user is subject to an organization's TTL policy\nBUG FIXES:\nfuncs: pow and log no longer panic when result is not a number (#38912)\nephemeral: Terraform will now use and display diagnostics raised when renewing an ephemeral resource. This may cause warnings to appear that previously were lost. We expect that any error diagnostics that were previously lost would have caused confusing downstream errors, so we do not anticipate this change to be breaking. (#38989)\nFix panic when import identity references sensitive value (#39013)\nNOTES:\nversion: JSON output now includes a new format_version field, which will enable safer future changes of the command's JSON output format. It is assumed existing tooling ignores unknown fields and therefore this change should not be breaking in itself but we advice consumers to pay attention to format_version in future releases and/or use latest version of hashicorp/terraform-json & hashicorp/terraform-exec which does. (#38930)\nEXPERIMENTS:\nExperiments are only enabled in alpha releases of Terraform CLI. The following features are not yet available in stable releases.\nThe experimental \"deferred actions\" feature, enabled by passing the…",
-        "image": "https://avatars.githubusercontent.com/u/82989873?s=60&v=4",
-        "source": "Release notes from terraform",
-        "published": "2026-08-27T10:30:11.000Z",
         "isNew": false
       }
     ],
@@ -623,6 +550,24 @@
     ],
     "javascript": [
       {
+        "title": "Node.js 26.11.1 (Current)",
+        "link": "https://nodejs.org/en/blog/release/v26.11.1",
+        "summary": "",
+        "image": null,
+        "source": "Node.js Blog",
+        "published": "2026-10-07T23:56:26.000Z",
+        "isNew": false
+      },
+      {
+        "title": "Node.js 26.11.0 (Current)",
+        "link": "https://nodejs.org/en/blog/release/v26.11.0",
+        "summary": "",
+        "image": null,
+        "source": "Node.js Blog",
+        "published": "2026-10-07T14:45:09.000Z",
+        "isNew": false
+      },
+      {
         "title": "Node.js 22.23.3 (LTS)",
         "link": "https://nodejs.org/en/blog/release/v22.23.3",
         "summary": "",
@@ -674,24 +619,6 @@
         "image": null,
         "source": "Node.js Blog",
         "published": "2026-08-26T22:11:36.000Z",
-        "isNew": false
-      },
-      {
-        "title": "Node.js 26.8.0 (Current)",
-        "link": "https://nodejs.org/en/blog/release/v26.8.0",
-        "summary": "",
-        "image": null,
-        "source": "Node.js Blog",
-        "published": "2026-08-26T14:29:48.000Z",
-        "isNew": false
-      },
-      {
-        "title": "Node.js 24.20.0 (LTS)",
-        "link": "https://nodejs.org/en/blog/release/v24.20.0",
-        "summary": "",
-        "image": null,
-        "source": "Node.js Blog",
-        "published": "2026-08-26T14:29:42.000Z",
         "isNew": false
       }
     ]
