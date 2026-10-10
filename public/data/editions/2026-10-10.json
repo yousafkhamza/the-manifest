@@ -1,6 +1,6 @@
 {
   "date": "2026-10-10",
-  "generatedAt": "2026-10-10T11:10:42.179Z",
+  "generatedAt": "2026-10-10T16:14:56.634Z",
   "totalArticles": 72,
   "ticker": [
     {
@@ -179,9 +179,18 @@
     ],
     "gcp": [
       {
+        "title": "October 10, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#October_10_2026",
+        "summary": "Cloud SQL for MySQL\nChange\nMySQL 8.0.46 is now the\ndefault minor version\nfor Cloud SQL for MySQL 8.0.\nFor more information about minor version support in Cloud SQL for MySQL,\nsee MySQL 8.0.",
+        "image": null,
+        "source": "Google Cloud Platform (GCP) - Release notes",
+        "published": "2026-10-10T07:00:00.000Z",
+        "isNew": false
+      },
+      {
         "title": "October 09, 2026",
         "link": "https://docs.cloud.google.com/release-notes#October_09_2026",
-        "summary": "Cloud SQL for MySQL\nFeature\nWhen you enable Knowledge Catalog (formerly Dataplex Universal Catalog)\nintegration on an eligible Cloud SQL for MySQL instance created before April 18,\n2026 where the integration is currently turned off, the instance now syncs schema\nand metadata updates to Knowledge Catalog in near real-time instead of once a day\n(instances created on or after April 18, 2026 have near real-time sync enabled by\ndefault).\nThis feature is available for instances running MySQL version 8.0 or later on the\nnew network architecture.\nIf Knowledge Catalog integration is already enabled on the instance with\nonce-a-day updates, you can deactivate\nand re-enable the integration to switch to near real-time updates.\nFor more information, see\nEnable the integration of Knowledge Catalog on an existing Cloud SQL instance.\nCloud SQL for PostgreSQL\nFeature\nWhen you enable Knowledge Catalog (formerly Dataplex Universal Catalog)\nintegration on an eligible Cloud SQL for PostgreSQL instance created before\nApril 18, 2026 where the integration is currently turned off, the instance now\nsyncs schema and metadata updates to Knowledge Catalog in near real-time instead\nof once a day (instances created on or after April 18, 2026 have near real-time\nsync enabled by default).\nThis feature is available for instances running PostgreSQL version 14.0 or later\non the new network architecture.\nIf Knowledge Catalog integration is already enabled on the instance with\nonce-a-day updates, you can…",
+        "summary": "BigQuery\nFeature\nThe BigQuery Data Engineering Agent\nis now available in the asia-northeast1 (Tokyo) regional endpoint and supports\nthe gemini-3.5-flash model. For more information, see\nWhere Gemini in BigQuery processes your data.\nThis feature is\nGenerally Available\n(GA).\nCloud SQL for MySQL\nFeature\nWhen you enable Knowledge Catalog (formerly Dataplex Universal Catalog)\nintegration on an eligible Cloud SQL for MySQL instance created before April 18,\n2026 where the integration is currently turned off, the instance now syncs schema\nand metadata updates to Knowledge Catalog in near real-time instead of once a day\n(instances created on or after April 18, 2026 have near real-time sync enabled by\ndefault).\nThis feature is available for instances running MySQL version 8.0 or later on the\nnew network architecture.\nIf Knowledge Catalog integration is already enabled on the instance with\nonce-a-day updates, you can deactivate\nand re-enable the integration to switch to near real-time updates.\nFor more information, see\nEnable the integration of Knowledge Catalog on an existing Cloud SQL instance.\nCloud SQL for PostgreSQL\nFeature\nWhen you enable Knowledge Catalog (formerly Dataplex Universal Catalog)\nintegration on an eligible Cloud SQL for PostgreSQL instance created before\nApril 18, 2026 where the integration is currently turned off, the instance now\nsyncs schema and metadata updates to Knowledge Catalog in near real-time instead\nof once a day (instances created on or after April 18,…",
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-10-09T07:00:00.000Z",
@@ -239,15 +248,6 @@
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-10-03T07:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "October 02, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#October_02_2026",
-        "summary": "Apigee X\nAnnouncement\nOn October 2, 2026, we released an updated version of Apigee (1-18-0-apigee-6).\nNote: Rollouts of this release began today and can take four or more business\ndays to complete across all Google Cloud zones. Your instances might not have\nthe features and fixes available until the rollout is complete.\nSecurity\nBug ID\nDescription\n\n\n\n\n564386425\nSecurity fix for Apigee. Upgraded the Apigee ingress gateway (ASM) to patch security vulnerabilities.\n\n\n561666530\nSecurity fix for Apigee. Upgraded the Prometheus library to patch the following vulnerabilities: \n\nCVE-2026-42151\nCVE-2026-42154\nCVE-2026-44903\nCVE-2026-40179\n\n\n\n\nN/A\nSecurity fix for Apigee infrastructure.\n\n\n\nFixed\nBug ID\nDescription\n\n\n\n\n432315283\nFixed a multi-certificate truststore so that its trust anchors take effect without a Message Processor restart when features.truststore.multi_cert_bundle.enabled is toggled at runtime; the outbound SSL context is now rebuilt automatically on any trust-anchor change.\n\n\n565072374\nVerifyJWT policies that use a JWKS uriRef no longer return steps.jwt.NoMatchingPublicKey on the first request after the JWKS cache TTL expires when the identity provider has rotated to a new key ID. The cache now re-fetches synchronously when its entry expires.\n\n\n535395491\nExtension Processor (ext_proc) denials now return the status and body that the policy or FaultRule produced, instead of always returning HTTP 500.\n\n\n558421499\nApigee runtime runs on JRE 21.\n\n\n517953321\nThe…",
-        "image": null,
-        "source": "Google Cloud Platform (GCP) - Release notes",
-        "published": "2026-10-02T07:00:00.000Z",
         "isNew": false
       }
     ],
