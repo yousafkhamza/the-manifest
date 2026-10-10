@@ -1,6 +1,6 @@
 {
-  "date": "2026-10-09",
-  "generatedAt": "2026-10-09T21:40:47.993Z",
+  "date": "2026-10-10",
+  "generatedAt": "2026-10-10T11:10:42.179Z",
   "totalArticles": 72,
   "ticker": [
     {
@@ -181,7 +181,7 @@
       {
         "title": "October 09, 2026",
         "link": "https://docs.cloud.google.com/release-notes#October_09_2026",
-        "summary": "Datastream\nFeature\nDatastream now supports replicating SQL Server GEOMETRY and\nGEOGRAPHY spatial data types.\nFor more information, see the following:\nMap SQL Server data types to Datastream unified\ntypes\nData type mappings in BigQuery\nGemini\nAnnouncement\nSale of Gemini Code Assist subscriptions is ending. Starting October 9, 2026,\nnew Gemini Code Assist Standard and Enterprise subscriptions can no longer be\npurchased. Existing subscriptions will continue to auto-renew through the rest\nof 2026, but auto-renewal will end in 2027. For more information, see\nGemini Code Assist\nStandard and Enterprise subscriptions.\nFor alternative AI developer tools, use Antigravity, which is available through\neligible Gemini Enterprise subscriptions\nand through Gemini Enterprise Agent Platform.\nAnnouncement\nSale of Gemini Code Assist subscriptions is ending. Starting October 9, 2026,\nnew Gemini Code Assist Standard and Enterprise subscriptions can no longer be\npurchased. Existing subscriptions will continue to auto-renew through the rest\nof 2026, but auto-renewal will end in 2027. For more information, see\nGemini Code Assist\nStandard and Enterprise subscriptions.\nFor alternative AI developer tools, use Antigravity, which is available through\neligible Gemini Enterprise subscriptions\nand through Gemini Enterprise Agent Platform.\nGoogle Cloud Managed Service for Apache Kafka\nChange\nThe format for bootstrap addresses and broker URLs has changed for new\nManaged Service for Apache Kafka clusters. To…",
+        "summary": "Cloud SQL for MySQL\nFeature\nWhen you enable Knowledge Catalog (formerly Dataplex Universal Catalog)\nintegration on an eligible Cloud SQL for MySQL instance created before April 18,\n2026 where the integration is currently turned off, the instance now syncs schema\nand metadata updates to Knowledge Catalog in near real-time instead of once a day\n(instances created on or after April 18, 2026 have near real-time sync enabled by\ndefault).\nThis feature is available for instances running MySQL version 8.0 or later on the\nnew network architecture.\nIf Knowledge Catalog integration is already enabled on the instance with\nonce-a-day updates, you can deactivate\nand re-enable the integration to switch to near real-time updates.\nFor more information, see\nEnable the integration of Knowledge Catalog on an existing Cloud SQL instance.\nCloud SQL for PostgreSQL\nFeature\nWhen you enable Knowledge Catalog (formerly Dataplex Universal Catalog)\nintegration on an eligible Cloud SQL for PostgreSQL instance created before\nApril 18, 2026 where the integration is currently turned off, the instance now\nsyncs schema and metadata updates to Knowledge Catalog in near real-time instead\nof once a day (instances created on or after April 18, 2026 have near real-time\nsync enabled by default).\nThis feature is available for instances running PostgreSQL version 14.0 or later\non the new network architecture.\nIf Knowledge Catalog integration is already enabled on the instance with\nonce-a-day updates, you can…",
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-10-09T07:00:00.000Z",
