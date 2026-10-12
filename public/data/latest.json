@@ -1,6 +1,6 @@
 {
   "date": "2026-10-12",
-  "generatedAt": "2026-10-12T13:09:53.871Z",
+  "generatedAt": "2026-10-12T20:18:49.921Z",
   "totalArticles": 72,
   "ticker": [
     {
@@ -179,6 +179,15 @@
     ],
     "gcp": [
       {
+        "title": "October 12, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#October_12_2026",
+        "summary": "BigQuery\nFeature\nIncremental data transfers for the BigQuery Data Transfer Service for\nPostgreSQL\nand\nServiceNow\nare now\ngenerally available\n(GA).\nCloud Build\nAnnouncement\nYou can now choose the release channel for your\nbuild config or private pool. The release channel determines how frequently the\nunderlying versions of Debian and Docker are updated.\nCloud Load Balancing\nFeature\nRegular expression matchers in host and route rules in URL maps are now generally available (GA).\nYou can now use regular expressions (regex) matchers to configure more flexible and precise traffic routing rules within URL maps for Application Load Balancers. This feature allows you to leverage the power of RE2 syntax for matching on:\nURL Paths: Using the regexMatch field within routeRules.\nHTTP Headers: Using the regexMatch field within headerMatches in routeRules.\nHTTP Query Parameters: Using the regexMatch field within queryParameterMatches in routeRules.\nThis feature is available in:\nGlobal external Application Load Balancers\nRegional internal Application Load Balancers\nCross-region internal Application Load Balancers\nRegional external Application Load Balancers\nFor more information, see URL map concepts: Regular expressions matchers in host and route rules.\nGoogle SecOps\nFeature\n[Spotlight Feature] Monitor response and playbook health with the Response Health Hub\nGoogle SecOps now includes the Response Health Hub curated dashboard, a central location for monitoring playbook performance,…",
+        "image": null,
+        "source": "Google Cloud Platform (GCP) - Release notes",
+        "published": "2026-10-12T07:00:00.000Z",
+        "isNew": false
+      },
+      {
         "title": "October 10, 2026",
         "link": "https://docs.cloud.google.com/release-notes#October_10_2026",
         "summary": "Cloud SQL for MySQL\nChange\nMySQL 8.0.46 is now the\ndefault minor version\nfor Cloud SQL for MySQL 8.0.\nFor more information about minor version support in Cloud SQL for MySQL,\nsee MySQL 8.0.",
@@ -239,15 +248,6 @@
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-10-04T07:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "October 03, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#October_03_2026",
-        "summary": "Google SecOps SOAR\nAnnouncement\nRelease 6.3.101 is now\navailable for all regions.\nSensitive Data Protection\nChange\nA new version with an updated name dictionary is available for the PERSON_NAME infoType detector. You can try it out by setting InfoType.version to latest when including the PERSON_NAME infoType in your InspectConfig.\nYou can still use the previous functionality by setting InfoType.version to stable or leaving it unset when using the PERSON_NAME infoType. In 30 days, the new version will be promoted to stable.",
-        "image": null,
-        "source": "Google Cloud Platform (GCP) - Release notes",
-        "published": "2026-10-03T07:00:00.000Z",
         "isNew": false
       }
     ],
@@ -578,7 +578,7 @@
       {
         "title": "GitHub Actions leaking secrets when Miri output is cached",
         "link": "https://blog.rust-lang.org/2026/09/21/github-actions-leaking-secrets-when-miri-output-is-cached/",
-        "summary": "The Rust Security Response Team was notified that Miri stores all environment variables to target/, allowing secrets to persist in caches.\nWhile not necessary a vulnerability in and of itself, when paired with GitHub Actions caching behavior, it is possible for this to expose secrets to PRs.\n\nOverview\nGitHub Actions makes it possible to cache directories between runs. Typical setups allow CI runs on main (and other branches) to write to cache, and PRs can only read from cache (preventing cache poisoning). Rust projects tend to speed up CI by caching binaries built by cargo install and sometimes the contents of target/.\nPR CI can be triggered by anyone who can open PRs on your repository. GitHub requires maintainer approval for the first PR, but future PRs will rerun CI on every push. Anyone who has previously landed a change can trigger a CI run extracting information from cached target/ and then cover their tracks by pushing a second commit to the PR.\nGitHub sometimes hides overwritten commits in its UI, making this kind of attack harder to detect. CI run logs and overwritten commits are also deleted after a few months.\nWhen cargo miri is invoked, Miri needs to retain build-relevant environment variables between runs1. The current code to do so achieves this by storing all environment variables to target/. This, of course, persists when target/ is cached.\nIf your environment contained secrets, these can now be accessed by PRs via the cache.\n\nOur fix\nOur short term fix for…",
+        "summary": "The Rust Security Response Team was notified that Miri stores all environment variables to target/, allowing secrets to persist in caches.\nWhile not necessary a vulnerability in and of itself, when paired with GitHub Actions caching behavior, it is possible for this to expose secrets to PRs.\n\nOverview\nGitHub Actions makes it possible to cache directories between runs. Typical setups allow CI runs on main (and other branches) to write to cache, and PRs can only read from cache (preventing cache poisoning). Rust projects tend to speed up CI by caching binaries built by cargo install and sometimes the contents of target/.\nPR CI can be triggered by anyone who can open PRs on your repository. GitHub requires maintainer approval for the first PR, but future PRs will rerun CI on every push. Anyone who has previously landed a change can trigger a CI run extracting information from cached target/ and then cover their tracks by pushing a second commit to the PR.\nGitHub sometimes hides overwritten commits in its UI, making this kind of attack harder to detect. CI run logs and overwritten commits are also deleted after a few months.\nWhen cargo miri is invoked, Miri needs to retain build-relevant environment variables between runs[1]. The current code to do so achieves this by storing all environment variables to target/. This, of course, persists when target/ is cached.\nIf your environment contained secrets, these can now be accessed by PRs via the cache.\n\nOur fix\nOur short term fix for…",
         "image": null,
         "source": "Rust Blog",
         "published": "2026-09-21T00:00:00.000Z",
