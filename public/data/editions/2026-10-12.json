@@ -1,6 +1,6 @@
 {
   "date": "2026-10-12",
-  "generatedAt": "2026-10-12T20:18:49.921Z",
+  "generatedAt": "2026-10-12T23:37:26.695Z",
   "totalArticles": 72,
   "ticker": [
     {
@@ -30,6 +30,15 @@
   ],
   "topics": {
     "aws": [
+      {
+        "title": "Announcing AWS Lambda Web Functions",
+        "link": "https://aws.amazon.com/blogs/aws/announcing-aws-lambda-web-functions-for-fast-consistent-web-app-performance-anywhere/",
+        "summary": "AWS Lambda Web Functions is a serverless compute primitive that runs your HTTP framework natively, delivering fast, consistent responses through multi-concurrent execution and automated global distribution.",
+        "image": null,
+        "source": "AWS News Blog",
+        "published": "2026-10-12T22:34:47.000Z",
+        "isNew": false
+      },
       {
         "title": "All the numbers: Amazon Prime Day 2026 powered by AWS",
         "link": "https://aws.amazon.com/blogs/aws/all-the-numbers-amazon-prime-day-2026-powered-by-aws/",
@@ -92,18 +101,18 @@
         "source": "AWS News Blog",
         "published": "2026-09-30T17:04:05.000Z",
         "isNew": false
-      },
-      {
-        "title": "AWS Weekly Roundup: GPT-6 Sol and Luna, Claude Opus 5.5 on Amazon Bedrock, Strands harness, and more (September 28, 2026)",
-        "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-gpt-6-sol-and-luna-claude-opus-5-5-on-amazon-bedrock-strands-harness-and-more-september-28-2026/",
-        "summary": "If there’s one theme that defined last week, it’s choice. The frontier models keep arriving, and the interesting question is no longer just “how smart is it?” but “which model fits this step, at this cost, at this latency?” That’s exactly what landed on Amazon Bedrock over the past few days: GPT-6 Sol and GPT-6 […]",
-        "image": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2025/01/30/2025-deepseek-r1-on-aws-1-andy-keynote.png",
-        "source": "AWS News Blog",
-        "published": "2026-09-28T16:14:54.000Z",
-        "isNew": false
       }
     ],
     "azure": [
+      {
+        "title": "Deep dive into Azure Maia 300 architecture",
+        "link": "https://azure.microsoft.com/en-us/blog/deep-dive-into-azure-maia-300-architecture/",
+        "summary": "Maia 300 operates as a single platform to meet the demands of cloud-scale agentic inference.\nThe post Deep dive into Azure Maia 300 architecture appeared first on Microsoft Azure Blog.",
+        "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/10/Maia-300-SoC.webp",
+        "source": "Microsoft Azure Blog",
+        "published": "2026-10-12T13:00:00.000Z",
+        "isNew": false
+      },
       {
         "title": "AI transformation across the infrastructure lifecycle: From supply chain to fleet operations",
         "link": "https://azure.microsoft.com/en-us/blog/ai-transformation-across-the-infrastructure-lifecycle-from-supply-chain-to-fleet-operations/",
@@ -166,25 +175,25 @@
         "source": "Microsoft Azure Blog",
         "published": "2026-09-24T18:00:00.000Z",
         "isNew": false
-      },
-      {
-        "title": "Your architecture diagram is not your resilience",
-        "link": "https://azure.microsoft.com/en-us/blog/your-architecture-diagram-is-not-your-resilience/",
-        "summary": "For years, resilience was something you set up once. That kept the lights on, but it treated resilience as a project with an end date rather than a property you maintain.\nThe post Your architecture diagram is not your resilience appeared first on Microsoft Azure Blog.",
-        "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/06/CLO20b_team_at_work_office_001-scaled.jpg",
-        "source": "Microsoft Azure Blog",
-        "published": "2026-09-23T16:00:00.000Z",
-        "isNew": false
       }
     ],
     "gcp": [
       {
         "title": "October 12, 2026",
         "link": "https://docs.cloud.google.com/release-notes#October_12_2026",
-        "summary": "BigQuery\nFeature\nIncremental data transfers for the BigQuery Data Transfer Service for\nPostgreSQL\nand\nServiceNow\nare now\ngenerally available\n(GA).\nCloud Build\nAnnouncement\nYou can now choose the release channel for your\nbuild config or private pool. The release channel determines how frequently the\nunderlying versions of Debian and Docker are updated.\nCloud Load Balancing\nFeature\nRegular expression matchers in host and route rules in URL maps are now generally available (GA).\nYou can now use regular expressions (regex) matchers to configure more flexible and precise traffic routing rules within URL maps for Application Load Balancers. This feature allows you to leverage the power of RE2 syntax for matching on:\nURL Paths: Using the regexMatch field within routeRules.\nHTTP Headers: Using the regexMatch field within headerMatches in routeRules.\nHTTP Query Parameters: Using the regexMatch field within queryParameterMatches in routeRules.\nThis feature is available in:\nGlobal external Application Load Balancers\nRegional internal Application Load Balancers\nCross-region internal Application Load Balancers\nRegional external Application Load Balancers\nFor more information, see URL map concepts: Regular expressions matchers in host and route rules.\nGoogle SecOps\nFeature\n[Spotlight Feature] Monitor response and playbook health with the Response Health Hub\nGoogle SecOps now includes the Response Health Hub curated dashboard, a central location for monitoring playbook performance,…",
+        "summary": "Agent Platform Workbench\nChange\n20261011.00_p0 Release\nChange\nInstalled latest packages from upstream dependencies.\nFixed\nFixed an issue where gcloud and gsutil failed to load with an AttributeError in OpenSSL.crypto due to a version mismatch between pyOpenSSL and cryptography.\nChange\n20261011.00_p0 Release\nChange\nInstalled latest packages from upstream dependencies.\nFixed\nFixed an issue where gcloud and gsutil failed to load with an AttributeError in OpenSSL.crypto due to a version mismatch between pyOpenSSL and cryptography.\nBigQuery\nFeature\nIncremental data transfers for the BigQuery Data Transfer Service for\nPostgreSQL\nand\nServiceNow\nare now\ngenerally available\n(GA).\nCloud Build\nAnnouncement\nYou can now choose the release channel for your\nbuild config or private pool. The release channel determines how frequently the\nunderlying versions of Debian and Docker are updated.\nCloud DNS\nFeature\nOutbound Endpoints for Cloud DNS is available in Preview.\nAttach Outbound Endpoints to forwarding zones or server policies to\nenable direct DNS query forwarding from VPC networks to external\nand on-premises DNS resolvers using private IP addresses. For more information,\nsee Outbound Endpoints overview.\nCloud Load Balancing\nFeature\nRegular expression matchers in host and route rules in URL maps are now generally available (GA).\nYou can now use regular expressions (regex) matchers to configure more flexible and precise traffic routing rules within URL maps for Application Load Balancers.…",
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-10-12T07:00:00.000Z",
+        "isNew": false
+      },
+      {
+        "title": "October 11, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#October_11_2026",
+        "summary": "Agent Platform Workbench\nChange\n20261011-2230-rc0 Release\nChange\n20261011-2230-rc0 Release\nChange\nInstalled latest packages from upstream dependencies.\nFixed\nFixed an issue where gcloud and gsutil failed to load with an AttributeError in OpenSSL.crypto due to a version mismatch between pyOpenSSL and cryptography.\nFixed\nFixed an issue where gcloud and gsutil failed to load with an AttributeError in OpenSSL.crypto due to a version mismatch between pyOpenSSL and cryptography.\nChange\n20261011-2130-rc0 Release\nChange\nInstalled latest packages from upstream dependencies.",
+        "image": null,
+        "source": "Google Cloud Platform (GCP) - Release notes",
+        "published": "2026-10-11T07:00:00.000Z",
         "isNew": false
       },
       {
@@ -226,7 +235,7 @@
       {
         "title": "October 06, 2026",
         "link": "https://docs.cloud.google.com/release-notes#October_06_2026",
-        "summary": "AI Hypercomputer\nFeature\nGenerally available: When you reserve compute resources for creating GPU\ninstances through your account team, you can include a Hyperdisk\npool in the same request or in a subsequent request. This option helps ensure\nthat your artificial intelligence (AI) and machine learning (ML) workloads have\nthe storage resources that they require close to your GPU instances. For more\ninformation, see\nReserve capacity through your account team.\nBigQuery\nFeature\nConversational analytics in BigQuery\nnow supports the\nAI.CAUSAL_EFFECT function\nto quantify the impact of specific interventions on time series data.\nThis feature is in\nPreview.\nCloud Monitoring\nFeature\nBulk registration of discovered services and workloads to an App Hub\napplication is generally available (GA).\nFor more information, see\nRegister one or more discovered services or workloads.\nCloud SQL for MySQL\nChange\nCloud SQL for MySQL now supports up to 100,000 concurrent connections for\nPrivate Service Connect enabled instances created on or after September 30, 2026\nwith 16 or more vCPUs.\nFor more information, see Configure Private Service Connect.\nCloud SQL for PostgreSQL\nChange\nCloud SQL for PostgreSQL now supports up to 129,024 concurrent connections for\nPrivate Service Connect enabled instances created on or after September 30, 2026\nwith 16 or more vCPUs.\nFor more information, see Configure Private Service Connect.\nCompute Engine\nFeature\nGenerally available: When you reserve compute resources for H4D…",
+        "summary": "AI Hypercomputer\nFeature\nGenerally available: When you reserve compute resources for creating GPU\ninstances through your account team, you can include a Hyperdisk\npool in the same request or in a subsequent request. This option helps ensure\nthat your artificial intelligence (AI) and machine learning (ML) workloads have\nthe storage resources that they require close to your GPU instances. For more\ninformation, see\nReserve capacity through your account team.\nAgent Platform Workbench\nChange\nM153 Release\nChange\nInstalled latest packages from upstream dependencies.\nBigQuery\nFeature\nConversational analytics in BigQuery\nnow supports the\nAI.CAUSAL_EFFECT function\nto quantify the impact of specific interventions on time series data.\nThis feature is in\nPreview.\nCloud Monitoring\nFeature\nBulk registration of discovered services and workloads to an App Hub\napplication is generally available (GA).\nFor more information, see\nRegister one or more discovered services or workloads.\nCloud SQL for MySQL\nChange\nCloud SQL for MySQL now supports up to 100,000 concurrent connections for\nPrivate Service Connect enabled instances created on or after September 30, 2026\nwith 16 or more vCPUs.\nFor more information, see Configure Private Service Connect.\nCloud SQL for PostgreSQL\nChange\nCloud SQL for PostgreSQL now supports up to 129,024 concurrent connections for\nPrivate Service Connect enabled instances created on or after September 30, 2026\nwith 16 or more vCPUs.\nFor more information, see Configure…",
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-10-06T07:00:00.000Z",
@@ -239,15 +248,6 @@
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-10-05T07:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "October 04, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#October_04_2026",
-        "summary": "Agent Platform Workbench\nChange\n20261004-2230-rc0 Release\nChange\n20261004-2230-rc0 Release\nChange\nInstalled latest packages from upstream dependencies.\nChange\nInstalled latest packages from upstream dependencies.\nChange\nThe BigQuery JupyterLab plugin is now enabled independently of the Dataproc plugin: it is enabled by default and can be turned off with the new disable-bigquery instance metadata key, while disable-mixer now controls only the Dataproc plugin.\nSecurity\nBulk security patch remediating Critical and High-severity CVEs in the Agent Platform Workbench custom container images.\nSecurity\nBulk security patch remediating Critical and High-severity CVEs in the Agent Platform Workbench custom container images.\nChange\n20261004-2157-rc0 Release\nChange\nInstalled latest packages from upstream dependencies.\nFixed\nPreinstall CUDA drivers for Pre-Turing GPUs such as V100s.\nChange\nThe BigQuery JupyterLab plugin is now enabled independently of the Dataproc plugin: it is enabled by default and can be turned off with the new disable-bigquery instance metadata key, while disable-mixer now controls only the Dataproc plugin.\nChange\nM152 Release\nChange\nInstalled latest packages from upstream dependencies.\nChange\nThe BigQuery JupyterLab plugin is now enabled independently of the Dataproc plugin: it is enabled by default and can be turned off with the new disable-bigquery instance metadata key, while disable-mixer now controls only the Dataproc plugin.\nGoogle SecOps SOAR\nAnnouncement…",
-        "image": null,
-        "source": "Google Cloud Platform (GCP) - Release notes",
-        "published": "2026-10-04T07:00:00.000Z",
         "isNew": false
       }
     ],
