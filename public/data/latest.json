@@ -1,6 +1,6 @@
 {
   "date": "2026-10-13",
-  "generatedAt": "2026-10-13T12:42:22.425Z",
+  "generatedAt": "2026-10-13T18:20:39.221Z",
   "totalArticles": 72,
   "ticker": [
     {
@@ -30,6 +30,15 @@
   ],
   "topics": {
     "aws": [
+      {
+        "title": "AWS Weekly Roundup: Prime Day 2026 by the numbers, Claude Haiku 5.5, Amazon Nova 2.5 Sonic, and more (October 13, 2026)",
+        "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-prime-day-2026-by-the-numbers-claude-haiku-5-5-amazon-nova-2-5-sonic-and-more-october-13-2026/",
+        "summary": "Some numbers are hard to picture until you sit with them for a moment. Last week we published the Prime Day 2026 metrics, and the one that stuck with me is 2.3 quadrillion: the daily requests Amazon ElastiCache peaked at during the event. Prime Day ran back in June, so this post always lands as […]",
+        "image": null,
+        "source": "AWS News Blog",
+        "published": "2026-10-13T15:59:06.000Z",
+        "isNew": false
+      },
       {
         "title": "Announcing AWS Lambda Web Functions",
         "link": "https://aws.amazon.com/blogs/aws/announcing-aws-lambda-web-functions-for-fast-consistent-web-app-performance-anywhere/",
@@ -91,15 +100,6 @@
         "image": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2026/09/24/1218110723436617-0c.png",
         "source": "AWS News Blog",
         "published": "2026-09-30T17:22:31.000Z",
-        "isNew": false
-      },
-      {
-        "title": "Celebrating Our Newest AWS Heroes – September 2026",
-        "link": "https://aws.amazon.com/blogs/aws/celebrating-our-newest-aws-heroes-september-2026/",
-        "summary": "Today, we’re excited to introduce the newest members of the AWS Heroes program. AWS Heroes are a vibrant, worldwide group of AWS experts who go above and beyond to share knowledge, mentor others, and build thriving communities. These individuals make a real difference in helping developers and organizations succeed with AWS. This month, we welcome […]",
-        "image": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2026/08/17/Avinash-Shashikant-Dalvi_175x263.jpg",
-        "source": "AWS News Blog",
-        "published": "2026-09-30T17:04:05.000Z",
         "isNew": false
       }
     ],
@@ -174,14 +174,14 @@
         "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/06/CLO20b_team_at_work_office_001-scaled.jpg",
         "source": "Microsoft Azure Blog",
         "published": "2026-09-23T16:00:00.000Z",
-        "isNew": true
+        "isNew": false
       }
     ],
     "gcp": [
       {
         "title": "October 12, 2026",
         "link": "https://docs.cloud.google.com/release-notes#October_12_2026",
-        "summary": "Agent Platform Workbench\nChange\n20261011.00_p0 Release\nChange\nInstalled latest packages from upstream dependencies.\nFixed\nFixed an issue where gcloud and gsutil failed to load with an AttributeError in OpenSSL.crypto due to a version mismatch between pyOpenSSL and cryptography.\nChange\n20261011.00_p0 Release\nChange\nInstalled latest packages from upstream dependencies.\nFixed\nFixed an issue where gcloud and gsutil failed to load with an AttributeError in OpenSSL.crypto due to a version mismatch between pyOpenSSL and cryptography.\nBigQuery\nFeature\nIncremental data transfers for the BigQuery Data Transfer Service for\nPostgreSQL\nand\nServiceNow\nare now\ngenerally available\n(GA).\nCloud Build\nAnnouncement\nYou can now choose the release channel for your\nbuild config or private pool. The release channel determines how frequently the\nunderlying versions of Debian and Docker are updated.\nCloud DNS\nFeature\nOutbound Endpoints for Cloud DNS is available in Preview.\nAttach Outbound Endpoints to forwarding zones or server policies to\nenable direct DNS query forwarding from VPC networks to external\nand on-premises DNS resolvers using private IP addresses. For more information,\nsee Outbound Endpoints overview.\nCloud Load Balancing\nFeature\nRegular expression matchers in host and route rules in URL maps are now generally available (GA).\nYou can now use regular expressions (regex) matchers to configure more flexible and precise traffic routing rules within URL maps for Application Load Balancers.…",
+        "summary": "Agent Platform Workbench\nChange\n20261011.00_p0 Release\nChange\nInstalled latest packages from upstream dependencies.\nFixed\nFixed an issue where gcloud and gsutil failed to load with an AttributeError in OpenSSL.crypto due to a version mismatch between pyOpenSSL and cryptography.\nChange\n20261011.00_p0 Release\nChange\nInstalled latest packages from upstream dependencies.\nFixed\nFixed an issue where gcloud and gsutil failed to load with an AttributeError in OpenSSL.crypto due to a version mismatch between pyOpenSSL and cryptography.\nBackup for GKE\nChange\nBackup for GKE is now available in the following region: asia-southeast3 (Bangkok, Thailand). For more information, see Backup for GKE locations.\nBigQuery\nFeature\nIncremental data transfers for the BigQuery Data Transfer Service for\nPostgreSQL\nand\nServiceNow\nare now\ngenerally available\n(GA).\nCloud Build\nAnnouncement\nYou can now choose the release channel for your\nbuild config or private pool. The release channel determines how frequently the\nunderlying versions of Debian and Docker are updated.\nCloud DNS\nFeature\nOutbound Endpoints for Cloud DNS is available in Preview.\nAttach Outbound Endpoints to forwarding zones or server policies to\nenable direct DNS query forwarding from VPC networks to external\nand on-premises DNS resolvers using private IP addresses. For more information,\nsee Outbound Endpoints overview.\nCloud Load Balancing\nFeature\nRegular expression matchers in host and route rules in URL maps are now generally available…",
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-10-12T07:00:00.000Z",
