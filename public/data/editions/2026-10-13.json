@@ -1,6 +1,6 @@
 {
   "date": "2026-10-13",
-  "generatedAt": "2026-10-13T18:20:39.221Z",
+  "generatedAt": "2026-10-13T21:51:12.461Z",
   "totalArticles": 72,
   "ticker": [
     {
@@ -105,6 +105,15 @@
     ],
     "azure": [
       {
+        "title": "Deep dive into Azure Maia 300 architecture",
+        "link": "https://azure.microsoft.com/en-us/blog/deep-dive-into-azure-maia-300-architecture/",
+        "summary": "Maia 300 operates as a single platform to meet the demands of cloud-scale agentic inference.\nThe post Deep dive into Azure Maia 300 architecture appeared first on Microsoft Azure Blog.",
+        "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/10/Maia-300-SoC.webp",
+        "source": "Microsoft Azure Blog",
+        "published": "2026-10-12T13:00:00.000Z",
+        "isNew": false
+      },
+      {
         "title": "AI transformation across the infrastructure lifecycle: From supply chain to fleet operations",
         "link": "https://azure.microsoft.com/en-us/blog/ai-transformation-across-the-infrastructure-lifecycle-from-supply-chain-to-fleet-operations/",
         "summary": "The opportunity is bigger than making individual tasks faster. It’s to build a system that learns from how infrastructure is designed, sourced, and operated.\nThe post AI transformation across the infrastructure lifecycle: From supply chain to fleet operations appeared first on Microsoft Azure Blog.",
@@ -166,18 +175,18 @@
         "source": "Microsoft Azure Blog",
         "published": "2026-09-24T18:00:00.000Z",
         "isNew": false
-      },
-      {
-        "title": "Your architecture diagram is not your resilience",
-        "link": "https://azure.microsoft.com/en-us/blog/your-architecture-diagram-is-not-your-resilience/",
-        "summary": "For years, resilience was something you set up once. That kept the lights on, but it treated resilience as a project with an end date rather than a property you maintain.\nThe post Your architecture diagram is not your resilience appeared first on Microsoft Azure Blog.",
-        "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/06/CLO20b_team_at_work_office_001-scaled.jpg",
-        "source": "Microsoft Azure Blog",
-        "published": "2026-09-23T16:00:00.000Z",
-        "isNew": false
       }
     ],
     "gcp": [
+      {
+        "title": "October 13, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#October_13_2026",
+        "summary": "BigQuery\nFeature\nThe\nAI.AGG function\nis\ngenerally available\n(GA). You can use this function to semantically aggregate unstructured input\ndata based on natural language instructions.\nCloud Billing\nFeature\nSpend cap budgets are now generally available for a limited set of services\nFor\neligible services,\nyou can configure a spend cap budget to automatically pause usage when your\nestimated spend exceeds the budget amount you set. You can manage spend cap\nbudgets in the\nBudgets page in the Google Cloud console\nand using the\nCloud Billing Budget API.\nSpend caps are a cost control mechanism. A spend cap is enforced when usage\ncosts exceed your budget target amount. When enforced, any new request to the\neligible services, within the specified project, are paused and no further\nusage costs are accrued until the spend cap is lifted. You can manually lift an\nenforced spend cap, or wait until the start of the next month when the\nspend cap is automatically lifted.\nSpend caps use gross, estimated costs to trigger the alerts and caps,\nenforcing a cap much faster than the actual costs are processed and appear\non billing reports. Even though faster than reports, the enforcement of spend\ncaps isn't instant and any cost overages are billed as normal.\nMore information about spend cap budgets\nFor managing spend cap budgets in the Google Cloud console, see:\nHow spend cap budgets work to help you control spend\nLimitations of spend cap budgets\nConfigure a spend cap budget\nLift an enforced spend cap…",
+        "image": null,
+        "source": "Google Cloud Platform (GCP) - Release notes",
+        "published": "2026-10-13T07:00:00.000Z",
+        "isNew": false
+      },
       {
         "title": "October 12, 2026",
         "link": "https://docs.cloud.google.com/release-notes#October_12_2026",
@@ -239,15 +248,6 @@
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-10-06T07:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "October 05, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#October_05_2026",
-        "summary": "Agent Platform Workbench\nChange\n20261004.00_p0 Release\nChange\nInstalled latest packages from upstream dependencies.\nChange\nThe BigQuery JupyterLab plugin is now enabled independently of the Dataproc plugin: it is enabled by default and can be turned off with the new disable-bigquery instance metadata key, while disable-mixer now controls only the Dataproc plugin.\nChange\n20261004.00_p0 Release\nChange\nInstalled latest packages from upstream dependencies.\nBigQuery\nFeature\nIceberg external tables and\nIceberg managed tables now support\nflexible column names by default. This\nfeature is generally available (GA).\nFeature\nThe gemini-embedding-2 model works well for embedding long strings, including\nmultilingual and unstructured data. It supports a mix of text, images, audio,\nvideo, and PDF files. You can use this model in the\nAI.EMBED,\nAI.SIMILARITY,\nand\nAI.GENERATE_EMBEDDING\nfunctions. This model is\ngenerally available.\nCloud Load Balancing\nFeature\nExternal IPv6 addresses are now supported for\nStandard Tier. For more\ninformation, see IPv6 subnet ranges.\nThis feature is in Preview.\nCompute Engine\nFeature\nGenerally available: Z3 machine types that have 8 to 44 vCPUs can use\nHyperdisk Balanced High Availability volumes to synchronously replicate data across two zones.\nFor more information, see\nAbout Hyperdisk Balanced High Availability.\nFeature\nPreview: External IPv6 addresses are now supported for\nStandard Tier. For more\ninformation,\nsee IPv6 subnet ranges.\nConfidential Space…",
-        "image": null,
-        "source": "Google Cloud Platform (GCP) - Release notes",
-        "published": "2026-10-05T07:00:00.000Z",
         "isNew": false
       }
     ],
@@ -401,6 +401,15 @@
     ],
     "python": [
       {
+        "title": "Python 3.16.0 alpha 1 is now available",
+        "link": "https://blog.python.org/2026/10/python-3160-alpha-1-is-now-available/",
+        "summary": "The first developer preview of Python 3.16 is ready for testing.",
+        "image": null,
+        "source": "Python Insider",
+        "published": "2026-10-13T00:00:00.000Z",
+        "isNew": false
+      },
+      {
         "title": "Python 3.15.0 (final) is here!",
         "link": "https://blog.python.org/2026/10/python-3150-final-is-here/",
         "summary": "A brand new Python here for you to enjoy!",
@@ -461,15 +470,6 @@
         "image": null,
         "source": "Python Insider",
         "published": "2026-09-30T12:00:09.000Z",
-        "isNew": false
-      },
-      {
-        "title": "Free-Threaded Python Post-Era (Python Language Summit 2026)",
-        "link": "https://blog.python.org/2026/09/language-summit-2026-free-threading-post-era/",
-        "summary": "Tobias Wrigstad, Fridtjof Stoldt, and Donghee Na propose a safe and performant, high-level concurrency model for free-threaded Python",
-        "image": null,
-        "source": "Python Insider",
-        "published": "2026-09-30T12:00:08.000Z",
         "isNew": false
       }
     ],
