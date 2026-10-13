@@ -1,6 +1,6 @@
 {
-  "date": "2026-10-12",
-  "generatedAt": "2026-10-12T23:37:26.695Z",
+  "date": "2026-10-13",
+  "generatedAt": "2026-10-13T12:42:22.425Z",
   "totalArticles": 72,
   "ticker": [
     {
@@ -105,15 +105,6 @@
     ],
     "azure": [
       {
-        "title": "Deep dive into Azure Maia 300 architecture",
-        "link": "https://azure.microsoft.com/en-us/blog/deep-dive-into-azure-maia-300-architecture/",
-        "summary": "Maia 300 operates as a single platform to meet the demands of cloud-scale agentic inference.\nThe post Deep dive into Azure Maia 300 architecture appeared first on Microsoft Azure Blog.",
-        "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/10/Maia-300-SoC.webp",
-        "source": "Microsoft Azure Blog",
-        "published": "2026-10-12T13:00:00.000Z",
-        "isNew": false
-      },
-      {
         "title": "AI transformation across the infrastructure lifecycle: From supply chain to fleet operations",
         "link": "https://azure.microsoft.com/en-us/blog/ai-transformation-across-the-infrastructure-lifecycle-from-supply-chain-to-fleet-operations/",
         "summary": "The opportunity is bigger than making individual tasks faster. It’s to build a system that learns from how infrastructure is designed, sourced, and operated.\nThe post AI transformation across the infrastructure lifecycle: From supply chain to fleet operations appeared first on Microsoft Azure Blog.",
@@ -175,6 +166,15 @@
         "source": "Microsoft Azure Blog",
         "published": "2026-09-24T18:00:00.000Z",
         "isNew": false
+      },
+      {
+        "title": "Your architecture diagram is not your resilience",
+        "link": "https://azure.microsoft.com/en-us/blog/your-architecture-diagram-is-not-your-resilience/",
+        "summary": "For years, resilience was something you set up once. That kept the lights on, but it treated resilience as a project with an end date rather than a property you maintain.\nThe post Your architecture diagram is not your resilience appeared first on Microsoft Azure Blog.",
+        "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/06/CLO20b_team_at_work_office_001-scaled.jpg",
+        "source": "Microsoft Azure Blog",
+        "published": "2026-09-23T16:00:00.000Z",
+        "isNew": true
       }
     ],
     "gcp": [
@@ -190,7 +190,7 @@
       {
         "title": "October 11, 2026",
         "link": "https://docs.cloud.google.com/release-notes#October_11_2026",
-        "summary": "Agent Platform Workbench\nChange\n20261011-2230-rc0 Release\nChange\n20261011-2230-rc0 Release\nChange\nInstalled latest packages from upstream dependencies.\nFixed\nFixed an issue where gcloud and gsutil failed to load with an AttributeError in OpenSSL.crypto due to a version mismatch between pyOpenSSL and cryptography.\nFixed\nFixed an issue where gcloud and gsutil failed to load with an AttributeError in OpenSSL.crypto due to a version mismatch between pyOpenSSL and cryptography.\nChange\n20261011-2130-rc0 Release\nChange\nInstalled latest packages from upstream dependencies.",
+        "summary": "Agent Platform Workbench\nChange\n20261011-2230-rc0 Release\nChange\n20261011-2230-rc0 Release\nChange\nInstalled latest packages from upstream dependencies.\nChange\nInstalled latest packages from upstream dependencies.\nFixed\nFixed an issue where gcloud and gsutil failed to load with an AttributeError in OpenSSL.crypto due to a version mismatch between pyOpenSSL and cryptography.\nFixed\nFixed an issue where gcloud and gsutil failed to load with an AttributeError in OpenSSL.crypto due to a version mismatch between pyOpenSSL and cryptography.\nChange\n20261011-2130-rc0 Release\nChange\nInstalled latest packages from upstream dependencies.",
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-10-11T07:00:00.000Z",
