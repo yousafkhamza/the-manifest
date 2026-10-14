@@ -1,6 +1,6 @@
 {
   "date": "2026-10-14",
-  "generatedAt": "2026-10-14T10:11:39.938Z",
+  "generatedAt": "2026-10-14T15:50:28.855Z",
   "totalArticles": 72,
   "ticker": [
     {
@@ -25,7 +25,7 @@
     },
     {
       "label": "Node.js",
-      "version": "v26.11.1"
+      "version": "v26.12.0"
     }
   ],
   "topics": {
@@ -105,6 +105,24 @@
     ],
     "azure": [
       {
+        "title": "Advancing hardware security with open-source Integrated HSM technology",
+        "link": "https://azure.microsoft.com/en-us/blog/advancing-hardware-security-with-open-source-integrated-hsm-technology/",
+        "summary": "Explore how Microsoft is advancing hardware security through open-source Integrated HSM technology, collaboration, and cryptographic key protection.\nThe post Advancing hardware security with open-source Integrated HSM technology appeared first on Microsoft Azure Blog.",
+        "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/10/image-2-1.webp",
+        "source": "Microsoft Azure Blog",
+        "published": "2026-10-13T16:15:00.000Z",
+        "isNew": false
+      },
+      {
+        "title": "Infrastructure for the frontier era: Scaling intelligence through open industry collaboration",
+        "link": "https://azure.microsoft.com/en-us/blog/infrastructure-for-the-frontier-era-scaling-intelligence-through-open-industry-collaboration/",
+        "summary": "AI is reaching such a pivotal moment, and the focus is shifting from building larger frontier models to intelligence that delivers practical impact.\nThe post Infrastructure for the frontier era: Scaling intelligence through open industry collaboration appeared first on Microsoft Azure Blog.",
+        "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/10/Phoenix-Data-Center-Shoot-2026_Stills-2-1-scaled.webp",
+        "source": "Microsoft Azure Blog",
+        "published": "2026-10-13T16:15:00.000Z",
+        "isNew": false
+      },
+      {
         "title": "Deep dive into Azure Maia 300 architecture",
         "link": "https://azure.microsoft.com/en-us/blog/deep-dive-into-azure-maia-300-architecture/",
         "summary": "Maia 300 operates as a single platform to meet the demands of cloud-scale agentic inference.\nThe post Deep dive into Azure Maia 300 architecture appeared first on Microsoft Azure Blog.",
@@ -157,27 +175,18 @@
         "source": "Microsoft Azure Blog",
         "published": "2026-09-29T06:30:00.000Z",
         "isNew": false
-      },
-      {
-        "title": "Enhancing Microsoft Azure Virtual Machine lifecycle",
-        "link": "https://azure.microsoft.com/en-us/blog/enhancing-microsoft-azure-virtual-machine-lifecycle/",
-        "summary": "Our Virtual Machine Lifecycle policy guides how we manage these transitions, giving Azure customers transparency, predictability, and guidance.\nThe post Enhancing Microsoft Azure Virtual Machine lifecycle appeared first on Microsoft Azure Blog.",
-        "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/06/CLO20b_Evan_office_001-1-scaled.jpg",
-        "source": "Microsoft Azure Blog",
-        "published": "2026-09-28T15:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "Ship agents faster with expanded model choice, voice agents, and continuous optimization",
-        "link": "https://azure.microsoft.com/en-us/blog/ship-agents-faster-with-expanded-model-choice-voice-agents-and-continuous-optimization/",
-        "summary": "The best model for your business will keep changing. Adopting it should move your business forward, not send your team back to rebuild the architecture around it.\nThe post Ship agents faster with expanded model choice, voice agents, and continuous optimization appeared first on Microsoft Azure Blog.",
-        "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/09/foundry-agent-loop-v2.webp",
-        "source": "Microsoft Azure Blog",
-        "published": "2026-09-24T18:00:00.000Z",
-        "isNew": false
       }
     ],
     "gcp": [
+      {
+        "title": "October 14, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#October_14_2026",
+        "summary": "Application Integration\nSecurity\nAn Incorrect Authorization vulnerability in the AuthConfig\nvalidation and integration execution runtime in Application Integration\nversions prior to August 27, 2026.\nFor more information, see the\nGCP-2026-068\nsecurity bulletin.\nCertificate Manager\nChange\nGoogle-managed public SSL certificates signed by Google Public\nCA (pki.goog) are gradually transitioning from a\n90-day validity period to a 45-day validity period to improve security.\nTo align with modern industry-wide security standards and promote shorter\ncertificate lifespans, Google-managed public certificates now rotate more\nfrequently. This proactive rotation enhances the overall security posture of\nload balancers. The transition requires no manual intervention or configuration\nchanges as Certificate Manager automatically manages both issuance and renewal.\nFor more information, see Google-managed\ncertificates\nand Use Google-managed\ncertificates.",
+        "image": null,
+        "source": "Google Cloud Platform (GCP) - Release notes",
+        "published": "2026-10-14T07:00:00.000Z",
+        "isNew": false
+      },
       {
         "title": "October 13, 2026",
         "link": "https://docs.cloud.google.com/release-notes#October_13_2026",
@@ -199,7 +208,7 @@
       {
         "title": "October 11, 2026",
         "link": "https://docs.cloud.google.com/release-notes#October_11_2026",
-        "summary": "Agent Platform Workbench\nChange\n20261011-2230-rc0 Release\nChange\n20261011-2230-rc0 Release\nChange\nInstalled latest packages from upstream dependencies.\nChange\nInstalled latest packages from upstream dependencies.\nFixed\nFixed an issue where gcloud and gsutil failed to load with an AttributeError in OpenSSL.crypto due to a version mismatch between pyOpenSSL and cryptography.\nFixed\nFixed an issue where gcloud and gsutil failed to load with an AttributeError in OpenSSL.crypto due to a version mismatch between pyOpenSSL and cryptography.\nChange\n20261011-2130-rc0 Release\nChange\nInstalled latest packages from upstream dependencies.",
+        "summary": "Agent Platform Workbench\nChange\n20261011-2230-rc0 Release\nChange\n20261011-2230-rc0 Release\nChange\nInstalled latest packages from upstream dependencies.\nChange\nInstalled latest packages from upstream dependencies.\nFixed\nFixed an issue where gcloud and gsutil failed to load with an AttributeError in OpenSSL.crypto due to a version mismatch between pyOpenSSL and cryptography.\nFixed\nFixed an issue where gcloud and gsutil failed to load with an AttributeError in OpenSSL.crypto due to a version mismatch between pyOpenSSL and cryptography.\nChange\n20261011-2130-rc0 Release\nChange\nInstalled latest packages from upstream dependencies.\nGoogle SecOps SOAR\nAnnouncement\nRelease 6.3.102 is being rolled out to the first phase of regions as listed\nhere.\nThis release contains internal and customer bug fixes.",
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-10-11T07:00:00.000Z",
@@ -208,7 +217,7 @@
       {
         "title": "October 10, 2026",
         "link": "https://docs.cloud.google.com/release-notes#October_10_2026",
-        "summary": "Cloud SQL for MySQL\nChange\nMySQL 8.0.46 is now the\ndefault minor version\nfor Cloud SQL for MySQL 8.0.\nFor more information about minor version support in Cloud SQL for MySQL,\nsee MySQL 8.0.",
+        "summary": "Cloud SQL for MySQL\nChange\nMySQL 8.0.46 is now the\ndefault minor version\nfor Cloud SQL for MySQL 8.0.\nFor more information about minor version support in Cloud SQL for MySQL,\nsee MySQL 8.0.\nGoogle SecOps SOAR\nAnnouncement\nRelease 6.3.101 is now\navailable for all regions.",
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-10-10T07:00:00.000Z",
@@ -239,15 +248,6 @@
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-10-07T07:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "October 06, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#October_06_2026",
-        "summary": "AI Hypercomputer\nFeature\nGenerally available: When you reserve compute resources for creating GPU\ninstances through your account team, you can include a Hyperdisk\npool in the same request or in a subsequent request. This option helps ensure\nthat your artificial intelligence (AI) and machine learning (ML) workloads have\nthe storage resources that they require close to your GPU instances. For more\ninformation, see\nReserve capacity through your account team.\nAgent Platform Workbench\nChange\nM153 Release\nChange\nInstalled latest packages from upstream dependencies.\nBigQuery\nFeature\nConversational analytics in BigQuery\nnow supports the\nAI.CAUSAL_EFFECT function\nto quantify the impact of specific interventions on time series data.\nThis feature is in\nPreview.\nCloud Monitoring\nFeature\nBulk registration of discovered services and workloads to an App Hub\napplication is generally available (GA).\nFor more information, see\nRegister one or more discovered services or workloads.\nCloud SQL for MySQL\nChange\nCloud SQL for MySQL now supports up to 100,000 concurrent connections for\nPrivate Service Connect enabled instances created on or after September 30, 2026\nwith 16 or more vCPUs.\nFor more information, see Configure Private Service Connect.\nCloud SQL for PostgreSQL\nChange\nCloud SQL for PostgreSQL now supports up to 129,024 concurrent connections for\nPrivate Service Connect enabled instances created on or after September 30, 2026\nwith 16 or more vCPUs.\nFor more information, see Configure…",
-        "image": null,
-        "source": "Google Cloud Platform (GCP) - Release notes",
-        "published": "2026-10-06T07:00:00.000Z",
         "isNew": false
       }
     ],
@@ -327,13 +327,22 @@
     ],
     "terraform": [
       {
+        "title": "v1.17.0-rc2",
+        "link": "https://github.com/hashicorp/terraform/releases/tag/v1.17.0-rc2",
+        "summary": "1.17.0-rc2 (October 14, 2026)\nNEW FEATURES:\nTerraform now supports variables and locals in provider requirements (#39153)\nA new -minimal-refresh planning option has been added, which will only refresh resources that have proposed changes. (#35290)\npolicy: Terraform Policy is now generally available. The -policies flag for plan, apply, and query no longer requires an experimental build or the -allow-experimental-features flag. Query policies evaluate resources discovered by list blocks and report human-readable or JSON results. See https://developer.hashicorp.com/terraform/policy for more information. (#38970)\nENHANCEMENTS:\ncommand/init: Enrich log messages with provider versions (#38918)\ntest: Add mock_provider support for ephemeral resources (#38928)\ncommand/login: display warning after successful login if user is subject to an organization's TTL policy\nBUG FIXES:\nfuncs: pow and log no longer panic when result is not a number (#38912)\nephemeral: Terraform will now use and display diagnostics raised when renewing an ephemeral resource. This may cause warnings to appear that previously were lost. We expect that any error diagnostics that were previously lost would have caused confusing downstream errors, so we do not anticipate this change to be breaking. (#38989)\ntest: Deterministic dependency ordering in cleanup graph (#38247)\nquery: report Unknown and N/A results for policy evaluations of discovered resources (#39058)\nquery: terraform query -policies now rejects a path…",
+        "image": "https://avatars.githubusercontent.com/u/82989873?s=60&v=4",
+        "source": "Release notes from terraform",
+        "published": "2026-10-14T10:37:18.000Z",
+        "isNew": false
+      },
+      {
         "title": "v1.16.6",
         "link": "https://github.com/hashicorp/terraform/releases/tag/v1.16.6",
         "summary": "1.16.6 (October 14, 2026)\nBUG FIXES:\ncloud: terraform init can now find workspaces selected by key/value tags whose keys contain uppercase letters. (#39306)\ntest: Allow module under test to use deprecated outputs. (#39207)\nNOTES:\nPrevent a HTTP/2 resource exhaustion via CVE-2026-78669. Exploitation would require a compromised (untrusted) provider/module registry. Such a threat is considered to be outside the perimeter of Terraform core security guarantees. (#39375)",
         "image": "https://avatars.githubusercontent.com/u/82989873?s=60&v=4",
         "source": "Release notes from terraform",
         "published": "2026-10-14T09:31:54.000Z",
-        "isNew": true
+        "isNew": false
       },
       {
         "title": "v1.17.0-rc1",
@@ -387,15 +396,6 @@
         "image": "https://avatars.githubusercontent.com/u/82989873?s=60&v=4",
         "source": "Release notes from terraform",
         "published": "2026-09-09T17:13:24.000Z",
-        "isNew": false
-      },
-      {
-        "title": "v1.16.2",
-        "link": "https://github.com/hashicorp/terraform/releases/tag/v1.16.2",
-        "summary": "1.16.2 (September 9, 2026)\nBUG FIXES:\nFix panic in module installation when encoutering invalid module calls (#39129)",
-        "image": "https://avatars.githubusercontent.com/u/82989873?s=60&v=4",
-        "source": "Release notes from terraform",
-        "published": "2026-09-09T13:22:31.000Z",
         "isNew": false
       }
     ],
@@ -623,6 +623,24 @@
     ],
     "javascript": [
       {
+        "title": "Node.js 26.12.0 (Current)",
+        "link": "https://nodejs.org/en/blog/release/v26.12.0",
+        "summary": "",
+        "image": null,
+        "source": "Node.js Blog",
+        "published": "2026-10-14T15:23:06.000Z",
+        "isNew": false
+      },
+      {
+        "title": "Wednesday, October 21, 2026 Security Releases",
+        "link": "https://nodejs.org/en/blog/vulnerability/october-2026-security-releases",
+        "summary": "",
+        "image": null,
+        "source": "Node.js Blog",
+        "published": "2026-10-14T03:00:00.000Z",
+        "isNew": false
+      },
+      {
         "title": "Node.js 26.11.1 (Current)",
         "link": "https://nodejs.org/en/blog/release/v26.11.1",
         "summary": "",
@@ -674,24 +692,6 @@
         "image": null,
         "source": "Node.js Blog",
         "published": "2026-09-09T16:09:17.000Z",
-        "isNew": false
-      },
-      {
-        "title": "Node.js 24.21.0 (LTS)",
-        "link": "https://nodejs.org/en/blog/release/v24.21.0",
-        "summary": "",
-        "image": null,
-        "source": "Node.js Blog",
-        "published": "2026-09-09T11:55:20.000Z",
-        "isNew": false
-      },
-      {
-        "title": "Node.js 26.8.1 (Current)",
-        "link": "https://nodejs.org/en/blog/release/v26.8.1",
-        "summary": "",
-        "image": null,
-        "source": "Node.js Blog",
-        "published": "2026-08-26T22:11:36.000Z",
         "isNew": false
       }
     ]
