@@ -1,6 +1,6 @@
 {
-  "date": "2026-10-13",
-  "generatedAt": "2026-10-13T21:51:12.461Z",
+  "date": "2026-10-14",
+  "generatedAt": "2026-10-14T10:11:39.938Z",
   "totalArticles": 72,
   "ticker": [
     {
@@ -9,7 +9,7 @@
     },
     {
       "label": "Terraform",
-      "version": "v1.16.5"
+      "version": "v1.16.6"
     },
     {
       "label": "Python",
@@ -181,7 +181,7 @@
       {
         "title": "October 13, 2026",
         "link": "https://docs.cloud.google.com/release-notes#October_13_2026",
-        "summary": "BigQuery\nFeature\nThe\nAI.AGG function\nis\ngenerally available\n(GA). You can use this function to semantically aggregate unstructured input\ndata based on natural language instructions.\nCloud Billing\nFeature\nSpend cap budgets are now generally available for a limited set of services\nFor\neligible services,\nyou can configure a spend cap budget to automatically pause usage when your\nestimated spend exceeds the budget amount you set. You can manage spend cap\nbudgets in the\nBudgets page in the Google Cloud console\nand using the\nCloud Billing Budget API.\nSpend caps are a cost control mechanism. A spend cap is enforced when usage\ncosts exceed your budget target amount. When enforced, any new request to the\neligible services, within the specified project, are paused and no further\nusage costs are accrued until the spend cap is lifted. You can manually lift an\nenforced spend cap, or wait until the start of the next month when the\nspend cap is automatically lifted.\nSpend caps use gross, estimated costs to trigger the alerts and caps,\nenforcing a cap much faster than the actual costs are processed and appear\non billing reports. Even though faster than reports, the enforcement of spend\ncaps isn't instant and any cost overages are billed as normal.\nMore information about spend cap budgets\nFor managing spend cap budgets in the Google Cloud console, see:\nHow spend cap budgets work to help you control spend\nLimitations of spend cap budgets\nConfigure a spend cap budget\nLift an enforced spend cap…",
+        "summary": "BigQuery\nFeature\nThe\nAI.AGG function\nis\ngenerally available\n(GA). You can use this function to semantically aggregate unstructured input\ndata based on natural language instructions.\nFeature\nBigQuery generative AI functions\nnow support the gemini-4-argon model. This model is\ngenerally available.\nCloud Billing\nFeature\nSpend cap budgets are now generally available for a limited set of services\nFor\neligible services,\nyou can configure a spend cap budget to automatically pause usage when your\nestimated spend exceeds the budget amount you set. You can manage spend cap\nbudgets in the\nBudgets page in the Google Cloud console\nand using the\nCloud Billing Budget API.\nSpend caps are a cost control mechanism. A spend cap is enforced when usage\ncosts exceed your budget target amount. When enforced, any new request to the\neligible services, within the specified project, are paused and no further\nusage costs are accrued until the spend cap is lifted. You can manually lift an\nenforced spend cap, or wait until the start of the next month when the\nspend cap is automatically lifted.\nSpend caps use gross, estimated costs to trigger the alerts and caps,\nenforcing a cap much faster than the actual costs are processed and appear\non billing reports. Even though faster than reports, the enforcement of spend\ncaps isn't instant and any cost overages are billed as normal.\nMore information about spend cap budgets\nFor managing spend cap budgets in the Google Cloud console, see:\nHow spend cap budgets work…",
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-10-13T07:00:00.000Z",
@@ -327,6 +327,15 @@
     ],
     "terraform": [
       {
+        "title": "v1.16.6",
+        "link": "https://github.com/hashicorp/terraform/releases/tag/v1.16.6",
+        "summary": "1.16.6 (October 14, 2026)\nBUG FIXES:\ncloud: terraform init can now find workspaces selected by key/value tags whose keys contain uppercase letters. (#39306)\ntest: Allow module under test to use deprecated outputs. (#39207)\nNOTES:\nPrevent a HTTP/2 resource exhaustion via CVE-2026-78669. Exploitation would require a compromised (untrusted) provider/module registry. Such a threat is considered to be outside the perimeter of Terraform core security guarantees. (#39375)",
+        "image": "https://avatars.githubusercontent.com/u/82989873?s=60&v=4",
+        "source": "Release notes from terraform",
+        "published": "2026-10-14T09:31:54.000Z",
+        "isNew": true
+      },
+      {
         "title": "v1.17.0-rc1",
         "link": "https://github.com/hashicorp/terraform/releases/tag/v1.17.0-rc1",
         "summary": "1.17.0-rc1 (October 07, 2026)\nNEW FEATURES:\nTerraform now supports variables and locals in provider requirements (#39153)\nA new -minimal-refresh planning option has been added, which will only refresh resources that have proposed changes. (#35290)\npolicy: Terraform Policy is now generally available. The -policies flag for plan, apply, and query no longer requires an experimental build or the -allow-experimental-features flag. Query policies evaluate resources discovered by list blocks and report human-readable or JSON results. See https://developer.hashicorp.com/terraform/policy for more information. (#38970)\nENHANCEMENTS:\ncommand/init: Enrich log messages with provider versions (#38918)\ntest: Add mock_provider support for ephemeral resources (#38928)\ncommand/login: display warning after successful login if user is subject to an organization's TTL policy\nBUG FIXES:\nfuncs: pow and log no longer panic when result is not a number (#38912)\nephemeral: Terraform will now use and display diagnostics raised when renewing an ephemeral resource. This may cause warnings to appear that previously were lost. We expect that any error diagnostics that were previously lost would have caused confusing downstream errors, so we do not anticipate this change to be breaking. (#38989)\ntest: Deterministic dependency ordering in cleanup graph (#38247)\nquery: report Unknown and N/A results for policy evaluations of discovered resources (#39058)\nquery: terraform query -policies now rejects a path…",
@@ -387,15 +396,6 @@
         "image": "https://avatars.githubusercontent.com/u/82989873?s=60&v=4",
         "source": "Release notes from terraform",
         "published": "2026-09-09T13:22:31.000Z",
-        "isNew": false
-      },
-      {
-        "title": "v1.16.1",
-        "link": "https://github.com/hashicorp/terraform/releases/tag/v1.16.1",
-        "summary": "1.16.1 (September 2, 2026)\nBUG FIXES:\ncloud: Fixed a bug causing the CLI to pause indefinitely after a run task failure with pending policy evaluations (#38751)\nSupport referencing modules containing dynamic sources in Terraform Test (#38950)\nstacks: Fixed validation to ensure the provider versions in the lock file and configuration are compatible. (#38829)\nFix panic when import identity references sensitive value (#39013)\nimport: Fixed a bug where import blocks would be ignored when multiple imports targeted different instances of a resource config using for_each or count. (#39068)\nstate show: Fix a panic when given an attribute path instead of a resource instance address (#39087)\nFix create_before_destroy ordering in some combinations of changes (#39091)",
-        "image": "https://avatars.githubusercontent.com/u/82989873?s=60&v=4",
-        "source": "Release notes from terraform",
-        "published": "2026-09-02T14:49:32.000Z",
         "isNew": false
       }
     ],
