@@ -1,6 +1,6 @@
 {
   "date": "2026-10-14",
-  "generatedAt": "2026-10-14T15:50:28.855Z",
+  "generatedAt": "2026-10-14T20:41:15.494Z",
   "totalArticles": 72,
   "ticker": [
     {
@@ -30,6 +30,15 @@
   ],
   "topics": {
     "aws": [
+      {
+        "title": "Amazon S3 is now available on the Vercel Marketplace and v0 by Vercel",
+        "link": "https://aws.amazon.com/blogs/aws/amazon-s3-vercel-marketplace-v0/",
+        "summary": "You can now migrate existing Apache Hive datasets in Amazon S3 to fully managed Apache Iceberg tables in Amazon S3 Tables, with no pipelines to build or compute to provision, while production workloads keep running.",
+        "image": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2026/10/06/screenshot-1-vercel-marketplace-aws.jpg",
+        "source": "AWS News Blog",
+        "published": "2026-10-14T19:30:48.000Z",
+        "isNew": false
+      },
       {
         "title": "AWS Weekly Roundup: Prime Day 2026 by the numbers, Claude Haiku 5.5, Amazon Nova 2.5 Sonic, and more (October 13, 2026)",
         "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-prime-day-2026-by-the-numbers-claude-haiku-5-5-amazon-nova-2-5-sonic-and-more-october-13-2026/",
@@ -92,36 +101,9 @@
         "source": "AWS News Blog",
         "published": "2026-09-30T20:03:34.000Z",
         "isNew": false
-      },
-      {
-        "title": "Amazon Aurora PostgreSQL now supports direct querying of Apache Iceberg and Parquet data in your data lake",
-        "link": "https://aws.amazon.com/blogs/aws/amazon-aurora-postgresql-now-supports-direct-querying-of-apache-iceberg-and-parquet-data-in-your-data-lake/",
-        "summary": "Amazon Aurora PostgreSQL now lets you directly query Apache Iceberg and Parquet data stored in your data lake alongside live operational data—no ETL pipelines required. Powered by DuckDB embedded within Aurora, this capability enables single queries that join transactional and historical data using familiar PostgreSQL syntax. It supports AWS Glue Data Catalog, S3, and S3 Tables, with optimizations like predicate pushdown and caching for efficient performance.",
-        "image": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2026/09/24/1218110723436617-0c.png",
-        "source": "AWS News Blog",
-        "published": "2026-09-30T17:22:31.000Z",
-        "isNew": false
       }
     ],
     "azure": [
-      {
-        "title": "Advancing hardware security with open-source Integrated HSM technology",
-        "link": "https://azure.microsoft.com/en-us/blog/advancing-hardware-security-with-open-source-integrated-hsm-technology/",
-        "summary": "Explore how Microsoft is advancing hardware security through open-source Integrated HSM technology, collaboration, and cryptographic key protection.\nThe post Advancing hardware security with open-source Integrated HSM technology appeared first on Microsoft Azure Blog.",
-        "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/10/image-2-1.webp",
-        "source": "Microsoft Azure Blog",
-        "published": "2026-10-13T16:15:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "Infrastructure for the frontier era: Scaling intelligence through open industry collaboration",
-        "link": "https://azure.microsoft.com/en-us/blog/infrastructure-for-the-frontier-era-scaling-intelligence-through-open-industry-collaboration/",
-        "summary": "AI is reaching such a pivotal moment, and the focus is shifting from building larger frontier models to intelligence that delivers practical impact.\nThe post Infrastructure for the frontier era: Scaling intelligence through open industry collaboration appeared first on Microsoft Azure Blog.",
-        "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/10/Phoenix-Data-Center-Shoot-2026_Stills-2-1-scaled.webp",
-        "source": "Microsoft Azure Blog",
-        "published": "2026-10-13T16:15:00.000Z",
-        "isNew": false
-      },
       {
         "title": "Deep dive into Azure Maia 300 architecture",
         "link": "https://azure.microsoft.com/en-us/blog/deep-dive-into-azure-maia-300-architecture/",
@@ -175,13 +157,31 @@
         "source": "Microsoft Azure Blog",
         "published": "2026-09-29T06:30:00.000Z",
         "isNew": false
+      },
+      {
+        "title": "Enhancing Microsoft Azure Virtual Machine lifecycle",
+        "link": "https://azure.microsoft.com/en-us/blog/enhancing-microsoft-azure-virtual-machine-lifecycle/",
+        "summary": "Our Virtual Machine Lifecycle policy guides how we manage these transitions, giving Azure customers transparency, predictability, and guidance.\nThe post Enhancing Microsoft Azure Virtual Machine lifecycle appeared first on Microsoft Azure Blog.",
+        "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/06/CLO20b_Evan_office_001-1-scaled.jpg",
+        "source": "Microsoft Azure Blog",
+        "published": "2026-09-28T15:00:00.000Z",
+        "isNew": false
+      },
+      {
+        "title": "Ship agents faster with expanded model choice, voice agents, and continuous optimization",
+        "link": "https://azure.microsoft.com/en-us/blog/ship-agents-faster-with-expanded-model-choice-voice-agents-and-continuous-optimization/",
+        "summary": "The best model for your business will keep changing. Adopting it should move your business forward, not send your team back to rebuild the architecture around it.\nThe post Ship agents faster with expanded model choice, voice agents, and continuous optimization appeared first on Microsoft Azure Blog.",
+        "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/09/foundry-agent-loop-v2.webp",
+        "source": "Microsoft Azure Blog",
+        "published": "2026-09-24T18:00:00.000Z",
+        "isNew": false
       }
     ],
     "gcp": [
       {
         "title": "October 14, 2026",
         "link": "https://docs.cloud.google.com/release-notes#October_14_2026",
-        "summary": "Application Integration\nSecurity\nAn Incorrect Authorization vulnerability in the AuthConfig\nvalidation and integration execution runtime in Application Integration\nversions prior to August 27, 2026.\nFor more information, see the\nGCP-2026-068\nsecurity bulletin.\nCertificate Manager\nChange\nGoogle-managed public SSL certificates signed by Google Public\nCA (pki.goog) are gradually transitioning from a\n90-day validity period to a 45-day validity period to improve security.\nTo align with modern industry-wide security standards and promote shorter\ncertificate lifespans, Google-managed public certificates now rotate more\nfrequently. This proactive rotation enhances the overall security posture of\nload balancers. The transition requires no manual intervention or configuration\nchanges as Certificate Manager automatically manages both issuance and renewal.\nFor more information, see Google-managed\ncertificates\nand Use Google-managed\ncertificates.",
+        "summary": "Application Integration\nSecurity\nAn Incorrect Authorization vulnerability in the AuthConfig\nvalidation and integration execution runtime in Application Integration\nversions prior to August 27, 2026.\nFor more information, see the\nGCP-2026-068\nsecurity bulletin.\nCertificate Manager\nChange\nGoogle-managed public SSL certificates signed by Google Public\nCA (pki.goog) are gradually transitioning from a\n90-day validity period to a 45-day validity period to improve security.\nTo align with modern industry-wide security standards and promote shorter\ncertificate lifespans, Google-managed public certificates now rotate more\nfrequently. This proactive rotation enhances the overall security posture of\nload balancers. The transition requires no manual intervention or configuration\nchanges as Certificate Manager automatically manages both issuance and renewal.\nFor more information, see Google-managed\ncertificates\nand Use Google-managed\ncertificates.\nCloud Load Balancing\nChange\nGoogle-managed public SSL certificates signed by Public Certificate Authority (pki.goog) are gradually transitioning from a 90-day\nvalidity period to a 45-day validity period to improve security.\nTo align with modern industry-wide security standards and promote shorter\ncertificate lifespans, Google-managed public certificates signed by\nPublic Certificate Authority now rotate more frequently.\nThis proactive rotation enhances the overall security posture of load balancers.\nTransition requires no manual intervention or…",
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-10-14T07:00:00.000Z",
@@ -190,7 +190,7 @@
       {
         "title": "October 13, 2026",
         "link": "https://docs.cloud.google.com/release-notes#October_13_2026",
-        "summary": "BigQuery\nFeature\nThe\nAI.AGG function\nis\ngenerally available\n(GA). You can use this function to semantically aggregate unstructured input\ndata based on natural language instructions.\nFeature\nBigQuery generative AI functions\nnow support the gemini-4-argon model. This model is\ngenerally available.\nCloud Billing\nFeature\nSpend cap budgets are now generally available for a limited set of services\nFor\neligible services,\nyou can configure a spend cap budget to automatically pause usage when your\nestimated spend exceeds the budget amount you set. You can manage spend cap\nbudgets in the\nBudgets page in the Google Cloud console\nand using the\nCloud Billing Budget API.\nSpend caps are a cost control mechanism. A spend cap is enforced when usage\ncosts exceed your budget target amount. When enforced, any new request to the\neligible services, within the specified project, are paused and no further\nusage costs are accrued until the spend cap is lifted. You can manually lift an\nenforced spend cap, or wait until the start of the next month when the\nspend cap is automatically lifted.\nSpend caps use gross, estimated costs to trigger the alerts and caps,\nenforcing a cap much faster than the actual costs are processed and appear\non billing reports. Even though faster than reports, the enforcement of spend\ncaps isn't instant and any cost overages are billed as normal.\nMore information about spend cap budgets\nFor managing spend cap budgets in the Google Cloud console, see:\nHow spend cap budgets work…",
+        "summary": "BigQuery\nFeature\nThe\nAI.AGG function\nis\ngenerally available\n(GA). You can use this function to semantically aggregate unstructured input\ndata based on natural language instructions.\nFeature\nBigQuery generative AI functions\nnow support the gemini-4-argon model. This model is\ngenerally available.\nCloud Asset Inventory\nFeature\nThe following resource types are publicly available through the ExportAssets, ListAssets, BatchGetAssetsHistory, QueryAssets, Feed, and Search (SearchAllResources, SearchAllIamPolicies) APIs.\nCloud Service Mesh: networkservices.googleapis.com/AgentGateway\n\nCloud Billing\nFeature\nSpend cap budgets are now generally available for a limited set of services\nFor\neligible services,\nyou can configure a spend cap budget to automatically pause usage when your\nestimated spend exceeds the budget amount you set. You can manage spend cap\nbudgets in the\nBudgets page in the Google Cloud console\nand using the\nCloud Billing Budget API.\nSpend caps are a cost control mechanism. A spend cap is enforced when usage\ncosts exceed your budget target amount. When enforced, any new request to the\neligible services, within the specified project, are paused and no further\nusage costs are accrued until the spend cap is lifted. You can manually lift an\nenforced spend cap, or wait until the start of the next month when the\nspend cap is automatically lifted.\nSpend caps use gross, estimated costs to trigger the alerts and caps,\nenforcing a cap much faster than the actual costs are…",
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-10-13T07:00:00.000Z",
@@ -475,6 +475,15 @@
     ],
     "go": [
       {
+        "title": "Better HTTP/1 connection reuse",
+        "link": "https://go.dev/blog/http-connection-reuse",
+        "summary": "The Go Blog\nBetter HTTP/1 connection reuse\nTake a look at the following function:\nfunc getStatus(url string) (int, error) {\n    resp, err := http.Get(url)\n    if err != nil {\n        return 0, err\n    }\n    defer resp.Body.Close()\n    return resp.StatusCode, nil\n}\n\nIt sends a GET request to url and returns the HTTP status code.\nUsing HTTP/1 (GODEBUG=http2client=0), calling this function 100 times against\nindex.golang.org takes ~710 milliseconds on Go 1.26\non my machine. On Go 1.27, the same program takes ~150 milliseconds.\nThat is almost 5 times faster! How is such a drastic performance difference\npossible?\nThe cost of establishing HTTP connections\nTo understand the difference, consider what happens on the network when we make\nan HTTP request.\nGo’s net/http package supports HTTP/1.0, HTTP/1.1, and\nHTTP/2. All three run over TCP, and usually over TLS when talking to HTTPS\nendpoints. Making a request over a new connection looks something like this:\nTCP handshake (1 RTT): the client sends a SYN packet, the server\nreplies with SYN-ACK, and the client replies with ACK. Because the\nclient can send the first TLS message alongside that final ACK,\nestablishing the TCP connection takes 1 round-trip time (RTT).\nTLS handshake (2 RTT): next, a TLS handshake exchanges encryption keys\nand verifies the server’s identity; using TLS 1.2, this takes 2 RTT.\nHTTP request: with the keys exchanged, HTTP requests can finally be sent\nafter a total of 3 RTT.\nThese round trips (plus some CPU time…",
+        "image": null,
+        "source": "The Go Blog",
+        "published": "2026-10-14T00:00:00.000Z",
+        "isNew": false
+      },
+      {
         "title": "Arch-specific SIMD in Go",
         "link": "https://go.dev/blog/archsimd",
         "summary": "The Go Blog\nArch-specific SIMD in Go\nSince Go 1.26, we have supported an experimental amd64 SIMD API. Now in Go 1.27, we support two more architectures: arm64 and wasm.\nThe new APIs can be accessed by setting GOEXPERIMENT=simd when building a program. They are defined in the simd/archsimd package.\narchsimd is the lower-level infrastructure that simd builds on, essentially the intrinsics layer in other languages. For exotic operations that only exist on a specific architecture, users can access them by transitioning from simd to archsimd (via ToArch and <Types>FromArch). For details, please refer to the simd blog post.\nFor readers with prior knowledge of SIMD intrinsics in other languages, you might find that our archsimd API does not directly mirror the underlying hardware instructions:\nWe give our APIs sensible names: e.g., instead of _mm512_slli_epi64, we just call it ShiftAllLeft.\nWe leave some architecture details to compiler optimizations rather than exposing them in the API: e.g., instead of _mm512_maskz_add_ps(m, x, y), we optimize x.Add(y).Masked(m) into the same instruction.\nThese design decisions make our APIs smaller and more accessible, and they also happily make the simd implementation much easier.\nFor readers without prior knowledge of SIMD intrinsics, we hope our low-level API is a natural and pleasant journey for you.\nPlease share your feedback and comments. Anything about usability, performance, etc., is appreciated. The parent issue for this project is…",
@@ -535,15 +544,6 @@
         "image": null,
         "source": "The Go Blog",
         "published": "2026-05-21T00:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "Type Construction and Cycle Detection",
-        "link": "https://go.dev/blog/type-construction-and-cycle-detection",
-        "summary": "The Go Blog\nType Construction and Cycle Detection\nGo’s static typing is an important part of why Go is a good fit for production\nsystems that have to be robust and reliable. When a Go package is compiled, it\nis first parsed—meaning that the Go source code within that package is converted\ninto an abstract syntax tree (or AST). This AST is then passed to the Go\ntype checker.\nIn this blog post, we’ll dive into a part of the type checker we significantly\nimproved in Go 1.26. How does this change things from a Go user’s perspective?\nUnless one is fond of arcane type definitions, there’s no observable change\nhere. This refinement was intended to reduce corner cases, setting us up for\nfuture improvements to Go. Also, it’s a fun look at something that seems quite\nordinary to Go programmers, but has some real subtleties hiding within.\nBut first, what exactly is type checking? It’s a step in the Go compiler that\neliminates whole classes of errors at compile time. Specifically, the Go type\nchecker verifies that:\nTypes appearing in the AST are valid (for example, a map’s key type must be\ncomparable).\nOperations involving those types (or their values) are valid (for example,\none can’t add an int and a string).\nTo accomplish this, the type checker constructs an internal representation for\neach type it encounters while traversing the AST—a process informally called\ntype construction.\nAs we’ll soon see, even though Go is known for its simple type system, type\nconstruction can be deceptively…",
-        "image": null,
-        "source": "The Go Blog",
-        "published": "2026-03-24T00:00:00.000Z",
         "isNew": false
       }
     ],
@@ -623,6 +623,15 @@
     ],
     "javascript": [
       {
+        "title": "Node.js 24.22.0 (LTS)",
+        "link": "https://nodejs.org/en/blog/release/v24.22.0",
+        "summary": "",
+        "image": null,
+        "source": "Node.js Blog",
+        "published": "2026-10-14T15:26:48.000Z",
+        "isNew": false
+      },
+      {
         "title": "Node.js 26.12.0 (Current)",
         "link": "https://nodejs.org/en/blog/release/v26.12.0",
         "summary": "",
@@ -683,15 +692,6 @@
         "image": null,
         "source": "Node.js Blog",
         "published": "2026-09-16T18:17:42.000Z",
-        "isNew": false
-      },
-      {
-        "title": "Node.js 26.8.2 (Current)",
-        "link": "https://nodejs.org/en/blog/release/v26.8.2",
-        "summary": "",
-        "image": null,
-        "source": "Node.js Blog",
-        "published": "2026-09-09T16:09:17.000Z",
         "isNew": false
       }
     ]
