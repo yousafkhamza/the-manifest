@@ -1,6 +1,6 @@
 {
   "date": "2026-10-15",
-  "generatedAt": "2026-10-15T09:53:59.014Z",
+  "generatedAt": "2026-10-15T15:37:04.598Z",
   "totalArticles": 72,
   "ticker": [
     {
@@ -105,15 +105,6 @@
     ],
     "azure": [
       {
-        "title": "Deep dive into Azure Maia 300 architecture",
-        "link": "https://azure.microsoft.com/en-us/blog/deep-dive-into-azure-maia-300-architecture/",
-        "summary": "Maia 300 operates as a single platform to meet the demands of cloud-scale agentic inference.\nThe post Deep dive into Azure Maia 300 architecture appeared first on Microsoft Azure Blog.",
-        "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/10/Maia-300-SoC.webp",
-        "source": "Microsoft Azure Blog",
-        "published": "2026-10-12T13:00:00.000Z",
-        "isNew": false
-      },
-      {
         "title": "AI transformation across the infrastructure lifecycle: From supply chain to fleet operations",
         "link": "https://azure.microsoft.com/en-us/blog/ai-transformation-across-the-infrastructure-lifecycle-from-supply-chain-to-fleet-operations/",
         "summary": "The opportunity is bigger than making individual tasks faster. It’s to build a system that learns from how infrastructure is designed, sourced, and operated.\nThe post AI transformation across the infrastructure lifecycle: From supply chain to fleet operations appeared first on Microsoft Azure Blog.",
@@ -174,6 +165,15 @@
         "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/09/foundry-agent-loop-v2.webp",
         "source": "Microsoft Azure Blog",
         "published": "2026-09-24T18:00:00.000Z",
+        "isNew": false
+      },
+      {
+        "title": "Your architecture diagram is not your resilience",
+        "link": "https://azure.microsoft.com/en-us/blog/your-architecture-diagram-is-not-your-resilience/",
+        "summary": "For years, resilience was something you set up once. That kept the lights on, but it treated resilience as a project with an end date rather than a property you maintain.\nThe post Your architecture diagram is not your resilience appeared first on Microsoft Azure Blog.",
+        "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/06/CLO20b_team_at_work_office_001-scaled.jpg",
+        "source": "Microsoft Azure Blog",
+        "published": "2026-09-23T16:00:00.000Z",
         "isNew": false
       }
     ],
@@ -259,7 +259,7 @@
         "image": "https://kubernetes.io/blog/2026/10/14/tracing-kueue-admission-with-headlamp/kueue-admission-architecture.svg",
         "source": "Kubernetes Blog",
         "published": "2026-10-14T18:35:00.000Z",
-        "isNew": true
+        "isNew": false
       },
       {
         "title": "The Shift to cgroup v2 in Kubernetes: What You Need to Know",
