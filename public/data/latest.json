@@ -1,6 +1,6 @@
 {
   "date": "2026-10-15",
-  "generatedAt": "2026-10-15T15:37:04.598Z",
+  "generatedAt": "2026-10-15T20:20:18.565Z",
   "totalArticles": 72,
   "ticker": [
     {
@@ -21,7 +21,7 @@
     },
     {
       "label": "Rust",
-      "version": "1.99.0"
+      "version": "1.99.1"
     },
     {
       "label": "Node.js",
@@ -179,6 +179,15 @@
     ],
     "gcp": [
       {
+        "title": "October 15, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#October_15_2026",
+        "summary": "Apigee Edge for Public Cloud\nAnnouncement\nOn October 15, 2026, we began releasing Single Sign-On (SSO) updates for Apigee\nEdge for Public Cloud.\nFixed\nBug ID\nComponent\nDescription\n\n\n\n\n560310696\nSSO\nFixed an issue where the Portal SSO endpoint inadvertently accepted deprecated TLS 1.1 connections. The endpoint now strictly enforces TLS 1.2+.\n\n\n\nApigee Integrated Portal\nAnnouncement\nOn October 15, 2026, we released a new version of the Apigee integrated portal.\nFixed\nBug ID\nDescription\n\n\n\n\n560310696\nFixed an issue where the Portal SSO endpoint inadvertently accepted deprecated TLS 1.1 connections. The endpoint now strictly enforces TLS 1.2+.\n\n\n\nCompute Engine\nFeature\nPreview: You can create regional disks, including Hyperdisk Balanced High Availability volumes, by\ncloning a zonal boot disk.\nFor more information, see\nDuplicate a disk with clones.",
+        "image": null,
+        "source": "Google Cloud Platform (GCP) - Release notes",
+        "published": "2026-10-15T07:00:00.000Z",
+        "isNew": false
+      },
+      {
         "title": "October 14, 2026",
         "link": "https://docs.cloud.google.com/release-notes#October_14_2026",
         "summary": "Apigee hybrid\nAnnouncement\nv1.16.11\nOn October 14, 2026 we released an updated version of the Apigee hybrid software, v1.16.11.\nFor information on upgrading, see Upgrading Apigee hybrid to version v1.16.11.\nFor information on new installations, see The big picture.\nNote: This is a patch release: The container images used in patch releases are integrated with the Apigee hybrid Helm charts. Upgrading to a patch via the Helm chart automatically updates the images. No manual image changes are typically needed. For information on container image support in Apigee hybrid releases, see Apigee release process.\nFixed\nFixed in this release\nBug ID\nDescription\n\n\n\n\n565072374\nFixed an issue where VerifyJWT policies using a JWKS uriRef could return steps.jwt.NoMatchingPublicKey on the first request after the 5-minute JWKS cache TTL expired when the identity provider rotated keys. The cache now refreshes synchronously upon expiration.\n\n\n556680325\nFixed a server-side request forgery (SSRF) vulnerability in URL host validation for the SemanticCacheLookup policy.\n\n\n535395491\nExtension Processor (ext_proc) denials now return the status and body that the policy or FaultRule produced, instead of always returning HTTP 500.\n\n\n513032450\nFixed an issue where apigee-connect-agent control-plane connections could hang for up to 2 hours when silently dropped by a network intermediary by restoring a 15-second TCP keep-alive.\n\n\n502540992\nFixed an issue where the SemanticCacheLookup policy was incompatible…",
@@ -239,15 +248,6 @@
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-10-08T07:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "October 07, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#October_07_2026",
-        "summary": "Anti Money Laundering AI\nAnnouncement\nNew minor engine version released for the commercial line of business within the v004.005 version line (aml-commercial.default.v004.005.202609-000). This version extends support for the major engine version and includes no significant changes compared to the previous minor version.\nApigee hybrid\nAnnouncement\nv1.14.9\nOn October 7, 2026 we released an updated version of the Apigee hybrid software, v1.14.9.\nFor information on upgrading, see Upgrading Apigee hybrid to version v1.14.9.\nFor information on new installations, see The big picture.\nNote: This is a patch release: The container images used in patch releases are integrated with the Apigee hybrid Helm charts. Upgrading to a patch via the Helm chart automatically updates the images. No manual image changes are typically needed. For information on container image support in Apigee hybrid releases, see Apigee release process.\nFixed\nFixed in this release\nBug ID\nDescription\n\n\n\n\n565072374\nFixed an issue where VerifyJWT policies using a JWKS uriRef could return steps.jwt.NoMatchingPublicKey on the first request after the 5-minute JWKS cache TTL expired when the identity provider rotated keys. The cache now refreshes synchronously upon expiration.\n\n\n564969400\nFixed an issue where variables initialized from an empty <Value/> element in AssignMessage (AssignVariable) were not treated as empty strings when referenced in message template functions such as replaceAll.\n\n\n558888960\nFixed an issue in…",
-        "image": null,
-        "source": "Google Cloud Platform (GCP) - Release notes",
-        "published": "2026-10-07T07:00:00.000Z",
         "isNew": false
       }
     ],
@@ -549,6 +549,15 @@
     ],
     "rust": [
       {
+        "title": "Announcing Rust 1.99.1",
+        "link": "https://blog.rust-lang.org/2026/10/15/Rust-1.99.1/",
+        "summary": "The Rust team has published a new point release of Rust, 1.99.1. Rust is a programming language that is empowering everyone to build reliable and efficient software.\nIf you have a previous version of Rust installed via rustup, getting Rust 1.99.1 is as easy as:\nrustup update stable\nIf you don't have it already, you can get rustup from the appropriate page on our website.\n\nWhat's in 1.99.1\nRust 1.99.1 fixes the following regressions from prior releases:\nMissing symbol wcslen: Some Rust targets were getting link errors for missing wcslen, and that function is now present in Rust's compiler-builtins library as a fallback.\nThe LLVM loop-idiom-wcslen pass may introduce calls to wcslen as an optimization, and some Rust targets did not have that function readily available in libc or elsewhere. The UEFI targets in particular were broken for any project using std, as some of these calls were introduced in the precompiled standard library, but the issue was also reproducible for similar user code patterns.\nMiscompilation of FFI bool return values on x86_64: Rust functions returning bool through FFI could leave bits 1-7 of the return register unspecified, causing callers to observe raw values other than 0 or 1. This return type is now marked for zero-extension again, as required by the ABI.\nrust-lld failed to load libLLVM on macOS: This linker could fail to run if the compiler was invoked without the rustup proxy, as there was no direct setting for the appropriate library search path.…",
+        "image": null,
+        "source": "Rust Blog",
+        "published": "2026-10-15T00:00:00.000Z",
+        "isNew": false
+      },
+      {
         "title": "Demoting i686 Windows targets to std-only",
         "link": "https://blog.rust-lang.org/2026/10/02/demoting-i686-windows-targets-to-std-only/",
         "summary": "With Rust 1.100.0, the following changes to 32-bit Windows targets will happen:\ni686-pc-windows-msvc Tier 1 with host tools target will be demoted to Tier 1 without host tools.\ni686-pc-windows-gnu Tier 2 with host tools target will be demoted to Tier 2 without host tools.\nBuilds of the standard library will continue to be distributed, but host tools such as the compiler will be no longer available. i686-pc-windows-msvc as a Tier 1 target still undergoes CI testing.\nTo build 32-bit Windows binaries, cross-compiling from a still-supported host toolchain (such as a 64-bit Windows ones) will be required from now on.\n\nBackground\nDesktop and Server 32-bit only x86 CPUs are no longer sold for over 15 years, and general 32-bit Windows support has ended in October 2025. This means that the development platforms these targets are meant for hardly exist these days, and even if they do exist they typically aren't capable enough for development.\nEven on the modern x86_64 hardware, building i686 Windows toolchains has proven to be problematic. We have encountered compiler binaries crashing when built with the i686 MSVC target, and the GNU C++ toolchain failing with OOMs during LLVM build.\nConsidering all these things, cross-compiling these targets from a better supported one is what we have found to be the best solution forward. As part of that, we stopped producing host tools for these targets. For the time being, the prebuilt standard library is still available, and in case of…",
@@ -609,15 +618,6 @@
         "image": null,
         "source": "Rust Blog",
         "published": "2026-09-03T00:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "Announcing rustup 1.29.1",
-        "link": "https://blog.rust-lang.org/2026/09/01/Rustup-1.29.1/",
-        "summary": "The rustup team is happy to announce the release of rustup version 1.29.1.\nRustup is the recommended tool to install Rust, a\nprogramming language that empowers everyone to build reliable and efficient\nsoftware.\n\nWhat's new in rustup 1.29.1\nThe headlines of this release are:\nConcurrency in certain rustup operations has been improved:\nWhen running rustup update, rustup will first check for possible updates in parallel. pr#4752\nWhen running rustup component add with multiple components, they will be installed concurrently. pr#4790\nImplicit installation of the active toolchain in rustup-init and rustup invocations has\nbeen deprecated where deemed unnecessary and will now produce a warning. pr#4840\nPlease see our\nblog post\nfor more details regarding this change.\nrustup doc now supports the --serve flag which allows serving the docs over local HTTP.\nThis should help users with containerized browser and/or rustup setups. pr#4986\nInstalling i686-pc-windows-* host toolchains on 64-bit Windows now requires --force-non-host.\npr#4935\nrustup-init will no longer leave unexpected files on disk after cancelled installations. pr#4996\nA bug has been fixed which might cause Windows installation to fail when using rustup-init.sh.\npr#4756\n\"Target triple\" has been renamed to \"target tuple\" across the project to reflect the\nnew terminology.\npr#4743 pr#4827 pr#4834\nPlease note that this is not a breaking change in the CLI since the existing\noptions such as --target are not using this terminology.…",
-        "image": null,
-        "source": "Rust Blog",
-        "published": "2026-09-01T00:00:00.000Z",
         "isNew": false
       }
     ],
