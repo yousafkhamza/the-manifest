@@ -1,6 +1,6 @@
 {
   "date": "2026-10-16",
-  "generatedAt": "2026-10-16T15:23:22.831Z",
+  "generatedAt": "2026-10-16T19:57:38.627Z",
   "totalArticles": 72,
   "ticker": [
     {
@@ -179,6 +179,15 @@
     ],
     "gcp": [
       {
+        "title": "October 16, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#October_16_2026",
+        "summary": "Dialogflow\nFeature\ngemini-3.5-flash-lite has become generally available (GA). See\nGenerative quotas\nfor how to request quota for Gemini 3 and later models.\nGemini Enterprise\nFeature\nGemini Enterprise: Connect workflows in Workflow Builder to\nConfluence Data Center and Jira Data Center\nYou can connect workflows in Workflow Builder to Confluence Data Center and\nJira Data Center to search data and automate actions across these third-party\napps.\nFor more information, see Workflows\noverview.\nVertex AI Search\nChange\nAgent Search: Update to the stable model\nThe stable model for answer generation is updated to\ngemini-3.5-flash/answer_gen/v1 from gemini-2.5-flash/answer_gen/v1.\nFor more information, see Answer generation model versions and\nlifecycle.",
+        "image": null,
+        "source": "Google Cloud Platform (GCP) - Release notes",
+        "published": "2026-10-16T07:00:00.000Z",
+        "isNew": false
+      },
+      {
         "title": "October 15, 2026",
         "link": "https://docs.cloud.google.com/release-notes#October_15_2026",
         "summary": "Apigee Edge for Private Cloud\nAnnouncement\nReleased Apigee Edge for Private Cloud 4.54.00.\nDesignated Apigee Edge for Private Cloud 4.54.00.00 a long-term support (LTS)\nrelease: 18 months of full support ending April 2028, then 18 months of\nmaintenance ending October 2029. After October 2029, 4.54.00.00 receives no\nsoftware updates, security mitigations, or technical support.\nInstalling a later 4.54 minor release or patch does not change those dates. To\nextend the support lifecycle, upgrade to the next LTS release.\nFor the support lifecycle phases, release cadences, and version numbering, see\nApigee Edge for Private Cloud release and lifecycle policy.\nAnnouncement\nThis release replaces Java 8 with Java 17 and Java 21, removes the Classic UI\nand the apigee-sso component, and updates the bundled Cassandra, Postgres,\nOpenLDAP, ZooKeeper, Qpid Broker-J, Nginx, and Consul versions. These changes\nare not backward-compatible.\nFor the 4.54.00 versions and the 4.53.01 versions they replace, see\nSupported software and supported versions.\nBefore upgrading, read\nChanges in Edge for Private Cloud 4.54.00,\nthen\nUpdate Apigee Edge 4.53.00 or 4.53.01 to 4.54.00\nor\nNew installation overview.\nFor known issues, see\nKnown issues with Edge for Private Cloud.\nAnnouncement\nReplaced the Classic UI (edge-ui) with the\nNew Edge UI\n(edge-management-ui).\nThe New Edge UI is the only management UI in 4.54.00 and is installed by\ndefault. Deployments running the Classic UI must transition to it before…",
@@ -239,15 +248,6 @@
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-10-09T07:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "October 08, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#October_08_2026",
-        "summary": "Cloud SQL for MySQL\nFeature\nCloud SQL for MySQL now supports the\ninnodb_cloudsql_managed_buffer_pool_tuneup_pct database flag.\nManaged buffer pool automatically adjusts the InnoDB buffer pool size to reduce\nout-of-memory events. When instance memory usage remains at or below 70% for 10\nminutes or longer after prior reductions, Cloud SQL increases the buffer pool\nsize. You can now use the innodb_cloudsql_managed_buffer_pool_tuneup_pct flag\nto change this 70% threshold to a different percentage. Increase the threshold\nto restore the InnoDB buffer pool size when baseline usage exceeds 70%, or\ndecrease it to preserve additional RAM allocation for memory spikes.\nThis flag requires the Cloud SQL maintenance version\nMYSQL_VERSION.R20260726.00_05\nor later. For more information, see Enable managed buffer\npool.\nFeature\nCloud SQL for MySQL supports blue-green deployments\n(Preview).\nBlue-green deployments let you update databases—such as performing major\nversion upgrades from MySQL 8.0 to 8.4 and staging hardware or configuration\nmodifications—while minimizing downtime. During a blue-green deployment,\nCloud SQL creates a separate staging environment (green) that mirrors your\nexisting production environment (blue) and maintains continuous logical\nreplication from blue to green. You can test application compatibility and\nperformance on the green environment without affecting production traffic, and\nthen trigger a switchover to the green environment with minimal application\ndowntime.\nFor…",
-        "image": null,
-        "source": "Google Cloud Platform (GCP) - Release notes",
-        "published": "2026-10-08T07:00:00.000Z",
         "isNew": false
       }
     ],
@@ -475,6 +475,15 @@
     ],
     "go": [
       {
+        "title": "Interactive refactoring in gopls",
+        "link": "https://go.dev/blog/interactive-refactoring",
+        "summary": "The Go Blog\nInteractive refactoring in gopls\n pre:nth-of-type(1) { background: var(--color-diff-old); }\n#content .beforeafter > pre:nth-of-type(2) { background: var(--color-diff-new); }\n.beforeafter-arrow {\n  place-self: center;\n  margin: -0.5em;\n}\n.beforeafter-arrow::before {\n  content: \"⟶\";\n  @media screen and (max-width: 57.7rem) {\n    content: \"⇓\";\n  }\n}\n#blog #content .blog-image,\n#content .blog-image {\n  max-width: 60%;\n  height: auto;\n  border-radius: 6px;\n  box-shadow: 0 4px 12px rgba(0,0,0,0.1);\n  margin: 1em auto;\n  display: block;\n}\n\nWhen editing code in a modern IDE or editor, developers rely on its refactoring\nfeatures to automate common transformations. Today, we are excited to introduce\ninteractive refactoring in gopls, powered by a new capability we are\nproposing for the Language Server Protocol (LSP)\nthat brings dynamic, multi-step dialogs directly into your favorite editor.\nCrucially, we designed this capability (in collaboration with the Dart team)\nnot just for Go, but as an open standard for all programming languages and\neditor ecosystems. Working support is already available in gopls v0.24.0 and\nthe official Go extension for VS Code v0.56.0.\nWhat is the Language Server Protocol (LSP)?\nThe LSP is an open standard that decouples language-specific\nfeatures from specific text editors. As you navigate and edit code, your\neditor (such as VS Code, Neovim, or Emacs) and a language server (like gopls)\nengage in a continuous JSON-RPC exchange to provide features…",
+        "image": null,
+        "source": "The Go Blog",
+        "published": "2026-10-16T00:00:00.000Z",
+        "isNew": false
+      },
+      {
         "title": "Better HTTP/1 connection reuse",
         "link": "https://go.dev/blog/http-connection-reuse",
         "summary": "The Go Blog\nBetter HTTP/1 connection reuse\nTake a look at the following function:\nfunc getStatus(url string) (int, error) {\n    resp, err := http.Get(url)\n    if err != nil {\n        return 0, err\n    }\n    defer resp.Body.Close()\n    return resp.StatusCode, nil\n}\n\nIt sends a GET request to url and returns the HTTP status code.\nUsing HTTP/1 (GODEBUG=http2client=0), calling this function 100 times against\nindex.golang.org takes ~710 milliseconds on Go 1.26\non my machine. On Go 1.27, the same program takes ~150 milliseconds.\nThat is almost 5 times faster! How is such a drastic performance difference\npossible?\nThe cost of establishing HTTP connections\nTo understand the difference, consider what happens on the network when we make\nan HTTP request.\nGo’s net/http package supports HTTP/1.0, HTTP/1.1, and\nHTTP/2. All three run over TCP, and usually over TLS when talking to HTTPS\nendpoints. Making a request over a new connection looks something like this:\nTCP handshake (1 RTT): the client sends a SYN packet, the server\nreplies with SYN-ACK, and the client replies with ACK. Because the\nclient can send the first TLS message alongside that final ACK,\nestablishing the TCP connection takes 1 round-trip time (RTT).\nTLS handshake (2 RTT): next, a TLS handshake exchanges encryption keys\nand verifies the server’s identity; using TLS 1.2, this takes 2 RTT.\nHTTP request: with the keys exchanged, HTTP requests can finally be sent\nafter a total of 3 RTT.\nThese round trips (plus some CPU time…",
@@ -535,15 +544,6 @@
         "image": null,
         "source": "The Go Blog",
         "published": "2026-08-19T00:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "Introducing the pkg.go.dev API",
-        "link": "https://go.dev/blog/pkgsite-api",
-        "summary": "The Go Blog\nIntroducing the pkg.go.dev API\nSince its inception, pkg.go.dev has established itself as\nthe Go community’s primary resource for package documentation and discovery.\nWhile we initially prioritized creating a comprehensive and highly accessible\nweb interface for users, the need for programmatic access has become\nincreasingly clear. Developers building tools, IDE integrations, and automated\nworkflows have historically relied on fragile workarounds like web scraping to\naccess this data. To better address these evolving requirements, we are now\nexpanding our platform to provide robust, direct access to the information our\ncommunity needs.\nToday, we are excited to introduce the official\npkg.go.dev API — a service interface for querying\nmetadata about published Go modules. This launch is a direct response to\nyears of community feedback. Furthermore, the need for a formalized\ninterface has become even more acute with the rise of AI-assisted coding.\nTools can now access the specific, high-fidelity context needed to reason\nabout the Go ecosystem with greater precision.\nThe service interface\nBuilt for stability and efficient caching, the API uses a stateless, GET-only\narchitecture. Primary endpoints are currently hosted under the /v1beta path.\nFollowing a period of community feedback and confirmed stability, we intend to\ntransition toward a formal v1 release.\nFor a complete interactive reference of all endpoints, query parameters, and\nresponse shapes, see the…",
-        "image": null,
-        "source": "The Go Blog",
-        "published": "2026-05-21T00:00:00.000Z",
         "isNew": false
       }
     ],
