@@ -1,6 +1,6 @@
 {
   "date": "2026-10-16",
-  "generatedAt": "2026-10-16T09:47:59.634Z",
+  "generatedAt": "2026-10-16T15:23:22.831Z",
   "totalArticles": 72,
   "ticker": [
     {
@@ -111,7 +111,7 @@
         "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/10/image.jpg",
         "source": "Microsoft Azure Blog",
         "published": "2026-10-14T19:00:00.000Z",
-        "isNew": true
+        "isNew": false
       },
       {
         "title": "Advancing hardware security with open-source Integrated HSM technology",
@@ -120,7 +120,7 @@
         "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/10/image-2-1.webp",
         "source": "Microsoft Azure Blog",
         "published": "2026-10-13T16:15:00.000Z",
-        "isNew": true
+        "isNew": false
       },
       {
         "title": "Infrastructure for the frontier era: Scaling intelligence through open industry collaboration",
@@ -129,7 +129,7 @@
         "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/10/Phoenix-Data-Center-Shoot-2026_Stills-2-1-scaled.webp",
         "source": "Microsoft Azure Blog",
         "published": "2026-10-13T16:15:00.000Z",
-        "isNew": true
+        "isNew": false
       },
       {
         "title": "Deep dive into Azure Maia 300 architecture",
@@ -138,7 +138,7 @@
         "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/10/Maia-300-SoC.webp",
         "source": "Microsoft Azure Blog",
         "published": "2026-10-12T13:00:00.000Z",
-        "isNew": true
+        "isNew": false
       },
       {
         "title": "AI transformation across the infrastructure lifecycle: From supply chain to fleet operations",
@@ -181,7 +181,7 @@
       {
         "title": "October 15, 2026",
         "link": "https://docs.cloud.google.com/release-notes#October_15_2026",
-        "summary": "Apigee Edge for Public Cloud\nAnnouncement\nOn October 15, 2026, we began releasing Single Sign-On (SSO) updates for Apigee\nEdge for Public Cloud.\nFixed\nBug ID\nComponent\nDescription\n\n\n\n\n560310696\nSSO\nFixed an issue where the Portal SSO endpoint inadvertently accepted deprecated TLS 1.1 connections. The endpoint now strictly enforces TLS 1.2+.\n\n\n\nApigee Integrated Portal\nAnnouncement\nOn October 15, 2026, we released a new version of the Apigee integrated portal.\nFixed\nBug ID\nDescription\n\n\n\n\n560310696\nFixed an issue where the Portal SSO endpoint inadvertently accepted deprecated TLS 1.1 connections. The endpoint now strictly enforces TLS 1.2+.\n\n\n\nApigee X\nFixed\nBug ID\nDescription\n\n\n\n\n466116259\nUpdated the startup script for the managed instance group (MIG) that routes external traffic to Apigee. net.ipv4.ip_forward is now written to /etc/sysctl.d/, so an instance no longer stops forwarding traffic when a reboot or an OS update resets it. The script does not change unrelated iptables NAT rules. Instances pick up the change the next time they are restarted or recreated.\n\n\n\nBigQuery\nFeature\nYou can copy tables across\nregions. This\nfeature is now generally\navailable (GA).\nFeature\nYou can now use column aliases in\nGoogleSQL. This feature lets you define an alias for an expression in\nthe SELECT clause of a SQL query and immediately reference that alias within\nthe same SELECT list or in the WHERE clause of the same query block.\nColumn aliases also streamline the migration of workloads…",
+        "summary": "Apigee Edge for Private Cloud\nAnnouncement\nReleased Apigee Edge for Private Cloud 4.54.00.\nDesignated Apigee Edge for Private Cloud 4.54.00.00 a long-term support (LTS)\nrelease: 18 months of full support ending April 2028, then 18 months of\nmaintenance ending October 2029. After October 2029, 4.54.00.00 receives no\nsoftware updates, security mitigations, or technical support.\nInstalling a later 4.54 minor release or patch does not change those dates. To\nextend the support lifecycle, upgrade to the next LTS release.\nFor the support lifecycle phases, release cadences, and version numbering, see\nApigee Edge for Private Cloud release and lifecycle policy.\nAnnouncement\nThis release replaces Java 8 with Java 17 and Java 21, removes the Classic UI\nand the apigee-sso component, and updates the bundled Cassandra, Postgres,\nOpenLDAP, ZooKeeper, Qpid Broker-J, Nginx, and Consul versions. These changes\nare not backward-compatible.\nFor the 4.54.00 versions and the 4.53.01 versions they replace, see\nSupported software and supported versions.\nBefore upgrading, read\nChanges in Edge for Private Cloud 4.54.00,\nthen\nUpdate Apigee Edge 4.53.00 or 4.53.01 to 4.54.00\nor\nNew installation overview.\nFor known issues, see\nKnown issues with Edge for Private Cloud.\nAnnouncement\nReplaced the Classic UI (edge-ui) with the\nNew Edge UI\n(edge-management-ui).\nThe New Edge UI is the only management UI in 4.54.00 and is installed by\ndefault. Deployments running the Classic UI must transition to it before…",
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-10-15T07:00:00.000Z",
@@ -235,7 +235,7 @@
       {
         "title": "October 09, 2026",
         "link": "https://docs.cloud.google.com/release-notes#October_09_2026",
-        "summary": "BigQuery\nFeature\nThe BigQuery Data Engineering Agent\nis now available in the asia-northeast1 (Tokyo) regional endpoint and supports\nthe gemini-3.5-flash model. For more information, see\nWhere Gemini in BigQuery processes your data.\nThis feature is\nGenerally Available\n(GA).\nCloud SQL for MySQL\nFeature\nNote: Near real-time sync upon Knowledge Catalog (KC) enablement isn't available for existing instances created before April 18, 2026. For more information, see the release note from October 14, 2026.\n\nWhen you enable Knowledge Catalog (formerly Dataplex Universal Catalog)\nintegration on an eligible Cloud SQL for MySQL instance created before April 18,\n2026 where the integration is currently turned off, the instance now syncs schema\nand metadata updates to Knowledge Catalog in near real-time instead of once a day\n(instances created on or after April 18, 2026 have near real-time sync enabled by\ndefault).\nThis feature is available for instances running MySQL version 8.0 or later on the\nnew network architecture.\nIf Knowledge Catalog integration is already enabled on the instance with\nonce-a-day updates, you can deactivate\nand re-enable the integration to switch to near real-time updates.\nFor more information, see\nEnable the integration of Knowledge Catalog on an existing Cloud SQL instance.\nCloud SQL for PostgreSQL\nFeature\nNote: Near real-time sync upon Knowledge Catalog (KC) enablement isn't available for existing instances created before April 18, 2026. For more information, see…",
+        "summary": "Access Approval\nFeature\nDatabase Migration Service is generally available\n(GA).\nAccess Transparency\nFeature\nDatabase Migration Service is generally available\n(GA).\nBigQuery\nFeature\nThe BigQuery Data Engineering Agent\nis now available in the asia-northeast1 (Tokyo) regional endpoint and supports\nthe gemini-3.5-flash model. For more information, see\nWhere Gemini in BigQuery processes your data.\nThis feature is\nGenerally Available\n(GA).\nCloud SQL for MySQL\nFeature\nNote: Near real-time sync upon Knowledge Catalog (KC) enablement isn't available for existing instances created before April 18, 2026. For more information, see the release note from October 14, 2026.\n\nWhen you enable Knowledge Catalog (formerly Dataplex Universal Catalog)\nintegration on an eligible Cloud SQL for MySQL instance created before April 18,\n2026 where the integration is currently turned off, the instance now syncs schema\nand metadata updates to Knowledge Catalog in near real-time instead of once a day\n(instances created on or after April 18, 2026 have near real-time sync enabled by\ndefault).\nThis feature is available for instances running MySQL version 8.0 or later on the\nnew network architecture.\nIf Knowledge Catalog integration is already enabled on the instance with\nonce-a-day updates, you can deactivate\nand re-enable the integration to switch to near real-time updates.\nFor more information, see\nEnable the integration of Knowledge Catalog on an existing Cloud SQL instance.\nCloud SQL for PostgreSQL…",
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-10-09T07:00:00.000Z",
