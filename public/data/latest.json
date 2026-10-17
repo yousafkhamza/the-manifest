@@ -1,6 +1,6 @@
 {
-  "date": "2026-10-16",
-  "generatedAt": "2026-10-16T19:57:38.627Z",
+  "date": "2026-10-17",
+  "generatedAt": "2026-10-17T09:20:26.852Z",
   "totalArticles": 72,
   "ticker": [
     {
@@ -105,6 +105,15 @@
     ],
     "azure": [
       {
+        "title": "Evolving the cloud-native foundation for the next generation of AI",
+        "link": "https://azure.microsoft.com/en-us/blog/evolving-the-cloud-native-foundation-for-the-next-generation-of-ai/",
+        "summary": "Discover how Azure is advancing cloud-native infrastructure to help organizations build, run, and optimize applications and agents at scale.\nThe post Evolving the cloud-native foundation for the next generation of AI appeared first on Microsoft Azure Blog.",
+        "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/10/CLO20b_Madeleine_office_009-1024x683.jpg",
+        "source": "Microsoft Azure Blog",
+        "published": "2026-10-15T16:00:00.000Z",
+        "isNew": true
+      },
+      {
         "title": "Microsoft named a Leader in the 2026 Gartner® Magic Quadrant™ for Server Virtualization Platforms",
         "link": "https://azure.microsoft.com/en-us/blog/microsoft-named-a-leader-in-the-2026-gartner-magic-quadrant-for-server-virtualization-platforms/",
         "summary": "We're building operational consistency through Azure and Azure Arc, and infrastructure consistency through Hyper-V.\nThe post Microsoft named a Leader in the 2026 Gartner® Magic Quadrant™ for Server Virtualization Platforms appeared first on Microsoft Azure Blog.",
@@ -166,22 +175,13 @@
         "source": "Microsoft Azure Blog",
         "published": "2026-09-30T15:00:00.000Z",
         "isNew": false
-      },
-      {
-        "title": "SQL Server on Azure Local is now generally available",
-        "link": "https://www.microsoft.com/en-us/sql-server/blog/2026/09/28/sql-server-on-azure-local-is-now-generally-available/",
-        "summary": "With SQL Server on Azure Local, customers can modernize where their data resides while maintaining control over infrastructure, connectivity, and data placement.\nThe post SQL Server on Azure Local is now generally available appeared first on Microsoft Azure Blog.",
-        "image": null,
-        "source": "Microsoft Azure Blog",
-        "published": "2026-09-29T16:40:06.000Z",
-        "isNew": false
       }
     ],
     "gcp": [
       {
         "title": "October 16, 2026",
         "link": "https://docs.cloud.google.com/release-notes#October_16_2026",
-        "summary": "Dialogflow\nFeature\ngemini-3.5-flash-lite has become generally available (GA). See\nGenerative quotas\nfor how to request quota for Gemini 3 and later models.\nGemini Enterprise\nFeature\nGemini Enterprise: Connect workflows in Workflow Builder to\nConfluence Data Center and Jira Data Center\nYou can connect workflows in Workflow Builder to Confluence Data Center and\nJira Data Center to search data and automate actions across these third-party\napps.\nFor more information, see Workflows\noverview.\nVertex AI Search\nChange\nAgent Search: Update to the stable model\nThe stable model for answer generation is updated to\ngemini-3.5-flash/answer_gen/v1 from gemini-2.5-flash/answer_gen/v1.\nFor more information, see Answer generation model versions and\nlifecycle.",
+        "summary": "BigQuery\nFeature\nConversational analytics in BigQuery\nis now available in the following locations:\nnorthamerica-northeast1 (Montréal)\nnorthamerica-northeast2 (Toronto)\nFor more information, see\nLocations.\nDialogflow\nFeature\ngemini-3.5-flash-lite has become generally available (GA). See\nGenerative quotas\nfor how to request quota for Gemini 3 and later models.\nGemini Enterprise\nFeature\nGemini Enterprise: Configure citations for custom MCP data stores\nYou can configure the citation_mappings parameter for custom Model Context\nProtocol (MCP) data stores using the REST API to display source citation chips\nwhen Gemini Enterprise answers questions using tools on your custom MCP server.\nThis feature is generally available (GA).\nFor more information, see Configure citations for custom MCP data\nstores.\nFeature\nGemini Enterprise: Connect workflows in Workflow Builder to\nConfluence Data Center and Jira Data Center\nYou can connect workflows in Workflow Builder to Confluence Data Center and\nJira Data Center to search data and automate actions across these third-party\napps.\nFor more information, see Workflows\noverview.\nGoogle Kubernetes Engine\nChange\nFor GKE Standard CPU node pools, GKE can now upgrade nodes by updating the existing\nCompute Engine VM in place, instead of deleting the VM and creating a new one.\nBecause the node keeps its underlying VM, it also keeps its compute capacity\nduring the upgrade. This lowers the risk that a node upgrade fails or stalls\nbecause resources aren't…",
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-10-16T07:00:00.000Z",
