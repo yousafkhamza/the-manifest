@@ -1,6 +1,6 @@
 {
   "date": "2026-10-19",
-  "generatedAt": "2026-10-19T17:30:11.567Z",
+  "generatedAt": "2026-10-19T21:31:45.498Z",
   "totalArticles": 72,
   "ticker": [
     {
@@ -181,7 +181,7 @@
       {
         "title": "October 19, 2026",
         "link": "https://docs.cloud.google.com/release-notes#October_19_2026",
-        "summary": "Compute Engine\nFeature\nGenerally available: To prevent data loss or corruption when you stop or\ndelete a Compute Engine instance, you can enable graceful shutdown. This\nsetting gives the guest OS up to six hours to finish running tasks. For more\ninformation, see\nAbout graceful shutdown.\nGoogle Cloud Armor\nSecurity\nSecurity fixes and enhancements to Cloud Armor preconfigured WAF v33-stable\nrulesets. For more information, see Tuning Google Cloud Armor WAF\nrules.\nThe following rulesets have been updated:\nsqli-v33-stable\nxss-v33-stable\nlfi-v33-stable\nrfi-v33-stable\nrce-v33-stable\nmethodenforcement-v33-stable\nscannerdetection-v33-stable\nprotocolattack-v33-stable\nphp-v33-stable\nsessionfixation-v33-stable\njava-v33-stable\nnodejs-v33-stable\nSecurity\nSecurity fixes and enhancements to Cloud Armor preconfigured WAF stable\nrulesets for v3.0. For more information, see Tuning Google Cloud Armor WAF\nrules.\nThe following rulesets have been updated:\nsqli-stable\nxss-stable\nlfi-stable\nrfi-stable\nrce-stable\nmethodenforcement-stable\nscannerdetection-stable\nprotocolattack-stable\nphp-stable\nsessionfixation-stable",
+        "summary": "Compute Engine\nFeature\nGenerally available: To prevent data loss or corruption when you stop or\ndelete a Compute Engine instance, you can enable graceful shutdown. This\nsetting gives the guest OS up to six hours to finish running tasks. For more\ninformation, see\nAbout graceful shutdown.\nDialogflow\nFeature\nDialogflow CX: You can set the telephony_disable_voice_processing session parameter to true to turn off speech recognition and accept only DTMF input for the rest of the session. This helps in noisy environments, where speech recognition can transcribe background noise as end-user input. See Turn off speech recognition for telephony.\nGoogle Cloud Armor\nSecurity\nSecurity fixes and enhancements to Cloud Armor preconfigured WAF v33-stable\nrulesets. For more information, see Tuning Google Cloud Armor WAF\nrules.\nThe following rulesets have been updated:\nsqli-v33-stable\nxss-v33-stable\nlfi-v33-stable\nrfi-v33-stable\nrce-v33-stable\nmethodenforcement-v33-stable\nscannerdetection-v33-stable\nprotocolattack-v33-stable\nphp-v33-stable\nsessionfixation-v33-stable\njava-v33-stable\nnodejs-v33-stable\nSecurity\nSecurity fixes and enhancements to Cloud Armor preconfigured WAF stable\nrulesets for v3.0. For more information, see Tuning Google Cloud Armor WAF\nrules.\nThe following rulesets have been updated:\nsqli-stable\nxss-stable\nlfi-stable\nrfi-stable\nrce-stable\nmethodenforcement-stable\nscannerdetection-stable\nprotocolattack-stable\nphp-stable\nsessionfixation-stable\nSecurity Command Center\nFeature\nYou…",
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-10-19T07:00:00.000Z",
