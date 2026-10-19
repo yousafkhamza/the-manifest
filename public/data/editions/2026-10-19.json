@@ -1,6 +1,6 @@
 {
-  "date": "2026-10-12",
-  "generatedAt": "2026-10-12T23:37:26.695Z",
+  "date": "2026-10-19",
+  "generatedAt": "2026-10-19T10:45:56.326Z",
   "totalArticles": 72,
   "ticker": [
     {
@@ -9,7 +9,7 @@
     },
     {
       "label": "Terraform",
-      "version": "v1.16.5"
+      "version": "v1.16.6"
     },
     {
       "label": "Python",
@@ -21,15 +21,33 @@
     },
     {
       "label": "Rust",
-      "version": "1.99.0"
+      "version": "1.99.1"
     },
     {
       "label": "Node.js",
-      "version": "v26.11.1"
+      "version": "v26.12.0"
     }
   ],
   "topics": {
     "aws": [
+      {
+        "title": "Amazon S3 is now available on the Vercel Marketplace and v0 by Vercel",
+        "link": "https://aws.amazon.com/blogs/aws/amazon-s3-vercel-marketplace-v0/",
+        "summary": "Amazon Simple Storage Service (Amazon S3), including Amazon S3 Tables and Amazon S3 Vectors, is natively available on the Vercel Marketplace and v0 by Vercel.",
+        "image": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2026/10/06/screenshot-1-vercel-marketplace-aws.jpg",
+        "source": "AWS News Blog",
+        "published": "2026-10-14T19:30:48.000Z",
+        "isNew": false
+      },
+      {
+        "title": "AWS Weekly Roundup: Prime Day 2026 by the numbers, Claude Haiku 5.5, Amazon Nova 2.5 Sonic, and more (October 13, 2026)",
+        "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-prime-day-2026-by-the-numbers-claude-haiku-5-5-amazon-nova-2-5-sonic-and-more-october-13-2026/",
+        "summary": "Some numbers are hard to picture until you sit with them for a moment. Last week we published the Prime Day 2026 metrics, and the one that stuck with me is 2.3 quadrillion: the daily requests Amazon ElastiCache peaked at during the event. Prime Day ran back in June, so this post always lands as […]",
+        "image": null,
+        "source": "AWS News Blog",
+        "published": "2026-10-13T15:59:06.000Z",
+        "isNew": false
+      },
       {
         "title": "Announcing AWS Lambda Web Functions",
         "link": "https://aws.amazon.com/blogs/aws/announcing-aws-lambda-web-functions-for-fast-consistent-web-app-performance-anywhere/",
@@ -83,27 +101,45 @@
         "source": "AWS News Blog",
         "published": "2026-09-30T20:03:34.000Z",
         "isNew": false
-      },
-      {
-        "title": "Amazon Aurora PostgreSQL now supports direct querying of Apache Iceberg and Parquet data in your data lake",
-        "link": "https://aws.amazon.com/blogs/aws/amazon-aurora-postgresql-now-supports-direct-querying-of-apache-iceberg-and-parquet-data-in-your-data-lake/",
-        "summary": "Amazon Aurora PostgreSQL now lets you directly query Apache Iceberg and Parquet data stored in your data lake alongside live operational data—no ETL pipelines required. Powered by DuckDB embedded within Aurora, this capability enables single queries that join transactional and historical data using familiar PostgreSQL syntax. It supports AWS Glue Data Catalog, S3, and S3 Tables, with optimizations like predicate pushdown and caching for efficient performance.",
-        "image": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2026/09/24/1218110723436617-0c.png",
-        "source": "AWS News Blog",
-        "published": "2026-09-30T17:22:31.000Z",
-        "isNew": false
-      },
-      {
-        "title": "Celebrating Our Newest AWS Heroes – September 2026",
-        "link": "https://aws.amazon.com/blogs/aws/celebrating-our-newest-aws-heroes-september-2026/",
-        "summary": "Today, we’re excited to introduce the newest members of the AWS Heroes program. AWS Heroes are a vibrant, worldwide group of AWS experts who go above and beyond to share knowledge, mentor others, and build thriving communities. These individuals make a real difference in helping developers and organizations succeed with AWS. This month, we welcome […]",
-        "image": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2026/08/17/Avinash-Shashikant-Dalvi_175x263.jpg",
-        "source": "AWS News Blog",
-        "published": "2026-09-30T17:04:05.000Z",
-        "isNew": false
       }
     ],
     "azure": [
+      {
+        "title": "Evolving the cloud-native foundation for the next generation of AI",
+        "link": "https://azure.microsoft.com/en-us/blog/evolving-the-cloud-native-foundation-for-the-next-generation-of-ai/",
+        "summary": "Discover how Azure is advancing cloud-native infrastructure to help organizations build, run, and optimize applications and agents at scale.\nThe post Evolving the cloud-native foundation for the next generation of AI appeared first on Microsoft Azure Blog.",
+        "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/10/CLO20b_Madeleine_office_009-1024x683.jpg",
+        "source": "Microsoft Azure Blog",
+        "published": "2026-10-15T16:00:00.000Z",
+        "isNew": false
+      },
+      {
+        "title": "Microsoft named a Leader in the 2026 Gartner® Magic Quadrant™ for Server Virtualization Platforms",
+        "link": "https://azure.microsoft.com/en-us/blog/microsoft-named-a-leader-in-the-2026-gartner-magic-quadrant-for-server-virtualization-platforms/",
+        "summary": "We're building operational consistency through Azure and Azure Arc, and infrastructure consistency through Hyper-V.\nThe post Microsoft named a Leader in the 2026 Gartner® Magic Quadrant™ for Server Virtualization Platforms appeared first on Microsoft Azure Blog.",
+        "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/10/image.jpg",
+        "source": "Microsoft Azure Blog",
+        "published": "2026-10-14T19:00:00.000Z",
+        "isNew": false
+      },
+      {
+        "title": "Advancing hardware security with open-source Integrated HSM technology",
+        "link": "https://azure.microsoft.com/en-us/blog/advancing-hardware-security-with-open-source-integrated-hsm-technology/",
+        "summary": "Explore how Microsoft is advancing hardware security through open-source Integrated HSM technology, collaboration, and cryptographic key protection.\nThe post Advancing hardware security with open-source Integrated HSM technology appeared first on Microsoft Azure Blog.",
+        "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/10/image-2-1.webp",
+        "source": "Microsoft Azure Blog",
+        "published": "2026-10-13T16:15:00.000Z",
+        "isNew": false
+      },
+      {
+        "title": "Infrastructure for the frontier era: Scaling intelligence through open industry collaboration",
+        "link": "https://azure.microsoft.com/en-us/blog/infrastructure-for-the-frontier-era-scaling-intelligence-through-open-industry-collaboration/",
+        "summary": "AI is reaching such a pivotal moment, and the focus is shifting from building larger frontier models to intelligence that delivers practical impact.\nThe post Infrastructure for the frontier era: Scaling intelligence through open industry collaboration appeared first on Microsoft Azure Blog.",
+        "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/10/Phoenix-Data-Center-Shoot-2026_Stills-2-1-scaled.webp",
+        "source": "Microsoft Azure Blog",
+        "published": "2026-10-13T16:15:00.000Z",
+        "isNew": false
+      },
       {
         "title": "Deep dive into Azure Maia 300 architecture",
         "link": "https://azure.microsoft.com/en-us/blog/deep-dive-into-azure-maia-300-architecture/",
@@ -139,49 +175,58 @@
         "source": "Microsoft Azure Blog",
         "published": "2026-09-30T15:00:00.000Z",
         "isNew": false
-      },
-      {
-        "title": "SQL Server on Azure Local is now generally available",
-        "link": "https://www.microsoft.com/en-us/sql-server/blog/2026/09/28/sql-server-on-azure-local-is-now-generally-available/",
-        "summary": "With SQL Server on Azure Local, customers can modernize where their data resides while maintaining control over infrastructure, connectivity, and data placement.\nThe post SQL Server on Azure Local is now generally available appeared first on Microsoft Azure Blog.",
-        "image": null,
-        "source": "Microsoft Azure Blog",
-        "published": "2026-09-29T16:40:06.000Z",
-        "isNew": false
-      },
-      {
-        "title": "FabCon and SQLCon 2026 in Barcelona: Building the data foundation for Microsoft Copilot and agents",
-        "link": "https://azure.microsoft.com/en-us/blog/fabcon-and-sqlcon-2026-in-barcelona-building-the-data-foundation-for-microsoft-copilot-and-agents/",
-        "summary": "Microsoft Fabric and SQL innovations announced at FabCon and SQLCon Barcelona 2026 help organizations build trusted data foundations for AI.\nThe post FabCon and SQLCon 2026 in Barcelona: Building the data foundation for Microsoft Copilot and agents appeared first on Microsoft Azure Blog.",
-        "image": null,
-        "source": "Microsoft Azure Blog",
-        "published": "2026-09-29T06:30:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "Enhancing Microsoft Azure Virtual Machine lifecycle",
-        "link": "https://azure.microsoft.com/en-us/blog/enhancing-microsoft-azure-virtual-machine-lifecycle/",
-        "summary": "Our Virtual Machine Lifecycle policy guides how we manage these transitions, giving Azure customers transparency, predictability, and guidance.\nThe post Enhancing Microsoft Azure Virtual Machine lifecycle appeared first on Microsoft Azure Blog.",
-        "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/06/CLO20b_Evan_office_001-1-scaled.jpg",
-        "source": "Microsoft Azure Blog",
-        "published": "2026-09-28T15:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "Ship agents faster with expanded model choice, voice agents, and continuous optimization",
-        "link": "https://azure.microsoft.com/en-us/blog/ship-agents-faster-with-expanded-model-choice-voice-agents-and-continuous-optimization/",
-        "summary": "The best model for your business will keep changing. Adopting it should move your business forward, not send your team back to rebuild the architecture around it.\nThe post Ship agents faster with expanded model choice, voice agents, and continuous optimization appeared first on Microsoft Azure Blog.",
-        "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/09/foundry-agent-loop-v2.webp",
-        "source": "Microsoft Azure Blog",
-        "published": "2026-09-24T18:00:00.000Z",
-        "isNew": false
       }
     ],
     "gcp": [
       {
+        "title": "October 18, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#October_18_2026",
+        "summary": "Google SecOps\nFeature\nSpecify whether to reopen closed cases when the grouping is by Source Grouping Identifier\nYou can now specify whether Google SecOps reopens closed cases when grouping SOAR alerts by Source Grouping Identifier. When the option is enabled and a new alert is received with a source grouping identifier of a case that was previously closed in Google SecOps, then  Google SecOps reopens the case. For more information, see Configure alert grouping.",
+        "image": null,
+        "source": "Google Cloud Platform (GCP) - Release notes",
+        "published": "2026-10-18T07:00:00.000Z",
+        "isNew": true
+      },
+      {
+        "title": "October 16, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#October_16_2026",
+        "summary": "BigQuery\nFeature\nConversational analytics in BigQuery\nis now available in the following locations:\nnorthamerica-northeast1 (Montréal)\nnorthamerica-northeast2 (Toronto)\nFor more information, see\nLocations.\nDialogflow\nFeature\ngemini-3.5-flash-lite has become generally available (GA). See\nGenerative quotas\nfor how to request quota for Gemini 3 and later models.\nGemini Enterprise\nFeature\nGemini Enterprise: Configure citations for custom MCP data stores\nYou can configure the citation_mappings parameter for custom Model Context\nProtocol (MCP) data stores using the REST API to display source citation chips\nwhen Gemini Enterprise answers questions using tools on your custom MCP server.\nThis feature is generally available (GA).\nFor more information, see Configure citations for custom MCP data\nstores.\nFeature\nGemini Enterprise: Connect workflows in Workflow Builder to\nConfluence Data Center and Jira Data Center\nYou can connect workflows in Workflow Builder to Confluence Data Center and\nJira Data Center to search data and automate actions across these third-party\napps.\nFor more information, see Workflows\noverview.\nGoogle Cloud Contact Center as a Service\nAnnouncement\nAdvanced reporting dashboards prerelease notes 6.16\nHere are the pre-release notes for updates to the advanced reporting dashboards\nand other reporting in CCAI Platform. When we release these updates, we\nexpect the new capabilities to be as shown here.\nImportant: The next version of the advanced reporting dashboards could…",
+        "image": null,
+        "source": "Google Cloud Platform (GCP) - Release notes",
+        "published": "2026-10-16T07:00:00.000Z",
+        "isNew": false
+      },
+      {
+        "title": "October 15, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#October_15_2026",
+        "summary": "Apigee Edge for Private Cloud\nAnnouncement\nReleased Apigee Edge for Private Cloud 4.54.00.\nDesignated Apigee Edge for Private Cloud 4.54.00.00 a long-term support (LTS)\nrelease: 18 months of full support ending April 2028, then 18 months of\nmaintenance ending October 2029. After October 2029, 4.54.00.00 receives no\nsoftware updates, security mitigations, or technical support.\nInstalling a later 4.54 minor release or patch does not change those dates. To\nextend the support lifecycle, upgrade to the next LTS release.\nFor the support lifecycle phases, release cadences, and version numbering, see\nApigee Edge for Private Cloud release and lifecycle policy.\nAnnouncement\nThis release replaces Java 8 with Java 17 and Java 21, removes the Classic UI\nand the apigee-sso component, and updates the bundled Cassandra, Postgres,\nOpenLDAP, ZooKeeper, Qpid Broker-J, Nginx, and Consul versions. These changes\nare not backward-compatible.\nFor the 4.54.00 versions and the 4.53.01 versions they replace, see\nSupported software and supported versions.\nBefore upgrading, read\nChanges in Edge for Private Cloud 4.54.00,\nthen\nUpdate Apigee Edge 4.53.00 or 4.53.01 to 4.54.00\nor\nNew installation overview.\nFor known issues, see\nKnown issues with Edge for Private Cloud.\nAnnouncement\nReplaced the Classic UI (edge-ui) with the\nNew Edge UI\n(edge-management-ui).\nThe New Edge UI is the only management UI in 4.54.00 and is installed by\ndefault. Deployments running the Classic UI must transition to it before…",
+        "image": null,
+        "source": "Google Cloud Platform (GCP) - Release notes",
+        "published": "2026-10-15T07:00:00.000Z",
+        "isNew": false
+      },
+      {
+        "title": "October 14, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#October_14_2026",
+        "summary": "Anti Money Laundering AI\nAnnouncement\nNew minor engine version released for the commercial line of business within the v004.011 version line (aml-commercial.default.v004.011.202610-000). This version extends support for the major engine version and includes no significant changes compared to the previous minor version.\nApigee hybrid\nAnnouncement\nv1.16.11\nOn October 14, 2026 we released an updated version of the Apigee hybrid software, v1.16.11.\nFor information on upgrading, see Upgrading Apigee hybrid to version v1.16.11.\nFor information on new installations, see The big picture.\nNote: This is a patch release: The container images used in patch releases are integrated with the Apigee hybrid Helm charts. Upgrading to a patch via the Helm chart automatically updates the images. No manual image changes are typically needed. For information on container image support in Apigee hybrid releases, see Apigee release process.\nFixed\nFixed in this release\nBug ID\nDescription\n\n\n\n\n565072374\nFixed an issue where VerifyJWT policies using a JWKS uriRef could return steps.jwt.NoMatchingPublicKey on the first request after the 5-minute JWKS cache TTL expired when the identity provider rotated keys. The cache now refreshes synchronously upon expiration.\n\n\n556680325\nFixed a server-side request forgery (SSRF) vulnerability in URL host validation for the SemanticCacheLookup policy.\n\n\n535395491\nExtension Processor (ext_proc) denials now return the status and body that the policy or FaultRule…",
+        "image": null,
+        "source": "Google Cloud Platform (GCP) - Release notes",
+        "published": "2026-10-14T07:00:00.000Z",
+        "isNew": false
+      },
+      {
+        "title": "October 13, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#October_13_2026",
+        "summary": "BigQuery\nFeature\nThe\nAI.AGG function\nis\ngenerally available\n(GA). You can use this function to semantically aggregate unstructured input\ndata based on natural language instructions.\nFeature\nBigQuery generative AI functions\nnow support the gemini-4-argon model. This model is\ngenerally available.\nCloud Asset Inventory\nFeature\nThe following resource types are publicly available through the ExportAssets, ListAssets, BatchGetAssetsHistory, QueryAssets, Feed, and Search (SearchAllResources, SearchAllIamPolicies) APIs.\nCloud Service Mesh: networkservices.googleapis.com/AgentGateway\n\nCloud Billing\nFeature\nSpend cap budgets are now generally available for a limited set of services\nFor\neligible services,\nyou can configure a spend cap budget to automatically pause usage when your\nestimated spend exceeds the budget amount you set. You can manage spend cap\nbudgets in the\nBudgets page in the Google Cloud console\nand using the\nCloud Billing Budget API.\nSpend caps are a cost control mechanism. A spend cap is enforced when usage\ncosts exceed your budget target amount. When enforced, any new request to the\neligible services, within the specified project, are paused and no further\nusage costs are accrued until the spend cap is lifted. You can manually lift an\nenforced spend cap, or wait until the start of the next month when the\nspend cap is automatically lifted.\nSpend caps use gross, estimated costs to trigger the alerts and caps,\nenforcing a cap much faster than the actual costs are…",
+        "image": null,
+        "source": "Google Cloud Platform (GCP) - Release notes",
+        "published": "2026-10-13T07:00:00.000Z",
+        "isNew": false
+      },
+      {
         "title": "October 12, 2026",
         "link": "https://docs.cloud.google.com/release-notes#October_12_2026",
-        "summary": "Agent Platform Workbench\nChange\n20261011.00_p0 Release\nChange\nInstalled latest packages from upstream dependencies.\nFixed\nFixed an issue where gcloud and gsutil failed to load with an AttributeError in OpenSSL.crypto due to a version mismatch between pyOpenSSL and cryptography.\nChange\n20261011.00_p0 Release\nChange\nInstalled latest packages from upstream dependencies.\nFixed\nFixed an issue where gcloud and gsutil failed to load with an AttributeError in OpenSSL.crypto due to a version mismatch between pyOpenSSL and cryptography.\nBigQuery\nFeature\nIncremental data transfers for the BigQuery Data Transfer Service for\nPostgreSQL\nand\nServiceNow\nare now\ngenerally available\n(GA).\nCloud Build\nAnnouncement\nYou can now choose the release channel for your\nbuild config or private pool. The release channel determines how frequently the\nunderlying versions of Debian and Docker are updated.\nCloud DNS\nFeature\nOutbound Endpoints for Cloud DNS is available in Preview.\nAttach Outbound Endpoints to forwarding zones or server policies to\nenable direct DNS query forwarding from VPC networks to external\nand on-premises DNS resolvers using private IP addresses. For more information,\nsee Outbound Endpoints overview.\nCloud Load Balancing\nFeature\nRegular expression matchers in host and route rules in URL maps are now generally available (GA).\nYou can now use regular expressions (regex) matchers to configure more flexible and precise traffic routing rules within URL maps for Application Load Balancers.…",
+        "summary": "Agent Platform Workbench\nChange\n20261011.00_p0 Release\nChange\nInstalled latest packages from upstream dependencies.\nFixed\nFixed an issue where gcloud and gsutil failed to load with an AttributeError in OpenSSL.crypto due to a version mismatch between pyOpenSSL and cryptography.\nChange\n20261011.00_p0 Release\nChange\nInstalled latest packages from upstream dependencies.\nFixed\nFixed an issue where gcloud and gsutil failed to load with an AttributeError in OpenSSL.crypto due to a version mismatch between pyOpenSSL and cryptography.\nApplication Integration\nSecurity\nStarting October 15, 2026, Application Integration enforces security fixes for\nIAM, run-as service accounts, and iam.serviceAccounts.actAs checks, requiring\nthe correct permissions for the test feature and any new integrations. For more\ninformation, see the\nGCP-2026-067\nsecurity bulletin and\nPrepare for upcoming authorization changes.\nBackup for GKE\nChange\nBackup for GKE is now available in the following region: asia-southeast3 (Bangkok, Thailand). For more information, see Backup for GKE locations.\nBigQuery\nFeature\nIncremental data transfers for the BigQuery Data Transfer Service for\nPostgreSQL\nand\nServiceNow\nare now\ngenerally available\n(GA).\nCloud Build\nAnnouncement\nYou can now choose the release channel for your\nbuild config or private pool. The release channel determines how frequently the\nunderlying versions of Debian and Docker are updated.\nCloud DNS\nFeature\nOutbound Endpoints for Cloud DNS is available in…",
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-10-12T07:00:00.000Z",
@@ -190,7 +235,7 @@
       {
         "title": "October 11, 2026",
         "link": "https://docs.cloud.google.com/release-notes#October_11_2026",
-        "summary": "Agent Platform Workbench\nChange\n20261011-2230-rc0 Release\nChange\n20261011-2230-rc0 Release\nChange\nInstalled latest packages from upstream dependencies.\nFixed\nFixed an issue where gcloud and gsutil failed to load with an AttributeError in OpenSSL.crypto due to a version mismatch between pyOpenSSL and cryptography.\nFixed\nFixed an issue where gcloud and gsutil failed to load with an AttributeError in OpenSSL.crypto due to a version mismatch between pyOpenSSL and cryptography.\nChange\n20261011-2130-rc0 Release\nChange\nInstalled latest packages from upstream dependencies.",
+        "summary": "Agent Platform Workbench\nChange\n20261011-2230-rc0 Release\nChange\n20261011-2230-rc0 Release\nChange\nInstalled latest packages from upstream dependencies.\nChange\nInstalled latest packages from upstream dependencies.\nFixed\nFixed an issue where gcloud and gsutil failed to load with an AttributeError in OpenSSL.crypto due to a version mismatch between pyOpenSSL and cryptography.\nFixed\nFixed an issue where gcloud and gsutil failed to load with an AttributeError in OpenSSL.crypto due to a version mismatch between pyOpenSSL and cryptography.\nChange\n20261011-2130-rc0 Release\nChange\nInstalled latest packages from upstream dependencies.\nGoogle SecOps SOAR\nAnnouncement\nRelease 6.3.102 is being rolled out to the first phase of regions as listed\nhere.\nThis release contains internal and customer bug fixes.",
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-10-11T07:00:00.000Z",
@@ -199,59 +244,23 @@
       {
         "title": "October 10, 2026",
         "link": "https://docs.cloud.google.com/release-notes#October_10_2026",
-        "summary": "Cloud SQL for MySQL\nChange\nMySQL 8.0.46 is now the\ndefault minor version\nfor Cloud SQL for MySQL 8.0.\nFor more information about minor version support in Cloud SQL for MySQL,\nsee MySQL 8.0.",
+        "summary": "Cloud SQL for MySQL\nChange\nMySQL 8.0.46 is now the\ndefault minor version\nfor Cloud SQL for MySQL 8.0.\nFor more information about minor version support in Cloud SQL for MySQL,\nsee MySQL 8.0.\nGoogle SecOps SOAR\nAnnouncement\nRelease 6.3.101 is now\navailable for all regions.",
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-10-10T07:00:00.000Z",
         "isNew": false
-      },
-      {
-        "title": "October 09, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#October_09_2026",
-        "summary": "BigQuery\nFeature\nThe BigQuery Data Engineering Agent\nis now available in the asia-northeast1 (Tokyo) regional endpoint and supports\nthe gemini-3.5-flash model. For more information, see\nWhere Gemini in BigQuery processes your data.\nThis feature is\nGenerally Available\n(GA).\nCloud SQL for MySQL\nFeature\nWhen you enable Knowledge Catalog (formerly Dataplex Universal Catalog)\nintegration on an eligible Cloud SQL for MySQL instance created before April 18,\n2026 where the integration is currently turned off, the instance now syncs schema\nand metadata updates to Knowledge Catalog in near real-time instead of once a day\n(instances created on or after April 18, 2026 have near real-time sync enabled by\ndefault).\nThis feature is available for instances running MySQL version 8.0 or later on the\nnew network architecture.\nIf Knowledge Catalog integration is already enabled on the instance with\nonce-a-day updates, you can deactivate\nand re-enable the integration to switch to near real-time updates.\nFor more information, see\nEnable the integration of Knowledge Catalog on an existing Cloud SQL instance.\nCloud SQL for PostgreSQL\nFeature\nWhen you enable Knowledge Catalog (formerly Dataplex Universal Catalog)\nintegration on an eligible Cloud SQL for PostgreSQL instance created before\nApril 18, 2026 where the integration is currently turned off, the instance now\nsyncs schema and metadata updates to Knowledge Catalog in near real-time instead\nof once a day (instances created on or after April 18,…",
-        "image": null,
-        "source": "Google Cloud Platform (GCP) - Release notes",
-        "published": "2026-10-09T07:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "October 08, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#October_08_2026",
-        "summary": "Cloud SQL for MySQL\nFeature\nCloud SQL for MySQL now supports the\ninnodb_cloudsql_managed_buffer_pool_tuneup_pct database flag.\nManaged buffer pool automatically adjusts the InnoDB buffer pool size to reduce\nout-of-memory events. When instance memory usage remains at or below 70% for 10\nminutes or longer after prior reductions, Cloud SQL increases the buffer pool\nsize. You can now use the innodb_cloudsql_managed_buffer_pool_tuneup_pct flag\nto change this 70% threshold to a different percentage. Increase the threshold\nto restore the InnoDB buffer pool size when baseline usage exceeds 70%, or\ndecrease it to preserve additional RAM allocation for memory spikes.\nThis flag requires the Cloud SQL maintenance version\nMYSQL_VERSION.R20260726.00_05\nor later. For more information, see Enable managed buffer\npool.\nFeature\nCloud SQL for MySQL supports blue-green deployments\n(Preview).\nBlue-green deployments let you update databases—such as performing major\nversion upgrades from MySQL 8.0 to 8.4 and staging hardware or configuration\nmodifications—while minimizing downtime. During a blue-green deployment,\nCloud SQL creates a separate staging environment (green) that mirrors your\nexisting production environment (blue) and maintains continuous logical\nreplication from blue to green. You can test application compatibility and\nperformance on the green environment without affecting production traffic, and\nthen trigger a switchover to the green environment with minimal application\ndowntime.\nFor…",
-        "image": null,
-        "source": "Google Cloud Platform (GCP) - Release notes",
-        "published": "2026-10-08T07:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "October 07, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#October_07_2026",
-        "summary": "Anti Money Laundering AI\nAnnouncement\nNew minor engine version released for the commercial line of business within the v004.005 version line (aml-commercial.default.v004.005.202609-000). This version extends support for the major engine version and includes no significant changes compared to the previous minor version.\nApigee hybrid\nAnnouncement\nv1.14.9\nOn October 7, 2026 we released an updated version of the Apigee hybrid software, v1.14.9.\nFor information on upgrading, see Upgrading Apigee hybrid to version v1.14.9.\nFor information on new installations, see The big picture.\nNote: This is a patch release: The container images used in patch releases are integrated with the Apigee hybrid Helm charts. Upgrading to a patch via the Helm chart automatically updates the images. No manual image changes are typically needed. For information on container image support in Apigee hybrid releases, see Apigee release process.\nFixed\nFixed in this release\nBug ID\nDescription\n\n\n\n\n565072374\nFixed an issue where VerifyJWT policies using a JWKS uriRef could return steps.jwt.NoMatchingPublicKey on the first request after the 5-minute JWKS cache TTL expired when the identity provider rotated keys. The cache now refreshes synchronously upon expiration.\n\n\n564969400\nFixed an issue where variables initialized from an empty <Value/> element in AssignMessage (AssignVariable) were not treated as empty strings when referenced in message template functions such as replaceAll.\n\n\n558888960\nFixed an issue in…",
-        "image": null,
-        "source": "Google Cloud Platform (GCP) - Release notes",
-        "published": "2026-10-07T07:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "October 06, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#October_06_2026",
-        "summary": "AI Hypercomputer\nFeature\nGenerally available: When you reserve compute resources for creating GPU\ninstances through your account team, you can include a Hyperdisk\npool in the same request or in a subsequent request. This option helps ensure\nthat your artificial intelligence (AI) and machine learning (ML) workloads have\nthe storage resources that they require close to your GPU instances. For more\ninformation, see\nReserve capacity through your account team.\nAgent Platform Workbench\nChange\nM153 Release\nChange\nInstalled latest packages from upstream dependencies.\nBigQuery\nFeature\nConversational analytics in BigQuery\nnow supports the\nAI.CAUSAL_EFFECT function\nto quantify the impact of specific interventions on time series data.\nThis feature is in\nPreview.\nCloud Monitoring\nFeature\nBulk registration of discovered services and workloads to an App Hub\napplication is generally available (GA).\nFor more information, see\nRegister one or more discovered services or workloads.\nCloud SQL for MySQL\nChange\nCloud SQL for MySQL now supports up to 100,000 concurrent connections for\nPrivate Service Connect enabled instances created on or after September 30, 2026\nwith 16 or more vCPUs.\nFor more information, see Configure Private Service Connect.\nCloud SQL for PostgreSQL\nChange\nCloud SQL for PostgreSQL now supports up to 129,024 concurrent connections for\nPrivate Service Connect enabled instances created on or after September 30, 2026\nwith 16 or more vCPUs.\nFor more information, see Configure…",
-        "image": null,
-        "source": "Google Cloud Platform (GCP) - Release notes",
-        "published": "2026-10-06T07:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "October 05, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#October_05_2026",
-        "summary": "Agent Platform Workbench\nChange\n20261004.00_p0 Release\nChange\nInstalled latest packages from upstream dependencies.\nChange\nThe BigQuery JupyterLab plugin is now enabled independently of the Dataproc plugin: it is enabled by default and can be turned off with the new disable-bigquery instance metadata key, while disable-mixer now controls only the Dataproc plugin.\nChange\n20261004.00_p0 Release\nChange\nInstalled latest packages from upstream dependencies.\nBigQuery\nFeature\nIceberg external tables and\nIceberg managed tables now support\nflexible column names by default. This\nfeature is generally available (GA).\nFeature\nThe gemini-embedding-2 model works well for embedding long strings, including\nmultilingual and unstructured data. It supports a mix of text, images, audio,\nvideo, and PDF files. You can use this model in the\nAI.EMBED,\nAI.SIMILARITY,\nand\nAI.GENERATE_EMBEDDING\nfunctions. This model is\ngenerally available.\nCloud Load Balancing\nFeature\nExternal IPv6 addresses are now supported for\nStandard Tier. For more\ninformation, see IPv6 subnet ranges.\nThis feature is in Preview.\nCompute Engine\nFeature\nGenerally available: Z3 machine types that have 8 to 44 vCPUs can use\nHyperdisk Balanced High Availability volumes to synchronously replicate data across two zones.\nFor more information, see\nAbout Hyperdisk Balanced High Availability.\nFeature\nPreview: External IPv6 addresses are now supported for\nStandard Tier. For more\ninformation,\nsee IPv6 subnet ranges.\nConfidential Space…",
-        "image": null,
-        "source": "Google Cloud Platform (GCP) - Release notes",
-        "published": "2026-10-05T07:00:00.000Z",
-        "isNew": false
       }
     ],
     "kubernetes": [
+      {
+        "title": "Why Is My Kubernetes Job Still Pending? Tracing Kueue Admission with Headlamp",
+        "link": "https://kubernetes.io/blog/2026/10/14/tracing-kueue-admission-with-headlamp/",
+        "summary": "You submit a Kubernetes Job and\nwait for its Pods to appear. A minute passes. Then another. The Job is still suspended, there are no\napplication logs, and there may not even be a Pod to inspect.\nIn a cluster managed by Kueue, this can be completely normal. Kueue\nmay still be deciding whether the Job can use the requested resources. The useful question is not\nonly “Why is the Pod pending?” It is first “Has Kueue admitted the Workload?”\nThe Kueue plugin for Headlamp brings that\ninvestigation into the Headlamp UI. Instead of reconstructing the admission path from several\ncommands and large YAML objects, you can begin with the Workload, read its condition message, and\nfollow links through the LocalQueue, ClusterQueue, ResourceFlavor, and Cohort.\nThis article follows that Headlamp-first path. The command line appears only in a short optional\nsection for reproducing the example.\nBefore you begin\nYou need a Kubernetes cluster with Kueue installed,\na Headlamp installation, and the\n0.1.0-alpha Kueue plugin.\nYour Kubernetes identity must be allowed to read the Kueue resources used in this article.\nThe alpha release provides read-only views for Kueue v1beta2 Cohorts, ClusterQueues, LocalQueues,\nResourceFlavors, and Workloads. It does not add its own create, edit, stop, resume, or delete\nworkflows. Headlamp still provides its standard YAML and resource actions where your permissions\nallow them.\nFirst, separate admission from Pod scheduling\nKueue and the Kubernetes scheduler answer…",
+        "image": "https://kubernetes.io/blog/2026/10/14/tracing-kueue-admission-with-headlamp/kueue-admission-architecture.png",
+        "source": "Kubernetes Blog",
+        "published": "2026-10-14T18:35:00.000Z",
+        "isNew": false
+      },
       {
         "title": "The Shift to cgroup v2 in Kubernetes: What You Need to Know",
         "link": "https://kubernetes.io/blog/2026/10/06/kubernetes-cgroups-v2-shift/",
@@ -314,18 +323,27 @@
         "source": "Kubernetes Blog",
         "published": "2026-09-14T18:30:00.000Z",
         "isNew": false
-      },
-      {
-        "title": "Kubernetes v1.37: Memory QoS Graduates to Beta",
-        "link": "https://kubernetes.io/blog/2026/09/14/kubernetes-v1-37-memory-qos-graduates-to-beta/",
-        "summary": "Memory QoS has graduated to Beta in Kubernetes v1.37 and is now enabled by\ndefault. On Linux nodes running cgroup v2, the feature uses the memory controller\nto give the kernel better guidance on how to treat container memory. It was first introduced as\nAlpha in v1.22, and expanded in v1.36 with tiered memory reservation.\nThis post covers what changed in v1.37, what the Beta promotion means for\ncluster operators, and how to configure the feature.\nWhat changed in v1.37\nMemory QoS is Beta and enabled by default\nThe MemoryQoS feature gate is now Beta in v1.37.\nThis means every v1.37 kubelet has the feature gate turned on without any\nconfiguration change. Turning on the feature by default is safe because the\ndefault kubelet configuration does not enable memory throttling or memory\nreservation. No memory.high, memory.min, or memory.low values are\nwritten to cgroups unless you explicitly configure them.\nYou can opt into specific behaviors through kubelet configuration fields:\nSet memoryThrottlingFactor (for example, 0.9) to enable memory.high throttling on Burstable and BestEffort containers. The default is null, which means no throttling.\nSet memoryReservationPolicy to TieredReservation to enable tiered memory protection via memory.min and memory.low. The default is None, which means no memory reservation.\nDefault memoryThrottlingFactor changed to null\nIn earlier Alpha releases, memoryThrottlingFactor defaulted to 0.9, which\nmeant enabling the feature gate caused the kubelet to…",
-        "image": null,
-        "source": "Kubernetes Blog",
-        "published": "2026-09-14T18:30:00.000Z",
-        "isNew": false
       }
     ],
     "terraform": [
+      {
+        "title": "v1.17.0-rc2",
+        "link": "https://github.com/hashicorp/terraform/releases/tag/v1.17.0-rc2",
+        "summary": "1.17.0-rc2 (October 14, 2026)\nNEW FEATURES:\nTerraform now supports variables and locals in provider requirements (#39153)\nA new -minimal-refresh planning option has been added, which will only refresh resources that have proposed changes. (#35290)\npolicy: Terraform Policy is now generally available. The -policies flag for plan, apply, and query no longer requires an experimental build or the -allow-experimental-features flag. Query policies evaluate resources discovered by list blocks and report human-readable or JSON results. See https://developer.hashicorp.com/terraform/policy for more information. (#38970)\nENHANCEMENTS:\ncommand/init: Enrich log messages with provider versions (#38918)\ntest: Add mock_provider support for ephemeral resources (#38928)\ncommand/login: display warning after successful login if user is subject to an organization's TTL policy\nBUG FIXES:\nfuncs: pow and log no longer panic when result is not a number (#38912)\nephemeral: Terraform will now use and display diagnostics raised when renewing an ephemeral resource. This may cause warnings to appear that previously were lost. We expect that any error diagnostics that were previously lost would have caused confusing downstream errors, so we do not anticipate this change to be breaking. (#38989)\ntest: Deterministic dependency ordering in cleanup graph (#38247)\nquery: report Unknown and N/A results for policy evaluations of discovered resources (#39058)\nquery: terraform query -policies now rejects a path…",
+        "image": "https://avatars.githubusercontent.com/u/82989873?s=60&v=4",
+        "source": "Release notes from terraform",
+        "published": "2026-10-14T10:37:18.000Z",
+        "isNew": false
+      },
+      {
+        "title": "v1.16.6",
+        "link": "https://github.com/hashicorp/terraform/releases/tag/v1.16.6",
+        "summary": "1.16.6 (October 14, 2026)\nBUG FIXES:\ncloud: terraform init can now find workspaces selected by key/value tags whose keys contain uppercase letters. (#39306)\ntest: Allow module under test to use deprecated outputs. (#39207)\nNOTES:\nPrevent a HTTP/2 resource exhaustion via CVE-2026-78669. Exploitation would require a compromised (untrusted) provider/module registry. Such a threat is considered to be outside the perimeter of Terraform core security guarantees. (#39375)",
+        "image": "https://avatars.githubusercontent.com/u/82989873?s=60&v=4",
+        "source": "Release notes from terraform",
+        "published": "2026-10-14T09:31:54.000Z",
+        "isNew": false
+      },
       {
         "title": "v1.17.0-rc1",
         "link": "https://github.com/hashicorp/terraform/releases/tag/v1.17.0-rc1",
@@ -379,27 +397,18 @@
         "source": "Release notes from terraform",
         "published": "2026-09-09T17:13:24.000Z",
         "isNew": false
-      },
-      {
-        "title": "v1.16.2",
-        "link": "https://github.com/hashicorp/terraform/releases/tag/v1.16.2",
-        "summary": "1.16.2 (September 9, 2026)\nBUG FIXES:\nFix panic in module installation when encoutering invalid module calls (#39129)",
-        "image": "https://avatars.githubusercontent.com/u/82989873?s=60&v=4",
-        "source": "Release notes from terraform",
-        "published": "2026-09-09T13:22:31.000Z",
-        "isNew": false
-      },
-      {
-        "title": "v1.16.1",
-        "link": "https://github.com/hashicorp/terraform/releases/tag/v1.16.1",
-        "summary": "1.16.1 (September 2, 2026)\nBUG FIXES:\ncloud: Fixed a bug causing the CLI to pause indefinitely after a run task failure with pending policy evaluations (#38751)\nSupport referencing modules containing dynamic sources in Terraform Test (#38950)\nstacks: Fixed validation to ensure the provider versions in the lock file and configuration are compatible. (#38829)\nFix panic when import identity references sensitive value (#39013)\nimport: Fixed a bug where import blocks would be ignored when multiple imports targeted different instances of a resource config using for_each or count. (#39068)\nstate show: Fix a panic when given an attribute path instead of a resource instance address (#39087)\nFix create_before_destroy ordering in some combinations of changes (#39091)",
-        "image": "https://avatars.githubusercontent.com/u/82989873?s=60&v=4",
-        "source": "Release notes from terraform",
-        "published": "2026-09-02T14:49:32.000Z",
-        "isNew": false
       }
     ],
     "python": [
+      {
+        "title": "Python 3.16.0 alpha 1 is now available",
+        "link": "https://blog.python.org/2026/10/python-3160-alpha-1-is-now-available/",
+        "summary": "The first developer preview of Python 3.16 is ready for testing.",
+        "image": null,
+        "source": "Python Insider",
+        "published": "2026-10-13T00:00:00.000Z",
+        "isNew": false
+      },
       {
         "title": "Python 3.15.0 (final) is here!",
         "link": "https://blog.python.org/2026/10/python-3150-final-is-here/",
@@ -462,18 +471,27 @@
         "source": "Python Insider",
         "published": "2026-09-30T12:00:09.000Z",
         "isNew": false
-      },
-      {
-        "title": "Free-Threaded Python Post-Era (Python Language Summit 2026)",
-        "link": "https://blog.python.org/2026/09/language-summit-2026-free-threading-post-era/",
-        "summary": "Tobias Wrigstad, Fridtjof Stoldt, and Donghee Na propose a safe and performant, high-level concurrency model for free-threaded Python",
-        "image": null,
-        "source": "Python Insider",
-        "published": "2026-09-30T12:00:08.000Z",
-        "isNew": false
       }
     ],
     "go": [
+      {
+        "title": "Interactive refactoring in gopls",
+        "link": "https://go.dev/blog/interactive-refactoring",
+        "summary": "The Go Blog\nInteractive refactoring in gopls\n pre:nth-of-type(1) { background: var(--color-diff-old); }\n#content .beforeafter > pre:nth-of-type(2) { background: var(--color-diff-new); }\n.beforeafter-arrow {\n  place-self: center;\n  margin: -0.5em;\n}\n.beforeafter-arrow::before {\n  content: \"⟶\";\n  @media screen and (max-width: 57.7rem) {\n    content: \"⇓\";\n  }\n}\n#blog #content .blog-image,\n#content .blog-image {\n  max-width: 60%;\n  height: auto;\n  border-radius: 6px;\n  box-shadow: 0 4px 12px rgba(0,0,0,0.1);\n  margin: 1em auto;\n  display: block;\n}\n\nWhen editing code in a modern IDE or editor, developers rely on its refactoring\nfeatures to automate common transformations. Today, we are excited to introduce\ninteractive refactoring in gopls, powered by a new capability we are\nproposing for the Language Server Protocol (LSP)\nthat brings dynamic, multi-step dialogs directly into your favorite editor.\nCrucially, we designed this capability (in collaboration with the Dart team)\nnot just for Go, but as an open standard for all programming languages and\neditor ecosystems. Working support is already available in gopls v0.24.0 and\nthe official Go extension for VS Code v0.56.0.\nWhat is the Language Server Protocol (LSP)?\nThe LSP is an open standard that decouples language-specific\nfeatures from specific text editors. As you navigate and edit code, your\neditor (such as VS Code, Neovim, or Emacs) and a language server (like gopls)\nengage in a continuous JSON-RPC exchange to provide features…",
+        "image": null,
+        "source": "The Go Blog",
+        "published": "2026-10-16T00:00:00.000Z",
+        "isNew": false
+      },
+      {
+        "title": "Better HTTP/1 connection reuse",
+        "link": "https://go.dev/blog/http-connection-reuse",
+        "summary": "The Go Blog\nBetter HTTP/1 connection reuse\nTake a look at the following function:\nfunc getStatus(url string) (int, error) {\n    resp, err := http.Get(url)\n    if err != nil {\n        return 0, err\n    }\n    defer resp.Body.Close()\n    return resp.StatusCode, nil\n}\n\nIt sends a GET request to url and returns the HTTP status code.\nUsing HTTP/1 (GODEBUG=http2client=0), calling this function 100 times against\nindex.golang.org takes ~710 milliseconds on Go 1.26\non my machine. On Go 1.27, the same program takes ~150 milliseconds.\nThat is almost 5 times faster! How is such a drastic performance difference\npossible?\nThe cost of establishing HTTP connections\nTo understand the difference, consider what happens on the network when we make\nan HTTP request.\nGo’s net/http package supports HTTP/1.0, HTTP/1.1, and\nHTTP/2. All three run over TCP, and usually over TLS when talking to HTTPS\nendpoints. Making a request over a new connection looks something like this:\nTCP handshake (1 RTT): the client sends a SYN packet, the server\nreplies with SYN-ACK, and the client replies with ACK. Because the\nclient can send the first TLS message alongside that final ACK,\nestablishing the TCP connection takes 1 round-trip time (RTT).\nTLS handshake (2 RTT): next, a TLS handshake exchanges encryption keys\nand verifies the server’s identity; using TLS 1.2, this takes 2 RTT.\nHTTP request: with the keys exchanged, HTTP requests can finally be sent\nafter a total of 3 RTT.\nThese round trips (plus some CPU time…",
+        "image": null,
+        "source": "The Go Blog",
+        "published": "2026-10-14T00:00:00.000Z",
+        "isNew": false
+      },
       {
         "title": "Arch-specific SIMD in Go",
         "link": "https://go.dev/blog/archsimd",
@@ -527,27 +545,18 @@
         "source": "The Go Blog",
         "published": "2026-08-19T00:00:00.000Z",
         "isNew": false
-      },
-      {
-        "title": "Introducing the pkg.go.dev API",
-        "link": "https://go.dev/blog/pkgsite-api",
-        "summary": "The Go Blog\nIntroducing the pkg.go.dev API\nSince its inception, pkg.go.dev has established itself as\nthe Go community’s primary resource for package documentation and discovery.\nWhile we initially prioritized creating a comprehensive and highly accessible\nweb interface for users, the need for programmatic access has become\nincreasingly clear. Developers building tools, IDE integrations, and automated\nworkflows have historically relied on fragile workarounds like web scraping to\naccess this data. To better address these evolving requirements, we are now\nexpanding our platform to provide robust, direct access to the information our\ncommunity needs.\nToday, we are excited to introduce the official\npkg.go.dev API — a service interface for querying\nmetadata about published Go modules. This launch is a direct response to\nyears of community feedback. Furthermore, the need for a formalized\ninterface has become even more acute with the rise of AI-assisted coding.\nTools can now access the specific, high-fidelity context needed to reason\nabout the Go ecosystem with greater precision.\nThe service interface\nBuilt for stability and efficient caching, the API uses a stateless, GET-only\narchitecture. Primary endpoints are currently hosted under the /v1beta path.\nFollowing a period of community feedback and confirmed stability, we intend to\ntransition toward a formal v1 release.\nFor a complete interactive reference of all endpoints, query parameters, and\nresponse shapes, see the…",
-        "image": null,
-        "source": "The Go Blog",
-        "published": "2026-05-21T00:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "Type Construction and Cycle Detection",
-        "link": "https://go.dev/blog/type-construction-and-cycle-detection",
-        "summary": "The Go Blog\nType Construction and Cycle Detection\nGo’s static typing is an important part of why Go is a good fit for production\nsystems that have to be robust and reliable. When a Go package is compiled, it\nis first parsed—meaning that the Go source code within that package is converted\ninto an abstract syntax tree (or AST). This AST is then passed to the Go\ntype checker.\nIn this blog post, we’ll dive into a part of the type checker we significantly\nimproved in Go 1.26. How does this change things from a Go user’s perspective?\nUnless one is fond of arcane type definitions, there’s no observable change\nhere. This refinement was intended to reduce corner cases, setting us up for\nfuture improvements to Go. Also, it’s a fun look at something that seems quite\nordinary to Go programmers, but has some real subtleties hiding within.\nBut first, what exactly is type checking? It’s a step in the Go compiler that\neliminates whole classes of errors at compile time. Specifically, the Go type\nchecker verifies that:\nTypes appearing in the AST are valid (for example, a map’s key type must be\ncomparable).\nOperations involving those types (or their values) are valid (for example,\none can’t add an int and a string).\nTo accomplish this, the type checker constructs an internal representation for\neach type it encounters while traversing the AST—a process informally called\ntype construction.\nAs we’ll soon see, even though Go is known for its simple type system, type\nconstruction can be deceptively…",
-        "image": null,
-        "source": "The Go Blog",
-        "published": "2026-03-24T00:00:00.000Z",
-        "isNew": false
       }
     ],
     "rust": [
+      {
+        "title": "Announcing Rust 1.99.1",
+        "link": "https://blog.rust-lang.org/2026/10/15/Rust-1.99.1/",
+        "summary": "The Rust team has published a new point release of Rust, 1.99.1. Rust is a programming language that is empowering everyone to build reliable and efficient software.\nIf you have a previous version of Rust installed via rustup, getting Rust 1.99.1 is as easy as:\nrustup update stable\nIf you don't have it already, you can get rustup from the appropriate page on our website.\n\nWhat's in 1.99.1\nRust 1.99.1 fixes the following regressions from prior releases:\nMissing symbol wcslen: Some Rust targets were getting link errors for missing wcslen, and that function is now present in Rust's compiler-builtins library as a fallback.\nThe LLVM loop-idiom-wcslen pass may introduce calls to wcslen as an optimization, and some Rust targets did not have that function readily available in libc or elsewhere. The UEFI targets in particular were broken for any project using std, as some of these calls were introduced in the precompiled standard library, but the issue was also reproducible for similar user code patterns.\nMiscompilation of FFI bool return values on x86_64: Rust functions returning bool through FFI could leave bits 1-7 of the return register unspecified, causing callers to observe raw values other than 0 or 1. This return type is now marked for zero-extension again, as required by the ABI.\nrust-lld failed to load libLLVM on macOS: This linker could fail to run if the compiler was invoked without the rustup proxy, as there was no direct setting for the appropriate library search path.…",
+        "image": null,
+        "source": "Rust Blog",
+        "published": "2026-10-15T00:00:00.000Z",
+        "isNew": false
+      },
       {
         "title": "Demoting i686 Windows targets to std-only",
         "link": "https://blog.rust-lang.org/2026/10/02/demoting-i686-windows-targets-to-std-only/",
@@ -610,18 +619,36 @@
         "source": "Rust Blog",
         "published": "2026-09-03T00:00:00.000Z",
         "isNew": false
-      },
-      {
-        "title": "Announcing rustup 1.29.1",
-        "link": "https://blog.rust-lang.org/2026/09/01/Rustup-1.29.1/",
-        "summary": "The rustup team is happy to announce the release of rustup version 1.29.1.\nRustup is the recommended tool to install Rust, a\nprogramming language that empowers everyone to build reliable and efficient\nsoftware.\n\nWhat's new in rustup 1.29.1\nThe headlines of this release are:\nConcurrency in certain rustup operations has been improved:\nWhen running rustup update, rustup will first check for possible updates in parallel. pr#4752\nWhen running rustup component add with multiple components, they will be installed concurrently. pr#4790\nImplicit installation of the active toolchain in rustup-init and rustup invocations has\nbeen deprecated where deemed unnecessary and will now produce a warning. pr#4840\nPlease see our\nblog post\nfor more details regarding this change.\nrustup doc now supports the --serve flag which allows serving the docs over local HTTP.\nThis should help users with containerized browser and/or rustup setups. pr#4986\nInstalling i686-pc-windows-* host toolchains on 64-bit Windows now requires --force-non-host.\npr#4935\nrustup-init will no longer leave unexpected files on disk after cancelled installations. pr#4996\nA bug has been fixed which might cause Windows installation to fail when using rustup-init.sh.\npr#4756\n\"Target triple\" has been renamed to \"target tuple\" across the project to reflect the\nnew terminology.\npr#4743 pr#4827 pr#4834\nPlease note that this is not a breaking change in the CLI since the existing\noptions such as --target are not using this terminology.…",
-        "image": null,
-        "source": "Rust Blog",
-        "published": "2026-09-01T00:00:00.000Z",
-        "isNew": false
       }
     ],
     "javascript": [
+      {
+        "title": "Node.js 24.22.0 (LTS)",
+        "link": "https://nodejs.org/en/blog/release/v24.22.0",
+        "summary": "",
+        "image": null,
+        "source": "Node.js Blog",
+        "published": "2026-10-14T15:26:48.000Z",
+        "isNew": false
+      },
+      {
+        "title": "Node.js 26.12.0 (Current)",
+        "link": "https://nodejs.org/en/blog/release/v26.12.0",
+        "summary": "",
+        "image": null,
+        "source": "Node.js Blog",
+        "published": "2026-10-14T15:23:06.000Z",
+        "isNew": false
+      },
+      {
+        "title": "Wednesday, October 21, 2026 Security Releases",
+        "link": "https://nodejs.org/en/blog/vulnerability/october-2026-security-releases",
+        "summary": "",
+        "image": null,
+        "source": "Node.js Blog",
+        "published": "2026-10-14T03:00:00.000Z",
+        "isNew": false
+      },
       {
         "title": "Node.js 26.11.1 (Current)",
         "link": "https://nodejs.org/en/blog/release/v26.11.1",
@@ -665,33 +692,6 @@
         "image": null,
         "source": "Node.js Blog",
         "published": "2026-09-16T18:17:42.000Z",
-        "isNew": false
-      },
-      {
-        "title": "Node.js 26.8.2 (Current)",
-        "link": "https://nodejs.org/en/blog/release/v26.8.2",
-        "summary": "",
-        "image": null,
-        "source": "Node.js Blog",
-        "published": "2026-09-09T16:09:17.000Z",
-        "isNew": false
-      },
-      {
-        "title": "Node.js 24.21.0 (LTS)",
-        "link": "https://nodejs.org/en/blog/release/v24.21.0",
-        "summary": "",
-        "image": null,
-        "source": "Node.js Blog",
-        "published": "2026-09-09T11:55:20.000Z",
-        "isNew": false
-      },
-      {
-        "title": "Node.js 26.8.1 (Current)",
-        "link": "https://nodejs.org/en/blog/release/v26.8.1",
-        "summary": "",
-        "image": null,
-        "source": "Node.js Blog",
-        "published": "2026-08-26T22:11:36.000Z",
         "isNew": false
       }
     ]

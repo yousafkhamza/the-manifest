@@ -1,6 +1,6 @@
 {
-  "date": "2026-10-18",
-  "generatedAt": "2026-10-18T19:25:37.308Z",
+  "date": "2026-10-19",
+  "generatedAt": "2026-10-19T10:45:56.326Z",
   "totalArticles": 72,
   "ticker": [
     {
@@ -179,6 +179,15 @@
     ],
     "gcp": [
       {
+        "title": "October 18, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#October_18_2026",
+        "summary": "Google SecOps\nFeature\nSpecify whether to reopen closed cases when the grouping is by Source Grouping Identifier\nYou can now specify whether Google SecOps reopens closed cases when grouping SOAR alerts by Source Grouping Identifier. When the option is enabled and a new alert is received with a source grouping identifier of a case that was previously closed in Google SecOps, then  Google SecOps reopens the case. For more information, see Configure alert grouping.",
+        "image": null,
+        "source": "Google Cloud Platform (GCP) - Release notes",
+        "published": "2026-10-18T07:00:00.000Z",
+        "isNew": true
+      },
+      {
         "title": "October 16, 2026",
         "link": "https://docs.cloud.google.com/release-notes#October_16_2026",
         "summary": "BigQuery\nFeature\nConversational analytics in BigQuery\nis now available in the following locations:\nnorthamerica-northeast1 (Montréal)\nnorthamerica-northeast2 (Toronto)\nFor more information, see\nLocations.\nDialogflow\nFeature\ngemini-3.5-flash-lite has become generally available (GA). See\nGenerative quotas\nfor how to request quota for Gemini 3 and later models.\nGemini Enterprise\nFeature\nGemini Enterprise: Configure citations for custom MCP data stores\nYou can configure the citation_mappings parameter for custom Model Context\nProtocol (MCP) data stores using the REST API to display source citation chips\nwhen Gemini Enterprise answers questions using tools on your custom MCP server.\nThis feature is generally available (GA).\nFor more information, see Configure citations for custom MCP data\nstores.\nFeature\nGemini Enterprise: Connect workflows in Workflow Builder to\nConfluence Data Center and Jira Data Center\nYou can connect workflows in Workflow Builder to Confluence Data Center and\nJira Data Center to search data and automate actions across these third-party\napps.\nFor more information, see Workflows\noverview.\nGoogle Cloud Contact Center as a Service\nAnnouncement\nAdvanced reporting dashboards prerelease notes 6.16\nHere are the pre-release notes for updates to the advanced reporting dashboards\nand other reporting in CCAI Platform. When we release these updates, we\nexpect the new capabilities to be as shown here.\nImportant: The next version of the advanced reporting dashboards could…",
@@ -240,15 +249,6 @@
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-10-10T07:00:00.000Z",
         "isNew": false
-      },
-      {
-        "title": "October 09, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#October_09_2026",
-        "summary": "Access Approval\nFeature\nDatabase Migration Service is generally available\n(GA).\nAccess Transparency\nFeature\nDatabase Migration Service is generally available\n(GA).\nBigQuery\nFeature\nThe BigQuery Data Engineering Agent\nis now available in the asia-northeast1 (Tokyo) regional endpoint and supports\nthe gemini-3.5-flash model. For more information, see\nWhere Gemini in BigQuery processes your data.\nThis feature is\nGenerally Available\n(GA).\nCloud SQL for MySQL\nFeature\nNote: Near real-time sync upon Knowledge Catalog (KC) enablement isn't available for existing instances created before April 18, 2026. For more information, see the release note from October 14, 2026.\n\nWhen you enable Knowledge Catalog (formerly Dataplex Universal Catalog)\nintegration on an eligible Cloud SQL for MySQL instance created before April 18,\n2026 where the integration is currently turned off, the instance now syncs schema\nand metadata updates to Knowledge Catalog in near real-time instead of once a day\n(instances created on or after April 18, 2026 have near real-time sync enabled by\ndefault).\nThis feature is available for instances running MySQL version 8.0 or later on the\nnew network architecture.\nIf Knowledge Catalog integration is already enabled on the instance with\nonce-a-day updates, you can deactivate\nand re-enable the integration to switch to near real-time updates.\nFor more information, see\nEnable the integration of Knowledge Catalog on an existing Cloud SQL instance.\nCloud SQL for PostgreSQL…",
-        "image": null,
-        "source": "Google Cloud Platform (GCP) - Release notes",
-        "published": "2026-10-09T07:00:00.000Z",
-        "isNew": false
       }
     ],
     "kubernetes": [
@@ -256,7 +256,7 @@
         "title": "Why Is My Kubernetes Job Still Pending? Tracing Kueue Admission with Headlamp",
         "link": "https://kubernetes.io/blog/2026/10/14/tracing-kueue-admission-with-headlamp/",
         "summary": "You submit a Kubernetes Job and\nwait for its Pods to appear. A minute passes. Then another. The Job is still suspended, there are no\napplication logs, and there may not even be a Pod to inspect.\nIn a cluster managed by Kueue, this can be completely normal. Kueue\nmay still be deciding whether the Job can use the requested resources. The useful question is not\nonly “Why is the Pod pending?” It is first “Has Kueue admitted the Workload?”\nThe Kueue plugin for Headlamp brings that\ninvestigation into the Headlamp UI. Instead of reconstructing the admission path from several\ncommands and large YAML objects, you can begin with the Workload, read its condition message, and\nfollow links through the LocalQueue, ClusterQueue, ResourceFlavor, and Cohort.\nThis article follows that Headlamp-first path. The command line appears only in a short optional\nsection for reproducing the example.\nBefore you begin\nYou need a Kubernetes cluster with Kueue installed,\na Headlamp installation, and the\n0.1.0-alpha Kueue plugin.\nYour Kubernetes identity must be allowed to read the Kueue resources used in this article.\nThe alpha release provides read-only views for Kueue v1beta2 Cohorts, ClusterQueues, LocalQueues,\nResourceFlavors, and Workloads. It does not add its own create, edit, stop, resume, or delete\nworkflows. Headlamp still provides its standard YAML and resource actions where your permissions\nallow them.\nFirst, separate admission from Pod scheduling\nKueue and the Kubernetes scheduler answer…",
-        "image": "https://kubernetes.io/blog/2026/10/14/tracing-kueue-admission-with-headlamp/kueue-admission-architecture.svg",
+        "image": "https://kubernetes.io/blog/2026/10/14/tracing-kueue-admission-with-headlamp/kueue-admission-architecture.png",
         "source": "Kubernetes Blog",
         "published": "2026-10-14T18:35:00.000Z",
         "isNew": false
