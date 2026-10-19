@@ -1,6 +1,6 @@
 {
   "date": "2026-10-19",
-  "generatedAt": "2026-10-19T10:45:56.326Z",
+  "generatedAt": "2026-10-19T17:30:11.567Z",
   "totalArticles": 72,
   "ticker": [
     {
@@ -30,6 +30,15 @@
   ],
   "topics": {
     "aws": [
+      {
+        "title": "AWS Weekly Roundup: AWS Lambda Web Functions, Amazon S3 on the Vercel Marketplace, and more (October 19, 2026)",
+        "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-aws-lambda-web-functions-amazon-s3-on-the-vercel-marketplace-and-more-october-19-2026/",
+        "summary": "Nothing last week added a new kind of compute. What it did instead was shorten the distance between the code you already have and that code being live. AWS Lambda learned to run a plain HTTP server with no adapter in front of it, and Amazon S3 became something you can provision from inside the […]",
+        "image": null,
+        "source": "AWS News Blog",
+        "published": "2026-10-19T15:34:59.000Z",
+        "isNew": false
+      },
       {
         "title": "Amazon S3 is now available on the Vercel Marketplace and v0 by Vercel",
         "link": "https://aws.amazon.com/blogs/aws/amazon-s3-vercel-marketplace-v0/",
@@ -92,27 +101,9 @@
         "source": "AWS News Blog",
         "published": "2026-09-30T22:10:00.000Z",
         "isNew": false
-      },
-      {
-        "title": "Amazon S3 Vectors now supports metadata pre-filtering for higher recall on filtered searches",
-        "link": "https://aws.amazon.com/blogs/aws/amazon-s3-vectors-now-supports-metadata-pre-filtering-for-higher-recall-on-filtered-searches/",
-        "summary": "Amazon S3 Vectors now supports metadata pre filtering, delivering up to 5x higher recall on filtered searches. Filters evaluate before similarity search so scoped queries return more relevant results. Ideal for RAG, agentic apps, and document search.",
-        "image": null,
-        "source": "AWS News Blog",
-        "published": "2026-09-30T20:03:34.000Z",
-        "isNew": false
       }
     ],
     "azure": [
-      {
-        "title": "Evolving the cloud-native foundation for the next generation of AI",
-        "link": "https://azure.microsoft.com/en-us/blog/evolving-the-cloud-native-foundation-for-the-next-generation-of-ai/",
-        "summary": "Discover how Azure is advancing cloud-native infrastructure to help organizations build, run, and optimize applications and agents at scale.\nThe post Evolving the cloud-native foundation for the next generation of AI appeared first on Microsoft Azure Blog.",
-        "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/10/CLO20b_Madeleine_office_009-1024x683.jpg",
-        "source": "Microsoft Azure Blog",
-        "published": "2026-10-15T16:00:00.000Z",
-        "isNew": false
-      },
       {
         "title": "Microsoft named a Leader in the 2026 Gartner® Magic Quadrant™ for Server Virtualization Platforms",
         "link": "https://azure.microsoft.com/en-us/blog/microsoft-named-a-leader-in-the-2026-gartner-magic-quadrant-for-server-virtualization-platforms/",
@@ -175,17 +166,44 @@
         "source": "Microsoft Azure Blog",
         "published": "2026-09-30T15:00:00.000Z",
         "isNew": false
+      },
+      {
+        "title": "SQL Server on Azure Local is now generally available",
+        "link": "https://www.microsoft.com/en-us/sql-server/blog/2026/09/28/sql-server-on-azure-local-is-now-generally-available/",
+        "summary": "With SQL Server on Azure Local, customers can modernize where their data resides while maintaining control over infrastructure, connectivity, and data placement.\nThe post SQL Server on Azure Local is now generally available appeared first on Microsoft Azure Blog.",
+        "image": null,
+        "source": "Microsoft Azure Blog",
+        "published": "2026-09-29T16:40:06.000Z",
+        "isNew": false
       }
     ],
     "gcp": [
       {
+        "title": "October 19, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#October_19_2026",
+        "summary": "Compute Engine\nFeature\nGenerally available: To prevent data loss or corruption when you stop or\ndelete a Compute Engine instance, you can enable graceful shutdown. This\nsetting gives the guest OS up to six hours to finish running tasks. For more\ninformation, see\nAbout graceful shutdown.\nGoogle Cloud Armor\nSecurity\nSecurity fixes and enhancements to Cloud Armor preconfigured WAF v33-stable\nrulesets. For more information, see Tuning Google Cloud Armor WAF\nrules.\nThe following rulesets have been updated:\nsqli-v33-stable\nxss-v33-stable\nlfi-v33-stable\nrfi-v33-stable\nrce-v33-stable\nmethodenforcement-v33-stable\nscannerdetection-v33-stable\nprotocolattack-v33-stable\nphp-v33-stable\nsessionfixation-v33-stable\njava-v33-stable\nnodejs-v33-stable\nSecurity\nSecurity fixes and enhancements to Cloud Armor preconfigured WAF stable\nrulesets for v3.0. For more information, see Tuning Google Cloud Armor WAF\nrules.\nThe following rulesets have been updated:\nsqli-stable\nxss-stable\nlfi-stable\nrfi-stable\nrce-stable\nmethodenforcement-stable\nscannerdetection-stable\nprotocolattack-stable\nphp-stable\nsessionfixation-stable",
+        "image": null,
+        "source": "Google Cloud Platform (GCP) - Release notes",
+        "published": "2026-10-19T07:00:00.000Z",
+        "isNew": false
+      },
+      {
         "title": "October 18, 2026",
         "link": "https://docs.cloud.google.com/release-notes#October_18_2026",
-        "summary": "Google SecOps\nFeature\nSpecify whether to reopen closed cases when the grouping is by Source Grouping Identifier\nYou can now specify whether Google SecOps reopens closed cases when grouping SOAR alerts by Source Grouping Identifier. When the option is enabled and a new alert is received with a source grouping identifier of a case that was previously closed in Google SecOps, then  Google SecOps reopens the case. For more information, see Configure alert grouping.",
+        "summary": "Google SecOps\nFeature\nSpecify whether to reopen closed cases when the grouping is by Source Grouping Identifier\nYou can now specify whether Google SecOps reopens closed cases when grouping SOAR alerts by Source Grouping Identifier. When the option is enabled and a new alert is received with a source grouping identifier of a case that was previously closed in Google SecOps, then  Google SecOps reopens the case. For more information, see Configure alert grouping.\nGoogle SecOps SOAR\nAnnouncement\nRelease 6.3.103 is being rolled out to the first phase of regions as listed\nhere.\nFeature\nSpecify whether to reopen closed cases when the grouping is by Source Grouping Identifier\nYou can now specify whether Google SecOps reopens closed cases when grouping alerts by Source Grouping Identifier. When the option is enabled and a new alert is received with a source grouping identifier of a case that was previously closed in Google SecOps, then  Google SecOps reopens the case. For more information, see Configure alert grouping.\nDeprecated\nDeprecation of the ListCaseEvents API endpoint\nEffective October 12, 2026, the ListCaseEvents API endpoint is deprecated. You should use the ListCaseEvidenceData API endpoint instead.",
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-10-18T07:00:00.000Z",
-        "isNew": true
+        "isNew": false
+      },
+      {
+        "title": "October 17, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#October_17_2026",
+        "summary": "Google SecOps SOAR\nAnnouncement\nRelease 6.3.102 is now\navailable for all regions.",
+        "image": null,
+        "source": "Google Cloud Platform (GCP) - Release notes",
+        "published": "2026-10-17T07:00:00.000Z",
+        "isNew": false
       },
       {
         "title": "October 16, 2026",
@@ -230,24 +248,6 @@
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-10-12T07:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "October 11, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#October_11_2026",
-        "summary": "Agent Platform Workbench\nChange\n20261011-2230-rc0 Release\nChange\n20261011-2230-rc0 Release\nChange\nInstalled latest packages from upstream dependencies.\nChange\nInstalled latest packages from upstream dependencies.\nFixed\nFixed an issue where gcloud and gsutil failed to load with an AttributeError in OpenSSL.crypto due to a version mismatch between pyOpenSSL and cryptography.\nFixed\nFixed an issue where gcloud and gsutil failed to load with an AttributeError in OpenSSL.crypto due to a version mismatch between pyOpenSSL and cryptography.\nChange\n20261011-2130-rc0 Release\nChange\nInstalled latest packages from upstream dependencies.\nGoogle SecOps SOAR\nAnnouncement\nRelease 6.3.102 is being rolled out to the first phase of regions as listed\nhere.\nThis release contains internal and customer bug fixes.",
-        "image": null,
-        "source": "Google Cloud Platform (GCP) - Release notes",
-        "published": "2026-10-11T07:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "October 10, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#October_10_2026",
-        "summary": "Cloud SQL for MySQL\nChange\nMySQL 8.0.46 is now the\ndefault minor version\nfor Cloud SQL for MySQL 8.0.\nFor more information about minor version support in Cloud SQL for MySQL,\nsee MySQL 8.0.\nGoogle SecOps SOAR\nAnnouncement\nRelease 6.3.101 is now\navailable for all regions.",
-        "image": null,
-        "source": "Google Cloud Platform (GCP) - Release notes",
-        "published": "2026-10-10T07:00:00.000Z",
         "isNew": false
       }
     ],
@@ -401,6 +401,15 @@
     ],
     "python": [
       {
+        "title": "Announcing Python Software Foundation Fellow Members for Q3 2026! 🎉",
+        "link": "https://pyfound.blogspot.com/2026/10/announcing-python-software-foundation.html",
+        "summary": "The PSF is pleased to announce its third batch of PSF Fellows for 2026. Let us welcome the new PSF Fellows for Q3! The following people continue to do amazing things for the Python community:\nAldo Caneo\nLinkedIn, GitHub\nDonghee Na\nLinkedIn, GitHub\nPaul Moore\nGitHub, Mastodon\nTakayuki Shimizukawa\nWebsite\nThank you for your continued contributions. We have added you to our Fellows Roster.\nThe above members help support the Python ecosystem by being phenomenal leaders, sustaining the growth of the Python scientific community, maintaining virtual Python communities, maintaining Python libraries, creating educational material, organizing Python events and conferences, starting Python communities in local regions, and overall being great mentors in our community. Each of them continues to help make Python more accessible around the world. To learn more about the new Fellow members, check out their links above.\nLet's continue recognizing Pythonistas all over the world for their impact on our community. The criteria for Fellow members is available on our PSF Fellow Membership page. If you would like to nominate someone to be a PSF Fellow, please send a description of their Python accomplishments and their email address to psf-fellow at python.org. We are accepting nominations for Quarter 4 of 2026 through November 20th, 2026.\nAre you a PSF Fellow and want to help the Work Group review nominations? Contact us at psf-fellow at python.org.",
+        "image": null,
+        "source": "Python Software Foundation News",
+        "published": "2026-10-19T13:14:24.637Z",
+        "isNew": false
+      },
+      {
         "title": "Python 3.16.0 alpha 1 is now available",
         "link": "https://blog.python.org/2026/10/python-3160-alpha-1-is-now-available/",
         "summary": "The first developer preview of Python 3.16 is ready for testing.",
@@ -461,15 +470,6 @@
         "image": null,
         "source": "Python Insider",
         "published": "2026-09-30T12:00:10.000Z",
-        "isNew": false
-      },
-      {
-        "title": "PEP 827: Type Manipulation (Python Language Summit 2026)",
-        "link": "https://blog.python.org/2026/09/language-summit-2026-pep-827-type-manipulation/",
-        "summary": "Michael J. Sullivan presents PEP 827 and discusses a key design decision: how to store type annotations?",
-        "image": null,
-        "source": "Python Insider",
-        "published": "2026-09-30T12:00:09.000Z",
         "isNew": false
       }
     ],
