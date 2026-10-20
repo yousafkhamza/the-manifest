@@ -1,6 +1,6 @@
 {
   "date": "2026-10-20",
-  "generatedAt": "2026-10-20T10:03:57.520Z",
+  "generatedAt": "2026-10-20T15:40:05.581Z",
   "totalArticles": 72,
   "ticker": [
     {
@@ -105,22 +105,13 @@
     ],
     "azure": [
       {
-        "title": "Designing for sovereign AI: A shared foundation from edge to cloud",
-        "link": "https://azure.microsoft.com/en-us/blog/designing-for-sovereign-ai-a-shared-foundation-from-edge-to-cloud/",
-        "summary": "A flexible sovereign architecture allows organizations to place each workload in the right environment, apply the controls it requires, and maintain consistency.\nThe post Designing for sovereign AI: A shared foundation from edge to cloud appeared first on Microsoft Azure Blog.",
-        "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/10/Msft-Intel-YourAI-960.gif",
-        "source": "Microsoft Azure Blog",
-        "published": "2026-10-19T19:00:00.000Z",
-        "isNew": true
-      },
-      {
         "title": "Managing open-weight model risk in enterprise deployments",
         "link": "https://azure.microsoft.com/en-us/blog/managing-open-weight-model-risk-in-enterprise-deployments/",
         "summary": "The growing AI landscape is giving enterprises more choice in how they build, customize, and deploy increasingly capable models.\nThe post Managing open-weight model risk in enterprise deployments appeared first on Microsoft Azure Blog.",
         "image": null,
         "source": "Microsoft Azure Blog",
         "published": "2026-10-16T16:05:00.000Z",
-        "isNew": true
+        "isNew": false
       },
       {
         "title": "Evolving the cloud-native foundation for the next generation of AI",
@@ -129,7 +120,7 @@
         "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/10/CLO20b_Madeleine_office_009-1024x683.jpg",
         "source": "Microsoft Azure Blog",
         "published": "2026-10-15T16:00:00.000Z",
-        "isNew": true
+        "isNew": false
       },
       {
         "title": "Microsoft named a Leader in the 2026 Gartner® Magic Quadrant™ for Server Virtualization Platforms",
@@ -174,6 +165,15 @@
         "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/10/261001_AI-Powered_Systems_Blog-1-1024x576.jpeg",
         "source": "Microsoft Azure Blog",
         "published": "2026-10-07T15:00:00.000Z",
+        "isNew": false
+      },
+      {
+        "title": "Microsoft named a Leader in the 2026 Gartner® Magic Quadrant™ for Global Industrial AIoT Platforms",
+        "link": "https://azure.microsoft.com/en-us/blog/microsoft-named-a-leader-in-the-2026-gartner-magic-quadrant-for-global-industrial-aiot-platforms/",
+        "summary": "We’re proud to share that Microsoft has been named a Leader in the 2026 Gartner® Magic Quadrant™ for Global Industrial AIoT Platforms.\nThe post Microsoft named a Leader in the 2026 Gartner® Magic Quadrant™ for Global Industrial AIoT Platforms appeared first on Microsoft Azure Blog.",
+        "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/10/Figure_1_Magic_Quadrant_for_Global_Industrial_AIoT_Platforms_highres-894x1024.webp",
+        "source": "Microsoft Azure Blog",
+        "published": "2026-10-06T21:00:00.000Z",
         "isNew": false
       }
     ],
