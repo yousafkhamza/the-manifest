@@ -1,6 +1,6 @@
 {
-  "date": "2026-10-19",
-  "generatedAt": "2026-10-19T21:31:45.498Z",
+  "date": "2026-10-20",
+  "generatedAt": "2026-10-20T10:03:57.520Z",
   "totalArticles": 72,
   "ticker": [
     {
@@ -17,7 +17,7 @@
     },
     {
       "label": "Go",
-      "version": "go1.27.2"
+      "version": "go1.27.3"
     },
     {
       "label": "Rust",
@@ -105,6 +105,33 @@
     ],
     "azure": [
       {
+        "title": "Designing for sovereign AI: A shared foundation from edge to cloud",
+        "link": "https://azure.microsoft.com/en-us/blog/designing-for-sovereign-ai-a-shared-foundation-from-edge-to-cloud/",
+        "summary": "A flexible sovereign architecture allows organizations to place each workload in the right environment, apply the controls it requires, and maintain consistency.\nThe post Designing for sovereign AI: A shared foundation from edge to cloud appeared first on Microsoft Azure Blog.",
+        "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/10/Msft-Intel-YourAI-960.gif",
+        "source": "Microsoft Azure Blog",
+        "published": "2026-10-19T19:00:00.000Z",
+        "isNew": true
+      },
+      {
+        "title": "Managing open-weight model risk in enterprise deployments",
+        "link": "https://azure.microsoft.com/en-us/blog/managing-open-weight-model-risk-in-enterprise-deployments/",
+        "summary": "The growing AI landscape is giving enterprises more choice in how they build, customize, and deploy increasingly capable models.\nThe post Managing open-weight model risk in enterprise deployments appeared first on Microsoft Azure Blog.",
+        "image": null,
+        "source": "Microsoft Azure Blog",
+        "published": "2026-10-16T16:05:00.000Z",
+        "isNew": true
+      },
+      {
+        "title": "Evolving the cloud-native foundation for the next generation of AI",
+        "link": "https://azure.microsoft.com/en-us/blog/evolving-the-cloud-native-foundation-for-the-next-generation-of-ai/",
+        "summary": "Discover how Azure is advancing cloud-native infrastructure to help organizations build, run, and optimize applications and agents at scale.\nThe post Evolving the cloud-native foundation for the next generation of AI appeared first on Microsoft Azure Blog.",
+        "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/10/CLO20b_Madeleine_office_009-1024x683.jpg",
+        "source": "Microsoft Azure Blog",
+        "published": "2026-10-15T16:00:00.000Z",
+        "isNew": true
+      },
+      {
         "title": "Microsoft named a Leader in the 2026 Gartner® Magic Quadrant™ for Server Virtualization Platforms",
         "link": "https://azure.microsoft.com/en-us/blog/microsoft-named-a-leader-in-the-2026-gartner-magic-quadrant-for-server-virtualization-platforms/",
         "summary": "We're building operational consistency through Azure and Azure Arc, and infrastructure consistency through Hyper-V.\nThe post Microsoft named a Leader in the 2026 Gartner® Magic Quadrant™ for Server Virtualization Platforms appeared first on Microsoft Azure Blog.",
@@ -148,40 +175,13 @@
         "source": "Microsoft Azure Blog",
         "published": "2026-10-07T15:00:00.000Z",
         "isNew": false
-      },
-      {
-        "title": "Microsoft named a Leader in the 2026 Gartner® Magic Quadrant™ for Global Industrial AIoT Platforms",
-        "link": "https://azure.microsoft.com/en-us/blog/microsoft-named-a-leader-in-the-2026-gartner-magic-quadrant-for-global-industrial-aiot-platforms/",
-        "summary": "We’re proud to share that Microsoft has been named a Leader in the 2026 Gartner® Magic Quadrant™ for Global Industrial AIoT Platforms.\nThe post Microsoft named a Leader in the 2026 Gartner® Magic Quadrant™ for Global Industrial AIoT Platforms appeared first on Microsoft Azure Blog.",
-        "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/10/Figure_1_Magic_Quadrant_for_Global_Industrial_AIoT_Platforms_highres-894x1024.webp",
-        "source": "Microsoft Azure Blog",
-        "published": "2026-10-06T21:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "Responsible infrastructure at hyperscale: Managing the full lifecycle of Azure hardware",
-        "link": "https://azure.microsoft.com/en-us/blog/responsible-infrastructure-at-hyperscale-managing-the-full-lifecycle-of-azure-hardware/",
-        "summary": "Microsoft is advancing Azure cloud infrastructure with more efficient systems and Circular Centers that extend the useful life of datacenter hardware.\nThe post Responsible infrastructure at hyperscale: Managing the full lifecycle of Azure hardware appeared first on Microsoft Azure Blog.",
-        "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/09/word-image-54217-2.webp",
-        "source": "Microsoft Azure Blog",
-        "published": "2026-09-30T15:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "SQL Server on Azure Local is now generally available",
-        "link": "https://www.microsoft.com/en-us/sql-server/blog/2026/09/28/sql-server-on-azure-local-is-now-generally-available/",
-        "summary": "With SQL Server on Azure Local, customers can modernize where their data resides while maintaining control over infrastructure, connectivity, and data placement.\nThe post SQL Server on Azure Local is now generally available appeared first on Microsoft Azure Blog.",
-        "image": null,
-        "source": "Microsoft Azure Blog",
-        "published": "2026-09-29T16:40:06.000Z",
-        "isNew": false
       }
     ],
     "gcp": [
       {
         "title": "October 19, 2026",
         "link": "https://docs.cloud.google.com/release-notes#October_19_2026",
-        "summary": "Compute Engine\nFeature\nGenerally available: To prevent data loss or corruption when you stop or\ndelete a Compute Engine instance, you can enable graceful shutdown. This\nsetting gives the guest OS up to six hours to finish running tasks. For more\ninformation, see\nAbout graceful shutdown.\nDialogflow\nFeature\nDialogflow CX: You can set the telephony_disable_voice_processing session parameter to true to turn off speech recognition and accept only DTMF input for the rest of the session. This helps in noisy environments, where speech recognition can transcribe background noise as end-user input. See Turn off speech recognition for telephony.\nGoogle Cloud Armor\nSecurity\nSecurity fixes and enhancements to Cloud Armor preconfigured WAF v33-stable\nrulesets. For more information, see Tuning Google Cloud Armor WAF\nrules.\nThe following rulesets have been updated:\nsqli-v33-stable\nxss-v33-stable\nlfi-v33-stable\nrfi-v33-stable\nrce-v33-stable\nmethodenforcement-v33-stable\nscannerdetection-v33-stable\nprotocolattack-v33-stable\nphp-v33-stable\nsessionfixation-v33-stable\njava-v33-stable\nnodejs-v33-stable\nSecurity\nSecurity fixes and enhancements to Cloud Armor preconfigured WAF stable\nrulesets for v3.0. For more information, see Tuning Google Cloud Armor WAF\nrules.\nThe following rulesets have been updated:\nsqli-stable\nxss-stable\nlfi-stable\nrfi-stable\nrce-stable\nmethodenforcement-stable\nscannerdetection-stable\nprotocolattack-stable\nphp-stable\nsessionfixation-stable\nSecurity Command Center\nFeature\nYou…",
+        "summary": "Agent Platform Workbench\nChange\n20261018.00_p0 Release\nChange\nInstalled latest packages from upstream dependencies.\nFixed\nFixed an issue where Jupyter Server terminal configuration could overwrite the Dataproc plugin server extension setting or fail to apply the terminal disable setting on container startup.\nChange\n20261018.00_p0 Release\nChange\nInstalled latest packages from upstream dependencies.\nFixed\nFixed an issue where Jupyter Server terminal configuration could overwrite the Dataproc plugin server extension setting or fail to apply the terminal disable setting on container startup.\nCloud Asset Inventory\nFeature\nThe following resource types are publicly available through the ExportAssets, ListAssets, BatchGetAssetsHistory, QueryAssets, Feed, and Search (SearchAllResources, SearchAllIamPolicies) APIs.\nFault Injection Testing\n\nfaulttesting.googleapis.com/Experiment\nfaulttesting.googleapis.com/ExperimentTemplate\nfaulttesting.googleapis.com/Validation\n\nFirebase Storage\n\nfirebasestorage.googleapis.com/Bucket\nfirebasestorage.googleapis.com/DefaultBucket\n\nPrivileged Access Manager\n\nprivilegedaccessmanager.googleapis.com/Entitlement\n\n\nCloud Service Mesh\nAnnouncement\n1.31.1-asm.19 is now available for in-cluster Cloud Service Mesh.\nFor details on upgrading Cloud Service Mesh, see\nUpgrade Cloud Service Mesh. Cloud Service\nMesh 1.31.1-asm.19 uses Envoy v1.39.3.\nThis release resolves the security vulnerabilities listed in Security Bulletin\nGCP-2026-069\n(ISTIO-SECURITY-2026-007).…",
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-10-19T07:00:00.000Z",
@@ -208,7 +208,7 @@
       {
         "title": "October 16, 2026",
         "link": "https://docs.cloud.google.com/release-notes#October_16_2026",
-        "summary": "BigQuery\nFeature\nConversational analytics in BigQuery\nis now available in the following locations:\nnorthamerica-northeast1 (Montréal)\nnorthamerica-northeast2 (Toronto)\nFor more information, see\nLocations.\nDialogflow\nFeature\ngemini-3.5-flash-lite has become generally available (GA). See\nGenerative quotas\nfor how to request quota for Gemini 3 and later models.\nGemini Enterprise\nFeature\nGemini Enterprise: Configure citations for custom MCP data stores\nYou can configure the citation_mappings parameter for custom Model Context\nProtocol (MCP) data stores using the REST API to display source citation chips\nwhen Gemini Enterprise answers questions using tools on your custom MCP server.\nThis feature is generally available (GA).\nFor more information, see Configure citations for custom MCP data\nstores.\nFeature\nGemini Enterprise: Connect workflows in Workflow Builder to\nConfluence Data Center and Jira Data Center\nYou can connect workflows in Workflow Builder to Confluence Data Center and\nJira Data Center to search data and automate actions across these third-party\napps.\nFor more information, see Workflows\noverview.\nGoogle Cloud Contact Center as a Service\nAnnouncement\nAdvanced reporting dashboards prerelease notes 6.16\nHere are the pre-release notes for updates to the advanced reporting dashboards\nand other reporting in CCAI Platform. When we release these updates, we\nexpect the new capabilities to be as shown here.\nImportant: The next version of the advanced reporting dashboards could…",
+        "summary": "BigQuery\nFeature\nConversational analytics in BigQuery\nis now available in the following locations:\nnorthamerica-northeast1 (Montréal)\nnorthamerica-northeast2 (Toronto)\nFor more information, see\nLocations.\nCloud SQL for PostgreSQL\nChange\nCloud SQL for PostgreSQL now supports enabling Managed Connection Pooling\non existing Private Service Connect\ninstances. Previously, Cloud SQL supported enabling Managed Connection Pooling only\non new instances using Private Service Connect.\nFor more information, see Managed Connection Pooling overview\nand Configure Managed Connection Pooling.\nDialogflow\nFeature\ngemini-3.5-flash-lite has become generally available (GA). See\nGenerative quotas\nfor how to request quota for Gemini 3 and later models.\nGemini Enterprise\nFeature\nGemini Enterprise: Configure citations for custom MCP data stores\nYou can configure the citation_mappings parameter for custom Model Context\nProtocol (MCP) data stores using the REST API to display source citation chips\nwhen Gemini Enterprise answers questions using tools on your custom MCP server.\nThis feature is generally available (GA).\nFor more information, see Configure citations for custom MCP data\nstores.\nFeature\nGemini Enterprise: Connect workflows in Workflow Builder to\nConfluence Data Center and Jira Data Center\nYou can connect workflows in Workflow Builder to Confluence Data Center and\nJira Data Center to search data and automate actions across these third-party\napps.\nFor more information, see Workflows\noverview.…",
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-10-16T07:00:00.000Z",
@@ -235,7 +235,7 @@
       {
         "title": "October 13, 2026",
         "link": "https://docs.cloud.google.com/release-notes#October_13_2026",
-        "summary": "BigQuery\nFeature\nThe\nAI.AGG function\nis\ngenerally available\n(GA). You can use this function to semantically aggregate unstructured input\ndata based on natural language instructions.\nFeature\nBigQuery generative AI functions\nnow support the gemini-4-argon model. This model is\ngenerally available.\nCloud Asset Inventory\nFeature\nThe following resource types are publicly available through the ExportAssets, ListAssets, BatchGetAssetsHistory, QueryAssets, Feed, and Search (SearchAllResources, SearchAllIamPolicies) APIs.\nCloud Service Mesh: networkservices.googleapis.com/AgentGateway\n\nCloud Billing\nFeature\nSpend cap budgets are now generally available for a limited set of services\nFor\neligible services,\nyou can configure a spend cap budget to automatically pause usage when your\nestimated spend exceeds the budget amount you set. You can manage spend cap\nbudgets in the\nBudgets page in the Google Cloud console\nand using the\nCloud Billing Budget API.\nSpend caps are a cost control mechanism. A spend cap is enforced when usage\ncosts exceed your budget target amount. When enforced, any new request to the\neligible services, within the specified project, are paused and no further\nusage costs are accrued until the spend cap is lifted. You can manually lift an\nenforced spend cap, or wait until the start of the next month when the\nspend cap is automatically lifted.\nSpend caps use gross, estimated costs to trigger the alerts and caps,\nenforcing a cap much faster than the actual costs are…",
+        "summary": "Agent Platform Workbench\nChange\n20261013-2230-rc0 Release\nChange\n20261013-2230-rc0 Release\nChange\nInstalled latest packages from upstream dependencies.\nChange\nInstalled latest packages from upstream dependencies.\nBigQuery\nFeature\nThe\nAI.AGG function\nis\ngenerally available\n(GA). You can use this function to semantically aggregate unstructured input\ndata based on natural language instructions.\nFeature\nBigQuery generative AI functions\nnow support the gemini-4-argon model. This model is\ngenerally available.\nCloud Asset Inventory\nFeature\nThe following resource types are publicly available through the ExportAssets, ListAssets, BatchGetAssetsHistory, QueryAssets, Feed, and Search (SearchAllResources, SearchAllIamPolicies) APIs.\nCloud Service Mesh: networkservices.googleapis.com/AgentGateway\n\nCloud Billing\nFeature\nSpend cap budgets are now generally available for a limited set of services\nFor\neligible services,\nyou can configure a spend cap budget to automatically pause usage when your\nestimated spend exceeds the budget amount you set. You can manage spend cap\nbudgets in the\nBudgets page in the Google Cloud console\nand using the\nCloud Billing Budget API.\nSpend caps are a cost control mechanism. A spend cap is enforced when usage\ncosts exceed your budget target amount. When enforced, any new request to the\neligible services, within the specified project, are paused and no further\nusage costs are accrued until the spend cap is lifted. You can manually lift an\nenforced spend cap, or…",
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-10-13T07:00:00.000Z",
