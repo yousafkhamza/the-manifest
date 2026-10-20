@@ -1,6 +1,6 @@
 {
   "date": "2026-10-20",
-  "generatedAt": "2026-10-20T15:40:05.581Z",
+  "generatedAt": "2026-10-20T20:34:34.166Z",
   "totalArticles": 72,
   "ticker": [
     {
@@ -30,6 +30,15 @@
   ],
   "topics": {
     "aws": [
+      {
+        "title": "Introducing Amazon ECS Gateway: A fully-managed ingress solution for ECS services",
+        "link": "https://aws.amazon.com/blogs/aws/introducing-amazon-ecs-gateway-a-fully-managed-ingress-solution-for-ecs-services/",
+        "summary": "Try Amazon ECS Gateway, a new account-level resource that simplifies ingress networking for containerized workloads by dynamically provisioning and managing the necessary infrastructure on your behalf, with all resources created directly in your account.",
+        "image": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2026/10/20/2026-ECS-Gateway-architecture.png",
+        "source": "AWS News Blog",
+        "published": "2026-10-20T17:03:38.000Z",
+        "isNew": false
+      },
       {
         "title": "AWS Weekly Roundup: AWS Lambda Web Functions, Amazon S3 on the Vercel Marketplace, and more (October 19, 2026)",
         "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-aws-lambda-web-functions-amazon-s3-on-the-vercel-marketplace-and-more-october-19-2026/",
@@ -91,15 +100,6 @@
         "image": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2026/09/27/2026-well-architect-agent-1.jpg",
         "source": "AWS News Blog",
         "published": "2026-10-01T20:04:04.000Z",
-        "isNew": false
-      },
-      {
-        "title": "Amazon S3 Tables now support all Apache Iceberg V3 data types",
-        "link": "https://aws.amazon.com/blogs/aws/amazon-s3-tables-now-support-all-apache-iceberg-v3-data-types/",
-        "summary": "Amazon S3 Tables now support all data types in the Apache Iceberg V3 spec, along with column default values, deletion vectors, and row lineage. Upgrade existing V2 tables or create new V3 tables with built-in compaction, maintenance, and engine compatibility.",
-        "image": null,
-        "source": "AWS News Blog",
-        "published": "2026-09-30T22:10:00.000Z",
         "isNew": false
       }
     ],
@@ -179,9 +179,18 @@
     ],
     "gcp": [
       {
+        "title": "October 20, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#October_20_2026",
+        "summary": "Apigee X\nAnnouncement\nOn October 20th, 2026, we began maintenance updates of Apigee instances configured for maintenance windows.\nIf you set a preferred window for maintenance for your instance, and your instance version is\nbelow 1-18-0-apigee-6, your instance will be updated to 1-18-0-apigee-6 within the\nnext seven to 21 days. A notification containing the expected date of upgrade will be sent within the next two business days.\nNote: Instances that meet either of the following two criteria will not be updated:\n\nYour instance has a DNS misconfiguration, as described in Known Issue 445936920.\nYour instance uses an Apigee Java Library that has been removed, as described in Apigee release notes dated October 16, 2025.\n\nFor more information on participating in scheduled maintenance windows, see Maintenance overview and Manage Apigee instance maintenance windows.\nCloud SDK\nBreaking\n590.0.0 (2026-10-20)\nBreaking Changes\n(Google Cloud CLI) Removed the gcloud-man-pages component. Use --help for full command documentation.\n(App Engine) Removed the app-engine-grpc component from the Google Cloud CLI.\n(Cloud Build) Removed the Cloud Build Local Builder component (cloud-build-local) from the Google Cloud CLI.\nGoogle Cloud CLI\nUpdated bundled Python on Linux and Windows, and in the Alpine-based Docker\nimages, to pyOpenSSL 26.4.0 and cryptography 50.0.1. 32-bit Windows uses\npyOpenSSL 26.2.0 and cryptography 48.0.1, the newest releases that support it.\nAI\nUpdated gcloud beta ai endpoints…",
+        "image": null,
+        "source": "Google Cloud Platform (GCP) - Release notes",
+        "published": "2026-10-20T07:00:00.000Z",
+        "isNew": false
+      },
+      {
         "title": "October 19, 2026",
         "link": "https://docs.cloud.google.com/release-notes#October_19_2026",
-        "summary": "Agent Platform Workbench\nChange\n20261018.00_p0 Release\nChange\nInstalled latest packages from upstream dependencies.\nFixed\nFixed an issue where Jupyter Server terminal configuration could overwrite the Dataproc plugin server extension setting or fail to apply the terminal disable setting on container startup.\nChange\n20261018.00_p0 Release\nChange\nInstalled latest packages from upstream dependencies.\nFixed\nFixed an issue where Jupyter Server terminal configuration could overwrite the Dataproc plugin server extension setting or fail to apply the terminal disable setting on container startup.\nCloud Asset Inventory\nFeature\nThe following resource types are publicly available through the ExportAssets, ListAssets, BatchGetAssetsHistory, QueryAssets, Feed, and Search (SearchAllResources, SearchAllIamPolicies) APIs.\nFault Injection Testing\n\nfaulttesting.googleapis.com/Experiment\nfaulttesting.googleapis.com/ExperimentTemplate\nfaulttesting.googleapis.com/Validation\n\nFirebase Storage\n\nfirebasestorage.googleapis.com/Bucket\nfirebasestorage.googleapis.com/DefaultBucket\n\nPrivileged Access Manager\n\nprivilegedaccessmanager.googleapis.com/Entitlement\n\n\nCloud Service Mesh\nAnnouncement\n1.31.1-asm.19 is now available for in-cluster Cloud Service Mesh.\nFor details on upgrading Cloud Service Mesh, see\nUpgrade Cloud Service Mesh. Cloud Service\nMesh 1.31.1-asm.19 uses Envoy v1.39.3.\nThis release resolves the security vulnerabilities listed in Security Bulletin\nGCP-2026-069\n(ISTIO-SECURITY-2026-007).…",
+        "summary": "Agent Platform Workbench\nChange\n20261018.00_p0 Release\nChange\nInstalled latest packages from upstream dependencies.\nFixed\nFixed an issue where Jupyter Server terminal configuration could overwrite the Dataproc plugin server extension setting or fail to apply the terminal disable setting on container startup.\nChange\n20261018.00_p0 Release\nChange\nInstalled latest packages from upstream dependencies.\nFixed\nFixed an issue where Jupyter Server terminal configuration could overwrite the Dataproc plugin server extension setting or fail to apply the terminal disable setting on container startup.\nAlloyDB for PostgreSQL\nFeature\nLakehouse federation in AlloyDB is generally available\n(GA). This feature\nlets you query live data in BigQuery directly from AlloyDB using the\nbigquery_fdw extension without moving or duplicating the data.\nFor more information, see\nAccess to real-time data in BigQuery overview\nand\nConfigure access to real-time data in BigQuery.\nCloud Asset Inventory\nFeature\nThe following resource types are publicly available through the ExportAssets, ListAssets, BatchGetAssetsHistory, QueryAssets, Feed, and Search (SearchAllResources, SearchAllIamPolicies) APIs.\nFault Injection Testing\n\nfaulttesting.googleapis.com/Experiment\nfaulttesting.googleapis.com/ExperimentTemplate\nfaulttesting.googleapis.com/Validation\n\nFirebase Storage\n\nfirebasestorage.googleapis.com/Bucket\nfirebasestorage.googleapis.com/DefaultBucket\n\nPrivileged Access Manager…",
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-10-19T07:00:00.000Z",
@@ -239,15 +248,6 @@
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-10-13T07:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "October 12, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#October_12_2026",
-        "summary": "Agent Platform Workbench\nChange\n20261011.00_p0 Release\nChange\nInstalled latest packages from upstream dependencies.\nFixed\nFixed an issue where gcloud and gsutil failed to load with an AttributeError in OpenSSL.crypto due to a version mismatch between pyOpenSSL and cryptography.\nChange\n20261011.00_p0 Release\nChange\nInstalled latest packages from upstream dependencies.\nFixed\nFixed an issue where gcloud and gsutil failed to load with an AttributeError in OpenSSL.crypto due to a version mismatch between pyOpenSSL and cryptography.\nApplication Integration\nSecurity\nStarting October 15, 2026, Application Integration enforces security fixes for\nIAM, run-as service accounts, and iam.serviceAccounts.actAs checks, requiring\nthe correct permissions for the test feature and any new integrations. For more\ninformation, see the\nGCP-2026-067\nsecurity bulletin and\nPrepare for upcoming authorization changes.\nBackup for GKE\nChange\nBackup for GKE is now available in the following region: asia-southeast3 (Bangkok, Thailand). For more information, see Backup for GKE locations.\nBigQuery\nFeature\nIncremental data transfers for the BigQuery Data Transfer Service for\nPostgreSQL\nand\nServiceNow\nare now\ngenerally available\n(GA).\nCloud Build\nAnnouncement\nYou can now choose the release channel for your\nbuild config or private pool. The release channel determines how frequently the\nunderlying versions of Debian and Docker are updated.\nCloud DNS\nFeature\nOutbound Endpoints for Cloud DNS is available in…",
-        "image": null,
-        "source": "Google Cloud Platform (GCP) - Release notes",
-        "published": "2026-10-12T07:00:00.000Z",
         "isNew": false
       }
     ],
@@ -401,6 +401,15 @@
     ],
     "python": [
       {
+        "title": "Wikis: Relaunched!",
+        "link": "https://pyfound.blogspot.com/2026/10/wikis-relaunched.html",
+        "summary": "In February 2026, the Python Software Foundation (PSF) made the PSF, Python, and Jython wikis read-only due to excessive automated traffic and security concerns on outdated infrastructure. This sudden change was disruptive to the many community members who rely on and contribute to these wikis. We are pleased to share that we have stood up new wikis through GitHub Pages that address the automated traffic and security concerns. The new wikis will have a more modern front-end, as well as a permissions-based content management system (CMS) for community members to make updates.\nFind the new wikis here:\nPSF Wiki\nPython Wiki\nJython Wiki\nMore details and context\nExcessive automated traffic\nWith the old wiki structure, we received a large volume of alerts at all hours, each serious enough to page and wake our on-call infrastructure staff, which is very limited (just one person currently, although this will be changing soon!). The quantity of scraping overloaded our servers, causing outages, which happened often enough that these issues required a significant amount of effort for the PSF staff to manage. On review back in February, that traffic turned out to be almost entirely AI bots that were trying to scrape the entire internet.\nSecurity\nAdditionally, some portions of the wikis were still built with Python 2. Python 2 reached end of life on January 1, 2020, and no longer receives upstream security fixes. Moving to a static site makes it very fast and reduces security risks, while…",
+        "image": null,
+        "source": "Python Software Foundation News",
+        "published": "2026-10-20T16:29:17.850Z",
+        "isNew": false
+      },
+      {
         "title": "Announcing Python Software Foundation Fellow Members for Q3 2026! 🎉",
         "link": "https://pyfound.blogspot.com/2026/10/announcing-python-software-foundation.html",
         "summary": "The PSF is pleased to announce its third batch of PSF Fellows for 2026. Let us welcome the new PSF Fellows for Q3! The following people continue to do amazing things for the Python community:\nAldo Caneo\nLinkedIn, GitHub\nDonghee Na\nLinkedIn, GitHub\nPaul Moore\nGitHub, Mastodon\nTakayuki Shimizukawa\nWebsite\nThank you for your continued contributions. We have added you to our Fellows Roster.\nThe above members help support the Python ecosystem by being phenomenal leaders, sustaining the growth of the Python scientific community, maintaining virtual Python communities, maintaining Python libraries, creating educational material, organizing Python events and conferences, starting Python communities in local regions, and overall being great mentors in our community. Each of them continues to help make Python more accessible around the world. To learn more about the new Fellow members, check out their links above.\nLet's continue recognizing Pythonistas all over the world for their impact on our community. The criteria for Fellow members is available on our PSF Fellow Membership page. If you would like to nominate someone to be a PSF Fellow, please send a description of their Python accomplishments and their email address to psf-fellow at python.org. We are accepting nominations for Quarter 4 of 2026 through November 20th, 2026.\nAre you a PSF Fellow and want to help the Work Group review nominations? Contact us at psf-fellow at python.org.",
@@ -461,15 +470,6 @@
         "image": null,
         "source": "Python Insider",
         "published": "2026-09-30T12:00:11.000Z",
-        "isNew": false
-      },
-      {
-        "title": "Lightning Talks (Python Language Summit 2026)",
-        "link": "https://blog.python.org/2026/09/language-summit-2026-lightning-talks/",
-        "summary": "Lightning talks on a one-time ABI break, safer interruptions, EktuPy (Scratch but Python), an AGENTS.md file for CPython, and a call to read PEP 836.",
-        "image": null,
-        "source": "Python Insider",
-        "published": "2026-09-30T12:00:10.000Z",
         "isNew": false
       }
     ],
