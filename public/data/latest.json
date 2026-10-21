@@ -1,6 +1,6 @@
 {
   "date": "2026-10-21",
-  "generatedAt": "2026-10-21T15:58:19.956Z",
+  "generatedAt": "2026-10-21T20:37:41.477Z",
   "totalArticles": 72,
   "ticker": [
     {
@@ -9,7 +9,7 @@
     },
     {
       "label": "Terraform",
-      "version": "v1.16.6"
+      "version": "v1.17.0"
     },
     {
       "label": "Python",
@@ -105,15 +105,6 @@
     ],
     "azure": [
       {
-        "title": "Advancing digital sovereignty with greater control and choice",
-        "link": "https://blogs.microsoft.com/blog/2026/10/20/advancing-digital-sovereignty-with-greater-control-and-choice/",
-        "summary": "Across conversations with leaders in government, critical infrastructure and regulated industries, one priority consistently rises to the top: putting technology to work on the most important systems while maintaining the control those systems require.\nThe post Advancing digital sovereignty with greater control and choice appeared first on Microsoft Azure Blog.",
-        "image": null,
-        "source": "Microsoft Azure Blog",
-        "published": "2026-10-20T17:34:47.000Z",
-        "isNew": false
-      },
-      {
         "title": "Designing for sovereign AI: A shared foundation from edge to cloud",
         "link": "https://azure.microsoft.com/en-us/blog/designing-for-sovereign-ai-a-shared-foundation-from-edge-to-cloud/",
         "summary": "A flexible sovereign architecture allows organizations to place each workload in the right environment, apply the controls it requires, and maintain consistency.\nThe post Designing for sovereign AI: A shared foundation from edge to cloud appeared first on Microsoft Azure Blog.",
@@ -175,13 +166,22 @@
         "source": "Microsoft Azure Blog",
         "published": "2026-10-12T13:00:00.000Z",
         "isNew": false
+      },
+      {
+        "title": "AI transformation across the infrastructure lifecycle: From supply chain to fleet operations",
+        "link": "https://azure.microsoft.com/en-us/blog/ai-transformation-across-the-infrastructure-lifecycle-from-supply-chain-to-fleet-operations/",
+        "summary": "The opportunity is bigger than making individual tasks faster. It’s to build a system that learns from how infrastructure is designed, sourced, and operated.\nThe post AI transformation across the infrastructure lifecycle: From supply chain to fleet operations appeared first on Microsoft Azure Blog.",
+        "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/10/261001_AI-Powered_Systems_Blog-1-1024x576.jpeg",
+        "source": "Microsoft Azure Blog",
+        "published": "2026-10-07T15:00:00.000Z",
+        "isNew": false
       }
     ],
     "gcp": [
       {
         "title": "October 21, 2026",
         "link": "https://docs.cloud.google.com/release-notes#October_21_2026",
-        "summary": "Model Armor\nFeature\nYou can use custom organization policies to ensure that all new or updated\nModel Armor Template resources enforce required filters, like\nresponsible AI or prompt injection and jailbreak detection. This feature is\ngenerally available (GA).\nFor more information, see Use custom organization policies.",
+        "summary": "Cloud Billing\nFeature\nSKU attributes and granular usage units in pricing data export (Preview)\nSKU attributes and granular usage units are now available in\nPreview\nin the Cloud Billing\npricing data export to BigQuery.\nSKU attributes: SKU attributes are key-value pairs that describe the SKU.\nFor example, Key: model_name, Value:  gemini_2_5_flash.\nGranular usage units: Granular usage units are the usage unit of the SKU,\nsuch as tokens.\nFor more information about these dimensions, see the following:\nSKU attributes\nGranular usage units\nGemini Enterprise Agent Platform\nFixed\nCodeMender updates (v0.16.0)\nThis release introduces updates to CodeMender:\nDeep scan by default (cm find): cm find now runs a concurrent\nfile-by-file deep scan (--deep) by default for higher vulnerability recall\nacross repositories. To run a single-session quick scan instead, pass the\n--quick flag (cm find --quick). cm stats now breaks down scan usage by\nmode (--deep, --quick, and --diff).\nPre-flight health checks (cm health): Added the cm health command\n(with --json, --strict, and --timeout flags) to verify credentials,\nconfiguration, endpoint reachability, and project authorization before\nrunning scans.\nExpanded file discovery: cm find now scans .hh, .hxx, .inl, and\n.ipp C++ headers, extensionless scripts with supported language shebangs\n(python, node, ruby, and php), nested build/, target/, obj/,\nand bin/ source directories, and production code under spec/, locale/,\nand i18n/.\nBug fixes:\n\nRestricted cm…",
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-10-21T07:00:00.000Z",
@@ -327,6 +327,15 @@
     ],
     "terraform": [
       {
+        "title": "v1.17.0",
+        "link": "https://github.com/hashicorp/terraform/releases/tag/v1.17.0",
+        "summary": "1.17.0 (October 21, 2026)\nNEW FEATURES:\nTerraform now supports variables and locals in provider requirements (#39153)\nA new -minimal-refresh planning option has been added, which will only refresh resources that have proposed changes. (#35290)\npolicy: Terraform Policy is now generally available. The -policies flag for plan, apply, and query no longer requires an experimental build or the -allow-experimental-features flag. Query policies evaluate resources discovered by list blocks and report human-readable or JSON results. See https://developer.hashicorp.com/terraform/policy for more information. (#38970)\nENHANCEMENTS:\ncommand/init: Enrich log messages with provider versions (#38918)\ntest: Add mock_provider support for ephemeral resources (#38928)\ncommand/login: display warning after successful login if user is subject to an organization's TTL policy\nBUG FIXES:\nfuncs: pow and log no longer panic when result is not a number (#38912)\nephemeral: Terraform will now use and display diagnostics raised when renewing an ephemeral resource. This may cause warnings to appear that previously were lost. We expect that any error diagnostics that were previously lost would have caused confusing downstream errors, so we do not anticipate this change to be breaking. (#38989)\ntest: Deterministic dependency ordering in cleanup graph (#38247)\nquery: report Unknown and N/A results for policy evaluations of discovered resources (#39058)\nquery: terraform query -policies now rejects a path that is…",
+        "image": "https://avatars.githubusercontent.com/u/82989873?s=60&v=4",
+        "source": "Release notes from terraform",
+        "published": "2026-10-21T17:32:54.000Z",
+        "isNew": false
+      },
+      {
         "title": "v1.17.0-rc2",
         "link": "https://github.com/hashicorp/terraform/releases/tag/v1.17.0-rc2",
         "summary": "1.17.0-rc2 (October 14, 2026)\nNEW FEATURES:\nTerraform now supports variables and locals in provider requirements (#39153)\nA new -minimal-refresh planning option has been added, which will only refresh resources that have proposed changes. (#35290)\npolicy: Terraform Policy is now generally available. The -policies flag for plan, apply, and query no longer requires an experimental build or the -allow-experimental-features flag. Query policies evaluate resources discovered by list blocks and report human-readable or JSON results. See https://developer.hashicorp.com/terraform/policy for more information. (#38970)\nENHANCEMENTS:\ncommand/init: Enrich log messages with provider versions (#38918)\ntest: Add mock_provider support for ephemeral resources (#38928)\ncommand/login: display warning after successful login if user is subject to an organization's TTL policy\nBUG FIXES:\nfuncs: pow and log no longer panic when result is not a number (#38912)\nephemeral: Terraform will now use and display diagnostics raised when renewing an ephemeral resource. This may cause warnings to appear that previously were lost. We expect that any error diagnostics that were previously lost would have caused confusing downstream errors, so we do not anticipate this change to be breaking. (#38989)\ntest: Deterministic dependency ordering in cleanup graph (#38247)\nquery: report Unknown and N/A results for policy evaluations of discovered resources (#39058)\nquery: terraform query -policies now rejects a path…",
@@ -388,18 +397,18 @@
         "source": "Release notes from terraform",
         "published": "2026-09-16T14:33:39.000Z",
         "isNew": false
-      },
-      {
-        "title": "v1.17.0-beta1",
-        "link": "https://github.com/hashicorp/terraform/releases/tag/v1.17.0-beta1",
-        "summary": "1.17.0-beta1 (September 09, 2026)\nNEW FEATURES:\nTerraform now supports variables and locals in provider requirements (#39153)\nA new -minimal-refresh planning option has been added, which will only refresh resources that have proposed changes. (#35290)\npolicy: Terraform Policy is now generally available. The -policies flag for plan, apply, and init no longer requires the -allow-experimental-features flag. See https://developer.hashicorp.com/terraform/policy for more information. (#38970)\nENHANCEMENTS:\ncommand/init: Enrich log messages with provider versions (#38918)\ntest: Add mock_provider support for ephemeral resources (#38928)\ncommand/login: display warning after successful login if user is subject to an organization's TTL policy\nBUG FIXES:\nfuncs: pow and log no longer panic when result is not a number (#38912)\nephemeral: Terraform will now use and display diagnostics raised when renewing an ephemeral resource. This may cause warnings to appear that previously were lost. We expect that any error diagnostics that were previously lost would have caused confusing downstream errors, so we do not anticipate this change to be breaking. (#38989)\ntest: Deterministic dependency ordering in cleanup graph (#38247)\nquery: report Unknown and N/A results for policy evaluations of discovered resources (#39058)\nNOTES:\nversion: JSON output now includes a new format_version field, which will enable safer future changes of the command's JSON output format. It is assumed existing tooling…",
-        "image": "https://avatars.githubusercontent.com/u/82989873?s=60&v=4",
-        "source": "Release notes from terraform",
-        "published": "2026-09-09T17:13:24.000Z",
-        "isNew": false
       }
     ],
     "python": [
+      {
+        "title": "Python 3.15.1, 3.14.9 and 3.13.17 are out",
+        "link": "https://blog.python.org/2026/10/python-3151-3149-31317/",
+        "summary": "Three certified security releases for 3.15, 3.14 and 3.13.",
+        "image": null,
+        "source": "Python Insider",
+        "published": "2026-10-21T00:00:00.000Z",
+        "isNew": false
+      },
       {
         "title": "Wikis: Relaunched!",
         "link": "https://pyfound.blogspot.com/2026/10/wikis-relaunched.html",
@@ -461,15 +470,6 @@
         "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh9b7Xn98N0VpTwRN2Pu2Jk0q7sfPY_jBway6IkdspPV4vtGpWu4xp8H7Ef2L2K73jc0IC03AYWSP1sJAuKqdOBpKREuvNiYCG0oIM8MZLMeP1p0wLlHUYU1XpnApUMKy26u12RdSIa84wjTThbxk-6hxHA3y1gjy7pfHW6YZd_BfNBgytl_w/s72-w400-h266-c/_image.png",
         "source": "Python Software Foundation News",
         "published": "2026-09-30T13:22:49.579Z",
-        "isNew": false
-      },
-      {
-        "title": "Python Language Summit 2026",
-        "link": "https://blog.python.org/2026/09/language-summit-2026/",
-        "summary": "The 2026 Python Language Summit was hosted in Kraków, Poland as part of EuroPython 2026. There were 15 talks covering free-threading, Rust, garbage collection, type annotations, and more.",
-        "image": null,
-        "source": "Python Insider",
-        "published": "2026-09-30T12:00:11.000Z",
         "isNew": false
       }
     ],
