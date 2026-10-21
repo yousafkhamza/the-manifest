@@ -1,6 +1,6 @@
 {
   "date": "2026-10-21",
-  "generatedAt": "2026-10-21T10:07:23.814Z",
+  "generatedAt": "2026-10-21T15:58:19.956Z",
   "totalArticles": 72,
   "ticker": [
     {
@@ -13,7 +13,7 @@
     },
     {
       "label": "Python",
-      "version": "v3.15.0"
+      "version": "v3.15.1"
     },
     {
       "label": "Go",
@@ -25,7 +25,7 @@
     },
     {
       "label": "Node.js",
-      "version": "v26.12.0"
+      "version": "v26.12.1"
     }
   ],
   "topics": {
@@ -105,6 +105,24 @@
     ],
     "azure": [
       {
+        "title": "Advancing digital sovereignty with greater control and choice",
+        "link": "https://blogs.microsoft.com/blog/2026/10/20/advancing-digital-sovereignty-with-greater-control-and-choice/",
+        "summary": "Across conversations with leaders in government, critical infrastructure and regulated industries, one priority consistently rises to the top: putting technology to work on the most important systems while maintaining the control those systems require.\nThe post Advancing digital sovereignty with greater control and choice appeared first on Microsoft Azure Blog.",
+        "image": null,
+        "source": "Microsoft Azure Blog",
+        "published": "2026-10-20T17:34:47.000Z",
+        "isNew": false
+      },
+      {
+        "title": "Designing for sovereign AI: A shared foundation from edge to cloud",
+        "link": "https://azure.microsoft.com/en-us/blog/designing-for-sovereign-ai-a-shared-foundation-from-edge-to-cloud/",
+        "summary": "A flexible sovereign architecture allows organizations to place each workload in the right environment, apply the controls it requires, and maintain consistency.\nThe post Designing for sovereign AI: A shared foundation from edge to cloud appeared first on Microsoft Azure Blog.",
+        "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/10/Msft-Intel-YourAI-960.gif",
+        "source": "Microsoft Azure Blog",
+        "published": "2026-10-19T19:00:00.000Z",
+        "isNew": false
+      },
+      {
         "title": "Managing open-weight model risk in enterprise deployments",
         "link": "https://azure.microsoft.com/en-us/blog/managing-open-weight-model-risk-in-enterprise-deployments/",
         "summary": "The growing AI landscape is giving enterprises more choice in how they build, customize, and deploy increasingly capable models.\nThe post Managing open-weight model risk in enterprise deployments appeared first on Microsoft Azure Blog.",
@@ -157,27 +175,18 @@
         "source": "Microsoft Azure Blog",
         "published": "2026-10-12T13:00:00.000Z",
         "isNew": false
-      },
-      {
-        "title": "AI transformation across the infrastructure lifecycle: From supply chain to fleet operations",
-        "link": "https://azure.microsoft.com/en-us/blog/ai-transformation-across-the-infrastructure-lifecycle-from-supply-chain-to-fleet-operations/",
-        "summary": "The opportunity is bigger than making individual tasks faster. It’s to build a system that learns from how infrastructure is designed, sourced, and operated.\nThe post AI transformation across the infrastructure lifecycle: From supply chain to fleet operations appeared first on Microsoft Azure Blog.",
-        "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/10/261001_AI-Powered_Systems_Blog-1-1024x576.jpeg",
-        "source": "Microsoft Azure Blog",
-        "published": "2026-10-07T15:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "Microsoft named a Leader in the 2026 Gartner® Magic Quadrant™ for Global Industrial AIoT Platforms",
-        "link": "https://azure.microsoft.com/en-us/blog/microsoft-named-a-leader-in-the-2026-gartner-magic-quadrant-for-global-industrial-aiot-platforms/",
-        "summary": "We’re proud to share that Microsoft has been named a Leader in the 2026 Gartner® Magic Quadrant™ for Global Industrial AIoT Platforms.\nThe post Microsoft named a Leader in the 2026 Gartner® Magic Quadrant™ for Global Industrial AIoT Platforms appeared first on Microsoft Azure Blog.",
-        "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/10/Figure_1_Magic_Quadrant_for_Global_Industrial_AIoT_Platforms_highres-894x1024.webp",
-        "source": "Microsoft Azure Blog",
-        "published": "2026-10-06T21:00:00.000Z",
-        "isNew": false
       }
     ],
     "gcp": [
+      {
+        "title": "October 21, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#October_21_2026",
+        "summary": "Model Armor\nFeature\nYou can use custom organization policies to ensure that all new or updated\nModel Armor Template resources enforce required filters, like\nresponsible AI or prompt injection and jailbreak detection. This feature is\ngenerally available (GA).\nFor more information, see Use custom organization policies.",
+        "image": null,
+        "source": "Google Cloud Platform (GCP) - Release notes",
+        "published": "2026-10-21T07:00:00.000Z",
+        "isNew": false
+      },
       {
         "title": "October 20, 2026",
         "link": "https://docs.cloud.google.com/release-notes#October_20_2026",
@@ -239,15 +248,6 @@
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-10-14T07:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "October 13, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#October_13_2026",
-        "summary": "Agent Platform Workbench\nChange\n20261013-2230-rc0 Release\nChange\n20261013-2230-rc0 Release\nChange\nInstalled latest packages from upstream dependencies.\nChange\nInstalled latest packages from upstream dependencies.\nBigQuery\nFeature\nThe\nAI.AGG function\nis\ngenerally available\n(GA). You can use this function to semantically aggregate unstructured input\ndata based on natural language instructions.\nFeature\nBigQuery generative AI functions\nnow support the gemini-4-argon model. This model is\ngenerally available.\nCloud Asset Inventory\nFeature\nThe following resource types are publicly available through the ExportAssets, ListAssets, BatchGetAssetsHistory, QueryAssets, Feed, and Search (SearchAllResources, SearchAllIamPolicies) APIs.\nCloud Service Mesh: networkservices.googleapis.com/AgentGateway\n\nCloud Billing\nFeature\nSpend cap budgets are now generally available for a limited set of services\nFor\neligible services,\nyou can configure a spend cap budget to automatically pause usage when your\nestimated spend exceeds the budget amount you set. You can manage spend cap\nbudgets in the\nBudgets page in the Google Cloud console\nand using the\nCloud Billing Budget API.\nSpend caps are a cost control mechanism. A spend cap is enforced when usage\ncosts exceed your budget target amount. When enforced, any new request to the\neligible services, within the specified project, are paused and no further\nusage costs are accrued until the spend cap is lifted. You can manually lift an\nenforced spend cap, or…",
-        "image": null,
-        "source": "Google Cloud Platform (GCP) - Release notes",
-        "published": "2026-10-13T07:00:00.000Z",
         "isNew": false
       }
     ],
@@ -475,6 +475,15 @@
     ],
     "go": [
       {
+        "title": "Help set Go's priorities for next year",
+        "link": "https://go.dev/blog/survey2026-announce",
+        "summary": "The Go Blog\nHelp set Go's priorities for next year\nHi Gophers! The 2026 Go Developer Survey is now open. We run this survey every year to understand how you use Go and the challenges you face. Your answers directly shape how we plan and prioritize our work.\nLast year, 5,379 of you responded, and your top frustration was making sure your code follows best practices and Go idioms (33% of respondents). Since then, we shipped a rewritten go fix in Go 1.26 that automatically modernizes your code, and added more modernizers in Go 1.27. You can read everything we learned in the 2025 results.\nTake the survey here. It’s open through November 3, takes about 10–20 minutes, and every question is optional. We’ll share the results on this blog in early 2027.\nPlease share the survey with your colleagues, friends, and online communities—the more Go developers we hear from, the better we understand what you need.\nThank you for helping shape the future of Go!\nPrevious article: Interactive refactoring in gopls\nBlog Index",
+        "image": null,
+        "source": "The Go Blog",
+        "published": "2026-10-21T00:00:00.000Z",
+        "isNew": false
+      },
+      {
         "title": "Interactive refactoring in gopls",
         "link": "https://go.dev/blog/interactive-refactoring",
         "summary": "The Go Blog\nInteractive refactoring in gopls\n pre:nth-of-type(1) { background: var(--color-diff-old); }\n#content .beforeafter > pre:nth-of-type(2) { background: var(--color-diff-new); }\n.beforeafter-arrow {\n  place-self: center;\n  margin: -0.5em;\n}\n.beforeafter-arrow::before {\n  content: \"⟶\";\n  @media screen and (max-width: 57.7rem) {\n    content: \"⇓\";\n  }\n}\n#blog #content .blog-image,\n#content .blog-image {\n  max-width: 60%;\n  height: auto;\n  border-radius: 6px;\n  box-shadow: 0 4px 12px rgba(0,0,0,0.1);\n  margin: 1em auto;\n  display: block;\n}\n\nWhen editing code in a modern IDE or editor, developers rely on its refactoring\nfeatures to automate common transformations. Today, we are excited to introduce\ninteractive refactoring in gopls, powered by a new capability we are\nproposing for the Language Server Protocol (LSP)\nthat brings dynamic, multi-step dialogs directly into your favorite editor.\nCrucially, we designed this capability (in collaboration with the Dart team)\nnot just for Go, but as an open standard for all programming languages and\neditor ecosystems. Working support is already available in gopls v0.24.0 and\nthe official Go extension for VS Code v0.56.0.\nWhat is the Language Server Protocol (LSP)?\nThe LSP is an open standard that decouples language-specific\nfeatures from specific text editors. As you navigate and edit code, your\neditor (such as VS Code, Neovim, or Emacs) and a language server (like gopls)\nengage in a continuous JSON-RPC exchange to provide features…",
@@ -536,18 +545,18 @@
         "source": "The Go Blog",
         "published": "2026-08-26T00:00:00.000Z",
         "isNew": false
-      },
-      {
-        "title": "Go 1.27 is released",
-        "link": "https://go.dev/blog/go1.27",
-        "summary": "The Go Blog\nGo 1.27 is released\nToday the Go team is pleased to release Go 1.27. You can find its binary\narchives and installers on the download page.\nGo 1.27 brings major enhancements across the language, toolchain, runtime, and\nstandard library. Below are some of the key highlights.\nLanguage changes\nGo 1.27 introduces three notable updates to the\nlanguage specification.\nFirst, generic methods are now supported. For example, see\nmath/rand/v2.Rand:\n// Prior to Go 1.27, a separate method on Rand had to be added for each type\n// (unsigned integer methods omitted for brevity).\nfunc (r *Rand) Int32N(n int32) int32\nfunc (r *Rand) Int64N(n int64) int64\nfunc (r *Rand) IntN(n int) int\n\n// Go 1.27 adds a new generic method that works for all integer types.\nfunc (r *Rand) N[Int intType](n Int) Int\n\nSecond, a key in a struct literal may now be any\nvalid field selector for the struct type, allowing fields\nin nested or embedded structs to be initialized directly:\ntype Habitat struct {\n    Burrow string\n}\n\ntype Gopher struct {\n    Name    string\n    Habitat // Embedded struct.\n}\n\n// Go 1.27 allows using Burrow as a key directly.\ng := Gopher{\n    Name:   \"Gopher\",\n    Burrow: \"Burrow #42\",\n}\n\nFinally, function type inference has been generalized to apply in all assignment\ncontexts. Generic functions can now be used without explicit type arguments in\ncomposite literals, type conversions, and channel sends:\nfunc GenericFormatter[T any](v T) string {\n    return fmt.Sprintf(\"value: %v\", v)\n}…",
-        "image": null,
-        "source": "The Go Blog",
-        "published": "2026-08-19T00:00:00.000Z",
-        "isNew": false
       }
     ],
     "rust": [
+      {
+        "title": "Announcing rustup 1.29.2",
+        "link": "https://blog.rust-lang.org/2026/10/20/Rustup-1.29.2/",
+        "summary": "The rustup team is happy to announce the release of rustup version 1.29.2.\nRustup is the recommended tool to install Rust, a\nprogramming language that empowers everyone to build reliable and efficient\nsoftware.\n\nWhat's new in rustup 1.29.2\nThis is a small release which only updates the rustls-webpki and\nwebpki-root-certs dependencies to address the problematic eMudhra\nintermediate certificates issue described in CVE-2026-111943.\nSee also RUSTSEC-2026-0382.\nFurther details are available in the changelog!\n\nHow to update\nIf you have a previous version of rustup installed, getting the new one is as easy as stopping\nany programs which may be using rustup (e.g. closing your IDE) and running:\n$ rustup self update\nRustup will also automatically update itself at the end of a normal toolchain update:\n$ rustup update\nIf you don't have it already, you can get rustup from the appropriate page on our website.\nRustup's documentation is also available in the rustup book.\n\nCaveats\nRustup releases can come with problems not caused by rustup itself but just due to having a new release.\nIn particular, anti-malware scanners might block rustup or stop it from creating or copying\nfiles, especially when installing rust-docs which contains many small files.\nIssues like this should be automatically resolved in a few weeks when the anti-malware scanners are updated\nto be aware of the new rustup release.\n\nThanks\nThanks again to all the contributors who made this rustup release possible!",
+        "image": null,
+        "source": "Rust Blog",
+        "published": "2026-10-20T00:00:00.000Z",
+        "isNew": false
+      },
       {
         "title": "Announcing Rust 1.99.1",
         "link": "https://blog.rust-lang.org/2026/10/15/Rust-1.99.1/",
@@ -610,18 +619,45 @@
         "source": "Rust Blog",
         "published": "2026-09-07T00:00:00.000Z",
         "isNew": false
-      },
-      {
-        "title": "Announcing Rust 1.98.1",
-        "link": "https://blog.rust-lang.org/2026/09/03/Rust-1.98.1/",
-        "summary": "The Rust team has published a new point release of Rust, 1.98.1. Rust is a programming language that is empowering everyone to build reliable and efficient software.\nIf you have a previous version of Rust installed via rustup, getting Rust 1.98.1 is as easy as:\nrustup update stable\nIf you don't have it already, you can get rustup from the appropriate page on our website.\n\nWhat's in 1.98.1\nRust 1.98.1 fixes a miscompilation in vtable generation.\nIn Rust 1.98.0, in some circumstances, rustc would incorrectly generate a trait object vtable with a null pointer\nwhere a function pointer should be. This leads to undefined behavior in the\nemitted code. In some cases this may 'just' cause segfaults due to the null\npointer being loaded, but it is possible for it to be justification for\narbitrary effects (as is typical for UB).\nIf you'd like to help us out by testing future releases, you might consider\nusing the beta (rustup default beta) and nightly (rustup default nightly) channels locally and in your CI. Please\nreport any bugs you\nmight come across!\n\nContributors to 1.98.1\nMany people came together to create Rust 1.98.1. We couldn't have done it without all of you. Thanks!",
-        "image": null,
-        "source": "Rust Blog",
-        "published": "2026-09-03T00:00:00.000Z",
-        "isNew": false
       }
     ],
     "javascript": [
+      {
+        "title": "Wednesday, October 21, 2026 Security Releases",
+        "link": "https://nodejs.org/en/blog/vulnerability/october-2026-security-releases",
+        "summary": "",
+        "image": null,
+        "source": "Node.js Blog",
+        "published": "2026-10-21T22:00:00.000Z",
+        "isNew": false
+      },
+      {
+        "title": "Node.js 26.12.1 (Current)",
+        "link": "https://nodejs.org/en/blog/release/v26.12.1",
+        "summary": "",
+        "image": null,
+        "source": "Node.js Blog",
+        "published": "2026-10-21T10:39:20.000Z",
+        "isNew": false
+      },
+      {
+        "title": "Node.js 24.22.1 (LTS)",
+        "link": "https://nodejs.org/en/blog/release/v24.22.1",
+        "summary": "",
+        "image": null,
+        "source": "Node.js Blog",
+        "published": "2026-10-21T10:39:14.000Z",
+        "isNew": false
+      },
+      {
+        "title": "Node.js 22.23.4 (LTS)",
+        "link": "https://nodejs.org/en/blog/release/v22.23.4",
+        "summary": "",
+        "image": null,
+        "source": "Node.js Blog",
+        "published": "2026-10-21T10:39:12.000Z",
+        "isNew": false
+      },
       {
         "title": "Node.js 24.22.0 (LTS)",
         "link": "https://nodejs.org/en/blog/release/v24.22.0",
@@ -641,15 +677,6 @@
         "isNew": false
       },
       {
-        "title": "Wednesday, October 21, 2026 Security Releases",
-        "link": "https://nodejs.org/en/blog/vulnerability/october-2026-security-releases",
-        "summary": "",
-        "image": null,
-        "source": "Node.js Blog",
-        "published": "2026-10-14T03:00:00.000Z",
-        "isNew": false
-      },
-      {
         "title": "Node.js 26.11.1 (Current)",
         "link": "https://nodejs.org/en/blog/release/v26.11.1",
         "summary": "",
@@ -665,33 +692,6 @@
         "image": null,
         "source": "Node.js Blog",
         "published": "2026-10-07T14:45:09.000Z",
-        "isNew": false
-      },
-      {
-        "title": "Node.js 22.23.3 (LTS)",
-        "link": "https://nodejs.org/en/blog/release/v22.23.3",
-        "summary": "",
-        "image": null,
-        "source": "Node.js Blog",
-        "published": "2026-09-23T18:22:40.000Z",
-        "isNew": false
-      },
-      {
-        "title": "Node.js 26.10.0 (Current)",
-        "link": "https://nodejs.org/en/blog/release/v26.10.0",
-        "summary": "",
-        "image": null,
-        "source": "Node.js Blog",
-        "published": "2026-09-22T09:03:49.000Z",
-        "isNew": false
-      },
-      {
-        "title": "Node.js 26.9.0 (Current)",
-        "link": "https://nodejs.org/en/blog/release/v26.9.0",
-        "summary": "",
-        "image": null,
-        "source": "Node.js Blog",
-        "published": "2026-09-16T18:17:42.000Z",
         "isNew": false
       }
     ]
