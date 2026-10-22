@@ -1,6 +1,6 @@
 {
-  "date": "2026-10-21",
-  "generatedAt": "2026-10-21T20:37:41.477Z",
+  "date": "2026-10-22",
+  "generatedAt": "2026-10-22T10:10:03.159Z",
   "totalArticles": 72,
   "ticker": [
     {
@@ -105,15 +105,6 @@
     ],
     "azure": [
       {
-        "title": "Designing for sovereign AI: A shared foundation from edge to cloud",
-        "link": "https://azure.microsoft.com/en-us/blog/designing-for-sovereign-ai-a-shared-foundation-from-edge-to-cloud/",
-        "summary": "A flexible sovereign architecture allows organizations to place each workload in the right environment, apply the controls it requires, and maintain consistency.\nThe post Designing for sovereign AI: A shared foundation from edge to cloud appeared first on Microsoft Azure Blog.",
-        "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/10/Msft-Intel-YourAI-960.gif",
-        "source": "Microsoft Azure Blog",
-        "published": "2026-10-19T19:00:00.000Z",
-        "isNew": false
-      },
-      {
         "title": "Managing open-weight model risk in enterprise deployments",
         "link": "https://azure.microsoft.com/en-us/blog/managing-open-weight-model-risk-in-enterprise-deployments/",
         "summary": "The growing AI landscape is giving enterprises more choice in how they build, customize, and deploy increasingly capable models.\nThe post Managing open-weight model risk in enterprise deployments appeared first on Microsoft Azure Blog.",
@@ -175,13 +166,22 @@
         "source": "Microsoft Azure Blog",
         "published": "2026-10-07T15:00:00.000Z",
         "isNew": false
+      },
+      {
+        "title": "Microsoft named a Leader in the 2026 Gartner® Magic Quadrant™ for Global Industrial AIoT Platforms",
+        "link": "https://azure.microsoft.com/en-us/blog/microsoft-named-a-leader-in-the-2026-gartner-magic-quadrant-for-global-industrial-aiot-platforms/",
+        "summary": "We’re proud to share that Microsoft has been named a Leader in the 2026 Gartner® Magic Quadrant™ for Global Industrial AIoT Platforms.\nThe post Microsoft named a Leader in the 2026 Gartner® Magic Quadrant™ for Global Industrial AIoT Platforms appeared first on Microsoft Azure Blog.",
+        "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/10/Figure_1_Magic_Quadrant_for_Global_Industrial_AIoT_Platforms_highres-894x1024.webp",
+        "source": "Microsoft Azure Blog",
+        "published": "2026-10-06T21:00:00.000Z",
+        "isNew": true
       }
     ],
     "gcp": [
       {
         "title": "October 21, 2026",
         "link": "https://docs.cloud.google.com/release-notes#October_21_2026",
-        "summary": "Cloud Billing\nFeature\nSKU attributes and granular usage units in pricing data export (Preview)\nSKU attributes and granular usage units are now available in\nPreview\nin the Cloud Billing\npricing data export to BigQuery.\nSKU attributes: SKU attributes are key-value pairs that describe the SKU.\nFor example, Key: model_name, Value:  gemini_2_5_flash.\nGranular usage units: Granular usage units are the usage unit of the SKU,\nsuch as tokens.\nFor more information about these dimensions, see the following:\nSKU attributes\nGranular usage units\nGemini Enterprise Agent Platform\nFixed\nCodeMender updates (v0.16.0)\nThis release introduces updates to CodeMender:\nDeep scan by default (cm find): cm find now runs a concurrent\nfile-by-file deep scan (--deep) by default for higher vulnerability recall\nacross repositories. To run a single-session quick scan instead, pass the\n--quick flag (cm find --quick). cm stats now breaks down scan usage by\nmode (--deep, --quick, and --diff).\nPre-flight health checks (cm health): Added the cm health command\n(with --json, --strict, and --timeout flags) to verify credentials,\nconfiguration, endpoint reachability, and project authorization before\nrunning scans.\nExpanded file discovery: cm find now scans .hh, .hxx, .inl, and\n.ipp C++ headers, extensionless scripts with supported language shebangs\n(python, node, ruby, and php), nested build/, target/, obj/,\nand bin/ source directories, and production code under spec/, locale/,\nand i18n/.\nBug fixes:\n\nRestricted cm…",
+        "summary": "App Engine flexible environment PHP\nFeature\nPatch updates to supported PHP runtimes are available with deployments from source: 8.5.12, 8.4.27, 8.3.36, and 8.2.35. Take immediate action to protect your PHP workloads by redeploying your workloads with updated dependencies. If you use custom runtimes, update your dependencies and redeploy. See Responding to core PHP vulnerabilities for more information.\nApp Engine standard environment PHP\nFeature\nPatch updates to supported PHP runtimes are available with deployments from source: 8.5.12, 8.4.27, 8.3.36, and 8.2.35. PHP workloads have automatically been patched. See Responding to core PHP vulnerabilities for more information.\nBigQuery\nFeature\nThe\nAI.CHUNK_DOCUMENT function\nis a table-valued function that splits\nunstructured documents into semantically coherent text chunks\noptimized for vector embeddings and Retrieval-Augmented Generation (RAG)\nworkflows.\nThis function is\ngenerally available\n(GA).\nBuildpacks\nFeature\nPatch updates to PHP runtimes are available on google-22 and google-24 tags: 8.5.12, 8.4.27, 8.3.36, and 8.2.35. Take immediate action to protect your PHP workloads by rebuilding your workloads with updated dependencies. See Responding to core PHP vulnerabilities for more information.\nCloud Billing\nFeature\nSKU attributes and granular usage units in pricing data export (Preview)\nSKU attributes and granular usage units are now available in\nPreview\nin the Cloud Billing\npricing data export to BigQuery.\nSKU attributes: SKU…",
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-10-21T07:00:00.000Z",
@@ -332,8 +332,17 @@
         "summary": "1.17.0 (October 21, 2026)\nNEW FEATURES:\nTerraform now supports variables and locals in provider requirements (#39153)\nA new -minimal-refresh planning option has been added, which will only refresh resources that have proposed changes. (#35290)\npolicy: Terraform Policy is now generally available. The -policies flag for plan, apply, and query no longer requires an experimental build or the -allow-experimental-features flag. Query policies evaluate resources discovered by list blocks and report human-readable or JSON results. See https://developer.hashicorp.com/terraform/policy for more information. (#38970)\nENHANCEMENTS:\ncommand/init: Enrich log messages with provider versions (#38918)\ntest: Add mock_provider support for ephemeral resources (#38928)\ncommand/login: display warning after successful login if user is subject to an organization's TTL policy\nBUG FIXES:\nfuncs: pow and log no longer panic when result is not a number (#38912)\nephemeral: Terraform will now use and display diagnostics raised when renewing an ephemeral resource. This may cause warnings to appear that previously were lost. We expect that any error diagnostics that were previously lost would have caused confusing downstream errors, so we do not anticipate this change to be breaking. (#38989)\ntest: Deterministic dependency ordering in cleanup graph (#38247)\nquery: report Unknown and N/A results for policy evaluations of discovered resources (#39058)\nquery: terraform query -policies now rejects a path that is…",
         "image": "https://avatars.githubusercontent.com/u/82989873?s=60&v=4",
         "source": "Release notes from terraform",
-        "published": "2026-10-21T17:32:54.000Z",
+        "published": "2026-10-22T09:46:11.000Z",
         "isNew": false
+      },
+      {
+        "title": "v1.16.7",
+        "link": "https://github.com/hashicorp/terraform/releases/tag/v1.16.7",
+        "summary": "1.16.7 (October 22, 2026)\nBUG FIXES:\ncommand/test: Avoid panic when testing schema w/ deprecated values (#39406)\nNOTES:\nTerraform is now built with Go 1.26.10, which no longer trusts certificates issued through a set of compromised eMudhra intermediate CAs (CVE-2026-111943) (#39417)",
+        "image": "https://avatars.githubusercontent.com/u/82989873?s=60&v=4",
+        "source": "Release notes from terraform",
+        "published": "2026-10-22T09:30:19.000Z",
+        "isNew": true
       },
       {
         "title": "v1.17.0-rc2",
@@ -387,15 +396,6 @@
         "image": "https://avatars.githubusercontent.com/u/82989873?s=60&v=4",
         "source": "Release notes from terraform",
         "published": "2026-09-23T12:44:16.000Z",
-        "isNew": false
-      },
-      {
-        "title": "v1.16.3",
-        "link": "https://github.com/hashicorp/terraform/releases/tag/v1.16.3",
-        "summary": "1.16.3 (September 16, 2026)\nBUG FIXES:\nFix handling of destroy=false around create_before_destroy instances (#39169)\nFix function result comparison when there are multiple marks (#39170)\nFilter logic for marks could cause values with multiple marks to erroneously fail validations (#39171)\nFix issue with import provider resolution (#39185)",
-        "image": "https://avatars.githubusercontent.com/u/82989873?s=60&v=4",
-        "source": "Release notes from terraform",
-        "published": "2026-09-16T14:33:39.000Z",
         "isNew": false
       }
     ],
