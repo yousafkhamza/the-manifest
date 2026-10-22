@@ -1,6 +1,6 @@
 {
   "date": "2026-10-22",
-  "generatedAt": "2026-10-22T15:54:01.751Z",
+  "generatedAt": "2026-10-22T20:33:26.621Z",
   "totalArticles": 72,
   "ticker": [
     {
@@ -105,6 +105,15 @@
     ],
     "azure": [
       {
+        "title": "Advancing digital sovereignty with greater control and choice",
+        "link": "https://blogs.microsoft.com/blog/2026/10/20/advancing-digital-sovereignty-with-greater-control-and-choice/",
+        "summary": "Across conversations with leaders in government, critical infrastructure and regulated industries, one priority consistently rises to the top: putting technology to work on the most important systems while maintaining the control those systems require.\nThe post Advancing digital sovereignty with greater control and choice appeared first on Microsoft Azure Blog.",
+        "image": null,
+        "source": "Microsoft Azure Blog",
+        "published": "2026-10-20T17:34:47.000Z",
+        "isNew": false
+      },
+      {
         "title": "Designing for sovereign AI: A shared foundation from edge to cloud",
         "link": "https://azure.microsoft.com/en-us/blog/designing-for-sovereign-ai-a-shared-foundation-from-edge-to-cloud/",
         "summary": "A flexible sovereign architecture allows organizations to place each workload in the right environment, apply the controls it requires, and maintain consistency.\nThe post Designing for sovereign AI: A shared foundation from edge to cloud appeared first on Microsoft Azure Blog.",
@@ -166,22 +175,13 @@
         "source": "Microsoft Azure Blog",
         "published": "2026-10-12T13:00:00.000Z",
         "isNew": false
-      },
-      {
-        "title": "AI transformation across the infrastructure lifecycle: From supply chain to fleet operations",
-        "link": "https://azure.microsoft.com/en-us/blog/ai-transformation-across-the-infrastructure-lifecycle-from-supply-chain-to-fleet-operations/",
-        "summary": "The opportunity is bigger than making individual tasks faster. It’s to build a system that learns from how infrastructure is designed, sourced, and operated.\nThe post AI transformation across the infrastructure lifecycle: From supply chain to fleet operations appeared first on Microsoft Azure Blog.",
-        "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/10/261001_AI-Powered_Systems_Blog-1-1024x576.jpeg",
-        "source": "Microsoft Azure Blog",
-        "published": "2026-10-07T15:00:00.000Z",
-        "isNew": false
       }
     ],
     "gcp": [
       {
         "title": "October 22, 2026",
         "link": "https://docs.cloud.google.com/release-notes#October_22_2026",
-        "summary": "Compute Engine\nFeature\nYou can view how a managed instance group (MIG) distributes its instances across\nzones and machine types, directly from the MIG's Monitoring tab in the\nGoogle Cloud console.\nFor more information, see Monitor instance distribution in MIGs.",
+        "summary": "Compute Engine\nFeature\nYou can view how a managed instance group (MIG) distributes its instances across\nzones and machine types, directly from the MIG's Monitoring tab in the\nGoogle Cloud console.\nFor more information, see Monitor instance distribution in MIGs.\nData Studio\nFeature\nYou can connect Data Studio to a BigQuery Graph or query a\ngraph by using a custom SQL query in the BigQuery connector, which\nimports graph measures as metrics that you can use in your reports. For more\ninformation, see Connect to Google\nBigQuery.",
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-10-22T07:00:00.000Z",
@@ -199,7 +199,7 @@
       {
         "title": "October 20, 2026",
         "link": "https://docs.cloud.google.com/release-notes#October_20_2026",
-        "summary": "Cloud SDK\nBreaking\n590.0.0 (2026-10-20)\nBreaking Changes\n(Google Cloud CLI) Removed the gcloud-man-pages component. Use --help for full command documentation.\n(App Engine) Removed the app-engine-grpc component from the Google Cloud CLI.\n(Cloud Build) Removed the Cloud Build Local Builder component (cloud-build-local) from the Google Cloud CLI.\nGoogle Cloud CLI\nUpdated bundled Python on Linux and Windows, and in the Alpine-based Docker\nimages, to pyOpenSSL 26.4.0 and cryptography 50.0.1. 32-bit Windows uses\npyOpenSSL 26.2.0 and cryptography 48.0.1, the newest releases that support it.\nAI\nUpdated gcloud beta ai endpoints deploy-model to request automatic resources for Gemini deployments on GDC connected endpoints.\n\nIf no replica counts are specified, the minimum replica count defaults to 1 only for gemini-2.5-flash.\nSpecifying flags that apply only to dedicated resources, such as --machine-type or --accelerator, now prints a warning and deploys with dedicated resources.\n\n\nAgent Identity\nAdded gcloud beta agent-identity auth-providers resolve-authorization\ncommand.\nAlloyDB\nAdded --enable-public-dns flag to gcloud beta alloydb instances create|update.\nApigee\nFixed an issue where gcloud apigee commands would fail with an\nUnauthorizedRequestError for users who authenticate using Mutual TLS (mTLS).\nApp Engine\nUpdated gcloud beta app migrate-to-run to default to the App Engine\napplication's region instead of us-central1 when neither --region nor\nthe run/region property is set.…",
+        "summary": "Apigee X\nAnnouncement\nOn October 20th, 2026, we began maintenance updates of Apigee instances configured for maintenance windows.\nIf you set a preferred window for maintenance for your instance, and your instance version is\nbelow 1-18-0-apigee-6, your instance will be updated to 1-18-0-apigee-6 within the\nnext seven to 21 days. A notification containing the expected date of upgrade will be sent within the next two business days.\nNote: Instances that meet either of the following two criteria will not be updated:\n\nYour instance has a DNS misconfiguration, as described in Known Issue 445936920.\nYour instance uses an Apigee Java Library that has been removed, as described in Apigee release notes dated October 16, 2025.\n\nFor more information on participating in scheduled maintenance windows, see Maintenance overview and Manage Apigee instance maintenance windows.\nCloud SDK\nBreaking\n590.0.0 (2026-10-20)\nBreaking Changes\n(Google Cloud CLI) Removed the gcloud-man-pages component. Use --help for full command documentation.\n(App Engine) Removed the app-engine-grpc component from the Google Cloud CLI.\n(Cloud Build) Removed the Cloud Build Local Builder component (cloud-build-local) from the Google Cloud CLI.\nGoogle Cloud CLI\nUpdated bundled Python on Linux and Windows, and in the Alpine-based Docker\nimages, to pyOpenSSL 26.4.0 and cryptography 50.0.1. 32-bit Windows uses\npyOpenSSL 26.2.0 and cryptography 48.0.1, the newest releases that support it.\nAI\nUpdated gcloud beta ai endpoints…",
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-10-20T07:00:00.000Z",
