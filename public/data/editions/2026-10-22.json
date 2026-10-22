@@ -1,6 +1,6 @@
 {
   "date": "2026-10-22",
-  "generatedAt": "2026-10-22T10:10:03.159Z",
+  "generatedAt": "2026-10-22T15:54:01.751Z",
   "totalArticles": 72,
   "ticker": [
     {
@@ -105,6 +105,15 @@
     ],
     "azure": [
       {
+        "title": "Designing for sovereign AI: A shared foundation from edge to cloud",
+        "link": "https://azure.microsoft.com/en-us/blog/designing-for-sovereign-ai-a-shared-foundation-from-edge-to-cloud/",
+        "summary": "A flexible sovereign architecture allows organizations to place each workload in the right environment, apply the controls it requires, and maintain consistency.\nThe post Designing for sovereign AI: A shared foundation from edge to cloud appeared first on Microsoft Azure Blog.",
+        "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/10/Msft-Intel-YourAI-960.gif",
+        "source": "Microsoft Azure Blog",
+        "published": "2026-10-19T19:00:00.000Z",
+        "isNew": false
+      },
+      {
         "title": "Managing open-weight model risk in enterprise deployments",
         "link": "https://azure.microsoft.com/en-us/blog/managing-open-weight-model-risk-in-enterprise-deployments/",
         "summary": "The growing AI landscape is giving enterprises more choice in how they build, customize, and deploy increasingly capable models.\nThe post Managing open-weight model risk in enterprise deployments appeared first on Microsoft Azure Blog.",
@@ -166,18 +175,18 @@
         "source": "Microsoft Azure Blog",
         "published": "2026-10-07T15:00:00.000Z",
         "isNew": false
-      },
-      {
-        "title": "Microsoft named a Leader in the 2026 Gartner® Magic Quadrant™ for Global Industrial AIoT Platforms",
-        "link": "https://azure.microsoft.com/en-us/blog/microsoft-named-a-leader-in-the-2026-gartner-magic-quadrant-for-global-industrial-aiot-platforms/",
-        "summary": "We’re proud to share that Microsoft has been named a Leader in the 2026 Gartner® Magic Quadrant™ for Global Industrial AIoT Platforms.\nThe post Microsoft named a Leader in the 2026 Gartner® Magic Quadrant™ for Global Industrial AIoT Platforms appeared first on Microsoft Azure Blog.",
-        "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/10/Figure_1_Magic_Quadrant_for_Global_Industrial_AIoT_Platforms_highres-894x1024.webp",
-        "source": "Microsoft Azure Blog",
-        "published": "2026-10-06T21:00:00.000Z",
-        "isNew": true
       }
     ],
     "gcp": [
+      {
+        "title": "October 22, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#October_22_2026",
+        "summary": "Compute Engine\nFeature\nYou can view how a managed instance group (MIG) distributes its instances across\nzones and machine types, directly from the MIG's Monitoring tab in the\nGoogle Cloud console.\nFor more information, see Monitor instance distribution in MIGs.",
+        "image": null,
+        "source": "Google Cloud Platform (GCP) - Release notes",
+        "published": "2026-10-22T07:00:00.000Z",
+        "isNew": false
+      },
       {
         "title": "October 21, 2026",
         "link": "https://docs.cloud.google.com/release-notes#October_21_2026",
@@ -190,7 +199,7 @@
       {
         "title": "October 20, 2026",
         "link": "https://docs.cloud.google.com/release-notes#October_20_2026",
-        "summary": "Apigee X\nAnnouncement\nOn October 20th, 2026, we began maintenance updates of Apigee instances configured for maintenance windows.\nIf you set a preferred window for maintenance for your instance, and your instance version is\nbelow 1-18-0-apigee-6, your instance will be updated to 1-18-0-apigee-6 within the\nnext seven to 21 days. A notification containing the expected date of upgrade will be sent within the next two business days.\nNote: Instances that meet either of the following two criteria will not be updated:\n\nYour instance has a DNS misconfiguration, as described in Known Issue 445936920.\nYour instance uses an Apigee Java Library that has been removed, as described in Apigee release notes dated October 16, 2025.\n\nFor more information on participating in scheduled maintenance windows, see Maintenance overview and Manage Apigee instance maintenance windows.\nCloud SDK\nBreaking\n590.0.0 (2026-10-20)\nBreaking Changes\n(Google Cloud CLI) Removed the gcloud-man-pages component. Use --help for full command documentation.\n(App Engine) Removed the app-engine-grpc component from the Google Cloud CLI.\n(Cloud Build) Removed the Cloud Build Local Builder component (cloud-build-local) from the Google Cloud CLI.\nGoogle Cloud CLI\nUpdated bundled Python on Linux and Windows, and in the Alpine-based Docker\nimages, to pyOpenSSL 26.4.0 and cryptography 50.0.1. 32-bit Windows uses\npyOpenSSL 26.2.0 and cryptography 48.0.1, the newest releases that support it.\nAI\nUpdated gcloud beta ai endpoints…",
+        "summary": "Cloud SDK\nBreaking\n590.0.0 (2026-10-20)\nBreaking Changes\n(Google Cloud CLI) Removed the gcloud-man-pages component. Use --help for full command documentation.\n(App Engine) Removed the app-engine-grpc component from the Google Cloud CLI.\n(Cloud Build) Removed the Cloud Build Local Builder component (cloud-build-local) from the Google Cloud CLI.\nGoogle Cloud CLI\nUpdated bundled Python on Linux and Windows, and in the Alpine-based Docker\nimages, to pyOpenSSL 26.4.0 and cryptography 50.0.1. 32-bit Windows uses\npyOpenSSL 26.2.0 and cryptography 48.0.1, the newest releases that support it.\nAI\nUpdated gcloud beta ai endpoints deploy-model to request automatic resources for Gemini deployments on GDC connected endpoints.\n\nIf no replica counts are specified, the minimum replica count defaults to 1 only for gemini-2.5-flash.\nSpecifying flags that apply only to dedicated resources, such as --machine-type or --accelerator, now prints a warning and deploys with dedicated resources.\n\n\nAgent Identity\nAdded gcloud beta agent-identity auth-providers resolve-authorization\ncommand.\nAlloyDB\nAdded --enable-public-dns flag to gcloud beta alloydb instances create|update.\nApigee\nFixed an issue where gcloud apigee commands would fail with an\nUnauthorizedRequestError for users who authenticate using Mutual TLS (mTLS).\nApp Engine\nUpdated gcloud beta app migrate-to-run to default to the App Engine\napplication's region instead of us-central1 when neither --region nor\nthe run/region property is set.…",
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-10-20T07:00:00.000Z",
@@ -239,15 +248,6 @@
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-10-15T07:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "October 14, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#October_14_2026",
-        "summary": "Anti Money Laundering AI\nAnnouncement\nNew minor engine version released for the commercial line of business within the v004.011 version line (aml-commercial.default.v004.011.202610-000). This version extends support for the major engine version and includes no significant changes compared to the previous minor version.\nApigee hybrid\nAnnouncement\nv1.16.11\nOn October 14, 2026 we released an updated version of the Apigee hybrid software, v1.16.11.\nFor information on upgrading, see Upgrading Apigee hybrid to version v1.16.11.\nFor information on new installations, see The big picture.\nNote: This is a patch release: The container images used in patch releases are integrated with the Apigee hybrid Helm charts. Upgrading to a patch via the Helm chart automatically updates the images. No manual image changes are typically needed. For information on container image support in Apigee hybrid releases, see Apigee release process.\nFixed\nFixed in this release\nBug ID\nDescription\n\n\n\n\n565072374\nFixed an issue where VerifyJWT policies using a JWKS uriRef could return steps.jwt.NoMatchingPublicKey on the first request after the 5-minute JWKS cache TTL expired when the identity provider rotated keys. The cache now refreshes synchronously upon expiration.\n\n\n556680325\nFixed a server-side request forgery (SSRF) vulnerability in URL host validation for the SemanticCacheLookup policy.\n\n\n535395491\nExtension Processor (ext_proc) denials now return the status and body that the policy or FaultRule…",
-        "image": null,
-        "source": "Google Cloud Platform (GCP) - Release notes",
-        "published": "2026-10-14T07:00:00.000Z",
         "isNew": false
       }
     ],
@@ -342,7 +342,7 @@
         "image": "https://avatars.githubusercontent.com/u/82989873?s=60&v=4",
         "source": "Release notes from terraform",
         "published": "2026-10-22T09:30:19.000Z",
-        "isNew": true
+        "isNew": false
       },
       {
         "title": "v1.17.0-rc2",
@@ -400,6 +400,15 @@
       }
     ],
     "python": [
+      {
+        "title": "Mark Your Calendars! PSF Board Office Hours for the Year Ahead",
+        "link": "https://pyfound.blogspot.com/2026/10/mark-your-calendars-psf-board-office.html",
+        "summary": "Greetings, Pythonistas- thank you so much for supporting the work of the PSF and the Python community! The newest PSF Board has decided to continue investing in connecting with the global Python community by running the PSF Board Office Hour sessions on the PSF Discord into 2027. \nWe began running these sessions in September 2024, and they have proven to be a great method for the community to connect with the board and vice versa. This venue has been invaluable to the PSF as we work on critical areas over the last year such as the PSF Strategic Plan, elections, and the recent PSF Grants Program Funding Round. The sessions have also provided the PSF Board and Staff the opportunity to hear what our community is up to and what challenges they are facing.\n\nWhat are the PSF Board Office Hours?\nDuring the PSF Board Office Hours, you can participate in a text-based live chat with PSF Board Directors. This is a chance to connect, share, and collaborate with the PSF Board and Staff to improve our community together. Occasionally, we will have dedicated topics such as PyCon US and the PSF Board Elections for the office hour sessions. \nHere is some of the work that we collaborate with staff and volunteers on:\n\nPromotion and outreach for the Python programming language\nSupporting local Python communities\nOrganizing PyCon US\nDiversity and Inclusion in our community\nSupport handling Code of Conduct issues within our communities\nSupport regional Python communities via the PSF Grants…",
+        "image": null,
+        "source": "Python Software Foundation News",
+        "published": "2026-10-22T12:02:44.795Z",
+        "isNew": false
+      },
       {
         "title": "Python 3.15.1, 3.14.9 and 3.13.17 are out",
         "link": "https://blog.python.org/2026/10/python-3151-3149-31317/",
@@ -461,15 +470,6 @@
         "image": null,
         "source": "Python Insider",
         "published": "2026-10-01T00:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "Python Language Summit 2026 blog posts are now available",
-        "link": "https://pyfound.blogspot.com/2026/09/python-language-summit-2026.html",
-        "summary": "On July 14th, 2026, 47 Python core developers and special guests sat down\nat the Python Language Summit, this year\nheld in Kraków, Poland at EuroPython 2026, to discuss many topics about the future\nof the Python programming language, including free-threading, Rust, garbage collectors,\ntype annotations, and namespacing.\n\nThis marked the first time the Python Language\nSummit had been hosted in Europe in 15 years, when the event was\nheld in Florence on June 19th, 2011.\nGoing forward, the Python Language Summit will alternate between\nPyCon US and EuroPython on a yearly basis.\nThe summit was organized by Emily Morehouse, Hugo van Kemenade, Lysandros Nikolaou,\nand Łukasz Langa, and blog posts were written by Seth Larson.\nBelow are summaries of the 10 full-length\ntalks and 5 lightning talks that were presented at the 2026 Python Language Summit.\nI hope you enjoy them, and thank you for your patience.\n“One namespace to namespace them all” by Pablo Galindo Salgado\n“macOS and Python” by Ned Deily\n“Garbage Collection: Generational? Incremental? Both!” by Mark Shannon\n“Memory Buffer Protocol” by Nathan Goldbaum\n“Memory Snapshots for CPython” by Hood Chatham\n“Rust for CPython” by David Hewitt\n“Spicycrab” by Kushal Das\n“Developer-in-Residence Update & Future” by Petr Viktorin\n“Free-Threaded Python Post-Era” by Donghee Na, Tobias Wrigstad, and Fridtjof Stoldt\n“PEP 827: Type Manipulation” by Michael J. Sullivan\n“Lightning Talks”\n\n“One-time ABI breakage” by Mark Shannon\n“Safer and Generic…",
-        "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh9b7Xn98N0VpTwRN2Pu2Jk0q7sfPY_jBway6IkdspPV4vtGpWu4xp8H7Ef2L2K73jc0IC03AYWSP1sJAuKqdOBpKREuvNiYCG0oIM8MZLMeP1p0wLlHUYU1XpnApUMKy26u12RdSIa84wjTThbxk-6hxHA3y1gjy7pfHW6YZd_BfNBgytl_w/s72-w400-h266-c/_image.png",
-        "source": "Python Software Foundation News",
-        "published": "2026-09-30T13:22:49.579Z",
         "isNew": false
       }
     ],
