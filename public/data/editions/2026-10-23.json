@@ -1,6 +1,6 @@
 {
   "date": "2026-10-23",
-  "generatedAt": "2026-10-23T15:45:55.738Z",
+  "generatedAt": "2026-10-23T20:26:38.511Z",
   "totalArticles": 72,
   "ticker": [
     {
@@ -179,6 +179,15 @@
     ],
     "gcp": [
       {
+        "title": "October 23, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#October_23_2026",
+        "summary": "Cloud Monitoring\nFixed\nOps Agent version 2.73.0 includes patches for a Go vulnerability involving\nsystem root certificates,\nCVE-2026-111943. For more\ninformation, see Ops Agent 2.73.0 notes.",
+        "image": null,
+        "source": "Google Cloud Platform (GCP) - Release notes",
+        "published": "2026-10-23T07:00:00.000Z",
+        "isNew": false
+      },
+      {
         "title": "October 22, 2026",
         "link": "https://docs.cloud.google.com/release-notes#October_22_2026",
         "summary": "Apigee X\nAnnouncement\nOn October 22, 2026, we released an updated version of Apigee (1-18-0-apigee-7).\nNote: Rollouts of this release began today and can take four or more business\ndays to complete across all Google Cloud zones. Your instances might not have\nthe features and fixes available until the rollout is complete.\nSecurity\nBug ID\nDescription\n\n\n\n\n573663408\nSecurity fix for Apigee. Upgraded the ingress gateway to patch security vulnerabilities.\n\n\nN/A\nSecurity fix for Apigee infrastructure.\n\n\n\nFixed\nBug ID\nDescription\n\n\n\n\n568535165\nSkip main_task_wait_time and nio_task_wait_time metrics for the first 12 Prometheus scrapes during Message Processor startup warmup.\n\n\n573602919\nFix generated OpenAPI specs' servers[] to carry the Apigee envgroup hostname instead of the backend target host.\n\n\n562964081\nThe sgpUserIntentMatchingMode verdict-log field is now always present, including on dry-run policy records, and shows the mode used for the evaluation, including when sgpUserIntentMatching isn't set (CONSTRAINTS_AND_INTENT, or INTENT_ONLY when no policies match the tool call).\n\n\n524115876\nFix an intermittent HTTP 400 error in the OASValidation policy's strict parameter validation that rejected valid requests.\n\n\n572025634\nResponses with a compressed text/event-stream body to a proxy with an EventFlow now skip EventFlow processing and pass through intact instead of returning a corrupted body.\n\n\n549078690\nIf no SGP policy is attributed for a denial, a customer sees the generic…",
@@ -239,15 +248,6 @@
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-10-16T07:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "October 15, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#October_15_2026",
-        "summary": "Apigee Edge for Private Cloud\nAnnouncement\nReleased Apigee Edge for Private Cloud 4.54.00.\nDesignated Apigee Edge for Private Cloud 4.54.00.00 a long-term support (LTS)\nrelease: 18 months of full support ending April 2028, then 18 months of\nmaintenance ending October 2029. After October 2029, 4.54.00.00 receives no\nsoftware updates, security mitigations, or technical support.\nInstalling a later 4.54 minor release or patch does not change those dates. To\nextend the support lifecycle, upgrade to the next LTS release.\nFor the support lifecycle phases, release cadences, and version numbering, see\nApigee Edge for Private Cloud release and lifecycle policy.\nAnnouncement\nThis release replaces Java 8 with Java 17 and Java 21, removes the Classic UI\nand the apigee-sso component, and updates the bundled Cassandra, Postgres,\nOpenLDAP, ZooKeeper, Qpid Broker-J, Nginx, and Consul versions. These changes\nare not backward-compatible.\nFor the 4.54.00 versions and the 4.53.01 versions they replace, see\nSupported software and supported versions.\nBefore upgrading, read\nChanges in Edge for Private Cloud 4.54.00,\nthen\nUpdate Apigee Edge 4.53.00 or 4.53.01 to 4.54.00\nor\nNew installation overview.\nFor known issues, see\nKnown issues with Edge for Private Cloud.\nAnnouncement\nReplaced the Classic UI (edge-ui) with the\nNew Edge UI\n(edge-management-ui).\nThe New Edge UI is the only management UI in 4.54.00 and is installed by\ndefault. Deployments running the Classic UI must transition to it before…",
-        "image": null,
-        "source": "Google Cloud Platform (GCP) - Release notes",
-        "published": "2026-10-15T07:00:00.000Z",
         "isNew": false
       }
     ],
