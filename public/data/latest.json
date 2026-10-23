@@ -1,6 +1,6 @@
 {
-  "date": "2026-10-22",
-  "generatedAt": "2026-10-22T20:33:26.621Z",
+  "date": "2026-10-23",
+  "generatedAt": "2026-10-23T10:02:48.269Z",
   "totalArticles": 72,
   "ticker": [
     {
@@ -30,6 +30,15 @@
   ],
   "topics": {
     "aws": [
+      {
+        "title": "AWS Continuum for code vulnerabilities is now generally available",
+        "link": "https://aws.amazon.com/blogs/aws/aws-continuum-for-code-vulnerabilities-is-now-generally-available/",
+        "summary": "AWS Continuum for code vulnerabilities is a new security service that uses AI to automatically find, validate, and prioritize code vulnerabilities in your environment, then delivers ready-to-review fixes as pull requests replacing what previously took hours of manual investigation and days of cross-team coordination.",
+        "image": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2026/10/19/1218373720644947-1.png",
+        "source": "AWS News Blog",
+        "published": "2026-10-22T20:33:10.000Z",
+        "isNew": true
+      },
       {
         "title": "Introducing Amazon ECS Gateway: A fully-managed ingress solution for ECS services",
         "link": "https://aws.amazon.com/blogs/aws/introducing-amazon-ecs-gateway-a-fully-managed-ingress-solution-for-ecs-services/",
@@ -91,15 +100,6 @@
         "image": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2026/04/28/2026-bedrock-managed-agents-openai.png",
         "source": "AWS News Blog",
         "published": "2026-10-05T15:41:19.000Z",
-        "isNew": false
-      },
-      {
-        "title": "Announcing AWS Well-Architected Agent, an AI-powered intelligence to optimize your cloud environment (preview)",
-        "link": "https://aws.amazon.com/blogs/aws/announcing-aws-well-architected-agent-an-ai-powered-intelligence-to-optimize-your-cloud-environment-preview/",
-        "summary": "Introducing the public preview of AWS Well-Architected Agent, an AI-powered service that analyzes your AWS environment to deliver targeted, contextual recommendations for improving your applications' cost, security, performance, and resilience—with ready-to-implement fixes aligned to your business goals.",
-        "image": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2026/09/27/2026-well-architect-agent-1.jpg",
-        "source": "AWS News Blog",
-        "published": "2026-10-01T20:04:04.000Z",
         "isNew": false
       }
     ],
@@ -181,7 +181,7 @@
       {
         "title": "October 22, 2026",
         "link": "https://docs.cloud.google.com/release-notes#October_22_2026",
-        "summary": "Compute Engine\nFeature\nYou can view how a managed instance group (MIG) distributes its instances across\nzones and machine types, directly from the MIG's Monitoring tab in the\nGoogle Cloud console.\nFor more information, see Monitor instance distribution in MIGs.\nData Studio\nFeature\nYou can connect Data Studio to a BigQuery Graph or query a\ngraph by using a custom SQL query in the BigQuery connector, which\nimports graph measures as metrics that you can use in your reports. For more\ninformation, see Connect to Google\nBigQuery.",
+        "summary": "App Engine standard environment PHP\nSecurity\nAll supported versions of PHP 8.2 and later are patched. Take immediate protective action by redeploying your resources with updated dependencies.\nSee Responding to core PHP vulnerabilities for more information.\nBigQuery\nFeature\nThe AI.TRANSLATE function\nlets you translate text strings between languages. AI.TRANSLATE supports\nstandard Neural Machine Translation (NMT) workloads and Translation LLM (TLLM)\ncapabilities.\nThis function is\ngenerally available\n(GA).\nCloud Run\nFeature\nYou can configure Direct VPC ingress for Cloud Run instances\n(Preview). Direct VPC\ningress lets Cloud Run instances on a VPC network use their own ephemeral\nprivate IP address to communicate with each other and with other resources on\nthe VPC network.\nSecurity\nAll supported versions of PHP 8.2 and later are patched. Take immediate protective action by redeploying your resources with updated dependencies.\nSee Responding to core PHP vulnerabilities for more information.\nCloud Run functions\nSecurity\nAll supported versions of PHP 8.2 and later are patched. Take immediate protective action by redeploying your resources with updated dependencies.\nSee Responding to core PHP vulnerabilities for more information.\nCompute Engine\nFeature\nYou can view how a managed instance group (MIG) distributes its instances across\nzones and machine types, directly from the MIG's Monitoring tab in the\nGoogle Cloud console.\nFor more information, see Monitor instance distribution in…",
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-10-22T07:00:00.000Z",
@@ -190,7 +190,7 @@
       {
         "title": "October 21, 2026",
         "link": "https://docs.cloud.google.com/release-notes#October_21_2026",
-        "summary": "App Engine flexible environment PHP\nFeature\nPatch updates to supported PHP runtimes are available with deployments from source: 8.5.12, 8.4.27, 8.3.36, and 8.2.35. Take immediate action to protect your PHP workloads by redeploying your workloads with updated dependencies. If you use custom runtimes, update your dependencies and redeploy. See Responding to core PHP vulnerabilities for more information.\nApp Engine standard environment PHP\nFeature\nPatch updates to supported PHP runtimes are available with deployments from source: 8.5.12, 8.4.27, 8.3.36, and 8.2.35. PHP workloads have automatically been patched. See Responding to core PHP vulnerabilities for more information.\nBigQuery\nFeature\nThe\nAI.CHUNK_DOCUMENT function\nis a table-valued function that splits\nunstructured documents into semantically coherent text chunks\noptimized for vector embeddings and Retrieval-Augmented Generation (RAG)\nworkflows.\nThis function is\ngenerally available\n(GA).\nBuildpacks\nFeature\nPatch updates to PHP runtimes are available on google-22 and google-24 tags: 8.5.12, 8.4.27, 8.3.36, and 8.2.35. Take immediate action to protect your PHP workloads by rebuilding your workloads with updated dependencies. See Responding to core PHP vulnerabilities for more information.\nCloud Billing\nFeature\nSKU attributes and granular usage units in pricing data export (Preview)\nSKU attributes and granular usage units are now available in\nPreview\nin the Cloud Billing\npricing data export to BigQuery.\nSKU attributes: SKU…",
+        "summary": "Apigee X\nAnnouncement\nApigee Emulator\nApigee Emulator v2.0.2\nOn October 21, 2026, we released Apigee Emulator version 2.0.2.\nThis release upgrades the Apigee Emulator runtime to Java 21 (Eclipse Temurin\nJRE 21) to align local proxy development and policy execution with the\nproduction Apigee runtime, while keeping the embedded Apache Cassandra\ndatastore pinned to Java 8. It also addresses 46 security vulnerabilities across\nNetty, Jackson, Apache Log4j, BouncyCastle, Apache CXF, Eclipse Jetty, and the\nembedded Cassandra Go standard library health-check binary.\nThe emulator image is available at\nArtifact Registry.\nTo upgrade, update the emulator version in your Cloud Code for VS Code settings\nto 2.0.2. See\nManage the Apigee Emulator\nfor details.\nFeature\nApigee Emulator\nChanged in this release\nUpgraded the Apigee Emulator runtime JVM to Eclipse Temurin JRE 21\n(21.0.12.1.0+1-0, from JRE 11 11.0.31+11), adding JVM 21 compatibility\nflags (-Djava.security.manager=allow and --add-opens module flags) for\nJavaCallout, JavaScript (Rhino), and Python (Jython) policies while keeping\nthe embedded Apache Cassandra 4.0.19 datastore pinned to Eclipse Temurin\nJRE 8.\nUpgraded Netty to 4.1.137.Final (from 4.1.135.Final) and updated\nnetty-tcnative-boringssl-static and netty-tcnative-classes to\n2.0.81.Final (from 2.0.77.Final).\nUpgraded Jackson (jackson-core, jackson-databind, and\njackson-dataformat-yaml) to 2.21.7 (from 2.18.6 and 2.19.2) and\njackson-annotations to 2.21.\nUpgraded shaded Apache…",
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-10-21T07:00:00.000Z",
