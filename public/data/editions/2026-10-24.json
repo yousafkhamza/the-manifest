@@ -1,6 +1,6 @@
 {
   "date": "2026-10-24",
-  "generatedAt": "2026-10-24T09:31:41.910Z",
+  "generatedAt": "2026-10-24T14:35:36.586Z",
   "totalArticles": 72,
   "ticker": [
     {
@@ -181,7 +181,7 @@
       {
         "title": "October 23, 2026",
         "link": "https://docs.cloud.google.com/release-notes#October_23_2026",
-        "summary": "Cloud Monitoring\nFixed\nOps Agent version 2.73.0 includes patches for a Go vulnerability involving\nsystem root certificates,\nCVE-2026-111943. For more\ninformation, see Ops Agent 2.73.0 notes.",
+        "summary": "Cloud Monitoring\nFixed\nOps Agent version 2.73.0 includes patches for a Go vulnerability involving\nsystem root certificates,\nCVE-2026-111943. For more\ninformation, see Ops Agent 2.73.0 notes.\nCloud SQL for MySQL\nSecurity\nIn response to GCP-2026-071, Google is\nupdating Cloud SQL's managed components. No manual updates to the certificate\nstore are required for Cloud SQL-managed instances. The fix is shipping in a\nnew maintenance version that will be applied during\nscheduled maintenance. You can also apply the\nfix by performing self-service\nmaintenance. An announcement will\nbe published when the self-service maintenance fix is available.\nWhat should I do?\nIf you use the Cloud SQL Auth Proxy, then upgrade the Cloud SQL Auth Proxy to\n2.26.3 or later and the Cloud SQL Proxy\nOperator to 1.8.4 or later. If you\nrun the standalone proxy binary, then also update the host's certificate\nauthority (CA) certificates.\n\n\nIf you use a Cloud SQL Language Connector, then update the language runtime\nand operating system CA certificates used with the\nCloud SQL Language Connector (for\nexample, Go 1.26.10 or 1.27.3 or later, certifi 2026.10.19 or later).\n\n\nIf you're using the gcloud CLI to install the Cloud SQL Auth Proxy, then\nupdate the gcloud CLI to 590.0.1.\n\n\nCloud SQL for PostgreSQL\nSecurity\nIn response to GCP-2026-071, Google is\nupdating Cloud SQL's managed components. No manual updates to the certificate\nstore are required for Cloud SQL-managed instances. The fix is shipping in a\nnew…",
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-10-23T07:00:00.000Z",
