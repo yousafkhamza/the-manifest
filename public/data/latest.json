@@ -1,6 +1,6 @@
 {
   "date": "2026-10-25",
-  "generatedAt": "2026-10-25T09:48:08.980Z",
+  "generatedAt": "2026-10-25T14:57:52.105Z",
   "totalArticles": 72,
   "ticker": [
     {
@@ -185,7 +185,7 @@
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-10-24T07:00:00.000Z",
-        "isNew": true
+        "isNew": false
       },
       {
         "title": "October 23, 2026",
