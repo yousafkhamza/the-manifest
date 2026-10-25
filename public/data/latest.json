@@ -1,6 +1,6 @@
 {
-  "date": "2026-10-24",
-  "generatedAt": "2026-10-24T19:29:09.926Z",
+  "date": "2026-10-25",
+  "generatedAt": "2026-10-25T09:48:08.980Z",
   "totalArticles": 72,
   "ticker": [
     {
@@ -179,6 +179,15 @@
     ],
     "gcp": [
       {
+        "title": "October 24, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#October_24_2026",
+        "summary": "App Engine flexible environment .NET\nSecurity\nThe following runtime language contains important security updates:\n.NET 6 and later: 6.0.428, 8.0.415, 10.0.100\nThe following stacks and their underlying operating system packages have also been updated:\ngoogle-22, google-22-full\ngoogle-24, google-24-full\nTake immediate protective action by rebuilding and redeploying your resources with updated dependencies.\nSee Security bulletins for Google Cloud for more information.\nApp Engine flexible environment Go\nSecurity\nThe following runtime language contains important security updates:\nGo 1.24 and later: 1.24.13, 1.25.14, 1.26.10, 1.27.3\nThe following stacks and their underlying operating system packages have also been updated:\ngoogle-22, google-22-full\ngoogle-24, google-24-full\nTake immediate protective action by rebuilding and redeploying your resources with updated dependencies.\nSee Security bulletins for Google Cloud for more information.\nApp Engine flexible environment Java\nSecurity\nThe following runtime language contains important security updates:\nJava 17 and later: 17.0.20_101, 21.0.12_101.0.LTS, 25.0.5_8.0.LTS\nThe following stacks and their underlying operating system packages have also been updated:\ngoogle-22, google-22-full\ngoogle-24, google-24-full\nTake immediate protective action by rebuilding and redeploying your resources with updated dependencies.\nSee Security bulletins for Google Cloud for more information.\nApp Engine flexible environment Node.js\nSecurity\nThe following…",
+        "image": null,
+        "source": "Google Cloud Platform (GCP) - Release notes",
+        "published": "2026-10-24T07:00:00.000Z",
+        "isNew": true
+      },
+      {
         "title": "October 23, 2026",
         "link": "https://docs.cloud.google.com/release-notes#October_23_2026",
         "summary": "Cloud Monitoring\nFixed\nOps Agent version 2.73.0 includes patches for a Go vulnerability involving\nsystem root certificates,\nCVE-2026-111943. For more\ninformation, see Ops Agent 2.73.0 notes.\nCloud SQL for MySQL\nSecurity\nIn response to GCP-2026-071, Google is\nupdating Cloud SQL's managed components. No manual updates to the certificate\nstore are required for Cloud SQL-managed instances. The fix is shipping in a\nnew maintenance version that will be applied during\nscheduled maintenance. You can also apply the\nfix by performing self-service\nmaintenance. An announcement will\nbe published when the self-service maintenance fix is available.\nWhat should I do?\nIf you use the Cloud SQL Auth Proxy, then upgrade the Cloud SQL Auth Proxy to\n2.26.3 or later and the Cloud SQL Proxy\nOperator to 1.8.4 or later. If you\nrun the standalone proxy binary, then also update the host's certificate\nauthority (CA) certificates.\n\n\nIf you use a Cloud SQL Language Connector, then update the language runtime\nand operating system CA certificates used with the\nCloud SQL Language Connector (for\nexample, Go 1.26.10 or 1.27.3 or later, certifi 2026.10.19 or later).\n\n\nIf you're using the gcloud CLI to install the Cloud SQL Auth Proxy, then\nupdate the gcloud CLI to 590.0.1.\n\n\nCloud SQL for PostgreSQL\nSecurity\nIn response to GCP-2026-071, Google is\nupdating Cloud SQL's managed components. No manual updates to the certificate\nstore are required for Cloud SQL-managed instances. The fix is shipping in a\nnew…",
@@ -239,15 +248,6 @@
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-10-17T07:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "October 16, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#October_16_2026",
-        "summary": "BigQuery\nFeature\nConversational analytics in BigQuery\nis now available in the following locations:\nnorthamerica-northeast1 (Montréal)\nnorthamerica-northeast2 (Toronto)\nFor more information, see\nLocations.\nCloud SQL for PostgreSQL\nChange\nCloud SQL for PostgreSQL now supports enabling Managed Connection Pooling\non existing Private Service Connect\ninstances. Previously, Cloud SQL supported enabling Managed Connection Pooling only\non new instances using Private Service Connect.\nFor more information, see Managed Connection Pooling overview\nand Configure Managed Connection Pooling.\nDialogflow\nFeature\ngemini-3.5-flash-lite has become generally available (GA). See\nGenerative quotas\nfor how to request quota for Gemini 3 and later models.\nGemini Enterprise\nFeature\nGemini Enterprise: Configure citations for custom MCP data stores\nYou can configure the citation_mappings parameter for custom Model Context\nProtocol (MCP) data stores using the REST API to display source citation chips\nwhen Gemini Enterprise answers questions using tools on your custom MCP server.\nThis feature is generally available (GA).\nFor more information, see Configure citations for custom MCP data\nstores.\nFeature\nGemini Enterprise: Connect workflows in Workflow Builder to\nConfluence Data Center and Jira Data Center\nYou can connect workflows in Workflow Builder to Confluence Data Center and\nJira Data Center to search data and automate actions across these third-party\napps.\nFor more information, see Workflows\noverview.…",
-        "image": null,
-        "source": "Google Cloud Platform (GCP) - Release notes",
-        "published": "2026-10-16T07:00:00.000Z",
         "isNew": false
       }
     ],
