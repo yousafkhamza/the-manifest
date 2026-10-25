@@ -1,6 +1,6 @@
 {
   "date": "2026-10-25",
-  "generatedAt": "2026-10-25T14:57:52.105Z",
+  "generatedAt": "2026-10-25T19:36:23.789Z",
   "totalArticles": 72,
   "ticker": [
     {
@@ -179,6 +179,15 @@
     ],
     "gcp": [
       {
+        "title": "October 25, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#October_25_2026",
+        "summary": "Google SecOps SOAR\nAnnouncement\nRelease 6.3.104 is being rolled out to the first phase of regions as listed\nhere.\nThis release contains internal and customer bug fixes.",
+        "image": null,
+        "source": "Google Cloud Platform (GCP) - Release notes",
+        "published": "2026-10-25T07:00:00.000Z",
+        "isNew": false
+      },
+      {
         "title": "October 24, 2026",
         "link": "https://docs.cloud.google.com/release-notes#October_24_2026",
         "summary": "App Engine flexible environment .NET\nSecurity\nThe following runtime language contains important security updates:\n.NET 6 and later: 6.0.428, 8.0.415, 10.0.100\nThe following stacks and their underlying operating system packages have also been updated:\ngoogle-22, google-22-full\ngoogle-24, google-24-full\nTake immediate protective action by rebuilding and redeploying your resources with updated dependencies.\nSee Security bulletins for Google Cloud for more information.\nApp Engine flexible environment Go\nSecurity\nThe following runtime language contains important security updates:\nGo 1.24 and later: 1.24.13, 1.25.14, 1.26.10, 1.27.3\nThe following stacks and their underlying operating system packages have also been updated:\ngoogle-22, google-22-full\ngoogle-24, google-24-full\nTake immediate protective action by rebuilding and redeploying your resources with updated dependencies.\nSee Security bulletins for Google Cloud for more information.\nApp Engine flexible environment Java\nSecurity\nThe following runtime language contains important security updates:\nJava 17 and later: 17.0.20_101, 21.0.12_101.0.LTS, 25.0.5_8.0.LTS\nThe following stacks and their underlying operating system packages have also been updated:\ngoogle-22, google-22-full\ngoogle-24, google-24-full\nTake immediate protective action by rebuilding and redeploying your resources with updated dependencies.\nSee Security bulletins for Google Cloud for more information.\nApp Engine flexible environment Node.js\nSecurity\nThe following…",
@@ -239,15 +248,6 @@
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-10-18T07:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "October 17, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#October_17_2026",
-        "summary": "Google SecOps SOAR\nAnnouncement\nRelease 6.3.102 is now\navailable for all regions.",
-        "image": null,
-        "source": "Google Cloud Platform (GCP) - Release notes",
-        "published": "2026-10-17T07:00:00.000Z",
         "isNew": false
       }
     ],
