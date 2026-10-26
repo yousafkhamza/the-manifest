@@ -1,6 +1,6 @@
 {
   "date": "2026-10-26",
-  "generatedAt": "2026-10-26T17:24:51.336Z",
+  "generatedAt": "2026-10-26T21:38:22.044Z",
   "totalArticles": 72,
   "ticker": [
     {
@@ -105,15 +105,6 @@
     ],
     "azure": [
       {
-        "title": "Scale reservoir uncertainty analysis with agile reservoir modeling",
-        "link": "https://azure.microsoft.com/en-us/blog/scale-reservoir-uncertainty-analysis-with-agile-reservoir-modeling/",
-        "summary": "As subsurface data grows in scale and complexity, teams need a faster, more connected way to transform uncertainty into actionable decisions.\nThe post Scale reservoir uncertainty analysis with agile reservoir modeling appeared first on Microsoft Azure Blog.",
-        "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/10/Screenshot-2026-10-22-170942.webp",
-        "source": "Microsoft Azure Blog",
-        "published": "2026-10-26T16:00:00.000Z",
-        "isNew": false
-      },
-      {
         "title": "Advancing digital sovereignty with greater control and choice",
         "link": "https://blogs.microsoft.com/blog/2026/10/20/advancing-digital-sovereignty-with-greater-control-and-choice/",
         "summary": "Across conversations with leaders in government, critical infrastructure and regulated industries, one priority consistently rises to the top: putting technology to work on the most important systems while maintaining the control those systems require.\nThe post Advancing digital sovereignty with greater control and choice appeared first on Microsoft Azure Blog.",
@@ -175,6 +166,15 @@
         "source": "Microsoft Azure Blog",
         "published": "2026-10-13T16:15:00.000Z",
         "isNew": false
+      },
+      {
+        "title": "Deep dive into Azure Maia 300 architecture",
+        "link": "https://azure.microsoft.com/en-us/blog/deep-dive-into-azure-maia-300-architecture/",
+        "summary": "Maia 300 operates as a single platform to meet the demands of cloud-scale agentic inference.\nThe post Deep dive into Azure Maia 300 architecture appeared first on Microsoft Azure Blog.",
+        "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/10/Maia-300-SoC.webp",
+        "source": "Microsoft Azure Blog",
+        "published": "2026-10-12T13:00:00.000Z",
+        "isNew": false
       }
     ],
     "gcp": [
@@ -208,7 +208,7 @@
       {
         "title": "October 23, 2026",
         "link": "https://docs.cloud.google.com/release-notes#October_23_2026",
-        "summary": "Cloud Monitoring\nFixed\nOps Agent version 2.73.0 includes patches for a Go vulnerability involving\nsystem root certificates,\nCVE-2026-111943. For more\ninformation, see Ops Agent 2.73.0 notes.\nCloud SQL for MySQL\nSecurity\nIn response to GCP-2026-071, Google is\nupdating Cloud SQL's managed components. No manual updates to the certificate\nstore are required for Cloud SQL-managed instances. The fix is shipping in a\nnew maintenance version that will be applied during\nscheduled maintenance. You can also apply the\nfix by performing self-service\nmaintenance. An announcement will\nbe published when the self-service maintenance fix is available.\nWhat should I do?\nIf you use the Cloud SQL Auth Proxy, then upgrade the Cloud SQL Auth Proxy to\n2.26.3 or later and the Cloud SQL Proxy\nOperator to 1.8.4 or later. If you\nrun the standalone proxy binary, then also update the host's certificate\nauthority (CA) certificates.\n\n\nIf you use a Cloud SQL Language Connector, then update the language runtime\nand operating system CA certificates used with the\nCloud SQL Language Connector (for\nexample, Go 1.26.10 or 1.27.3 or later, certifi 2026.10.19 or later).\n\n\nIf you're using the gcloud CLI to install the Cloud SQL Auth Proxy, then\nupdate the gcloud CLI to 590.0.1.\n\n\nCloud SQL for PostgreSQL\nSecurity\nIn response to GCP-2026-071, Google is\nupdating Cloud SQL's managed components. No manual updates to the certificate\nstore are required for Cloud SQL-managed instances. The fix is shipping in a\nnew…",
+        "summary": "Cloud Database Migration Service\nSecurity\nOn Saturday, October 17, 2026, Google received a report from a security\nresearcher regarding the compromise of private keys associated with eight\neMudhra subordinate Certification Authority (CA) certificates, including those\ncross-signed by AAA Certificate Services. Consequently, these CA certificates\nare no longer trusted and are being revoked.\nTo continue connecting to a source database after its CA certificate is\nupdated, upload the new CA certificate to the Database Migration Service source connection\nprofile:\nUpdate the connection profile using\ngcloud database-migration connection-profiles update\nor the\nconnectionProfiles.patch\nAPI method.\nModify the connection profile in the Google Cloud console:\n\nMySQL connection profiles\nPostgreSQL to Cloud SQL connection profiles\nPostgreSQL to AlloyDB for PostgreSQL connection profiles\nOracle to Cloud SQL connection profiles\nOracle to AlloyDB for PostgreSQL connection profiles\nSQL Server to Cloud SQL connection profiles\nSQL Server to AlloyDB for PostgreSQL connection profiles\n\n\nFor more information, see security bulletin\nGCP-2026-071.\nCloud Monitoring\nFixed\nOps Agent version 2.73.0 includes patches for a Go vulnerability involving\nsystem root certificates,\nCVE-2026-111943. For more\ninformation, see Ops Agent 2.73.0 notes.\nCloud SQL for MySQL\nSecurity\nIn response to GCP-2026-071, Google is\nupdating Cloud SQL's managed components. No manual updates to the certificate\nstore are required for…",
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-10-23T07:00:00.000Z",
