@@ -1,6 +1,6 @@
 {
   "date": "2026-10-26",
-  "generatedAt": "2026-10-26T11:06:14.318Z",
+  "generatedAt": "2026-10-26T17:24:51.336Z",
   "totalArticles": 72,
   "ticker": [
     {
@@ -30,6 +30,15 @@
   ],
   "topics": {
     "aws": [
+      {
+        "title": "AWS Weekly Roundup: Amazon Polly Generative engine, TorchNeuron for Trainium, and more (October 26, 2026)",
+        "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-amazon-polly-generative-engine-torchneuron-for-trainium-and-more-october-26-2026/",
+        "summary": "A few weeks ago I presented to a small group of commercial and technology leaders from Brazilian agribusiness at the AWS office in São Paulo. My talk ran through where generative AI fits across the different stages of an agribusiness operation, and the point I kept returning to is that the markets we call traditional […]",
+        "image": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2026/10/23/genai-agronegocio-speaker-crop-1280.jpg",
+        "source": "AWS News Blog",
+        "published": "2026-10-26T15:02:24.000Z",
+        "isNew": false
+      },
       {
         "title": "AWS Continuum for code vulnerabilities is now generally available",
         "link": "https://aws.amazon.com/blogs/aws/aws-continuum-for-code-vulnerabilities-is-now-generally-available/",
@@ -92,18 +101,18 @@
         "source": "AWS News Blog",
         "published": "2026-10-06T16:09:36.000Z",
         "isNew": false
-      },
-      {
-        "title": "AWS Weekly Roundup: Amazon Bedrock Managed Agents powered by OpenAI, Q3 service availability updates, Kiro workflows, and more (October 5, 2026)",
-        "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-amazon-bedrock-managed-agents-powered-by-openai-q3-service-availability-updates-kiro-workflows-and-more-october-5-2026/",
-        "summary": "Last week, we announced a public preview of Amazon Bedrock Managed Agents powered by OpenAI, built on a customized version of OpenAI’s Agents API engineered to be AWS-native and integrated with AWS resources. You can now build agents optimized for OpenAI models that run entirely inside AWS with the identities, permissions, and governance controls you […]",
-        "image": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2026/04/28/2026-bedrock-managed-agents-openai.png",
-        "source": "AWS News Blog",
-        "published": "2026-10-05T15:41:19.000Z",
-        "isNew": false
       }
     ],
     "azure": [
+      {
+        "title": "Scale reservoir uncertainty analysis with agile reservoir modeling",
+        "link": "https://azure.microsoft.com/en-us/blog/scale-reservoir-uncertainty-analysis-with-agile-reservoir-modeling/",
+        "summary": "As subsurface data grows in scale and complexity, teams need a faster, more connected way to transform uncertainty into actionable decisions.\nThe post Scale reservoir uncertainty analysis with agile reservoir modeling appeared first on Microsoft Azure Blog.",
+        "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/10/Screenshot-2026-10-22-170942.webp",
+        "source": "Microsoft Azure Blog",
+        "published": "2026-10-26T16:00:00.000Z",
+        "isNew": false
+      },
       {
         "title": "Advancing digital sovereignty with greater control and choice",
         "link": "https://blogs.microsoft.com/blog/2026/10/20/advancing-digital-sovereignty-with-greater-control-and-choice/",
@@ -166,18 +175,18 @@
         "source": "Microsoft Azure Blog",
         "published": "2026-10-13T16:15:00.000Z",
         "isNew": false
-      },
-      {
-        "title": "Deep dive into Azure Maia 300 architecture",
-        "link": "https://azure.microsoft.com/en-us/blog/deep-dive-into-azure-maia-300-architecture/",
-        "summary": "Maia 300 operates as a single platform to meet the demands of cloud-scale agentic inference.\nThe post Deep dive into Azure Maia 300 architecture appeared first on Microsoft Azure Blog.",
-        "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/10/Maia-300-SoC.webp",
-        "source": "Microsoft Azure Blog",
-        "published": "2026-10-12T13:00:00.000Z",
-        "isNew": false
       }
     ],
     "gcp": [
+      {
+        "title": "October 26, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#October_26_2026",
+        "summary": "Apigee X\nFeature\nModel Context Protocol (MCP) tool arguments are sent to the location their OpenAPI\nparameter declares\nThis change applies to Apigee X in all supported regions.\nAn MCP tool argument whose OpenAPI parameter declares in: header is now sent to\nyour backend as a request header, and one that declares in: cookie is sent in the\nCookie header. Previously both were appended to the query string.\nin: query and in: path parameters are unchanged, and every parameter\nstill appears in the tool's inputSchema, so MCP clients supply arguments exactly as\nbefore. If a backend reads one of these values from the query string, declare the parameter\nin: query or read it from its declared location.\nOn a tool call that supplies at least one cookie argument, the Cookie header is\nreplaced with only the declared cookie parameters, omitting any others. Any cookie your backend\nrelies on must be declared as an in: cookie parameter.\nAn MCP proxy that was already deployed continues to use the previous query-string behavior\nuntil its configuration is next regenerated. To adopt the new routing on an existing MCP proxy,\ndeploy a new revision of it.\nFor the full mapping, see\nTool\nargument placement on the backend request.\nSecurity\nOn October 24, 2026, we published a security bulletin for Apigee.\nTwo vulnerabilities in PHP core\n(CVE-2026-109618\nand\nCVE-2026-109619,\n\"PHP2Shell\") allow an unauthenticated attacker to execute code remotely on a\nserver running a vulnerable PHP version. The impact is…",
+        "image": null,
+        "source": "Google Cloud Platform (GCP) - Release notes",
+        "published": "2026-10-26T07:00:00.000Z",
+        "isNew": false
+      },
       {
         "title": "October 25, 2026",
         "link": "https://docs.cloud.google.com/release-notes#October_25_2026",
@@ -239,15 +248,6 @@
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-10-19T07:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "October 18, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#October_18_2026",
-        "summary": "Google SecOps\nFeature\nSpecify whether to reopen closed cases when the grouping is by Source Grouping Identifier\nYou can now specify whether Google SecOps reopens closed cases when grouping SOAR alerts by Source Grouping Identifier. When the option is enabled and a new alert is received with a source grouping identifier of a case that was previously closed in Google SecOps, then  Google SecOps reopens the case. For more information, see Configure alert grouping.\nGoogle SecOps SOAR\nAnnouncement\nRelease 6.3.103 is being rolled out to the first phase of regions as listed\nhere.\nFeature\nSpecify whether to reopen closed cases when the grouping is by Source Grouping Identifier\nYou can now specify whether Google SecOps reopens closed cases when grouping alerts by Source Grouping Identifier. When the option is enabled and a new alert is received with a source grouping identifier of a case that was previously closed in Google SecOps, then  Google SecOps reopens the case. For more information, see Configure alert grouping.\nDeprecated\nDeprecation of the ListCaseEvents API endpoint\nEffective October 12, 2026, the ListCaseEvents API endpoint is deprecated. You should use the ListCaseEvidenceData API endpoint instead.",
-        "image": null,
-        "source": "Google Cloud Platform (GCP) - Release notes",
-        "published": "2026-10-18T07:00:00.000Z",
         "isNew": false
       }
     ],
@@ -407,7 +407,7 @@
         "image": null,
         "source": "Python Insider",
         "published": "2026-10-26T00:00:00.000Z",
-        "isNew": true
+        "isNew": false
       },
       {
         "title": "Mark Your Calendars! PSF Board Office Hours for the Year Ahead",
@@ -549,6 +549,15 @@
     ],
     "rust": [
       {
+        "title": "How to fund Rust contributors",
+        "link": "https://blog.rust-lang.org/2026/10/26/how-to-fund-rust-contributors/",
+        "summary": "TLDR:\nTo fund general maintenance, donate to the Rust Foundation Maintainers Fund or sponsor the RustNL Maintainers Team\nTo fund specific features and improvements, sponsor fundable Rust Project Goals\nTo fund individual contributors, donate to their GitHub Sponsors accounts\nThere is always so much to do in the Rust Project! New features to implement, bugs to fix, performance optimizations to make, issues to triage… It takes a lot of work to keep our high bar of quality while also shipping new features and improvements. And the workload keeps increasing with the continuous growth of Rust adoption.\nAs is unfortunately common in open source projects, a large fraction of that work is currently done by volunteers. That causes various issues, such as people burning out or complex features taking many years to ship.\nUnsurprisingly, one of the best ways to help improve that is to get more people who work on Rust funded! This year, several funding initiatives started ramping up, and we already experience many positive effects. They helped us improve the maintenance status of critical Rust projects and make significant progress on several long-awaited features, such as allocators, the never type, the next trait solver or the Polonius borrow checker. However, only a fraction of people working on Rust are currently funded for their work.\nWe know that there are Rust users, both individuals and companies, who would like to help improve Rust by funding it, but it might not always be…",
+        "image": null,
+        "source": "Rust Blog",
+        "published": "2026-10-26T00:00:00.000Z",
+        "isNew": false
+      },
+      {
         "title": "Announcing rustup 1.29.2",
         "link": "https://blog.rust-lang.org/2026/10/20/Rustup-1.29.2/",
         "summary": "The rustup team is happy to announce the release of rustup version 1.29.2.\nRustup is the recommended tool to install Rust, a\nprogramming language that empowers everyone to build reliable and efficient\nsoftware.\n\nWhat's new in rustup 1.29.2\nThis is a small release which only updates the rustls-webpki and\nwebpki-root-certs dependencies to address the problematic eMudhra\nintermediate certificates issue described in CVE-2026-111943.\nSee also RUSTSEC-2026-0382.\nFurther details are available in the changelog!\n\nHow to update\nIf you have a previous version of rustup installed, getting the new one is as easy as stopping\nany programs which may be using rustup (e.g. closing your IDE) and running:\n$ rustup self update\nRustup will also automatically update itself at the end of a normal toolchain update:\n$ rustup update\nIf you don't have it already, you can get rustup from the appropriate page on our website.\nRustup's documentation is also available in the rustup book.\n\nCaveats\nRustup releases can come with problems not caused by rustup itself but just due to having a new release.\nIn particular, anti-malware scanners might block rustup or stop it from creating or copying\nfiles, especially when installing rust-docs which contains many small files.\nIssues like this should be automatically resolved in a few weeks when the anti-malware scanners are updated\nto be aware of the new rustup release.\n\nThanks\nThanks again to all the contributors who made this rustup release possible!",
@@ -609,15 +618,6 @@
         "image": null,
         "source": "Rust Blog",
         "published": "2026-09-17T00:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "Rust debugging survey 2026 results",
-        "link": "https://blog.rust-lang.org/2026/09/07/rust-debugging-survey-2026-results/",
-        "summary": "One of the biggest challenges Rust developers report in our\nannual surveys is a subpar debugging experience. So, back\nin February, we ran our first Rust Debugging Survey,\nin the hopes of identifying how Rust developers are using debuggers and what\nproblems they are facing when doing so. We received over 2,300 responses, and\nwe'd like to thank everyone who took the time to participate in the survey!\nIn this report, we'll go over some of the results of the survey. If you'd like,\nyou can also check out the complete results of the survey.\nIf you'd like to skip ahead to any particular section, you can do so with this\nindex:\nWho Uses Debuggers?\nHow Are Debuggers Used?\nChallenges\nDebugger Visualizers\nClosing Remarks\n\nWho Uses Debuggers?\nThe first step to making sense of the survey results is understanding who took\nthe survey. We asked respondents to rate their Rust expertise, from \"Never used\nit\" to \"Advanced\". Over 80% reported themselves as \"Advanced\" or \"Intermediate\",\nsplit roughly evenly between the two:\n\n\n\n[PNG] [SVG]\n    \nWe also asked respondents if they currently use or have used debuggers in Rust.\nOver 46% said they currently do, with the remaining responses split between\n\"have in the past\" and \"never have\". That means that over half of respondents do\nnot currently use a debugger for Rust!\n\n\n\n[PNG] [SVG]\n    \nCategorized by expertise, the responses reveal that roughly half of \"beginners\"\nhave never used debuggers in Rust! On the other hand, nearly half of \"advanced\nusers\"…",
-        "image": "how-would-you-rate-your-rust-expertise.png",
-        "source": "Rust Blog",
-        "published": "2026-09-07T00:00:00.000Z",
         "isNew": false
       }
     ],
