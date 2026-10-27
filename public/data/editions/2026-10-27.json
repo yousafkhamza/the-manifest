@@ -1,6 +1,6 @@
 {
   "date": "2026-10-27",
-  "generatedAt": "2026-10-27T16:42:24.425Z",
+  "generatedAt": "2026-10-27T21:18:33.776Z",
   "totalArticles": 72,
   "ticker": [
     {
@@ -179,9 +179,18 @@
     ],
     "gcp": [
       {
+        "title": "October 27, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#October_27_2026",
+        "summary": "AlloyDB for PostgreSQL\nAnnouncement\nThe following AlloyDB AI functions and improvements are available in\nPreview:\nThe ai.extract function lets you extract structured data from\nunstructured text directly within your database queries without needing\nexternal extraction pipelines. For more information, see\nExtract structured data.\n\n\nThe ai.classify function lets you categorize unstructured text into\npredefined labels directly within your database queries. For more\ninformation, see Classify text.\n\n\nParameter names and signatures for AI query engine functions\n(ai.analyze_sentiment, ai.summarize, and ai.agg_summarize) are\nupdated. For more information, see\nModel endpoint reference.\nThe prompt and prompts parameters are renamed to input and\ninputs in scalar and batch functions respectively.\n\n\nAn optional additional_instructions parameter is added to\nai.summarize and ai.agg_summarize to provide custom instructions to\nguide summary formatting, length, and tone.\n\n\nIn cursor-based versions of ai.analyze_sentiment and ai.summarize,\nthe prompt parameter is removed.\n\n\nai.agg_summarize supports multiple positional signatures, including\npassing optional additional instructions and specifying model IDs.\n\n\nBigQuery\nFeature\nThe Data Engineering Agent now integrates with Google\nDrive,\nletting you provide Google Sheets files, CSV, or JSONL files as input for\nyour data engineering pipelines.\nThis feature is generally available (GA).\nCloud DNS\nAnnouncement\nStarting January 5, 2027, CNAME chasing…",
+        "image": null,
+        "source": "Google Cloud Platform (GCP) - Release notes",
+        "published": "2026-10-27T07:00:00.000Z",
+        "isNew": false
+      },
+      {
         "title": "October 26, 2026",
         "link": "https://docs.cloud.google.com/release-notes#October_26_2026",
-        "summary": "Agent Platform Workbench\nChange\n20261025.00_p0 Release\nChange\nInstalled latest packages from upstream dependencies.\nSecurity\nUpdated certifi, pip, and conda ca-certificates to the latest versions.\nChange\n20261025.00_p0 Release\nChange\nInstalled latest packages from upstream dependencies.\nSecurity\nAddressed multiple reported security vulnerabilities in bundled packages.\nSecurity\nUpdated certifi, pip, and conda ca-certificates to the latest versions.\nApigee X\nFeature\nModel Context Protocol (MCP) tool arguments are sent to the location their OpenAPI\nparameter declares\nThis change applies to Apigee X in all supported regions.\nAn MCP tool argument whose OpenAPI parameter declares in: header is now sent to\nyour backend as a request header, and one that declares in: cookie is sent in the\nCookie header. Previously both were appended to the query string.\nin: query and in: path parameters are unchanged, and every parameter\nstill appears in the tool's inputSchema, so MCP clients supply arguments exactly as\nbefore. If a backend reads one of these values from the query string, declare the parameter\nin: query or read it from its declared location.\nOn a tool call that supplies at least one cookie argument, the Cookie header is\nreplaced with only the declared cookie parameters, omitting any others. Any cookie your backend\nrelies on must be declared as an in: cookie parameter.\nAn MCP proxy that was already deployed continues to use the previous query-string behavior\nuntil its configuration is…",
+        "summary": "Agent Platform Workbench\nChange\n20261025.00_p0 Release\nChange\nInstalled latest packages from upstream dependencies.\nSecurity\nUpdated certifi, pip, and conda ca-certificates to the latest versions.\nChange\n20261025.00_p0 Release\nChange\nInstalled latest packages from upstream dependencies.\nSecurity\nAddressed multiple reported security vulnerabilities in bundled packages.\nSecurity\nUpdated certifi, pip, and conda ca-certificates to the latest versions.\nFeature\nCustom organization policies for Agent Platform Workbench instances\nYou can now use custom organization policies to allow or deny the creation and\nupdate of Agent Platform Workbench instances based on their configuration. Custom\nconstraints for the notebooks.googleapis.com/Instance resource are enforced\nwhen you create or update an instance, and support dry-run mode. This feature is\nnow generally available\n(GA). For more\ninformation, see Create custom organization policy\nconstraints.\nApigee X\nFeature\nModel Context Protocol (MCP) tool arguments are sent to the location their OpenAPI\nparameter declares\nThis change applies to Apigee X in all supported regions.\nAn MCP tool argument whose OpenAPI parameter declares in: header is now sent to\nyour backend as a request header, and one that declares in: cookie is sent in the\nCookie header. Previously both were appended to the query string.\nin: query and in: path parameters are unchanged, and every parameter\nstill appears in the tool's inputSchema, so MCP clients supply arguments…",
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-10-26T07:00:00.000Z",
@@ -239,15 +248,6 @@
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-10-20T07:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "October 19, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#October_19_2026",
-        "summary": "Agent Platform Workbench\nChange\n20261018.00_p0 Release\nChange\nInstalled latest packages from upstream dependencies.\nFixed\nFixed an issue where Jupyter Server terminal configuration could overwrite the Dataproc plugin server extension setting or fail to apply the terminal disable setting on container startup.\nChange\n20261018.00_p0 Release\nChange\nInstalled latest packages from upstream dependencies.\nFixed\nFixed an issue where Jupyter Server terminal configuration could overwrite the Dataproc plugin server extension setting or fail to apply the terminal disable setting on container startup.\nAlloyDB for PostgreSQL\nFeature\nLakehouse federation in AlloyDB is generally available\n(GA). This feature\nlets you query live data in BigQuery directly from AlloyDB using the\nbigquery_fdw extension without moving or duplicating the data.\nFor more information, see\nAccess to real-time data in BigQuery overview\nand\nConfigure access to real-time data in BigQuery.\nCloud Asset Inventory\nFeature\nThe following resource types are publicly available through the ExportAssets, ListAssets, BatchGetAssetsHistory, QueryAssets, Feed, and Search (SearchAllResources, SearchAllIamPolicies) APIs.\nFault Injection Testing\n\nfaulttesting.googleapis.com/Experiment\nfaulttesting.googleapis.com/ExperimentTemplate\nfaulttesting.googleapis.com/Validation\n\nFirebase Storage\n\nfirebasestorage.googleapis.com/Bucket\nfirebasestorage.googleapis.com/DefaultBucket\n\nPrivileged Access Manager…",
-        "image": null,
-        "source": "Google Cloud Platform (GCP) - Release notes",
-        "published": "2026-10-19T07:00:00.000Z",
         "isNew": false
       }
     ],
