@@ -1,6 +1,6 @@
 {
-  "date": "2026-10-26",
-  "generatedAt": "2026-10-26T21:38:22.044Z",
+  "date": "2026-10-27",
+  "generatedAt": "2026-10-27T10:33:09.902Z",
   "totalArticles": 72,
   "ticker": [
     {
@@ -105,6 +105,15 @@
     ],
     "azure": [
       {
+        "title": "Scale reservoir uncertainty analysis with agile reservoir modeling",
+        "link": "https://azure.microsoft.com/en-us/blog/scale-reservoir-uncertainty-analysis-with-agile-reservoir-modeling/",
+        "summary": "As subsurface data grows in scale and complexity, teams need a faster, more connected way to transform uncertainty into actionable decisions.\nThe post Scale reservoir uncertainty analysis with agile reservoir modeling appeared first on Microsoft Azure Blog.",
+        "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/10/Screenshot-2026-10-22-170942.webp",
+        "source": "Microsoft Azure Blog",
+        "published": "2026-10-26T16:00:00.000Z",
+        "isNew": true
+      },
+      {
         "title": "Advancing digital sovereignty with greater control and choice",
         "link": "https://blogs.microsoft.com/blog/2026/10/20/advancing-digital-sovereignty-with-greater-control-and-choice/",
         "summary": "Across conversations with leaders in government, critical infrastructure and regulated industries, one priority consistently rises to the top: putting technology to work on the most important systems while maintaining the control those systems require.\nThe post Advancing digital sovereignty with greater control and choice appeared first on Microsoft Azure Blog.",
@@ -166,22 +175,13 @@
         "source": "Microsoft Azure Blog",
         "published": "2026-10-13T16:15:00.000Z",
         "isNew": false
-      },
-      {
-        "title": "Deep dive into Azure Maia 300 architecture",
-        "link": "https://azure.microsoft.com/en-us/blog/deep-dive-into-azure-maia-300-architecture/",
-        "summary": "Maia 300 operates as a single platform to meet the demands of cloud-scale agentic inference.\nThe post Deep dive into Azure Maia 300 architecture appeared first on Microsoft Azure Blog.",
-        "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/10/Maia-300-SoC.webp",
-        "source": "Microsoft Azure Blog",
-        "published": "2026-10-12T13:00:00.000Z",
-        "isNew": false
       }
     ],
     "gcp": [
       {
         "title": "October 26, 2026",
         "link": "https://docs.cloud.google.com/release-notes#October_26_2026",
-        "summary": "Apigee X\nFeature\nModel Context Protocol (MCP) tool arguments are sent to the location their OpenAPI\nparameter declares\nThis change applies to Apigee X in all supported regions.\nAn MCP tool argument whose OpenAPI parameter declares in: header is now sent to\nyour backend as a request header, and one that declares in: cookie is sent in the\nCookie header. Previously both were appended to the query string.\nin: query and in: path parameters are unchanged, and every parameter\nstill appears in the tool's inputSchema, so MCP clients supply arguments exactly as\nbefore. If a backend reads one of these values from the query string, declare the parameter\nin: query or read it from its declared location.\nOn a tool call that supplies at least one cookie argument, the Cookie header is\nreplaced with only the declared cookie parameters, omitting any others. Any cookie your backend\nrelies on must be declared as an in: cookie parameter.\nAn MCP proxy that was already deployed continues to use the previous query-string behavior\nuntil its configuration is next regenerated. To adopt the new routing on an existing MCP proxy,\ndeploy a new revision of it.\nFor the full mapping, see\nTool\nargument placement on the backend request.\nSecurity\nOn October 24, 2026, we published a security bulletin for Apigee.\nTwo vulnerabilities in PHP core\n(CVE-2026-109618\nand\nCVE-2026-109619,\n\"PHP2Shell\") allow an unauthenticated attacker to execute code remotely on a\nserver running a vulnerable PHP version. The impact is…",
+        "summary": "Agent Platform Workbench\nChange\n20261025.00_p0 Release\nChange\nInstalled latest packages from upstream dependencies.\nSecurity\nUpdated certifi, pip, and conda ca-certificates to the latest versions.\nChange\n20261025.00_p0 Release\nChange\nInstalled latest packages from upstream dependencies.\nSecurity\nAddressed multiple reported security vulnerabilities in bundled packages.\nSecurity\nUpdated certifi, pip, and conda ca-certificates to the latest versions.\nApigee X\nFeature\nModel Context Protocol (MCP) tool arguments are sent to the location their OpenAPI\nparameter declares\nThis change applies to Apigee X in all supported regions.\nAn MCP tool argument whose OpenAPI parameter declares in: header is now sent to\nyour backend as a request header, and one that declares in: cookie is sent in the\nCookie header. Previously both were appended to the query string.\nin: query and in: path parameters are unchanged, and every parameter\nstill appears in the tool's inputSchema, so MCP clients supply arguments exactly as\nbefore. If a backend reads one of these values from the query string, declare the parameter\nin: query or read it from its declared location.\nOn a tool call that supplies at least one cookie argument, the Cookie header is\nreplaced with only the declared cookie parameters, omitting any others. Any cookie your backend\nrelies on must be declared as an in: cookie parameter.\nAn MCP proxy that was already deployed continues to use the previous query-string behavior\nuntil its configuration is…",
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-10-26T07:00:00.000Z",
@@ -190,7 +190,7 @@
       {
         "title": "October 25, 2026",
         "link": "https://docs.cloud.google.com/release-notes#October_25_2026",
-        "summary": "Google SecOps\nFeature\nResize inline images in Case Wall comments\nYou can now resize inline images directly in rich-text comments on the Case Wall. To resize an image, switch the comment box to rich-text mode and insert an image either by using the toolbar's image menu or by pasting it into the comment. Click the image to display the resizing overlay, then drag the bottom-right handle to adjust its dimensions.\nGoogle SecOps SOAR\nAnnouncement\nRelease 6.3.104 is being rolled out to the first phase of regions as listed\nhere.\nThis release contains internal and customer bug fixes.",
+        "summary": "Agent Platform Workbench\nChange\n20261025-2230-rc0 Release\nChange\n20261025-2230-rc0 Release\nChange\nInstalled latest packages from upstream dependencies.\nChange\nInstalled latest packages from upstream dependencies.\nSecurity\nUpdated certifi, pip, and conda ca-certificates to the latest versions.\nFixed\nFixed dataset and table search in the BigQuery panel, which sometimes failed to return results. Root cause is due to Datacatalog API being sunsetted in favor of Dataplex API.\nFixed\nFixed an issue where Jupyter Server terminal configuration could overwrite the Dataproc plugin server extension setting or fail to apply the terminal disable setting on container startup.\nSecurity\nAddressed multiple reported security vulnerabilities in bundled packages.\nSecurity\nUpdated certifi, pip, and conda ca-certificates to the latest versions.\nFixed\nFixed an issue where Jupyter Server terminal configuration could overwrite the Dataproc plugin server extension setting or fail to apply the terminal disable setting on container startup.\nSecurity\nAddressed multiple reported security vulnerabilities in bundled packages.\nChange\n20261025-2130-rc0 Release\nChange\nInstalled latest packages from upstream dependencies.\nGoogle SecOps\nFeature\nResize inline images in Case Wall comments\nYou can now resize inline images directly in rich-text comments on the Case Wall. To resize an image, switch the comment box to rich-text mode and insert an image either by using the toolbar's image menu or by pasting it into the…",
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-10-25T07:00:00.000Z",
@@ -235,7 +235,7 @@
       {
         "title": "October 20, 2026",
         "link": "https://docs.cloud.google.com/release-notes#October_20_2026",
-        "summary": "Apigee X\nAnnouncement\nOn October 20th, 2026, we began maintenance updates of Apigee instances configured for maintenance windows.\nIf you set a preferred window for maintenance for your instance, and your instance version is\nbelow 1-18-0-apigee-6, your instance will be updated to 1-18-0-apigee-6 within the\nnext seven to 21 days. A notification containing the expected date of upgrade will be sent within the next two business days.\nNote: Instances that meet either of the following two criteria will not be updated:\n\nYour instance has a DNS misconfiguration, as described in Known Issue 445936920.\nYour instance uses an Apigee Java Library that has been removed, as described in Apigee release notes dated October 16, 2025.\n\nFor more information on participating in scheduled maintenance windows, see Maintenance overview and Manage Apigee instance maintenance windows.\nCloud Workstations\nFeature\nCloud Workstations supports automatic failover for\nboost configurations\nin Preview. When you\nenable automatic failover, Cloud Workstations automatically provisions a\nworkstation VM using the boost configuration if Compute Engine lacks capacity\nfor the default machine type during startup.\nGemini Enterprise\nFeature\nGemini Enterprise: Antigravity Enterprise Gateway support\nAntigravity Enterprise Gateway lets organizations route model inference requests\nfrom the Antigravity app, Antigravity CLI, and Antigravity for IDEs through a\ncentralized enterprise gateway before forwarding them to Google…",
+        "summary": "Agent Platform Workbench\nChange\nM154 Release\nChange\nInstalled latest packages from upstream dependencies.\nFixed\nFixed dataset and table search in the BigQuery panel, which sometimes failed to return results. Root cause is due to Datacatalog API being sunsetted in favor of Dataplex API.\nApigee X\nAnnouncement\nOn October 20th, 2026, we began maintenance updates of Apigee instances configured for maintenance windows.\nIf you set a preferred window for maintenance for your instance, and your instance version is\nbelow 1-18-0-apigee-6, your instance will be updated to 1-18-0-apigee-6 within the\nnext seven to 21 days. A notification containing the expected date of upgrade will be sent within the next two business days.\nNote: Instances that meet either of the following two criteria will not be updated:\n\nYour instance has a DNS misconfiguration, as described in Known Issue 445936920.\nYour instance uses an Apigee Java Library that has been removed, as described in Apigee release notes dated October 16, 2025.\n\nFor more information on participating in scheduled maintenance windows, see Maintenance overview and Manage Apigee instance maintenance windows.\nCloud Workstations\nFeature\nCloud Workstations supports automatic failover for\nboost configurations\nin Preview. When you\nenable automatic failover, Cloud Workstations automatically provisions a\nworkstation VM using the boost configuration if Compute Engine lacks capacity\nfor the default machine type during startup.\nGemini Enterprise\nFeature…",
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-10-20T07:00:00.000Z",
@@ -475,9 +475,18 @@
     ],
     "go": [
       {
+        "title": "Our Response To The eMudhra Key Disclosure Incident",
+        "link": "https://go.dev/blog/emudhra-incident",
+        "summary": "The Go Blog\nOur Response To The eMudhra Key Disclosure Incident\nOn October 19, the Go team initiated an expedited security release to protect Go users and their applications from a critical public key infrastructure (PKI) compromise involving certificates issued by eMudhra.\nWithin approximately seven and a half hours of being notified, we shipped a targeted patch, which was included in our first-ever URGENT track security release.\nHere is the context behind the incident, why Go stepped in at the runtime level to protect our users and how our incident response unfolded.\neMudhra Incident\nOn October 17, Mozilla added eight intermediate certificates (six used for TLS, and two used for code signing) issued by a root certificate controlled by eMudhra to OneCRL, effectively blocking their usage in Firefox. Soon after, a number of security researchers noticed this and began investigating what might’ve caused this.\nOn October 19, the Go Security team was made aware of these investigations and their conclusions, which showed that the keys associated with these intermediates were trivially weak, allowing recovery of the private keys in microseconds.\nDue to the fact that the eMudhra root certificate was present in most trusted root programs, recovering the private keys would allow any attacker to sign arbitrary TLS certificates for any domain name, without the usual requirement to show proof of control of said domain name. This would allow an attacker to man-in-the-middle (MITM) TLS…",
+        "image": null,
+        "source": "The Go Blog",
+        "published": "2026-10-26T00:00:00.000Z",
+        "isNew": true
+      },
+      {
         "title": "Help set Go's priorities for next year",
         "link": "https://go.dev/blog/survey2026-announce",
-        "summary": "The Go Blog\nHelp set Go's priorities for next year\nHi Gophers! The 2026 Go Developer Survey is now open. We run this survey every year to understand how you use Go and the challenges you face. Your answers directly shape how we plan and prioritize our work.\nLast year, 5,379 of you responded, and your top frustration was making sure your code follows best practices and Go idioms (33% of respondents). Since then, we shipped a rewritten go fix in Go 1.26 that automatically modernizes your code, and added more modernizers in Go 1.27. You can read everything we learned in the 2025 results.\nTake the survey here. It’s open through November 3, takes about 10–20 minutes, and every question is optional. We’ll share the results on this blog in early 2027.\nPlease share the survey with your colleagues, friends, and online communities—the more Go developers we hear from, the better we understand what you need.\nThank you for helping shape the future of Go!\nPrevious article: Interactive refactoring in gopls\nBlog Index",
+        "summary": "The Go Blog\nHelp set Go's priorities for next year\nHi Gophers! The 2026 Go Developer Survey is now open. We run this survey every year to understand how you use Go and the challenges you face. Your answers directly shape how we plan and prioritize our work.\nLast year, 5,379 of you responded, and your top frustration was making sure your code follows best practices and Go idioms (33% of respondents). Since then, we shipped a rewritten go fix in Go 1.26 that automatically modernizes your code, and added more modernizers in Go 1.27. You can read everything we learned in the 2025 results.\nTake the survey here. It’s open through November 3, takes about 10–20 minutes, and every question is optional. We’ll share the results on this blog in early 2027.\nPlease share the survey with your colleagues, friends, and online communities—the more Go developers we hear from, the better we understand what you need.\nThank you for helping shape the future of Go!\nNext article: Our Response To The eMudhra Key Disclosure Incident\nPrevious article: Interactive refactoring in gopls\nBlog Index",
         "image": null,
         "source": "The Go Blog",
         "published": "2026-10-21T00:00:00.000Z",
@@ -535,15 +544,6 @@
         "image": null,
         "source": "The Go Blog",
         "published": "2026-09-02T00:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "Generic Methods",
-        "link": "https://go.dev/blog/generic-methods",
-        "summary": "The Go Blog\nGeneric Methods\nGenerics was a profound change for Go—it fundamentally expanded the kinds of\nprograms that gophers could write by adding type parameters to the language.\nOne could now express generic types and functions in Go. These constructs\ndecreased the need for specialized data types and functions, reducing program\nverbosity and improving the ergonomics of the language in those cases.\nTo illustrate, different kinds of linked lists could now be condensed into a\nsingle type definition:\n// before Go 1.18\ntype ListOfInts struct {\n    elem int\n    next *ListOfInts\n}\ntype ListOfStrings struct {\n    elem string\n    next *ListOfStrings\n}\n// ...\n\n// after Go 1.18\ntype List[E any] struct {\n    elem E\n    next *List[E]\n}\n\nLikewise, sorting different kinds of ordered data could be expressed as a single\nfunction:\n// before Go 1.18\nfunc SortInts(s []int) { /* ... */ }\nfunc SortStrings(s []string) { /* ... */ }\n// ...\n\n// after Go 1.18\nfunc Sort[E cmp.Ordered](s []E) { /* ... */ }\n\nHowever, no such capability came to methods.\nThe generics proposal reasoned that because generic interface\nmethods are difficult to implement efficiently (discussed\nlater), it didn’t make sense to\nadd type parameters to non-interface (or “concrete”) methods either. In that\nview, methods are primarily the means of implementing an interface.\nGo 1.27 takes a different view and consequently adds generic methods to Go. In\nthis post, we’ll explain this change of view and demonstrate some uses of this…",
-        "image": null,
-        "source": "The Go Blog",
-        "published": "2026-08-26T00:00:00.000Z",
         "isNew": false
       }
     ],
