@@ -1,6 +1,6 @@
 {
   "date": "2026-10-27",
-  "generatedAt": "2026-10-27T10:33:09.902Z",
+  "generatedAt": "2026-10-27T16:42:24.425Z",
   "totalArticles": 72,
   "ticker": [
     {
@@ -111,7 +111,7 @@
         "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/10/Screenshot-2026-10-22-170942.webp",
         "source": "Microsoft Azure Blog",
         "published": "2026-10-26T16:00:00.000Z",
-        "isNew": true
+        "isNew": false
       },
       {
         "title": "Advancing digital sovereignty with greater control and choice",
@@ -253,6 +253,15 @@
     ],
     "kubernetes": [
       {
+        "title": "Announcing the Workload Conformance Working Group",
+        "link": "https://kubernetes.io/blog/2026/10/27/announcing-workload-conformance-wg/",
+        "summary": "We are excited to announce that the Kubernetes community now has a Workload Conformance Working Group.\nThe working group is writing a shared standard for how workloads behave at runtime on Kubernetes.\nTo get it right, we need input from the people who build those workloads and from the people who run the clusters they're deployed on.\nWhy workloads need a shared standard\nCertified Kubernetes tests the cluster, and Kubernetes AI Conformance tests whether a cluster can run AI and ML workloads.\nNothing comparable exists for the workloads themselves, so cluster operators still check each application by hand before routine maintenance or a Kubernetes upgrade.\nThe problems they find are familiar. A routine node drain is often how you discover that an application can't tolerate disruption.\nAn upgrade can break an application that still depends on a removed API version.\nOthers show up in day-to-day operation: workloads that ask for privileges they don't need, or reserve resources they never use.\nKubernetes already documents much of this, including security and handling disruptions.\nEven so, every cluster operator ends up repeating the same assessment, and application maintainers get the same questions from each environment they support.\nA common specification with repeatable tests would give both groups the same baseline to start from.\nWhat the working group will deliver\nThe charter sets out three deliverables:\nA specification of workload behavior for each Kubernetes minor version.\nA…",
+        "image": null,
+        "source": "Kubernetes Blog",
+        "published": "2026-10-27T04:30:00.000Z",
+        "isNew": false
+      },
+      {
         "title": "Why Is My Kubernetes Job Still Pending? Tracing Kueue Admission with Headlamp",
         "link": "https://kubernetes.io/blog/2026/10/14/tracing-kueue-admission-with-headlamp/",
         "summary": "You submit a Kubernetes Job and\nwait for its Pods to appear. A minute passes. Then another. The Job is still suspended, there are no\napplication logs, and there may not even be a Pod to inspect.\nIn a cluster managed by Kueue, this can be completely normal. Kueue\nmay still be deciding whether the Job can use the requested resources. The useful question is not\nonly “Why is the Pod pending?” It is first “Has Kueue admitted the Workload?”\nThe Kueue plugin for Headlamp brings that\ninvestigation into the Headlamp UI. Instead of reconstructing the admission path from several\ncommands and large YAML objects, you can begin with the Workload, read its condition message, and\nfollow links through the LocalQueue, ClusterQueue, ResourceFlavor, and Cohort.\nThis article follows that Headlamp-first path. The command line appears only in a short optional\nsection for reproducing the example.\nBefore you begin\nYou need a Kubernetes cluster with Kueue installed,\na Headlamp installation, and the\n0.1.0-alpha Kueue plugin.\nYour Kubernetes identity must be allowed to read the Kueue resources used in this article.\nThe alpha release provides read-only views for Kueue v1beta2 Cohorts, ClusterQueues, LocalQueues,\nResourceFlavors, and Workloads. It does not add its own create, edit, stop, resume, or delete\nworkflows. Headlamp still provides its standard YAML and resource actions where your permissions\nallow them.\nFirst, separate admission from Pod scheduling\nKueue and the Kubernetes scheduler answer…",
@@ -313,15 +322,6 @@
         "image": null,
         "source": "Kubernetes Blog",
         "published": "2026-09-15T18:30:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "Kubernetes Changed Block Tracking API - Beta Differences",
-        "link": "https://kubernetes.io/blog/2026/09/14/csi-changed-block-tracking-beta/",
-        "summary": "Changed Block Tracking (CBT) support for CSI drivers\nshipped as Alpha in\nSeptember 2025. With the March 2026 v1.0.0 release of the\nexternal-snapshot-metadata\nproject, the feature moved to Beta.\nIf you aren't yet familiar with changed block tracking for storage in\nKubernetes, the\nAlpha announcement covers\nthe motivation, the three primary components (the CSI SnapshotMetadata\ngRPC service, the SnapshotMetadataService CRD, and the\nexternal-snapshot-metadata sidecar), and a walkthrough of how to use the\nAPI. CBT currently applies to block volumes; file-volume and network\nfile-share changed-list tracking is not covered by this feature. This post\nfocuses on what is different in Beta.\nWhat's new in Beta\nThe main change in that release was the promotion of the\nSnapshotMetadataService CRD from v1alpha1 to v1beta1. The CRD used to\nadvertise a driver's metadata service now serves\ncbt.storage.k8s.io/v1beta1. The schema itself is unchanged, but this\nrelease removed v1alpha1 (rather than serving it alongside the new version).\nIf you are upgrading from Alpha, you need to:\nRe-apply the CRD definition shipped with v1.0.0.\nUpdate SnapshotMetadataService manifests to use\napiVersion: cbt.storage.k8s.io/v1beta1.\nUpdate any client or controller code that talks to the CRD.\nThis is a one-time change. There is no automatic conversion between the two\nversions.\nCompatibility\n\nMinimum Kubernetes version: 1.33\nCSI spec: 1.10 or newer\nContainer image:…",
-        "image": null,
-        "source": "Kubernetes Blog",
-        "published": "2026-09-14T18:30:00.000Z",
         "isNew": false
       }
     ],
@@ -481,7 +481,7 @@
         "image": null,
         "source": "The Go Blog",
         "published": "2026-10-26T00:00:00.000Z",
-        "isNew": true
+        "isNew": false
       },
       {
         "title": "Help set Go's priorities for next year",
