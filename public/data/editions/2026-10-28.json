@@ -1,6 +1,6 @@
 {
   "date": "2026-10-28",
-  "generatedAt": "2026-10-28T17:11:10.172Z",
+  "generatedAt": "2026-10-28T21:38:59.388Z",
   "totalArticles": 72,
   "ticker": [
     {
@@ -9,7 +9,7 @@
     },
     {
       "label": "Terraform",
-      "version": "v1.17.0"
+      "version": "v1.17.1"
     },
     {
       "label": "Python",
@@ -105,6 +105,15 @@
     ],
     "azure": [
       {
+        "title": "Introducing the Microsoft Copilot harness in Foundry Agent Service",
+        "link": "https://devblogs.microsoft.com/foundry/microsoft-copilot-harness-in-foundry/",
+        "summary": "Today, we’re introducing the Microsoft Copilot harness in Foundry Agent Service in public preview.\nThe post Introducing the Microsoft Copilot harness in Foundry Agent Service appeared first on Microsoft Azure Blog.",
+        "image": null,
+        "source": "Microsoft Azure Blog",
+        "published": "2026-10-28T17:40:56.000Z",
+        "isNew": false
+      },
+      {
         "title": "Scale reservoir uncertainty analysis with agile reservoir modeling",
         "link": "https://azure.microsoft.com/en-us/blog/scale-reservoir-uncertainty-analysis-with-agile-reservoir-modeling/",
         "summary": "As subsurface data grows in scale and complexity, teams need a faster, more connected way to transform uncertainty into actionable decisions.\nThe post Scale reservoir uncertainty analysis with agile reservoir modeling appeared first on Microsoft Azure Blog.",
@@ -163,15 +172,6 @@
         "link": "https://azure.microsoft.com/en-us/blog/advancing-hardware-security-with-open-source-integrated-hsm-technology/",
         "summary": "Explore how Microsoft is advancing hardware security through open-source Integrated HSM technology, collaboration, and cryptographic key protection.\nThe post Advancing hardware security with open-source Integrated HSM technology appeared first on Microsoft Azure Blog.",
         "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/10/image-2-1.webp",
-        "source": "Microsoft Azure Blog",
-        "published": "2026-10-13T16:15:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "Infrastructure for the frontier era: Scaling intelligence through open industry collaboration",
-        "link": "https://azure.microsoft.com/en-us/blog/infrastructure-for-the-frontier-era-scaling-intelligence-through-open-industry-collaboration/",
-        "summary": "AI is reaching such a pivotal moment, and the focus is shifting from building larger frontier models to intelligence that delivers practical impact.\nThe post Infrastructure for the frontier era: Scaling intelligence through open industry collaboration appeared first on Microsoft Azure Blog.",
-        "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/10/Phoenix-Data-Center-Shoot-2026_Stills-2-1-scaled.webp",
         "source": "Microsoft Azure Blog",
         "published": "2026-10-13T16:15:00.000Z",
         "isNew": false
@@ -327,6 +327,15 @@
     ],
     "terraform": [
       {
+        "title": "v1.17.1",
+        "link": "https://github.com/hashicorp/terraform/releases/tag/v1.17.1",
+        "summary": "1.17.1 (October 28, 2026)\nBUG FIXES:\nfmt: The original content of a file is now preserved if Terraform experiences an error writing to the original file. (#39303)\nAlways evaluate module policies during destroy plan (#39455)\nstacks: report every policy result for a replaced resource instead of only one of them (#39453)",
+        "image": "https://avatars.githubusercontent.com/u/82989873?s=60&v=4",
+        "source": "Release notes from terraform",
+        "published": "2026-10-28T18:02:22.000Z",
+        "isNew": false
+      },
+      {
         "title": "v1.17.0",
         "link": "https://github.com/hashicorp/terraform/releases/tag/v1.17.0",
         "summary": "1.17.0 (October 21, 2026)\nNEW FEATURES:\nTerraform now supports variables and locals in provider requirements (#39153)\nA new -minimal-refresh planning option has been added, which will only refresh resources that have proposed changes. (#35290)\npolicy: Terraform Policy is now generally available. The -policies flag for plan, apply, and query no longer requires an experimental build or the -allow-experimental-features flag. Query policies evaluate resources discovered by list blocks and report human-readable or JSON results. See https://developer.hashicorp.com/terraform/policy for more information. (#38970)\nENHANCEMENTS:\ncommand/init: Enrich log messages with provider versions (#38918)\ntest: Add mock_provider support for ephemeral resources (#38928)\ncommand/login: display warning after successful login if user is subject to an organization's TTL policy\nBUG FIXES:\nfuncs: pow and log no longer panic when result is not a number (#38912)\nephemeral: Terraform will now use and display diagnostics raised when renewing an ephemeral resource. This may cause warnings to appear that previously were lost. We expect that any error diagnostics that were previously lost would have caused confusing downstream errors, so we do not anticipate this change to be breaking. (#38989)\ntest: Deterministic dependency ordering in cleanup graph (#38247)\nquery: report Unknown and N/A results for policy evaluations of discovered resources (#39058)\nquery: terraform query -policies now rejects a path that is…",
@@ -387,15 +396,6 @@
         "image": "https://avatars.githubusercontent.com/u/82989873?s=60&v=4",
         "source": "Release notes from terraform",
         "published": "2026-09-23T15:48:24.000Z",
-        "isNew": false
-      },
-      {
-        "title": "v1.16.4",
-        "link": "https://github.com/hashicorp/terraform/releases/tag/v1.16.4",
-        "summary": "1.16.4 (September 23, 2026)\nBUG FIXES:\nFixed an issue where Terraform fails when rendering policy evaluation outcomes for older versions of Terraform Enterprise (#39095)\nstacks: Fix invalid deferred error triggered by provider returning a deferral when a resource also has an unknown count/for_each. (#39237)",
-        "image": "https://avatars.githubusercontent.com/u/82989873?s=60&v=4",
-        "source": "Release notes from terraform",
-        "published": "2026-09-23T12:44:16.000Z",
         "isNew": false
       }
     ],
@@ -623,6 +623,24 @@
     ],
     "javascript": [
       {
+        "title": "Node.js 24.22.2 (LTS)",
+        "link": "https://nodejs.org/en/blog/release/v24.22.2",
+        "summary": "",
+        "image": null,
+        "source": "Node.js Blog",
+        "published": "2026-10-28T18:40:14.000Z",
+        "isNew": false
+      },
+      {
+        "title": "Node.js 26.13.0 (LTS)",
+        "link": "https://nodejs.org/en/blog/release/v26.13.0",
+        "summary": "",
+        "image": null,
+        "source": "Node.js Blog",
+        "published": "2026-10-28T16:58:40.000Z",
+        "isNew": false
+      },
+      {
         "title": "Wednesday, October 21, 2026 Security Releases",
         "link": "https://nodejs.org/en/blog/vulnerability/october-2026-security-releases",
         "summary": "",
@@ -674,24 +692,6 @@
         "image": null,
         "source": "Node.js Blog",
         "published": "2026-10-14T15:23:06.000Z",
-        "isNew": false
-      },
-      {
-        "title": "Node.js 26.11.1 (Current)",
-        "link": "https://nodejs.org/en/blog/release/v26.11.1",
-        "summary": "",
-        "image": null,
-        "source": "Node.js Blog",
-        "published": "2026-10-07T23:56:26.000Z",
-        "isNew": false
-      },
-      {
-        "title": "Node.js 26.11.0 (Current)",
-        "link": "https://nodejs.org/en/blog/release/v26.11.0",
-        "summary": "",
-        "image": null,
-        "source": "Node.js Blog",
-        "published": "2026-10-07T14:45:09.000Z",
         "isNew": false
       }
     ]
