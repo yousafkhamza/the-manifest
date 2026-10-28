@@ -1,6 +1,6 @@
 {
   "date": "2026-10-28",
-  "generatedAt": "2026-10-28T11:20:03.510Z",
+  "generatedAt": "2026-10-28T17:11:10.172Z",
   "totalArticles": 72,
   "ticker": [
     {
@@ -25,7 +25,7 @@
     },
     {
       "label": "Node.js",
-      "version": "v26.12.1"
+      "version": "v26.13.0"
     }
   ],
   "topics": {
@@ -179,6 +179,15 @@
     ],
     "gcp": [
       {
+        "title": "October 28, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#October_28_2026",
+        "summary": "AlloyDB for PostgreSQL\nAnnouncement\nThe following AlloyDB AI and vector search features and improvements are\ngenerally available\n(GA):\nThe alloydb_scann extension supports four-level tree (4LT) ScaNN vector\nindexes on PostgreSQL 17 and later, providing support for tables with up to\n10 billion vector rows. For more information, see\nFour-level ScaNN tree indexes.\n\n\n4LT ScaNN vector indexes support automatic index maintenance. For more\ninformation, see Create a ScaNN index\nand\nMaintain vector indexes automatically.\n\n\nYou can enable streaming functionality for ScaNN vector indexes by setting\nthe scann.satisfy_limit parameter to relaxed_order. When enabled, the\nvector scan continues searching through additional leaf partitions until it\nfinds enough results to satisfy the LIMIT clause of your query, improving\nrecall on filtered searches. Additionally, you can enable this feature for\nparallel process scans by setting the scann.enable_parallel_satisfy_limit\ndatabase flag to on. For more information, see\nScaNN index reference\nand\nBest practices for tuning ScaNN indexes.\n\n\nVector assist simplifies the deployment and management of your AlloyDB\nvector workloads by helping you set up production-ready vector search\ncapabilities, including embedding generation, query optimization, and index\ncreation for vector types such as Hierarchical Navigable Small World (HNSW).\nFor more information, see\nVector assist overview.\n\n\nFor AlloyDB for PostgreSQL instances running PostgreSQL 17 and later, the…",
+        "image": null,
+        "source": "Google Cloud Platform (GCP) - Release notes",
+        "published": "2026-10-28T07:00:00.000Z",
+        "isNew": false
+      },
+      {
         "title": "October 27, 2026",
         "link": "https://docs.cloud.google.com/release-notes#October_27_2026",
         "summary": "AlloyDB for PostgreSQL\nAnnouncement\nThe following AlloyDB AI functions and improvements are available in\nPreview:\nThe ai.extract function lets you extract structured data from\nunstructured text directly within your database queries without needing\nexternal extraction pipelines. For more information, see\nExtract structured data.\n\n\nThe ai.classify function lets you categorize unstructured text into\npredefined labels directly within your database queries. For more\ninformation, see Classify text.\n\n\nParameter names and signatures for AI query engine functions\n(ai.analyze_sentiment, ai.summarize, and ai.agg_summarize) are\nupdated. For more information, see\nModel endpoint reference.\nThe prompt and prompts parameters are renamed to input and\ninputs in scalar and batch functions respectively.\n\n\nAn optional additional_instructions parameter is added to\nai.summarize and ai.agg_summarize to provide custom instructions to\nguide summary formatting, length, and tone.\n\n\nIn cursor-based versions of ai.analyze_sentiment and ai.summarize,\nthe prompt parameter is removed.\n\n\nai.agg_summarize supports multiple positional signatures, including\npassing optional additional instructions and specifying model IDs.\n\n\nApigee X\nFeature\nThe Apigee API Health & Availability dashboard is now generally available in Cloud Monitoring to help you monitor the health, performance, and availability of your Apigee API proxies in real time:\nGolden signal scorecards: track aggregate Traffic (requests per\nsecond),…",
@@ -239,15 +248,6 @@
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-10-21T07:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "October 20, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#October_20_2026",
-        "summary": "Agent Platform Workbench\nChange\nM154 Release\nChange\nInstalled latest packages from upstream dependencies.\nFixed\nFixed dataset and table search in the BigQuery panel, which sometimes failed to return results. Root cause is due to Datacatalog API being sunsetted in favor of Dataplex API.\nApigee X\nAnnouncement\nOn October 20th, 2026, we began maintenance updates of Apigee instances configured for maintenance windows.\nIf you set a preferred window for maintenance for your instance, and your instance version is\nbelow 1-18-0-apigee-6, your instance will be updated to 1-18-0-apigee-6 within the\nnext seven to 21 days. A notification containing the expected date of upgrade will be sent within the next two business days.\nNote: Instances that meet either of the following two criteria will not be updated:\n\nYour instance has a DNS misconfiguration, as described in Known Issue 445936920.\nYour instance uses an Apigee Java Library that has been removed, as described in Apigee release notes dated October 16, 2025.\n\nFor more information on participating in scheduled maintenance windows, see Maintenance overview and Manage Apigee instance maintenance windows.\nCloud Workstations\nFeature\nCloud Workstations supports automatic failover for\nboost configurations\nin Preview. When you\nenable automatic failover, Cloud Workstations automatically provisions a\nworkstation VM using the boost configuration if Compute Engine lacks capacity\nfor the default machine type during startup.\nGemini Enterprise\nFeature…",
-        "image": null,
-        "source": "Google Cloud Platform (GCP) - Release notes",
-        "published": "2026-10-20T07:00:00.000Z",
         "isNew": false
       }
     ],
