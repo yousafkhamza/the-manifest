@@ -1,11 +1,11 @@
 {
-  "date": "2026-10-27",
-  "generatedAt": "2026-10-27T21:18:33.776Z",
+  "date": "2026-10-28",
+  "generatedAt": "2026-10-28T11:20:03.510Z",
   "totalArticles": 72,
   "ticker": [
     {
       "label": "Kubernetes",
-      "version": "v1.37.1"
+      "version": "v1.37.2"
     },
     {
       "label": "Terraform",
@@ -181,7 +181,7 @@
       {
         "title": "October 27, 2026",
         "link": "https://docs.cloud.google.com/release-notes#October_27_2026",
-        "summary": "AlloyDB for PostgreSQL\nAnnouncement\nThe following AlloyDB AI functions and improvements are available in\nPreview:\nThe ai.extract function lets you extract structured data from\nunstructured text directly within your database queries without needing\nexternal extraction pipelines. For more information, see\nExtract structured data.\n\n\nThe ai.classify function lets you categorize unstructured text into\npredefined labels directly within your database queries. For more\ninformation, see Classify text.\n\n\nParameter names and signatures for AI query engine functions\n(ai.analyze_sentiment, ai.summarize, and ai.agg_summarize) are\nupdated. For more information, see\nModel endpoint reference.\nThe prompt and prompts parameters are renamed to input and\ninputs in scalar and batch functions respectively.\n\n\nAn optional additional_instructions parameter is added to\nai.summarize and ai.agg_summarize to provide custom instructions to\nguide summary formatting, length, and tone.\n\n\nIn cursor-based versions of ai.analyze_sentiment and ai.summarize,\nthe prompt parameter is removed.\n\n\nai.agg_summarize supports multiple positional signatures, including\npassing optional additional instructions and specifying model IDs.\n\n\nBigQuery\nFeature\nThe Data Engineering Agent now integrates with Google\nDrive,\nletting you provide Google Sheets files, CSV, or JSONL files as input for\nyour data engineering pipelines.\nThis feature is generally available (GA).\nCloud DNS\nAnnouncement\nStarting January 5, 2027, CNAME chasing…",
+        "summary": "AlloyDB for PostgreSQL\nAnnouncement\nThe following AlloyDB AI functions and improvements are available in\nPreview:\nThe ai.extract function lets you extract structured data from\nunstructured text directly within your database queries without needing\nexternal extraction pipelines. For more information, see\nExtract structured data.\n\n\nThe ai.classify function lets you categorize unstructured text into\npredefined labels directly within your database queries. For more\ninformation, see Classify text.\n\n\nParameter names and signatures for AI query engine functions\n(ai.analyze_sentiment, ai.summarize, and ai.agg_summarize) are\nupdated. For more information, see\nModel endpoint reference.\nThe prompt and prompts parameters are renamed to input and\ninputs in scalar and batch functions respectively.\n\n\nAn optional additional_instructions parameter is added to\nai.summarize and ai.agg_summarize to provide custom instructions to\nguide summary formatting, length, and tone.\n\n\nIn cursor-based versions of ai.analyze_sentiment and ai.summarize,\nthe prompt parameter is removed.\n\n\nai.agg_summarize supports multiple positional signatures, including\npassing optional additional instructions and specifying model IDs.\n\n\nApigee X\nFeature\nThe Apigee API Health & Availability dashboard is now generally available in Cloud Monitoring to help you monitor the health, performance, and availability of your Apigee API proxies in real time:\nGolden signal scorecards: track aggregate Traffic (requests per\nsecond),…",
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-10-27T07:00:00.000Z",
