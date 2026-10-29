@@ -1,6 +1,6 @@
 {
   "date": "2026-10-29",
-  "generatedAt": "2026-10-29T11:30:56.735Z",
+  "generatedAt": "2026-10-29T17:26:48.027Z",
   "totalArticles": 72,
   "ticker": [
     {
@@ -174,10 +174,19 @@
         "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/10/Phoenix-Data-Center-Shoot-2026_Stills-2-1-scaled.webp",
         "source": "Microsoft Azure Blog",
         "published": "2026-10-13T16:15:00.000Z",
-        "isNew": true
+        "isNew": false
       }
     ],
     "gcp": [
+      {
+        "title": "October 29, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#October_29_2026",
+        "summary": "Anti Money Laundering AI\nAnnouncement\nNew minor engine version released for the retail line of business within the v004.011 version line (aml-retail.default.v004.011.202610-000). This version extends support for the major engine version and includes no significant changes compared to the previous minor version.\nDataflow\nFeature\nDataflow has added the following features to tune horizontal\nautoscaling for Streaming Engine jobs:\nLatency tiers: You can configure the backlog threshold by choosing a latency\ntier (low_latency, medium_latency, or high_latency), allowing you to\nconfigure the autoscaler's sensitivity to backlog duration and balance latency\nrequirements with resource costs. For more information, see\nSet the latency tier.\nAutoscaling schedules: You can configure recurring autoscaling schedules\nto automatically apply parameter overrides—such as minimum and maximum\nworkers, worker utilization hints, or latency tiers—during specific time\nwindows. For more information, see\nSchedule autoscaling changes.\nYou can configure these features when you create a job or update them while the\njob is running.\nModel Armor\nFeature\nModel Armor is available in Brazil (southamerica-east1). This region\nprovides data residency compliance for at-rest, in-use, and in-transit data with\nlimited feature support.\nThe southamerica-east1 region supports the following filters:\nPrompt injection and jailbreak detection\nResponsible AI\nSensitive Data Protection\nFor more information, see Locations,\nData…",
+        "image": null,
+        "source": "Google Cloud Platform (GCP) - Release notes",
+        "published": "2026-10-29T07:00:00.000Z",
+        "isNew": false
+      },
       {
         "title": "October 28, 2026",
         "link": "https://docs.cloud.google.com/release-notes#October_28_2026",
@@ -240,18 +249,18 @@
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-10-22T07:00:00.000Z",
         "isNew": false
-      },
-      {
-        "title": "October 21, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#October_21_2026",
-        "summary": "Apigee X\nAnnouncement\nApigee Emulator\nApigee Emulator v2.0.2\nOn October 21, 2026, we released Apigee Emulator version 2.0.2.\nThis release upgrades the Apigee Emulator runtime to Java 21 (Eclipse Temurin\nJRE 21) to align local proxy development and policy execution with the\nproduction Apigee runtime, while keeping the embedded Apache Cassandra\ndatastore pinned to Java 8. It also addresses 46 security vulnerabilities across\nNetty, Jackson, Apache Log4j, BouncyCastle, Apache CXF, Eclipse Jetty, and the\nembedded Cassandra Go standard library health-check binary.\nThe emulator image is available at\nArtifact Registry.\nTo upgrade, update the emulator version in your Cloud Code for VS Code settings\nto 2.0.2. See\nManage the Apigee Emulator\nfor details.\nFeature\nApigee Emulator\nChanged in this release\nUpgraded the Apigee Emulator runtime JVM to Eclipse Temurin JRE 21\n(21.0.12.1.0+1-0, from JRE 11 11.0.31+11), adding JVM 21 compatibility\nflags (-Djava.security.manager=allow and --add-opens module flags) for\nJavaCallout, JavaScript (Rhino), and Python (Jython) policies while keeping\nthe embedded Apache Cassandra 4.0.19 datastore pinned to Eclipse Temurin\nJRE 8.\nUpgraded Netty to 4.1.137.Final (from 4.1.135.Final) and updated\nnetty-tcnative-boringssl-static and netty-tcnative-classes to\n2.0.81.Final (from 2.0.77.Final).\nUpgraded Jackson (jackson-core, jackson-databind, and\njackson-dataformat-yaml) to 2.21.7 (from 2.18.6 and 2.19.2) and\njackson-annotations to 2.21.\nUpgraded shaded Apache…",
-        "image": null,
-        "source": "Google Cloud Platform (GCP) - Release notes",
-        "published": "2026-10-21T07:00:00.000Z",
-        "isNew": false
       }
     ],
     "kubernetes": [
+      {
+        "title": "From Working Group to SIG Architecture: spotlight on AI Conformance",
+        "link": "https://kubernetes.io/blog/2026/10/29/sig-arch-ai-conformance-2026/",
+        "summary": "In this SIG Architecture spotlight we talked with Janet Kuo (Google)\nand Yuan Tang (Red Hat) about the journey of AI Conformance in\nKubernetes, from the initial Working\nGroup to the\nintegration SIG Architecture\nas a subproject.\nIntroductions\nFrederico Muñoz and Kirti Goyal (FK): Hi Janet, Yuan, and thank you for the opportunity to learn a\nbit more about AI Conformance. Can you tell us a bit about yourselves and how you got involved in\nKubernetes?\nJanet Kuo: I'm a Senior Staff Software Engineer at Google and have been a Kubernetes maintainer\nsince 2015, joining the community just as we were racing toward the 1.0 launch. I started my journey\nwriting the core workload controllers that standardized how applications are orchestrated on\nKubernetes. Today, I lead SIG Apps as a Co-chair & TL, and also lead the\nAI Conformance program.\nMy current focus is to ensure Kubernetes remains the best platform for the next generation of\nworkloads, such as AI.\nYuan Tang: I’m a Senior Principal Software Engineer at Red Hat, where I lead the development of\nour AI platform and drive our upstream open source strategy. I became involved in Kubernetes early\non by fostering collaborations between the Kubernetes community and projects I was leading,\nincluding Kubeflow, Argo, and KServe. I later helped found and lead WG Serving and the AI Conformance program, advancing\ninnovation and strengthening community collaboration around running AI workloads on Kubernetes.\nProgram, Working Group, Subproject: the…",
+        "image": "https://kubernetes.io/blog/2026/10/29/sig-arch-ai-conformance-2026/ai_conf_kubecon.jpg",
+        "source": "Kubernetes Blog",
+        "published": "2026-10-29T05:00:00.000Z",
+        "isNew": false
+      },
       {
         "title": "Announcing the Workload Conformance Working Group",
         "link": "https://kubernetes.io/blog/2026/10/27/announcing-workload-conformance-wg/",
@@ -313,15 +322,6 @@
         "image": null,
         "source": "Kubernetes Blog",
         "published": "2026-09-16T18:30:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "Kubernetes v1.37: Pod-Level Resource Managers graduated to Beta",
-        "link": "https://kubernetes.io/blog/2026/09/15/kubernetes-v1-37-pod-level-resource-managers-beta/",
-        "summary": "With the release of Kubernetes v1.37, the Pod-Level Resource Managers\nfeature has graduated to Beta status (disabled by default)!\nFirst introduced as an Alpha feature in\nKubernetes v1.36,\nthis enhancement builds on\nPod-Level Resources by\nequipping Kubelet's Topology Manager, CPU Manager, and Memory Manager to use\nPod-level resource declarations (.spec.resources) directly when making\nhardware placement decisions.\nBringing pod-level resources to node managers\nBefore this feature, obtaining exclusive NUMA-aligned CPU cores or memory for\nlatency-critical applications forced cluster operators into an all-or-nothing\nchoice: assign integer resource requests to every container in the Pod, or\nforfeit exclusive NUMA alignment entirely. For modern workloads running\nlightweight sidecars (such as logging agents or telemetry exporters), allocating\ndedicated physical cores to auxiliary containers was wasteful.\nPod-Level Resource Managers solves this challenge by enabling hybrid allocation\nmodels. The Kubelet can reserve exclusive NUMA-aligned resources for primary\napplication containers while placing non-Guaranteed sidecars into a pod-isolated\nshared pool. This ensures primary workloads get unthrottled, NUMA-local\nperformance while sidecars benefit from running in a pod-isolated shared pool,\nenjoying local NUMA alignment and protection from external node interference\nwithout consuming dedicated physical cores.\nWhat's new in Beta\nGraduating to Beta brings key operational and API…",
-        "image": null,
-        "source": "Kubernetes Blog",
-        "published": "2026-09-15T18:30:00.000Z",
         "isNew": false
       }
     ],
@@ -401,6 +401,15 @@
     ],
     "python": [
       {
+        "title": "Announcing PSF Community Service Award Recipients!",
+        "link": "https://pyfound.blogspot.com/2026/10/announcing-psf-community-service-award.html",
+        "summary": "The PSF Community Service Awards (CSAs) are a formal way for the PSF Board of Directors to offer recognition of work which, in its opinion, significantly improves the Foundation's fulfillment of its mission to build a vibrant, welcoming, global Python community. These awards shine a light on the incredible people who are the heart and soul of our community– those whose dedication, creativity, and generosity help the PSF fulfill its mission. The PSF CSAs celebrate individuals who have been truly invaluable, inspiring others through their example, and demonstrates that service to the Python community leads to recognition and reward. If you know of someone in the Python community deserving of a PSF CSA award, please submit them to the PSF Board via psf@python.org at any time. You can read more about PSF CSA’s on our website. \nThe PSF Board is excited to announce 5 new CSAs, awarded to Abhijeet Mote, Elena Williams, Hugo van Kemenade, Kevin Horn, Sarah Abderemane, for their contributions to the Python community. Read more about their work and impact below. \n\nAbhijeet Mote\nAbhijeet Mote has spent more than a decade teaching Python and expanding access to technical education across Asia, Europe, and North America. In 2019, he founded the Python Penang Meetup, which he led until 2022 and which grew into one of Malaysia's most active developer communities, giving students, engineers, and enthusiasts a place to learn and share knowledge. In India, he has trained university faculty,…",
+        "image": null,
+        "source": "Python Software Foundation News",
+        "published": "2026-10-29T13:46:04.899Z",
+        "isNew": false
+      },
+      {
         "title": "Python 3.15.2, 3.14.10, 3.13.18, 3.12.16 and 3.11.18 are out",
         "link": "https://blog.python.org/2026/10/python-3152-31410-31318-31216-31118/",
         "summary": "Five expedited security releases to distrust the compromised eMudhra intermediate CA keys.",
@@ -461,15 +470,6 @@
         "image": null,
         "source": "Python Insider",
         "published": "2026-10-09T00:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "Python 3.15.0 candidate 3 is here!",
-        "link": "https://blog.python.org/2026/10/python-3150-rc3/",
-        "summary": "Following tradition, a surprise rc3!",
-        "image": null,
-        "source": "Python Insider",
-        "published": "2026-10-02T00:00:00.000Z",
         "isNew": false
       }
     ],
