@@ -1,6 +1,6 @@
 {
-  "date": "2026-10-28",
-  "generatedAt": "2026-10-28T21:38:59.388Z",
+  "date": "2026-10-29",
+  "generatedAt": "2026-10-29T11:30:56.735Z",
   "totalArticles": 72,
   "ticker": [
     {
@@ -105,15 +105,6 @@
     ],
     "azure": [
       {
-        "title": "Introducing the Microsoft Copilot harness in Foundry Agent Service",
-        "link": "https://devblogs.microsoft.com/foundry/microsoft-copilot-harness-in-foundry/",
-        "summary": "Today, we’re introducing the Microsoft Copilot harness in Foundry Agent Service in public preview.\nThe post Introducing the Microsoft Copilot harness in Foundry Agent Service appeared first on Microsoft Azure Blog.",
-        "image": null,
-        "source": "Microsoft Azure Blog",
-        "published": "2026-10-28T17:40:56.000Z",
-        "isNew": false
-      },
-      {
         "title": "Scale reservoir uncertainty analysis with agile reservoir modeling",
         "link": "https://azure.microsoft.com/en-us/blog/scale-reservoir-uncertainty-analysis-with-agile-reservoir-modeling/",
         "summary": "As subsurface data grows in scale and complexity, teams need a faster, more connected way to transform uncertainty into actionable decisions.\nThe post Scale reservoir uncertainty analysis with agile reservoir modeling appeared first on Microsoft Azure Blog.",
@@ -175,6 +166,15 @@
         "source": "Microsoft Azure Blog",
         "published": "2026-10-13T16:15:00.000Z",
         "isNew": false
+      },
+      {
+        "title": "Infrastructure for the frontier era: Scaling intelligence through open industry collaboration",
+        "link": "https://azure.microsoft.com/en-us/blog/infrastructure-for-the-frontier-era-scaling-intelligence-through-open-industry-collaboration/",
+        "summary": "AI is reaching such a pivotal moment, and the focus is shifting from building larger frontier models to intelligence that delivers practical impact.\nThe post Infrastructure for the frontier era: Scaling intelligence through open industry collaboration appeared first on Microsoft Azure Blog.",
+        "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/10/Phoenix-Data-Center-Shoot-2026_Stills-2-1-scaled.webp",
+        "source": "Microsoft Azure Blog",
+        "published": "2026-10-13T16:15:00.000Z",
+        "isNew": true
       }
     ],
     "gcp": [
