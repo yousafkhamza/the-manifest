@@ -1,6 +1,6 @@
 {
   "date": "2026-10-30",
-  "generatedAt": "2026-10-30T11:24:03.005Z",
+  "generatedAt": "2026-10-30T17:01:41.812Z",
   "totalArticles": 72,
   "ticker": [
     {
@@ -105,13 +105,22 @@
     ],
     "azure": [
       {
+        "title": "Azure Cloud HSM Hardware Audit Logging: Verifiable audit trails for security and compliance",
+        "link": "https://azure.microsoft.com/en-us/blog/azure-cloud-hsm-hardware-audit-logging-verifiable-audit-trails-for-security-and-compliance/",
+        "summary": "Security, compliance, and operations teams can use this hardware-originated evidence for monitoring, compliance reporting, and forensic investigations.\nThe post Azure Cloud HSM Hardware Audit Logging: Verifiable audit trails for security and compliance appeared first on Microsoft Azure Blog.",
+        "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/06/CLO23_WorkAnywhere_025.jpg",
+        "source": "Microsoft Azure Blog",
+        "published": "2026-10-29T16:00:00.000Z",
+        "isNew": false
+      },
+      {
         "title": "Introducing the Microsoft Copilot harness in Foundry Agent Service",
         "link": "https://devblogs.microsoft.com/foundry/microsoft-copilot-harness-in-foundry/",
         "summary": "Today, we’re introducing the Microsoft Copilot harness in Foundry Agent Service in public preview.\nThe post Introducing the Microsoft Copilot harness in Foundry Agent Service appeared first on Microsoft Azure Blog.",
         "image": null,
         "source": "Microsoft Azure Blog",
         "published": "2026-10-28T17:40:56.000Z",
-        "isNew": true
+        "isNew": false
       },
       {
         "title": "Scale reservoir uncertainty analysis with agile reservoir modeling",
@@ -166,22 +175,22 @@
         "source": "Microsoft Azure Blog",
         "published": "2026-10-14T19:00:00.000Z",
         "isNew": false
-      },
-      {
-        "title": "Advancing hardware security with open-source Integrated HSM technology",
-        "link": "https://azure.microsoft.com/en-us/blog/advancing-hardware-security-with-open-source-integrated-hsm-technology/",
-        "summary": "Explore how Microsoft is advancing hardware security through open-source Integrated HSM technology, collaboration, and cryptographic key protection.\nThe post Advancing hardware security with open-source Integrated HSM technology appeared first on Microsoft Azure Blog.",
-        "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/10/image-2-1.webp",
-        "source": "Microsoft Azure Blog",
-        "published": "2026-10-13T16:15:00.000Z",
-        "isNew": false
       }
     ],
     "gcp": [
       {
+        "title": "October 30, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#October_30_2026",
+        "summary": "Backup and DR\nFeature\nYou can now edit existing backup plans for Cloud SQL instances to update\nsettings such as backup rules and maximum custom on-demand retention periods.\nTo learn more, see\nBack up Cloud SQL instances to a backup vault.\nBigtable\nFeature\nYou can use Knowledge Catalog to discover authorized views, logical views, and\ncontinuous materialized views. This integration lets you search for these\ngranular data assets alongside your Bigtable instances and tables. This\nfeature is\ngenerally available (GA).\nFor more information, see\nManage data assets using Knowledge Catalog.\nDatastream\nFeature\nDatastream integration with Knowledge Catalog is now\ngenerally available\n(GA). For more\ninformation, see\nthe documentation.\nSAP on Google Cloud\nAnnouncement\nGoogle SecOps for SAP is generally available (GA)\nGoogle SecOps for SAP is generally available (GA). This solution\nhelps you protect your enterprise SAP applications by integrating\nbusiness-critical telemetry into Google SecOps to provide\nunified visibility, threat detection, and security response capabilities.\nThis release includes:\nLog ingestion from SAP RISE and self-managed SAP environments that run on\nGoogle Cloud, on-premises, or other clouds.\nSAP-specific YARA-L threat detection rules available in the Google SecOps\nDetection Rules GitHub repository.\nAutomated threat response and containment capabilities by using the SAP RFC\nGateway and SOAR playbooks\n(Preview).\nFor more information, see\nSecure SAP applications with…",
+        "image": null,
+        "source": "Google Cloud Platform (GCP) - Release notes",
+        "published": "2026-10-30T07:00:00.000Z",
+        "isNew": false
+      },
+      {
         "title": "October 29, 2026",
         "link": "https://docs.cloud.google.com/release-notes#October_29_2026",
-        "summary": "AlloyDB for PostgreSQL\nFeature\nAlloyDB AI adds pre-registered support for the following Gemini models in version\n1.6.5 and later of the google_ml_integration extension:\ngemini-3.1-flash-lite\ngemini-3.5-flash\ngemini-3.5-flash-lite\ngemini-3.6-flash\ngemini-3.7-flash\ngemini-3.8-flash\ngemini-4-argon\nVersion 1.6.5 of the google_ml_integration extension sets gemini-3.5-flash-lite as the default Gemini model and removes the gemini-2.0-flash, gemini-2.0-flash-lite, gemini-2.5-flash, gemini-2.5-flash-lite, and gemini-2.5-pro models from the list of pre-registered models.\nAdditionally, AlloyDB AI adds pre-registered support for the semantic-ranker-512 reranking model.\nFor more information, see\nPre-registered Agent Platform models.\nAnti Money Laundering AI\nAnnouncement\nNew minor engine version released for the retail line of business within the v004.011 version line (aml-retail.default.v004.011.202610-000). This version extends support for the major engine version and includes no significant changes compared to the previous minor version.\nDataflow\nFeature\nDataflow has added the following features to tune horizontal\nautoscaling for Streaming Engine jobs:\nLatency tiers: You can configure the backlog threshold by choosing a latency\ntier (low_latency, medium_latency, or high_latency), allowing you to\nconfigure the autoscaler's sensitivity to backlog duration and balance latency\nrequirements with resource costs. For more information, see\nSet the latency tier.\nAutoscaling schedules: You can…",
+        "summary": "AlloyDB for PostgreSQL\nFeature\nAlloyDB AI adds pre-registered support for the following Gemini models in version\n1.6.5 and later of the google_ml_integration extension:\ngemini-3.1-flash-lite\ngemini-3.5-flash\ngemini-3.5-flash-lite\ngemini-3.6-flash\ngemini-3.7-flash\ngemini-3.8-flash\ngemini-4-argon\nVersion 1.6.5 of the google_ml_integration extension sets gemini-3.5-flash-lite as the default Gemini model and removes the gemini-2.0-flash, gemini-2.0-flash-lite, gemini-2.5-flash, gemini-2.5-flash-lite, and gemini-2.5-pro models from the list of pre-registered models.\nAdditionally, AlloyDB AI adds pre-registered support for the semantic-ranker-512 reranking model.\nFor more information, see\nPre-registered Agent Platform models.\nAnti Money Laundering AI\nAnnouncement\nNew minor engine version released for the retail line of business within the v004.011 version line (aml-retail.default.v004.011.202610-000). This version extends support for the major engine version and includes no significant changes compared to the previous minor version.\nApigee hybrid\nAnnouncement\nv1.17.3\nOn October 29, 2026 we released an updated version of the Apigee hybrid software, v1.17.3.\nFor information on upgrading, see Upgrading Apigee hybrid to version v1.17.3.\nFor information on new installations, see The big picture.\nNote: Do not use Apigee hybrid v1.17.2 due to a potential regression in apigee-connect-agent (see known issue 578314600). Use v1.17.3 instead.Note: This is a patch release: The container images…",
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-10-29T07:00:00.000Z",
@@ -239,15 +248,6 @@
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-10-23T07:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "October 22, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#October_22_2026",
-        "summary": "Apigee X\nAnnouncement\nOn October 22, 2026, we released an updated version of Apigee (1-18-0-apigee-7).\nNote: Rollouts of this release began today and can take four or more business\ndays to complete across all Google Cloud zones. Your instances might not have\nthe features and fixes available until the rollout is complete.\nSecurity\nBug ID\nDescription\n\n\n\n\n573663408\nSecurity fix for Apigee. Upgraded the ingress gateway to patch security vulnerabilities.\n\n\nN/A\nSecurity fix for Apigee infrastructure.\n\n\n\nFixed\nBug ID\nDescription\n\n\n\n\n568535165\nSkip main_task_wait_time and nio_task_wait_time metrics for the first 12 Prometheus scrapes during Message Processor startup warmup.\n\n\n573602919\nFix generated OpenAPI specs' servers[] to carry the Apigee envgroup hostname instead of the backend target host.\n\n\n562964081\nThe sgpUserIntentMatchingMode verdict-log field is now always present, including on dry-run policy records, and shows the mode used for the evaluation, including when sgpUserIntentMatching isn't set (CONSTRAINTS_AND_INTENT, or INTENT_ONLY when no policies match the tool call).\n\n\n524115876\nFix an intermittent HTTP 400 error in the OASValidation policy's strict parameter validation that rejected valid requests.\n\n\n572025634\nResponses with a compressed text/event-stream body to a proxy with an EventFlow now skip EventFlow processing and pass through intact instead of returning a corrupted body.\n\n\n549078690\nIf no SGP policy is attributed for a denial, a customer sees the generic…",
-        "image": null,
-        "source": "Google Cloud Platform (GCP) - Release notes",
-        "published": "2026-10-22T07:00:00.000Z",
         "isNew": false
       }
     ],
@@ -629,7 +629,7 @@
         "image": null,
         "source": "Node.js Blog",
         "published": "2026-10-29T19:52:29.000Z",
-        "isNew": true
+        "isNew": false
       },
       {
         "title": "Node.js 24.22.2 (LTS)",
