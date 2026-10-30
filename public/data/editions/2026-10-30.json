@@ -1,19 +1,19 @@
 {
-  "date": "2026-10-23",
-  "generatedAt": "2026-10-23T20:26:38.511Z",
+  "date": "2026-10-30",
+  "generatedAt": "2026-10-30T11:24:03.005Z",
   "totalArticles": 72,
   "ticker": [
     {
       "label": "Kubernetes",
-      "version": "v1.37.1"
+      "version": "v1.37.2"
     },
     {
       "label": "Terraform",
-      "version": "v1.17.0"
+      "version": "v1.17.1"
     },
     {
       "label": "Python",
-      "version": "v3.15.1"
+      "version": "v3.15.2"
     },
     {
       "label": "Go",
@@ -25,11 +25,20 @@
     },
     {
       "label": "Node.js",
-      "version": "v26.12.1"
+      "version": "v26.13.0"
     }
   ],
   "topics": {
     "aws": [
+      {
+        "title": "AWS Weekly Roundup: Amazon Polly Generative engine, TorchNeuron for Trainium, and more (October 26, 2026)",
+        "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-amazon-polly-generative-engine-torchneuron-for-trainium-and-more-october-26-2026/",
+        "summary": "A few weeks ago I presented to a small group of commercial and technology leaders from Brazilian agribusiness at the AWS office in São Paulo. My talk ran through where generative AI fits across the different stages of an agribusiness operation, and the point I kept returning to is that the markets we call traditional […]",
+        "image": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2026/10/23/genai-agronegocio-speaker-crop-1280.jpg",
+        "source": "AWS News Blog",
+        "published": "2026-10-26T15:02:24.000Z",
+        "isNew": false
+      },
       {
         "title": "AWS Continuum for code vulnerabilities is now generally available",
         "link": "https://aws.amazon.com/blogs/aws/aws-continuum-for-code-vulnerabilities-is-now-generally-available/",
@@ -92,18 +101,27 @@
         "source": "AWS News Blog",
         "published": "2026-10-06T16:09:36.000Z",
         "isNew": false
-      },
-      {
-        "title": "AWS Weekly Roundup: Amazon Bedrock Managed Agents powered by OpenAI, Q3 service availability updates, Kiro workflows, and more (October 5, 2026)",
-        "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-amazon-bedrock-managed-agents-powered-by-openai-q3-service-availability-updates-kiro-workflows-and-more-october-5-2026/",
-        "summary": "Last week, we announced a public preview of Amazon Bedrock Managed Agents powered by OpenAI, built on a customized version of OpenAI’s Agents API engineered to be AWS-native and integrated with AWS resources. You can now build agents optimized for OpenAI models that run entirely inside AWS with the identities, permissions, and governance controls you […]",
-        "image": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2026/04/28/2026-bedrock-managed-agents-openai.png",
-        "source": "AWS News Blog",
-        "published": "2026-10-05T15:41:19.000Z",
-        "isNew": false
       }
     ],
     "azure": [
+      {
+        "title": "Introducing the Microsoft Copilot harness in Foundry Agent Service",
+        "link": "https://devblogs.microsoft.com/foundry/microsoft-copilot-harness-in-foundry/",
+        "summary": "Today, we’re introducing the Microsoft Copilot harness in Foundry Agent Service in public preview.\nThe post Introducing the Microsoft Copilot harness in Foundry Agent Service appeared first on Microsoft Azure Blog.",
+        "image": null,
+        "source": "Microsoft Azure Blog",
+        "published": "2026-10-28T17:40:56.000Z",
+        "isNew": true
+      },
+      {
+        "title": "Scale reservoir uncertainty analysis with agile reservoir modeling",
+        "link": "https://azure.microsoft.com/en-us/blog/scale-reservoir-uncertainty-analysis-with-agile-reservoir-modeling/",
+        "summary": "As subsurface data grows in scale and complexity, teams need a faster, more connected way to transform uncertainty into actionable decisions.\nThe post Scale reservoir uncertainty analysis with agile reservoir modeling appeared first on Microsoft Azure Blog.",
+        "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/10/Screenshot-2026-10-22-170942.webp",
+        "source": "Microsoft Azure Blog",
+        "published": "2026-10-26T16:00:00.000Z",
+        "isNew": false
+      },
       {
         "title": "Advancing digital sovereignty with greater control and choice",
         "link": "https://blogs.microsoft.com/blog/2026/10/20/advancing-digital-sovereignty-with-greater-control-and-choice/",
@@ -157,31 +175,67 @@
         "source": "Microsoft Azure Blog",
         "published": "2026-10-13T16:15:00.000Z",
         "isNew": false
-      },
-      {
-        "title": "Infrastructure for the frontier era: Scaling intelligence through open industry collaboration",
-        "link": "https://azure.microsoft.com/en-us/blog/infrastructure-for-the-frontier-era-scaling-intelligence-through-open-industry-collaboration/",
-        "summary": "AI is reaching such a pivotal moment, and the focus is shifting from building larger frontier models to intelligence that delivers practical impact.\nThe post Infrastructure for the frontier era: Scaling intelligence through open industry collaboration appeared first on Microsoft Azure Blog.",
-        "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/10/Phoenix-Data-Center-Shoot-2026_Stills-2-1-scaled.webp",
-        "source": "Microsoft Azure Blog",
-        "published": "2026-10-13T16:15:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "Deep dive into Azure Maia 300 architecture",
-        "link": "https://azure.microsoft.com/en-us/blog/deep-dive-into-azure-maia-300-architecture/",
-        "summary": "Maia 300 operates as a single platform to meet the demands of cloud-scale agentic inference.\nThe post Deep dive into Azure Maia 300 architecture appeared first on Microsoft Azure Blog.",
-        "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/10/Maia-300-SoC.webp",
-        "source": "Microsoft Azure Blog",
-        "published": "2026-10-12T13:00:00.000Z",
-        "isNew": false
       }
     ],
     "gcp": [
       {
+        "title": "October 29, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#October_29_2026",
+        "summary": "AlloyDB for PostgreSQL\nFeature\nAlloyDB AI adds pre-registered support for the following Gemini models in version\n1.6.5 and later of the google_ml_integration extension:\ngemini-3.1-flash-lite\ngemini-3.5-flash\ngemini-3.5-flash-lite\ngemini-3.6-flash\ngemini-3.7-flash\ngemini-3.8-flash\ngemini-4-argon\nVersion 1.6.5 of the google_ml_integration extension sets gemini-3.5-flash-lite as the default Gemini model and removes the gemini-2.0-flash, gemini-2.0-flash-lite, gemini-2.5-flash, gemini-2.5-flash-lite, and gemini-2.5-pro models from the list of pre-registered models.\nAdditionally, AlloyDB AI adds pre-registered support for the semantic-ranker-512 reranking model.\nFor more information, see\nPre-registered Agent Platform models.\nAnti Money Laundering AI\nAnnouncement\nNew minor engine version released for the retail line of business within the v004.011 version line (aml-retail.default.v004.011.202610-000). This version extends support for the major engine version and includes no significant changes compared to the previous minor version.\nDataflow\nFeature\nDataflow has added the following features to tune horizontal\nautoscaling for Streaming Engine jobs:\nLatency tiers: You can configure the backlog threshold by choosing a latency\ntier (low_latency, medium_latency, or high_latency), allowing you to\nconfigure the autoscaler's sensitivity to backlog duration and balance latency\nrequirements with resource costs. For more information, see\nSet the latency tier.\nAutoscaling schedules: You can…",
+        "image": null,
+        "source": "Google Cloud Platform (GCP) - Release notes",
+        "published": "2026-10-29T07:00:00.000Z",
+        "isNew": false
+      },
+      {
+        "title": "October 28, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#October_28_2026",
+        "summary": "AlloyDB for PostgreSQL\nAnnouncement\nThe following AlloyDB AI and vector search features and improvements are\ngenerally available\n(GA):\nThe alloydb_scann extension supports four-level tree (4LT) ScaNN vector\nindexes on PostgreSQL 17 and later, providing support for tables with up to\n10 billion vector rows. For more information, see\nFour-level ScaNN tree indexes.\n\n\n4LT ScaNN vector indexes support automatic index maintenance. For more\ninformation, see Create a ScaNN index\nand\nMaintain vector indexes automatically.\n\n\nYou can enable streaming functionality for ScaNN vector indexes by setting\nthe scann.satisfy_limit parameter to relaxed_order. When enabled, the\nvector scan continues searching through additional leaf partitions until it\nfinds enough results to satisfy the LIMIT clause of your query, improving\nrecall on filtered searches. Additionally, you can enable this feature for\nparallel process scans by setting the scann.enable_parallel_satisfy_limit\ndatabase flag to on. For more information, see\nScaNN index reference\nand\nBest practices for tuning ScaNN indexes.\n\n\nVector assist simplifies the deployment and management of your AlloyDB\nvector workloads by helping you set up production-ready vector search\ncapabilities, including embedding generation, query optimization, and index\ncreation for vector types such as Hierarchical Navigable Small World (HNSW).\nFor more information, see\nVector assist overview.\n\n\nFor AlloyDB for PostgreSQL instances running PostgreSQL 17 and later, the…",
+        "image": null,
+        "source": "Google Cloud Platform (GCP) - Release notes",
+        "published": "2026-10-28T07:00:00.000Z",
+        "isNew": false
+      },
+      {
+        "title": "October 27, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#October_27_2026",
+        "summary": "AlloyDB for PostgreSQL\nAnnouncement\nThe following AlloyDB AI functions and improvements are available in\nPreview:\nThe ai.extract function lets you extract structured data from\nunstructured text directly within your database queries without needing\nexternal extraction pipelines. For more information, see\nExtract structured data.\n\n\nThe ai.classify function lets you categorize unstructured text into\npredefined labels directly within your database queries. For more\ninformation, see Classify text.\n\n\nParameter names and signatures for AI query engine functions\n(ai.analyze_sentiment, ai.summarize, and ai.agg_summarize) are\nupdated. For more information, see\nModel endpoint reference.\nThe prompt and prompts parameters are renamed to input and\ninputs in scalar and batch functions respectively.\n\n\nAn optional additional_instructions parameter is added to\nai.summarize and ai.agg_summarize to provide custom instructions to\nguide summary formatting, length, and tone.\n\n\nIn cursor-based versions of ai.analyze_sentiment and ai.summarize,\nthe prompt parameter is removed.\n\n\nai.agg_summarize supports multiple positional signatures, including\npassing optional additional instructions and specifying model IDs.\n\n\nApigee X\nFeature\nThe Apigee API Health & Availability dashboard is now generally available in Cloud Monitoring to help you monitor the health, performance, and availability of your Apigee API proxies in real time:\nGolden signal scorecards: track aggregate Traffic (requests per\nsecond),…",
+        "image": null,
+        "source": "Google Cloud Platform (GCP) - Release notes",
+        "published": "2026-10-27T07:00:00.000Z",
+        "isNew": false
+      },
+      {
+        "title": "October 26, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#October_26_2026",
+        "summary": "Agent Platform Workbench\nChange\n20261025.00_p0 Release\nChange\nInstalled latest packages from upstream dependencies.\nSecurity\nUpdated certifi, pip, and conda ca-certificates to the latest versions.\nChange\n20261025.00_p0 Release\nChange\nInstalled latest packages from upstream dependencies.\nSecurity\nAddressed multiple reported security vulnerabilities in bundled packages.\nSecurity\nUpdated certifi, pip, and conda ca-certificates to the latest versions.\nFeature\nCustom organization policies for Agent Platform Workbench instances\nYou can now use custom organization policies to allow or deny the creation and\nupdate of Agent Platform Workbench instances based on their configuration. Custom\nconstraints for the notebooks.googleapis.com/Instance resource are enforced\nwhen you create or update an instance, and support dry-run mode. This feature is\nnow generally available\n(GA). For more\ninformation, see Create custom organization policy\nconstraints.\nApigee X\nFeature\nModel Context Protocol (MCP) tool arguments are sent to the location their OpenAPI\nparameter declares\nThis change applies to Apigee X in all supported regions.\nAn MCP tool argument whose OpenAPI parameter declares in: header is now sent to\nyour backend as a request header, and one that declares in: cookie is sent in the\nCookie header. Previously both were appended to the query string.\nin: query and in: path parameters are unchanged, and every parameter\nstill appears in the tool's inputSchema, so MCP clients supply arguments…",
+        "image": null,
+        "source": "Google Cloud Platform (GCP) - Release notes",
+        "published": "2026-10-26T07:00:00.000Z",
+        "isNew": false
+      },
+      {
+        "title": "October 25, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#October_25_2026",
+        "summary": "Agent Platform Workbench\nChange\n20261025-2230-rc0 Release\nChange\n20261025-2230-rc0 Release\nChange\nInstalled latest packages from upstream dependencies.\nChange\nInstalled latest packages from upstream dependencies.\nSecurity\nUpdated certifi, pip, and conda ca-certificates to the latest versions.\nFixed\nFixed dataset and table search in the BigQuery panel, which sometimes failed to return results. Root cause is due to Datacatalog API being sunsetted in favor of Dataplex API.\nFixed\nFixed an issue where Jupyter Server terminal configuration could overwrite the Dataproc plugin server extension setting or fail to apply the terminal disable setting on container startup.\nSecurity\nAddressed multiple reported security vulnerabilities in bundled packages.\nSecurity\nUpdated certifi, pip, and conda ca-certificates to the latest versions.\nFixed\nFixed an issue where Jupyter Server terminal configuration could overwrite the Dataproc plugin server extension setting or fail to apply the terminal disable setting on container startup.\nSecurity\nAddressed multiple reported security vulnerabilities in bundled packages.\nChange\n20261025-2130-rc0 Release\nChange\nInstalled latest packages from upstream dependencies.\nGoogle SecOps\nFeature\nResize inline images in Case Wall comments\nYou can now resize inline images directly in rich-text comments on the Case Wall. To resize an image, switch the comment box to rich-text mode and insert an image either by using the toolbar's image menu or by pasting it into the…",
+        "image": null,
+        "source": "Google Cloud Platform (GCP) - Release notes",
+        "published": "2026-10-25T07:00:00.000Z",
+        "isNew": false
+      },
+      {
+        "title": "October 24, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#October_24_2026",
+        "summary": "App Engine flexible environment .NET\nSecurity\nThe following runtime language contains important security updates:\n.NET 6 and later: 6.0.428, 8.0.415, 10.0.100\nThe following stacks and their underlying operating system packages have also been updated:\ngoogle-22, google-22-full\ngoogle-24, google-24-full\nTake immediate protective action by rebuilding and redeploying your resources with updated dependencies.\nSee Security bulletins for Google Cloud for more information.\nApp Engine flexible environment Go\nSecurity\nThe following runtime language contains important security updates:\nGo 1.24 and later: 1.24.13, 1.25.14, 1.26.10, 1.27.3\nThe following stacks and their underlying operating system packages have also been updated:\ngoogle-22, google-22-full\ngoogle-24, google-24-full\nTake immediate protective action by rebuilding and redeploying your resources with updated dependencies.\nSee Security bulletins for Google Cloud for more information.\nApp Engine flexible environment Java\nSecurity\nThe following runtime language contains important security updates:\nJava 17 and later: 17.0.20_101, 21.0.12_101.0.LTS, 25.0.5_8.0.LTS\nThe following stacks and their underlying operating system packages have also been updated:\ngoogle-22, google-22-full\ngoogle-24, google-24-full\nTake immediate protective action by rebuilding and redeploying your resources with updated dependencies.\nSee Security bulletins for Google Cloud for more information.\nApp Engine flexible environment Node.js\nSecurity\nThe following…",
+        "image": null,
+        "source": "Google Cloud Platform (GCP) - Release notes",
+        "published": "2026-10-24T07:00:00.000Z",
+        "isNew": false
+      },
+      {
         "title": "October 23, 2026",
         "link": "https://docs.cloud.google.com/release-notes#October_23_2026",
-        "summary": "Cloud Monitoring\nFixed\nOps Agent version 2.73.0 includes patches for a Go vulnerability involving\nsystem root certificates,\nCVE-2026-111943. For more\ninformation, see Ops Agent 2.73.0 notes.",
+        "summary": "Cloud Database Migration Service\nSecurity\nOn Saturday, October 17, 2026, Google received a report from a security\nresearcher regarding the compromise of private keys associated with eight\neMudhra subordinate Certification Authority (CA) certificates, including those\ncross-signed by AAA Certificate Services. Consequently, these CA certificates\nare no longer trusted and are being revoked.\nTo continue connecting to a source database after its CA certificate is\nupdated, upload the new CA certificate to the Database Migration Service source connection\nprofile:\nUpdate the connection profile using\ngcloud database-migration connection-profiles update\nor the\nconnectionProfiles.patch\nAPI method.\nModify the connection profile in the Google Cloud console:\n\nMySQL connection profiles\nPostgreSQL to Cloud SQL connection profiles\nPostgreSQL to AlloyDB for PostgreSQL connection profiles\nOracle to Cloud SQL connection profiles\nOracle to AlloyDB for PostgreSQL connection profiles\nSQL Server to Cloud SQL connection profiles\nSQL Server to AlloyDB for PostgreSQL connection profiles\n\n\nFor more information, see security bulletin\nGCP-2026-071.\nCloud Monitoring\nFixed\nOps Agent version 2.73.0 includes patches for a Go vulnerability involving\nsystem root certificates,\nCVE-2026-111943. For more\ninformation, see Ops Agent 2.73.0 notes.\nCloud SQL for MySQL\nSecurity\nIn response to GCP-2026-071, Google is\nupdating Cloud SQL's managed components. No manual updates to the certificate\nstore are required for…",
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-10-23T07:00:00.000Z",
@@ -195,63 +249,27 @@
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-10-22T07:00:00.000Z",
         "isNew": false
-      },
-      {
-        "title": "October 21, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#October_21_2026",
-        "summary": "Apigee X\nAnnouncement\nApigee Emulator\nApigee Emulator v2.0.2\nOn October 21, 2026, we released Apigee Emulator version 2.0.2.\nThis release upgrades the Apigee Emulator runtime to Java 21 (Eclipse Temurin\nJRE 21) to align local proxy development and policy execution with the\nproduction Apigee runtime, while keeping the embedded Apache Cassandra\ndatastore pinned to Java 8. It also addresses 46 security vulnerabilities across\nNetty, Jackson, Apache Log4j, BouncyCastle, Apache CXF, Eclipse Jetty, and the\nembedded Cassandra Go standard library health-check binary.\nThe emulator image is available at\nArtifact Registry.\nTo upgrade, update the emulator version in your Cloud Code for VS Code settings\nto 2.0.2. See\nManage the Apigee Emulator\nfor details.\nFeature\nApigee Emulator\nChanged in this release\nUpgraded the Apigee Emulator runtime JVM to Eclipse Temurin JRE 21\n(21.0.12.1.0+1-0, from JRE 11 11.0.31+11), adding JVM 21 compatibility\nflags (-Djava.security.manager=allow and --add-opens module flags) for\nJavaCallout, JavaScript (Rhino), and Python (Jython) policies while keeping\nthe embedded Apache Cassandra 4.0.19 datastore pinned to Eclipse Temurin\nJRE 8.\nUpgraded Netty to 4.1.137.Final (from 4.1.135.Final) and updated\nnetty-tcnative-boringssl-static and netty-tcnative-classes to\n2.0.81.Final (from 2.0.77.Final).\nUpgraded Jackson (jackson-core, jackson-databind, and\njackson-dataformat-yaml) to 2.21.7 (from 2.18.6 and 2.19.2) and\njackson-annotations to 2.21.\nUpgraded shaded Apache…",
-        "image": null,
-        "source": "Google Cloud Platform (GCP) - Release notes",
-        "published": "2026-10-21T07:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "October 20, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#October_20_2026",
-        "summary": "Apigee X\nAnnouncement\nOn October 20th, 2026, we began maintenance updates of Apigee instances configured for maintenance windows.\nIf you set a preferred window for maintenance for your instance, and your instance version is\nbelow 1-18-0-apigee-6, your instance will be updated to 1-18-0-apigee-6 within the\nnext seven to 21 days. A notification containing the expected date of upgrade will be sent within the next two business days.\nNote: Instances that meet either of the following two criteria will not be updated:\n\nYour instance has a DNS misconfiguration, as described in Known Issue 445936920.\nYour instance uses an Apigee Java Library that has been removed, as described in Apigee release notes dated October 16, 2025.\n\nFor more information on participating in scheduled maintenance windows, see Maintenance overview and Manage Apigee instance maintenance windows.\nCloud Workstations\nFeature\nCloud Workstations supports automatic failover for\nboost configurations\nin Preview. When you\nenable automatic failover, Cloud Workstations automatically provisions a\nworkstation VM using the boost configuration if Compute Engine lacks capacity\nfor the default machine type during startup.\nGemini Enterprise\nFeature\nGemini Enterprise: Antigravity Enterprise Gateway support\nAntigravity Enterprise Gateway lets organizations route model inference requests\nfrom the Antigravity app, Antigravity CLI, and Antigravity for IDEs through a\ncentralized enterprise gateway before forwarding them to Google…",
-        "image": null,
-        "source": "Google Cloud Platform (GCP) - Release notes",
-        "published": "2026-10-20T07:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "October 19, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#October_19_2026",
-        "summary": "Agent Platform Workbench\nChange\n20261018.00_p0 Release\nChange\nInstalled latest packages from upstream dependencies.\nFixed\nFixed an issue where Jupyter Server terminal configuration could overwrite the Dataproc plugin server extension setting or fail to apply the terminal disable setting on container startup.\nChange\n20261018.00_p0 Release\nChange\nInstalled latest packages from upstream dependencies.\nFixed\nFixed an issue where Jupyter Server terminal configuration could overwrite the Dataproc plugin server extension setting or fail to apply the terminal disable setting on container startup.\nAlloyDB for PostgreSQL\nFeature\nLakehouse federation in AlloyDB is generally available\n(GA). This feature\nlets you query live data in BigQuery directly from AlloyDB using the\nbigquery_fdw extension without moving or duplicating the data.\nFor more information, see\nAccess to real-time data in BigQuery overview\nand\nConfigure access to real-time data in BigQuery.\nCloud Asset Inventory\nFeature\nThe following resource types are publicly available through the ExportAssets, ListAssets, BatchGetAssetsHistory, QueryAssets, Feed, and Search (SearchAllResources, SearchAllIamPolicies) APIs.\nFault Injection Testing\n\nfaulttesting.googleapis.com/Experiment\nfaulttesting.googleapis.com/ExperimentTemplate\nfaulttesting.googleapis.com/Validation\n\nFirebase Storage\n\nfirebasestorage.googleapis.com/Bucket\nfirebasestorage.googleapis.com/DefaultBucket\n\nPrivileged Access Manager…",
-        "image": null,
-        "source": "Google Cloud Platform (GCP) - Release notes",
-        "published": "2026-10-19T07:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "October 18, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#October_18_2026",
-        "summary": "Google SecOps\nFeature\nSpecify whether to reopen closed cases when the grouping is by Source Grouping Identifier\nYou can now specify whether Google SecOps reopens closed cases when grouping SOAR alerts by Source Grouping Identifier. When the option is enabled and a new alert is received with a source grouping identifier of a case that was previously closed in Google SecOps, then  Google SecOps reopens the case. For more information, see Configure alert grouping.\nGoogle SecOps SOAR\nAnnouncement\nRelease 6.3.103 is being rolled out to the first phase of regions as listed\nhere.\nFeature\nSpecify whether to reopen closed cases when the grouping is by Source Grouping Identifier\nYou can now specify whether Google SecOps reopens closed cases when grouping alerts by Source Grouping Identifier. When the option is enabled and a new alert is received with a source grouping identifier of a case that was previously closed in Google SecOps, then  Google SecOps reopens the case. For more information, see Configure alert grouping.\nDeprecated\nDeprecation of the ListCaseEvents API endpoint\nEffective October 12, 2026, the ListCaseEvents API endpoint is deprecated. You should use the ListCaseEvidenceData API endpoint instead.",
-        "image": null,
-        "source": "Google Cloud Platform (GCP) - Release notes",
-        "published": "2026-10-18T07:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "October 17, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#October_17_2026",
-        "summary": "Google SecOps SOAR\nAnnouncement\nRelease 6.3.102 is now\navailable for all regions.",
-        "image": null,
-        "source": "Google Cloud Platform (GCP) - Release notes",
-        "published": "2026-10-17T07:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "October 16, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#October_16_2026",
-        "summary": "BigQuery\nFeature\nConversational analytics in BigQuery\nis now available in the following locations:\nnorthamerica-northeast1 (Montréal)\nnorthamerica-northeast2 (Toronto)\nFor more information, see\nLocations.\nCloud SQL for PostgreSQL\nChange\nCloud SQL for PostgreSQL now supports enabling Managed Connection Pooling\non existing Private Service Connect\ninstances. Previously, Cloud SQL supported enabling Managed Connection Pooling only\non new instances using Private Service Connect.\nFor more information, see Managed Connection Pooling overview\nand Configure Managed Connection Pooling.\nDialogflow\nFeature\ngemini-3.5-flash-lite has become generally available (GA). See\nGenerative quotas\nfor how to request quota for Gemini 3 and later models.\nGemini Enterprise\nFeature\nGemini Enterprise: Configure citations for custom MCP data stores\nYou can configure the citation_mappings parameter for custom Model Context\nProtocol (MCP) data stores using the REST API to display source citation chips\nwhen Gemini Enterprise answers questions using tools on your custom MCP server.\nThis feature is generally available (GA).\nFor more information, see Configure citations for custom MCP data\nstores.\nFeature\nGemini Enterprise: Connect workflows in Workflow Builder to\nConfluence Data Center and Jira Data Center\nYou can connect workflows in Workflow Builder to Confluence Data Center and\nJira Data Center to search data and automate actions across these third-party\napps.\nFor more information, see Workflows\noverview.…",
-        "image": null,
-        "source": "Google Cloud Platform (GCP) - Release notes",
-        "published": "2026-10-16T07:00:00.000Z",
-        "isNew": false
       }
     ],
     "kubernetes": [
+      {
+        "title": "From Working Group to SIG Architecture: spotlight on AI Conformance",
+        "link": "https://kubernetes.io/blog/2026/10/29/sig-arch-ai-conformance-2026/",
+        "summary": "In this SIG Architecture spotlight we talked with Janet Kuo (Google)\nand Yuan Tang (Red Hat) about the journey of AI Conformance in\nKubernetes, from the initial Working\nGroup to the\nintegration SIG Architecture\nas a subproject.\nIntroductions\nFrederico Muñoz and Kirti Goyal (FK): Hi Janet, Yuan, and thank you for the opportunity to learn a\nbit more about AI Conformance. Can you tell us a bit about yourselves and how you got involved in\nKubernetes?\nJanet Kuo: I'm a Senior Staff Software Engineer at Google and have been a Kubernetes maintainer\nsince 2015, joining the community just as we were racing toward the 1.0 launch. I started my journey\nwriting the core workload controllers that standardized how applications are orchestrated on\nKubernetes. Today, I lead SIG Apps as a Co-chair & TL, and also lead the\nAI Conformance program.\nMy current focus is to ensure Kubernetes remains the best platform for the next generation of\nworkloads, such as AI.\nYuan Tang: I’m a Senior Principal Software Engineer at Red Hat, where I lead the development of\nour AI platform and drive our upstream open source strategy. I became involved in Kubernetes early\non by fostering collaborations between the Kubernetes community and projects I was leading,\nincluding Kubeflow, Argo, and KServe. I later helped found and lead WG Serving and the AI Conformance program, advancing\ninnovation and strengthening community collaboration around running AI workloads on Kubernetes.\nProgram, Working Group, Subproject: the…",
+        "image": "https://kubernetes.io/blog/2026/10/29/sig-arch-ai-conformance-2026/ai_conf_kubecon.jpg",
+        "source": "Kubernetes Blog",
+        "published": "2026-10-29T05:00:00.000Z",
+        "isNew": false
+      },
+      {
+        "title": "Announcing the Workload Conformance Working Group",
+        "link": "https://kubernetes.io/blog/2026/10/27/announcing-workload-conformance-wg/",
+        "summary": "We are excited to announce that the Kubernetes community now has a Workload Conformance Working Group.\nThe working group is writing a shared standard for how workloads behave at runtime on Kubernetes.\nTo get it right, we need input from the people who build those workloads and from the people who run the clusters they're deployed on.\nWhy workloads need a shared standard\nCertified Kubernetes tests the cluster, and Kubernetes AI Conformance tests whether a cluster can run AI and ML workloads.\nNothing comparable exists for the workloads themselves, so cluster operators still check each application by hand before routine maintenance or a Kubernetes upgrade.\nThe problems they find are familiar. A routine node drain is often how you discover that an application can't tolerate disruption.\nAn upgrade can break an application that still depends on a removed API version.\nOthers show up in day-to-day operation: workloads that ask for privileges they don't need, or reserve resources they never use.\nKubernetes already documents much of this, including security and handling disruptions.\nEven so, every cluster operator ends up repeating the same assessment, and application maintainers get the same questions from each environment they support.\nA common specification with repeatable tests would give both groups the same baseline to start from.\nWhat the working group will deliver\nThe charter sets out three deliverables:\nA specification of workload behavior for each Kubernetes minor version.\nA…",
+        "image": null,
+        "source": "Kubernetes Blog",
+        "published": "2026-10-27T04:30:00.000Z",
+        "isNew": false
+      },
       {
         "title": "Why Is My Kubernetes Job Still Pending? Tracing Kueue Admission with Headlamp",
         "link": "https://kubernetes.io/blog/2026/10/14/tracing-kueue-admission-with-headlamp/",
@@ -305,27 +323,18 @@
         "source": "Kubernetes Blog",
         "published": "2026-09-16T18:30:00.000Z",
         "isNew": false
-      },
-      {
-        "title": "Kubernetes v1.37: Pod-Level Resource Managers graduated to Beta",
-        "link": "https://kubernetes.io/blog/2026/09/15/kubernetes-v1-37-pod-level-resource-managers-beta/",
-        "summary": "With the release of Kubernetes v1.37, the Pod-Level Resource Managers\nfeature has graduated to Beta status (disabled by default)!\nFirst introduced as an Alpha feature in\nKubernetes v1.36,\nthis enhancement builds on\nPod-Level Resources by\nequipping Kubelet's Topology Manager, CPU Manager, and Memory Manager to use\nPod-level resource declarations (.spec.resources) directly when making\nhardware placement decisions.\nBringing pod-level resources to node managers\nBefore this feature, obtaining exclusive NUMA-aligned CPU cores or memory for\nlatency-critical applications forced cluster operators into an all-or-nothing\nchoice: assign integer resource requests to every container in the Pod, or\nforfeit exclusive NUMA alignment entirely. For modern workloads running\nlightweight sidecars (such as logging agents or telemetry exporters), allocating\ndedicated physical cores to auxiliary containers was wasteful.\nPod-Level Resource Managers solves this challenge by enabling hybrid allocation\nmodels. The Kubelet can reserve exclusive NUMA-aligned resources for primary\napplication containers while placing non-Guaranteed sidecars into a pod-isolated\nshared pool. This ensures primary workloads get unthrottled, NUMA-local\nperformance while sidecars benefit from running in a pod-isolated shared pool,\nenjoying local NUMA alignment and protection from external node interference\nwithout consuming dedicated physical cores.\nWhat's new in Beta\nGraduating to Beta brings key operational and API…",
-        "image": null,
-        "source": "Kubernetes Blog",
-        "published": "2026-09-15T18:30:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "Kubernetes Changed Block Tracking API - Beta Differences",
-        "link": "https://kubernetes.io/blog/2026/09/14/csi-changed-block-tracking-beta/",
-        "summary": "Changed Block Tracking (CBT) support for CSI drivers\nshipped as Alpha in\nSeptember 2025. With the March 2026 v1.0.0 release of the\nexternal-snapshot-metadata\nproject, the feature moved to Beta.\nIf you aren't yet familiar with changed block tracking for storage in\nKubernetes, the\nAlpha announcement covers\nthe motivation, the three primary components (the CSI SnapshotMetadata\ngRPC service, the SnapshotMetadataService CRD, and the\nexternal-snapshot-metadata sidecar), and a walkthrough of how to use the\nAPI. CBT currently applies to block volumes; file-volume and network\nfile-share changed-list tracking is not covered by this feature. This post\nfocuses on what is different in Beta.\nWhat's new in Beta\nThe main change in that release was the promotion of the\nSnapshotMetadataService CRD from v1alpha1 to v1beta1. The CRD used to\nadvertise a driver's metadata service now serves\ncbt.storage.k8s.io/v1beta1. The schema itself is unchanged, but this\nrelease removed v1alpha1 (rather than serving it alongside the new version).\nIf you are upgrading from Alpha, you need to:\nRe-apply the CRD definition shipped with v1.0.0.\nUpdate SnapshotMetadataService manifests to use\napiVersion: cbt.storage.k8s.io/v1beta1.\nUpdate any client or controller code that talks to the CRD.\nThis is a one-time change. There is no automatic conversion between the two\nversions.\nCompatibility\n\nMinimum Kubernetes version: 1.33\nCSI spec: 1.10 or newer\nContainer image:…",
-        "image": null,
-        "source": "Kubernetes Blog",
-        "published": "2026-09-14T18:30:00.000Z",
-        "isNew": false
       }
     ],
     "terraform": [
+      {
+        "title": "v1.17.1",
+        "link": "https://github.com/hashicorp/terraform/releases/tag/v1.17.1",
+        "summary": "1.17.1 (October 28, 2026)\nBUG FIXES:\nfmt: The original content of a file is now preserved if Terraform experiences an error writing to the original file. (#39303)\nAlways evaluate module policies during destroy plan (#39455)\nstacks: report every policy result for a replaced resource instead of only one of them (#39453)",
+        "image": "https://avatars.githubusercontent.com/u/82989873?s=60&v=4",
+        "source": "Release notes from terraform",
+        "published": "2026-10-28T18:02:22.000Z",
+        "isNew": false
+      },
       {
         "title": "v1.17.0",
         "link": "https://github.com/hashicorp/terraform/releases/tag/v1.17.0",
@@ -388,18 +397,27 @@
         "source": "Release notes from terraform",
         "published": "2026-09-23T15:48:24.000Z",
         "isNew": false
-      },
-      {
-        "title": "v1.16.4",
-        "link": "https://github.com/hashicorp/terraform/releases/tag/v1.16.4",
-        "summary": "1.16.4 (September 23, 2026)\nBUG FIXES:\nFixed an issue where Terraform fails when rendering policy evaluation outcomes for older versions of Terraform Enterprise (#39095)\nstacks: Fix invalid deferred error triggered by provider returning a deferral when a resource also has an unknown count/for_each. (#39237)",
-        "image": "https://avatars.githubusercontent.com/u/82989873?s=60&v=4",
-        "source": "Release notes from terraform",
-        "published": "2026-09-23T12:44:16.000Z",
-        "isNew": false
       }
     ],
     "python": [
+      {
+        "title": "Announcing PSF Community Service Award Recipients!",
+        "link": "https://pyfound.blogspot.com/2026/10/announcing-psf-community-service-award.html",
+        "summary": "The PSF Community Service Awards (CSAs) are a formal way for the PSF Board of Directors to offer recognition of work which, in its opinion, significantly improves the Foundation's fulfillment of its mission to build a vibrant, welcoming, global Python community. These awards shine a light on the incredible people who are the heart and soul of our community– those whose dedication, creativity, and generosity help the PSF fulfill its mission. The PSF CSAs celebrate individuals who have been truly invaluable, inspiring others through their example, and demonstrates that service to the Python community leads to recognition and reward. If you know of someone in the Python community deserving of a PSF CSA award, please submit them to the PSF Board via psf@python.org at any time. You can read more about PSF CSA’s on our website. \nThe PSF Board is excited to announce 5 new CSAs, awarded to Abhijeet Mote, Elena Williams, Hugo van Kemenade, Kevin Horn, Sarah Abderemane, for their contributions to the Python community. Read more about their work and impact below. \n\nAbhijeet Mote\nAbhijeet Mote has spent more than a decade teaching Python and expanding access to technical education across Asia, Europe, and North America. In 2019, he founded the Python Penang Meetup, which he led until 2022 and which grew into one of Malaysia's most active developer communities, giving students, engineers, and enthusiasts a place to learn and share knowledge. In India, he has trained university faculty,…",
+        "image": null,
+        "source": "Python Software Foundation News",
+        "published": "2026-10-29T13:46:04.899Z",
+        "isNew": false
+      },
+      {
+        "title": "Python 3.15.2, 3.14.10, 3.13.18, 3.12.16 and 3.11.18 are out",
+        "link": "https://blog.python.org/2026/10/python-3152-31410-31318-31216-31118/",
+        "summary": "Five expedited security releases to distrust the compromised eMudhra intermediate CA keys.",
+        "image": null,
+        "source": "Python Insider",
+        "published": "2026-10-26T00:00:00.000Z",
+        "isNew": false
+      },
       {
         "title": "Mark Your Calendars! PSF Board Office Hours for the Year Ahead",
         "link": "https://pyfound.blogspot.com/2026/10/mark-your-calendars-psf-board-office.html",
@@ -453,31 +471,22 @@
         "source": "Python Insider",
         "published": "2026-10-09T00:00:00.000Z",
         "isNew": false
-      },
-      {
-        "title": "Python 3.15.0 candidate 3 is here!",
-        "link": "https://blog.python.org/2026/10/python-3150-rc3/",
-        "summary": "Following tradition, a surprise rc3!",
-        "image": null,
-        "source": "Python Insider",
-        "published": "2026-10-02T00:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "Python 3.10.22, 3.11.17, 3.12.15, 3.13.16 and 3.14.8 are now available!",
-        "link": "https://blog.python.org/2026/10/python-31022-31117/",
-        "summary": "Security updates across Python 3.10–3.14, the final maintenance release of 3.13, and a farewell to Python 3.10.",
-        "image": null,
-        "source": "Python Insider",
-        "published": "2026-10-01T00:00:00.000Z",
-        "isNew": false
       }
     ],
     "go": [
       {
+        "title": "Our Response To The eMudhra Key Disclosure Incident",
+        "link": "https://go.dev/blog/emudhra-incident",
+        "summary": "The Go Blog\nOur Response To The eMudhra Key Disclosure Incident\nOn October 19, the Go team initiated an expedited security release to protect Go users and their applications from a critical public key infrastructure (PKI) compromise involving certificates issued by eMudhra.\nWithin approximately seven and a half hours of being notified, we shipped a targeted patch, which was included in our first-ever URGENT track security release.\nHere is the context behind the incident, why Go stepped in at the runtime level to protect our users and how our incident response unfolded.\neMudhra Incident\nOn October 17, Mozilla added eight intermediate certificates (six used for TLS, and two used for code signing) issued by a root certificate controlled by eMudhra to OneCRL, effectively blocking their usage in Firefox. Soon after, a number of security researchers noticed this and began investigating what might’ve caused this.\nOn October 19, the Go Security team was made aware of these investigations and their conclusions, which showed that the keys associated with these intermediates were trivially weak, allowing recovery of the private keys in microseconds.\nDue to the fact that the eMudhra root certificate was present in most trusted root programs, recovering the private keys would allow any attacker to sign arbitrary TLS certificates for any domain name, without the usual requirement to show proof of control of said domain name. This would allow an attacker to man-in-the-middle (MITM) TLS…",
+        "image": null,
+        "source": "The Go Blog",
+        "published": "2026-10-26T00:00:00.000Z",
+        "isNew": false
+      },
+      {
         "title": "Help set Go's priorities for next year",
         "link": "https://go.dev/blog/survey2026-announce",
-        "summary": "The Go Blog\nHelp set Go's priorities for next year\nHi Gophers! The 2026 Go Developer Survey is now open. We run this survey every year to understand how you use Go and the challenges you face. Your answers directly shape how we plan and prioritize our work.\nLast year, 5,379 of you responded, and your top frustration was making sure your code follows best practices and Go idioms (33% of respondents). Since then, we shipped a rewritten go fix in Go 1.26 that automatically modernizes your code, and added more modernizers in Go 1.27. You can read everything we learned in the 2025 results.\nTake the survey here. It’s open through November 3, takes about 10–20 minutes, and every question is optional. We’ll share the results on this blog in early 2027.\nPlease share the survey with your colleagues, friends, and online communities—the more Go developers we hear from, the better we understand what you need.\nThank you for helping shape the future of Go!\nPrevious article: Interactive refactoring in gopls\nBlog Index",
+        "summary": "The Go Blog\nHelp set Go's priorities for next year\nHi Gophers! The 2026 Go Developer Survey is now open. We run this survey every year to understand how you use Go and the challenges you face. Your answers directly shape how we plan and prioritize our work.\nLast year, 5,379 of you responded, and your top frustration was making sure your code follows best practices and Go idioms (33% of respondents). Since then, we shipped a rewritten go fix in Go 1.26 that automatically modernizes your code, and added more modernizers in Go 1.27. You can read everything we learned in the 2025 results.\nTake the survey here. It’s open through November 3, takes about 10–20 minutes, and every question is optional. We’ll share the results on this blog in early 2027.\nPlease share the survey with your colleagues, friends, and online communities—the more Go developers we hear from, the better we understand what you need.\nThank you for helping shape the future of Go!\nNext article: Our Response To The eMudhra Key Disclosure Incident\nPrevious article: Interactive refactoring in gopls\nBlog Index",
         "image": null,
         "source": "The Go Blog",
         "published": "2026-10-21T00:00:00.000Z",
@@ -536,18 +545,18 @@
         "source": "The Go Blog",
         "published": "2026-09-02T00:00:00.000Z",
         "isNew": false
-      },
-      {
-        "title": "Generic Methods",
-        "link": "https://go.dev/blog/generic-methods",
-        "summary": "The Go Blog\nGeneric Methods\nGenerics was a profound change for Go—it fundamentally expanded the kinds of\nprograms that gophers could write by adding type parameters to the language.\nOne could now express generic types and functions in Go. These constructs\ndecreased the need for specialized data types and functions, reducing program\nverbosity and improving the ergonomics of the language in those cases.\nTo illustrate, different kinds of linked lists could now be condensed into a\nsingle type definition:\n// before Go 1.18\ntype ListOfInts struct {\n    elem int\n    next *ListOfInts\n}\ntype ListOfStrings struct {\n    elem string\n    next *ListOfStrings\n}\n// ...\n\n// after Go 1.18\ntype List[E any] struct {\n    elem E\n    next *List[E]\n}\n\nLikewise, sorting different kinds of ordered data could be expressed as a single\nfunction:\n// before Go 1.18\nfunc SortInts(s []int) { /* ... */ }\nfunc SortStrings(s []string) { /* ... */ }\n// ...\n\n// after Go 1.18\nfunc Sort[E cmp.Ordered](s []E) { /* ... */ }\n\nHowever, no such capability came to methods.\nThe generics proposal reasoned that because generic interface\nmethods are difficult to implement efficiently (discussed\nlater), it didn’t make sense to\nadd type parameters to non-interface (or “concrete”) methods either. In that\nview, methods are primarily the means of implementing an interface.\nGo 1.27 takes a different view and consequently adds generic methods to Go. In\nthis post, we’ll explain this change of view and demonstrate some uses of this…",
-        "image": null,
-        "source": "The Go Blog",
-        "published": "2026-08-26T00:00:00.000Z",
-        "isNew": false
       }
     ],
     "rust": [
+      {
+        "title": "How to fund Rust contributors",
+        "link": "https://blog.rust-lang.org/2026/10/26/how-to-fund-rust-contributors/",
+        "summary": "TLDR:\nTo fund general maintenance, donate to the Rust Foundation Maintainers Fund or sponsor the RustNL Maintainers Team\nTo fund specific features and improvements, sponsor fundable Rust Project Goals\nTo fund individual contributors, donate to their GitHub Sponsors accounts\nThere is always so much to do in the Rust Project! New features to implement, bugs to fix, performance optimizations to make, issues to triage… It takes a lot of work to keep our high bar of quality while also shipping new features and improvements. And the workload keeps increasing with the continuous growth of Rust adoption.\nAs is unfortunately common in open source projects, a large fraction of that work is currently done by volunteers. That causes various issues, such as people burning out or complex features taking many years to ship.\nUnsurprisingly, one of the best ways to help improve that is to get more people who work on Rust funded! This year, several funding initiatives started ramping up, and we already experience many positive effects. They helped us improve the maintenance status of critical Rust projects and make significant progress on several long-awaited features, such as allocators, the never type, the next trait solver or the Polonius borrow checker. However, only a fraction of people working on Rust are currently funded for their work.\nWe know that there are Rust users, both individuals and companies, who would like to help improve Rust by funding it, but it might not always be…",
+        "image": null,
+        "source": "Rust Blog",
+        "published": "2026-10-26T00:00:00.000Z",
+        "isNew": false
+      },
       {
         "title": "Announcing rustup 1.29.2",
         "link": "https://blog.rust-lang.org/2026/10/20/Rustup-1.29.2/",
@@ -610,18 +619,36 @@
         "source": "Rust Blog",
         "published": "2026-09-17T00:00:00.000Z",
         "isNew": false
-      },
-      {
-        "title": "Rust debugging survey 2026 results",
-        "link": "https://blog.rust-lang.org/2026/09/07/rust-debugging-survey-2026-results/",
-        "summary": "One of the biggest challenges Rust developers report in our\nannual surveys is a subpar debugging experience. So, back\nin February, we ran our first Rust Debugging Survey,\nin the hopes of identifying how Rust developers are using debuggers and what\nproblems they are facing when doing so. We received over 2,300 responses, and\nwe'd like to thank everyone who took the time to participate in the survey!\nIn this report, we'll go over some of the results of the survey. If you'd like,\nyou can also check out the complete results of the survey.\nIf you'd like to skip ahead to any particular section, you can do so with this\nindex:\nWho Uses Debuggers?\nHow Are Debuggers Used?\nChallenges\nDebugger Visualizers\nClosing Remarks\n\nWho Uses Debuggers?\nThe first step to making sense of the survey results is understanding who took\nthe survey. We asked respondents to rate their Rust expertise, from \"Never used\nit\" to \"Advanced\". Over 80% reported themselves as \"Advanced\" or \"Intermediate\",\nsplit roughly evenly between the two:\n\n\n\n[PNG] [SVG]\n    \nWe also asked respondents if they currently use or have used debuggers in Rust.\nOver 46% said they currently do, with the remaining responses split between\n\"have in the past\" and \"never have\". That means that over half of respondents do\nnot currently use a debugger for Rust!\n\n\n\n[PNG] [SVG]\n    \nCategorized by expertise, the responses reveal that roughly half of \"beginners\"\nhave never used debuggers in Rust! On the other hand, nearly half of \"advanced\nusers\"…",
-        "image": "how-would-you-rate-your-rust-expertise.png",
-        "source": "Rust Blog",
-        "published": "2026-09-07T00:00:00.000Z",
-        "isNew": false
       }
     ],
     "javascript": [
+      {
+        "title": "Node.js 27.0.0-alpha.0.0.0 (Alpha)",
+        "link": "https://nodejs.org/en/blog/release/v27.0.0-alpha.0.0.0",
+        "summary": "",
+        "image": null,
+        "source": "Node.js Blog",
+        "published": "2026-10-29T19:52:29.000Z",
+        "isNew": true
+      },
+      {
+        "title": "Node.js 24.22.2 (LTS)",
+        "link": "https://nodejs.org/en/blog/release/v24.22.2",
+        "summary": "",
+        "image": null,
+        "source": "Node.js Blog",
+        "published": "2026-10-28T18:40:14.000Z",
+        "isNew": false
+      },
+      {
+        "title": "Node.js 26.13.0 (LTS)",
+        "link": "https://nodejs.org/en/blog/release/v26.13.0",
+        "summary": "",
+        "image": null,
+        "source": "Node.js Blog",
+        "published": "2026-10-28T16:58:40.000Z",
+        "isNew": false
+      },
       {
         "title": "Wednesday, October 21, 2026 Security Releases",
         "link": "https://nodejs.org/en/blog/vulnerability/october-2026-security-releases",
@@ -665,33 +692,6 @@
         "image": null,
         "source": "Node.js Blog",
         "published": "2026-10-14T15:26:48.000Z",
-        "isNew": false
-      },
-      {
-        "title": "Node.js 26.12.0 (Current)",
-        "link": "https://nodejs.org/en/blog/release/v26.12.0",
-        "summary": "",
-        "image": null,
-        "source": "Node.js Blog",
-        "published": "2026-10-14T15:23:06.000Z",
-        "isNew": false
-      },
-      {
-        "title": "Node.js 26.11.1 (Current)",
-        "link": "https://nodejs.org/en/blog/release/v26.11.1",
-        "summary": "",
-        "image": null,
-        "source": "Node.js Blog",
-        "published": "2026-10-07T23:56:26.000Z",
-        "isNew": false
-      },
-      {
-        "title": "Node.js 26.11.0 (Current)",
-        "link": "https://nodejs.org/en/blog/release/v26.11.0",
-        "summary": "",
-        "image": null,
-        "source": "Node.js Blog",
-        "published": "2026-10-07T14:45:09.000Z",
         "isNew": false
       }
     ]

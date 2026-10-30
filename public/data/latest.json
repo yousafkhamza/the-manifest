@@ -1,6 +1,6 @@
 {
-  "date": "2026-10-29",
-  "generatedAt": "2026-10-29T21:49:06.634Z",
+  "date": "2026-10-30",
+  "generatedAt": "2026-10-30T11:24:03.005Z",
   "totalArticles": 72,
   "ticker": [
     {
@@ -105,6 +105,15 @@
     ],
     "azure": [
       {
+        "title": "Introducing the Microsoft Copilot harness in Foundry Agent Service",
+        "link": "https://devblogs.microsoft.com/foundry/microsoft-copilot-harness-in-foundry/",
+        "summary": "Today, we’re introducing the Microsoft Copilot harness in Foundry Agent Service in public preview.\nThe post Introducing the Microsoft Copilot harness in Foundry Agent Service appeared first on Microsoft Azure Blog.",
+        "image": null,
+        "source": "Microsoft Azure Blog",
+        "published": "2026-10-28T17:40:56.000Z",
+        "isNew": true
+      },
+      {
         "title": "Scale reservoir uncertainty analysis with agile reservoir modeling",
         "link": "https://azure.microsoft.com/en-us/blog/scale-reservoir-uncertainty-analysis-with-agile-reservoir-modeling/",
         "summary": "As subsurface data grows in scale and complexity, teams need a faster, more connected way to transform uncertainty into actionable decisions.\nThe post Scale reservoir uncertainty analysis with agile reservoir modeling appeared first on Microsoft Azure Blog.",
@@ -166,22 +175,13 @@
         "source": "Microsoft Azure Blog",
         "published": "2026-10-13T16:15:00.000Z",
         "isNew": false
-      },
-      {
-        "title": "Infrastructure for the frontier era: Scaling intelligence through open industry collaboration",
-        "link": "https://azure.microsoft.com/en-us/blog/infrastructure-for-the-frontier-era-scaling-intelligence-through-open-industry-collaboration/",
-        "summary": "AI is reaching such a pivotal moment, and the focus is shifting from building larger frontier models to intelligence that delivers practical impact.\nThe post Infrastructure for the frontier era: Scaling intelligence through open industry collaboration appeared first on Microsoft Azure Blog.",
-        "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/10/Phoenix-Data-Center-Shoot-2026_Stills-2-1-scaled.webp",
-        "source": "Microsoft Azure Blog",
-        "published": "2026-10-13T16:15:00.000Z",
-        "isNew": false
       }
     ],
     "gcp": [
       {
         "title": "October 29, 2026",
         "link": "https://docs.cloud.google.com/release-notes#October_29_2026",
-        "summary": "Anti Money Laundering AI\nAnnouncement\nNew minor engine version released for the retail line of business within the v004.011 version line (aml-retail.default.v004.011.202610-000). This version extends support for the major engine version and includes no significant changes compared to the previous minor version.\nDataflow\nFeature\nDataflow has added the following features to tune horizontal\nautoscaling for Streaming Engine jobs:\nLatency tiers: You can configure the backlog threshold by choosing a latency\ntier (low_latency, medium_latency, or high_latency), allowing you to\nconfigure the autoscaler's sensitivity to backlog duration and balance latency\nrequirements with resource costs. For more information, see\nSet the latency tier.\nAutoscaling schedules: You can configure recurring autoscaling schedules\nto automatically apply parameter overrides—such as minimum and maximum\nworkers, worker utilization hints, or latency tiers—during specific time\nwindows. For more information, see\nSchedule autoscaling changes.\nYou can configure these features when you create a job or update them while the\njob is running.\nModel Armor\nFeature\nModel Armor is available in Brazil (southamerica-east1). This region\nprovides data residency compliance for at-rest, in-use, and in-transit data with\nlimited feature support.\nThe southamerica-east1 region supports the following filters:\nPrompt injection and jailbreak detection\nResponsible AI\nSensitive Data Protection\nFor more information, see Locations,\nData…",
+        "summary": "AlloyDB for PostgreSQL\nFeature\nAlloyDB AI adds pre-registered support for the following Gemini models in version\n1.6.5 and later of the google_ml_integration extension:\ngemini-3.1-flash-lite\ngemini-3.5-flash\ngemini-3.5-flash-lite\ngemini-3.6-flash\ngemini-3.7-flash\ngemini-3.8-flash\ngemini-4-argon\nVersion 1.6.5 of the google_ml_integration extension sets gemini-3.5-flash-lite as the default Gemini model and removes the gemini-2.0-flash, gemini-2.0-flash-lite, gemini-2.5-flash, gemini-2.5-flash-lite, and gemini-2.5-pro models from the list of pre-registered models.\nAdditionally, AlloyDB AI adds pre-registered support for the semantic-ranker-512 reranking model.\nFor more information, see\nPre-registered Agent Platform models.\nAnti Money Laundering AI\nAnnouncement\nNew minor engine version released for the retail line of business within the v004.011 version line (aml-retail.default.v004.011.202610-000). This version extends support for the major engine version and includes no significant changes compared to the previous minor version.\nDataflow\nFeature\nDataflow has added the following features to tune horizontal\nautoscaling for Streaming Engine jobs:\nLatency tiers: You can configure the backlog threshold by choosing a latency\ntier (low_latency, medium_latency, or high_latency), allowing you to\nconfigure the autoscaler's sensitivity to backlog duration and balance latency\nrequirements with resource costs. For more information, see\nSet the latency tier.\nAutoscaling schedules: You can…",
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-10-29T07:00:00.000Z",
@@ -623,6 +623,15 @@
     ],
     "javascript": [
       {
+        "title": "Node.js 27.0.0-alpha.0.0.0 (Alpha)",
+        "link": "https://nodejs.org/en/blog/release/v27.0.0-alpha.0.0.0",
+        "summary": "",
+        "image": null,
+        "source": "Node.js Blog",
+        "published": "2026-10-29T19:52:29.000Z",
+        "isNew": true
+      },
+      {
         "title": "Node.js 24.22.2 (LTS)",
         "link": "https://nodejs.org/en/blog/release/v24.22.2",
         "summary": "",
@@ -683,15 +692,6 @@
         "image": null,
         "source": "Node.js Blog",
         "published": "2026-10-14T15:26:48.000Z",
-        "isNew": false
-      },
-      {
-        "title": "Node.js 26.12.0 (Current)",
-        "link": "https://nodejs.org/en/blog/release/v26.12.0",
-        "summary": "",
-        "image": null,
-        "source": "Node.js Blog",
-        "published": "2026-10-14T15:23:06.000Z",
         "isNew": false
       }
     ]
