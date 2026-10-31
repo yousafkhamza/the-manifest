@@ -1,6 +1,6 @@
 {
-  "date": "2026-10-30",
-  "generatedAt": "2026-10-30T21:30:05.934Z",
+  "date": "2026-10-31",
+  "generatedAt": "2026-10-31T10:55:10.158Z",
   "totalArticles": 72,
   "ticker": [
     {
@@ -181,7 +181,7 @@
       {
         "title": "October 30, 2026",
         "link": "https://docs.cloud.google.com/release-notes#October_30_2026",
-        "summary": "Backup and DR\nFeature\nYou can now edit existing backup plans for Cloud SQL instances to update\nsettings such as backup rules and maximum custom on-demand retention periods.\nTo learn more, see\nBack up Cloud SQL instances to a backup vault.\nBigtable\nFeature\nYou can use Knowledge Catalog to discover authorized views, logical views, and\ncontinuous materialized views. This integration lets you search for these\ngranular data assets alongside your Bigtable instances and tables. This\nfeature is\ngenerally available (GA).\nFor more information, see\nManage data assets using Knowledge Catalog.\nDatastream\nFeature\nDatastream integration with Knowledge Catalog is now\ngenerally available\n(GA). For more\ninformation, see\nthe documentation.\nSAP on Google Cloud\nAnnouncement\nGoogle SecOps for SAP is generally available (GA)\nGoogle SecOps for SAP is generally available (GA). This solution\nhelps you protect your enterprise SAP applications by integrating\nbusiness-critical telemetry into Google SecOps to provide\nunified visibility, threat detection, and security response capabilities.\nThis release includes:\nLog ingestion from SAP RISE and self-managed SAP environments that run on\nGoogle Cloud, on-premises, or other clouds.\nSAP-specific YARA-L threat detection rules available in the Google SecOps\nDetection Rules GitHub repository.\nAutomated threat response and containment capabilities by using the SAP RFC\nGateway and SOAR playbooks\n(Preview).\nFor more information, see\nSecure SAP applications with…",
+        "summary": "Agent Registry\nFeature\nAgent Registry supports cross-project management boundaries (Preview), letting you centrally discover, search, and govern AI agents, Model Context Protocol (MCP) servers, and tools across multiple Google Cloud projects from a central management project. For more information, see Cross-project boundaries and Configure a management boundary for multiple projects.\nAlloyDB for PostgreSQL\nFixed\nFor AlloyDB clusters compatible with PostgreSQL 18 or later,\nan instance restart is no longer required when you enable or edit\nAdvanced Query Insights settings,\nincluding changing the query length or enabling active query analysis. For\nclusters compatible with PostgreSQL 17 or earlier, saving changes still requires\nan instance restart.\nFor more information, see\nUse Advanced Query Insights and\nMonitor active queries.\nApigee hybrid\nAnnouncement\nv1.16.13\nOn October 30, 2026 we released an updated version of the Apigee hybrid software, v1.16.13.\nFor information about upgrading, see\nUpgrading Apigee hybrid to v1.16.13.\nFor information about new installations, see\nThe big picture.\nNote: Do not use Apigee hybrid v1.16.12 due to a potential regression in apigee-connect-agent (see known issue 578314600). Use v1.16.13 instead.Note: This is a patch release. The container images used in patch releases are\nintegrated with the Apigee hybrid Helm charts. Upgrading to a patch by using\nthe Helm chart automatically updates the images. You don't typically need to\nmake manual image…",
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-10-30T07:00:00.000Z",
