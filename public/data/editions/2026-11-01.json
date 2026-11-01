@@ -1,6 +1,6 @@
 {
   "date": "2026-11-01",
-  "generatedAt": "2026-11-01T11:49:56.067Z",
+  "generatedAt": "2026-11-01T17:08:26.828Z",
   "totalArticles": 72,
   "ticker": [
     {
@@ -156,7 +156,7 @@
         "image": null,
         "source": "Microsoft Azure Blog",
         "published": "2026-10-16T16:05:00.000Z",
-        "isNew": true
+        "isNew": false
       },
       {
         "title": "Evolving the cloud-native foundation for the next generation of AI",
@@ -178,6 +178,15 @@
       }
     ],
     "gcp": [
+      {
+        "title": "October 31, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#October_31_2026",
+        "summary": "Google SecOps\nFeature\nBasic Mode search\nThis feature is in public preview. The SIEM Search page now provides two search-execution modes: Basic Mode and Advanced Mode. Basic Mode (the default option) uses a streamlined, fast-path execution pipeline that bypasses secondary enrichment steps during search execution. This approach reduces end-to-end search wait times while preserving full data fidelity and query syntax parity. Advanced Mode is equivalent to the previous search experience.\nFor more information, see Choose the search-execution mode and Understand the search-execution modes.",
+        "image": null,
+        "source": "Google Cloud Platform (GCP) - Release notes",
+        "published": "2026-10-31T07:00:00.000Z",
+        "isNew": false
+      },
       {
         "title": "October 30, 2026",
         "link": "https://docs.cloud.google.com/release-notes#October_30_2026",
@@ -239,15 +248,6 @@
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-10-24T07:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "October 23, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#October_23_2026",
-        "summary": "Cloud Database Migration Service\nSecurity\nOn Saturday, October 17, 2026, Google received a report from a security\nresearcher regarding the compromise of private keys associated with eight\neMudhra subordinate Certification Authority (CA) certificates, including those\ncross-signed by AAA Certificate Services. Consequently, these CA certificates\nare no longer trusted and are being revoked.\nTo continue connecting to a source database after its CA certificate is\nupdated, upload the new CA certificate to the Database Migration Service source connection\nprofile:\nUpdate the connection profile using\ngcloud database-migration connection-profiles update\nor the\nconnectionProfiles.patch\nAPI method.\nModify the connection profile in the Google Cloud console:\n\nMySQL connection profiles\nPostgreSQL to Cloud SQL connection profiles\nPostgreSQL to AlloyDB for PostgreSQL connection profiles\nOracle to Cloud SQL connection profiles\nOracle to AlloyDB for PostgreSQL connection profiles\nSQL Server to Cloud SQL connection profiles\nSQL Server to AlloyDB for PostgreSQL connection profiles\n\n\nFor more information, see security bulletin\nGCP-2026-071.\nCloud Monitoring\nFixed\nOps Agent version 2.73.0 includes patches for a Go vulnerability involving\nsystem root certificates,\nCVE-2026-111943. For more\ninformation, see Ops Agent 2.73.0 notes.\nCloud SQL for MySQL\nSecurity\nIn response to GCP-2026-071, Google is\nupdating Cloud SQL's managed components. No manual updates to the certificate\nstore are required for…",
-        "image": null,
-        "source": "Google Cloud Platform (GCP) - Release notes",
-        "published": "2026-10-23T07:00:00.000Z",
         "isNew": false
       }
     ],
