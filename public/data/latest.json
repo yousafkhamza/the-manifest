@@ -1,6 +1,6 @@
 {
-  "date": "2026-10-31",
-  "generatedAt": "2026-10-31T20:27:01.889Z",
+  "date": "2026-11-01",
+  "generatedAt": "2026-11-01T11:49:56.067Z",
   "totalArticles": 72,
   "ticker": [
     {
@@ -151,12 +151,12 @@
       },
       {
         "title": "Managing open-weight model risk in enterprise deployments",
-        "link": "https://azure.microsoft.com/en-us/blog/managing-open-weight-model-risk-in-enterprise-deployments/",
+        "link": "https://www.microsoft.com/en-us/security/blog/2026/10/16/managing-open-weight-model-risk-in-enterprise-deployments/",
         "summary": "The growing AI landscape is giving enterprises more choice in how they build, customize, and deploy increasingly capable models.\nThe post Managing open-weight model risk in enterprise deployments appeared first on Microsoft Azure Blog.",
         "image": null,
         "source": "Microsoft Azure Blog",
         "published": "2026-10-16T16:05:00.000Z",
-        "isNew": false
+        "isNew": true
       },
       {
         "title": "Evolving the cloud-native foundation for the next generation of AI",
