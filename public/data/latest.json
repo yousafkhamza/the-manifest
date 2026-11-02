@@ -1,6 +1,6 @@
 {
-  "date": "2026-11-01",
-  "generatedAt": "2026-11-01T21:11:10.578Z",
+  "date": "2026-11-02",
+  "generatedAt": "2026-11-02T13:29:31.985Z",
   "totalArticles": 72,
   "ticker": [
     {
@@ -179,9 +179,27 @@
     ],
     "gcp": [
       {
+        "title": "November 02, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#November_02_2026",
+        "summary": "Model Armor\nFeature\nSupport for template-specific exclusion rules in streaming sanitization\n(StreamSanitizeUserPrompt and StreamSanitizeModelResponse) is available in\nPreview. You can use\ndictionary and regular expression exclusion rules in buffered mode\n(STREAMING_MODE_BUFFERED) with partial or full matching, and in real-time mode\n(STREAMING_MODE_REALTIME) with partial matching, to mitigate false-positive\ndetections for prompt injection and jailbreak detection and responsible AI\nfilters.\nFor more information, see Exclusion rules in streaming\nsanitization.\nOracle Database@Google Cloud\nFeature\nOracle Database@Google Cloud supports creating custom DNS domains for your ODB Networks. You can use custom Domain Name Systems (DNS) to control the names of your resources and delegate DNS resolution within your organization. For more information, see Create and manage custom DNS domains.\nYou can use custom DNS domains only for Exadata VM clusters.\nThis feature is generally available (GA).",
+        "image": null,
+        "source": "Google Cloud Platform (GCP) - Release notes",
+        "published": "2026-11-02T08:00:00.000Z",
+        "isNew": true
+      },
+      {
+        "title": "November 01, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#November_01_2026",
+        "summary": "Google SecOps SOAR\nAnnouncement\nRelease 6.3.105 is being rolled out to the first phase of regions as listed\nhere.\nThis release contains internal and customer bug fixes.",
+        "image": null,
+        "source": "Google Cloud Platform (GCP) - Release notes",
+        "published": "2026-11-01T08:00:00.000Z",
+        "isNew": true
+      },
+      {
         "title": "October 31, 2026",
         "link": "https://docs.cloud.google.com/release-notes#October_31_2026",
-        "summary": "Google SecOps\nFeature\nBasic Mode search\nThis feature is in public preview. The SIEM Search page now provides two search-execution modes: Basic Mode and Advanced Mode. Basic Mode (the default option) uses a streamlined, fast-path execution pipeline that bypasses secondary enrichment steps during search execution. This approach reduces end-to-end search wait times while preserving full data fidelity and query syntax parity. Advanced Mode is equivalent to the previous search experience.\nFor more information, see Choose the search-execution mode and Understand the search-execution modes.",
+        "summary": "Google SecOps\nFeature\nBasic Mode search\nThis feature is in public preview. The SIEM Search page now provides two search-execution modes: Basic Mode and Advanced Mode. Basic Mode (the default option) uses a streamlined, fast-path execution pipeline that bypasses secondary enrichment steps during search execution. This approach reduces end-to-end search wait times while preserving full data fidelity and query syntax parity. Advanced Mode is equivalent to the previous search experience.\nFor more information, see Choose the search-execution mode and Understand the search-execution modes.\nGoogle SecOps SOAR\nAnnouncement\nRelease 6.3.104 is now\navailable for all regions.",
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-10-31T07:00:00.000Z",
@@ -230,24 +248,6 @@
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-10-26T07:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "October 25, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#October_25_2026",
-        "summary": "Agent Platform Workbench\nChange\n20261025-2230-rc0 Release\nChange\n20261025-2230-rc0 Release\nChange\nInstalled latest packages from upstream dependencies.\nChange\nInstalled latest packages from upstream dependencies.\nSecurity\nUpdated certifi, pip, and conda ca-certificates to the latest versions.\nFixed\nFixed dataset and table search in the BigQuery panel, which sometimes failed to return results. Root cause is due to Datacatalog API being sunsetted in favor of Dataplex API.\nFixed\nFixed an issue where Jupyter Server terminal configuration could overwrite the Dataproc plugin server extension setting or fail to apply the terminal disable setting on container startup.\nSecurity\nAddressed multiple reported security vulnerabilities in bundled packages.\nSecurity\nUpdated certifi, pip, and conda ca-certificates to the latest versions.\nFixed\nFixed an issue where Jupyter Server terminal configuration could overwrite the Dataproc plugin server extension setting or fail to apply the terminal disable setting on container startup.\nSecurity\nAddressed multiple reported security vulnerabilities in bundled packages.\nChange\n20261025-2130-rc0 Release\nChange\nInstalled latest packages from upstream dependencies.\nGoogle SecOps\nFeature\nResize inline images in Case Wall comments\nYou can now resize inline images directly in rich-text comments on the Case Wall. To resize an image, switch the comment box to rich-text mode and insert an image either by using the toolbar's image menu or by pasting it into the…",
-        "image": null,
-        "source": "Google Cloud Platform (GCP) - Release notes",
-        "published": "2026-10-25T07:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "October 24, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#October_24_2026",
-        "summary": "App Engine flexible environment .NET\nSecurity\nThe following runtime language contains important security updates:\n.NET 6 and later: 6.0.428, 8.0.415, 10.0.100\nThe following stacks and their underlying operating system packages have also been updated:\ngoogle-22, google-22-full\ngoogle-24, google-24-full\nTake immediate protective action by rebuilding and redeploying your resources with updated dependencies.\nSee Security bulletins for Google Cloud for more information.\nApp Engine flexible environment Go\nSecurity\nThe following runtime language contains important security updates:\nGo 1.24 and later: 1.24.13, 1.25.14, 1.26.10, 1.27.3\nThe following stacks and their underlying operating system packages have also been updated:\ngoogle-22, google-22-full\ngoogle-24, google-24-full\nTake immediate protective action by rebuilding and redeploying your resources with updated dependencies.\nSee Security bulletins for Google Cloud for more information.\nApp Engine flexible environment Java\nSecurity\nThe following runtime language contains important security updates:\nJava 17 and later: 17.0.20_101, 21.0.12_101.0.LTS, 25.0.5_8.0.LTS\nThe following stacks and their underlying operating system packages have also been updated:\ngoogle-22, google-22-full\ngoogle-24, google-24-full\nTake immediate protective action by rebuilding and redeploying your resources with updated dependencies.\nSee Security bulletins for Google Cloud for more information.\nApp Engine flexible environment Node.js\nSecurity\nThe following…",
-        "image": null,
-        "source": "Google Cloud Platform (GCP) - Release notes",
-        "published": "2026-10-24T07:00:00.000Z",
         "isNew": false
       }
     ],
