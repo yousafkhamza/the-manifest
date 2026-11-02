@@ -1,6 +1,6 @@
 {
   "date": "2026-11-02",
-  "generatedAt": "2026-11-02T13:29:31.985Z",
+  "generatedAt": "2026-11-02T20:47:45.527Z",
   "totalArticles": 72,
   "ticker": [
     {
@@ -30,6 +30,15 @@
   ],
   "topics": {
     "aws": [
+      {
+        "title": "AWS Weekly Roundup: GPT-6.1 Terra on Bedrock, Step Functions as agent tools, and more (November 2, 2026)",
+        "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-gpt-6-1-terra-on-bedrock-step-functions-as-agent-tools-and-more-november-2-2026/",
+        "summary": "The agentic launches that stayed with me last week had nothing to do with how capable a model is. They were about reach. AWS Step Functions, which already orchestrates over 220 AWS services, can now be handed to an agent as a tool, so workflows teams already trust became callable without a rewrite. In the […]",
+        "image": null,
+        "source": "AWS News Blog",
+        "published": "2026-11-02T16:45:48.000Z",
+        "isNew": false
+      },
       {
         "title": "AWS Weekly Roundup: Amazon Polly Generative engine, TorchNeuron for Trainium, and more (October 26, 2026)",
         "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-amazon-polly-generative-engine-torchneuron-for-trainium-and-more-october-26-2026/",
@@ -91,15 +100,6 @@
         "image": null,
         "source": "AWS News Blog",
         "published": "2026-10-12T22:34:47.000Z",
-        "isNew": false
-      },
-      {
-        "title": "All the numbers: Amazon Prime Day 2026 powered by AWS",
-        "link": "https://aws.amazon.com/blogs/aws/all-the-numbers-amazon-prime-day-2026-powered-by-aws/",
-        "summary": "Amazon Prime Day 2026 was exclusively for Prime members and ran June 23–26, 2026 with millions of deals across more than 35 categories. As part of our annual tradition of sharing how AWS powered Prime Day (2016, 2017, 2019, 2020, 2021, 2022, 2023, 2024, and 2025), I want to share the services and chart-topping metrics […]",
-        "image": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2026/08/10/about-amazon-hero-pd-2026-tabletop-blue.jpg",
-        "source": "AWS News Blog",
-        "published": "2026-10-06T16:09:36.000Z",
         "isNew": false
       }
     ],
@@ -181,11 +181,11 @@
       {
         "title": "November 02, 2026",
         "link": "https://docs.cloud.google.com/release-notes#November_02_2026",
-        "summary": "Model Armor\nFeature\nSupport for template-specific exclusion rules in streaming sanitization\n(StreamSanitizeUserPrompt and StreamSanitizeModelResponse) is available in\nPreview. You can use\ndictionary and regular expression exclusion rules in buffered mode\n(STREAMING_MODE_BUFFERED) with partial or full matching, and in real-time mode\n(STREAMING_MODE_REALTIME) with partial matching, to mitigate false-positive\ndetections for prompt injection and jailbreak detection and responsible AI\nfilters.\nFor more information, see Exclusion rules in streaming\nsanitization.\nOracle Database@Google Cloud\nFeature\nOracle Database@Google Cloud supports creating custom DNS domains for your ODB Networks. You can use custom Domain Name Systems (DNS) to control the names of your resources and delegate DNS resolution within your organization. For more information, see Create and manage custom DNS domains.\nYou can use custom DNS domains only for Exadata VM clusters.\nThis feature is generally available (GA).",
+        "summary": "Apigee X\nAnnouncement\nOn November 2, 2026, we released an updated version of Apigee.\nNote: Rollouts of this release began today and may take four or more business days to be completed across all Google Cloud zones. Your instances may not have the features and fixes available until the rollout is complete.\nFeature\nEKM health monitoring\nYou can now monitor EKM health and configure alerts for EKM-related issues using Cloud Logging. For more information, see EKM health monitoring.\nCloud Load Balancing\nFeature\nDistributed tracing with Cloud Trace is available in\nPreview for\nGlobal external Application Load Balancers, Regional external Application Load Balancers,\nRegional internal Application Load Balancers, and Cross-region internal Application Load Balancers. Attach a\ntelemetry policy to a load balancer's forwarding rule to generate trace spans\nthat conform to W3C Trace Context and OpenTelemetry, and get end-to-end\nvisibility into requests from clients through the load balancer to your\nbackends. For more information, see\nDistributed tracing overview.\nFeature\nFor mutual TLS (mTLS) on Application Load Balancers,\nfrontend mTLS validation relaxations are generally available.\nThe ALLOW_VALIDATION_RELAXATIONS client validation mode on the\nClient Authentication (ServerTlsPolicy) resource allows you to\nconfigure specific X.509 certificate validation exceptions to\nstandard client certificate validation rules.\nThis simplifies migrations of legacy workloads while\nmaintaining an active…",
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-11-02T08:00:00.000Z",
-        "isNew": true
+        "isNew": false
       },
       {
         "title": "November 01, 2026",
@@ -194,7 +194,7 @@
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-11-01T08:00:00.000Z",
-        "isNew": true
+        "isNew": false
       },
       {
         "title": "October 31, 2026",
