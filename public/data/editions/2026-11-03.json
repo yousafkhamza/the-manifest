@@ -1,6 +1,6 @@
 {
   "date": "2026-11-03",
-  "generatedAt": "2026-11-03T12:47:05.701Z",
+  "generatedAt": "2026-11-03T18:27:56.623Z",
   "totalArticles": 72,
   "ticker": [
     {
@@ -179,6 +179,15 @@
     ],
     "gcp": [
       {
+        "title": "November 03, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#November_03_2026",
+        "summary": "Application Design Center\nFeature\nApplication Design Center is available in the following regions:\nOsaka, Japan (asia-northeast2)\nMumbai, India (asia-south1)\nBangkok, Thailand (asia-southeast3)\nSydney, Australia (australia-southeast1)\nBerlin, Germany (europe-west10)\nMoncks Corner, South Carolina (us-east1)\nDammam, Saudi Arabia (me-central2)\nFor more information, see\nApp Design Center locations.\nOracle Database@Google Cloud\nFeature\nOracle Database@Google Cloud introduces Database Connections using which you can connect to your Oracle databases and execute SQL statements.\nFor more information, see Create Database Connections and Execute SQL statements.\nThis feature is generally available (GA).",
+        "image": null,
+        "source": "Google Cloud Platform (GCP) - Release notes",
+        "published": "2026-11-03T08:00:00.000Z",
+        "isNew": false
+      },
+      {
         "title": "November 02, 2026",
         "link": "https://docs.cloud.google.com/release-notes#November_02_2026",
         "summary": "Agent Platform Workbench\nChange\n20261101.00_p0 Release\nChange\nInstalled latest packages from upstream dependencies.\nSecurity\nUpgraded the container host to the latest Container-Optimized OS LTS release, rebasing onto the newest operating system, Go, and containerd security fixes.\nSecurity\nUpdated the CA certificate configuration.\nChange\n20261101.00_p0 Release\nChange\nInstalled latest packages from upstream dependencies.\nSecurity\nUpgraded the container host to the latest Container-Optimized OS LTS release, rebasing onto the newest operating system, Go, and containerd security fixes.\nSecurity\nUpdated the CA certificate configuration.\nAlloyDB for PostgreSQL\nFeature\nYou can now tune SQL queries using AI. Available starting with version 1.6.2 of\nthe google_ml_integration extension, the ai.tune_sql function uses an LLM\nalong with query execution plans, schemas, and runtime stats to recommend query\noptimizations. The function identifies performance bottlenecks and provides\nrecommendations for query rewrites, indexes, statistics collection, Grand\nUnified Configuration (GUC) flags, and table analyze and vacuum operations.\nThis feature is in\nPreview.\nFor more information, see\nTune SQL queries using AI and\nDatabase advisor flags.\nApigee X\nAnnouncement\nOn November 2, 2026, we released an updated version of Apigee.\nNote: Rollouts of this release began today and may take four or more business days to be completed across all Google Cloud zones. Your instances may not have the features and…",
@@ -239,15 +248,6 @@
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-10-27T07:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "October 26, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#October_26_2026",
-        "summary": "Agent Platform Workbench\nChange\n20261025.00_p0 Release\nChange\nInstalled latest packages from upstream dependencies.\nSecurity\nUpdated certifi, pip, and conda ca-certificates to the latest versions.\nChange\n20261025.00_p0 Release\nChange\nInstalled latest packages from upstream dependencies.\nSecurity\nAddressed multiple reported security vulnerabilities in bundled packages.\nSecurity\nUpdated certifi, pip, and conda ca-certificates to the latest versions.\nFeature\nCustom organization policies for Agent Platform Workbench instances\nYou can now use custom organization policies to allow or deny the creation and\nupdate of Agent Platform Workbench instances based on their configuration. Custom\nconstraints for the notebooks.googleapis.com/Instance resource are enforced\nwhen you create or update an instance, and support dry-run mode. This feature is\nnow generally available\n(GA). For more\ninformation, see Create custom organization policy\nconstraints.\nApigee X\nFeature\nModel Context Protocol (MCP) tool arguments are sent to the location their OpenAPI\nparameter declares\nThis change applies to Apigee X in all supported regions.\nAn MCP tool argument whose OpenAPI parameter declares in: header is now sent to\nyour backend as a request header, and one that declares in: cookie is sent in the\nCookie header. Previously both were appended to the query string.\nin: query and in: path parameters are unchanged, and every parameter\nstill appears in the tool's inputSchema, so MCP clients supply arguments…",
-        "image": null,
-        "source": "Google Cloud Platform (GCP) - Release notes",
-        "published": "2026-10-26T07:00:00.000Z",
         "isNew": false
       }
     ],
@@ -401,6 +401,15 @@
     ],
     "python": [
       {
+        "title": "Announcing new Security Developer at the PSF",
+        "link": "https://pyfound.blogspot.com/2026/10/announcing-new-security-developer-2026.html",
+        "summary": "We’re excited to announce that Brett Smith is joining the Python Software Foundation as a Security Developer.\nBrett will be working closely with Seth Larson, Security Developer in Residence, and Mike Fiedler, PyPI Safety and Security Engineer, on the PSF’s security team to address the increasingly demanding scale of security response for the Python ecosystem. We’re grateful to Anthropic for their generous support, which has made the critical new Security Developer role possible.\n\n\n\n\n\n\nBrett brings a holistic approach to software security. Throughout his career he’s done both software development and Linux administration to support collaborative communities. He’s worked at nonprofits like the World Wide Web Consortium (W3C) and Software Freedom Conservancy as well as on open source projects like Request Tracker and the Arvados bioinformatics platform.\n\nSecurity Response at Ecosystem Scale\nAt PyCon US 2026, Seth Larson and Mike Fiedler presented that 2026 was the “year of more” when it comes to security: the Python Security Response Team (PSRT) is processing 3-4× the volume of reports and CVEs for Python and pip compared to just a year ago, and the amount of malware published and removed from the Python Package Index (PyPI) is up 60% compared to last year. The complexity of securing the vast Python ecosystem is growing along with the scale, particularly in the face of the evolving role of AI in both security risks and security response. Providing prompt security response…",
+        "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEikflEgF1pDPTBMUVGnVuSTV9NRsT9iEuvKDbcpWF0fwkDv96y5X2j-zZYYYlxdBYyrR-IAPgls6aVx0L9UHPWA39qvOs4qDCcAYXDvuQ4NAoSTNmqsfORzA4FZmFVAGVHZm_hEFIHctDEcmGPh3AD2y2vdtFU6rNwtT6KheEPW_GNcgem6eQ/s72-c/IMG_brett.jpg",
+        "source": "Python Software Foundation News",
+        "published": "2026-11-03T13:29:30.829Z",
+        "isNew": false
+      },
+      {
         "title": "Announcing PSF Community Service Award Recipients!",
         "link": "https://pyfound.blogspot.com/2026/10/announcing-psf-community-service-award.html",
         "summary": "The PSF Community Service Awards (CSAs) are a formal way for the PSF Board of Directors to offer recognition of work which, in its opinion, significantly improves the Foundation's fulfillment of its mission to build a vibrant, welcoming, global Python community. These awards shine a light on the incredible people who are the heart and soul of our community– those whose dedication, creativity, and generosity help the PSF fulfill its mission. The PSF CSAs celebrate individuals who have been truly invaluable, inspiring others through their example, and demonstrates that service to the Python community leads to recognition and reward. If you know of someone in the Python community deserving of a PSF CSA award, please submit them to the PSF Board via psf@python.org at any time. You can read more about PSF CSA’s on our website. \nThe PSF Board is excited to announce 5 new CSAs, awarded to Abhijeet Mote, Elena Williams, Hugo van Kemenade, Kevin Horn, Sarah Abderemane, for their contributions to the Python community. Read more about their work and impact below. \n\nAbhijeet Mote\nAbhijeet Mote has spent more than a decade teaching Python and expanding access to technical education across Asia, Europe, and North America. In 2019, he founded the Python Penang Meetup, which he led until 2022 and which grew into one of Malaysia's most active developer communities, giving students, engineers, and enthusiasts a place to learn and share knowledge. In India, he has trained university faculty,…",
@@ -461,15 +470,6 @@
         "image": null,
         "source": "Python Insider",
         "published": "2026-10-13T00:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "Python 3.15.0 (final) is here!",
-        "link": "https://blog.python.org/2026/10/python-3150-final-is-here/",
-        "summary": "A brand new Python here for you to enjoy!",
-        "image": null,
-        "source": "Python Insider",
-        "published": "2026-10-09T00:00:00.000Z",
         "isNew": false
       }
     ],
@@ -549,6 +549,15 @@
     ],
     "rust": [
       {
+        "title": "Announcing rustup 1.29.3",
+        "link": "https://blog.rust-lang.org/2026/11/03/Rustup-1.29.3/",
+        "summary": "The rustup team has published a new point release of rustup, 1.29.3.\nRustup is the recommended tool to install Rust, a\nprogramming language that empowers everyone to build reliable and efficient\nsoftware.\n\nWhat's new in rustup 1.29.3\nThis new patch release has fixed some minor regressions over the previous one:\nFixed \"Illegal instruction\" error on certain x86_64 CPUs without SSE4.1.\npr#5162\nFixed \"lock() not supported\" error on Solaris. pr#5167\nFurther details are available in the changelog!\n\nHow to update\nIf you have a previous version of rustup installed, getting the new one is as easy as stopping\nany programs which may be using rustup (e.g. closing your IDE) and running:\n$ rustup self update\nRustup will also automatically update itself at the end of a normal toolchain update:\n$ rustup update\nFor this particular release, if you have encountered any issues during\nself-update, you may try to update rustup manually by following the steps below:\nDownload the corresponding rustup-init binary for\nyour platform.\nMake double sure that no other rustup processes are running.\nReplace your existing rustup binary with the downloaded rustup-init\nrenamed to rustup.\n\nAs a reminder, this binary is often located at $HOME/.cargo/bin/rustup, or\n$CARGO_HOME/bin/rustup if you have overridden the $CARGO_HOME environment\nvariable.\nIf you don't have it already, you can get rustup from the appropriate page on our website.\nRustup's documentation is also available in the rustup book.\n\nCaveats\nRustup…",
+        "image": null,
+        "source": "Rust Blog",
+        "published": "2026-11-03T00:00:00.000Z",
+        "isNew": false
+      },
+      {
         "title": "How to fund Rust contributors",
         "link": "https://blog.rust-lang.org/2026/10/26/how-to-fund-rust-contributors/",
         "summary": "TLDR:\nTo fund general maintenance, donate to the Rust Foundation Maintainers Fund or sponsor the RustNL Maintainers Team\nTo fund specific features and improvements, sponsor fundable Rust Project Goals\nTo fund individual contributors, donate to their GitHub Sponsors accounts\nThere is always so much to do in the Rust Project! New features to implement, bugs to fix, performance optimizations to make, issues to triage… It takes a lot of work to keep our high bar of quality while also shipping new features and improvements. And the workload keeps increasing with the continuous growth of Rust adoption.\nAs is unfortunately common in open source projects, a large fraction of that work is currently done by volunteers. That causes various issues, such as people burning out or complex features taking many years to ship.\nUnsurprisingly, one of the best ways to help improve that is to get more people who work on Rust funded! This year, several funding initiatives started ramping up, and we already experience many positive effects. They helped us improve the maintenance status of critical Rust projects and make significant progress on several long-awaited features, such as allocators, the never type, the next trait solver or the Polonius borrow checker. However, only a fraction of people working on Rust are currently funded for their work.\nWe know that there are Rust users, both individuals and companies, who would like to help improve Rust by funding it, but it might not always be…",
@@ -609,15 +618,6 @@
         "image": null,
         "source": "Rust Blog",
         "published": "2026-09-21T00:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "Be alert: targeted attacks on prominent Rustaceans",
-        "link": "https://blog.rust-lang.org/2026/09/17/targeted-attacks/",
-        "summary": "We believe that there is an ongoing campaign targeting rust-lang members and\nowners of popular crates that is attempting to compromise devices and accounts\nin order to use them to publish malware.\n\nWhat we've seen\nA video call is set up for something positive — maybe for a job, maybe for a\nproject, maybe for a contract opportunity — and then that's used as a vector to\neither get the target to install something on their computer (such as a\npurportedly missing audio codec) or execute another command (for example, via\nputting a command on the clipboard).\nThese attackers are setting up new but legitimate seeming company profiles,\nincluding plausible LinkedIn presences, in order to pass cursory inspection.\nA previous attack of this form targeted many prominent Rust developers in\nJune, and, last month, the arrayref crate was briefly compromised through similar\nattacks. At this moment we do not know if these are all a part of the same\ncampaign.\nThis attack style is known to be used by the DPRK, and has been seen outside of the Rust community as well.\n\nWhat you can do\nPlease take extra care in the near term. Be appropriately suspicious of cold\noutreaches, and ensure that any calls you have with new people are on platforms\nyou trust — ideally, try to be the one who sets up the call on a platform you\nalready use.\nPlease also re-check that your accounts look normal: MFA enabled,\nno unexpected logins on platforms that can track that, and so on.\nIf you have any concerns about your…",
-        "image": null,
-        "source": "Rust Blog",
-        "published": "2026-09-17T00:00:00.000Z",
         "isNew": false
       }
     ],
