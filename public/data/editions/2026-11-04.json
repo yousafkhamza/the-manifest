@@ -1,6 +1,6 @@
 {
   "date": "2026-11-04",
-  "generatedAt": "2026-11-04T18:40:12.226Z",
+  "generatedAt": "2026-11-04T22:37:47.629Z",
   "totalArticles": 72,
   "ticker": [
     {
@@ -179,6 +179,15 @@
     ],
     "gcp": [
       {
+        "title": "November 04, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#November_04_2026",
+        "summary": "AlloyDB for PostgreSQL\nFeature\nDirect Iceberg access in AlloyDB for PostgreSQL is available for PostgreSQL 18\nand later (in Preview).\nThis feature lets you query Apache Iceberg tables in Cloud Storage or Lakehouse\nruntime catalog and accelerate analytical queries using the AlloyDB columnar\nengine.\nFor more information, see\nAccess Iceberg data from\nAlloyDB.\nFeature\nSyncing data from BigQuery into AlloyDB is generally available\n(GA). This feature\nlets you copy or mirror analytical tables from BigQuery into AlloyDB for\nlow-latency operational access using the alloydb_sync extension.\nFor more information, see\nSync BigQuery data to AlloyDB.\nFeature\nAlloyDB Express is available in\nPreview for\nPostgreSQL 18. Optimized for rapid prototyping and for workflows that use AI\ncoding agents, this configuration provides the following features:\nFast provisioning\nScale-to-zero compute when idle\nA monthly free tier for the first 12 months of usage\nOne-click upgrades to AlloyDB for PostgreSQL\nFor more information, see\nAlloyDB Express overview.\nApigee Operator for kubernetes\nAnnouncement\nOn November 4, 2026, we released an updated version of Apigee.\nFeature\nThe Apigee Operator for Kubernetes version 1.1.2 is now available.\nSecurity\nBug ID\nDescription\n\n\n\n\n521387476, 521388685, 521389473, 521389648, 521390401, 521390431, 521418315, 521467563, 521470029, 521523106, 521532318, 522502328, 522502515, 522502723, 522508097, 522515015, 522515987, 523406508, 524990439, 525000385, 525013469, 545525835,…",
+        "image": null,
+        "source": "Google Cloud Platform (GCP) - Release notes",
+        "published": "2026-11-04T08:00:00.000Z",
+        "isNew": false
+      },
+      {
         "title": "November 03, 2026",
         "link": "https://docs.cloud.google.com/release-notes#November_03_2026",
         "summary": "API Gateway\nFeature\nCall Google Cloud APIs from streaming gateways\nStreaming gateways can now call Google Cloud APIs such as aiplatform.googleapis.com. A gateway with an effectiveStreamingMode of EFFECTIVE_STREAMING_MODE_ENABLED authenticates to backends whose host ends in .googleapis.com or .vertexai.goog with an access token for the gateway's service account. Other backends still receive an ID token. An existing streaming gateway switches when API Gateway next rolls out a gateway update, or immediately when you update it to a new API config.\nFor more information, see Securing backend services.\nApigee hybrid\nAnnouncement\nv1.15.10\nOn November 3, 2026 we released an updated version of the Apigee hybrid\nsoftware, v1.15.10.\nFor information about upgrading, see\nUpgrading Apigee hybrid to v1.15.10.\nFor information about new installations, see\nThe big picture.\nNote: This is a patch release. The container images used in patch releases are\nintegrated with the Apigee hybrid Helm charts. Upgrading to a patch by using\nthe Helm chart automatically updates the images. You don't typically need to\nmake manual image changes. For information about container image support in\nApigee hybrid releases, see\nApigee release process.\nFixed\nFixed in this release\nBug ID\nDescription\n\n\n\n\n578314600\nFixed an issue where apigee-connect-agent ignored HTTPS_PROXY and failed to establish a tether in clusters that require an HTTP forward proxy for egress; the agent now uses HTTP/2 keepalive pings on the…",
@@ -239,15 +248,6 @@
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-10-28T07:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "October 27, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#October_27_2026",
-        "summary": "AlloyDB for PostgreSQL\nAnnouncement\nThe following AlloyDB AI functions and improvements are available in\nPreview:\nThe ai.extract function lets you extract structured data from\nunstructured text directly within your database queries without needing\nexternal extraction pipelines. For more information, see\nExtract structured data.\n\n\nThe ai.classify function lets you categorize unstructured text into\npredefined labels directly within your database queries. For more\ninformation, see Classify text.\n\n\nParameter names and signatures for AI query engine functions\n(ai.analyze_sentiment, ai.summarize, and ai.agg_summarize) are\nupdated. For more information, see\nModel endpoint reference.\nThe prompt and prompts parameters are renamed to input and\ninputs in scalar and batch functions respectively.\n\n\nAn optional additional_instructions parameter is added to\nai.summarize and ai.agg_summarize to provide custom instructions to\nguide summary formatting, length, and tone.\n\n\nIn cursor-based versions of ai.analyze_sentiment and ai.summarize,\nthe prompt parameter is removed.\n\n\nai.agg_summarize supports multiple positional signatures, including\npassing optional additional instructions and specifying model IDs.\n\n\nApigee X\nFeature\nThe Apigee API Health & Availability dashboard is now generally available in Cloud Monitoring to help you monitor the health, performance, and availability of your Apigee API proxies in real time:\nGolden signal scorecards: track aggregate Traffic (requests per\nsecond),…",
-        "image": null,
-        "source": "Google Cloud Platform (GCP) - Release notes",
-        "published": "2026-10-27T07:00:00.000Z",
         "isNew": false
       }
     ],
