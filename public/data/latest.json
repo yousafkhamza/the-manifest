@@ -1,6 +1,6 @@
 {
-  "date": "2026-11-03",
-  "generatedAt": "2026-11-03T22:18:23.359Z",
+  "date": "2026-11-04",
+  "generatedAt": "2026-11-04T12:58:50.125Z",
   "totalArticles": 72,
   "ticker": [
     {
@@ -105,15 +105,6 @@
     ],
     "azure": [
       {
-        "title": "The Platform Behind the Next AI Breakthrough",
-        "link": "https://www.wired.com/sponsored/story/the-platform-behind-the-next-ai-breakthrough/",
-        "summary": "The next frontier of AI is coming into focus as agents take on longer, more strategic work.\nThe post The Platform Behind the Next AI Breakthrough appeared first on Microsoft Azure Blog.",
-        "image": "https://media.wired.com/photos/6ada55464d8b7a36ac2c8378/master/w_1600%2Cc_limit/CLO19_azureKinectDK_017.jpg",
-        "source": "Microsoft Azure Blog",
-        "published": "2026-11-02T20:52:22.000Z",
-        "isNew": false
-      },
-      {
         "title": "Azure Cloud HSM Hardware Audit Logging: Verifiable audit trails for security and compliance",
         "link": "https://azure.microsoft.com/en-us/blog/azure-cloud-hsm-hardware-audit-logging-verifiable-audit-trails-for-security-and-compliance/",
         "summary": "Security, compliance, and operations teams can use this hardware-originated evidence for monitoring, compliance reporting, and forensic investigations.\nThe post Azure Cloud HSM Hardware Audit Logging: Verifiable audit trails for security and compliance appeared first on Microsoft Azure Blog.",
@@ -175,13 +166,22 @@
         "source": "Microsoft Azure Blog",
         "published": "2026-10-15T16:00:00.000Z",
         "isNew": false
+      },
+      {
+        "title": "Microsoft named a Leader in the 2026 Gartner® Magic Quadrant™ for Server Virtualization Platforms",
+        "link": "https://azure.microsoft.com/en-us/blog/microsoft-named-a-leader-in-the-2026-gartner-magic-quadrant-for-server-virtualization-platforms/",
+        "summary": "We're building operational consistency through Azure and Azure Arc, and infrastructure consistency through Hyper-V.\nThe post Microsoft named a Leader in the 2026 Gartner® Magic Quadrant™ for Server Virtualization Platforms appeared first on Microsoft Azure Blog.",
+        "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/10/image.jpg",
+        "source": "Microsoft Azure Blog",
+        "published": "2026-10-14T19:00:00.000Z",
+        "isNew": true
       }
     ],
     "gcp": [
       {
         "title": "November 03, 2026",
         "link": "https://docs.cloud.google.com/release-notes#November_03_2026",
-        "summary": "Application Design Center\nFeature\nApplication Design Center is available in the following regions:\nOsaka, Japan (asia-northeast2)\nMumbai, India (asia-south1)\nBangkok, Thailand (asia-southeast3)\nSydney, Australia (australia-southeast1)\nBerlin, Germany (europe-west10)\nMoncks Corner, South Carolina (us-east1)\nDammam, Saudi Arabia (me-central2)\nFor more information, see\nApp Design Center locations.\nOracle Database@Google Cloud\nFeature\nOracle Database@Google Cloud introduces Database Connections using which you can connect to your Oracle databases and execute SQL statements.\nFor more information, see Create Database Connections and Execute SQL statements.\nThis feature is generally available (GA).",
+        "summary": "API Gateway\nFeature\nCall Google Cloud APIs from streaming gateways\nStreaming gateways can now call Google Cloud APIs such as aiplatform.googleapis.com. A gateway with an effectiveStreamingMode of EFFECTIVE_STREAMING_MODE_ENABLED authenticates to backends whose host ends in .googleapis.com or .vertexai.goog with an access token for the gateway's service account. Other backends still receive an ID token. An existing streaming gateway switches when API Gateway next rolls out a gateway update, or immediately when you update it to a new API config.\nFor more information, see Securing backend services.\nApigee hybrid\nAnnouncement\nv1.15.10\nOn November 3, 2026 we released an updated version of the Apigee hybrid\nsoftware, v1.15.10.\nFor information about upgrading, see\nUpgrading Apigee hybrid to v1.15.10.\nFor information about new installations, see\nThe big picture.\nNote: This is a patch release. The container images used in patch releases are\nintegrated with the Apigee hybrid Helm charts. Upgrading to a patch by using\nthe Helm chart automatically updates the images. You don't typically need to\nmake manual image changes. For information about container image support in\nApigee hybrid releases, see\nApigee release process.\nFixed\nFixed in this release\nBug ID\nDescription\n\n\n\n\n578314600\nFixed an issue where apigee-connect-agent ignored HTTPS_PROXY and failed to establish a tether in clusters that require an HTTP forward proxy for egress; the agent now uses HTTP/2 keepalive pings on the…",
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-11-03T08:00:00.000Z",
@@ -623,6 +623,15 @@
     ],
     "javascript": [
       {
+        "title": "Wednesday, November 11, 2026 Security Releases",
+        "link": "https://nodejs.org/en/blog/vulnerability/november-2026-security-releases",
+        "summary": "",
+        "image": null,
+        "source": "Node.js Blog",
+        "published": "2026-11-03T23:00:00.000Z",
+        "isNew": true
+      },
+      {
         "title": "Node.js 27.0.0-alpha.0.0.0 (Alpha)",
         "link": "https://nodejs.org/en/blog/release/v27.0.0-alpha.0.0.0",
         "summary": "",
@@ -683,15 +692,6 @@
         "image": null,
         "source": "Node.js Blog",
         "published": "2026-10-21T10:39:12.000Z",
-        "isNew": false
-      },
-      {
-        "title": "Node.js 24.22.0 (LTS)",
-        "link": "https://nodejs.org/en/blog/release/v24.22.0",
-        "summary": "",
-        "image": null,
-        "source": "Node.js Blog",
-        "published": "2026-10-14T15:26:48.000Z",
         "isNew": false
       }
     ]
