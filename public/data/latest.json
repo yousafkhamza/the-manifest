@@ -1,6 +1,6 @@
 {
-  "date": "2026-11-04",
-  "generatedAt": "2026-11-04T22:37:47.629Z",
+  "date": "2026-11-05",
+  "generatedAt": "2026-11-05T13:11:19.685Z",
   "totalArticles": 72,
   "ticker": [
     {
@@ -30,6 +30,15 @@
   ],
   "topics": {
     "aws": [
+      {
+        "title": "Amazon S3 Tables now offer managed migration of Apache Hive tables to Apache Iceberg",
+        "link": "https://aws.amazon.com/blogs/aws/amazon-s3-tables-now-offer-managed-migration-of-apache-hive-tables-to-apache-iceberg/",
+        "summary": "You can now migrate existing Apache Hive datasets in Amazon S3 to fully managed Apache Iceberg tables in Amazon S3 Tables, with no pipelines to build or compute to provision, while production workloads keep running.",
+        "image": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2026/09/20/2026-s3-tables-hive-to-iceberg-1.jpg",
+        "source": "AWS News Blog",
+        "published": "2026-11-04T23:34:52.000Z",
+        "isNew": true
+      },
       {
         "title": "AWS Weekly Roundup: GPT-6.1 Terra on Bedrock, Step Functions as agent tools, and more (November 2, 2026)",
         "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-gpt-6-1-terra-on-bedrock-step-functions-as-agent-tools-and-more-november-2-2026/",
@@ -91,15 +100,6 @@
         "image": null,
         "source": "AWS News Blog",
         "published": "2026-10-13T15:59:06.000Z",
-        "isNew": false
-      },
-      {
-        "title": "Announcing AWS Lambda Web Functions",
-        "link": "https://aws.amazon.com/blogs/aws/announcing-aws-lambda-web-functions-for-fast-consistent-web-app-performance-anywhere/",
-        "summary": "AWS Lambda Web Functions is a serverless compute primitive that runs your HTTP framework natively, delivering fast, consistent responses through multi-concurrent execution and automated global distribution.",
-        "image": null,
-        "source": "AWS News Blog",
-        "published": "2026-10-12T22:34:47.000Z",
         "isNew": false
       }
     ],
@@ -179,6 +179,15 @@
     ],
     "gcp": [
       {
+        "title": "November 05, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#November_05_2026",
+        "summary": "Model Armor\nFeature\nYou can enable or disable the child sexual abuse material (CSAM) filter in\nModel Armor templates and floor settings, and configure granular\nconfidence levels (High, Medium and above, and Low and above).\nFor more information, see Model Armor\nfilters and Create and manage\ntemplates.",
+        "image": null,
+        "source": "Google Cloud Platform (GCP) - Release notes",
+        "published": "2026-11-05T08:00:00.000Z",
+        "isNew": true
+      },
+      {
         "title": "November 04, 2026",
         "link": "https://docs.cloud.google.com/release-notes#November_04_2026",
         "summary": "AlloyDB for PostgreSQL\nFeature\nDirect Iceberg access in AlloyDB for PostgreSQL is available for PostgreSQL 18\nand later (in Preview).\nThis feature lets you query Apache Iceberg tables in Cloud Storage or Lakehouse\nruntime catalog and accelerate analytical queries using the AlloyDB columnar\nengine.\nFor more information, see\nAccess Iceberg data from\nAlloyDB.\nFeature\nSyncing data from BigQuery into AlloyDB is generally available\n(GA). This feature\nlets you copy or mirror analytical tables from BigQuery into AlloyDB for\nlow-latency operational access using the alloydb_sync extension.\nFor more information, see\nSync BigQuery data to AlloyDB.\nFeature\nAlloyDB Express is available in\nPreview for\nPostgreSQL 18. Optimized for rapid prototyping and for workflows that use AI\ncoding agents, this configuration provides the following features:\nFast provisioning\nScale-to-zero compute when idle\nA monthly free tier for the first 12 months of usage\nOne-click upgrades to AlloyDB for PostgreSQL\nFor more information, see\nAlloyDB Express overview.\nApigee Operator for kubernetes\nAnnouncement\nOn November 4, 2026, we released an updated version of Apigee.\nFeature\nThe Apigee Operator for Kubernetes version 1.1.2 is now available.\nSecurity\nBug ID\nDescription\n\n\n\n\n521387476, 521388685, 521389473, 521389648, 521390401, 521390431, 521418315, 521467563, 521470029, 521523106, 521532318, 522502328, 522502515, 522502723, 522508097, 522515015, 522515987, 523406508, 524990439, 525000385, 525013469, 545525835,…",
@@ -190,7 +199,7 @@
       {
         "title": "November 03, 2026",
         "link": "https://docs.cloud.google.com/release-notes#November_03_2026",
-        "summary": "API Gateway\nFeature\nCall Google Cloud APIs from streaming gateways\nStreaming gateways can now call Google Cloud APIs such as aiplatform.googleapis.com. A gateway with an effectiveStreamingMode of EFFECTIVE_STREAMING_MODE_ENABLED authenticates to backends whose host ends in .googleapis.com or .vertexai.goog with an access token for the gateway's service account. Other backends still receive an ID token. An existing streaming gateway switches when API Gateway next rolls out a gateway update, or immediately when you update it to a new API config.\nFor more information, see Securing backend services.\nApigee hybrid\nAnnouncement\nv1.15.10\nOn November 3, 2026 we released an updated version of the Apigee hybrid\nsoftware, v1.15.10.\nFor information about upgrading, see\nUpgrading Apigee hybrid to v1.15.10.\nFor information about new installations, see\nThe big picture.\nNote: This is a patch release. The container images used in patch releases are\nintegrated with the Apigee hybrid Helm charts. Upgrading to a patch by using\nthe Helm chart automatically updates the images. You don't typically need to\nmake manual image changes. For information about container image support in\nApigee hybrid releases, see\nApigee release process.\nFixed\nFixed in this release\nBug ID\nDescription\n\n\n\n\n578314600\nFixed an issue where apigee-connect-agent ignored HTTPS_PROXY and failed to establish a tether in clusters that require an HTTP forward proxy for egress; the agent now uses HTTP/2 keepalive pings on the…",
+        "summary": "API Gateway\nFeature\nCall Google Cloud APIs from streaming gateways\nStreaming gateways can now call Google Cloud APIs such as aiplatform.googleapis.com. A gateway with an effectiveStreamingMode of EFFECTIVE_STREAMING_MODE_ENABLED authenticates to backends whose host ends in .googleapis.com or .vertexai.goog with an access token for the gateway's service account. Other backends still receive an ID token. An existing streaming gateway switches when API Gateway next rolls out a gateway update, or immediately when you update it to a new API config.\nFor more information, see Securing backend services.\nAlloyDB for PostgreSQL\nChange\nAlloyDB for PostgreSQL now defaults to PostgreSQL major version 18\nfor new clusters.\nApigee X\nAnnouncement\nOn November 3, 2026, we released an updated version of Apigee (1-18-0-apigee-8).\nNote: Rollouts of this release began today and can take four or more business\ndays to complete across all Google Cloud zones. Your instances might not have\nthe features and fixes available until the rollout is complete.\nSecurity\nBug ID\nDescription\n\n\n\n\nN/A\nSecurity fix for Apigee infrastructure.\n\n\n\nFixed\nBug ID\nDescription\n\n\n\n\n574037227\nAdded config override token oauth_default_access_token_expiry_time_in_millis (per-org via the deployment contract) that overrides the default OAuthV2 access token lifetime (ms) applied when a policy omits <ExpiresIn>. When unset, behavior is unchanged (installation default, typically 30 days).\n\n\n573326336\nProxies that declare…",
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-11-03T08:00:00.000Z",
@@ -208,7 +217,7 @@
       {
         "title": "November 01, 2026",
         "link": "https://docs.cloud.google.com/release-notes#November_01_2026",
-        "summary": "Agent Platform Workbench\nChange\n20261101-2230-rc0 Release\nChange\n20261101-2230-rc0 Release\nChange\nInstalled latest packages from upstream dependencies.\nChange\nInstalled latest packages from upstream dependencies.\nSecurity\nUpdated the CA certificate configuration.\nSecurity\nUpgraded the container host to the latest Container-Optimized OS LTS release, rebasing onto the newest operating system, Go, and containerd security fixes.\nSecurity\nUpdated the CA certificate configuration.\nSecurity\nUpgraded the container host to the latest Container-Optimized OS LTS release, rebasing onto the newest operating system, Go, and containerd security fixes.\nChange\n20261101-2130-rc0 Release\nChange\nInstalled latest packages from upstream dependencies.\nSecurity\nUpdated the CA certificate configuration.\nChange\nM155 Release\nChange\nInstalled latest packages from upstream dependencies.\nSecurity\nUpdated the CA certificate configuration.\nGoogle SecOps SOAR\nAnnouncement\nRelease 6.3.105 is being rolled out to the first phase of regions as listed\nhere.\nThis release contains internal and customer bug fixes.",
+        "summary": "Agent Platform Workbench\nChange\n20261101-2230-rc0 Release\nChange\n20261101-2230-rc0 Release\nChange\nInstalled latest packages from upstream dependencies.\nChange\nInstalled latest packages from upstream dependencies.\nSecurity\nUpdated the CA certificate configuration.\nSecurity\nUpgraded the container host to the latest Container-Optimized OS LTS release, rebasing onto the newest operating system, Go, and containerd security fixes.\nSecurity\nUpdated the CA certificate configuration.\nSecurity\nUpgraded the container host to the latest Container-Optimized OS LTS release, rebasing onto the newest operating system, Go, and containerd security fixes.\nChange\n20261101-2130-rc0 Release\nChange\nInstalled latest packages from upstream dependencies.\nSecurity\nUpdated the CA certificate configuration.\nFixed\nChanges to the idle shutdown timeout now take effect on running instances without a restart. Previously, an instance could still be stopped after the old timeout until it was restarted.\nFixed\nFixed an issue where temporary metadata server errors could delay idle shutdown or stop it from working until the instance was restarted.\nChange\nM155 Release\nChange\nInstalled latest packages from upstream dependencies.\nSecurity\nUpdated the CA certificate configuration.\nFixed\nChanges to the idle shutdown timeout now take effect on running instances without a restart. Previously, an instance could still be stopped after the old timeout until it was restarted.\nFixed\nFixed an issue where temporary metadata…",
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-11-01T08:00:00.000Z",
@@ -239,15 +248,6 @@
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-10-29T07:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "October 28, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#October_28_2026",
-        "summary": "AlloyDB for PostgreSQL\nAnnouncement\nThe following AlloyDB AI and vector search features and improvements are\ngenerally available\n(GA):\nThe alloydb_scann extension supports four-level tree (4LT) ScaNN vector\nindexes on PostgreSQL 17 and later, providing support for tables with up to\n10 billion vector rows. For more information, see\nFour-level ScaNN tree indexes.\n\n\n4LT ScaNN vector indexes support automatic index maintenance. For more\ninformation, see Create a ScaNN index\nand\nMaintain vector indexes automatically.\n\n\nYou can enable streaming functionality for ScaNN vector indexes by setting\nthe scann.satisfy_limit parameter to relaxed_order. When enabled, the\nvector scan continues searching through additional leaf partitions until it\nfinds enough results to satisfy the LIMIT clause of your query, improving\nrecall on filtered searches. Additionally, you can enable this feature for\nparallel process scans by setting the scann.enable_parallel_satisfy_limit\ndatabase flag to on. For more information, see\nScaNN index reference\nand\nBest practices for tuning ScaNN indexes.\n\n\nVector assist simplifies the deployment and management of your AlloyDB\nvector workloads by helping you set up production-ready vector search\ncapabilities, including embedding generation, query optimization, and index\ncreation for vector types such as Hierarchical Navigable Small World (HNSW).\nFor more information, see\nVector assist overview.\n\n\nFor AlloyDB for PostgreSQL instances running PostgreSQL 17 and later, the…",
-        "image": null,
-        "source": "Google Cloud Platform (GCP) - Release notes",
-        "published": "2026-10-28T07:00:00.000Z",
         "isNew": false
       }
     ],
@@ -632,6 +632,15 @@
         "isNew": false
       },
       {
+        "title": "Notable V8 changes from Node.js 26 to 27 (Alpha)",
+        "link": "https://nodejs.org/en/blog/announcements/notable-v8-changes-from-node-js-26-to-27-alpha",
+        "summary": "",
+        "image": null,
+        "source": "Node.js Blog",
+        "published": "2026-11-02T12:00:00.000Z",
+        "isNew": true
+      },
+      {
         "title": "Node.js 27.0.0-alpha.0.0.0 (Alpha)",
         "link": "https://nodejs.org/en/blog/release/v27.0.0-alpha.0.0.0",
         "summary": "",
@@ -683,15 +692,6 @@
         "image": null,
         "source": "Node.js Blog",
         "published": "2026-10-21T10:39:14.000Z",
-        "isNew": false
-      },
-      {
-        "title": "Node.js 22.23.4 (LTS)",
-        "link": "https://nodejs.org/en/blog/release/v22.23.4",
-        "summary": "",
-        "image": null,
-        "source": "Node.js Blog",
-        "published": "2026-10-21T10:39:12.000Z",
         "isNew": false
       }
     ]
