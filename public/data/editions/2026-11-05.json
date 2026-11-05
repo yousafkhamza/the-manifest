@@ -1,6 +1,6 @@
 {
   "date": "2026-11-05",
-  "generatedAt": "2026-11-05T13:11:19.685Z",
+  "generatedAt": "2026-11-05T18:46:32.246Z",
   "totalArticles": 72,
   "ticker": [
     {
@@ -37,7 +37,7 @@
         "image": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2026/09/20/2026-s3-tables-hive-to-iceberg-1.jpg",
         "source": "AWS News Blog",
         "published": "2026-11-04T23:34:52.000Z",
-        "isNew": true
+        "isNew": false
       },
       {
         "title": "AWS Weekly Roundup: GPT-6.1 Terra on Bedrock, Step Functions as agent tools, and more (November 2, 2026)",
@@ -181,16 +181,16 @@
       {
         "title": "November 05, 2026",
         "link": "https://docs.cloud.google.com/release-notes#November_05_2026",
-        "summary": "Model Armor\nFeature\nYou can enable or disable the child sexual abuse material (CSAM) filter in\nModel Armor templates and floor settings, and configure granular\nconfidence levels (High, Medium and above, and Low and above).\nFor more information, see Model Armor\nfilters and Create and manage\ntemplates.",
+        "summary": "Apigee Edge for Public Cloud\nAnnouncement\nScheduled maintenance of Management/Control Plane for the Apigee Edge for Public Cloud on November 6, 2026.\nScheduled maintenance of Management/Control Plane for the Apigee Edge for Public Cloud production will take place on Friday, November 6, 2026, from 9:00 PM PT to\n10:00 PM PT (Saturday, November 7, 2026, from 5:00 AM UTC to 6:00 AM UTC). This\nmaintenance follows the monthly maintenance window schedule documented in the\nApigee Edge release notes archive.\nDuring the scheduled maintenance window, the following services will be\ntemporarily unavailable, and attempts to access them will return a 4xx status\ncode:\nManagement Services UI\nManagement Services APIs\nMonetization Management APIs\nNew proxy deployments\nDevPortal Service\nMicrogateway Services\nEdge Query (Analytics Stats APIs)\nRuntime API calls to deployed API proxies are unaffected. While access to\nanalytics queries may be temporarily unavailable during the maintenance window, all\nanalytics and metrics data from this period will be available once maintenance\nends.\nBigQuery\nFeature\nConversational analytics in BigQuery\nis now available in the asia-northeast1 (Tokyo) location. For more\ninformation, see Locations.\nModel Armor\nFeature\nYou can enable or disable the child sexual abuse material (CSAM) filter in\nModel Armor templates and floor settings, and configure granular\nconfidence levels (High, Medium and above, and Low and above).\nFor more information, see Model Armor\nfilters and…",
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-11-05T08:00:00.000Z",
-        "isNew": true
+        "isNew": false
       },
       {
         "title": "November 04, 2026",
         "link": "https://docs.cloud.google.com/release-notes#November_04_2026",
-        "summary": "AlloyDB for PostgreSQL\nFeature\nDirect Iceberg access in AlloyDB for PostgreSQL is available for PostgreSQL 18\nand later (in Preview).\nThis feature lets you query Apache Iceberg tables in Cloud Storage or Lakehouse\nruntime catalog and accelerate analytical queries using the AlloyDB columnar\nengine.\nFor more information, see\nAccess Iceberg data from\nAlloyDB.\nFeature\nSyncing data from BigQuery into AlloyDB is generally available\n(GA). This feature\nlets you copy or mirror analytical tables from BigQuery into AlloyDB for\nlow-latency operational access using the alloydb_sync extension.\nFor more information, see\nSync BigQuery data to AlloyDB.\nFeature\nAlloyDB Express is available in\nPreview for\nPostgreSQL 18. Optimized for rapid prototyping and for workflows that use AI\ncoding agents, this configuration provides the following features:\nFast provisioning\nScale-to-zero compute when idle\nA monthly free tier for the first 12 months of usage\nOne-click upgrades to AlloyDB for PostgreSQL\nFor more information, see\nAlloyDB Express overview.\nApigee Operator for kubernetes\nAnnouncement\nOn November 4, 2026, we released an updated version of Apigee.\nFeature\nThe Apigee Operator for Kubernetes version 1.1.2 is now available.\nSecurity\nBug ID\nDescription\n\n\n\n\n521387476, 521388685, 521389473, 521389648, 521390401, 521390431, 521418315, 521467563, 521470029, 521523106, 521532318, 522502328, 522502515, 522502723, 522508097, 522515015, 522515987, 523406508, 524990439, 525000385, 525013469, 545525835,…",
+        "summary": "API Gateway\nAnnouncement\nNegative backend deadlines are no longer deprecated\nThe deprecation of negative backend deadline values announced on\nOctober 23, 2026 is withdrawn. In an OpenAPI 2.0 x-google-backend\nextension or a gRPC BackendRule, a negative deadline continues to\nuse the default deadline, the same as 0, and won't be rejected.\nOpenAPI 3.x backends still reject a negative deadline.\nFor more information, see OpenAPI 2.0 extensions and OpenAPI 3.x extensions.\nAlloyDB for PostgreSQL\nFeature\nDirect Iceberg access in AlloyDB for PostgreSQL is available for PostgreSQL 18\nand later (in Preview).\nThis feature lets you query Apache Iceberg tables in Cloud Storage or Lakehouse\nruntime catalog and accelerate analytical queries using the AlloyDB columnar\nengine.\nFor more information, see\nAccess Iceberg data from\nAlloyDB.\nFeature\nSyncing data from BigQuery into AlloyDB is generally available\n(GA). This feature\nlets you copy or mirror analytical tables from BigQuery into AlloyDB for\nlow-latency operational access using the alloydb_sync extension.\nFor more information, see\nSync BigQuery data to AlloyDB.\nFeature\nAlloyDB Express is available in\nPreview for\nPostgreSQL 18. Optimized for rapid prototyping and for workflows that use AI\ncoding agents, this configuration provides the following features:\nFast provisioning\nScale-to-zero compute when idle\nA monthly free tier for the first 12 months of usage\nOne-click upgrades to AlloyDB for PostgreSQL\nFor more information, see\nAlloyDB Express…",
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-11-04T08:00:00.000Z",
@@ -401,6 +401,15 @@
     ],
     "python": [
       {
+        "title": "How the Python ecosystem responded to the eMudhra intermediate compromise",
+        "link": "https://pyfound.blogspot.com/2026/11/how-python-ecosystem-responded-to.html",
+        "summary": "The news of the eMudhra Intermediate CA compromise was published on October 20th, 2026. Responding to an incident like a Certificate Authority (CA) compromise at an ecosystem-scale is far from “routine”; the assumption that HTTPS is secure is baked into many aspects of Python applications and packaging. This meant it was critical to mount a response that was both comprehensive and customized to each affected project and service, ranging from the Python language, pip, and the Python Package Index (PyPI).\n\n\nThis is where security staffing at the Python Software Foundation made a difference for Python. Staffing meant that Seth Larson, the Security Developer-in-Residence, was on standby able to respond and begin work on the issue immediately. Pre-existing relationships with affected project maintainers afforded plenty of trust, and the work was completed in a way that respected the time of volunteer maintainers for affected packages by reaching out proactively with clear next steps. Thanks to Alpha-Omega for funding the Security Developer-in-Residence position at the Python Software Foundation.\n\n\nThe incident was mitigated across multiple components within two days. Thanks to the work of their respective maintainers: fixes were made available for certifi, Python, pip, uv, sigstore, virtualenv, conda, pixi, manylinux, gh-action-pypi-publish, and many other projects. Vulnerable versions of certifi, pip, and sigstore were patched across all projects and services that the Python…",
+        "image": null,
+        "source": "Python Software Foundation News",
+        "published": "2026-11-05T14:05:46.437Z",
+        "isNew": false
+      },
+      {
         "title": "Joshua Mcshannon Joins the PSF as Infrastructure Engineer",
         "link": "https://pyfound.blogspot.com/2026/11/joshua-mcshannon-joins-psf-as.html",
         "summary": "The Python Software Foundation (PSF) is excited to announce our newest staff\n  member and Infrastructure Engineer,\n  Joshua Mcshannon, reporting to\n  Director of Engineering Jacob Coffee. Joshua brings over 16 years of technical\n  expertise from various backgrounds including bootstrapped startups and big\n  tech. Most recently he built an AI-integrated learning platform for\n  cybersecurity students and taught secure web application development along\n  with DevOps/platform engineering.\n\n\n\n  \n    \n  \n\n\n\n  Joshua will focus on reducing operational complexity and toil of the PSF\n  infrastructure, optimizing to better serve the community at large and internal\n  PSF platforms that CPython core developers and staff members rely on daily;\n  this includes services like python.org, PyPI,\n  and infrastructure behind\n  PyCon US.\n  With Joshua on the team, the PSF will gain much needed redundancy for on-call\n  rotations as well as capacity for new infrastructure projects.\n\n\n“We put people on the moon with a Ti-82, I’m sure we can figure something out.” \ndiscuss.python.org!\n\n\nAbout the Python Software Foundation\nsponsorship program,\n  donate directly here,\n  or contact our team!",
@@ -461,15 +470,6 @@
         "image": null,
         "source": "Python Software Foundation News",
         "published": "2026-10-20T16:29:17.850Z",
-        "isNew": false
-      },
-      {
-        "title": "Announcing Python Software Foundation Fellow Members for Q3 2026! 🎉",
-        "link": "https://pyfound.blogspot.com/2026/10/announcing-python-software-foundation.html",
-        "summary": "The PSF is pleased to announce its third batch of PSF Fellows for 2026. Let us welcome the new PSF Fellows for Q3! The following people continue to do amazing things for the Python community:\nAldo Caneo\nLinkedIn, GitHub\nDonghee Na\nLinkedIn, GitHub\nPaul Moore\nGitHub, Mastodon\nTakayuki Shimizukawa\nWebsite\nThank you for your continued contributions. We have added you to our Fellows Roster.\nThe above members help support the Python ecosystem by being phenomenal leaders, sustaining the growth of the Python scientific community, maintaining virtual Python communities, maintaining Python libraries, creating educational material, organizing Python events and conferences, starting Python communities in local regions, and overall being great mentors in our community. Each of them continues to help make Python more accessible around the world. To learn more about the new Fellow members, check out their links above.\nLet's continue recognizing Pythonistas all over the world for their impact on our community. The criteria for Fellow members is available on our PSF Fellow Membership page. If you would like to nominate someone to be a PSF Fellow, please send a description of their Python accomplishments and their email address to psf-fellow at python.org. We are accepting nominations for Quarter 4 of 2026 through November 20th, 2026.\nAre you a PSF Fellow and want to help the Work Group review nominations? Contact us at psf-fellow at python.org.",
-        "image": null,
-        "source": "Python Software Foundation News",
-        "published": "2026-10-19T13:14:24.637Z",
         "isNew": false
       }
     ],
@@ -623,6 +623,15 @@
     ],
     "javascript": [
       {
+        "title": "Notable V8 changes from Node.js 26 to 27 (Alpha)",
+        "link": "https://nodejs.org/en/blog/announcements/notable-v8-changes-from-node-js-26-to-27-alpha",
+        "summary": "",
+        "image": null,
+        "source": "Node.js Blog",
+        "published": "2026-11-05T12:00:00.000Z",
+        "isNew": false
+      },
+      {
         "title": "Wednesday, November 11, 2026 Security Releases",
         "link": "https://nodejs.org/en/blog/vulnerability/november-2026-security-releases",
         "summary": "",
@@ -630,15 +639,6 @@
         "source": "Node.js Blog",
         "published": "2026-11-03T23:00:00.000Z",
         "isNew": false
-      },
-      {
-        "title": "Notable V8 changes from Node.js 26 to 27 (Alpha)",
-        "link": "https://nodejs.org/en/blog/announcements/notable-v8-changes-from-node-js-26-to-27-alpha",
-        "summary": "",
-        "image": null,
-        "source": "Node.js Blog",
-        "published": "2026-11-02T12:00:00.000Z",
-        "isNew": true
       },
       {
         "title": "Node.js 27.0.0-alpha.0.0.0 (Alpha)",
