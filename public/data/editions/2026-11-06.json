@@ -1,6 +1,6 @@
 {
   "date": "2026-11-06",
-  "generatedAt": "2026-11-06T12:56:39.805Z",
+  "generatedAt": "2026-11-06T18:00:29.703Z",
   "totalArticles": 72,
   "ticker": [
     {
@@ -105,31 +105,13 @@
     ],
     "azure": [
       {
-        "title": "Stop treating agents as one-off projects and start running them as a continuous discipline",
-        "link": "https://azure.microsoft.com/en-us/blog/stop-treating-agents-as-one-off-projects-and-start-running-them-as-a-continuous-discipline/",
-        "summary": "AI must be selected, architected, and managed as a continuous business discipline, not a series of isolated projects.\nThe post Stop treating agents as one-off projects and start running them as a continuous discipline appeared first on Microsoft Azure Blog.",
-        "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/10/CLO20b_Jean_Alain_casual_office_003.jpg",
-        "source": "Microsoft Azure Blog",
-        "published": "2026-11-05T17:00:00.000Z",
-        "isNew": true
-      },
-      {
-        "title": "Designing Azure silicon on Azure silicon: EDA workloads on Cobalt 200",
-        "link": "https://azure.microsoft.com/en-us/blog/designing-azure-silicon-on-azure-silicon-eda-workloads-on-cobalt-200/",
-        "summary": "Discover how Microsoft is accelerating electronic design automation (EDA) workloads with Azure Cobalt 200 VMs. Explore early performance results demonstrating faster simulation, verification, and static timing analysis, along with the benefits of scalable cloud infrastructure for silicon design and development.\nThe post Designing Azure silicon on Azure silicon: EDA workloads on Cobalt 200 appeared first on Microsoft Azure Blog.",
-        "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/11/Cadence-Xcelium-RTLSimulation-Throughput-1-1024x575.jpg",
-        "source": "Microsoft Azure Blog",
-        "published": "2026-11-05T16:00:00.000Z",
-        "isNew": true
-      },
-      {
         "title": "Predicting and detecting failures: How Azure strengthens reliability for mission-critical workloads",
         "link": "https://azure.microsoft.com/en-us/blog/predicting-and-detecting-failures-how-azure-strengthens-reliability-for-mission-critical-workloads/",
         "summary": "Azure Failure Prediction and Detection (AFPD) helps reduce interruptions by predicting hardware failures, moving eligible workloads, and notifying customers when action is needed. See what that means for SAP on Azure and other mission-critical workloads.\nThe post Predicting and detecting failures: How Azure strengthens reliability for mission-critical workloads appeared first on Microsoft Azure Blog.",
         "image": null,
         "source": "Microsoft Azure Blog",
         "published": "2026-11-04T16:00:00.000Z",
-        "isNew": true
+        "isNew": false
       },
       {
         "title": "The Platform Behind the Next AI Breakthrough",
@@ -138,7 +120,7 @@
         "image": "https://media.wired.com/photos/6ada55464d8b7a36ac2c8378/master/w_1600%2Cc_limit/CLO19_azureKinectDK_017.jpg",
         "source": "Microsoft Azure Blog",
         "published": "2026-11-02T20:52:22.000Z",
-        "isNew": true
+        "isNew": false
       },
       {
         "title": "Azure Cloud HSM Hardware Audit Logging: Verifiable audit trails for security and compliance",
@@ -175,13 +157,40 @@
         "source": "Microsoft Azure Blog",
         "published": "2026-10-20T17:34:47.000Z",
         "isNew": false
+      },
+      {
+        "title": "Designing for sovereign AI: A shared foundation from edge to cloud",
+        "link": "https://azure.microsoft.com/en-us/blog/designing-for-sovereign-ai-a-shared-foundation-from-edge-to-cloud/",
+        "summary": "A flexible sovereign architecture allows organizations to place each workload in the right environment, apply the controls it requires, and maintain consistency.\nThe post Designing for sovereign AI: A shared foundation from edge to cloud appeared first on Microsoft Azure Blog.",
+        "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/10/Msft-Intel-YourAI-960.gif",
+        "source": "Microsoft Azure Blog",
+        "published": "2026-10-19T19:00:00.000Z",
+        "isNew": false
+      },
+      {
+        "title": "Managing open-weight model risk in enterprise deployments",
+        "link": "https://www.microsoft.com/en-us/security/blog/2026/10/16/managing-open-weight-model-risk-in-enterprise-deployments/",
+        "summary": "The growing AI landscape is giving enterprises more choice in how they build, customize, and deploy increasingly capable models.\nThe post Managing open-weight model risk in enterprise deployments appeared first on Microsoft Azure Blog.",
+        "image": null,
+        "source": "Microsoft Azure Blog",
+        "published": "2026-10-16T16:05:00.000Z",
+        "isNew": false
       }
     ],
     "gcp": [
       {
+        "title": "November 06, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#November_06_2026",
+        "summary": "Bigtable\nFeature\nYou can configure a Bigtable automated backup policy\non SSD instances to create daily hot backups\nand specify how long the backups remain hot before automatically transitioning\nto standard backups. This feature is\ngenerally available (GA).",
+        "image": null,
+        "source": "Google Cloud Platform (GCP) - Release notes",
+        "published": "2026-11-06T08:00:00.000Z",
+        "isNew": false
+      },
+      {
         "title": "November 05, 2026",
         "link": "https://docs.cloud.google.com/release-notes#November_05_2026",
-        "summary": "Apigee Edge for Public Cloud\nAnnouncement\nScheduled maintenance of Management/Control Plane for the Apigee Edge for Public Cloud on November 6, 2026.\nScheduled maintenance of Management/Control Plane for the Apigee Edge for Public Cloud production will take place on Friday, November 6, 2026, from 9:00 PM PT to\n10:00 PM PT (Saturday, November 7, 2026, from 5:00 AM UTC to 6:00 AM UTC). This\nmaintenance follows the monthly maintenance window schedule documented in the\nApigee Edge release notes archive.\nDuring the scheduled maintenance window, the following services will be\ntemporarily unavailable, and attempts to access them will return a 4xx status\ncode:\nManagement Services UI\nManagement Services APIs\nMonetization Management APIs\nNew proxy deployments\nDevPortal Service\nMicrogateway Services\nEdge Query (Analytics Stats APIs)\nRuntime API calls to deployed API proxies are unaffected. While access to\nanalytics queries may be temporarily unavailable during the maintenance window, all\nanalytics and metrics data from this period will be available once maintenance\nends.\nBigQuery\nChange\nThe BigQuery Metadata curation console page has been removed. You can now\nuse Knowledge Catalog to schedule Cloud Storage discovery scans,\nmanage data profiling\nand data quality,\nand perform related data governance tasks.\nFeature\nConversational analytics in BigQuery\nis now available in the asia-northeast1 (Tokyo) location. For more\ninformation, see Locations.\nData Studio\nFeature\nYou can now combine…",
+        "summary": "Apigee Edge for Public Cloud\nAnnouncement\nScheduled maintenance of Management/Control Plane for the Apigee Edge for Public Cloud on November 6, 2026.\nScheduled maintenance of Management/Control Plane for the Apigee Edge for Public Cloud production will take place on Friday, November 6, 2026, from 9:00 PM PT to\n10:00 PM PT (Saturday, November 7, 2026, from 5:00 AM UTC to 6:00 AM UTC). This\nmaintenance follows the monthly maintenance window schedule documented in the\nApigee Edge release notes archive.\nDuring the scheduled maintenance window, the following services will be\ntemporarily unavailable, and attempts to access them will return a 4xx status\ncode:\nManagement Services UI\nManagement Services APIs\nMonetization Management APIs\nNew proxy deployments\nDevPortal Service\nMicrogateway Services\nEdge Query (Analytics Stats APIs)\nRuntime API calls to deployed API proxies are unaffected. While access to\nanalytics queries may be temporarily unavailable during the maintenance window, all\nanalytics and metrics data from this period will be available once maintenance\nends.\nBigQuery\nFeature\nIn the query execution graph's query text\nheatmap, you can now\nview and navigate through a hierarchical list of context references, such as\nnested function calls or view references, for stage steps. This feature is\ngenerally available\n(GA).\nFeature\nIn the query execution graph, the query text\nheatmap now supports\ndisplaying the SQL text for persistent and temporary user-defined functions\n(UDFs). This…",
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-11-05T08:00:00.000Z",
@@ -239,15 +248,6 @@
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-10-30T07:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "October 29, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#October_29_2026",
-        "summary": "AlloyDB for PostgreSQL\nFeature\nAlloyDB AI adds pre-registered support for the following Gemini models in version\n1.6.5 and later of the google_ml_integration extension:\ngemini-3.1-flash-lite\ngemini-3.5-flash\ngemini-3.5-flash-lite\ngemini-3.6-flash\ngemini-3.7-flash\ngemini-3.8-flash\ngemini-4-argon\nVersion 1.6.5 of the google_ml_integration extension sets gemini-3.5-flash-lite as the default Gemini model and removes the gemini-2.0-flash, gemini-2.0-flash-lite, gemini-2.5-flash, gemini-2.5-flash-lite, and gemini-2.5-pro models from the list of pre-registered models.\nAdditionally, AlloyDB AI adds pre-registered support for the semantic-ranker-512 reranking model.\nFor more information, see\nPre-registered Agent Platform models.\nAnti Money Laundering AI\nAnnouncement\nNew minor engine version released for the retail line of business within the v004.011 version line (aml-retail.default.v004.011.202610-000). This version extends support for the major engine version and includes no significant changes compared to the previous minor version.\nApigee hybrid\nAnnouncement\nv1.17.3\nOn October 29, 2026 we released an updated version of the Apigee hybrid software, v1.17.3.\nFor information on upgrading, see Upgrading Apigee hybrid to version v1.17.3.\nFor information on new installations, see The big picture.\nNote: Do not use Apigee hybrid v1.17.2 due to a potential regression in apigee-connect-agent (see known issue 578314600). Use v1.17.3 instead.Note: This is a patch release: The container images…",
-        "image": null,
-        "source": "Google Cloud Platform (GCP) - Release notes",
-        "published": "2026-10-29T07:00:00.000Z",
         "isNew": false
       }
     ],
