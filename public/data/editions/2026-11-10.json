@@ -1,6 +1,6 @@
 {
   "date": "2026-11-10",
-  "generatedAt": "2026-11-10T18:41:20.354Z",
+  "generatedAt": "2026-11-10T22:21:59.627Z",
   "totalArticles": 72,
   "ticker": [
     {
@@ -181,7 +181,7 @@
       {
         "title": "November 10, 2026",
         "link": "https://docs.cloud.google.com/release-notes#November_10_2026",
-        "summary": "Model Armor\nFeature\nModel Armor image screening is generally available\n(GA).\nYou can extract and screen images embedded within supported rich text documents\n(PDF, Word, Excel, and PowerPoint). Pricing for image screening is in effect and\nconverts processed images into tokens based on image size. For more information,\nsee Screen images,\nPricing, and Token calculation and pricing for\nimages.",
+        "summary": "BigQuery\nFeature\nYou can use graph measures\nto lock an aggregation to a key in order to perform\ncomplex aggregations without overcounting.\nMeasure expressions\ncan include the following:\nAggregate function calls\nExpressions within aggregate functions\nConditional logic within aggregate functions\nConditional distinct counting\nScalar operations and expressions outside of aggregate functions\nCombinations of measures wrapped in the AGG function\nTo query measures, you transform\nyour graph into a flattened table by using the\nGRAPH_EXPAND TVF,\nand then query measures in that table with the\nAGG function.\nThe GRAPH_EXPAND function now supports multiple fact tables. To view the\noutput schema of the GRAPH_EXPAND function, use the\nBQ.SHOW_GRAPH_EXPAND_SCHEMA system procedure.\nYou can define\nextensions\nin the OPTIONS clause of the labels and properties in your graphs, which are\nstring pairs that represent custom metadata for natural language querying.\nMeasures and graphs are supported in Data Studio through the\nBigQuery connector.\nMeasures and graphs are also automatically cataloged in Knowledge Catalog, which\nmakes them searchable by natural language or domain synonyms.\nThese features are\ngenerally available\n(GA).\nFeature\nBigQuery generative AI functions\nnow support the gemini-4-carbon model. This model is\ngenerally available.\nCloud SDK\nBreaking\n593.0.0 (2026-11-10)\nBreaking Changes\n(App Lifecycle Manager) Updated --evaluation-spec flag of\ngcloud beta app-lifecycle-manager flags create…",
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-11-10T08:00:00.000Z",
@@ -401,6 +401,15 @@
     ],
     "python": [
       {
+        "title": "Python 3.16.0 alpha 2 is now available",
+        "link": "https://blog.python.org/2026/11/python-3160-alpha-2-is-now-available/",
+        "summary": "The second developer preview of Python 3.16 is ready for testing.",
+        "image": null,
+        "source": "Python Insider",
+        "published": "2026-11-10T00:00:00.000Z",
+        "isNew": false
+      },
+      {
         "title": "How the Python ecosystem responded to the eMudhra intermediate compromise",
         "link": "https://pyfound.blogspot.com/2026/11/how-python-ecosystem-responded-to.html",
         "summary": "The news of the eMudhra Intermediate CA compromise was published on October 20th, 2026. Responding to an incident like a Certificate Authority (CA) compromise at an ecosystem-scale is far from “routine”; the assumption that HTTPS is secure is baked into many aspects of Python applications and packaging. This meant it was critical to mount a response that was both comprehensive and customized to each affected project and service, ranging from the Python language, pip, and the Python Package Index (PyPI).\n\n\nThis is where security staffing at the Python Software Foundation made a difference for Python. Staffing meant that Seth Larson, the Security Developer-in-Residence, was on standby able to respond and begin work on the issue immediately. Pre-existing relationships with affected project maintainers afforded plenty of trust, and the work was completed in a way that respected the time of volunteer maintainers for affected packages by reaching out proactively with clear next steps. Thanks to Alpha-Omega for funding the Security Developer-in-Residence position at the Python Software Foundation.\n\n\nThe incident was mitigated across multiple components within two days. Thanks to the work of their respective maintainers: fixes were made available for certifi, Python, pip, uv, sigstore, virtualenv, conda, pixi, manylinux, gh-action-pypi-publish, and many other projects. Vulnerable versions of certifi, pip, and sigstore were patched across all projects and services that the Python…",
@@ -462,18 +471,18 @@
         "source": "Python Insider",
         "published": "2026-10-21T00:00:00.000Z",
         "isNew": false
-      },
-      {
-        "title": "Wikis: Relaunched!",
-        "link": "https://pyfound.blogspot.com/2026/10/wikis-relaunched.html",
-        "summary": "In February 2026, the Python Software Foundation (PSF) made the PSF, Python, and Jython wikis read-only due to excessive automated traffic and security concerns on outdated infrastructure. This sudden change was disruptive to the many community members who rely on and contribute to these wikis. We are pleased to share that we have stood up new wikis through GitHub Pages that address the automated traffic and security concerns. The new wikis will have a more modern front-end, as well as a permissions-based content management system (CMS) for community members to make updates.\nFind the new wikis here:\nPSF Wiki\nPython Wiki\nJython Wiki\nMore details and context\nExcessive automated traffic\nWith the old wiki structure, we received a large volume of alerts at all hours, each serious enough to page and wake our on-call infrastructure staff, which is very limited (just one person currently, although this will be changing soon!). The quantity of scraping overloaded our servers, causing outages, which happened often enough that these issues required a significant amount of effort for the PSF staff to manage. On review back in February, that traffic turned out to be almost entirely AI bots that were trying to scrape the entire internet.\nSecurity\nAdditionally, some portions of the wikis were still built with Python 2. Python 2 reached end of life on January 1, 2020, and no longer receives upstream security fixes. Moving to a static site makes it very fast and reduces security risks, while…",
-        "image": null,
-        "source": "Python Software Foundation News",
-        "published": "2026-10-20T16:29:17.850Z",
-        "isNew": false
       }
     ],
     "go": [
+      {
+        "title": "Go Turns 17",
+        "link": "https://go.dev/blog/17years",
+        "summary": "The Go Blog\nGo Turns 17\nToday, November 10th, we celebrate the 17th anniversary of Go’s open source\nrelease!\nOver the past year, we released Go 1.26 in February and Go 1.27\nin August, alongside a steady stream of releases across our\ngolang.org/x libraries and developer tools.\nMeanwhile, the pace of change across the software industry continues to\naccelerate, driven by shifting hardware, evolving security threats, and the\nrapid rise of AI-assisted development and agentic systems.\nIn a tumultuous time for the industry, Go aims to be a steady hand on the\ntiller. Our goal is to keep Go grounded in its foundational principles of\nsimplicity, reliability, efficiency, and an unwavering commitment to\ncompatibility, while adapting to modern hardware, production\nworkloads, and developer workflows. Increasingly, our investments serve a dual\npurpose: what helps human engineers write, understand, and maintain reliable Go\ncode at scale also provides the guardrails and authoritative context that AI\ncoding assistants and agents need to be effective.\nCore language and library improvements\nIn the language itself, Go 1.26 and 1.27 addressed several long-standing\nrestrictions in generics and everyday Go syntax, guided by years of real-world\nexperience. When generics first landed in Go 1.18, methods could not declare\ntheir own type parameters, which sometimes forced awkward package-level\nfunctions and “inside-out” nested calls. Go 1.27 introduced generic\nmethods on non-interface types (such as…",
+        "image": null,
+        "source": "The Go Blog",
+        "published": "2026-11-10T00:00:00.000Z",
+        "isNew": false
+      },
       {
         "title": "A new Go API for JSON",
         "link": "https://go.dev/blog/jsonv2",
@@ -535,15 +544,6 @@
         "image": null,
         "source": "The Go Blog",
         "published": "2026-09-24T00:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "Size-Specialized Memory Allocation",
-        "link": "https://go.dev/blog/size-specialized-allocations",
-        "summary": "The Go Blog\nSize-Specialized Memory Allocation\nGo 1.27 includes faster memory allocation for allocations of 80 bytes or fewer.\nAllocations can be up to 20-30% faster, making allocation-heavy programs up to 1% faster.\nThe Go runtime improves the performance of those allocations by adding specialized\nfunctions that are used to allocate certain sizes. These specialized functions\ncan then make certain assumptions that make them faster and easier to optimize.\nThis blog post will explain how this works and how it makes your programs faster.\nHeap allocations are created by the runtime’s mallocgc function, which requires the size\nof the allocation and whether it contains pointers. When the compiler determines that an\nobject escapes to the heap or otherwise needs to be dynamically\nallocated, it inserts a call to newobject, which is a simple wrapper function that extracts\nthe size of the object and whether it contains pointers and passes those to mallocgc.\nThese two pieces of information determine\nmost of the work that the allocator needs to do. The size is important because the allocator\ndefines ranges of sizes called “size classes”. For most allocations that are not too large\nand not too small, it will return a block of memory from a list of free objects\nthat are all sized to the maximum size of the size class. So, for instance, size class 3\nis 17-24 bytes. So whether you allocate 17 bytes or 24 bytes, the allocator will give\nyou the next free 24 byte object available in its list of…",
-        "image": null,
-        "source": "The Go Blog",
-        "published": "2026-09-16T00:00:00.000Z",
         "isNew": false
       }
     ],
