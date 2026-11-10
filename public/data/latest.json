@@ -1,6 +1,6 @@
 {
   "date": "2026-11-10",
-  "generatedAt": "2026-11-10T13:27:45.889Z",
+  "generatedAt": "2026-11-10T18:41:20.354Z",
   "totalArticles": 72,
   "ticker": [
     {
@@ -17,7 +17,7 @@
     },
     {
       "label": "Go",
-      "version": "go1.27.3"
+      "version": "go1.27.4"
     },
     {
       "label": "Rust",
@@ -179,6 +179,15 @@
     ],
     "gcp": [
       {
+        "title": "November 10, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#November_10_2026",
+        "summary": "Model Armor\nFeature\nModel Armor image screening is generally available\n(GA).\nYou can extract and screen images embedded within supported rich text documents\n(PDF, Word, Excel, and PowerPoint). Pricing for image screening is in effect and\nconverts processed images into tokens based on image size. For more information,\nsee Screen images,\nPricing, and Token calculation and pricing for\nimages.",
+        "image": null,
+        "source": "Google Cloud Platform (GCP) - Release notes",
+        "published": "2026-11-10T08:00:00.000Z",
+        "isNew": false
+      },
+      {
         "title": "November 09, 2026",
         "link": "https://docs.cloud.google.com/release-notes#November_09_2026",
         "summary": "AI Hypercomputer\nFeature\nGenerally available:\nPathways on Cloud\nis now generally available on Google Kubernetes Engine (GKE). Major features include\nthe following:\nSingle-controller execution model: Coordinate multi-slice and multi-host\nCloud TPU workloads from a single Python client process. Pathways uses\nasynchronous dispatch and centralized scheduling to support both Single\nProgram, Multiple Data (SPMD) and Multiple Program, Multiple Data (MPMD)\nworkloads. For example, training and reinforcement learning (RL) loops.\nResilient and elastic training: Keep training jobs running across hardware\ninterruptions with\nresilient training,\nincluding the following capabilities:\n\nElastic training:\nDynamically scale down to healthy Cloud TPU slices during unplanned\nhardware failures and scale back up when replacement slices rejoin without\nrestarting the entire job.\nSuspend-resume: Automatically save and restore high-bandwidth memory\n(HBM) state to Cloud Storage during planned GKE preemption\nevents.\nHot-swapping: Remap interrupted workloads onto standby or lower-priority\nCloud TPU slices.\n\nColocated Python sidecar containers:\nRun custom Python code directly on Cloud TPU host VMs alongside\nPathways workers. For example, multi-host data loading with\nGrain or RemoteIterator, and distributed\nasynchronous checkpointing with Orbax.\nInteractive mode and Shared Pathways Service: Run, inspect, and debug JAX\nworkloads interactively from a notebook or terminal using\ninteractive mode,\nor share a…",
@@ -239,15 +248,6 @@
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-11-03T08:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "November 02, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#November_02_2026",
-        "summary": "Agent Platform Workbench\nChange\n20261101.00_p0 Release\nChange\nInstalled latest packages from upstream dependencies.\nSecurity\nUpgraded the container host to the latest Container-Optimized OS LTS release, rebasing onto the newest operating system, Go, and containerd security fixes.\nSecurity\nUpdated the CA certificate configuration.\nChange\n20261101.00_p0 Release\nChange\nInstalled latest packages from upstream dependencies.\nSecurity\nUpgraded the container host to the latest Container-Optimized OS LTS release, rebasing onto the newest operating system, Go, and containerd security fixes.\nSecurity\nUpdated the CA certificate configuration.\nAlloyDB for PostgreSQL\nFeature\nYou can now tune SQL queries using AI. Available starting with version 1.6.2 of\nthe google_ml_integration extension, the ai.tune_sql function uses an LLM\nalong with query execution plans, schemas, and runtime stats to recommend query\noptimizations. The function identifies performance bottlenecks and provides\nrecommendations for query rewrites, indexes, statistics collection, Grand\nUnified Configuration (GUC) flags, and table analyze and vacuum operations.\nThis feature is in\nPreview.\nFor more information, see\nTune SQL queries using AI and\nDatabase advisor flags.\nApigee X\nAnnouncement\nOn November 2, 2026, we released an updated version of Apigee.\nNote: Rollouts of this release began today and may take four or more business days to be completed across all Google Cloud zones. Your instances may not have the features and…",
-        "image": null,
-        "source": "Google Cloud Platform (GCP) - Release notes",
-        "published": "2026-11-02T08:00:00.000Z",
         "isNew": false
       }
     ],
