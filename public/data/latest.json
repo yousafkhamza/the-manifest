@@ -1,6 +1,6 @@
 {
-  "date": "2026-11-10",
-  "generatedAt": "2026-11-10T22:21:59.627Z",
+  "date": "2026-11-11",
+  "generatedAt": "2026-11-11T12:42:43.506Z",
   "totalArticles": 72,
   "ticker": [
     {
@@ -9,7 +9,7 @@
     },
     {
       "label": "Terraform",
-      "version": "v1.17.1"
+      "version": "v1.17.2"
     },
     {
       "label": "Python",
@@ -181,7 +181,7 @@
       {
         "title": "November 10, 2026",
         "link": "https://docs.cloud.google.com/release-notes#November_10_2026",
-        "summary": "BigQuery\nFeature\nYou can use graph measures\nto lock an aggregation to a key in order to perform\ncomplex aggregations without overcounting.\nMeasure expressions\ncan include the following:\nAggregate function calls\nExpressions within aggregate functions\nConditional logic within aggregate functions\nConditional distinct counting\nScalar operations and expressions outside of aggregate functions\nCombinations of measures wrapped in the AGG function\nTo query measures, you transform\nyour graph into a flattened table by using the\nGRAPH_EXPAND TVF,\nand then query measures in that table with the\nAGG function.\nThe GRAPH_EXPAND function now supports multiple fact tables. To view the\noutput schema of the GRAPH_EXPAND function, use the\nBQ.SHOW_GRAPH_EXPAND_SCHEMA system procedure.\nYou can define\nextensions\nin the OPTIONS clause of the labels and properties in your graphs, which are\nstring pairs that represent custom metadata for natural language querying.\nMeasures and graphs are supported in Data Studio through the\nBigQuery connector.\nMeasures and graphs are also automatically cataloged in Knowledge Catalog, which\nmakes them searchable by natural language or domain synonyms.\nThese features are\ngenerally available\n(GA).\nFeature\nBigQuery generative AI functions\nnow support the gemini-4-carbon model. This model is\ngenerally available.\nCloud SDK\nBreaking\n593.0.0 (2026-11-10)\nBreaking Changes\n(App Lifecycle Manager) Updated --evaluation-spec flag of\ngcloud beta app-lifecycle-manager flags create…",
+        "summary": "Agent Platform Workbench\nFeature\nAntigravity CLI in Agent Platform Workbench instances\nPreview: The\nAntigravity CLI is available in Agent Platform Workbench instances that use a\nDebian 12 (workbench-instances-2603) or later image. The Antigravity CLI is\nthe terminal surface of Google Antigravity, an AI agent that works in a\nterminal. New instances have it turned on by default. You can use the\nAntigravity CLI to do tasks like the following:\nCreate, explain, edit, check, and run notebooks.\nCreate a Jupyter kernel with the packages that you need.\nRun shell commands and Google Cloud commands, such as gcloud and bq.\nWrite the code for a notebook cell from a description, with the %%agy cell\nmagic.\nThe Antigravity CLI asks for your approval before it edits a file or runs a\ncommand. To turn it off for an instance, set the enable-antigravity metadata\nkey to false. To get started, see Use the Antigravity\nCLI.\nBigQuery\nFeature\nYou can use graph measures\nto lock an aggregation to a key in order to perform\ncomplex aggregations without overcounting.\nMeasure expressions\ncan include the following:\nAggregate function calls\nExpressions within aggregate functions\nConditional logic within aggregate functions\nConditional distinct counting\nScalar operations and expressions outside of aggregate functions\nCombinations of measures wrapped in the AGG function\nTo query measures, you transform\nyour graph into a flattened table by using the\nGRAPH_EXPAND TVF,\nand then query measures in that table with…",
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-11-10T08:00:00.000Z",
@@ -327,6 +327,15 @@
     ],
     "terraform": [
       {
+        "title": "v1.17.2",
+        "link": "https://github.com/hashicorp/terraform/releases/tag/v1.17.2",
+        "summary": "1.17.2 (November 11, 2026)\nENHANCEMENTS:\nquery: Improve performance and reduce allocations when generating configuration from large HCP Terraform queries. (#39470)\nBUG FIXES:\nProviders referencing a managed resource with detroy=false can cause a cycle (#39507)\ninit: Fix repeated unavailable-provider schema warnings in log output (#39517)",
+        "image": "https://avatars.githubusercontent.com/u/82989873?s=60&v=4",
+        "source": "Release notes from terraform",
+        "published": "2026-11-11T11:56:51.000Z",
+        "isNew": true
+      },
+      {
         "title": "v1.17.1",
         "link": "https://github.com/hashicorp/terraform/releases/tag/v1.17.1",
         "summary": "1.17.1 (October 28, 2026)\nBUG FIXES:\nfmt: The original content of a file is now preserved if Terraform experiences an error writing to the original file. (#39303)\nAlways evaluate module policies during destroy plan (#39455)\nstacks: report every policy result for a replaced resource instead of only one of them (#39453)",
@@ -387,15 +396,6 @@
         "image": "https://avatars.githubusercontent.com/u/82989873?s=60&v=4",
         "source": "Release notes from terraform",
         "published": "2026-10-02T13:04:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "v1.17.0-beta2",
-        "link": "https://github.com/hashicorp/terraform/releases/tag/v1.17.0-beta2",
-        "summary": "1.17.0-beta2 (September 23, 2026)\nNEW FEATURES:\nTerraform now supports variables and locals in provider requirements (#39153)\nA new -minimal-refresh planning option has been added, which will only refresh resources that have proposed changes. (#35290)\npolicy: Terraform Policy is now generally available. The -policies flag for plan, apply, and query no longer requires an experimental build or the -allow-experimental-features flag. Query policies evaluate resources discovered by list blocks and report human-readable or JSON results. See https://developer.hashicorp.com/terraform/policy for more information. (#38970)\nENHANCEMENTS:\ncommand/init: Enrich log messages with provider versions (#38918)\ntest: Add mock_provider support for ephemeral resources (#38928)\ncommand/login: display warning after successful login if user is subject to an organization's TTL policy\nBUG FIXES:\nfuncs: pow and log no longer panic when result is not a number (#38912)\nephemeral: Terraform will now use and display diagnostics raised when renewing an ephemeral resource. This may cause warnings to appear that previously were lost. We expect that any error diagnostics that were previously lost would have caused confusing downstream errors, so we do not anticipate this change to be breaking. (#38989)\ntest: Deterministic dependency ordering in cleanup graph (#38247)\nquery: report Unknown and N/A results for policy evaluations of discovered resources (#39058)\nquery: terraform query -policies now rejects a path…",
-        "image": "https://avatars.githubusercontent.com/u/82989873?s=60&v=4",
-        "source": "Release notes from terraform",
-        "published": "2026-09-23T15:48:24.000Z",
         "isNew": false
       }
     ],
@@ -549,6 +549,15 @@
     ],
     "rust": [
       {
+        "title": "Google Summer of Code 2026 results",
+        "link": "https://blog.rust-lang.org/2026/11/11/gsoc-2026-results/",
+        "summary": "The Rust Project participated in Google Summer of Code (GSoC) for the third time this year. This time we had 13 projects, and our dear contributors have been working very hard on them for several months. As usual, the projects had various durations, so while some of them have ended in August, the last one has only finished in November, so we have been waiting until we have all the results before publishing this blog post.\nWe are very happy to announce that all 13 projects were successful and passed their final evaluation! We consider it to be a testament to the diligence of our contributors, and the helpfulness of our mentors, that we are able to keep a very high rate[1] of successful GSoC projects several years in a row.\nAt the start of summer, we had a video call with our contributors, so that we could all get to know each other a bit, and learn about their projects. Over the following few months, we continuously communicated with the contributors, provided guidance and answered their questions and reviewed their pull requests. And most importantly, we learned many new things together! It was an overall great experience. We are grateful for all Rust contributions done by our GSoC participants and for the time we spent working together, and we hope that we will continue seeing at least some of them around in the future.\nWe would like to thank all our Rust GSoC 2026 contributors. You did a great job!\nEven though this year we had fewer projects than in 2025, mostly due to…",
+        "image": null,
+        "source": "Rust Blog",
+        "published": "2026-11-11T00:00:00.000Z",
+        "isNew": true
+      },
+      {
         "title": "Announcing rustup 1.29.3",
         "link": "https://blog.rust-lang.org/2026/11/03/Rustup-1.29.3/",
         "summary": "The rustup team has published a new point release of rustup, 1.29.3.\nRustup is the recommended tool to install Rust, a\nprogramming language that empowers everyone to build reliable and efficient\nsoftware.\n\nWhat's new in rustup 1.29.3\nThis new patch release has fixed some minor regressions over the previous one:\nFixed \"Illegal instruction\" error on certain x86_64 CPUs without SSE4.1.\npr#5162\nFixed \"lock() not supported\" error on Solaris. pr#5167\nFurther details are available in the changelog!\n\nHow to update\nIf you have a previous version of rustup installed, getting the new one is as easy as stopping\nany programs which may be using rustup (e.g. closing your IDE) and running:\n$ rustup self update\nRustup will also automatically update itself at the end of a normal toolchain update:\n$ rustup update\nFor this particular release, if you have encountered any issues during\nself-update, you may try to update rustup manually by following the steps below:\nDownload the corresponding rustup-init binary for\nyour platform.\nMake double sure that no other rustup processes are running.\nReplace your existing rustup binary with the downloaded rustup-init\nrenamed to rustup.\n\nAs a reminder, this binary is often located at $HOME/.cargo/bin/rustup, or\n$CARGO_HOME/bin/rustup if you have overridden the $CARGO_HOME environment\nvariable.\nIf you don't have it already, you can get rustup from the appropriate page on our website.\nRustup's documentation is also available in the rustup book.\n\nCaveats\nRustup…",
@@ -609,15 +618,6 @@
         "image": null,
         "source": "Rust Blog",
         "published": "2026-09-22T00:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "GitHub Actions leaking secrets when Miri output is cached",
-        "link": "https://blog.rust-lang.org/2026/09/21/github-actions-leaking-secrets-when-miri-output-is-cached/",
-        "summary": "The Rust Security Response Team was notified that Miri stores all environment variables to target/, allowing secrets to persist in caches.\nWhile not necessary a vulnerability in and of itself, when paired with GitHub Actions caching behavior, it is possible for this to expose secrets to PRs.\n\nOverview\nGitHub Actions makes it possible to cache directories between runs. Typical setups allow CI runs on main (and other branches) to write to cache, and PRs can only read from cache (preventing cache poisoning). Rust projects tend to speed up CI by caching binaries built by cargo install and sometimes the contents of target/.\nPR CI can be triggered by anyone who can open PRs on your repository. GitHub requires maintainer approval for the first PR, but future PRs will rerun CI on every push. Anyone who has previously landed a change can trigger a CI run extracting information from cached target/ and then cover their tracks by pushing a second commit to the PR.\nGitHub sometimes hides overwritten commits in its UI, making this kind of attack harder to detect. CI run logs and overwritten commits are also deleted after a few months.\nWhen cargo miri is invoked, Miri needs to retain build-relevant environment variables between runs[1]. The current code to do so achieves this by storing all environment variables to target/. This, of course, persists when target/ is cached.\nIf your environment contained secrets, these can now be accessed by PRs via the cache.\n\nOur fix\nOur short term fix for…",
-        "image": null,
-        "source": "Rust Blog",
-        "published": "2026-09-21T00:00:00.000Z",
         "isNew": false
       }
     ],
