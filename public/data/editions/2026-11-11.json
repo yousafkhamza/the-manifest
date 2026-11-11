@@ -1,6 +1,6 @@
 {
   "date": "2026-11-11",
-  "generatedAt": "2026-11-11T18:43:15.074Z",
+  "generatedAt": "2026-11-11T23:27:43.200Z",
   "totalArticles": 72,
   "ticker": [
     {
@@ -30,6 +30,15 @@
   ],
   "topics": {
     "aws": [
+      {
+        "title": "Test your applications against AWS locally with AWS Emulator",
+        "link": "https://aws.amazon.com/blogs/aws/test-your-applications-against-aws-locally-with-aws-emulator/",
+        "summary": "AWS Emulator is a free, open-source local emulator in Rust that lets developers test applications against nearly every AWS service on their own machine using the same CLI and SDK commands, with fidelity measured against real AWS behavior.",
+        "image": null,
+        "source": "AWS News Blog",
+        "published": "2026-11-11T19:00:44.000Z",
+        "isNew": false
+      },
       {
         "title": "AWS Weekly Roundup: AgentCore Runtime V2, Amazon DynamoDB bulk put items, and more (November 9, 2026)",
         "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-agentcore-runtime-v2-amazon-dynamodb-bulk-put-items-and-more-november-9-2026/",
@@ -91,15 +100,6 @@
         "image": null,
         "source": "AWS News Blog",
         "published": "2026-10-19T15:34:59.000Z",
-        "isNew": false
-      },
-      {
-        "title": "Amazon S3 is now available on the Vercel Marketplace and v0 by Vercel",
-        "link": "https://aws.amazon.com/blogs/aws/amazon-s3-vercel-marketplace-v0/",
-        "summary": "Amazon Simple Storage Service (Amazon S3), including Amazon S3 Tables and Amazon S3 Vectors, is natively available on the Vercel Marketplace and v0 by Vercel.",
-        "image": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2026/10/06/screenshot-1-vercel-marketplace-aws.jpg",
-        "source": "AWS News Blog",
-        "published": "2026-10-14T19:30:48.000Z",
         "isNew": false
       }
     ],
@@ -181,7 +181,7 @@
       {
         "title": "November 11, 2026",
         "link": "https://docs.cloud.google.com/release-notes#November_11_2026",
-        "summary": "Apigee Edge for Public Cloud\nAnnouncement\nOn November 11, 2026, we began releasing Edge UI updates for Apigee Edge for\nPublic Cloud.\nFixed\nBug ID\nComponent\nDescription\n\n\n\n\n392653797, 399185014\nEdge UI\nFixed an issue where navigating to the App Details or New App pages in organizations with a large number of API products experienced slowness or UI freezing during the initial page load. The Edge UI now fetches API products on demand when you open the Add Product dialog, improving initial page load performance.\n\n\n576859695\nEdge UI\nFixed an issue in the Analytics Error Code Analysis dashboard where 504 Gateway Timeout responses caused by target timeouts were excluded from the Proxy errors charts. Target timeout 504 responses are now counted under Proxy errors.\n\n\n188163219\nEdge UI\nFixed a UI formatting issue in the Analytics Custom Reports list view so that dimensions display without overlapping.\n\n\n\nGemini Enterprise Agent Platform\nFeature\nGovern agents on any CNCF-conformant Kubernetes cluster with Agent Gateway for cross-cloud (Limited Preview)\nAgent Gateway for cross-cloud\nis available in\nLimited Preview. It\nextends\nAgent Platform governance to agents that run on Cloud Native Computing\nFoundation (CNCF)-conformant Kubernetes clusters outside of Google Cloud, such\nas Amazon Elastic Kubernetes Service (Amazon EKS), Azure Kubernetes Service\n(AKS), Red Hat OpenShift, and bare-metal clusters. Your\nagents keep running where they are, but you govern them from one place: give\neach…",
+        "summary": "Apigee Edge for Public Cloud\nAnnouncement\nOn November 11, 2026, we began releasing Edge UI updates for Apigee Edge for\nPublic Cloud.\nFixed\nBug ID\nComponent\nDescription\n\n\n\n\n392653797, 399185014\nEdge UI\nFixed an issue where navigating to the App Details or New App pages in organizations with a large number of API products experienced slowness or UI freezing during the initial page load. The Edge UI now fetches API products on demand when you open the Add Product dialog, improving initial page load performance.\n\n\n576859695\nEdge UI\nFixed an issue in the Analytics Error Code Analysis dashboard where 504 Gateway Timeout responses caused by target timeouts were excluded from the Proxy errors charts. Target timeout 504 responses are now counted under Proxy errors.\n\n\n188163219\nEdge UI\nFixed a UI formatting issue in the Analytics Custom Reports list view so that dimensions display without overlapping.\n\n\n\nBigQuery\nFeature\nProject caps (also known as scheduling policies)\nlet you limit maximum slots and concurrency per project within a BigQuery\nreservation. This feature is only supported in the\nBigQuery Enterprise and Enterprise Plus editions\nand is\ngenerally available\n(GA).\nFeature\nYou can specify an optional principal property on\nBigQuery reservation assignments to\nroute queries to specific reservations based on the identity of the user,\nservice account, or third-party identity executing the job. This feature is only\nsupported in the\nBigQuery Enterprise and Enterprise Plus editions\nand…",
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-11-11T08:00:00.000Z",
