@@ -1,6 +1,6 @@
 {
   "date": "2026-11-12",
-  "generatedAt": "2026-11-12T13:45:30.945Z",
+  "generatedAt": "2026-11-12T18:57:54.734Z",
   "totalArticles": 72,
   "ticker": [
     {
@@ -21,7 +21,7 @@
     },
     {
       "label": "Rust",
-      "version": "1.99.1"
+      "version": "1.100.0"
     },
     {
       "label": "Node.js",
@@ -181,11 +181,11 @@
       {
         "title": "November 12, 2026",
         "link": "https://docs.cloud.google.com/release-notes#November_12_2026",
-        "summary": "Cloud Service Mesh\nAnnouncement\n1.31.3-asm.9 is now available for in-cluster Cloud Service Mesh.\nFor details on upgrading Cloud Service Mesh, see\nUpgrade Cloud Service Mesh. Cloud Service\nMesh 1.31.3-asm.9 uses Envoy v1.39.5-dev.\nThis release resolves the security vulnerabilities listed in Security Bulletin\nGCP-2026-080\n(ISTIO-SECURITY-2026-009).\nAnnouncement\n1.30.7-asm.9 is now available for in-cluster Cloud Service Mesh.\nFor details on upgrading Cloud Service Mesh, see\nUpgrade Cloud Service Mesh. Cloud Service\nMesh 1.30.7-asm.9 uses Envoy v1.38.10-dev.\nThis release resolves the security vulnerabilities listed in Security Bulletin\nGCP-2026-080\n(ISTIO-SECURITY-2026-009).\nAnnouncement\n1.29.10-asm.4 is now available for in-cluster Cloud Service Mesh.\nFor details on upgrading Cloud Service Mesh, see\nUpgrade Cloud Service Mesh. Cloud Service\nMesh 1.29.10-asm.4 uses Envoy v1.37.10-dev.\nThis release resolves the security vulnerabilities listed in Security Bulletin\nGCP-2026-080\n(ISTIO-SECURITY-2026-009).\nFixed\nPatch 1.29.10-asm.4 contains the fix for the following platform CVEs:\nCVE\nProxy\nControl Plane\nDistroless\nCNI\nSeverity\n\n\n\n\nCVE-2026-89161\nYes\nYes\nNo\nYes\nMedium (7.8)\n\n\nCVE-2026-89157\nYes\nYes\nNo\nYes\nMedium (7.4)\n\n\nCVE-2026-89158\nYes\nYes\nNo\nYes\nMedium (6.5)\n\n\nCVE-2026-89160\nYes\nYes\nNo\nYes\nMedium (6.5)\n\n\nCVE-2026-89156\nYes\nYes\nNo\nYes\nMedium (5.9)\n\n\nCVE-2026-103111\nYes\nYes\nNo\nYes\nMedium (0.0)\n\n\nCVE-2026-109518\nYes\nYes\nNo\nYes\nHigh (0.0)\n\n\nCVE-2026-86145\nYes\nYes\nNo\nYes\nMedium (0.0)…",
+        "summary": "BigQuery\nFeature\nYou can track table-level data lineage in Knowledge Catalog for BigQuery\npipelines. For more information, see\nTrack data lineage.\nThis feature is\ngenerally available\n(GA).\nCloud Service Mesh\nAnnouncement\n1.31.3-asm.9 is now available for in-cluster Cloud Service Mesh.\nFor details on upgrading Cloud Service Mesh, see\nUpgrade Cloud Service Mesh. Cloud Service\nMesh 1.31.3-asm.9 uses Envoy v1.39.5-dev.\nThis release resolves the security vulnerabilities listed in Security Bulletin\nGCP-2026-080\n(ISTIO-SECURITY-2026-009).\nAnnouncement\n1.30.7-asm.9 is now available for in-cluster Cloud Service Mesh.\nFor details on upgrading Cloud Service Mesh, see\nUpgrade Cloud Service Mesh. Cloud Service\nMesh 1.30.7-asm.9 uses Envoy v1.38.10-dev.\nThis release resolves the security vulnerabilities listed in Security Bulletin\nGCP-2026-080\n(ISTIO-SECURITY-2026-009).\nAnnouncement\n1.29.10-asm.4 is now available for in-cluster Cloud Service Mesh.\nFor details on upgrading Cloud Service Mesh, see\nUpgrade Cloud Service Mesh. Cloud Service\nMesh 1.29.10-asm.4 uses Envoy v1.37.10-dev.\nThis release resolves the security vulnerabilities listed in Security Bulletin\nGCP-2026-080\n(ISTIO-SECURITY-2026-009).\nFixed\nPatch 1.29.10-asm.4 contains the fix for the following platform CVEs:\nCVE\nProxy\nControl Plane\nDistroless\nCNI\nSeverity\n\n\n\n\nCVE-2026-89161\nYes\nYes\nNo\nYes\nMedium (7.8)\n\n\nCVE-2026-89157\nYes\nYes\nNo\nYes\nMedium (7.4)\n\n\nCVE-2026-89158\nYes\nYes\nNo\nYes\nMedium (6.5)\n\n\nCVE-2026-89160\nYes\nYes\nNo\nYes…",
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-11-12T08:00:00.000Z",
-        "isNew": true
+        "isNew": false
       },
       {
         "title": "November 11, 2026",
@@ -199,7 +199,7 @@
       {
         "title": "November 10, 2026",
         "link": "https://docs.cloud.google.com/release-notes#November_10_2026",
-        "summary": "API Gateway\nFeature\nTLS 1.3 for connections to backends\nTLS 1.3 is now enabled on connections from API Gateway gateways to backend\nservices. When a backend supports TLS 1.3, the gateway uses TLS 1.3.\nAgent Platform Workbench\nFeature\nAntigravity CLI in Agent Platform Workbench instances\nPreview: The\nAntigravity CLI is available in Agent Platform Workbench instances that use a\nDebian 12 (workbench-instances-2603) or later image. The Antigravity CLI is\nthe terminal surface of Google Antigravity, an AI agent that works in a\nterminal. New instances have it turned on by default. You can use the\nAntigravity CLI to do tasks like the following:\nCreate, explain, edit, check, and run notebooks.\nCreate a Jupyter kernel with the packages that you need.\nRun shell commands and Google Cloud commands, such as gcloud and bq.\nWrite the code for a notebook cell from a description, with the %%agy cell\nmagic.\nThe Antigravity CLI asks for your approval before it edits a file or runs a\ncommand. To turn it off for an instance, set the enable-antigravity metadata\nkey to false. To get started, see Use the Antigravity\nCLI.\nBigQuery\nFeature\nYou can use graph measures\nto lock an aggregation to a key in order to perform\ncomplex aggregations without overcounting.\nMeasure expressions\ncan include the following:\nAggregate function calls\nExpressions within aggregate functions\nConditional logic within aggregate functions\nConditional distinct counting\nScalar operations and expressions outside of aggregate…",
+        "summary": "API Gateway\nFeature\nTLS 1.3 for connections to backends\nAPI Gateway is rolling out support for TLS 1.3 on connections to backend\nservices. Once the rollout reaches a gateway, it uses TLS 1.3 with backends\nthat support it. No configuration is required.\nAgent Platform Workbench\nFeature\nAntigravity CLI in Agent Platform Workbench instances\nPreview: The\nAntigravity CLI is available in Agent Platform Workbench instances that use a\nDebian 12 (workbench-instances-2603) or later image. The Antigravity CLI is\nthe terminal surface of Google Antigravity, an AI agent that works in a\nterminal. New instances have it turned on by default. You can use the\nAntigravity CLI to do tasks like the following:\nCreate, explain, edit, check, and run notebooks.\nCreate a Jupyter kernel with the packages that you need.\nRun shell commands and Google Cloud commands, such as gcloud and bq.\nWrite the code for a notebook cell from a description, with the %%agy cell\nmagic.\nThe Antigravity CLI asks for your approval before it edits a file or runs a\ncommand. To turn it off for an instance, set the enable-antigravity metadata\nkey to false. To get started, see Use the Antigravity\nCLI.\nBigQuery\nFeature\nYou can use graph measures\nto lock an aggregation to a key in order to perform\ncomplex aggregations without overcounting.\nMeasure expressions\ncan include the following:\nAggregate function calls\nExpressions within aggregate functions\nConditional logic within aggregate functions\nConditional distinct counting\nScalar…",
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-11-10T08:00:00.000Z",
@@ -549,6 +549,15 @@
     ],
     "rust": [
       {
+        "title": "Announcing Rust 1.100.0",
+        "link": "https://blog.rust-lang.org/2026/11/12/Rust-1.100.0/",
+        "summary": "The Rust team is happy to announce a new version of Rust, 1.100.0. Rust is a programming language empowering everyone to build reliable and efficient software.\nIf you have a previous version of Rust installed via rustup, you can get 1.100.0 with:\n$ rustup update stable\nIf you don't have it already, you can get rustup from the appropriate page on our website, and check out the detailed release notes for 1.100.0.\nIf you'd like to help us out by testing future releases, you might consider updating locally to use the beta channel (rustup default beta) or the nightly channel (rustup default nightly). Please report any bugs you might come across!\n\nWhat's in 1.100.0 stable\nNever type\nAllocator API\nDropGuard API\nConjuring zero-sized types\nReporting unused dependencies in Cargo\nReducing Cargo cache collisions\nCargo min-publish-age\nStabilized APIs\n\nNever type\nAfter 10 years and 5 failed stabilization attempts, the never type is finally stable! This also completes the project goal for this work.\nThe never type, spelled ! in code, is the canonical uninhabited type. It represents the type of diverging computations – computations which never resolve to any value – where any code that follows is unreachable. Expressions that terminate control flow, such as return, break, and std::process::exit, also have the type !.\nSince having a value of the never type is impossible, Rust permits a never-to-any coercion, allowing to turn ! into any other type (this is what distinguishes it from any other…",
+        "image": null,
+        "source": "Rust Blog",
+        "published": "2026-11-12T00:00:00.000Z",
+        "isNew": false
+      },
+      {
         "title": "Google Summer of Code 2026 results",
         "link": "https://blog.rust-lang.org/2026/11/11/gsoc-2026-results/",
         "summary": "The Rust Project participated in Google Summer of Code (GSoC) for the third time this year. This time we had 13 projects, and our dear contributors have been working very hard on them for several months. As usual, the projects had various durations, so while some of them have ended in August, the last one has only finished in November, so we have been waiting until we have all the results before publishing this blog post.\nWe are very happy to announce that all 13 projects were successful and passed their final evaluation! We consider it to be a testament to the diligence of our contributors, and the helpfulness of our mentors, that we are able to keep a very high rate[1] of successful GSoC projects several years in a row.\nAt the start of summer, we had a video call with our contributors, so that we could all get to know each other a bit, and learn about their projects. Over the following few months, we continuously communicated with the contributors, provided guidance and answered their questions and reviewed their pull requests. And most importantly, we learned many new things together! It was an overall great experience. We are grateful for all Rust contributions done by our GSoC participants and for the time we spent working together, and we hope that we will continue seeing at least some of them around in the future.\nWe would like to thank all our Rust GSoC 2026 contributors. You did a great job!\nEven though this year we had fewer projects than in 2025, mostly due to…",
@@ -610,18 +619,18 @@
         "source": "Rust Blog",
         "published": "2026-10-01T00:00:00.000Z",
         "isNew": false
-      },
-      {
-        "title": "Announcing a Maintainer in Residence: Scott Schafer for the Cargo team",
-        "link": "https://blog.rust-lang.org/2026/09/22/announcing-a-maintainer-in-residence-scott-schafer-for-the-cargo-team/",
-        "summary": "At the end of August, we announced our first Maintainers in Residence, Rust Project contributors who are funded for their upstream contributions and maintenance work from the Rust Foundation Maintainers Fund (RFMF). Since then, the Rust Leadership Council has dedicated more funds from its Project Priorities budget to RFMF, and together with AWS also providing additional funds, this allowed us to open a new full-time Maintainer in Residence (MiR) position to support the Cargo team. We would like to thank the Rust Leadership Council, AWS, and also the Rust Foundation for providing us with this opportunity! If you would like to help us hire more maintainers to improve Rust, consider donating to RFMF.\nThis post explains why we chose to support the Cargo team specifically, and introduces Scott Schafer, the new Cargo Maintainer in Residence.\n\nWhy Cargo?\nThe new MiR full-time position is dedicated to helping with the maintenance of Cargo, our build system and package manager. The Cargo project is deeply involved in many new Rust features, improvements, and Project Goals. Combined with its cross-cutting nature, where it has to support many different use-cases and integrate with several other tools, it takes a lot of work just to keep up with its maintenance needs, let alone support so many feature requests and proposed changes.\nBecause of that, the Cargo team has sometimes struggled with meeting its maintenance demands. You might remember that for several years, it actually held a…",
-        "image": null,
-        "source": "Rust Blog",
-        "published": "2026-09-22T00:00:00.000Z",
-        "isNew": false
       }
     ],
     "javascript": [
+      {
+        "title": "Node.js 27.0.0-alpha.0.1.0 (Alpha)",
+        "link": "https://nodejs.org/en/blog/release/v27.0.0-alpha.0.1.0",
+        "summary": "",
+        "image": null,
+        "source": "Node.js Blog",
+        "published": "2026-11-12T13:36:10.000Z",
+        "isNew": false
+      },
       {
         "title": "Node.js 26.13.1 (LTS)",
         "link": "https://nodejs.org/en/blog/release/v26.13.1",
@@ -683,15 +692,6 @@
         "image": null,
         "source": "Node.js Blog",
         "published": "2026-10-28T18:40:14.000Z",
-        "isNew": false
-      },
-      {
-        "title": "Node.js 26.13.0 (LTS)",
-        "link": "https://nodejs.org/en/blog/release/v26.13.0",
-        "summary": "",
-        "image": null,
-        "source": "Node.js Blog",
-        "published": "2026-10-28T16:58:40.000Z",
         "isNew": false
       }
     ]
