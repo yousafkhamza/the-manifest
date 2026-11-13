@@ -1,6 +1,6 @@
 {
-  "date": "2026-11-12",
-  "generatedAt": "2026-11-12T22:43:50.346Z",
+  "date": "2026-11-13",
+  "generatedAt": "2026-11-13T13:05:50.552Z",
   "totalArticles": 72,
   "ticker": [
     {
@@ -181,7 +181,7 @@
       {
         "title": "November 12, 2026",
         "link": "https://docs.cloud.google.com/release-notes#November_12_2026",
-        "summary": "App Engine standard environment Go\nFeature\nSupport for Direct VPC egress in the App Engine standard environment is in General Availability (GA). For more information, see Configure Direct VPC egress and Best practices for App Engine networking.\nFeature\nYou can deploy an active version in the App Engine standard environment to Cloud Run directly from the Migration hub in the Google Cloud console. You don't need access to your source code, and you don't need to rebuild your app. The deployment doesn't affect your live App Engine traffic. For more information, see Use a previously built image (Preview).\nApp Engine standard environment Java\nFeature\nSupport for Direct VPC egress in the App Engine standard environment is in General Availability (GA). For more information, see Configure Direct VPC egress and Best practices for App Engine networking.\nFeature\nYou can deploy an active version in the App Engine standard environment to Cloud Run directly from the Migration hub in the Google Cloud console. You don't need access to your source code, and you don't need to rebuild your app. The deployment doesn't affect your live App Engine traffic. For more information, see Use a previously built image (Preview).\nApp Engine standard environment Node.js\nFeature\nSupport for Direct VPC egress in the App Engine standard environment is in General Availability (GA). For more information, see Configure Direct VPC egress and Best practices for App Engine networking.\nFeature\nYou can deploy an…",
+        "summary": "API Keys API\nFeature\nThe API Keys remote Model Context Protocol (MCP) server is generally available\n(GA).\nYou can use the API Keys remote MCP server in your AI applications to\ncreate, inspect, restrict, and manage the lifecycle of API keys in your\nGoogle Cloud projects.\nFor more information, see\nUse the API Keys remote MCP server and the\nAPI Keys MCP reference.\nApp Engine standard environment Go\nFeature\nSupport for Direct VPC egress in the App Engine standard environment is in General Availability (GA). For more information, see Configure Direct VPC egress and Best practices for App Engine networking.\nFeature\nYou can deploy an active version in the App Engine standard environment to Cloud Run directly from the Migration hub in the Google Cloud console. You don't need access to your source code, and you don't need to rebuild your app. The deployment doesn't affect your live App Engine traffic. For more information, see Use a previously built image (Preview).\nApp Engine standard environment Java\nFeature\nSupport for Direct VPC egress in the App Engine standard environment is in General Availability (GA). For more information, see Configure Direct VPC egress and Best practices for App Engine networking.\nFeature\nYou can deploy an active version in the App Engine standard environment to Cloud Run directly from the Migration hub in the Google Cloud console. You don't need access to your source code, and you don't need to rebuild your app. The deployment doesn't affect your live App…",
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-11-12T08:00:00.000Z",
