@@ -1,6 +1,6 @@
 {
   "date": "2026-11-15",
-  "generatedAt": "2026-11-15T17:45:20.539Z",
+  "generatedAt": "2026-11-15T21:48:22.209Z",
   "totalArticles": 72,
   "ticker": [
     {
@@ -179,6 +179,24 @@
     ],
     "gcp": [
       {
+        "title": "November 15, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#November_15_2026",
+        "summary": "Google SecOps\nFeature\nPublisher Agent Version 2.7.2\nPublisher Agent Version 2.7.2 is now available.\nThis release includes the following updates and fixes for the Publisher and remote agent:\nAlert lazy loading for remote actions: Remote action tasks now support loading case data on demand from the server when alert lazy loading is enabled, reducing task payload sizes.\nIntegration dependency installation fix: Fixed an issue where installing integrations with multiple interdependent dependency files could fail before all packages finished installing.\nRemote agent deletion fix: Fixed directory permissions when running the self-destruction script during remote agent deletion.\nPublisher stability and security updates: Improved Publisher resilience and addressed security vulnerabilities.\nGoogle SecOps SOAR\nAnnouncement\nRelease 6.3.107 is being rolled out to the first phase of regions as listed\nhere.\nThis release contains internal and customer bug fixes.\nFeature\nPublisher Agent Version 2.7.2\nPublisher Agent Version 2.7.2 is now available.\nThis release includes the following updates and fixes for the Publisher and remote agent:\nAlert lazy loading for remote actions: Remote action tasks now support loading case data on demand from the server when alert lazy loading is enabled, reducing task payload sizes.\nIntegration dependency installation fix: Fixed an issue where installing integrations with multiple interdependent dependency files could fail before all packages finished…",
+        "image": null,
+        "source": "Google Cloud Platform (GCP) - Release notes",
+        "published": "2026-11-15T08:00:00.000Z",
+        "isNew": false
+      },
+      {
+        "title": "November 14, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#November_14_2026",
+        "summary": "Google SecOps SOAR\nAnnouncement\nRelease 6.3.106 is now\navailable for all regions.",
+        "image": null,
+        "source": "Google Cloud Platform (GCP) - Release notes",
+        "published": "2026-11-14T08:00:00.000Z",
+        "isNew": false
+      },
+      {
         "title": "November 13, 2026",
         "link": "https://docs.cloud.google.com/release-notes#November_13_2026",
         "summary": "Access Approval\nFeature\nCloud Quotas is generally available\n(GA).\nAccess Transparency\nFeature\nCloud Quotas is generally available\n(GA).\nApigee X\nAnnouncement\nOn November 13, 2026, we released an updated version of Apigee (1-18-0-apigee-9).\nNote: Rollouts of this release began today and can take four or more business\ndays to complete across all Google Cloud zones. Your instances might not have\nthe features and fixes available until the rollout is complete.\nSecurity\nBug ID\nDescription\n\n\n\n\n579640924\nSecurity fix for Apigee. Hardened the JavaCallout, Script, and JavaScript policy sandboxes.\n\n\n579642864\nSecurity fix for Apigee. Fixed an OAuth 2.0 redirect_uri validation bypass in non-strict sub-resource matching and enforced <EnforceStrictCallbackURI> on GenerateAuthorizationCode policies.\n\n\n579642568\nSecurity fix for Apigee. Fixed a Jython sandbox escape where user-supplied <JythonURL> JARs defining org.python.core.PyReflected classes received the unrestricted pythonns: protection domain.\n\n\n582347995, 577964152\nSecurity fix for Apigee. Upgraded the ingress gateway to patch security vulnerabilities.\n\n\nN/A\nSecurity fix for Apigee infrastructure.\n\n\n\nFixed\nBug ID\nDescription\n\n\n\n\n582789138\nAdded the response.event.stream.state and response.event.stream.content.length flow variables on SSE EventFlow responses, readable in PostClientFlow so a MessageLogging step can distinguish COMPLETE, UPSTREAM_ABORT, DOWNSTREAM_ABORT, and TIMEOUT terminations and log bytes sent. Use with…",
@@ -230,24 +248,6 @@
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-11-08T08:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "November 07, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#November_07_2026",
-        "summary": "Google SecOps SOAR\nAnnouncement\nRelease 6.3.105 is now\navailable for all regions.",
-        "image": null,
-        "source": "Google Cloud Platform (GCP) - Release notes",
-        "published": "2026-11-07T08:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "November 06, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#November_06_2026",
-        "summary": "Agent Registry\nFeature\nSkill security scanning and governance in Agent Registry are available. You can\nautomatically scan standalone skill revisions for security issues, review\nFinding resources, enforce scanning policies across your organization using\ncustom Organization Policy constraints, and grant least-privilege skill\nmanagement access.\nFor more information, see\nScan skills for security issues and\nAgent Registry roles and permissions.\nFeature\nStandalone skills in Agent Registry are\ngenerally available (GA).\nYou can register, version, search, and govern standalone Skill resources,\nimmutable SkillRevision packages, and verified Publisher details.\nFor more information, see\nSkills architecture,\nRegister skills, and\nManage skills.\nAlloyDB for PostgreSQL\nFeature\nBlocked query analysis in AlloyDB for PostgreSQL is\ngenerally available (GA).\nThis feature lets you identify active queries that hold locks and the dependent\nqueries that are blocked by them so that you can terminate the root blockers.\nFor more information, see\nBlocked query analysis.\nAssured Open Source Software\nFeature\nThe Assured Open Source Software Premium tier supports Google Cloud regions and\nmulti-regions\nfor remote (or proxy) Artifact Registry repositories.\nFor the list of supported regions, see Supported\nregions.\nBigQuery\nAnnouncement\nYou can now use BigQuery Graph and run\nGraph Query Language (GQL) queries when you use on-demand pricing.\nBreaking\nStarting January 31, 2027, the BigQuery Data Transfer Service…",
-        "image": null,
-        "source": "Google Cloud Platform (GCP) - Release notes",
-        "published": "2026-11-06T08:00:00.000Z",
         "isNew": false
       }
     ],
