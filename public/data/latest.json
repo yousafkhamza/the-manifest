@@ -1,6 +1,6 @@
 {
-  "date": "2026-11-15",
-  "generatedAt": "2026-11-15T21:48:22.209Z",
+  "date": "2026-11-16",
+  "generatedAt": "2026-11-16T13:38:15.530Z",
   "totalArticles": 72,
   "ticker": [
     {
@@ -179,6 +179,15 @@
     ],
     "gcp": [
       {
+        "title": "November 16, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#November_16_2026",
+        "summary": "Google Cloud Armor\nFeature\nCloud Armor supports Autonomous System Numbers (ASNs), Network Threat\nIntelligence (NTI), and HTTP filtering in globally scoped edge security\npolicies for Cloud CDN edge\ncache services in Preview.",
+        "image": null,
+        "source": "Google Cloud Platform (GCP) - Release notes",
+        "published": "2026-11-16T08:00:00.000Z",
+        "isNew": true
+      },
+      {
         "title": "November 15, 2026",
         "link": "https://docs.cloud.google.com/release-notes#November_15_2026",
         "summary": "Google SecOps\nFeature\nPublisher Agent Version 2.7.2\nPublisher Agent Version 2.7.2 is now available.\nThis release includes the following updates and fixes for the Publisher and remote agent:\nAlert lazy loading for remote actions: Remote action tasks now support loading case data on demand from the server when alert lazy loading is enabled, reducing task payload sizes.\nIntegration dependency installation fix: Fixed an issue where installing integrations with multiple interdependent dependency files could fail before all packages finished installing.\nRemote agent deletion fix: Fixed directory permissions when running the self-destruction script during remote agent deletion.\nPublisher stability and security updates: Improved Publisher resilience and addressed security vulnerabilities.\nGoogle SecOps SOAR\nAnnouncement\nRelease 6.3.107 is being rolled out to the first phase of regions as listed\nhere.\nThis release contains internal and customer bug fixes.\nFeature\nPublisher Agent Version 2.7.2\nPublisher Agent Version 2.7.2 is now available.\nThis release includes the following updates and fixes for the Publisher and remote agent:\nAlert lazy loading for remote actions: Remote action tasks now support loading case data on demand from the server when alert lazy loading is enabled, reducing task payload sizes.\nIntegration dependency installation fix: Fixed an issue where installing integrations with multiple interdependent dependency files could fail before all packages finished…",
@@ -190,7 +199,7 @@
       {
         "title": "November 14, 2026",
         "link": "https://docs.cloud.google.com/release-notes#November_14_2026",
-        "summary": "Google SecOps SOAR\nAnnouncement\nRelease 6.3.106 is now\navailable for all regions.",
+        "summary": "Access Approval\nFeature\nService Usage is generally available\n(GA).\nGoogle SecOps SOAR\nAnnouncement\nRelease 6.3.106 is now\navailable for all regions.",
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-11-14T08:00:00.000Z",
@@ -239,15 +248,6 @@
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-11-09T08:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "November 08, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#November_08_2026",
-        "summary": "Cloud Asset Inventory\nFeature\nThe following resource type is publicly available through the\nSearchAllResources\nand\nSearchAllIamPolicies\nAPIs.\nGemini for Google Cloud\n\ncloudaicompanion.googleapis.com/Topic\n\n\nGoogle Cloud Marketplace Partners\nFeature\nYou can now create reseller private offer plans to amend existing public orders\nand existing private offers created through the private offer flow.\nFor more information, see\nreseller private offer plans.\nGoogle SecOps\nFeature\nOperations in Emerging Threats Center General Availability\nThe Operations feature in the Emerging Threats Center feed is now in General Availability (GA). For more information see, Operations in Emerging Threats Center.\nGoogle SecOps SOAR\nAnnouncement\nRelease 6.3.106 is being rolled out to the first phase of regions as listed\nhere.\nFeature\nCase activity tagging\nYou can now use custom tags for individual activities, comments, tasks, and\nactions on the Case Wall, and filter the wall view by those tags. This allows\nyou to categorize specific observations and filter the timeline to view only the\nentries relevant to your investigation or team.\nFor more information, see Add a tag to a Case Wall activity.",
-        "image": null,
-        "source": "Google Cloud Platform (GCP) - Release notes",
-        "published": "2026-11-08T08:00:00.000Z",
         "isNew": false
       }
     ],
