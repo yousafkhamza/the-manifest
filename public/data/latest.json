@@ -1,6 +1,6 @@
 {
   "date": "2026-11-16",
-  "generatedAt": "2026-11-16T13:38:15.530Z",
+  "generatedAt": "2026-11-16T21:03:40.684Z",
   "totalArticles": 72,
   "ticker": [
     {
@@ -30,6 +30,15 @@
   ],
   "topics": {
     "aws": [
+      {
+        "title": "AWS Weekly Roundup: AWS Nitro Sandboxes, AWS Emulator, and more (November 16, 2026)",
+        "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-aws-nitro-sandboxes-aws-emulator-and-more-november-16-2026/",
+        "summary": "A second delivery of the same message can reveal more about an application than its happy-path demo. I like tools that make those cases easier to investigate while a change is still small. Last week’s launch of AWS Emulator brings part of that work onto your own machine: developers and coding agents can exercise AWS […]",
+        "image": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2026/11/13/aws-emulator-official-diagram_1540.png",
+        "source": "AWS News Blog",
+        "published": "2026-11-16T17:55:46.000Z",
+        "isNew": false
+      },
       {
         "title": "Test your applications against AWS locally with AWS Emulator",
         "link": "https://aws.amazon.com/blogs/aws/test-your-applications-against-aws-locally-with-aws-emulator/",
@@ -91,15 +100,6 @@
         "image": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2026/10/20/2026-ECS-Gateway-architecture.png",
         "source": "AWS News Blog",
         "published": "2026-10-20T17:03:38.000Z",
-        "isNew": false
-      },
-      {
-        "title": "AWS Weekly Roundup: AWS Lambda Web Functions, Amazon S3 on the Vercel Marketplace, and more (October 19, 2026)",
-        "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-aws-lambda-web-functions-amazon-s3-on-the-vercel-marketplace-and-more-october-19-2026/",
-        "summary": "Nothing last week added a new kind of compute. What it did instead was shorten the distance between the code you already have and that code being live. AWS Lambda learned to run a plain HTTP server with no adapter in front of it, and Amazon S3 became something you can provision from inside the […]",
-        "image": null,
-        "source": "AWS News Blog",
-        "published": "2026-10-19T15:34:59.000Z",
         "isNew": false
       }
     ],
@@ -181,11 +181,11 @@
       {
         "title": "November 16, 2026",
         "link": "https://docs.cloud.google.com/release-notes#November_16_2026",
-        "summary": "Google Cloud Armor\nFeature\nCloud Armor supports Autonomous System Numbers (ASNs), Network Threat\nIntelligence (NTI), and HTTP filtering in globally scoped edge security\npolicies for Cloud CDN edge\ncache services in Preview.",
+        "summary": "Bigtable\nFeature\nYou can monitor in-memory tier performance,\ncapacity, and request eligibility in the Google Cloud console, with charts\ngrouped by cluster or instance. This feature is in\nPreview for\ninstances in the Enterprise Plus edition.\nFor more information, see\nMonitor performance over time.\nFeature\nYou can use the\nBigtable migration agent skill\nwith your coding agent to plan and run Apache HBase to Bigtable migrations,\nincluding cluster assessment, schema and capacity planning, offline or online\ndata migration, and data validation. This feature is in\nPreview. For more\ninformation, see\nMigrate data to Bigtable.\nLibraries\n\n\nJava\n1.97.0 (2026-11-12)\nBug Fixes\nbigtable: avoid triggering per-RPC credential session fallback on default call context (#14961) (eb06d2c)\nbigtable: copy Metadata per GetClientConfiguration call (#14950) (278fe2f)\nbigtable: disable SwitchingChannelPool when ChannelPoolConfiguration is empty (#14911) (fa24702)\nbigtable: handle empty SessionPoolConfiguration in SessionPoolImpl and PoolSizer (#14912) (cc7b235)\nbigtable: replace SessionPoolImpl Watchdog with per-session closeTimeout (#14977) (a15acfb)\n\n\nCloud Load Balancing\nFeature\nCloud Load Balancing has entered Phase 2 of the rollout for TLS post-quantum\nkey exchange support across Application Load Balancers and external proxy Network Load Balancers.\nIn Phase 2 (October 2026 through October 2027), TLS post-quantum\nkey exchange is enabled by default. If you require additional testing or\nencounter…",
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-11-16T08:00:00.000Z",
-        "isNew": true
+        "isNew": false
       },
       {
         "title": "November 15, 2026",
@@ -199,7 +199,7 @@
       {
         "title": "November 14, 2026",
         "link": "https://docs.cloud.google.com/release-notes#November_14_2026",
-        "summary": "Access Approval\nFeature\nService Usage is generally available\n(GA).\nGoogle SecOps SOAR\nAnnouncement\nRelease 6.3.106 is now\navailable for all regions.",
+        "summary": "Access Approval\nFeature\nService Usage is generally available\n(GA).\nAccess Transparency\nFeature\nService Usage is generally available\n(GA).\nGoogle SecOps SOAR\nAnnouncement\nRelease 6.3.106 is now\navailable for all regions.",
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-11-14T08:00:00.000Z",
@@ -401,6 +401,15 @@
     ],
     "python": [
       {
+        "title": "XTM Transifex sponsors Python’s documentation translations",
+        "link": "https://blog.python.org/2026/11/transifex-sponsors-python-docs/",
+        "summary": "XTM Transifex is supporting Python’s documentation translation teams with a year of free access to its Growth plan.",
+        "image": null,
+        "source": "Python Insider",
+        "published": "2026-11-16T00:00:00.000Z",
+        "isNew": false
+      },
+      {
         "title": "Python is for everyone: Join in the PSF year-end fundraiser & membership drive!",
         "link": "https://pyfound.blogspot.com/2026/11/python-is-for-everyone-join-in-psf-year.html",
         "summary": "The Python Software Foundation (PSF) is the charitable organization behind Python, dedicated to advancing, supporting, and protecting the Python programming language and the community that sustains it. That mission is more than words to us; it’s the community we show up for every day. Our tiny but mighty team works hard to deliver the projects, services, and programs that allow Python to be the thriving, independent, community-driven language it is today. Some of what the PSF does includes producing PyCon US, hosting the Python Package Index (PyPI), supporting Developers in Residence, maintaining critical community infrastructure, and more.\nPython is for gathering, teaching, learning, playing, researching, exploring, creating, building, working, sustaining. The list goes on and on and on! Support this year’s fundraiser with your donations and memberships to help the PSF, the Python community, and the language stay strong and sustainable. Because Python is for everyone, thanks to you. \n\n \nThere are two direct ways to join through donate.python.org: \n\nDonate directly to the PSF! Your donation is a direct way to support and power the future of the Python programming language and community you love. Every donation makes a difference, and we work hard to make a little go a long way.\nBecome a PSF Supporting Member! When you sign up as a Supporting Member of the PSF, you become a part of the PSF, are eligible to vote in PSF elections, and help us sustain our mission with your…",
@@ -461,15 +470,6 @@
         "image": null,
         "source": "Python Insider",
         "published": "2026-10-26T00:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "Mark Your Calendars! PSF Board Office Hours for the Year Ahead",
-        "link": "https://pyfound.blogspot.com/2026/10/mark-your-calendars-psf-board-office.html",
-        "summary": "Greetings, Pythonistas- thank you so much for supporting the work of the PSF and the Python community! The newest PSF Board has decided to continue investing in connecting with the global Python community by running the PSF Board Office Hour sessions on the PSF Discord into 2027. \nWe began running these sessions in September 2024, and they have proven to be a great method for the community to connect with the board and vice versa. This venue has been invaluable to the PSF as we work on critical areas over the last year such as the PSF Strategic Plan, elections, and the recent PSF Grants Program Funding Round. The sessions have also provided the PSF Board and Staff the opportunity to hear what our community is up to and what challenges they are facing.\n\nWhat are the PSF Board Office Hours?\nDuring the PSF Board Office Hours, you can participate in a text-based live chat with PSF Board Directors. This is a chance to connect, share, and collaborate with the PSF Board and Staff to improve our community together. Occasionally, we will have dedicated topics such as PyCon US and the PSF Board Elections for the office hour sessions. \nHere is some of the work that we collaborate with staff and volunteers on:\n\nPromotion and outreach for the Python programming language\nSupporting local Python communities\nOrganizing PyCon US\nDiversity and Inclusion in our community\nSupport handling Code of Conduct issues within our communities\nSupport regional Python communities via the PSF Grants…",
-        "image": null,
-        "source": "Python Software Foundation News",
-        "published": "2026-10-22T12:02:44.795Z",
         "isNew": false
       }
     ],
@@ -549,6 +549,15 @@
     ],
     "rust": [
       {
+        "title": "Enabling the parallel frontend on nightly",
+        "link": "https://blog.rust-lang.org/2026/11/16/enabling-parallel-frontend-on-nightly/",
+        "summary": "TL;DR: We are enabling the parallel frontend of the Rust compiler on nightly by default,\nto find remaining issues in preparation for its stabilization.\n\nContext\nThe Rust compiler has been using multiple threads to compile code in its \"backend\" part (using LLVM) for a long time. However, its \"frontend\" part (which includes type checking and borrow checking) has been executing sequentially, on a single thread, which of course limits the performance of the compiler. If you are interested in a more in-depth explanation of parallelism in the Rust compiler, see this previous post.\nThe compiler frontend actually had support for running in parallel for a long time, but it was not enabled by default due to various issues. Three years ago, we made it possible to opt into the parallel frontend on the nightly channel, with the plan to stabilize it in 2024. Clearly, we did not achieve that goal, but work on the parallel frontend was still slowly progressing in the meantime.\nLast year, Vadim Petrochenkov, together with several other contributors, started a coordinated effort to finally get the parallel frontend over the finish line. Since then, many long-standing issues were fixed, and its performance was improved. Now we are at a point where we would like to make it widely available. But before that, we want to find out if people encounter issues with it in the wild, which is why we are enabling it by default only on the nightly channel. Once we will be confident enough that it is…",
+        "image": "https://blog.rust-lang.org/2026/11/16/enabling-parallel-frontend-on-nightly/nalgebra-0.33.png",
+        "source": "Rust Blog",
+        "published": "2026-11-16T00:00:00.000Z",
+        "isNew": false
+      },
+      {
         "title": "Announcing Rust 1.100.0",
         "link": "https://blog.rust-lang.org/2026/11/12/Rust-1.100.0/",
         "summary": "The Rust team is happy to announce a new version of Rust, 1.100.0. Rust is a programming language empowering everyone to build reliable and efficient software.\nIf you have a previous version of Rust installed via rustup, you can get 1.100.0 with:\n$ rustup update stable\nIf you don't have it already, you can get rustup from the appropriate page on our website, and check out the detailed release notes for 1.100.0.\nIf you'd like to help us out by testing future releases, you might consider updating locally to use the beta channel (rustup default beta) or the nightly channel (rustup default nightly). Please report any bugs you might come across!\n\nWhat's in 1.100.0 stable\nNever type\nAllocator API\nDropGuard API\nConjuring zero-sized types\nReporting unused dependencies in Cargo\nReducing Cargo cache collisions\nCargo min-publish-age\nStabilized APIs\n\nNever type\nAfter 10 years and 5 failed stabilization attempts, the never type is finally stable! This also completes the project goal for this work.\nThe never type, spelled ! in code, is the canonical uninhabited type. It represents the type of diverging computations – computations which never resolve to any value – where any code that follows is unreachable. Expressions that terminate control flow, such as return, break, and std::process::exit, also have the type !.\nSince having a value of the never type is impossible, Rust permits a never-to-any coercion, allowing to turn ! into any other type (this is what distinguishes it from any other…",
@@ -609,15 +618,6 @@
         "image": null,
         "source": "Rust Blog",
         "published": "2026-10-02T00:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "Announcing Rust 1.99.0",
-        "link": "https://blog.rust-lang.org/2026/10/01/Rust-1.99.0/",
-        "summary": "The Rust team is happy to announce a new version of Rust, 1.99.0. Rust is a programming language empowering everyone to build reliable and efficient software.\nIf you have a previous version of Rust installed via rustup, you can get 1.99.0 with:\n$ rustup update stable\nIf you don't have it already, you can get rustup from the appropriate page on our website, and check out the detailed release notes for 1.99.0.\nIf you'd like to help us out by testing future releases, you might consider updating locally to use the beta channel (rustup default beta) or the nightly channel (rustup default nightly). Please report any bugs you might come across!\n\nWhat's in 1.99.0 stable\n\nextern \"C\" variadics\nRust 1.99.0 stabilizes defining C-ABI variadic functions with \"C\" and\n\"C-unwind\" ABIs. Variadic functions defined this way use a variable argument\nlist (...) and accept an arbitrary number of arguments. Rust could already\ncall externally-defined variadic functions (e.g., libc::printf). With Rust\n1.99, these functions can now be written in Rust itself:\n/// SAFETY: must be called with (at least) 2 i32 arguments.\nunsafe extern \"C\" fn sum(mut args: ...) -> i32 {\n    // SAFETY: guaranteed by the caller.\n    let a = unsafe { args.next_arg::<i32>() };\n    let b = unsafe { args.next_arg::<i32>() };\n    a + b\n}\n\nfn foo() -> i32 {\n    unsafe { sum(0i32, 2i32) }\n}\nThe type of ... is VaList,\nwhich is ABI-compatible with the C va_list type across targets. What types can be read from a VaList is guarded by…",
-        "image": null,
-        "source": "Rust Blog",
-        "published": "2026-10-01T00:00:00.000Z",
         "isNew": false
       }
     ],
