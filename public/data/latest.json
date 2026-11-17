@@ -1,6 +1,6 @@
 {
-  "date": "2026-11-16",
-  "generatedAt": "2026-11-16T21:03:40.684Z",
+  "date": "2026-11-17",
+  "generatedAt": "2026-11-17T00:47:50.045Z",
   "totalArticles": 72,
   "ticker": [
     {
@@ -181,7 +181,7 @@
       {
         "title": "November 16, 2026",
         "link": "https://docs.cloud.google.com/release-notes#November_16_2026",
-        "summary": "Bigtable\nFeature\nYou can monitor in-memory tier performance,\ncapacity, and request eligibility in the Google Cloud console, with charts\ngrouped by cluster or instance. This feature is in\nPreview for\ninstances in the Enterprise Plus edition.\nFor more information, see\nMonitor performance over time.\nFeature\nYou can use the\nBigtable migration agent skill\nwith your coding agent to plan and run Apache HBase to Bigtable migrations,\nincluding cluster assessment, schema and capacity planning, offline or online\ndata migration, and data validation. This feature is in\nPreview. For more\ninformation, see\nMigrate data to Bigtable.\nLibraries\n\n\nJava\n1.97.0 (2026-11-12)\nBug Fixes\nbigtable: avoid triggering per-RPC credential session fallback on default call context (#14961) (eb06d2c)\nbigtable: copy Metadata per GetClientConfiguration call (#14950) (278fe2f)\nbigtable: disable SwitchingChannelPool when ChannelPoolConfiguration is empty (#14911) (fa24702)\nbigtable: handle empty SessionPoolConfiguration in SessionPoolImpl and PoolSizer (#14912) (cc7b235)\nbigtable: replace SessionPoolImpl Watchdog with per-session closeTimeout (#14977) (a15acfb)\n\n\nCloud Load Balancing\nFeature\nCloud Load Balancing has entered Phase 2 of the rollout for TLS post-quantum\nkey exchange support across Application Load Balancers and external proxy Network Load Balancers.\nIn Phase 2 (October 2026 through October 2027), TLS post-quantum\nkey exchange is enabled by default. If you require additional testing or\nencounter…",
+        "summary": "App Hub\nFeature\nApp Hub now supports multi-regional applications in the us and eu\nmulti-regions, letting you group multi-regional and regional resources across\nregions within a single geographic boundary. For more information, see\nGlobal, multi-regional, and regional applications\nand App Hub locations.\nBatch\nFeature\nInstance flexibility is\ngenerally available.\nInstance flexibility lets you allow a job to run on multiple machine types that\nyou specify and can optionally rank. Use instance flexibility to improve\nobtainability—the probability that resources are available to run your\njob. For example, by allowing multiple machine types, you can reduce the\nprobability of resource availability errors and try to obtain Spot VMs\nthat are less likely to be preempted.\nTo get started, see Improve resource obtainability for jobs.\nFeature\nYou can use the Google Cloud console to create jobs that use instance flexibility.\nBigtable\nFeature\nYou can monitor in-memory tier performance,\ncapacity, and request eligibility in the Google Cloud console, with charts\ngrouped by cluster or instance. This feature is in\nPreview for\ninstances in the Enterprise Plus edition.\nFor more information, see\nMonitor performance over time.\nFeature\nYou can use the\nBigtable migration agent skill\nwith your coding agent to plan and run Apache HBase to Bigtable migrations,\nincluding cluster assessment, schema and capacity planning, offline or online\ndata migration, and data validation. This feature is in\nPreview. For…",
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-11-16T08:00:00.000Z",
@@ -235,7 +235,7 @@
       {
         "title": "November 10, 2026",
         "link": "https://docs.cloud.google.com/release-notes#November_10_2026",
-        "summary": "API Gateway\nFeature\nTLS 1.3 for connections to backends\nAPI Gateway is rolling out support for TLS 1.3 on connections to backend\nservices. Once the rollout reaches a gateway, it uses TLS 1.3 with backends\nthat support it. No configuration is required.\nAgent Platform Workbench\nFeature\nAntigravity CLI in Agent Platform Workbench instances\nPreview: The\nAntigravity CLI is available in Agent Platform Workbench instances that use a\nDebian 12 (workbench-instances-2603) or later image. The Antigravity CLI is\nthe terminal surface of Google Antigravity, an AI agent that works in a\nterminal. New instances have it turned on by default. You can use the\nAntigravity CLI to do tasks like the following:\nCreate, explain, edit, check, and run notebooks.\nCreate a Jupyter kernel with the packages that you need.\nRun shell commands and Google Cloud commands, such as gcloud and bq.\nWrite the code for a notebook cell from a description, with the %%agy cell\nmagic.\nThe Antigravity CLI asks for your approval before it edits a file or runs a\ncommand. To turn it off for an instance, set the enable-antigravity metadata\nkey to false. To get started, see Use the Antigravity\nCLI.\nBigQuery\nFeature\nYou can use graph measures\nto lock an aggregation to a key in order to perform\ncomplex aggregations without overcounting.\nMeasure expressions\ncan include the following:\nAggregate function calls\nExpressions within aggregate functions\nConditional logic within aggregate functions\nConditional distinct counting\nScalar…",
+        "summary": "API Gateway\nFeature\nMCP method and tool name in request logs\nAPI Gateway request logs now include the Model Context Protocol (MCP) method of\neach MCP request, and the tool name of each tools/call request, in\nthe jsonPayload.mcp field. You can use this field to find MCP\ntraffic and the calls to a specific tool.\nFor more information, see\nConfigure Model Context Protocol.\nFeature\nTLS 1.3 for connections to backends\nAPI Gateway is rolling out support for TLS 1.3 on connections to backend\nservices. Once the rollout reaches a gateway, it uses TLS 1.3 with backends\nthat support it. No configuration is required.\nAgent Platform Workbench\nFeature\nAntigravity CLI in Agent Platform Workbench instances\nPreview: The\nAntigravity CLI is available in Agent Platform Workbench instances that use a\nDebian 12 (workbench-instances-2603) or later image. The Antigravity CLI is\nthe terminal surface of Google Antigravity, an AI agent that works in a\nterminal. New instances have it turned on by default. You can use the\nAntigravity CLI to do tasks like the following:\nCreate, explain, edit, check, and run notebooks.\nCreate a Jupyter kernel with the packages that you need.\nRun shell commands and Google Cloud commands, such as gcloud and bq.\nWrite the code for a notebook cell from a description, with the %%agy cell\nmagic.\nThe Antigravity CLI asks for your approval before it edits a file or runs a\ncommand. To turn it off for an instance, set the enable-antigravity metadata\nkey to false. To get started, see…",
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-11-10T08:00:00.000Z",
@@ -252,6 +252,15 @@
       }
     ],
     "kubernetes": [
+      {
+        "title": "Scheduling the removal of the kube-proxy IPVS backend",
+        "link": "https://kubernetes.io/blog/2026/11/16/ipvs-removal/",
+        "summary": "The ipvs backend for kube-proxy was an experiment in providing a\nservice proxy implementation with better performance than the\niptables backend. While it succeeded in that goal, the kernel IPVS\nAPI has turned out to be a bad match for the Kubernetes Services API,\nand the ipvs backend was never able to implement all of the edge\ncases of Kubernetes Service functionality correctly.\nIn Kubernetes 1.29, the project introduced the nftables backend for\nkube-proxy, which became GA in 1.33. Part of the plan behind adding\nthe nftables backend was the idea that it would eventually replace\nboth the iptables and ipvs backends. Because the ipvs backend in\nparticular is complex, not 100% feature complete, and architecturally\nquite different from the other two backends (and thus more work to\nmaintain), Kubernetes SIG Network decided to officially deprecate it\nas of Kubernetes 1.35. Although it currently remains available in\nkube-proxy (with a warning about its deprecation), we (Kubernetes SIG\nNetwork) now plan to remove it in Kubernetes 1.40. All ipvs users\nshould therefore be planning to migrate to either the nftables or\niptables backends.\nWhy was the ipvs backend written?\nThe ipvs backend was originally designed to fix two different kinds\nof performance problems in the iptables backend:\nFirst, iptables had problems with data plane latency (the speed\nat which clients could establish new connections to services),\nbecause kube-proxy would write a separate iptables rule to match\neach service…",
+        "image": "https://kubernetes.io/blog/2026/11/16/ipvs-removal/ipvs-vs-nftables.svg",
+        "source": "Kubernetes Blog",
+        "published": "2026-11-16T18:35:00.000Z",
+        "isNew": true
+      },
       {
         "title": "From Working Group to SIG Architecture: spotlight on AI Conformance",
         "link": "https://kubernetes.io/blog/2026/10/29/sig-arch-ai-conformance-2026/",
@@ -313,15 +322,6 @@
         "image": null,
         "source": "Kubernetes Blog",
         "published": "2026-09-21T18:30:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "Kubernetes v1.37: Hardening Container Storage with Bind Mount Options and EmptyDir Permissions",
-        "link": "https://kubernetes.io/blog/2026/09/16/kubernetes-v1-37-hardening-container-storage/",
-        "summary": "Kubernetes v1.37 brings important storage security features: emptyDir permission modes and bind mount options. They help application programmers and security professionals implement rigorous security policies, for example, prohibiting deletion of files across containers or execution of arbitrary binaries from writable volumes, directly in Kubernetes without any complicated circumvention.\nLinux storage and permission fundamentals\nBefore diving into the new Kubernetes features, let us briefly review the low-level Linux security mechanisms that make them possible.\nBind mount flags\nWhen Linux mounts or remounts a directory, Virtual File System (VFS) flags control what actions are permitted on that filesystem:\nnoexec: Do not permit direct execution of any binaries on the mounted filesystem.\nnosuid: Do not allow set-user-identifier or set-group-identifier bits to take effect.\nnodev: Do not interpret character or block special devices on the file system.\nDirectory permissions and the sticky bit\nStandard Unix permissions regulate access across three scopes: Owner, Group, and Others (e.g., 0755 or 0777).\nBeyond standard read, write, and execute bits, Linux supports the sticky bit (as in mode 01777).\nWhen applied to a directory, the sticky bit ensures that a file inside that directory can only be deleted or renamed by the file's owner or root. This is essential for shared writable directories like /tmp.\nMotivation for the improvements\nWhy does Kubernetes need bind mount options and…",
-        "image": null,
-        "source": "Kubernetes Blog",
-        "published": "2026-09-16T18:30:00.000Z",
         "isNew": false
       }
     ],
