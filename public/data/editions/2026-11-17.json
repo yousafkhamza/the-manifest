@@ -1,6 +1,6 @@
 {
   "date": "2026-11-17",
-  "generatedAt": "2026-11-17T00:47:50.045Z",
+  "generatedAt": "2026-11-17T14:22:50.587Z",
   "totalArticles": 72,
   "ticker": [
     {
@@ -259,7 +259,7 @@
         "image": "https://kubernetes.io/blog/2026/11/16/ipvs-removal/ipvs-vs-nftables.svg",
         "source": "Kubernetes Blog",
         "published": "2026-11-16T18:35:00.000Z",
-        "isNew": true
+        "isNew": false
       },
       {
         "title": "From Working Group to SIG Architecture: spotlight on AI Conformance",
@@ -623,6 +623,15 @@
     ],
     "javascript": [
       {
+        "title": "Node.js 27.0.0-alpha.0.1.1 (Alpha)",
+        "link": "https://nodejs.org/en/blog/release/v27.0.0-alpha.0.1.1",
+        "summary": "",
+        "image": null,
+        "source": "Node.js Blog",
+        "published": "2026-11-17T08:41:07.000Z",
+        "isNew": false
+      },
+      {
         "title": "Node.js 27.0.0-alpha.0.1.0 (Alpha)",
         "link": "https://nodejs.org/en/blog/release/v27.0.0-alpha.0.1.0",
         "summary": "",
@@ -683,15 +692,6 @@
         "image": null,
         "source": "Node.js Blog",
         "published": "2026-10-29T19:52:29.000Z",
-        "isNew": false
-      },
-      {
-        "title": "Node.js 24.22.2 (LTS)",
-        "link": "https://nodejs.org/en/blog/release/v24.22.2",
-        "summary": "",
-        "image": null,
-        "source": "Node.js Blog",
-        "published": "2026-10-28T18:40:14.000Z",
         "isNew": false
       }
     ]
