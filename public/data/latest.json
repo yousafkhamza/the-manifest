@@ -1,6 +1,6 @@
 {
   "date": "2026-11-17",
-  "generatedAt": "2026-11-17T14:22:50.587Z",
+  "generatedAt": "2026-11-17T19:53:00.075Z",
   "totalArticles": 72,
   "ticker": [
     {
@@ -30,6 +30,15 @@
   ],
   "topics": {
     "aws": [
+      {
+        "title": "Four Continents, Four New AWS Heroes: Closing Out 2026",
+        "link": "https://aws.amazon.com/blogs/aws/four-continents-four-new-aws-heroes-closing-out-2026/",
+        "summary": "As AWS re:Invent is around the corner, we’re proud to recognize a new group of AWS Heroes. Every Hero finds their own way to give back, whether through sharing what they know, bringing people together, or building tools that help others succeed. What they have in common is a genuine commitment to supporting the builders […]",
+        "image": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2026/11/11/Andres-Moreno_175x263.png",
+        "source": "AWS News Blog",
+        "published": "2026-11-17T17:06:43.000Z",
+        "isNew": false
+      },
       {
         "title": "AWS Weekly Roundup: AWS Nitro Sandboxes, AWS Emulator, and more (November 16, 2026)",
         "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-aws-nitro-sandboxes-aws-emulator-and-more-november-16-2026/",
@@ -91,15 +100,6 @@
         "image": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2026/10/19/1218373720644947-1.png",
         "source": "AWS News Blog",
         "published": "2026-10-22T20:33:10.000Z",
-        "isNew": false
-      },
-      {
-        "title": "Introducing Amazon ECS Gateway: A fully-managed ingress solution for ECS services",
-        "link": "https://aws.amazon.com/blogs/aws/introducing-amazon-ecs-gateway-a-fully-managed-ingress-solution-for-ecs-services/",
-        "summary": "Try Amazon ECS Gateway, a new account-level resource that simplifies ingress networking for containerized workloads by dynamically provisioning and managing the necessary infrastructure on your behalf, with all resources created directly in your account.",
-        "image": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2026/10/20/2026-ECS-Gateway-architecture.png",
-        "source": "AWS News Blog",
-        "published": "2026-10-20T17:03:38.000Z",
         "isNew": false
       }
     ],
@@ -179,9 +179,18 @@
     ],
     "gcp": [
       {
+        "title": "November 17, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#November_17_2026",
+        "summary": "App Engine standard environment Java\nFeature\nSupport for migrating your App Engine push queues to Cloud Tasks by updating the\nbundled services SDK is in\nGeneral Availability (GA).\nThis method lets you upgrade your app without needing to modify your application\ncode. For more information on how to migrate, see the\npush queues migration guide.\nApp Engine standard environment PHP\nFeature\nSupport for migrating your App Engine push queues to Cloud Tasks by updating the\nbundled services SDK is in\nGeneral Availability (GA).\nThis method lets you upgrade your app without needing to modify your application\ncode. For more information on how to migrate, see the\npush queues migration guide.\nBigQuery\nFeature\nYou can now use the\nAI.RANK function\nto reorder the rows of a table by how\nwell the text in a specified column answers a search query. This function is\ngenerally available\n(GA).\nCloud Logging\nChange\nOps Agent version 2.72.0 changed the processing of all supported logging\npipelines from the Logging Agent service to the Metric Agent service.\nWhen you upgrade from an earlier version of the Ops Agent to version 2.72.0\nor later, you will see duplicated logs for a period, because each service\nmaintains its own record of the logs it has processed. This is expected.\nIf the duplicated logs are causing problems, then you can temporarily\nreconfigure the agent to continue using the Logging Agent service.\nFor more information, see\nUpgraded logging pipelines.\nCloud SDK\nBreaking\n594.0.0 (2026-11-17)…",
+        "image": null,
+        "source": "Google Cloud Platform (GCP) - Release notes",
+        "published": "2026-11-17T08:00:00.000Z",
+        "isNew": false
+      },
+      {
         "title": "November 16, 2026",
         "link": "https://docs.cloud.google.com/release-notes#November_16_2026",
-        "summary": "App Hub\nFeature\nApp Hub now supports multi-regional applications in the us and eu\nmulti-regions, letting you group multi-regional and regional resources across\nregions within a single geographic boundary. For more information, see\nGlobal, multi-regional, and regional applications\nand App Hub locations.\nBatch\nFeature\nInstance flexibility is\ngenerally available.\nInstance flexibility lets you allow a job to run on multiple machine types that\nyou specify and can optionally rank. Use instance flexibility to improve\nobtainability—the probability that resources are available to run your\njob. For example, by allowing multiple machine types, you can reduce the\nprobability of resource availability errors and try to obtain Spot VMs\nthat are less likely to be preempted.\nTo get started, see Improve resource obtainability for jobs.\nFeature\nYou can use the Google Cloud console to create jobs that use instance flexibility.\nBigtable\nFeature\nYou can monitor in-memory tier performance,\ncapacity, and request eligibility in the Google Cloud console, with charts\ngrouped by cluster or instance. This feature is in\nPreview for\ninstances in the Enterprise Plus edition.\nFor more information, see\nMonitor performance over time.\nFeature\nYou can use the\nBigtable migration agent skill\nwith your coding agent to plan and run Apache HBase to Bigtable migrations,\nincluding cluster assessment, schema and capacity planning, offline or online\ndata migration, and data validation. This feature is in\nPreview. For…",
+        "summary": "Agent Platform Workbench\nChange\n20261115.00_p0 Release\nChange\nInstalled latest packages from upstream dependencies.\nChange\nJupyterLab extension settings are now prepared when the image is built, so Workbench instances that use an unmodified container image with JupyterLab 4 (the default) restart faster.\nChange\n20261115.00_p0 Release\nChange\nInstalled latest packages from upstream dependencies.\nChange\nJupyterLab extension settings are now prepared when the image is built, so Workbench instances that use an unmodified container image with JupyterLab 4 (the default) restart faster.\nApp Hub\nFeature\nApp Hub now supports multi-regional applications in the us and eu\nmulti-regions, letting you group multi-regional and regional resources across\nregions within a single geographic boundary. For more information, see\nGlobal, multi-regional, and regional applications\nand App Hub locations.\nBatch\nFeature\nInstance flexibility is\ngenerally available.\nInstance flexibility lets you allow a job to run on multiple machine types that\nyou specify and can optionally rank. Use instance flexibility to improve\nobtainability—the probability that resources are available to run your\njob. For example, by allowing multiple machine types, you can reduce the\nprobability of resource availability errors and try to obtain Spot VMs\nthat are less likely to be preempted.\nTo get started, see Improve resource obtainability for jobs.\nFeature\nYou can use the Google Cloud console to create jobs that use instance…",
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-11-16T08:00:00.000Z",
@@ -190,7 +199,7 @@
       {
         "title": "November 15, 2026",
         "link": "https://docs.cloud.google.com/release-notes#November_15_2026",
-        "summary": "Google SecOps\nFeature\nPublisher Agent Version 2.7.2\nPublisher Agent Version 2.7.2 is now available.\nThis release includes the following updates and fixes for the Publisher and remote agent:\nAlert lazy loading for remote actions: Remote action tasks now support loading case data on demand from the server when alert lazy loading is enabled, reducing task payload sizes.\nIntegration dependency installation fix: Fixed an issue where installing integrations with multiple interdependent dependency files could fail before all packages finished installing.\nRemote agent deletion fix: Fixed directory permissions when running the self-destruction script during remote agent deletion.\nPublisher stability and security updates: Improved Publisher resilience and addressed security vulnerabilities.\nGoogle SecOps SOAR\nAnnouncement\nRelease 6.3.107 is being rolled out to the first phase of regions as listed\nhere.\nThis release contains internal and customer bug fixes.\nFeature\nPublisher Agent Version 2.7.2\nPublisher Agent Version 2.7.2 is now available.\nThis release includes the following updates and fixes for the Publisher and remote agent:\nAlert lazy loading for remote actions: Remote action tasks now support loading case data on demand from the server when alert lazy loading is enabled, reducing task payload sizes.\nIntegration dependency installation fix: Fixed an issue where installing integrations with multiple interdependent dependency files could fail before all packages finished…",
+        "summary": "Agent Platform Workbench\nChange\n20261115-2230-rc0 Release\nChange\n20261115-2230-rc0 Release\nChange\nInstalled latest packages from upstream dependencies.\nChange\nInstalled latest packages from upstream dependencies.\nChange\nJupyterLab extension settings are now prepared when the image is built, so Workbench instances that use an unmodified container image with JupyterLab 4 (the default) restart faster.\nChange\nJupyterLab extension settings are now prepared when the image is built, so Workbench instances that use an unmodified container image with JupyterLab 4 (the default) restart faster.\nChange\nM157 Release\nChange\nInstalled latest packages from upstream dependencies.\nDeprecated\nRemoved the\ndeprecated open-source inverting proxy agent image\n(gcr.io/inverting-proxy/agent). Instances always run the current Agent Platform\nWorkbench proxy agent, and the new-proxy-agent-enabled metadata key no longer\nhas any effect.\nGoogle SecOps\nFeature\nPublisher Agent Version 2.7.2\nPublisher Agent Version 2.7.2 is now available.\nThis release includes the following updates and fixes for the Publisher and remote agent:\nAlert lazy loading for remote actions: Remote action tasks now support loading case data on demand from the server when alert lazy loading is enabled, reducing task payload sizes.\nIntegration dependency installation fix: Fixed an issue where installing integrations with multiple interdependent dependency files could fail before all packages finished installing.\nRemote agent deletion…",
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-11-15T08:00:00.000Z",
@@ -199,7 +208,7 @@
       {
         "title": "November 14, 2026",
         "link": "https://docs.cloud.google.com/release-notes#November_14_2026",
-        "summary": "Access Approval\nFeature\nService Usage is generally available\n(GA).\nAccess Transparency\nFeature\nService Usage is generally available\n(GA).\nGoogle SecOps SOAR\nAnnouncement\nRelease 6.3.106 is now\navailable for all regions.",
+        "summary": "Access Approval\nFeature\nService Usage is generally available\n(GA).\nAccess Transparency\nFeature\nService Usage is generally available\n(GA).\nAgent Platform Workbench\nChange\n20261114-2130-rc0 Release\nChange\nInstalled latest packages from upstream dependencies.\nDeprecated\nRemoved the\ndeprecated open-source inverting proxy agent image\n(gcr.io/inverting-proxy/agent). Instances always run the current Agent Platform\nWorkbench proxy agent, and the new-proxy-agent-enabled metadata key no longer\nhas any effect.\nSecurity\nUpdated the Java CA certificate store.\nFixed\nInstances that change from a pre-Turing GPU, such as NVIDIA V100, to a Turing or newer GPU, such as NVIDIA T4, now switch back to CUDA 13 and the CUDA 13 builds of PyTorch, torchvision, and CuPy at boot. This boot takes longer and needs internet access.\nGoogle SecOps SOAR\nAnnouncement\nRelease 6.3.106 is now\navailable for all regions.",
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-11-14T08:00:00.000Z",
@@ -239,15 +248,6 @@
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-11-10T08:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "November 09, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#November_09_2026",
-        "summary": "AI Hypercomputer\nFeature\nGenerally available:\nPathways on Cloud\nis now generally available on Google Kubernetes Engine (GKE). Major features include\nthe following:\nSingle-controller execution model: Coordinate multi-slice and multi-host\nCloud TPU workloads from a single Python client process. Pathways uses\nasynchronous dispatch and centralized scheduling to support both Single\nProgram, Multiple Data (SPMD) and Multiple Program, Multiple Data (MPMD)\nworkloads. For example, training and reinforcement learning (RL) loops.\nResilient and elastic training: Keep training jobs running across hardware\ninterruptions with\nresilient training,\nincluding the following capabilities:\n\nElastic training:\nDynamically scale down to healthy Cloud TPU slices during unplanned\nhardware failures and scale back up when replacement slices rejoin without\nrestarting the entire job.\nSuspend-resume: Automatically save and restore high-bandwidth memory\n(HBM) state to Cloud Storage during planned GKE preemption\nevents.\nHot-swapping: Remap interrupted workloads onto standby or lower-priority\nCloud TPU slices.\n\nColocated Python sidecar containers:\nRun custom Python code directly on Cloud TPU host VMs alongside\nPathways workers. For example, multi-host data loading with\nGrain or RemoteIterator, and distributed\nasynchronous checkpointing with Orbax.\nInteractive mode and Shared Pathways Service: Run, inspect, and debug JAX\nworkloads interactively from a notebook or terminal using\ninteractive mode,\nor share a…",
-        "image": null,
-        "source": "Google Cloud Platform (GCP) - Release notes",
-        "published": "2026-11-09T08:00:00.000Z",
         "isNew": false
       }
     ],
