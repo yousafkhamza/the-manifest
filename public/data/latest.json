@@ -1,6 +1,6 @@
 {
   "date": "2026-11-18",
-  "generatedAt": "2026-11-18T19:25:13.620Z",
+  "generatedAt": "2026-11-18T23:23:14.265Z",
   "totalArticles": 72,
   "ticker": [
     {
@@ -30,6 +30,15 @@
   ],
   "topics": {
     "aws": [
+      {
+        "title": "AWS Lambda now supports GPU instances for Event Functions on Lambda Managed Instances",
+        "link": "https://aws.amazon.com/blogs/aws/aws-lambda-now-supports-gpu-instances-for-event-functions-on-lambda-managed-instances/",
+        "summary": "AWS Lambda now supports GPU instances (G-series) for Event Functions running on Lambda Managed Instances, enabling serverless GPU workloads like machine learning inference, media processing, and rendering. Lambda handles all infrastructure tasks, including instance lifecycle, driver management, and auto scaling, while maximizing GPU utilization across concurrent requests with standard EC2 pricing plus a management fee",
+        "image": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2026/11/11/01-capacity-provider-lmi.png",
+        "source": "AWS News Blog",
+        "published": "2026-11-18T19:39:07.000Z",
+        "isNew": false
+      },
       {
         "title": "Four Continents, Four New AWS Heroes: Closing Out 2026",
         "link": "https://aws.amazon.com/blogs/aws/four-continents-four-new-aws-heroes-closing-out-2026/",
@@ -91,15 +100,6 @@
         "image": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2026/10/23/genai-agronegocio-speaker-crop-1280.jpg",
         "source": "AWS News Blog",
         "published": "2026-10-26T15:02:24.000Z",
-        "isNew": false
-      },
-      {
-        "title": "AWS Continuum for code vulnerabilities is now generally available",
-        "link": "https://aws.amazon.com/blogs/aws/aws-continuum-for-code-vulnerabilities-is-now-generally-available/",
-        "summary": "AWS Continuum for code vulnerabilities is a new security service that uses AI to automatically find, validate, and prioritize code vulnerabilities in your environment, then delivers ready-to-review fixes as pull requests replacing what previously took hours of manual investigation and days of cross-team coordination.",
-        "image": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2026/10/19/1218373720644947-1.png",
-        "source": "AWS News Blog",
-        "published": "2026-10-22T20:33:10.000Z",
         "isNew": false
       }
     ],
