@@ -1,6 +1,6 @@
 {
   "date": "2026-11-18",
-  "generatedAt": "2026-11-18T13:57:12.323Z",
+  "generatedAt": "2026-11-18T19:25:13.620Z",
   "totalArticles": 72,
   "ticker": [
     {
@@ -105,60 +105,6 @@
     ],
     "azure": [
       {
-        "title": "Microsoft and Oracle bring agentic AI into flow of enterprise work",
-        "link": "https://azure.microsoft.com/en-us/blog/microsoft-and-oracle-bring-agentic-ai-into-flow-of-enterprise-work/",
-        "summary": "Our new integrations let AI agents reason across Oracle’s business-critical data.\nThe post Microsoft and Oracle bring agentic AI into flow of enterprise work appeared first on Microsoft Azure Blog.",
-        "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/11/azure_workload_health_upscaled.webp",
-        "source": "Microsoft Azure Blog",
-        "published": "2026-11-17T18:35:00.000Z",
-        "isNew": true
-      },
-      {
-        "title": "Introducing Azure Catalyst agentic modernization and new AI infrastructure innovations",
-        "link": "https://azure.microsoft.com/en-us/blog/introducing-azure-catalyst-agentic-modernization-and-new-ai-infrastructure-innovations/",
-        "summary": "At Microsoft Ignite 2026, we’ll showcase what’s possible when models, silicon, and cloud infrastructure converge into a single, co-engineered system. By tuning the entire stack, and introducing new capabilities across isolated execution, networking, context management, and inference efficiency, we’re fundamentally improving agent speed, security, and unit economics.\nThe post Introducing Azure Catalyst agentic modernization and new AI infrastructure innovations appeared first on Microsoft Azure Blog.",
-        "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/11/Azure-2_CTA-block.jpg",
-        "source": "Microsoft Azure Blog",
-        "published": "2026-11-17T18:35:00.000Z",
-        "isNew": true
-      },
-      {
-        "title": "Microsoft Ignite 2026: What’s new in Azure, the platform purpose-built for AI",
-        "link": "https://azure.microsoft.com/en-us/blog/microsoft-ignite-2026-whats-new-in-azure-the-platform-purpose-built-for-ai/",
-        "summary": "At Microsoft Ignite, we're sharing what's new across every layer of the platform. New capabilities spanning compute, storage, and networking let you run AI at scale with the control of your own infrastructure, without having to build, secure, and operate all of it yourself.\nThe post Microsoft Ignite 2026: What’s new in Azure, the platform purpose-built for AI appeared first on Microsoft Azure Blog.",
-        "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/11/Azure-Failure-Prediction-Detection-1.jpg",
-        "source": "Microsoft Azure Blog",
-        "published": "2026-11-17T18:35:00.000Z",
-        "isNew": true
-      },
-      {
-        "title": "Azure Cobalt 200 VMs now available, proven on real workloads and built for the agentic era",
-        "link": "https://azure.microsoft.com/en-us/blog/azure-cobalt-200-vms-now-available-proven-on-real-workloads-and-built-for-the-agentic-era/",
-        "summary": "Azure Cobalt 200 VMs bring improved performance and efficiency to cloud-native applications, databases, developer tools, and agentic AI workloads.\nThe post Azure Cobalt 200 VMs now available, proven on real workloads and built for the agentic era appeared first on Microsoft Azure Blog.",
-        "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/11/Azure-Cobalt-200-image-03-1024x576.jpg",
-        "source": "Microsoft Azure Blog",
-        "published": "2026-11-17T18:20:00.000Z",
-        "isNew": true
-      },
-      {
-        "title": "Continuous improvement comes to Microsoft Foundry",
-        "link": "https://azure.microsoft.com/en-us/blog/continuous-improvement-comes-to-microsoft-foundry/",
-        "summary": "Discover how continuous improvement in Microsoft Foundry helps organizations evaluate, optimize, and improve agents over time while keeping teams in control.\nThe post Continuous improvement comes to Microsoft Foundry appeared first on Microsoft Azure Blog.",
-        "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/11/Continuous_improvement_visual_simplified-1024x696.webp",
-        "source": "Microsoft Azure Blog",
-        "published": "2026-11-17T18:15:00.000Z",
-        "isNew": true
-      },
-      {
-        "title": "Introducing the new Microsoft IQ: Putting your organization’s intelligence to work in every agent",
-        "link": "https://azure.microsoft.com/en-us/blog/introducing-the-new-microsoft-iq-putting-your-organizations-intelligence-to-work-in-every-agent/",
-        "summary": "Today, we are announcing Microsoft IQ, the enterprise context management platform that helps organizations create their own IQ. What sets an organization apart is everything around the model: its own intelligence.\nThe post Introducing the new Microsoft IQ: Putting your organization’s intelligence to work in every agent appeared first on Microsoft Azure Blog.",
-        "image": null,
-        "source": "Microsoft Azure Blog",
-        "published": "2026-11-17T18:05:00.000Z",
-        "isNew": true
-      },
-      {
         "title": "Building the next generation of multimodal AI experiences with fal in Microsoft Foundry",
         "link": "https://techcommunity.microsoft.com/blog/azure-ai-foundry-blog/building-the-next-generation-of-multimodal-ai-experiences-with-fal-in-microsoft-/4570032",
         "summary": "Microsoft and fal partner to expand video generation in Microsoft Foundry, helping developers bring creative ideas into enterprise applications.\nThe post Building the next generation of multimodal AI experiences with fal in Microsoft Foundry appeared first on Microsoft Azure Blog.",
@@ -175,9 +121,72 @@
         "source": "Microsoft Azure Blog",
         "published": "2026-11-05T17:00:00.000Z",
         "isNew": false
+      },
+      {
+        "title": "Designing Azure silicon on Azure silicon: EDA workloads on Cobalt 200",
+        "link": "https://azure.microsoft.com/en-us/blog/designing-azure-silicon-on-azure-silicon-eda-workloads-on-cobalt-200/",
+        "summary": "Discover how Microsoft is accelerating electronic design automation (EDA) workloads with Azure Cobalt 200 VMs. Explore early performance results demonstrating faster simulation, verification, and static timing analysis, along with the benefits of scalable cloud infrastructure for silicon design and development.\nThe post Designing Azure silicon on Azure silicon: EDA workloads on Cobalt 200 appeared first on Microsoft Azure Blog.",
+        "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/11/Cadence-Xcelium-RTLSimulation-Throughput-1-1024x575.jpg",
+        "source": "Microsoft Azure Blog",
+        "published": "2026-11-05T16:00:00.000Z",
+        "isNew": false
+      },
+      {
+        "title": "Predicting and detecting failures: How Azure strengthens reliability for mission-critical workloads",
+        "link": "https://azure.microsoft.com/en-us/blog/predicting-and-detecting-failures-how-azure-strengthens-reliability-for-mission-critical-workloads/",
+        "summary": "Azure Failure Prediction and Detection (AFPD) helps reduce interruptions by predicting hardware failures, moving eligible workloads, and notifying customers when action is needed. See what that means for SAP on Azure and other mission-critical workloads.\nThe post Predicting and detecting failures: How Azure strengthens reliability for mission-critical workloads appeared first on Microsoft Azure Blog.",
+        "image": null,
+        "source": "Microsoft Azure Blog",
+        "published": "2026-11-04T16:00:00.000Z",
+        "isNew": false
+      },
+      {
+        "title": "The Platform Behind the Next AI Breakthrough",
+        "link": "https://www.wired.com/sponsored/story/the-platform-behind-the-next-ai-breakthrough/",
+        "summary": "The next frontier of AI is coming into focus as agents take on longer, more strategic work.\nThe post The Platform Behind the Next AI Breakthrough appeared first on Microsoft Azure Blog.",
+        "image": "https://media.wired.com/photos/6ada55464d8b7a36ac2c8378/master/w_1600%2Cc_limit/CLO19_azureKinectDK_017.jpg",
+        "source": "Microsoft Azure Blog",
+        "published": "2026-11-02T20:52:22.000Z",
+        "isNew": false
+      },
+      {
+        "title": "Azure Cloud HSM Hardware Audit Logging: Verifiable audit trails for security and compliance",
+        "link": "https://azure.microsoft.com/en-us/blog/azure-cloud-hsm-hardware-audit-logging-verifiable-audit-trails-for-security-and-compliance/",
+        "summary": "Security, compliance, and operations teams can use this hardware-originated evidence for monitoring, compliance reporting, and forensic investigations.\nThe post Azure Cloud HSM Hardware Audit Logging: Verifiable audit trails for security and compliance appeared first on Microsoft Azure Blog.",
+        "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/06/CLO23_WorkAnywhere_025.jpg",
+        "source": "Microsoft Azure Blog",
+        "published": "2026-10-29T16:00:00.000Z",
+        "isNew": false
+      },
+      {
+        "title": "Introducing the Microsoft Copilot harness in Foundry Agent Service",
+        "link": "https://devblogs.microsoft.com/foundry/microsoft-copilot-harness-in-foundry/",
+        "summary": "Today, we’re introducing the Microsoft Copilot harness in Foundry Agent Service in public preview.\nThe post Introducing the Microsoft Copilot harness in Foundry Agent Service appeared first on Microsoft Azure Blog.",
+        "image": null,
+        "source": "Microsoft Azure Blog",
+        "published": "2026-10-28T17:40:56.000Z",
+        "isNew": false
+      },
+      {
+        "title": "Scale reservoir uncertainty analysis with agile reservoir modeling",
+        "link": "https://azure.microsoft.com/en-us/blog/scale-reservoir-uncertainty-analysis-with-agile-reservoir-modeling/",
+        "summary": "As subsurface data grows in scale and complexity, teams need a faster, more connected way to transform uncertainty into actionable decisions.\nThe post Scale reservoir uncertainty analysis with agile reservoir modeling appeared first on Microsoft Azure Blog.",
+        "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/10/Screenshot-2026-10-22-170942.webp",
+        "source": "Microsoft Azure Blog",
+        "published": "2026-10-26T16:00:00.000Z",
+        "isNew": false
       }
     ],
     "gcp": [
+      {
+        "title": "November 18, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#November_18_2026",
+        "summary": "Apigee Edge for Private Cloud\nFixed\nResolved the following issues in Apigee Edge for Private Cloud 4.53.01.03:\nFixed an issue where API proxy deployments that use the OASValidation\npolicy failed with OpenAPI Specification path parameter validation errors\nafter updating to 4.53.01.\nFixed an issue where running setup.sh -p uapim failed during\nedge-uapim-connector setup.\nAdded sanitization to certain error messages generated by Message Processors.\n\nApplication Integration\nSecurity\nA Deserialization of Untrusted Data vulnerability was discovered\nin integration execution parameter handling in Application Integration\nversions prior to September 22, 2026.\nFor more information, see the\nGCP-2026-083\nsecurity bulletin.",
+        "image": null,
+        "source": "Google Cloud Platform (GCP) - Release notes",
+        "published": "2026-11-18T08:00:00.000Z",
+        "isNew": false
+      },
       {
         "title": "November 17, 2026",
         "link": "https://docs.cloud.google.com/release-notes#November_17_2026",
@@ -239,15 +248,6 @@
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-11-11T08:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "November 10, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#November_10_2026",
-        "summary": "API Gateway\nFeature\nMCP method and tool name in request logs\nAPI Gateway request logs now include the Model Context Protocol (MCP) method of\neach MCP request, and the tool name of each tools/call request, in\nthe jsonPayload.mcp field. You can use this field to find MCP\ntraffic and the calls to a specific tool.\nFor more information, see\nConfigure Model Context Protocol.\nFeature\nTLS 1.3 for connections to backends\nAPI Gateway is rolling out support for TLS 1.3 on connections to backend\nservices. Once the rollout reaches a gateway, it uses TLS 1.3 with backends\nthat support it. No configuration is required.\nAgent Platform Workbench\nFeature\nAntigravity CLI in Agent Platform Workbench instances\nPreview: The\nAntigravity CLI is available in Agent Platform Workbench instances that use a\nDebian 12 (workbench-instances-2603) or later image. The Antigravity CLI is\nthe terminal surface of Google Antigravity, an AI agent that works in a\nterminal. New instances have it turned on by default. You can use the\nAntigravity CLI to do tasks like the following:\nCreate, explain, edit, check, and run notebooks.\nCreate a Jupyter kernel with the packages that you need.\nRun shell commands and Google Cloud commands, such as gcloud and bq.\nWrite the code for a notebook cell from a description, with the %%agy cell\nmagic.\nThe Antigravity CLI asks for your approval before it edits a file or runs a\ncommand. To turn it off for an instance, set the enable-antigravity metadata\nkey to false. To get started, see…",
-        "image": null,
-        "source": "Google Cloud Platform (GCP) - Release notes",
-        "published": "2026-11-10T08:00:00.000Z",
         "isNew": false
       }
     ],
@@ -401,6 +401,15 @@
     ],
     "python": [
       {
+        "title": "De-fanging dangerous triggers in GitHub Actions across an organization",
+        "link": "https://pyfound.blogspot.com/2026/11/de-fanging-dangerous-triggers-in-github.html",
+        "summary": "Authors: Mike Fiedler, Seth Larson\n\nOn December 2, 2026, GitHub will start blocking the pull_request_target trigger by default in public repositories. If that sentence means nothing to you, this post is for you. If it fills you with dread, it is also for you.\nThe short version: a handful of GitHub Actions triggers let a stranger on the internet start a workflow that may have access to your secrets. On a GitHub Team or Enterprise plan, you can turn them off for every repository in your organization with one policy. On a Free plan, you can do it one repository at a time. Set the policy up, check what it would block, then enforce it.\nMike Fiedler, PyPI Safety and Security Engineer, and Seth Larson, Security Developer in Residence, have removed dangerous triggers and applied these policies to the Python Software Foundation (PSF) stewarded GitHub organizations (psf, python, pypi). They also wrote up technical documentation on how to roll these policies out to your own projects and organizations. The full details and technical documentation are available on the Alpha-Omega blog.\n\nHave dangerous triggers caused real incidents?\nYes, repeatedly. A few that have affected projects hosted on PyPI directly:\n\nUltralytics, December 2024. The project's GitHub Actions workflows were compromised and the build cache was poisoned, which put malicious releases on PyPI. Seth wrote PyPI's analysis. William Woodruff's write-up traces the entry point to a pull_request_target workflow.\n\nLiteLLM and…",
+        "image": null,
+        "source": "Python Software Foundation News",
+        "published": "2026-11-18T17:46:23.020Z",
+        "isNew": false
+      },
+      {
         "title": "XTM Transifex sponsors Python’s documentation translations",
         "link": "https://blog.python.org/2026/11/transifex-sponsors-python-docs/",
         "summary": "XTM Transifex is supporting Python’s documentation translation teams with a year of free access to its Growth plan.",
@@ -461,15 +470,6 @@
         "image": null,
         "source": "Python Software Foundation News",
         "published": "2026-10-29T13:46:04.899Z",
-        "isNew": false
-      },
-      {
-        "title": "Python 3.15.2, 3.14.10, 3.13.18, 3.12.16 and 3.11.18 are out",
-        "link": "https://blog.python.org/2026/10/python-3152-31410-31318-31216-31118/",
-        "summary": "Five expedited security releases to distrust the compromised eMudhra intermediate CA keys.",
-        "image": null,
-        "source": "Python Insider",
-        "published": "2026-10-26T00:00:00.000Z",
         "isNew": false
       }
     ],
