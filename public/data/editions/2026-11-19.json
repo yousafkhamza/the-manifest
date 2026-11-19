@@ -1,6 +1,6 @@
 {
-  "date": "2026-11-12",
-  "generatedAt": "2026-11-12T22:43:50.346Z",
+  "date": "2026-11-19",
+  "generatedAt": "2026-11-19T14:25:34.486Z",
   "totalArticles": 72,
   "ticker": [
     {
@@ -30,6 +30,33 @@
   ],
   "topics": {
     "aws": [
+      {
+        "title": "AWS Lambda now supports GPU instances for Event Functions on Lambda Managed Instances",
+        "link": "https://aws.amazon.com/blogs/aws/aws-lambda-now-supports-gpu-instances-for-event-functions-on-lambda-managed-instances/",
+        "summary": "AWS Lambda now supports GPU instances (G-series) for Event Functions running on Lambda Managed Instances, enabling serverless GPU workloads like machine learning inference, media processing, and rendering. Lambda handles all infrastructure tasks, including instance lifecycle, driver management, and auto scaling, while maximizing GPU utilization across concurrent requests with standard EC2 pricing plus a management fee",
+        "image": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2026/11/11/01-capacity-provider-lmi.png",
+        "source": "AWS News Blog",
+        "published": "2026-11-18T19:39:07.000Z",
+        "isNew": false
+      },
+      {
+        "title": "Four Continents, Four New AWS Heroes: Closing Out 2026",
+        "link": "https://aws.amazon.com/blogs/aws/four-continents-four-new-aws-heroes-closing-out-2026/",
+        "summary": "As AWS re:Invent is around the corner, we’re proud to recognize a new group of AWS Heroes. Every Hero finds their own way to give back, whether through sharing what they know, bringing people together, or building tools that help others succeed. What they have in common is a genuine commitment to supporting the builders […]",
+        "image": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2026/11/11/Andres-Moreno_175x263.png",
+        "source": "AWS News Blog",
+        "published": "2026-11-17T17:06:43.000Z",
+        "isNew": false
+      },
+      {
+        "title": "AWS Weekly Roundup: AWS Nitro Sandboxes, AWS Emulator, and more (November 16, 2026)",
+        "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-aws-nitro-sandboxes-aws-emulator-and-more-november-16-2026/",
+        "summary": "A second delivery of the same message can reveal more about an application than its happy-path demo. I like tools that make those cases easier to investigate while a change is still small. Last week’s launch of AWS Emulator brings part of that work onto your own machine: developers and coding agents can exercise AWS […]",
+        "image": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2026/11/13/aws-emulator-official-diagram_1540.png",
+        "source": "AWS News Blog",
+        "published": "2026-11-16T17:55:46.000Z",
+        "isNew": false
+      },
       {
         "title": "Test your applications against AWS locally with AWS Emulator",
         "link": "https://aws.amazon.com/blogs/aws/test-your-applications-against-aws-locally-with-aws-emulator/",
@@ -74,36 +101,63 @@
         "source": "AWS News Blog",
         "published": "2026-10-26T15:02:24.000Z",
         "isNew": false
-      },
-      {
-        "title": "AWS Continuum for code vulnerabilities is now generally available",
-        "link": "https://aws.amazon.com/blogs/aws/aws-continuum-for-code-vulnerabilities-is-now-generally-available/",
-        "summary": "AWS Continuum for code vulnerabilities is a new security service that uses AI to automatically find, validate, and prioritize code vulnerabilities in your environment, then delivers ready-to-review fixes as pull requests replacing what previously took hours of manual investigation and days of cross-team coordination.",
-        "image": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2026/10/19/1218373720644947-1.png",
-        "source": "AWS News Blog",
-        "published": "2026-10-22T20:33:10.000Z",
-        "isNew": false
-      },
-      {
-        "title": "Introducing Amazon ECS Gateway: A fully-managed ingress solution for ECS services",
-        "link": "https://aws.amazon.com/blogs/aws/introducing-amazon-ecs-gateway-a-fully-managed-ingress-solution-for-ecs-services/",
-        "summary": "Try Amazon ECS Gateway, a new account-level resource that simplifies ingress networking for containerized workloads by dynamically provisioning and managing the necessary infrastructure on your behalf, with all resources created directly in your account.",
-        "image": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2026/10/20/2026-ECS-Gateway-architecture.png",
-        "source": "AWS News Blog",
-        "published": "2026-10-20T17:03:38.000Z",
-        "isNew": false
-      },
-      {
-        "title": "AWS Weekly Roundup: AWS Lambda Web Functions, Amazon S3 on the Vercel Marketplace, and more (October 19, 2026)",
-        "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-aws-lambda-web-functions-amazon-s3-on-the-vercel-marketplace-and-more-october-19-2026/",
-        "summary": "Nothing last week added a new kind of compute. What it did instead was shorten the distance between the code you already have and that code being live. AWS Lambda learned to run a plain HTTP server with no adapter in front of it, and Amazon S3 became something you can provision from inside the […]",
-        "image": null,
-        "source": "AWS News Blog",
-        "published": "2026-10-19T15:34:59.000Z",
-        "isNew": false
       }
     ],
     "azure": [
+      {
+        "title": "Microsoft and Oracle bring agentic AI into flow of enterprise work",
+        "link": "https://azure.microsoft.com/en-us/blog/microsoft-and-oracle-bring-agentic-ai-into-flow-of-enterprise-work/",
+        "summary": "Our new integrations let AI agents reason across Oracle’s business-critical data.\nThe post Microsoft and Oracle bring agentic AI into flow of enterprise work appeared first on Microsoft Azure Blog.",
+        "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/11/azure_workload_health_upscaled.webp",
+        "source": "Microsoft Azure Blog",
+        "published": "2026-11-17T18:35:00.000Z",
+        "isNew": true
+      },
+      {
+        "title": "Introducing Azure Catalyst agentic modernization and new AI infrastructure innovations",
+        "link": "https://azure.microsoft.com/en-us/blog/introducing-azure-catalyst-agentic-modernization-and-new-ai-infrastructure-innovations/",
+        "summary": "At Microsoft Ignite 2026, we’ll showcase what’s possible when models, silicon, and cloud infrastructure converge into a single, co-engineered system. By tuning the entire stack, and introducing new capabilities across isolated execution, networking, context management, and inference efficiency, we’re fundamentally improving agent speed, security, and unit economics.\nThe post Introducing Azure Catalyst agentic modernization and new AI infrastructure innovations appeared first on Microsoft Azure Blog.",
+        "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/11/Azure-2_CTA-block.jpg",
+        "source": "Microsoft Azure Blog",
+        "published": "2026-11-17T18:35:00.000Z",
+        "isNew": true
+      },
+      {
+        "title": "Microsoft Ignite 2026: What’s new in Azure, the platform purpose-built for AI",
+        "link": "https://azure.microsoft.com/en-us/blog/microsoft-ignite-2026-whats-new-in-azure-the-platform-purpose-built-for-ai/",
+        "summary": "At Microsoft Ignite, we're sharing what's new across every layer of the platform. New capabilities spanning compute, storage, and networking let you run AI at scale with the control of your own infrastructure, without having to build, secure, and operate all of it yourself.\nThe post Microsoft Ignite 2026: What’s new in Azure, the platform purpose-built for AI appeared first on Microsoft Azure Blog.",
+        "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/11/Azure-Failure-Prediction-Detection-1.jpg",
+        "source": "Microsoft Azure Blog",
+        "published": "2026-11-17T18:35:00.000Z",
+        "isNew": true
+      },
+      {
+        "title": "Azure Cobalt 200 VMs now available, proven on real workloads and built for the agentic era",
+        "link": "https://azure.microsoft.com/en-us/blog/azure-cobalt-200-vms-now-available-proven-on-real-workloads-and-built-for-the-agentic-era/",
+        "summary": "Azure Cobalt 200 VMs bring improved performance and efficiency to cloud-native applications, databases, developer tools, and agentic AI workloads.\nThe post Azure Cobalt 200 VMs now available, proven on real workloads and built for the agentic era appeared first on Microsoft Azure Blog.",
+        "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/11/Azure-Cobalt-200-image-03-1024x576.jpg",
+        "source": "Microsoft Azure Blog",
+        "published": "2026-11-17T18:20:00.000Z",
+        "isNew": true
+      },
+      {
+        "title": "Continuous improvement comes to Microsoft Foundry",
+        "link": "https://azure.microsoft.com/en-us/blog/continuous-improvement-comes-to-microsoft-foundry/",
+        "summary": "Discover how continuous improvement in Microsoft Foundry helps organizations evaluate, optimize, and improve agents over time while keeping teams in control.\nThe post Continuous improvement comes to Microsoft Foundry appeared first on Microsoft Azure Blog.",
+        "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/11/Continuous_improvement_visual_simplified-1024x696.webp",
+        "source": "Microsoft Azure Blog",
+        "published": "2026-11-17T18:15:00.000Z",
+        "isNew": true
+      },
+      {
+        "title": "Introducing the new Microsoft IQ: Putting your organization’s intelligence to work in every agent",
+        "link": "https://azure.microsoft.com/en-us/blog/introducing-the-new-microsoft-iq-putting-your-organizations-intelligence-to-work-in-every-agent/",
+        "summary": "Today, we are announcing Microsoft IQ, the enterprise context management platform that helps organizations create their own IQ. What sets an organization apart is everything around the model: its own intelligence.\nThe post Introducing the new Microsoft IQ: Putting your organization’s intelligence to work in every agent appeared first on Microsoft Azure Blog.",
+        "image": null,
+        "source": "Microsoft Azure Blog",
+        "published": "2026-11-17T18:05:00.000Z",
+        "isNew": true
+      },
       {
         "title": "Building the next generation of multimodal AI experiences with fal in Microsoft Foundry",
         "link": "https://techcommunity.microsoft.com/blog/azure-ai-foundry-blog/building-the-next-generation-of-multimodal-ai-experiences-with-fal-in-microsoft-/4570032",
@@ -121,67 +175,67 @@
         "source": "Microsoft Azure Blog",
         "published": "2026-11-05T17:00:00.000Z",
         "isNew": false
-      },
-      {
-        "title": "Designing Azure silicon on Azure silicon: EDA workloads on Cobalt 200",
-        "link": "https://azure.microsoft.com/en-us/blog/designing-azure-silicon-on-azure-silicon-eda-workloads-on-cobalt-200/",
-        "summary": "Discover how Microsoft is accelerating electronic design automation (EDA) workloads with Azure Cobalt 200 VMs. Explore early performance results demonstrating faster simulation, verification, and static timing analysis, along with the benefits of scalable cloud infrastructure for silicon design and development.\nThe post Designing Azure silicon on Azure silicon: EDA workloads on Cobalt 200 appeared first on Microsoft Azure Blog.",
-        "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/11/Cadence-Xcelium-RTLSimulation-Throughput-1-1024x575.jpg",
-        "source": "Microsoft Azure Blog",
-        "published": "2026-11-05T16:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "Predicting and detecting failures: How Azure strengthens reliability for mission-critical workloads",
-        "link": "https://azure.microsoft.com/en-us/blog/predicting-and-detecting-failures-how-azure-strengthens-reliability-for-mission-critical-workloads/",
-        "summary": "Azure Failure Prediction and Detection (AFPD) helps reduce interruptions by predicting hardware failures, moving eligible workloads, and notifying customers when action is needed. See what that means for SAP on Azure and other mission-critical workloads.\nThe post Predicting and detecting failures: How Azure strengthens reliability for mission-critical workloads appeared first on Microsoft Azure Blog.",
-        "image": null,
-        "source": "Microsoft Azure Blog",
-        "published": "2026-11-04T16:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "The Platform Behind the Next AI Breakthrough",
-        "link": "https://www.wired.com/sponsored/story/the-platform-behind-the-next-ai-breakthrough/",
-        "summary": "The next frontier of AI is coming into focus as agents take on longer, more strategic work.\nThe post The Platform Behind the Next AI Breakthrough appeared first on Microsoft Azure Blog.",
-        "image": "https://media.wired.com/photos/6ada55464d8b7a36ac2c8378/master/w_1600%2Cc_limit/CLO19_azureKinectDK_017.jpg",
-        "source": "Microsoft Azure Blog",
-        "published": "2026-11-02T20:52:22.000Z",
-        "isNew": false
-      },
-      {
-        "title": "Azure Cloud HSM Hardware Audit Logging: Verifiable audit trails for security and compliance",
-        "link": "https://azure.microsoft.com/en-us/blog/azure-cloud-hsm-hardware-audit-logging-verifiable-audit-trails-for-security-and-compliance/",
-        "summary": "Security, compliance, and operations teams can use this hardware-originated evidence for monitoring, compliance reporting, and forensic investigations.\nThe post Azure Cloud HSM Hardware Audit Logging: Verifiable audit trails for security and compliance appeared first on Microsoft Azure Blog.",
-        "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/06/CLO23_WorkAnywhere_025.jpg",
-        "source": "Microsoft Azure Blog",
-        "published": "2026-10-29T16:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "Introducing the Microsoft Copilot harness in Foundry Agent Service",
-        "link": "https://devblogs.microsoft.com/foundry/microsoft-copilot-harness-in-foundry/",
-        "summary": "Today, we’re introducing the Microsoft Copilot harness in Foundry Agent Service in public preview.\nThe post Introducing the Microsoft Copilot harness in Foundry Agent Service appeared first on Microsoft Azure Blog.",
-        "image": null,
-        "source": "Microsoft Azure Blog",
-        "published": "2026-10-28T17:40:56.000Z",
-        "isNew": false
-      },
-      {
-        "title": "Scale reservoir uncertainty analysis with agile reservoir modeling",
-        "link": "https://azure.microsoft.com/en-us/blog/scale-reservoir-uncertainty-analysis-with-agile-reservoir-modeling/",
-        "summary": "As subsurface data grows in scale and complexity, teams need a faster, more connected way to transform uncertainty into actionable decisions.\nThe post Scale reservoir uncertainty analysis with agile reservoir modeling appeared first on Microsoft Azure Blog.",
-        "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/10/Screenshot-2026-10-22-170942.webp",
-        "source": "Microsoft Azure Blog",
-        "published": "2026-10-26T16:00:00.000Z",
-        "isNew": false
       }
     ],
     "gcp": [
       {
+        "title": "November 18, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#November_18_2026",
+        "summary": "Apigee Edge for Private Cloud\nAnnouncement\nReleased Apigee Edge for Private Cloud 4.53.01.03.\nFor the list of updated RPM packages and the patch update procedure, see\n4.53.01.03 - Edge for Private Cloud release notes.\nSecurity\nFixed multiple security vulnerabilities in Apigee Edge for Private Cloud,\nincluding security hardening across Edge runtime, management, New Edge UI,\nand Apigee mTLS components.\nChanged the bcfks-cacerts file shipped with edge-gateway to an empty BCFKS\nstore, and Apigee mTLS now rejects SHA-1-signed custom certificates. Before you\nupdate, move to your own BCFKS keystore and truststore at a different path on\nFIPS-enabled systems that use the default store, and re-sign custom mTLS\ncertificates with SHA-256. See the\nupdate procedure.\nFixed\nResolved the following issues in Apigee Edge for Private Cloud 4.53.01.03:\nFixed an issue where API proxy deployments that use the OASValidation\npolicy failed with OpenAPI Specification path parameter validation errors\nafter updating to 4.53.01.\nFixed an issue where running setup.sh -p uapim failed during\nedge-uapim-connector setup.\nAdded sanitization to certain error messages generated by Message Processors.\n\nApigee hybrid\nAnnouncement\nv1.17.4\nOn November 18, 2026 we released an updated version of the Apigee hybrid\nsoftware, v1.17.4.\nFor information about upgrading, see\nUpgrading Apigee hybrid to v1.17.4.\nFor information about new installations, see\nThe big picture.\nNote: This is a patch release. The container images…",
+        "image": null,
+        "source": "Google Cloud Platform (GCP) - Release notes",
+        "published": "2026-11-18T08:00:00.000Z",
+        "isNew": false
+      },
+      {
+        "title": "November 17, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#November_17_2026",
+        "summary": "Access Context Manager\nFeature\nExtended session length for Workforce Identity Federation is\ngenerally available\n(GA) for OAuth apps owned by Google Cloud projects. You can configure sessions\nthat last up to 90 days by using project scopes. For more information, see\nConfigure extended session length for Workforce Identity Federation.\nApigee X\nAnnouncement\nOn November 17, 2026, we released an updated version of Apigee (1-18-0-apigee-10).\nThis release is a security update that addresses the vulnerability described in\nsecurity bulletin GCP-2026-082.\nNote: Rollouts of this release began today. Because this is a security update,\ninstances running an affected version are patched on an expedited schedule,\nincluding instances with maintenance windows configured. See the security\nbulletin for rollout details and for how to check your instance version.\nSecurity\nBug ID\nDescription\n\n\n\n\n586658318\nSecurity fix for Apigee. Mitigates CVE-2026-114938 in the Apigee runtime, including customer-supplied Java code run by the JavaCallout policy. Customers don't need to change their callouts.\n\n\n\nSecurity bulletin published: GCP-2026-082\nApp Engine standard environment Go\nFeature\nSupport for migrating your App Engine push queues to Cloud Tasks by updating the\nbundled services SDK is in\nGeneral Availability (GA).\nThis method lets you upgrade your app without needing to modify your application\ncode. For more information on how to migrate, see the\npush queues migration guide.\nApp Engine standard…",
+        "image": null,
+        "source": "Google Cloud Platform (GCP) - Release notes",
+        "published": "2026-11-17T08:00:00.000Z",
+        "isNew": false
+      },
+      {
+        "title": "November 16, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#November_16_2026",
+        "summary": "Agent Platform Workbench\nChange\n20261115.00_p0 Release\nChange\nInstalled latest packages from upstream dependencies.\nChange\nJupyterLab extension settings are now prepared when the image is built, so Workbench instances that use an unmodified container image with JupyterLab 4 (the default) restart faster.\nChange\n20261115.00_p0 Release\nChange\nInstalled latest packages from upstream dependencies.\nChange\nJupyterLab extension settings are now prepared when the image is built, so Workbench instances that use an unmodified container image with JupyterLab 4 (the default) restart faster.\nApigee X\nAnnouncement\nApigee Emulator\nApigee Emulator v2.0.3\nOn November 16, 2026, we released Apigee Emulator version 2.0.3.\nThis release refreshes the Apigee Emulator runtime and embedded Apache Cassandra\nbase image from the latest Apigee runtime baseline, upgrades Google Guava to\n33.7.2-jre, hardens policy execution sandboxes, and addresses 22 container\nsecurity vulnerabilities across Jackson and the embedded Cassandra Go standard\nlibrary health-check binary.\nThe emulator image is available at\nArtifact Registry.\nTo upgrade, update the emulator version in your Cloud Code for VS Code settings\nto 2.0.3. See\nManage the Apigee Emulator\nfor details.\nFeature\nApigee Emulator\nChanged in this release\nRefreshed the embedded Apache Cassandra (4.0.19) base image to pick up Go\nstandard library 1.27.3 (from 1.27.0) in the /opt/apigee/ready\nhealth-check binary and Jackson (jackson-core and jackson-databind)\n2.21.7…",
+        "image": null,
+        "source": "Google Cloud Platform (GCP) - Release notes",
+        "published": "2026-11-16T08:00:00.000Z",
+        "isNew": false
+      },
+      {
+        "title": "November 15, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#November_15_2026",
+        "summary": "Agent Platform Workbench\nChange\n20261115-2230-rc0 Release\nChange\n20261115-2230-rc0 Release\nChange\nInstalled latest packages from upstream dependencies.\nChange\nInstalled latest packages from upstream dependencies.\nChange\nJupyterLab extension settings are now prepared when the image is built, so Workbench instances that use an unmodified container image with JupyterLab 4 (the default) restart faster.\nChange\nJupyterLab extension settings are now prepared when the image is built, so Workbench instances that use an unmodified container image with JupyterLab 4 (the default) restart faster.\nChange\nM157 Release\nChange\nInstalled latest packages from upstream dependencies.\nDeprecated\nRemoved the\ndeprecated open-source inverting proxy agent image\n(gcr.io/inverting-proxy/agent). Instances always run the current Agent Platform\nWorkbench proxy agent, and the new-proxy-agent-enabled metadata key no longer\nhas any effect.\nGoogle SecOps\nFeature\nPublisher Agent Version 2.7.2\nPublisher Agent Version 2.7.2 is now available.\nThis release includes the following updates and fixes for the Publisher and remote agent:\nAlert lazy loading for remote actions: Remote action tasks now support loading case data on demand from the server when alert lazy loading is enabled, reducing task payload sizes.\nIntegration dependency installation fix: Fixed an issue where installing integrations with multiple interdependent dependency files could fail before all packages finished installing.\nRemote agent deletion…",
+        "image": null,
+        "source": "Google Cloud Platform (GCP) - Release notes",
+        "published": "2026-11-15T08:00:00.000Z",
+        "isNew": false
+      },
+      {
+        "title": "November 14, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#November_14_2026",
+        "summary": "Access Approval\nFeature\nService Usage is generally available\n(GA).\nAccess Transparency\nFeature\nService Usage is generally available\n(GA).\nAgent Platform Workbench\nChange\n20261114-2130-rc0 Release\nChange\nInstalled latest packages from upstream dependencies.\nDeprecated\nRemoved the\ndeprecated open-source inverting proxy agent image\n(gcr.io/inverting-proxy/agent). Instances always run the current Agent Platform\nWorkbench proxy agent, and the new-proxy-agent-enabled metadata key no longer\nhas any effect.\nSecurity\nUpdated the Java CA certificate store.\nFixed\nInstances that change from a pre-Turing GPU, such as NVIDIA V100, to a Turing or newer GPU, such as NVIDIA T4, now switch back to CUDA 13 and the CUDA 13 builds of PyTorch, torchvision, and CuPy at boot. This boot takes longer and needs internet access.\nGoogle SecOps SOAR\nAnnouncement\nRelease 6.3.106 is now\navailable for all regions.",
+        "image": null,
+        "source": "Google Cloud Platform (GCP) - Release notes",
+        "published": "2026-11-14T08:00:00.000Z",
+        "isNew": false
+      },
+      {
+        "title": "November 13, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#November_13_2026",
+        "summary": "Access Approval\nFeature\nCloud Quotas is generally available\n(GA).\nAccess Transparency\nFeature\nCloud Quotas is generally available\n(GA).\nApigee X\nAnnouncement\nOn November 13, 2026, we released an updated version of Apigee (1-18-0-apigee-9).\nNote: Rollouts of this release began today and can take four or more business\ndays to complete across all Google Cloud zones. Your instances might not have\nthe features and fixes available until the rollout is complete.\nSecurity\nBug ID\nDescription\n\n\n\n\n579640924\nSecurity fix for Apigee. Hardened the JavaCallout, Script, and JavaScript policy sandboxes.\n\n\n579642864\nSecurity fix for Apigee. Fixed an OAuth 2.0 redirect_uri validation bypass in non-strict sub-resource matching and enforced <EnforceStrictCallbackURI> on GenerateAuthorizationCode policies.\n\n\n579642568\nSecurity fix for Apigee. Fixed a Jython sandbox escape where user-supplied <JythonURL> JARs defining org.python.core.PyReflected classes received the unrestricted pythonns: protection domain.\n\n\n582347995, 577964152\nSecurity fix for Apigee. Upgraded the ingress gateway to patch security vulnerabilities.\n\n\nN/A\nSecurity fix for Apigee infrastructure.\n\n\n\nFixed\nBug ID\nDescription\n\n\n\n\n582789138\nAdded the response.event.stream.state and response.event.stream.content.length flow variables on SSE EventFlow responses, readable in PostClientFlow so a MessageLogging step can distinguish COMPLETE, UPSTREAM_ABORT, DOWNSTREAM_ABORT, and TIMEOUT terminations and log bytes sent. Use with…",
+        "image": null,
+        "source": "Google Cloud Platform (GCP) - Release notes",
+        "published": "2026-11-13T08:00:00.000Z",
+        "isNew": false
+      },
+      {
         "title": "November 12, 2026",
         "link": "https://docs.cloud.google.com/release-notes#November_12_2026",
-        "summary": "App Engine standard environment Go\nFeature\nSupport for Direct VPC egress in the App Engine standard environment is in General Availability (GA). For more information, see Configure Direct VPC egress and Best practices for App Engine networking.\nFeature\nYou can deploy an active version in the App Engine standard environment to Cloud Run directly from the Migration hub in the Google Cloud console. You don't need access to your source code, and you don't need to rebuild your app. The deployment doesn't affect your live App Engine traffic. For more information, see Use a previously built image (Preview).\nApp Engine standard environment Java\nFeature\nSupport for Direct VPC egress in the App Engine standard environment is in General Availability (GA). For more information, see Configure Direct VPC egress and Best practices for App Engine networking.\nFeature\nYou can deploy an active version in the App Engine standard environment to Cloud Run directly from the Migration hub in the Google Cloud console. You don't need access to your source code, and you don't need to rebuild your app. The deployment doesn't affect your live App Engine traffic. For more information, see Use a previously built image (Preview).\nApp Engine standard environment Node.js\nFeature\nSupport for Direct VPC egress in the App Engine standard environment is in General Availability (GA). For more information, see Configure Direct VPC egress and Best practices for App Engine networking.\nFeature\nYou can deploy an…",
+        "summary": "API Keys API\nFeature\nThe API Keys remote Model Context Protocol (MCP) server is generally available\n(GA).\nYou can use the API Keys remote MCP server in your AI applications to\ncreate, inspect, restrict, and manage the lifecycle of API keys in your\nGoogle Cloud projects.\nFor more information, see\nUse the API Keys remote MCP server and the\nAPI Keys MCP reference.\nApp Engine standard environment Go\nFeature\nSupport for Direct VPC egress in the App Engine standard environment is in General Availability (GA). For more information, see Configure Direct VPC egress and Best practices for App Engine networking.\nFeature\nYou can deploy an active version in the App Engine standard environment to Cloud Run directly from the Migration hub in the Google Cloud console. You don't need access to your source code, and you don't need to rebuild your app. The deployment doesn't affect your live App Engine traffic. For more information, see Use a previously built image (Preview).\nApp Engine standard environment Java\nFeature\nSupport for Direct VPC egress in the App Engine standard environment is in General Availability (GA). For more information, see Configure Direct VPC egress and Best practices for App Engine networking.\nFeature\nYou can deploy an active version in the App Engine standard environment to Cloud Run directly from the Migration hub in the Google Cloud console. You don't need access to your source code, and you don't need to rebuild your app. The deployment doesn't affect your live App…",
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-11-12T08:00:00.000Z",
@@ -195,63 +249,18 @@
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-11-11T08:00:00.000Z",
         "isNew": false
-      },
-      {
-        "title": "November 10, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#November_10_2026",
-        "summary": "API Gateway\nFeature\nTLS 1.3 for connections to backends\nAPI Gateway is rolling out support for TLS 1.3 on connections to backend\nservices. Once the rollout reaches a gateway, it uses TLS 1.3 with backends\nthat support it. No configuration is required.\nAgent Platform Workbench\nFeature\nAntigravity CLI in Agent Platform Workbench instances\nPreview: The\nAntigravity CLI is available in Agent Platform Workbench instances that use a\nDebian 12 (workbench-instances-2603) or later image. The Antigravity CLI is\nthe terminal surface of Google Antigravity, an AI agent that works in a\nterminal. New instances have it turned on by default. You can use the\nAntigravity CLI to do tasks like the following:\nCreate, explain, edit, check, and run notebooks.\nCreate a Jupyter kernel with the packages that you need.\nRun shell commands and Google Cloud commands, such as gcloud and bq.\nWrite the code for a notebook cell from a description, with the %%agy cell\nmagic.\nThe Antigravity CLI asks for your approval before it edits a file or runs a\ncommand. To turn it off for an instance, set the enable-antigravity metadata\nkey to false. To get started, see Use the Antigravity\nCLI.\nBigQuery\nFeature\nYou can use graph measures\nto lock an aggregation to a key in order to perform\ncomplex aggregations without overcounting.\nMeasure expressions\ncan include the following:\nAggregate function calls\nExpressions within aggregate functions\nConditional logic within aggregate functions\nConditional distinct counting\nScalar…",
-        "image": null,
-        "source": "Google Cloud Platform (GCP) - Release notes",
-        "published": "2026-11-10T08:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "November 09, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#November_09_2026",
-        "summary": "AI Hypercomputer\nFeature\nGenerally available:\nPathways on Cloud\nis now generally available on Google Kubernetes Engine (GKE). Major features include\nthe following:\nSingle-controller execution model: Coordinate multi-slice and multi-host\nCloud TPU workloads from a single Python client process. Pathways uses\nasynchronous dispatch and centralized scheduling to support both Single\nProgram, Multiple Data (SPMD) and Multiple Program, Multiple Data (MPMD)\nworkloads. For example, training and reinforcement learning (RL) loops.\nResilient and elastic training: Keep training jobs running across hardware\ninterruptions with\nresilient training,\nincluding the following capabilities:\n\nElastic training:\nDynamically scale down to healthy Cloud TPU slices during unplanned\nhardware failures and scale back up when replacement slices rejoin without\nrestarting the entire job.\nSuspend-resume: Automatically save and restore high-bandwidth memory\n(HBM) state to Cloud Storage during planned GKE preemption\nevents.\nHot-swapping: Remap interrupted workloads onto standby or lower-priority\nCloud TPU slices.\n\nColocated Python sidecar containers:\nRun custom Python code directly on Cloud TPU host VMs alongside\nPathways workers. For example, multi-host data loading with\nGrain or RemoteIterator, and distributed\nasynchronous checkpointing with Orbax.\nInteractive mode and Shared Pathways Service: Run, inspect, and debug JAX\nworkloads interactively from a notebook or terminal using\ninteractive mode,\nor share a…",
-        "image": null,
-        "source": "Google Cloud Platform (GCP) - Release notes",
-        "published": "2026-11-09T08:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "November 08, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#November_08_2026",
-        "summary": "Cloud Asset Inventory\nFeature\nThe following resource type is publicly available through the\nSearchAllResources\nand\nSearchAllIamPolicies\nAPIs.\nGemini for Google Cloud\n\ncloudaicompanion.googleapis.com/Topic\n\n\nGoogle Cloud Marketplace Partners\nFeature\nYou can now create reseller private offer plans to amend existing public orders\nand existing private offers created through the private offer flow.\nFor more information, see\nreseller private offer plans.\nGoogle SecOps\nFeature\nOperations in Emerging Threats Center General Availability\nThe Operations feature in the Emerging Threats Center feed is now in General Availability (GA). For more information see, Operations in Emerging Threats Center.\nGoogle SecOps SOAR\nAnnouncement\nRelease 6.3.106 is being rolled out to the first phase of regions as listed\nhere.\nFeature\nCase activity tagging\nYou can now use custom tags for individual activities, comments, tasks, and\nactions on the Case Wall, and filter the wall view by those tags. This allows\nyou to categorize specific observations and filter the timeline to view only the\nentries relevant to your investigation or team.\nFor more information, see Add a tag to a Case Wall activity.",
-        "image": null,
-        "source": "Google Cloud Platform (GCP) - Release notes",
-        "published": "2026-11-08T08:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "November 07, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#November_07_2026",
-        "summary": "Google SecOps SOAR\nAnnouncement\nRelease 6.3.105 is now\navailable for all regions.",
-        "image": null,
-        "source": "Google Cloud Platform (GCP) - Release notes",
-        "published": "2026-11-07T08:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "November 06, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#November_06_2026",
-        "summary": "Agent Registry\nFeature\nSkill security scanning and governance in Agent Registry are available. You can\nautomatically scan standalone skill revisions for security issues, review\nFinding resources, enforce scanning policies across your organization using\ncustom Organization Policy constraints, and grant least-privilege skill\nmanagement access.\nFor more information, see\nScan skills for security issues and\nAgent Registry roles and permissions.\nFeature\nStandalone skills in Agent Registry are\ngenerally available (GA).\nYou can register, version, search, and govern standalone Skill resources,\nimmutable SkillRevision packages, and verified Publisher details.\nFor more information, see\nSkills architecture,\nRegister skills, and\nManage skills.\nAlloyDB for PostgreSQL\nFeature\nBlocked query analysis in AlloyDB for PostgreSQL is\ngenerally available (GA).\nThis feature lets you identify active queries that hold locks and the dependent\nqueries that are blocked by them so that you can terminate the root blockers.\nFor more information, see\nBlocked query analysis.\nAssured Open Source Software\nFeature\nThe Assured Open Source Software Premium tier supports Google Cloud regions and\nmulti-regions\nfor remote (or proxy) Artifact Registry repositories.\nFor the list of supported regions, see Supported\nregions.\nBigQuery\nAnnouncement\nYou can now use BigQuery Graph and run\nGraph Query Language (GQL) queries when you use on-demand pricing.\nBreaking\nStarting January 31, 2027, the BigQuery Data Transfer Service…",
-        "image": null,
-        "source": "Google Cloud Platform (GCP) - Release notes",
-        "published": "2026-11-06T08:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "November 05, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#November_05_2026",
-        "summary": "Apigee Edge for Public Cloud\nAnnouncement\nScheduled maintenance of Management/Control Plane for the Apigee Edge for Public Cloud on November 6, 2026.\nScheduled maintenance of Management/Control Plane for the Apigee Edge for Public Cloud production will take place on Friday, November 6, 2026, from 9:00 PM PT to\n10:00 PM PT (Saturday, November 7, 2026, from 5:00 AM UTC to 6:00 AM UTC). This\nmaintenance follows the monthly maintenance window schedule documented in the\nApigee Edge release notes archive.\nDuring the scheduled maintenance window, the following services will be\ntemporarily unavailable, and attempts to access them will return a 4xx status\ncode:\nManagement Services UI\nManagement Services APIs\nMonetization Management APIs\nNew proxy deployments\nDevPortal Service\nMicrogateway Services\nEdge Query (Analytics Stats APIs)\nRuntime API calls to deployed API proxies are unaffected. While access to\nanalytics queries may be temporarily unavailable during the maintenance window, all\nanalytics and metrics data from this period will be available once maintenance\nends.\nApigee hybrid\nAnnouncement\nv1.14.10\nOn November 5, 2026 we released an updated version of the Apigee hybrid\nsoftware, v1.14.10.\nFor information about upgrading, see\nUpgrading Apigee hybrid to v1.14.10.\nFor information about new installations, see\nThe big picture.\nNote: This is a patch release. The container images used in patch releases are\nintegrated with the Apigee hybrid Helm charts. Upgrading to a patch by using…",
-        "image": null,
-        "source": "Google Cloud Platform (GCP) - Release notes",
-        "published": "2026-11-05T08:00:00.000Z",
-        "isNew": false
       }
     ],
     "kubernetes": [
+      {
+        "title": "Scheduling the removal of the kube-proxy IPVS backend",
+        "link": "https://kubernetes.io/blog/2026/11/16/ipvs-removal/",
+        "summary": "The ipvs backend for kube-proxy was an experiment in providing a\nservice proxy implementation with better performance than the\niptables backend. While it succeeded in that goal, the kernel IPVS\nAPI has turned out to be a bad match for the Kubernetes Services API,\nand the ipvs backend was never able to implement all of the edge\ncases of Kubernetes Service functionality correctly.\nIn Kubernetes 1.29, the project introduced the nftables backend for\nkube-proxy, which became GA in 1.33. Part of the plan behind adding\nthe nftables backend was the idea that it would eventually replace\nboth the iptables and ipvs backends. Because the ipvs backend in\nparticular is complex, not 100% feature complete, and architecturally\nquite different from the other two backends (and thus more work to\nmaintain), Kubernetes SIG Network decided to officially deprecate it\nas of Kubernetes 1.35. Although it currently remains available in\nkube-proxy (with a warning about its deprecation), we (Kubernetes SIG\nNetwork) now plan to remove it in Kubernetes 1.40. All ipvs users\nshould therefore be planning to migrate to either the nftables or\niptables backends.\nWhy was the ipvs backend written?\nThe ipvs backend was originally designed to fix two different kinds\nof performance problems in the iptables backend:\nFirst, iptables had problems with data plane latency (the speed\nat which clients could establish new connections to services),\nbecause kube-proxy would write a separate iptables rule to match\neach service…",
+        "image": "https://kubernetes.io/blog/2026/11/16/ipvs-removal/ipvs-vs-nftables.svg",
+        "source": "Kubernetes Blog",
+        "published": "2026-11-16T18:35:00.000Z",
+        "isNew": false
+      },
       {
         "title": "From Working Group to SIG Architecture: spotlight on AI Conformance",
         "link": "https://kubernetes.io/blog/2026/10/29/sig-arch-ai-conformance-2026/",
@@ -313,15 +322,6 @@
         "image": null,
         "source": "Kubernetes Blog",
         "published": "2026-09-21T18:30:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "Kubernetes v1.37: Hardening Container Storage with Bind Mount Options and EmptyDir Permissions",
-        "link": "https://kubernetes.io/blog/2026/09/16/kubernetes-v1-37-hardening-container-storage/",
-        "summary": "Kubernetes v1.37 brings important storage security features: emptyDir permission modes and bind mount options. They help application programmers and security professionals implement rigorous security policies, for example, prohibiting deletion of files across containers or execution of arbitrary binaries from writable volumes, directly in Kubernetes without any complicated circumvention.\nLinux storage and permission fundamentals\nBefore diving into the new Kubernetes features, let us briefly review the low-level Linux security mechanisms that make them possible.\nBind mount flags\nWhen Linux mounts or remounts a directory, Virtual File System (VFS) flags control what actions are permitted on that filesystem:\nnoexec: Do not permit direct execution of any binaries on the mounted filesystem.\nnosuid: Do not allow set-user-identifier or set-group-identifier bits to take effect.\nnodev: Do not interpret character or block special devices on the file system.\nDirectory permissions and the sticky bit\nStandard Unix permissions regulate access across three scopes: Owner, Group, and Others (e.g., 0755 or 0777).\nBeyond standard read, write, and execute bits, Linux supports the sticky bit (as in mode 01777).\nWhen applied to a directory, the sticky bit ensures that a file inside that directory can only be deleted or renamed by the file's owner or root. This is essential for shared writable directories like /tmp.\nMotivation for the improvements\nWhy does Kubernetes need bind mount options and…",
-        "image": null,
-        "source": "Kubernetes Blog",
-        "published": "2026-09-16T18:30:00.000Z",
         "isNew": false
       }
     ],
@@ -401,6 +401,33 @@
     ],
     "python": [
       {
+        "title": "De-fanging dangerous triggers in GitHub Actions across an organization",
+        "link": "https://pyfound.blogspot.com/2026/11/de-fanging-dangerous-triggers-in-github.html",
+        "summary": "Authors: Mike Fiedler, Seth Larson\n\nOn December 2, 2026, GitHub will start blocking the pull_request_target trigger by default in public repositories. If that sentence means nothing to you, this post is for you. If it fills you with dread, it is also for you.\nThe short version: a handful of GitHub Actions triggers let a stranger on the internet start a workflow that may have access to your secrets. On a GitHub Team or Enterprise plan, you can turn them off for every repository in your organization with one policy. On a Free plan, you can do it one repository at a time. Set the policy up, check what it would block, then enforce it.\nMike Fiedler, PyPI Safety and Security Engineer, and Seth Larson, Security Developer in Residence, have removed dangerous triggers and applied these policies to the Python Software Foundation (PSF) stewarded GitHub organizations (psf, python, pypi). They also wrote up technical documentation on how to roll these policies out to your own projects and organizations. The full details and technical documentation are available on the Alpha-Omega blog.\n\nHave dangerous triggers caused real incidents?\nYes, repeatedly. A few that have affected projects hosted on PyPI directly:\n\nUltralytics, December 2024. The project's GitHub Actions workflows were compromised and the build cache was poisoned, which put malicious releases on PyPI. Seth wrote PyPI's analysis. William Woodruff's write-up traces the entry point to a pull_request_target workflow.\n\nLiteLLM and…",
+        "image": null,
+        "source": "Python Software Foundation News",
+        "published": "2026-11-18T17:46:23.020Z",
+        "isNew": false
+      },
+      {
+        "title": "XTM Transifex sponsors Python’s documentation translations",
+        "link": "https://blog.python.org/2026/11/transifex-sponsors-python-docs/",
+        "summary": "XTM Transifex is supporting Python’s documentation translation teams with a year of free access to its Growth plan.",
+        "image": null,
+        "source": "Python Insider",
+        "published": "2026-11-16T00:00:00.000Z",
+        "isNew": false
+      },
+      {
+        "title": "Python is for everyone: Join in the PSF year-end fundraiser & membership drive!",
+        "link": "https://pyfound.blogspot.com/2026/11/python-is-for-everyone-join-in-psf-year.html",
+        "summary": "The Python Software Foundation (PSF) is the charitable organization behind Python, dedicated to advancing, supporting, and protecting the Python programming language and the community that sustains it. That mission is more than words to us; it’s the community we show up for every day. Our tiny but mighty team works hard to deliver the projects, services, and programs that allow Python to be the thriving, independent, community-driven language it is today. Some of what the PSF does includes producing PyCon US, hosting the Python Package Index (PyPI), supporting Developers in Residence, maintaining critical community infrastructure, and more.\nPython is for gathering, teaching, learning, playing, researching, exploring, creating, building, working, sustaining. The list goes on and on and on! Support this year’s fundraiser with your donations and memberships to help the PSF, the Python community, and the language stay strong and sustainable. Because Python is for everyone, thanks to you. \n\n \nThere are two direct ways to join through donate.python.org: \n\nDonate directly to the PSF! Your donation is a direct way to support and power the future of the Python programming language and community you love. Every donation makes a difference, and we work hard to make a little go a long way.\nBecome a PSF Supporting Member! When you sign up as a Supporting Member of the PSF, you become a part of the PSF, are eligible to vote in PSF elections, and help us sustain our mission with your…",
+        "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhTwkJBGMg9hiANPZ2cf1-foNAeGN51kLhbW7ijJs2cM-ccjoeKo5Y0wz370qJZMYHh-arU0f-qmO-4IJCkIcao9aiDROyrNYbiTC3T0WKNqCFLgBAWdOKhe-k4L6fK5xo85uojI5rF3g72QKBRNfVQwS-PFaZTxHkeX9UbJar8Nl4St5W5cQ/s72-w400-h225-c/PSF%20EOY%20fundraising%20campaign(1).png",
+        "source": "Python Software Foundation News",
+        "published": "2026-11-13T13:40:42.303Z",
+        "isNew": false
+      },
+      {
         "title": "Python 3.16.0 alpha 2 is now available",
         "link": "https://blog.python.org/2026/11/python-3160-alpha-2-is-now-available/",
         "summary": "The second developer preview of Python 3.16 is ready for testing.",
@@ -443,33 +470,6 @@
         "image": null,
         "source": "Python Software Foundation News",
         "published": "2026-10-29T13:46:04.899Z",
-        "isNew": false
-      },
-      {
-        "title": "Python 3.15.2, 3.14.10, 3.13.18, 3.12.16 and 3.11.18 are out",
-        "link": "https://blog.python.org/2026/10/python-3152-31410-31318-31216-31118/",
-        "summary": "Five expedited security releases to distrust the compromised eMudhra intermediate CA keys.",
-        "image": null,
-        "source": "Python Insider",
-        "published": "2026-10-26T00:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "Mark Your Calendars! PSF Board Office Hours for the Year Ahead",
-        "link": "https://pyfound.blogspot.com/2026/10/mark-your-calendars-psf-board-office.html",
-        "summary": "Greetings, Pythonistas- thank you so much for supporting the work of the PSF and the Python community! The newest PSF Board has decided to continue investing in connecting with the global Python community by running the PSF Board Office Hour sessions on the PSF Discord into 2027. \nWe began running these sessions in September 2024, and they have proven to be a great method for the community to connect with the board and vice versa. This venue has been invaluable to the PSF as we work on critical areas over the last year such as the PSF Strategic Plan, elections, and the recent PSF Grants Program Funding Round. The sessions have also provided the PSF Board and Staff the opportunity to hear what our community is up to and what challenges they are facing.\n\nWhat are the PSF Board Office Hours?\nDuring the PSF Board Office Hours, you can participate in a text-based live chat with PSF Board Directors. This is a chance to connect, share, and collaborate with the PSF Board and Staff to improve our community together. Occasionally, we will have dedicated topics such as PyCon US and the PSF Board Elections for the office hour sessions. \nHere is some of the work that we collaborate with staff and volunteers on:\n\nPromotion and outreach for the Python programming language\nSupporting local Python communities\nOrganizing PyCon US\nDiversity and Inclusion in our community\nSupport handling Code of Conduct issues within our communities\nSupport regional Python communities via the PSF Grants…",
-        "image": null,
-        "source": "Python Software Foundation News",
-        "published": "2026-10-22T12:02:44.795Z",
-        "isNew": false
-      },
-      {
-        "title": "Python 3.15.1, 3.14.9 and 3.13.17 are out",
-        "link": "https://blog.python.org/2026/10/python-3151-3149-31317/",
-        "summary": "Three certified security releases for 3.15, 3.14 and 3.13.",
-        "image": null,
-        "source": "Python Insider",
-        "published": "2026-10-21T00:00:00.000Z",
         "isNew": false
       }
     ],
@@ -549,6 +549,15 @@
     ],
     "rust": [
       {
+        "title": "Enabling the parallel frontend on nightly",
+        "link": "https://blog.rust-lang.org/2026/11/16/enabling-parallel-frontend-on-nightly/",
+        "summary": "TL;DR: We are enabling the parallel frontend of the Rust compiler on nightly by default,\nto find remaining issues in preparation for its stabilization.\n\nContext\nThe Rust compiler has been using multiple threads to compile code in its \"backend\" part (using LLVM) for a long time. However, its \"frontend\" part (which includes type checking and borrow checking) has been executing sequentially, on a single thread, which of course limits the performance of the compiler. If you are interested in a more in-depth explanation of parallelism in the Rust compiler, see this previous post.\nThe compiler frontend actually had support for running in parallel for a long time, but it was not enabled by default due to various issues. Three years ago, we made it possible to opt into the parallel frontend on the nightly channel, with the plan to stabilize it in 2024. Clearly, we did not achieve that goal, but work on the parallel frontend was still slowly progressing in the meantime.\nLast year, Vadim Petrochenkov, together with several other contributors, started a coordinated effort to finally get the parallel frontend over the finish line. Since then, many long-standing issues were fixed, and its performance was improved. Now we are at a point where we would like to make it widely available. But before that, we want to find out if people encounter issues with it in the wild, which is why we are enabling it by default only on the nightly channel. Once we will be confident enough that it is…",
+        "image": "https://blog.rust-lang.org/2026/11/16/enabling-parallel-frontend-on-nightly/nalgebra-0.33.png",
+        "source": "Rust Blog",
+        "published": "2026-11-16T00:00:00.000Z",
+        "isNew": false
+      },
+      {
         "title": "Announcing Rust 1.100.0",
         "link": "https://blog.rust-lang.org/2026/11/12/Rust-1.100.0/",
         "summary": "The Rust team is happy to announce a new version of Rust, 1.100.0. Rust is a programming language empowering everyone to build reliable and efficient software.\nIf you have a previous version of Rust installed via rustup, you can get 1.100.0 with:\n$ rustup update stable\nIf you don't have it already, you can get rustup from the appropriate page on our website, and check out the detailed release notes for 1.100.0.\nIf you'd like to help us out by testing future releases, you might consider updating locally to use the beta channel (rustup default beta) or the nightly channel (rustup default nightly). Please report any bugs you might come across!\n\nWhat's in 1.100.0 stable\nNever type\nAllocator API\nDropGuard API\nConjuring zero-sized types\nReporting unused dependencies in Cargo\nReducing Cargo cache collisions\nCargo min-publish-age\nStabilized APIs\n\nNever type\nAfter 10 years and 5 failed stabilization attempts, the never type is finally stable! This also completes the project goal for this work.\nThe never type, spelled ! in code, is the canonical uninhabited type. It represents the type of diverging computations – computations which never resolve to any value – where any code that follows is unreachable. Expressions that terminate control flow, such as return, break, and std::process::exit, also have the type !.\nSince having a value of the never type is impossible, Rust permits a never-to-any coercion, allowing to turn ! into any other type (this is what distinguishes it from any other…",
@@ -610,18 +619,18 @@
         "source": "Rust Blog",
         "published": "2026-10-02T00:00:00.000Z",
         "isNew": false
-      },
-      {
-        "title": "Announcing Rust 1.99.0",
-        "link": "https://blog.rust-lang.org/2026/10/01/Rust-1.99.0/",
-        "summary": "The Rust team is happy to announce a new version of Rust, 1.99.0. Rust is a programming language empowering everyone to build reliable and efficient software.\nIf you have a previous version of Rust installed via rustup, you can get 1.99.0 with:\n$ rustup update stable\nIf you don't have it already, you can get rustup from the appropriate page on our website, and check out the detailed release notes for 1.99.0.\nIf you'd like to help us out by testing future releases, you might consider updating locally to use the beta channel (rustup default beta) or the nightly channel (rustup default nightly). Please report any bugs you might come across!\n\nWhat's in 1.99.0 stable\n\nextern \"C\" variadics\nRust 1.99.0 stabilizes defining C-ABI variadic functions with \"C\" and\n\"C-unwind\" ABIs. Variadic functions defined this way use a variable argument\nlist (...) and accept an arbitrary number of arguments. Rust could already\ncall externally-defined variadic functions (e.g., libc::printf). With Rust\n1.99, these functions can now be written in Rust itself:\n/// SAFETY: must be called with (at least) 2 i32 arguments.\nunsafe extern \"C\" fn sum(mut args: ...) -> i32 {\n    // SAFETY: guaranteed by the caller.\n    let a = unsafe { args.next_arg::<i32>() };\n    let b = unsafe { args.next_arg::<i32>() };\n    a + b\n}\n\nfn foo() -> i32 {\n    unsafe { sum(0i32, 2i32) }\n}\nThe type of ... is VaList,\nwhich is ABI-compatible with the C va_list type across targets. What types can be read from a VaList is guarded by…",
-        "image": null,
-        "source": "Rust Blog",
-        "published": "2026-10-01T00:00:00.000Z",
-        "isNew": false
       }
     ],
     "javascript": [
+      {
+        "title": "Node.js 27.0.0-alpha.0.1.1 (Alpha)",
+        "link": "https://nodejs.org/en/blog/release/v27.0.0-alpha.0.1.1",
+        "summary": "",
+        "image": null,
+        "source": "Node.js Blog",
+        "published": "2026-11-17T08:41:07.000Z",
+        "isNew": false
+      },
       {
         "title": "Node.js 27.0.0-alpha.0.1.0 (Alpha)",
         "link": "https://nodejs.org/en/blog/release/v27.0.0-alpha.0.1.0",
@@ -683,15 +692,6 @@
         "image": null,
         "source": "Node.js Blog",
         "published": "2026-10-29T19:52:29.000Z",
-        "isNew": false
-      },
-      {
-        "title": "Node.js 24.22.2 (LTS)",
-        "link": "https://nodejs.org/en/blog/release/v24.22.2",
-        "summary": "",
-        "image": null,
-        "source": "Node.js Blog",
-        "published": "2026-10-28T18:40:14.000Z",
         "isNew": false
       }
     ]
