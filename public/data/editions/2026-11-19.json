@@ -1,6 +1,6 @@
 {
   "date": "2026-11-19",
-  "generatedAt": "2026-11-19T19:29:44.450Z",
+  "generatedAt": "2026-11-19T23:34:57.930Z",
   "totalArticles": 72,
   "ticker": [
     {
@@ -181,7 +181,7 @@
       {
         "title": "November 19, 2026",
         "link": "https://docs.cloud.google.com/release-notes#November_19_2026",
-        "summary": "Cloud Load Balancing\nFeature\nThe DENY_BY_DEFAULT action for authorization policies is\ngenerally available (GA) for regional external Application Load Balancers, regional internal Application Load Balancers,\nand cross-region internal Application Load Balancers.\nAttaching a DENY_BY_DEFAULT authorization policy to a load balancer's\nforwarding rule establishes a deny-by-default security baseline that blocks all\nrequests unless they are explicitly permitted by a separate ALLOW or CUSTOM\nauthorization policy.\nFor more information, see the following documentation:\n* Authorization policy overview\n* Set up authorization policies for Application Load Balancers",
+        "summary": "Agent Registry\nFeature\nAgent Registry supports Model Context Protocol (MCP) tool protocol-level\nmetadata, including Identity-Aware Proxy (IAP) policy hints for tool enablement\nand human-in-the-loop (HITL) controls, as well as provider metadata attributes\n(Preview).\nFor more information, see\nMCP server specifications and\nResource attributes.\nBigQuery\nFeature\nYou can now enable agent observability with the Data Engineering Agent\nto monitor the agent's token consumption, request volume, and model latency in\nCloud Monitoring and inspect execution traces and tool calls in Cloud Trace.\nThis feature is\ngenerally available\n(GA).\nFeature\nYou can now create AI indexes using the\nCREATE AI INDEX statement\nto perform natural language searches across table columns with the\nAI.SEARCH function\nwithout manually generating embeddings or managing models. To learn how to\ncreate, monitor, and delete AI indexes, see\nUse AI indexes. This feature is in\nPreview.\nFeature\nYou can use the\nvalidation service in the\nBigQuery Migration Service to verify that tables migrated from your source data\nwarehouse match your target tables in BigQuery across schemas, aggregate\nmetrics, and row-level data. This feature is available in\nPreview.\nSecurity\nA path traversal vulnerability in workspace directory handling and Git\nintegration was discovered in Dataform, BigQuery Studio, and Colab Enterprise.\nFor more information, see the\nGCP-2026-084\nsecurity bulletin.\nFeature\nBigQuery generative AI functions\nnow support the…",
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-11-19T08:00:00.000Z",
