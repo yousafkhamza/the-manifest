@@ -1,6 +1,6 @@
 {
   "date": "2026-11-22",
-  "generatedAt": "2026-11-22T13:20:04.452Z",
+  "generatedAt": "2026-11-22T18:32:29.253Z",
   "totalArticles": 72,
   "ticker": [
     {
@@ -181,11 +181,11 @@
       {
         "title": "November 21, 2026",
         "link": "https://docs.cloud.google.com/release-notes#November_21_2026",
-        "summary": "App Engine flexible environment PHP\nSecurity\nThe following runtime language contains important security updates:\nPHP 8.2 and later: 8.2.36, 8.3.37, 8.4.28, 8.5.13\nTake immediate action by rebuilding and redeploying your applications to pick up\nthe patched PHP runtime, and then remove any temporary\nsession.upload_progress.enabled = 0 mitigation settings from the php.ini\nfile.\nFor more information, see security bulletin\nGCP-2026-090.\nApp Engine standard environment PHP\nSecurity\nThe following runtime language contains important security updates:\nPHP 8.2 and later: 8.2.36, 8.3.37, 8.4.28, 8.5.13\nApplications receive the patched runtime automatically with no action required.\nTo refresh warm instances immediately, redeploy your application.\nIf you added a temporary session.upload_progress.enabled = 0 mitigation\nsetting in the php.ini file, remove it and redeploy.\nFor more information, see security bulletin\nGCP-2026-090.\nBuildpacks\nSecurity\nThe following runtime language contains important security updates:\nPHP 8.2 and later: 8.2.36, 8.3.37, 8.4.28, 8.5.13\nTake immediate action by rebuilding and redeploying your applications to pick up\nthe patched PHP runtime, and then remove any temporary\nsession.upload_progress.enabled = 0 mitigation settings from the php.ini\nfile.\nFor more information, see security bulletin\nGCP-2026-090.\nCloud Run functions\nSecurity\nThe following runtime language contains important security updates:\nPHP 8.2 and later: 8.2.36, 8.3.37, 8.4.28, 8.5.13\nFunctions…",
+        "summary": "App Engine flexible environment PHP\nSecurity\nThe following runtime language contains important security updates:\nPHP 8.2 and later: 8.2.36, 8.3.37, 8.4.28, 8.5.13\nTake immediate action by rebuilding and redeploying your applications to pick up\nthe patched PHP runtime, and then remove any temporary\nsession.upload_progress.enabled = 0 mitigation settings from the php.ini\nfile.\nFor more information, see security bulletin\nGCP-2026-090.\nApp Engine standard environment PHP\nSecurity\nThe following runtime language contains important security updates:\nPHP 8.2 and later: 8.2.36, 8.3.37, 8.4.28, 8.5.13\nApplications receive the patched runtime automatically with no action required.\nTo refresh warm instances immediately, redeploy your application.\nIf you added a temporary session.upload_progress.enabled = 0 mitigation\nsetting in the php.ini file, remove it and redeploy.\nFor more information, see security bulletin\nGCP-2026-090.\nBuildpacks\nSecurity\nThe following runtime language contains important security updates:\nPHP 8.2 and later: 8.2.36, 8.3.37, 8.4.28, 8.5.13\nTake immediate action by rebuilding and redeploying your applications to pick up\nthe patched PHP runtime, and then remove any temporary\nsession.upload_progress.enabled = 0 mitigation settings from the php.ini\nfile.\nFor more information, see security bulletin\nGCP-2026-090.\nCloud Run\nSecurity\nThe following runtime language contains important security updates:\nPHP 8.2 and later: 8.2.36, 8.3.37, 8.4.28, 8.5.13\nWorkloads with…",
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-11-21T08:00:00.000Z",
-        "isNew": true
+        "isNew": false
       },
       {
         "title": "November 20, 2026",
