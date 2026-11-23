@@ -1,6 +1,6 @@
 {
-  "date": "2026-11-22",
-  "generatedAt": "2026-11-22T22:28:07.974Z",
+  "date": "2026-11-23",
+  "generatedAt": "2026-11-23T15:57:37.786Z",
   "totalArticles": 72,
   "ticker": [
     {
@@ -179,6 +179,15 @@
     ],
     "gcp": [
       {
+        "title": "November 23, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#November_23_2026",
+        "summary": "NetApp Volumes\nAnnouncement\nThrough December 31, 2026, Google Cloud NetApp Volumes sends email notifications\nto the Google group for NetApp Volumes maintenance, in addition to\nUnified Maintenance alerts.\nAfter December 31, 2026, NetApp Volumes no longer sends email notifications to\nthe Google group, and Unified Maintenance is the only source of planned\nmaintenance notifications.\nFor more information, see\nMonitor and plan for maintenance events.\nFeature\nGoogle Cloud NetApp Volumes is integrated with\nUnified Maintenance. This integration\nsupports the Flex Unified, Flex File, Standard, Premium, and Extreme service\nlevels.\nYou can view upcoming and past planned maintenance events for your storage pools\nin Cloud Hub, and track event logs and configure automated alerts in Cloud\nLogging. For more information, see\nMonitor and plan for maintenance events.",
+        "image": null,
+        "source": "Google Cloud Platform (GCP) - Release notes",
+        "published": "2026-11-23T08:00:00.000Z",
+        "isNew": true
+      },
+      {
         "title": "November 21, 2026",
         "link": "https://docs.cloud.google.com/release-notes#November_21_2026",
         "summary": "App Engine flexible environment PHP\nSecurity\nThe following runtime language contains important security updates:\nPHP 8.2 and later: 8.2.36, 8.3.37, 8.4.28, 8.5.13\nTake immediate action by rebuilding and redeploying your applications to pick up\nthe patched PHP runtime, and then remove any temporary\nsession.upload_progress.enabled = 0 mitigation settings from the php.ini\nfile.\nFor more information, see security bulletin\nGCP-2026-090.\nApp Engine standard environment PHP\nSecurity\nThe following runtime language contains important security updates:\nPHP 8.2 and later: 8.2.36, 8.3.37, 8.4.28, 8.5.13\nApplications receive the patched runtime automatically with no action required.\nTo refresh warm instances immediately, redeploy your application.\nIf you added a temporary session.upload_progress.enabled = 0 mitigation\nsetting in the php.ini file, remove it and redeploy.\nFor more information, see security bulletin\nGCP-2026-090.\nBuildpacks\nSecurity\nThe following runtime language contains important security updates:\nPHP 8.2 and later: 8.2.36, 8.3.37, 8.4.28, 8.5.13\nTake immediate action by rebuilding and redeploying your applications to pick up\nthe patched PHP runtime, and then remove any temporary\nsession.upload_progress.enabled = 0 mitigation settings from the php.ini\nfile.\nFor more information, see security bulletin\nGCP-2026-090.\nCloud Run\nSecurity\nThe following runtime language contains important security updates:\nPHP 8.2 and later: 8.2.36, 8.3.37, 8.4.28, 8.5.13\nWorkloads with…",
@@ -239,15 +248,6 @@
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-11-15T08:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "November 14, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#November_14_2026",
-        "summary": "Access Approval\nFeature\nService Usage is generally available\n(GA).\nAccess Transparency\nFeature\nService Usage is generally available\n(GA).\nAgent Platform Workbench\nChange\n20261114-2130-rc0 Release\nChange\nInstalled latest packages from upstream dependencies.\nDeprecated\nRemoved the\ndeprecated open-source inverting proxy agent image\n(gcr.io/inverting-proxy/agent). Instances always run the current Agent Platform\nWorkbench proxy agent, and the new-proxy-agent-enabled metadata key no longer\nhas any effect.\nSecurity\nUpdated the Java CA certificate store.\nFixed\nInstances that change from a pre-Turing GPU, such as NVIDIA V100, to a Turing or newer GPU, such as NVIDIA T4, now switch back to CUDA 13 and the CUDA 13 builds of PyTorch, torchvision, and CuPy at boot. This boot takes longer and needs internet access.\nGoogle SecOps SOAR\nAnnouncement\nRelease 6.3.106 is now\navailable for all regions.",
-        "image": null,
-        "source": "Google Cloud Platform (GCP) - Release notes",
-        "published": "2026-11-14T08:00:00.000Z",
         "isNew": false
       }
     ],
