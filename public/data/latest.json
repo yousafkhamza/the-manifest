@@ -1,6 +1,6 @@
 {
   "date": "2026-11-23",
-  "generatedAt": "2026-11-23T15:57:37.786Z",
+  "generatedAt": "2026-11-23T22:41:17.080Z",
   "totalArticles": 72,
   "ticker": [
     {
@@ -181,11 +181,11 @@
       {
         "title": "November 23, 2026",
         "link": "https://docs.cloud.google.com/release-notes#November_23_2026",
-        "summary": "NetApp Volumes\nAnnouncement\nThrough December 31, 2026, Google Cloud NetApp Volumes sends email notifications\nto the Google group for NetApp Volumes maintenance, in addition to\nUnified Maintenance alerts.\nAfter December 31, 2026, NetApp Volumes no longer sends email notifications to\nthe Google group, and Unified Maintenance is the only source of planned\nmaintenance notifications.\nFor more information, see\nMonitor and plan for maintenance events.\nFeature\nGoogle Cloud NetApp Volumes is integrated with\nUnified Maintenance. This integration\nsupports the Flex Unified, Flex File, Standard, Premium, and Extreme service\nlevels.\nYou can view upcoming and past planned maintenance events for your storage pools\nin Cloud Hub, and track event logs and configure automated alerts in Cloud\nLogging. For more information, see\nMonitor and plan for maintenance events.",
+        "summary": "App Engine flexible environment Node.js\nFeature\nSupport for the Node.js 26 runtime is in General Availability (GA).\nApp Engine flexible environment Python\nFeature\nSupport for the Python 3.15 runtime is in\nGeneral Availability (GA).\nApp Engine standard environment Node.js\nFeature\nSupport for the Node.js 26 runtime is in General Availability (GA).\nApp Engine standard environment Python\nFeature\nSupport for the Python 3.15 runtime is in\nGeneral Availability (GA).\nBigQuery\nFeature\nThe reservation_override_mode and disable_on_demand_billing\nreservation and billing controls\nare\ngenerally available\n(GA). You can use these regional options with the\nALTER PROJECT SET OPTIONS and ALTER ORGANIZATION SET OPTIONS statements\nto control whether queries can override assigned reservations to on-demand\nbilling or require reservation slots.\nCloud Run\nFeature\nSupport for the Python 3.15 runtime is in\nGeneral Availability (GA).\nFeature\nSupport for the Node.js 26 runtime is in General Availability (GA).\nCloud Run functions\nFeature\nSupport for the Node.js 26 runtime is in General Availability (GA).\nFeature\nSupport for the Python 3.15 runtime is in\nGeneral Availability (GA).\nThis runtime is only available for Cloud Run functions and isn't supported on\nCloud Run functions (1st gen).\nFilestore\nFeature\nSmall capacity Filestore instances for the zonal service tier are generally\navailable (GA).\nYou can create zonal instances starting at 100 GiB and scale capacity in\n1 GiB increments up to 10,239 GiB.\nFor…",
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-11-23T08:00:00.000Z",
-        "isNew": true
+        "isNew": false
       },
       {
         "title": "November 21, 2026",
@@ -253,6 +253,15 @@
     ],
     "kubernetes": [
       {
+        "title": "Kubernetes v1.38 Sneak Peek",
+        "link": "https://kubernetes.io/blog/2026/11/23/kubernetes-v1-38-sneak-peek/",
+        "summary": "As we get closer to the release date for Kubernetes v1.38, the project develops and matures,\nfeatures may be deprecated, removed, or replaced with better ones for the project's overall health.\nThis blog post outlines some of the planned changes for the Kubernetes v1.38 release that the\nrelease team feels you should be aware of for the continued maintenance of your Kubernetes\nenvironment and keeping up to date with the latest changes. The information listed below is based\non the current status of the v1.38 release and may change before the actual release date.\nDeprecations and removals for Kubernetes v1.38\nkubectl: WebSocket opt-out environment variables removed\nkubectl has used WebSockets instead of SPDY by default for kubectl exec, attach and cp since\nv1.30, and for kubectl port-forward since v1.31. The KUBECTL_REMOTE_COMMAND_WEBSOCKETS and\nKUBECTL_PORT_FORWARD_WEBSOCKETS environment variables let you turn that behavior off. These\nvariables are going to be removed in v1.38. kubectl will then always try WebSockets first and fall\nback to SPDY when it needs to (the same as the current default behavior). If your scripts or CI\nenvironments set either of these environment variables, you can remove them since they will no\nlonger have any effect.\nTo learn more, refer to\nKEP-4006: Transition from SPDY to WebSockets.\nkubectl: name dropped from kuberc credential plugin allowlist entries\nThe kuberc file keeps kubectl user preferences separate from cluster credentials in the\nkubeconfig,…",
+        "image": null,
+        "source": "Kubernetes Blog",
+        "published": "2026-11-23T16:00:00.000Z",
+        "isNew": false
+      },
+      {
         "title": "Scheduling the removal of the kube-proxy IPVS backend",
         "link": "https://kubernetes.io/blog/2026/11/16/ipvs-removal/",
         "summary": "The ipvs backend for kube-proxy was an experiment in providing a\nservice proxy implementation with better performance than the\niptables backend. While it succeeded in that goal, the kernel IPVS\nAPI has turned out to be a bad match for the Kubernetes Services API,\nand the ipvs backend was never able to implement all of the edge\ncases of Kubernetes Service functionality correctly.\nIn Kubernetes 1.29, the project introduced the nftables backend for\nkube-proxy, which became GA in 1.33. Part of the plan behind adding\nthe nftables backend was the idea that it would eventually replace\nboth the iptables and ipvs backends. Because the ipvs backend in\nparticular is complex, not 100% feature complete, and architecturally\nquite different from the other two backends (and thus more work to\nmaintain), Kubernetes SIG Network decided to officially deprecate it\nas of Kubernetes 1.35. Although it currently remains available in\nkube-proxy (with a warning about its deprecation), we (Kubernetes SIG\nNetwork) now plan to remove it in Kubernetes 1.40. All ipvs users\nshould therefore be planning to migrate to either the nftables or\niptables backends.\nWhy was the ipvs backend written?\nThe ipvs backend was originally designed to fix two different kinds\nof performance problems in the iptables backend:\nFirst, iptables had problems with data plane latency (the speed\nat which clients could establish new connections to services),\nbecause kube-proxy would write a separate iptables rule to match\neach service…",
@@ -313,15 +322,6 @@
         "image": null,
         "source": "Kubernetes Blog",
         "published": "2026-09-22T18:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "Kubernetes v1.37: Tracking When a PersistentVolumeClaim Was Last Used (Beta)",
-        "link": "https://kubernetes.io/blog/2026/09/21/kubernetes-v1-37-pvc-last-used-time/",
-        "summary": "Kubernetes v1.37 promotes the PersistentVolumeClaimUnusedSinceTime feature gate to Beta (enabled by\ndefault). With this feature, the PersistentVolumeClaim (PVC) protection controller adds an Unused\ncondition to each PVC, telling you whether any running pod currently references it — no custom\ntooling or cross-referencing required.\nFor the API definition of PVC conditions, see the\nPersistentVolumeClaim API reference.\nRead on to learn how the Unused condition works and how to use it.\nWhy track PVC usage?\nIn large-scale Kubernetes clusters, it is common for users to create PVCs and then delete the\nassociated pods without cleaning up the storage, because Kubernetes does not automatically delete\nPVCs when their pods are removed (to protect against accidental data loss). Over time, these\norphaned PVCs may accumulate, silently consuming storage capacity and driving up cloud costs.\nBefore Kubernetes v1.37, it was easy to identify an unused PersistentVolume, but much harder to\ndetermine whether a PVC was still being used. Doing so required cross-referencing pods,\nPersistentVolumes, and PVCs over a potentially large window of time. Administrators often resorted\nto custom monitoring pipelines or scripts to answer a seemingly simple question:\n\"Is anything actually using this volume?\"\nThe PersistentVolumeClaimUnusedSinceTime feature solves this by making the answer available\nnatively in the PVC status. Once the feature is enabled, every PVC gets an Unused condition managed\nby the PVC…",
-        "image": null,
-        "source": "Kubernetes Blog",
-        "published": "2026-09-21T18:30:00.000Z",
         "isNew": false
       }
     ],
