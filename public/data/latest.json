@@ -1,6 +1,6 @@
 {
   "date": "2026-11-24",
-  "generatedAt": "2026-11-24T03:19:32.670Z",
+  "generatedAt": "2026-11-24T15:52:31.863Z",
   "totalArticles": 72,
   "ticker": [
     {
@@ -30,6 +30,15 @@
   ],
   "topics": {
     "aws": [
+      {
+        "title": "AWS Weekly Roundup: Local Zone in Bogotá, 30-minute Lambda timeout, and more (November 24, 2026)",
+        "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-local-zone-in-bogota-30-minute-lambda-timeout-and-more-november-24-2026/",
+        "summary": "Some limits shape architecture more than any feature does. AWS Lambda launched in 2014 with a 60-second timeout, moved to 5 minutes in 2015 and to 15 minutes in 2018, and then stayed there for eight years. Last week the limit doubled, and in the same week Lambda learned to run on GPUs and gave […]",
+        "image": null,
+        "source": "AWS News Blog",
+        "published": "2026-11-24T15:39:59.000Z",
+        "isNew": false
+      },
       {
         "title": "AWS Lambda now supports GPU instances for Event Functions on Lambda Managed Instances",
         "link": "https://aws.amazon.com/blogs/aws/aws-lambda-now-supports-gpu-instances-for-event-functions-on-lambda-managed-instances/",
@@ -91,15 +100,6 @@
         "image": null,
         "source": "AWS News Blog",
         "published": "2026-11-02T16:45:48.000Z",
-        "isNew": false
-      },
-      {
-        "title": "AWS Weekly Roundup: Amazon Polly Generative engine, TorchNeuron for Trainium, and more (October 26, 2026)",
-        "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-amazon-polly-generative-engine-torchneuron-for-trainium-and-more-october-26-2026/",
-        "summary": "A few weeks ago I presented to a small group of commercial and technology leaders from Brazilian agribusiness at the AWS office in São Paulo. My talk ran through where generative AI fits across the different stages of an agribusiness operation, and the point I kept returning to is that the markets we call traditional […]",
-        "image": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2026/10/23/genai-agronegocio-speaker-crop-1280.jpg",
-        "source": "AWS News Blog",
-        "published": "2026-10-26T15:02:24.000Z",
         "isNew": false
       }
     ],
@@ -181,7 +181,7 @@
       {
         "title": "November 23, 2026",
         "link": "https://docs.cloud.google.com/release-notes#November_23_2026",
-        "summary": "App Engine flexible environment Node.js\nFeature\nSupport for the Node.js 26 runtime is in General Availability (GA).\nApp Engine flexible environment Python\nFeature\nSupport for the Python 3.15 runtime is in\nGeneral Availability (GA).\nApp Engine standard environment Node.js\nFeature\nSupport for the Node.js 26 runtime is in General Availability (GA).\nApp Engine standard environment Python\nFeature\nSupport for the Python 3.15 runtime is in\nGeneral Availability (GA).\nBigQuery\nFeature\nThe reservation_override_mode and disable_on_demand_billing\nreservation and billing controls\nare\ngenerally available\n(GA). You can use these regional options with the\nALTER PROJECT SET OPTIONS and ALTER ORGANIZATION SET OPTIONS statements\nto control whether queries can override assigned reservations to on-demand\nbilling or require reservation slots.\nCloud Run\nFeature\nSupport for the Python 3.15 runtime is in\nGeneral Availability (GA).\nFeature\nSupport for the Node.js 26 runtime is in General Availability (GA).\nCloud Run functions\nFeature\nSupport for the Node.js 26 runtime is in General Availability (GA).\nFeature\nSupport for the Python 3.15 runtime is in\nGeneral Availability (GA).\nThis runtime is only available for Cloud Run functions and isn't supported on\nCloud Run functions (1st gen).\nFilestore\nFeature\nSmall capacity Filestore instances for the zonal service tier are generally\navailable (GA).\nYou can create zonal instances starting at 100 GiB and scale capacity in\n1 GiB increments up to 10,239 GiB.\nFor…",
+        "summary": "App Engine flexible environment Node.js\nFeature\nSupport for the Node.js 26 runtime is in General Availability (GA).\nApp Engine flexible environment Python\nFeature\nSupport for the Python 3.15 runtime is in\nGeneral Availability (GA).\nApp Engine standard environment Node.js\nFeature\nSupport for the Node.js 26 runtime is in General Availability (GA).\nApp Engine standard environment Python\nFeature\nSupport for the Python 3.15 runtime is in\nGeneral Availability (GA).\nBigQuery\nFeature\nThe reservation_override_mode and disable_on_demand_billing\nreservation and billing controls\nare\ngenerally available\n(GA). You can use these regional options with the\nALTER PROJECT SET OPTIONS and ALTER ORGANIZATION SET OPTIONS statements\nto control whether queries can override assigned reservations to on-demand\nbilling or require reservation slots.\nFeature\nVersion 1.1 of the TabFM model is now available\nand is the default model used by the\nAI.PREDICT\nand AI.EVALUATE\nfunctions. This feature is in\npreview.\nFeature\nYou can now use the built-in\nembeddinggemma-2 model\nin the\nAI.EMBED function.\nThis model has a long context window, is designed for embedding text and code,\nand uses your BigQuery slots to generate embeddings at scale.\nThis model is in\nPreview.\nCloud Run\nFeature\nSupport for the Python 3.15 runtime is in\nGeneral Availability (GA).\nFeature\nSupport for the Node.js 26 runtime is in General Availability (GA).\nCloud Run functions\nFeature\nSupport for the Node.js 26 runtime is in General Availability…",
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-11-23T08:00:00.000Z",
@@ -401,6 +401,15 @@
     ],
     "python": [
       {
+        "title": "Reopening the PSF Grants Program with Twice-Yearly Funding Rounds",
+        "link": "https://pyfound.blogspot.com/2026/11/reopening-psf-grants-program-with-twice.html",
+        "summary": "The Python Software Foundation (PSF) is excited to announce that the PSF Grants Program is reopening with a restructured schedule of two funding rounds per year. After the pause in 2025, and the special funding round held in 2026, the PSF is reopening the PSF Grants Program on an ongoing but restructured basis, with the budget reviewed annually. This approach aims to balance the sustainability of the program with our commitment to support the Python community through grants. \nThe PSF is also happy to announce the upcoming funding round with a budget capped at $125,000 USD with a similar scope as the special funding round. We will be accepting applications from December 14 - January 4, for Conferences and Workshops that are scheduled between May 1, 2027, and September 30, 2027. Details on the restructured program are below. More information about the upcoming round will be published next week. \n\nMoving forward with twice-yearly funding rounds\nThe 2026 PSF Grants Program Funding Round was a success! The PSF is proud to have awarded 44 grants totaling approximately $60,000. The round also gave the Grants Work Group (GWG) and PSF staff the opportunity to explore the round-based process, in contrast to our old process of rolling applications, review, and awards. We received many questions and much feedback during the Grants Program Office Hour sessions and via email before and during the round. The most frequent question we received was “when will the next round of funding…",
+        "image": null,
+        "source": "Python Software Foundation News",
+        "published": "2026-11-24T14:48:29.530Z",
+        "isNew": false
+      },
+      {
         "title": "De-fanging dangerous triggers in GitHub Actions across an organization",
         "link": "https://pyfound.blogspot.com/2026/11/de-fanging-dangerous-triggers-in-github.html",
         "summary": "Authors: Mike Fiedler, Seth Larson\n\nOn December 2, 2026, GitHub will start blocking the pull_request_target trigger by default in public repositories. If that sentence means nothing to you, this post is for you. If it fills you with dread, it is also for you.\nThe short version: a handful of GitHub Actions triggers let a stranger on the internet start a workflow that may have access to your secrets. On a GitHub Team or Enterprise plan, you can turn them off for every repository in your organization with one policy. On a Free plan, you can do it one repository at a time. Set the policy up, check what it would block, then enforce it.\nMike Fiedler, PyPI Safety and Security Engineer, and Seth Larson, Security Developer in Residence, have removed dangerous triggers and applied these policies to the Python Software Foundation (PSF) stewarded GitHub organizations (psf, python, pypi). They also wrote up technical documentation on how to roll these policies out to your own projects and organizations. The full details and technical documentation are available on the Alpha-Omega blog.\n\nHave dangerous triggers caused real incidents?\nYes, repeatedly. A few that have affected projects hosted on PyPI directly:\n\nUltralytics, December 2024. The project's GitHub Actions workflows were compromised and the build cache was poisoned, which put malicious releases on PyPI. Seth wrote PyPI's analysis. William Woodruff's write-up traces the entry point to a pull_request_target workflow.\n\nLiteLLM and…",
@@ -461,15 +470,6 @@
         "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEikflEgF1pDPTBMUVGnVuSTV9NRsT9iEuvKDbcpWF0fwkDv96y5X2j-zZYYYlxdBYyrR-IAPgls6aVx0L9UHPWA39qvOs4qDCcAYXDvuQ4NAoSTNmqsfORzA4FZmFVAGVHZm_hEFIHctDEcmGPh3AD2y2vdtFU6rNwtT6KheEPW_GNcgem6eQ/s72-c/IMG_brett.jpg",
         "source": "Python Software Foundation News",
         "published": "2026-11-03T13:29:30.829Z",
-        "isNew": false
-      },
-      {
-        "title": "Announcing PSF Community Service Award Recipients!",
-        "link": "https://pyfound.blogspot.com/2026/10/announcing-psf-community-service-award.html",
-        "summary": "The PSF Community Service Awards (CSAs) are a formal way for the PSF Board of Directors to offer recognition of work which, in its opinion, significantly improves the Foundation's fulfillment of its mission to build a vibrant, welcoming, global Python community. These awards shine a light on the incredible people who are the heart and soul of our community– those whose dedication, creativity, and generosity help the PSF fulfill its mission. The PSF CSAs celebrate individuals who have been truly invaluable, inspiring others through their example, and demonstrates that service to the Python community leads to recognition and reward. If you know of someone in the Python community deserving of a PSF CSA award, please submit them to the PSF Board via psf@python.org at any time. You can read more about PSF CSA’s on our website. \nThe PSF Board is excited to announce 5 new CSAs, awarded to Abhijeet Mote, Elena Williams, Hugo van Kemenade, Kevin Horn, Sarah Abderemane, for their contributions to the Python community. Read more about their work and impact below. \n\nAbhijeet Mote\nAbhijeet Mote has spent more than a decade teaching Python and expanding access to technical education across Asia, Europe, and North America. In 2019, he founded the Python Penang Meetup, which he led until 2022 and which grew into one of Malaysia's most active developer communities, giving students, engineers, and enthusiasts a place to learn and share knowledge. In India, he has trained university faculty,…",
-        "image": null,
-        "source": "Python Software Foundation News",
-        "published": "2026-10-29T13:46:04.899Z",
         "isNew": false
       }
     ],
