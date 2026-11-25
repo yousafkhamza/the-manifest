@@ -1,11 +1,11 @@
 {
   "date": "2026-11-25",
-  "generatedAt": "2026-11-25T01:25:00.508Z",
+  "generatedAt": "2026-11-25T15:35:18.894Z",
   "totalArticles": 72,
   "ticker": [
     {
       "label": "Kubernetes",
-      "version": "v1.37.2"
+      "version": "v1.37.3"
     },
     {
       "label": "Terraform",
@@ -181,11 +181,11 @@
       {
         "title": "November 24, 2026",
         "link": "https://docs.cloud.google.com/release-notes#November_24_2026",
-        "summary": "BigQuery\nFeature\nThe following table-valued functions are now\ngenerally available\n(GA) in the query editor and as part of\nconversational analytics\nto help you analyze your data:\nML.TREND:\nidentify the directional trajectory of your data.\nML.SEASONALITY:\nidentify repeating patterns in your data.\nML.DETECT_CHANGE_POINTS:\nidentify intervals where structural shifts occur in your data.\nML.CORRELATION:\nidentify the statistical correlation between a target column and one or more\nmetric columns.\nFeature\nThe built-in text embedding model embeddinggemma-300m in the\nAI.EMBED\nand\nAI.SIMILARITY\nfunctions is\ngenerally available\n(GA).\nFeature\nBigQuery Migration Service supports translating Databricks SQL and Apache\nSpark SQL 3.x and 4.x into GoogleSQL and extracting schema metadata from\nDatabricks in\nPreview.\nFor more information, see\nDatabricks and Apache Spark SQL translation reference\nand\nSupported SQL dialects.\nGoogle SecOps SIEM\nDeprecated\nThese SIEM Release Notes are now deprecated. For future updates on new features, changes, and announcements, see Google SecOps Release Notes.\nGoogle SecOps SOAR\nDeprecated\nThese SOAR Release Notes are now deprecated. For future updates on new features, changes, and announcements, see Google SecOps Release Notes.\nManaged Service for Apache Airflow\nAnnouncement\nIn December 2026, new Managed Airflow images and builds will no longer\npre-install site-packages/ray/jars/ray_dist.jar, the Java runtime that Ray\nuses for Java and cross-language (Python-Java)…",
+        "summary": "Apigee hybrid\nAnnouncement\nv1.15.11\nOn November 24, 2026, we released an updated version of the Apigee hybrid\nsoftware, v1.15.11.\nFor information about upgrading, see\nUpgrading Apigee hybrid to v1.15.11.\nFor information about new installations, see\nThe big picture.\nNote: Before upgrading to v1.15.11, you must upgrade to v1.15.10 first. As part\nof the phased migration from ApigeeRedis to ApigeeValkey, v1.15.11 changes\nthe default value of\nao.args.valkeyBackend\nto true. During the apigee-operator upgrade, v1.15.11 verifies that\nApigeeRedis was upgraded through v1.15.10. For more information, see\nUpgrading Apigee hybrid.Note: This is a patch release. The container images used in patch releases are\nintegrated with the Apigee hybrid Helm charts. Upgrading to a patch by using\nthe Helm chart automatically updates the images. You don't typically need to\nmake manual image changes. For information about container image support in\nApigee hybrid releases, see\nApigee release process.\nFixed\nFixed in this release\nBug ID\nDescription\n\n\n\n\n583672651\nFixed a connection count leak in the apigee-runtime HTTP server on management ports (for example, 8843) that could inflate the Horizontal Pod Autoscaler (HPA) AverageValue metric and pin runtime replicas at maxReplicas.\n\n\n582790971\nFixed an issue where debug sessions could show unmasked payloads, query parameters, headers, or flow variables when another session or a masking error intervened.\n\n\n582790249\nFixed an issue where debug traces dropped the…",
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-11-24T08:00:00.000Z",
-        "isNew": true
+        "isNew": false
       },
       {
         "title": "November 23, 2026",
