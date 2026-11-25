@@ -1,6 +1,6 @@
 {
-  "date": "2026-11-24",
-  "generatedAt": "2026-11-24T21:16:25.785Z",
+  "date": "2026-11-25",
+  "generatedAt": "2026-11-25T01:25:00.508Z",
   "totalArticles": 72,
   "ticker": [
     {
@@ -179,9 +179,18 @@
     ],
     "gcp": [
       {
+        "title": "November 24, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#November_24_2026",
+        "summary": "BigQuery\nFeature\nThe following table-valued functions are now\ngenerally available\n(GA) in the query editor and as part of\nconversational analytics\nto help you analyze your data:\nML.TREND:\nidentify the directional trajectory of your data.\nML.SEASONALITY:\nidentify repeating patterns in your data.\nML.DETECT_CHANGE_POINTS:\nidentify intervals where structural shifts occur in your data.\nML.CORRELATION:\nidentify the statistical correlation between a target column and one or more\nmetric columns.\nFeature\nThe built-in text embedding model embeddinggemma-300m in the\nAI.EMBED\nand\nAI.SIMILARITY\nfunctions is\ngenerally available\n(GA).\nFeature\nBigQuery Migration Service supports translating Databricks SQL and Apache\nSpark SQL 3.x and 4.x into GoogleSQL and extracting schema metadata from\nDatabricks in\nPreview.\nFor more information, see\nDatabricks and Apache Spark SQL translation reference\nand\nSupported SQL dialects.\nGoogle SecOps SIEM\nDeprecated\nThese SIEM Release Notes are now deprecated. For future updates on new features, changes, and announcements, see Google SecOps Release Notes.\nGoogle SecOps SOAR\nDeprecated\nThese SOAR Release Notes are now deprecated. For future updates on new features, changes, and announcements, see Google SecOps Release Notes.\nManaged Service for Apache Airflow\nAnnouncement\nIn December 2026, new Managed Airflow images and builds will no longer\npre-install site-packages/ray/jars/ray_dist.jar, the Java runtime that Ray\nuses for Java and cross-language (Python-Java)…",
+        "image": null,
+        "source": "Google Cloud Platform (GCP) - Release notes",
+        "published": "2026-11-24T08:00:00.000Z",
+        "isNew": true
+      },
+      {
         "title": "November 23, 2026",
         "link": "https://docs.cloud.google.com/release-notes#November_23_2026",
-        "summary": "App Engine flexible environment Node.js\nFeature\nSupport for the Node.js 26 runtime is in General Availability (GA).\nApp Engine flexible environment Python\nFeature\nSupport for the Python 3.15 runtime is in\nGeneral Availability (GA).\nApp Engine standard environment Node.js\nFeature\nSupport for the Node.js 26 runtime is in General Availability (GA).\nApp Engine standard environment Python\nFeature\nSupport for the Python 3.15 runtime is in\nGeneral Availability (GA).\nBigQuery\nFeature\nThe reservation_override_mode and disable_on_demand_billing\nreservation and billing controls\nare\ngenerally available\n(GA). You can use these regional options with the\nALTER PROJECT SET OPTIONS and ALTER ORGANIZATION SET OPTIONS statements\nto control whether queries can override assigned reservations to on-demand\nbilling or require reservation slots.\nFeature\nVersion 1.1 of the TabFM model is now available\nand is the default model used by the\nAI.PREDICT\nand AI.EVALUATE\nfunctions. This feature is in\npreview.\nFeature\nYou can now use the built-in\nembeddinggemma-2 model\nin the\nAI.EMBED function.\nThis model has a long context window, is designed for embedding text and code,\nand uses your BigQuery slots to generate embeddings at scale.\nThis model is in\nPreview.\nCloud Run\nFeature\nSupport for the Python 3.15 runtime is in\nGeneral Availability (GA).\nFeature\nSupport for the Node.js 26 runtime is in General Availability (GA).\nCloud Run functions\nFeature\nSupport for the Node.js 26 runtime is in General Availability…",
+        "summary": "Apigee Edge for Public Cloud\nAnnouncement\nReleased Edge Microgateway 3.3.13.\nComponent\nVersion\n\n\n\n\nmicrogateway\n3.3.13\n\n\nplugins\n3.3.9\n\n\nedgeauth\n3.2.2\n\n\n\nTo upgrade, install edgemicro@3.3.13 from npm or pull\ngcr.io/apigee-microgateway/edgemicro:3.3.13. For upgrade instructions, see\nUpgrading Edge Microgateway\nand\nUsing Docker with Edge Microgateway.\nBreaking\nChanged the default bind address of the Edge Microgateway admin /stats\nendpoint from all network interfaces (0.0.0.0) to loopback (127.0.0.1) to\nprevent unauthenticated remote access.\nSecurity\nFixed security vulnerabilities in Edge Microgateway 3.3.13:\nedgemicro package: Hardened configuration TLS option handling, local\nproxy serialization, and environment-tag escaping (570053366); hardened\ncore request path canonicalization, hop-by-hop header filtering, bounded\nrequest-pattern caching, and metrics header handling (587833624); and\nupdated npm dependencies\n(CVE-2026-118764,\nCVE-2026-118773).\nDocker image: Updated base image to node:24.22.3-trixie-slim and\npatched Debian OS packages\n(CVE-2026-27171,\nCVE-2026-85091).\n\nFixed\nBug ID\nDescription\n\n\n\n\n587349448\nFixed an issue where first-time edgemicro configure and edgemicro private configure runs failed while deploying edgemicro-auth due to updated tmp and rimraf package APIs.\n\n\n\nApp Engine flexible environment Node.js\nFeature\nSupport for the Node.js 26 runtime is in General Availability (GA).\nApp Engine flexible environment Python\nFeature\nSupport for the Python 3.15 runtime…",
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-11-23T08:00:00.000Z",
@@ -239,15 +248,6 @@
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-11-16T08:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "November 15, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#November_15_2026",
-        "summary": "Agent Platform Workbench\nChange\n20261115-2230-rc0 Release\nChange\n20261115-2230-rc0 Release\nChange\nInstalled latest packages from upstream dependencies.\nChange\nInstalled latest packages from upstream dependencies.\nChange\nJupyterLab extension settings are now prepared when the image is built, so Workbench instances that use an unmodified container image with JupyterLab 4 (the default) restart faster.\nChange\nJupyterLab extension settings are now prepared when the image is built, so Workbench instances that use an unmodified container image with JupyterLab 4 (the default) restart faster.\nChange\nM157 Release\nChange\nInstalled latest packages from upstream dependencies.\nDeprecated\nRemoved the\ndeprecated open-source inverting proxy agent image\n(gcr.io/inverting-proxy/agent). Instances always run the current Agent Platform\nWorkbench proxy agent, and the new-proxy-agent-enabled metadata key no longer\nhas any effect.\nGoogle SecOps\nFeature\nPublisher Agent Version 2.7.2\nPublisher Agent Version 2.7.2 is now available.\nThis release includes the following updates and fixes for the Publisher and remote agent:\nAlert lazy loading for remote actions: Remote action tasks now support loading case data on demand from the server when alert lazy loading is enabled, reducing task payload sizes.\nIntegration dependency installation fix: Fixed an issue where installing integrations with multiple interdependent dependency files could fail before all packages finished installing.\nRemote agent deletion…",
-        "image": null,
-        "source": "Google Cloud Platform (GCP) - Release notes",
-        "published": "2026-11-15T08:00:00.000Z",
         "isNew": false
       }
     ],
