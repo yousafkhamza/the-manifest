@@ -1,11 +1,11 @@
 {
-  "date": "2026-11-19",
-  "generatedAt": "2026-11-19T23:34:57.930Z",
+  "date": "2026-11-26",
+  "generatedAt": "2026-11-26T00:59:24.166Z",
   "totalArticles": 72,
   "ticker": [
     {
       "label": "Kubernetes",
-      "version": "v1.37.2"
+      "version": "v1.37.3"
     },
     {
       "label": "Terraform",
@@ -30,6 +30,15 @@
   ],
   "topics": {
     "aws": [
+      {
+        "title": "AWS Weekly Roundup: Local Zone in Bogotá, 30-minute Lambda timeout, and more (November 24, 2026)",
+        "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-local-zone-in-bogota-30-minute-lambda-timeout-and-more-november-24-2026/",
+        "summary": "Some limits shape architecture more than any feature does. AWS Lambda launched in 2014 with a 60-second timeout, moved to 5 minutes in 2015 and to 15 minutes in 2018, and then stayed there for eight years. Last week the limit doubled, and in the same week Lambda learned to run on GPUs and gave […]",
+        "image": null,
+        "source": "AWS News Blog",
+        "published": "2026-11-24T15:39:59.000Z",
+        "isNew": false
+      },
       {
         "title": "AWS Lambda now supports GPU instances for Event Functions on Lambda Managed Instances",
         "link": "https://aws.amazon.com/blogs/aws/aws-lambda-now-supports-gpu-instances-for-event-functions-on-lambda-managed-instances/",
@@ -91,15 +100,6 @@
         "image": null,
         "source": "AWS News Blog",
         "published": "2026-11-02T16:45:48.000Z",
-        "isNew": false
-      },
-      {
-        "title": "AWS Weekly Roundup: Amazon Polly Generative engine, TorchNeuron for Trainium, and more (October 26, 2026)",
-        "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-amazon-polly-generative-engine-torchneuron-for-trainium-and-more-october-26-2026/",
-        "summary": "A few weeks ago I presented to a small group of commercial and technology leaders from Brazilian agribusiness at the AWS office in São Paulo. My talk ran through where generative AI fits across the different stages of an agribusiness operation, and the point I kept returning to is that the markets we call traditional […]",
-        "image": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2026/10/23/genai-agronegocio-speaker-crop-1280.jpg",
-        "source": "AWS News Blog",
-        "published": "2026-10-26T15:02:24.000Z",
         "isNew": false
       }
     ],
@@ -179,6 +179,42 @@
     ],
     "gcp": [
       {
+        "title": "November 24, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#November_24_2026",
+        "summary": "Apigee hybrid\nAnnouncement\nv1.15.11\nOn November 24, 2026, we released an updated version of the Apigee hybrid\nsoftware, v1.15.11.\nFor information about upgrading, see\nUpgrading Apigee hybrid to v1.15.11.\nFor information about new installations, see\nThe big picture.\nNote: Before upgrading to v1.15.11, you must upgrade to v1.15.10 first. As part\nof the phased migration from ApigeeRedis to ApigeeValkey, v1.15.11 changes\nthe default value of\nao.args.valkeyBackend\nto true. During the apigee-operator upgrade, v1.15.11 verifies that\nApigeeRedis was upgraded through v1.15.10. For more information, see\nUpgrading Apigee hybrid.Note: This is a patch release. The container images used in patch releases are\nintegrated with the Apigee hybrid Helm charts. Upgrading to a patch by using\nthe Helm chart automatically updates the images. You don't typically need to\nmake manual image changes. For information about container image support in\nApigee hybrid releases, see\nApigee release process.\nFixed\nFixed in this release\nBug ID\nDescription\n\n\n\n\n583672651\nFixed a connection count leak in the apigee-runtime HTTP server on management ports (for example, 8843) that could inflate the Horizontal Pod Autoscaler (HPA) AverageValue metric and pin runtime replicas at maxReplicas.\n\n\n582790971\nFixed an issue where debug sessions could show unmasked payloads, query parameters, headers, or flow variables when another session or a masking error intervened.\n\n\n582790249\nFixed an issue where debug traces dropped the…",
+        "image": null,
+        "source": "Google Cloud Platform (GCP) - Release notes",
+        "published": "2026-11-24T08:00:00.000Z",
+        "isNew": false
+      },
+      {
+        "title": "November 23, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#November_23_2026",
+        "summary": "Apigee Edge for Public Cloud\nAnnouncement\nReleased Edge Microgateway 3.3.13.\nComponent\nVersion\n\n\n\n\nmicrogateway\n3.3.13\n\n\nplugins\n3.3.9\n\n\nedgeauth\n3.2.2\n\n\n\nTo upgrade, install edgemicro@3.3.13 from npm or pull\ngcr.io/apigee-microgateway/edgemicro:3.3.13. For upgrade instructions, see\nUpgrading Edge Microgateway\nand\nUsing Docker with Edge Microgateway.\nBreaking\nChanged the default bind address of the Edge Microgateway admin /stats\nendpoint from all network interfaces (0.0.0.0) to loopback (127.0.0.1) to\nprevent unauthenticated remote access.\nSecurity\nFixed security vulnerabilities in Edge Microgateway 3.3.13:\nedgemicro package: Hardened configuration TLS option handling, local\nproxy serialization, and environment-tag escaping (570053366); hardened\ncore request path canonicalization, hop-by-hop header filtering, bounded\nrequest-pattern caching, and metrics header handling (587833624); and\nupdated npm dependencies\n(CVE-2026-118764,\nCVE-2026-118773).\nDocker image: Updated base image to node:24.22.3-trixie-slim and\npatched Debian OS packages\n(CVE-2026-27171,\nCVE-2026-85091).\n\nFixed\nBug ID\nDescription\n\n\n\n\n587349448\nFixed an issue where first-time edgemicro configure and edgemicro private configure runs failed while deploying edgemicro-auth due to updated tmp and rimraf package APIs.\n\n\n\nApp Engine flexible environment Node.js\nFeature\nSupport for the Node.js 26 runtime is in General Availability (GA).\nApp Engine flexible environment Python\nFeature\nSupport for the Python 3.15 runtime…",
+        "image": null,
+        "source": "Google Cloud Platform (GCP) - Release notes",
+        "published": "2026-11-23T08:00:00.000Z",
+        "isNew": false
+      },
+      {
+        "title": "November 21, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#November_21_2026",
+        "summary": "App Engine flexible environment PHP\nSecurity\nThe following runtime language contains important security updates:\nPHP 8.2 and later: 8.2.36, 8.3.37, 8.4.28, 8.5.13\nTake immediate action by rebuilding and redeploying your applications to pick up\nthe patched PHP runtime, and then remove any temporary\nsession.upload_progress.enabled = 0 mitigation settings from the php.ini\nfile.\nFor more information, see security bulletin\nGCP-2026-090.\nApp Engine standard environment PHP\nSecurity\nThe following runtime language contains important security updates:\nPHP 8.2 and later: 8.2.36, 8.3.37, 8.4.28, 8.5.13\nApplications receive the patched runtime automatically with no action required.\nTo refresh warm instances immediately, redeploy your application.\nIf you added a temporary session.upload_progress.enabled = 0 mitigation\nsetting in the php.ini file, remove it and redeploy.\nFor more information, see security bulletin\nGCP-2026-090.\nBuildpacks\nSecurity\nThe following runtime language contains important security updates:\nPHP 8.2 and later: 8.2.36, 8.3.37, 8.4.28, 8.5.13\nTake immediate action by rebuilding and redeploying your applications to pick up\nthe patched PHP runtime, and then remove any temporary\nsession.upload_progress.enabled = 0 mitigation settings from the php.ini\nfile.\nFor more information, see security bulletin\nGCP-2026-090.\nCloud Run\nSecurity\nThe following runtime language contains important security updates:\nPHP 8.2 and later: 8.2.36, 8.3.37, 8.4.28, 8.5.13\nWorkloads with…",
+        "image": null,
+        "source": "Google Cloud Platform (GCP) - Release notes",
+        "published": "2026-11-21T08:00:00.000Z",
+        "isNew": false
+      },
+      {
+        "title": "November 20, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#November_20_2026",
+        "summary": "Apigee hybrid\nAnnouncement\nv1.17.5\nOn November 20, 2026 we released an updated version of the Apigee hybrid\nsoftware, v1.17.5.\nFor information about upgrading, see\nUpgrading Apigee hybrid to v1.17.5.\nFor information about new installations, see\nThe big picture.\nNote: This is a patch release. The container images used in patch releases are\nintegrated with the Apigee hybrid Helm charts. Upgrading to a patch by using\nthe Helm chart automatically updates the images. You don't typically need to\nmake manual image changes. For information about container image support in\nApigee hybrid releases, see\nApigee release process.\nSecurity\nBug ID\nDescription\n\n\n\n\nN/A\nSecurity fixes for apigee-hybrid-cassandra.\n\n\n\nApp Engine flexible environment Java\nSecurity\nThe following runtime language contains important security updates:\nJava 17 and later: 17.0.21.1+2, 21.0.13.1+2, 25.0.5.1+2\nTake immediate action by rebuilding and redeploying your applications to pick up\nthe patched Java runtime, and then remove any temporary JDK_JAVA_OPTIONS\nmitigation flags.\nFor more information, see security bulletin\nGCP-2026-082.\nApp Engine standard environment Java\nSecurity\nThe following runtime language contains important security updates:\nJava 17 and later: 17.0.21.1+2, 21.0.13.1+2, 25.0.5.1+2\nApplications receive the patched runtime automatically with no action required.\nTo refresh warm instances immediately, redeploy your application.\nIf you added a temporary JDK_JAVA_OPTIONS mitigation flag in app.yaml or…",
+        "image": null,
+        "source": "Google Cloud Platform (GCP) - Release notes",
+        "published": "2026-11-20T08:00:00.000Z",
+        "isNew": false
+      },
+      {
         "title": "November 19, 2026",
         "link": "https://docs.cloud.google.com/release-notes#November_19_2026",
         "summary": "Agent Registry\nFeature\nAgent Registry supports Model Context Protocol (MCP) tool protocol-level\nmetadata, including Identity-Aware Proxy (IAP) policy hints for tool enablement\nand human-in-the-loop (HITL) controls, as well as provider metadata attributes\n(Preview).\nFor more information, see\nMCP server specifications and\nResource attributes.\nBigQuery\nFeature\nYou can now enable agent observability with the Data Engineering Agent\nto monitor the agent's token consumption, request volume, and model latency in\nCloud Monitoring and inspect execution traces and tool calls in Cloud Trace.\nThis feature is\ngenerally available\n(GA).\nFeature\nYou can now create AI indexes using the\nCREATE AI INDEX statement\nto perform natural language searches across table columns with the\nAI.SEARCH function\nwithout manually generating embeddings or managing models. To learn how to\ncreate, monitor, and delete AI indexes, see\nUse AI indexes. This feature is in\nPreview.\nFeature\nYou can use the\nvalidation service in the\nBigQuery Migration Service to verify that tables migrated from your source data\nwarehouse match your target tables in BigQuery across schemas, aggregate\nmetrics, and row-level data. This feature is available in\nPreview.\nSecurity\nA path traversal vulnerability in workspace directory handling and Git\nintegration was discovered in Dataform, BigQuery Studio, and Colab Enterprise.\nFor more information, see the\nGCP-2026-084\nsecurity bulletin.\nFeature\nBigQuery generative AI functions\nnow support the…",
@@ -213,45 +249,18 @@
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-11-16T08:00:00.000Z",
         "isNew": false
-      },
-      {
-        "title": "November 15, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#November_15_2026",
-        "summary": "Agent Platform Workbench\nChange\n20261115-2230-rc0 Release\nChange\n20261115-2230-rc0 Release\nChange\nInstalled latest packages from upstream dependencies.\nChange\nInstalled latest packages from upstream dependencies.\nChange\nJupyterLab extension settings are now prepared when the image is built, so Workbench instances that use an unmodified container image with JupyterLab 4 (the default) restart faster.\nChange\nJupyterLab extension settings are now prepared when the image is built, so Workbench instances that use an unmodified container image with JupyterLab 4 (the default) restart faster.\nChange\nM157 Release\nChange\nInstalled latest packages from upstream dependencies.\nDeprecated\nRemoved the\ndeprecated open-source inverting proxy agent image\n(gcr.io/inverting-proxy/agent). Instances always run the current Agent Platform\nWorkbench proxy agent, and the new-proxy-agent-enabled metadata key no longer\nhas any effect.\nGoogle SecOps\nFeature\nPublisher Agent Version 2.7.2\nPublisher Agent Version 2.7.2 is now available.\nThis release includes the following updates and fixes for the Publisher and remote agent:\nAlert lazy loading for remote actions: Remote action tasks now support loading case data on demand from the server when alert lazy loading is enabled, reducing task payload sizes.\nIntegration dependency installation fix: Fixed an issue where installing integrations with multiple interdependent dependency files could fail before all packages finished installing.\nRemote agent deletion…",
-        "image": null,
-        "source": "Google Cloud Platform (GCP) - Release notes",
-        "published": "2026-11-15T08:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "November 14, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#November_14_2026",
-        "summary": "Access Approval\nFeature\nService Usage is generally available\n(GA).\nAccess Transparency\nFeature\nService Usage is generally available\n(GA).\nAgent Platform Workbench\nChange\n20261114-2130-rc0 Release\nChange\nInstalled latest packages from upstream dependencies.\nDeprecated\nRemoved the\ndeprecated open-source inverting proxy agent image\n(gcr.io/inverting-proxy/agent). Instances always run the current Agent Platform\nWorkbench proxy agent, and the new-proxy-agent-enabled metadata key no longer\nhas any effect.\nSecurity\nUpdated the Java CA certificate store.\nFixed\nInstances that change from a pre-Turing GPU, such as NVIDIA V100, to a Turing or newer GPU, such as NVIDIA T4, now switch back to CUDA 13 and the CUDA 13 builds of PyTorch, torchvision, and CuPy at boot. This boot takes longer and needs internet access.\nGoogle SecOps SOAR\nAnnouncement\nRelease 6.3.106 is now\navailable for all regions.",
-        "image": null,
-        "source": "Google Cloud Platform (GCP) - Release notes",
-        "published": "2026-11-14T08:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "November 13, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#November_13_2026",
-        "summary": "Access Approval\nFeature\nCloud Quotas is generally available\n(GA).\nAccess Transparency\nFeature\nCloud Quotas is generally available\n(GA).\nApigee X\nAnnouncement\nOn November 13, 2026, we released an updated version of Apigee (1-18-0-apigee-9).\nNote: Rollouts of this release began today and can take four or more business\ndays to complete across all Google Cloud zones. Your instances might not have\nthe features and fixes available until the rollout is complete.\nSecurity\nBug ID\nDescription\n\n\n\n\n579640924\nSecurity fix for Apigee. Hardened the JavaCallout, Script, and JavaScript policy sandboxes.\n\n\n579642864\nSecurity fix for Apigee. Fixed an OAuth 2.0 redirect_uri validation bypass in non-strict sub-resource matching and enforced <EnforceStrictCallbackURI> on GenerateAuthorizationCode policies.\n\n\n579642568\nSecurity fix for Apigee. Fixed a Jython sandbox escape where user-supplied <JythonURL> JARs defining org.python.core.PyReflected classes received the unrestricted pythonns: protection domain.\n\n\n582347995, 577964152\nSecurity fix for Apigee. Upgraded the ingress gateway to patch security vulnerabilities.\n\n\nN/A\nSecurity fix for Apigee infrastructure.\n\n\n\nFixed\nBug ID\nDescription\n\n\n\n\n582789138\nAdded the response.event.stream.state and response.event.stream.content.length flow variables on SSE EventFlow responses, readable in PostClientFlow so a MessageLogging step can distinguish COMPLETE, UPSTREAM_ABORT, DOWNSTREAM_ABORT, and TIMEOUT terminations and log bytes sent. Use with…",
-        "image": null,
-        "source": "Google Cloud Platform (GCP) - Release notes",
-        "published": "2026-11-13T08:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "November 12, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#November_12_2026",
-        "summary": "API Keys API\nFeature\nThe API Keys remote Model Context Protocol (MCP) server is generally available\n(GA).\nYou can use the API Keys remote MCP server in your AI applications to\ncreate, inspect, restrict, and manage the lifecycle of API keys in your\nGoogle Cloud projects.\nFor more information, see\nUse the API Keys remote MCP server and the\nAPI Keys MCP reference.\nApp Engine standard environment Go\nFeature\nSupport for Direct VPC egress in the App Engine standard environment is in General Availability (GA). For more information, see Configure Direct VPC egress and Best practices for App Engine networking.\nFeature\nYou can deploy an active version in the App Engine standard environment to Cloud Run directly from the Migration hub in the Google Cloud console. You don't need access to your source code, and you don't need to rebuild your app. The deployment doesn't affect your live App Engine traffic. For more information, see Use a previously built image (Preview).\nApp Engine standard environment Java\nFeature\nSupport for Direct VPC egress in the App Engine standard environment is in General Availability (GA). For more information, see Configure Direct VPC egress and Best practices for App Engine networking.\nFeature\nYou can deploy an active version in the App Engine standard environment to Cloud Run directly from the Migration hub in the Google Cloud console. You don't need access to your source code, and you don't need to rebuild your app. The deployment doesn't affect your live App…",
-        "image": null,
-        "source": "Google Cloud Platform (GCP) - Release notes",
-        "published": "2026-11-12T08:00:00.000Z",
-        "isNew": false
       }
     ],
     "kubernetes": [
+      {
+        "title": "Kubernetes v1.38 Sneak Peek",
+        "link": "https://kubernetes.io/blog/2026/11/23/kubernetes-v1-38-sneak-peek/",
+        "summary": "As we get closer to the release date for Kubernetes v1.38, the project develops and matures,\nfeatures may be deprecated, removed, or replaced with better ones for the project's overall health.\nThis blog post outlines some of the planned changes for the Kubernetes v1.38 release that the\nrelease team feels you should be aware of for the continued maintenance of your Kubernetes\nenvironment and keeping up to date with the latest changes. The information listed below is based\non the current status of the v1.38 release and may change before the actual release date.\nDeprecations and removals for Kubernetes v1.38\nkubectl: WebSocket opt-out environment variables removed\nkubectl has used WebSockets instead of SPDY by default for kubectl exec, attach and cp since\nv1.30, and for kubectl port-forward since v1.31. The KUBECTL_REMOTE_COMMAND_WEBSOCKETS and\nKUBECTL_PORT_FORWARD_WEBSOCKETS environment variables let you turn that behavior off. These\nvariables are going to be removed in v1.38. kubectl will then always try WebSockets first and fall\nback to SPDY when it needs to (the same as the current default behavior). If your scripts or CI\nenvironments set either of these environment variables, you can remove them since they will no\nlonger have any effect.\nTo learn more, refer to\nKEP-4006: Transition from SPDY to WebSockets.\nkubectl: name dropped from kuberc credential plugin allowlist entries\nThe kuberc file keeps kubectl user preferences separate from cluster credentials in the\nkubeconfig,…",
+        "image": null,
+        "source": "Kubernetes Blog",
+        "published": "2026-11-23T16:00:00.000Z",
+        "isNew": false
+      },
       {
         "title": "Scheduling the removal of the kube-proxy IPVS backend",
         "link": "https://kubernetes.io/blog/2026/11/16/ipvs-removal/",
@@ -313,15 +322,6 @@
         "image": null,
         "source": "Kubernetes Blog",
         "published": "2026-09-22T18:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "Kubernetes v1.37: Tracking When a PersistentVolumeClaim Was Last Used (Beta)",
-        "link": "https://kubernetes.io/blog/2026/09/21/kubernetes-v1-37-pvc-last-used-time/",
-        "summary": "Kubernetes v1.37 promotes the PersistentVolumeClaimUnusedSinceTime feature gate to Beta (enabled by\ndefault). With this feature, the PersistentVolumeClaim (PVC) protection controller adds an Unused\ncondition to each PVC, telling you whether any running pod currently references it — no custom\ntooling or cross-referencing required.\nFor the API definition of PVC conditions, see the\nPersistentVolumeClaim API reference.\nRead on to learn how the Unused condition works and how to use it.\nWhy track PVC usage?\nIn large-scale Kubernetes clusters, it is common for users to create PVCs and then delete the\nassociated pods without cleaning up the storage, because Kubernetes does not automatically delete\nPVCs when their pods are removed (to protect against accidental data loss). Over time, these\norphaned PVCs may accumulate, silently consuming storage capacity and driving up cloud costs.\nBefore Kubernetes v1.37, it was easy to identify an unused PersistentVolume, but much harder to\ndetermine whether a PVC was still being used. Doing so required cross-referencing pods,\nPersistentVolumes, and PVCs over a potentially large window of time. Administrators often resorted\nto custom monitoring pipelines or scripts to answer a seemingly simple question:\n\"Is anything actually using this volume?\"\nThe PersistentVolumeClaimUnusedSinceTime feature solves this by making the answer available\nnatively in the PVC status. Once the feature is enabled, every PVC gets an Unused condition managed\nby the PVC…",
-        "image": null,
-        "source": "Kubernetes Blog",
-        "published": "2026-09-21T18:30:00.000Z",
         "isNew": false
       }
     ],
@@ -401,6 +401,15 @@
     ],
     "python": [
       {
+        "title": "Reopening the PSF Grants Program with Twice-Yearly Funding Rounds",
+        "link": "https://pyfound.blogspot.com/2026/11/reopening-psf-grants-program-with-twice.html",
+        "summary": "The Python Software Foundation (PSF) is excited to announce that the PSF Grants Program is reopening with a restructured schedule of two funding rounds per year. After the pause in 2025, and the special funding round held in 2026, the PSF is reopening the PSF Grants Program on an ongoing but restructured basis, with the budget reviewed annually. This approach aims to balance the sustainability of the program with our commitment to support the Python community through grants. \nThe PSF is also happy to announce the upcoming funding round with a budget capped at $125,000 USD with a similar scope as the special funding round. We will be accepting applications from December 14 - January 4, for Conferences and Workshops that are scheduled between May 1, 2027, and September 30, 2027. Details on the restructured program are below. More information about the upcoming round will be published next week. \n\nMoving forward with twice-yearly funding rounds\nThe 2026 PSF Grants Program Funding Round was a success! The PSF is proud to have awarded 44 grants totaling approximately $60,000. The round also gave the Grants Work Group (GWG) and PSF staff the opportunity to explore the round-based process, in contrast to our old process of rolling applications, review, and awards. We received many questions and much feedback during the Grants Program Office Hour sessions and via email before and during the round. The most frequent question we received was “when will the next round of funding…",
+        "image": null,
+        "source": "Python Software Foundation News",
+        "published": "2026-11-24T14:48:29.530Z",
+        "isNew": false
+      },
+      {
         "title": "De-fanging dangerous triggers in GitHub Actions across an organization",
         "link": "https://pyfound.blogspot.com/2026/11/de-fanging-dangerous-triggers-in-github.html",
         "summary": "Authors: Mike Fiedler, Seth Larson\n\nOn December 2, 2026, GitHub will start blocking the pull_request_target trigger by default in public repositories. If that sentence means nothing to you, this post is for you. If it fills you with dread, it is also for you.\nThe short version: a handful of GitHub Actions triggers let a stranger on the internet start a workflow that may have access to your secrets. On a GitHub Team or Enterprise plan, you can turn them off for every repository in your organization with one policy. On a Free plan, you can do it one repository at a time. Set the policy up, check what it would block, then enforce it.\nMike Fiedler, PyPI Safety and Security Engineer, and Seth Larson, Security Developer in Residence, have removed dangerous triggers and applied these policies to the Python Software Foundation (PSF) stewarded GitHub organizations (psf, python, pypi). They also wrote up technical documentation on how to roll these policies out to your own projects and organizations. The full details and technical documentation are available on the Alpha-Omega blog.\n\nHave dangerous triggers caused real incidents?\nYes, repeatedly. A few that have affected projects hosted on PyPI directly:\n\nUltralytics, December 2024. The project's GitHub Actions workflows were compromised and the build cache was poisoned, which put malicious releases on PyPI. Seth wrote PyPI's analysis. William Woodruff's write-up traces the entry point to a pull_request_target workflow.\n\nLiteLLM and…",
@@ -461,15 +470,6 @@
         "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEikflEgF1pDPTBMUVGnVuSTV9NRsT9iEuvKDbcpWF0fwkDv96y5X2j-zZYYYlxdBYyrR-IAPgls6aVx0L9UHPWA39qvOs4qDCcAYXDvuQ4NAoSTNmqsfORzA4FZmFVAGVHZm_hEFIHctDEcmGPh3AD2y2vdtFU6rNwtT6KheEPW_GNcgem6eQ/s72-c/IMG_brett.jpg",
         "source": "Python Software Foundation News",
         "published": "2026-11-03T13:29:30.829Z",
-        "isNew": false
-      },
-      {
-        "title": "Announcing PSF Community Service Award Recipients!",
-        "link": "https://pyfound.blogspot.com/2026/10/announcing-psf-community-service-award.html",
-        "summary": "The PSF Community Service Awards (CSAs) are a formal way for the PSF Board of Directors to offer recognition of work which, in its opinion, significantly improves the Foundation's fulfillment of its mission to build a vibrant, welcoming, global Python community. These awards shine a light on the incredible people who are the heart and soul of our community– those whose dedication, creativity, and generosity help the PSF fulfill its mission. The PSF CSAs celebrate individuals who have been truly invaluable, inspiring others through their example, and demonstrates that service to the Python community leads to recognition and reward. If you know of someone in the Python community deserving of a PSF CSA award, please submit them to the PSF Board via psf@python.org at any time. You can read more about PSF CSA’s on our website. \nThe PSF Board is excited to announce 5 new CSAs, awarded to Abhijeet Mote, Elena Williams, Hugo van Kemenade, Kevin Horn, Sarah Abderemane, for their contributions to the Python community. Read more about their work and impact below. \n\nAbhijeet Mote\nAbhijeet Mote has spent more than a decade teaching Python and expanding access to technical education across Asia, Europe, and North America. In 2019, he founded the Python Penang Meetup, which he led until 2022 and which grew into one of Malaysia's most active developer communities, giving students, engineers, and enthusiasts a place to learn and share knowledge. In India, he has trained university faculty,…",
-        "image": null,
-        "source": "Python Software Foundation News",
-        "published": "2026-10-29T13:46:04.899Z",
         "isNew": false
       }
     ],
