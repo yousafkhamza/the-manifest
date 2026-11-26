@@ -1,6 +1,6 @@
 {
   "date": "2026-11-26",
-  "generatedAt": "2026-11-26T15:13:42.345Z",
+  "generatedAt": "2026-11-26T20:13:00.821Z",
   "totalArticles": 72,
   "ticker": [
     {
@@ -179,6 +179,15 @@
     ],
     "gcp": [
       {
+        "title": "November 26, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#November_26_2026",
+        "summary": "Managed Service for Apache Airflow\nFeature\nAgentic upgrade check\nis available in Managed Airflow.\nBefore upgrading your environment, you can run an upgrade check in the Google\nCloud console to ask Managed Airflow Agent what changes your DAGs require to\nwork with a selected Airflow build or image version.",
+        "image": null,
+        "source": "Google Cloud Platform (GCP) - Release notes",
+        "published": "2026-11-26T08:00:00.000Z",
+        "isNew": false
+      },
+      {
         "title": "November 25, 2026",
         "link": "https://docs.cloud.google.com/release-notes#November_25_2026",
         "summary": "BigQuery\nFeature\nYou can use cross-cloud connections to\nquery data in AWS, Azure, and Salesforce Data 360 from all BigQuery regions with\nmore feature availability than standard connections that use BigQuery Omni. This\nfeature is\ngenerally available\n(GA).\nDeprecated\nThe BigQuery Storage API v1beta1 is deprecated and will be shut down on August 31, 2027.\nKey milestone dates:\nNov 20, 2026: Access to the BigQuery Storage API v1beta1 is restricted to projects that recorded active usage between March 1, 2026, and August 31, 2026.\nAugust 31, 2027: The BigQuery Storage API v1beta1 will be fully shut down. After this date, calls to the v1beta1 endpoint will fail with a NOT_FOUND error.\nWhat you need to do:\nTo prevent service disruption, migrate your workloads from v1beta1 to the generally available BigQuery Storage API v1. The v1 API is backward-compatible with v1beta1.\nSDKs and connectors: If you use connectors or client libraries, update them to the latest versions to ensure they default to the v1 API:\n\nSimba ODBC/JDBC for BigQuery\nGoogle BigQuery ODBC / JDBC driver\nTrino BigQuery plugin\nApache Beam BigQuery connector\nSpark BigQuery connector\nScio BigQuery plugin\n\nCustom code: If your applications call the v1beta1 API directly (for example, using gRPC), update your code to target the v1 API endpoint (google.cloud.bigquery.storage.v1).\nFor more information, see the BigQuery Storage API reference.\nIf you are using v1beta1 and have concerns with this deprecation schedule, please…",
@@ -239,15 +248,6 @@
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-11-18T08:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "November 17, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#November_17_2026",
-        "summary": "Access Context Manager\nFeature\nExtended session length for Workforce Identity Federation is\ngenerally available\n(GA) for OAuth apps owned by Google Cloud projects. You can configure sessions\nthat last up to 90 days by using project scopes. For more information, see\nConfigure extended session length for Workforce Identity Federation.\nApigee X\nAnnouncement\nOn November 17, 2026, we released an updated version of Apigee (1-18-0-apigee-10).\nThis release is a security update that addresses the vulnerability described in\nsecurity bulletin GCP-2026-082.\nNote: Rollouts of this release began today. Because this is a security update,\ninstances running an affected version are patched on an expedited schedule,\nincluding instances with maintenance windows configured. See the security\nbulletin for rollout details and for how to check your instance version.\nSecurity\nBug ID\nDescription\n\n\n\n\n586658318\nSecurity fix for Apigee. Mitigates CVE-2026-114938 in the Apigee runtime, including customer-supplied Java code run by the JavaCallout policy. Customers don't need to change their callouts.\n\n\n\nSecurity bulletin published: GCP-2026-082\nApp Engine standard environment Go\nFeature\nSupport for migrating your App Engine push queues to Cloud Tasks by updating the\nbundled services SDK is in\nGeneral Availability (GA).\nThis method lets you upgrade your app without needing to modify your application\ncode. For more information on how to migrate, see the\npush queues migration guide.\nApp Engine standard…",
-        "image": null,
-        "source": "Google Cloud Platform (GCP) - Release notes",
-        "published": "2026-11-17T08:00:00.000Z",
         "isNew": false
       }
     ],
