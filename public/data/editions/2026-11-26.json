@@ -1,6 +1,6 @@
 {
   "date": "2026-11-26",
-  "generatedAt": "2026-11-26T00:59:24.166Z",
+  "generatedAt": "2026-11-26T15:13:42.345Z",
   "totalArticles": 72,
   "ticker": [
     {
@@ -179,6 +179,15 @@
     ],
     "gcp": [
       {
+        "title": "November 25, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#November_25_2026",
+        "summary": "BigQuery\nFeature\nYou can use cross-cloud connections to\nquery data in AWS, Azure, and Salesforce Data 360 from all BigQuery regions with\nmore feature availability than standard connections that use BigQuery Omni. This\nfeature is\ngenerally available\n(GA).\nDeprecated\nThe BigQuery Storage API v1beta1 is deprecated and will be shut down on August 31, 2027.\nKey milestone dates:\nNov 20, 2026: Access to the BigQuery Storage API v1beta1 is restricted to projects that recorded active usage between March 1, 2026, and August 31, 2026.\nAugust 31, 2027: The BigQuery Storage API v1beta1 will be fully shut down. After this date, calls to the v1beta1 endpoint will fail with a NOT_FOUND error.\nWhat you need to do:\nTo prevent service disruption, migrate your workloads from v1beta1 to the generally available BigQuery Storage API v1. The v1 API is backward-compatible with v1beta1.\nSDKs and connectors: If you use connectors or client libraries, update them to the latest versions to ensure they default to the v1 API:\n\nSimba ODBC/JDBC for BigQuery\nGoogle BigQuery ODBC / JDBC driver\nTrino BigQuery plugin\nApache Beam BigQuery connector\nSpark BigQuery connector\nScio BigQuery plugin\n\nCustom code: If your applications call the v1beta1 API directly (for example, using gRPC), update your code to target the v1 API endpoint (google.cloud.bigquery.storage.v1).\nFor more information, see the BigQuery Storage API reference.\nIf you are using v1beta1 and have concerns with this deprecation schedule, please…",
+        "image": null,
+        "source": "Google Cloud Platform (GCP) - Release notes",
+        "published": "2026-11-25T08:00:00.000Z",
+        "isNew": false
+      },
+      {
         "title": "November 24, 2026",
         "link": "https://docs.cloud.google.com/release-notes#November_24_2026",
         "summary": "Apigee hybrid\nAnnouncement\nv1.15.11\nOn November 24, 2026, we released an updated version of the Apigee hybrid\nsoftware, v1.15.11.\nFor information about upgrading, see\nUpgrading Apigee hybrid to v1.15.11.\nFor information about new installations, see\nThe big picture.\nNote: Before upgrading to v1.15.11, you must upgrade to v1.15.10 first. As part\nof the phased migration from ApigeeRedis to ApigeeValkey, v1.15.11 changes\nthe default value of\nao.args.valkeyBackend\nto true. During the apigee-operator upgrade, v1.15.11 verifies that\nApigeeRedis was upgraded through v1.15.10. For more information, see\nUpgrading Apigee hybrid.Note: This is a patch release. The container images used in patch releases are\nintegrated with the Apigee hybrid Helm charts. Upgrading to a patch by using\nthe Helm chart automatically updates the images. You don't typically need to\nmake manual image changes. For information about container image support in\nApigee hybrid releases, see\nApigee release process.\nFixed\nFixed in this release\nBug ID\nDescription\n\n\n\n\n583672651\nFixed a connection count leak in the apigee-runtime HTTP server on management ports (for example, 8843) that could inflate the Horizontal Pod Autoscaler (HPA) AverageValue metric and pin runtime replicas at maxReplicas.\n\n\n582790971\nFixed an issue where debug sessions could show unmasked payloads, query parameters, headers, or flow variables when another session or a masking error intervened.\n\n\n582790249\nFixed an issue where debug traces dropped the…",
@@ -217,7 +226,7 @@
       {
         "title": "November 19, 2026",
         "link": "https://docs.cloud.google.com/release-notes#November_19_2026",
-        "summary": "Agent Registry\nFeature\nAgent Registry supports Model Context Protocol (MCP) tool protocol-level\nmetadata, including Identity-Aware Proxy (IAP) policy hints for tool enablement\nand human-in-the-loop (HITL) controls, as well as provider metadata attributes\n(Preview).\nFor more information, see\nMCP server specifications and\nResource attributes.\nBigQuery\nFeature\nYou can now enable agent observability with the Data Engineering Agent\nto monitor the agent's token consumption, request volume, and model latency in\nCloud Monitoring and inspect execution traces and tool calls in Cloud Trace.\nThis feature is\ngenerally available\n(GA).\nFeature\nYou can now create AI indexes using the\nCREATE AI INDEX statement\nto perform natural language searches across table columns with the\nAI.SEARCH function\nwithout manually generating embeddings or managing models. To learn how to\ncreate, monitor, and delete AI indexes, see\nUse AI indexes. This feature is in\nPreview.\nFeature\nYou can use the\nvalidation service in the\nBigQuery Migration Service to verify that tables migrated from your source data\nwarehouse match your target tables in BigQuery across schemas, aggregate\nmetrics, and row-level data. This feature is available in\nPreview.\nSecurity\nA path traversal vulnerability in workspace directory handling and Git\nintegration was discovered in Dataform, BigQuery Studio, and Colab Enterprise.\nFor more information, see the\nGCP-2026-084\nsecurity bulletin.\nFeature\nBigQuery generative AI functions\nnow support the…",
+        "summary": "Agent Registry\nFeature\nAgent Registry supports Model Context Protocol (MCP) tool protocol-level\nmetadata, including Identity-Aware Proxy (IAP) policy hints for tool enablement\nand human-in-the-loop (HITL) controls, as well as provider metadata attributes\n(Preview).\nFor more information, see\nMCP server specifications and\nResource attributes.\nBigQuery\nFeature\nYou can now enable agent observability with the Data Engineering Agent\nto monitor the agent's token consumption, request volume, and model latency in\nCloud Monitoring and inspect execution traces and tool calls in Cloud Trace.\nThis feature is\ngenerally available\n(GA).\nFeature\nYou can now create AI indexes using the\nCREATE AI INDEX statement\nto perform natural language searches across table columns with the\nAI.SEARCH function\nwithout manually generating embeddings or managing models. To learn how to\ncreate, monitor, and delete AI indexes, see\nUse AI indexes. This feature is in\nPreview.\nFeature\nYou can use the\nvalidation service in the\nBigQuery Migration Service to verify that tables migrated from your source data\nwarehouse match your target tables in BigQuery across schemas, aggregate\nmetrics, and row-level data. This feature is available in\nPreview.\nSecurity\nA path traversal vulnerability in workspace directory handling and Git\nintegration was discovered in Dataform, BigQuery Studio, and Colab Enterprise.\nFor more information, see the\nGCP-2026-084\nsecurity bulletin.\nCloud Asset Inventory\nFeature\nThe following resource…",
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-11-19T08:00:00.000Z",
@@ -239,15 +248,6 @@
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-11-17T08:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "November 16, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#November_16_2026",
-        "summary": "Agent Platform Workbench\nChange\n20261115.00_p0 Release\nChange\nInstalled latest packages from upstream dependencies.\nChange\nJupyterLab extension settings are now prepared when the image is built, so Workbench instances that use an unmodified container image with JupyterLab 4 (the default) restart faster.\nChange\n20261115.00_p0 Release\nChange\nInstalled latest packages from upstream dependencies.\nChange\nJupyterLab extension settings are now prepared when the image is built, so Workbench instances that use an unmodified container image with JupyterLab 4 (the default) restart faster.\nApigee X\nAnnouncement\nApigee Emulator\nApigee Emulator v2.0.3\nOn November 16, 2026, we released Apigee Emulator version 2.0.3.\nThis release refreshes the Apigee Emulator runtime and embedded Apache Cassandra\nbase image from the latest Apigee runtime baseline, upgrades Google Guava to\n33.7.2-jre, hardens policy execution sandboxes, and addresses 22 container\nsecurity vulnerabilities across Jackson and the embedded Cassandra Go standard\nlibrary health-check binary.\nThe emulator image is available at\nArtifact Registry.\nTo upgrade, update the emulator version in your Cloud Code for VS Code settings\nto 2.0.3. See\nManage the Apigee Emulator\nfor details.\nFeature\nApigee Emulator\nChanged in this release\nRefreshed the embedded Apache Cassandra (4.0.19) base image to pick up Go\nstandard library 1.27.3 (from 1.27.0) in the /opt/apigee/ready\nhealth-check binary and Jackson (jackson-core and jackson-databind)\n2.21.7…",
-        "image": null,
-        "source": "Google Cloud Platform (GCP) - Release notes",
-        "published": "2026-11-16T08:00:00.000Z",
         "isNew": false
       }
     ],
@@ -623,6 +623,15 @@
     ],
     "javascript": [
       {
+        "title": "Node.js 27.0.0-alpha.0.2.0 (Alpha)",
+        "link": "https://nodejs.org/en/blog/release/v27.0.0-alpha.0.2.0",
+        "summary": "",
+        "image": null,
+        "source": "Node.js Blog",
+        "published": "2026-11-26T10:30:16.000Z",
+        "isNew": false
+      },
+      {
         "title": "Node.js 27.0.0-alpha.0.1.1 (Alpha)",
         "link": "https://nodejs.org/en/blog/release/v27.0.0-alpha.0.1.1",
         "summary": "",
@@ -683,15 +692,6 @@
         "image": null,
         "source": "Node.js Blog",
         "published": "2026-11-05T12:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "Node.js 27.0.0-alpha.0.0.0 (Alpha)",
-        "link": "https://nodejs.org/en/blog/release/v27.0.0-alpha.0.0.0",
-        "summary": "",
-        "image": null,
-        "source": "Node.js Blog",
-        "published": "2026-10-29T19:52:29.000Z",
         "isNew": false
       }
     ]
