@@ -1,6 +1,6 @@
 {
   "date": "2026-11-27",
-  "generatedAt": "2026-11-27T01:00:19.970Z",
+  "generatedAt": "2026-11-27T15:03:35.377Z",
   "totalArticles": 72,
   "ticker": [
     {
@@ -179,6 +179,15 @@
     ],
     "gcp": [
       {
+        "title": "November 27, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#November_27_2026",
+        "summary": "Managed Service for Apache Spark\nFeature\nPrivate Preview: Managed Service for Apache Spark on GKE v2\nRun fully managed Apache Spark workloads natively on your Standard GKE clusters with the next-generation Managed Service for Apache Spark on GKE.\nTo enroll in the preview and get projects allowlisted, reach out to dataproc-previews@google.com.",
+        "image": null,
+        "source": "Google Cloud Platform (GCP) - Release notes",
+        "published": "2026-11-27T08:00:00.000Z",
+        "isNew": false
+      },
+      {
         "title": "November 26, 2026",
         "link": "https://docs.cloud.google.com/release-notes#November_26_2026",
         "summary": "Managed Service for Apache Airflow\nFeature\nAgentic upgrade check\nis available in Managed Airflow.\nBefore upgrading your environment, you can run an upgrade check in the Google\nCloud console to ask Managed Airflow Agent what changes your DAGs require to\nwork with a selected Airflow build or image version.",
@@ -239,15 +248,6 @@
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-11-19T08:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "November 18, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#November_18_2026",
-        "summary": "API Gateway\nFeature\nModel routers can route to Google API endpoints on different hosts\nA model router can now reference Google API backends on different hosts, for\nexample the global aiplatform.googleapis.com endpoint and a\nregional endpoint such as us-central1-aiplatform.googleapis.com,\nand in different projects. Previously, every backend referenced by a router had\nto share one hostname.\nEvery backend referenced by a router must use https. Creating an\nAPI config with a router that uses http for any of its backends now\nfails; existing deployed gateways aren't affected.\nFor more information, see Configure model routing.\nApigee Edge for Private Cloud\nAnnouncement\nReleased Apigee Edge for Private Cloud 4.53.01.03.\nFor the list of updated RPM packages and the patch update procedure, see\n4.53.01.03 - Edge for Private Cloud release notes.\nSecurity\nFixed multiple security vulnerabilities in Apigee Edge for Private Cloud,\nincluding security hardening across Edge runtime, management, New Edge UI,\nand Apigee mTLS components.\nChanged the bcfks-cacerts file shipped with edge-gateway to an empty BCFKS\nstore, and Apigee mTLS now rejects SHA-1-signed custom certificates. Before you\nupdate, move to your own BCFKS keystore and truststore at a different path on\nFIPS-enabled systems that use the default store, and re-sign custom mTLS\ncertificates with SHA-256. See the\nupdate procedure.\nFixed\nResolved the following issues in Apigee Edge for Private Cloud 4.53.01.03:\nFixed an issue where API…",
-        "image": null,
-        "source": "Google Cloud Platform (GCP) - Release notes",
-        "published": "2026-11-18T08:00:00.000Z",
         "isNew": false
       }
     ],
