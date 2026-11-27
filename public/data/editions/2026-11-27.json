@@ -1,6 +1,6 @@
 {
   "date": "2026-11-27",
-  "generatedAt": "2026-11-27T15:03:35.377Z",
+  "generatedAt": "2026-11-27T19:59:32.047Z",
   "totalArticles": 72,
   "ticker": [
     {
@@ -21,7 +21,7 @@
     },
     {
       "label": "Rust",
-      "version": "1.100.0"
+      "version": "1.100.1"
     },
     {
       "label": "Node.js",
@@ -549,6 +549,15 @@
     ],
     "rust": [
       {
+        "title": "Announcing Rust 1.100.1",
+        "link": "https://blog.rust-lang.org/2026/11/27/Rust-1.100.1/",
+        "summary": "The Rust team has published a new point release of Rust, 1.100.1. Rust is a programming language that is empowering everyone to build reliable and efficient software.\nIf you have a previous version of Rust installed via rustup, getting Rust 1.100.1 is as easy as:\n$ rustup update stable\nIf you don't have it already, you can get rustup from the appropriate page on our website.\nIf you'd like to help us out by testing future releases, you might consider updating locally to use the beta channel (rustup default beta) or the nightly channel (rustup default nightly). Please report any bugs you might come across!\n\nWhat's in 1.100.1\nRust 1.100.1 fixes a regression where some types were not inferred as having Iterator impls.\nWe reverted a change to the unstable const version of Iterator in Rust 1.100.0,\nwhich cannot actually be used by stable code, but accidentally prevented some types\nwith valid Iterator impls from being seen as actually implementing Iterator.\n\nContributors to 1.100.1\nMany people came together to create Rust 1.100.1. We couldn't have done it without all of you. Thanks!",
+        "image": null,
+        "source": "Rust Blog",
+        "published": "2026-11-27T00:00:00.000Z",
+        "isNew": false
+      },
+      {
         "title": "Enabling the parallel frontend on nightly",
         "link": "https://blog.rust-lang.org/2026/11/16/enabling-parallel-frontend-on-nightly/",
         "summary": "TL;DR: We are enabling the parallel frontend of the Rust compiler on nightly by default,\nto find remaining issues in preparation for its stabilization.\n\nContext\nThe Rust compiler has been using multiple threads to compile code in its \"backend\" part (using LLVM) for a long time. However, its \"frontend\" part (which includes type checking and borrow checking) has been executing sequentially, on a single thread, which of course limits the performance of the compiler. If you are interested in a more in-depth explanation of parallelism in the Rust compiler, see this previous post.\nThe compiler frontend actually had support for running in parallel for a long time, but it was not enabled by default due to various issues. Three years ago, we made it possible to opt into the parallel frontend on the nightly channel, with the plan to stabilize it in 2024. Clearly, we did not achieve that goal, but work on the parallel frontend was still slowly progressing in the meantime.\nLast year, Vadim Petrochenkov, together with several other contributors, started a coordinated effort to finally get the parallel frontend over the finish line. Since then, many long-standing issues were fixed, and its performance was improved. Now we are at a point where we would like to make it widely available. But before that, we want to find out if people encounter issues with it in the wild, which is why we are enabling it by default only on the nightly channel. Once we will be confident enough that it is…",
@@ -609,15 +618,6 @@
         "image": null,
         "source": "Rust Blog",
         "published": "2026-10-15T00:00:00.000Z",
-        "isNew": false
-      },
-      {
-        "title": "Demoting i686 Windows targets to std-only",
-        "link": "https://blog.rust-lang.org/2026/10/02/demoting-i686-windows-targets-to-std-only/",
-        "summary": "With Rust 1.100.0, the following changes to 32-bit Windows targets will happen:\ni686-pc-windows-msvc Tier 1 with host tools target will be demoted to Tier 1 without host tools.\ni686-pc-windows-gnu Tier 2 with host tools target will be demoted to Tier 2 without host tools.\nBuilds of the standard library will continue to be distributed, but host tools such as the compiler will be no longer available. i686-pc-windows-msvc as a Tier 1 target still undergoes CI testing.\nTo build 32-bit Windows binaries, cross-compiling from a still-supported host toolchain (such as a 64-bit Windows ones) will be required from now on.\n\nBackground\nDesktop and Server 32-bit only x86 CPUs are no longer sold for over 15 years, and general 32-bit Windows support has ended in October 2025. This means that the development platforms these targets are meant for hardly exist these days, and even if they do exist they typically aren't capable enough for development.\nEven on the modern x86_64 hardware, building i686 Windows toolchains has proven to be problematic. We have encountered compiler binaries crashing when built with the i686 MSVC target, and the GNU C++ toolchain failing with OOMs during LLVM build.\nConsidering all these things, cross-compiling these targets from a better supported one is what we have found to be the best solution forward. As part of that, we stopped producing host tools for these targets. For the time being, the prebuilt standard library is still available, and in case of…",
-        "image": null,
-        "source": "Rust Blog",
-        "published": "2026-10-02T00:00:00.000Z",
         "isNew": false
       }
     ],
