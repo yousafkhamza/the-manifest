@@ -1,6 +1,6 @@
 {
-  "date": "2026-11-27",
-  "generatedAt": "2026-11-27T19:59:32.047Z",
+  "date": "2026-11-28",
+  "generatedAt": "2026-11-28T00:32:15.997Z",
   "totalArticles": 72,
   "ticker": [
     {
@@ -190,7 +190,7 @@
       {
         "title": "November 26, 2026",
         "link": "https://docs.cloud.google.com/release-notes#November_26_2026",
-        "summary": "Managed Service for Apache Airflow\nFeature\nAgentic upgrade check\nis available in Managed Airflow.\nBefore upgrading your environment, you can run an upgrade check in the Google\nCloud console to ask Managed Airflow Agent what changes your DAGs require to\nwork with a selected Airflow build or image version.",
+        "summary": "Managed Service for Apache Airflow\nFeature\nAgentic upgrade check\nis available in Managed Airflow.\nBefore upgrading your environment, you can run an upgrade check in the Google\nCloud console to ask Managed Airflow Agent what changes your DAGs require to\nwork with a selected Airflow build or image version.\nIssue\nAirflow tasks that use Apache Beam Java operators (BeamRunJavaPipelineOperator\nand DataflowCreateJavaJobOperator) can stop responding or deadlock when the\nJAVA_TOOL_OPTIONS environment variable is set on Airflow workers as part of\nthe CVE-2026-114938\nmitigation.\nStarting November 25, 2026, Managed Airflow no longer automatically sets\nJAVA_TOOL_OPTIONS in builds that already include a patched OpenJDK 21 version:\nManaged Airflow (Gen 3): composer-3-airflow-3.3.1-build.10,\ncomposer-3-airflow-3.2.2-build.14, composer-3-airflow-2.11.1-build.27,\nand later builds.\nManaged Airflow (Gen 2): composer-2.18.2-airflow-2.11.1 and later versions.\nTo resolve this issue, upgrade your environment to one of these patched versions\nand remove any manual JAVA_TOOL_OPTIONS environment variable, or install the\nbeam_pipe_deadlock_fix.py\nworkaround plugin from GitHub in the plugins/ folder of your environment's\nbucket. For affected versions and step-by-step instructions, see the known issue\nfor\nManaged Airflow (Gen 3)\nor\nManaged Airflow (Gen 2).",
         "image": null,
         "source": "Google Cloud Platform (GCP) - Release notes",
         "published": "2026-11-26T08:00:00.000Z",
